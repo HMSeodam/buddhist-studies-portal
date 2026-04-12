@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1A3A5C">
+<title>불교학논문 통합검색</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Noto+Sans+KR:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
+<style>
+:root {
+  --navy:#1A3A5C; --navy-lt:#2E5A8A;
+  --gold:#B8860B; --gold-lt:#D4A017;
+  --text:#1C1C2E; --text-s:#4A5568; --muted:#8896A5;
+  --bg:#FFFFFF; --bg-s:#F7F9FC; --bg-m:#EEF2F7;
+  --border:#DDE3EB; --accent:#E8F0F8;
+  --sh-s:0 1px 4px rgba(26,58,92,.08);
+  --sh-m:0 4px 20px rgba(26,58,92,.12);
+  --sh-l:0 12px 48px rgba(26,58,92,.18);
+  --r-s:6px; --r-m:12px; --r-l:20px;
+  --serif:'Noto Serif KR',serif;
+  --sans:'Noto Sans KR',sans-serif;
+  --display:'Playfair Display',serif;
+  --tr:.2s cubic-bezier(.4,0,.2,1);
+  --bot-nav:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;padding-bottom:var(--bot-nav);line-height:1.6}
+::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+
+/* HEADER */
+.hdr{background:var(--navy);position:sticky;top:0;z-index:100;box-shadow:0 2px 16px rgba(26,58,92,.25)}
+.hdr-in{max-width:1100px;margin:0 auto;padding:0 1.25rem;height:56px;display:flex;align-items:center;justify-content:space-between}
+.logo{text-decoration:none;display:flex;flex-direction:column;gap:1px}
+.logo-m{font-family:var(--serif);font-size:1.1rem;font-weight:700;color:#fff;letter-spacing:.05em;line-height:1}
+.logo-s{font-size:.58rem;color:rgba(255,255,255,.4);letter-spacing:.2em;font-weight:300}
+.hdr-cnt{font-size:.7rem;color:rgba(255,255,255,.5);background:rgba(255,255,255,.08);padding:.3rem .7rem;border-radius:20px;border:1px solid rgba(255,255,255,.1)}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-lt) 100%);padding:2.5rem 1.25rem 2rem;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 40%,rgba(184,134,11,.15) 0%,transparent 60%);pointer-events:none}
+.hero-ey{font-family:var(--display);font-style:italic;font-size:.78rem;color:var(--gold-lt);letter-spacing:.15em;margin-bottom:.5rem}
+.hero-ti{font-family:var(--serif);font-size:clamp(1.25rem,4vw,1.7rem);font-weight:700;color:#fff;letter-spacing:.04em;margin-bottom:.4rem;line-height:1.3}
+.hero-su{font-size:.73rem;color:rgba(255,255,255,.55);margin-bottom:1.75rem;letter-spacing:.08em}
+.srch-wr{max-width:600px;margin:0 auto 1rem;position:relative}
+.srch-in{width:100%;padding:.88rem 3.4rem .88rem 1.2rem;font-family:var(--sans);font-size:.98rem;border:2px solid rgba(255,255,255,.15);border-radius:50px;background:rgba(255,255,255,.97);color:var(--text);outline:none;transition:var(--tr);box-shadow:0 4px 24px rgba(0,0,0,.15);-webkit-appearance:none}
+.srch-in:focus{border-color:var(--gold-lt);box-shadow:0 4px 24px rgba(0,0,0,.2),0 0 0 3px rgba(212,160,23,.2)}
+.srch-in::placeholder{color:var(--muted)}
+.srch-btn{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;background:var(--navy);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:var(--tr);color:#fff}
+.srch-btn:hover{background:var(--gold)}
+.hints{display:flex;gap:.45rem;justify-content:center;flex-wrap:wrap}
+.hint{font-size:.7rem;padding:.28rem .75rem;border-radius:20px;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.68);background:rgba(255,255,255,.08);cursor:pointer;transition:var(--tr)}
+.hint:hover{background:rgba(255,255,255,.18);color:#fff}
+
+/* FILTER BAR */
+.fbar{background:var(--bg);border-bottom:1px solid var(--border);position:sticky;top:56px;z-index:90;box-shadow:var(--sh-s)}
+.fbar-in{max-width:1100px;margin:0 auto;padding:.6rem 1.25rem;display:flex;gap:.45rem;align-items:center;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.fbar-in::-webkit-scrollbar{display:none}
+.flbl{font-size:.66rem;color:var(--muted);letter-spacing:.1em;white-space:nowrap;font-weight:600}
+.fsel{font-family:var(--sans);font-size:.76rem;padding:.38rem 1.7rem .38rem .7rem;border:1.5px solid var(--border);border-radius:20px;background:var(--bg-s);color:var(--text);cursor:pointer;outline:none;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238896A5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .55rem center;white-space:nowrap;min-height:34px;transition:var(--tr)}
+.fsel:focus{border-color:var(--navy)}
+.rcnt{margin-left:auto;font-size:.68rem;color:var(--muted);white-space:nowrap;font-weight:500}
+.rcnt strong{color:var(--navy)}
+
+/* MAIN LAYOUT */
+.main{max-width:1100px;margin:0 auto;padding:1.5rem 1.25rem;display:grid;grid-template-columns:215px 1fr;gap:1.5rem;align-items:start}
+
+/* SIDEBAR */
+.sbar{position:sticky;top:108px;max-height:calc(100vh - 128px);overflow-y:auto;scrollbar-width:thin}
+.sbar-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:.7rem;padding-bottom:.45rem;border-bottom:1.5px solid var(--border)}
+.sbar-ti{font-size:.63rem;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;font-weight:600}
+.sbar-sort{font-size:.6rem;color:var(--muted);background:none;border:1px solid var(--border);border-radius:10px;padding:.15rem .4rem;cursor:pointer;font-family:var(--sans);transition:var(--tr)}
+.sbar-sort:hover{border-color:var(--navy);color:var(--navy)}
+.cat-hdr{font-size:.58rem;letter-spacing:.12em;color:#fff;background:var(--navy);padding:.18rem .5rem;border-radius:4px;margin:.7rem 0 .25rem;display:inline-block;font-weight:600}
+.jlist{list-style:none}
+.jitem{border-bottom:1px solid rgba(221,227,235,.5)}
+.jbtn{width:100%;text-align:left;background:none;border:none;padding:.52rem .45rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;border-radius:var(--r-s);transition:var(--tr);gap:.35rem}
+.jbtn:hover{background:var(--bg-m)}
+.jbtn.active{background:var(--navy)}
+.jbtn-nm{font-family:var(--serif);font-size:.8rem;color:var(--text);font-weight:400;line-height:1.3}
+.jbtn-pub{font-size:.58rem;color:var(--muted);line-height:1.2}
+.jbtn.active .jbtn-nm{color:#fff}
+.jbtn.active .jbtn-pub{color:rgba(255,255,255,.6)}
+
+/* RESULTS */
+.res{min-height:60vh}
+.st-msg{text-align:center;padding:4rem 2rem;color:var(--muted)}
+.st-ic{display:block;margin-bottom:1rem;opacity:.25;color:var(--muted)}
+.st-msg p{font-size:.86rem;line-height:2;color:var(--text-s)}
+
+/* PAPER CARD */
+.card{background:var(--bg);border:1.5px solid var(--border);border-radius:var(--r-m);padding:1.2rem 1.35rem;margin-bottom:.75rem;cursor:pointer;transition:var(--tr);animation:fu .25s ease both;position:relative}
+.card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:transparent;border-radius:var(--r-m) 0 0 var(--r-m);transition:var(--tr)}
+.card:hover{border-color:var(--navy-lt);box-shadow:var(--sh-m);transform:translateY(-2px)}
+.card:hover::before{background:var(--navy)}
+@keyframes fu{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.pmeta{display:flex;align-items:center;gap:.38rem;margin-bottom:.5rem;flex-wrap:wrap}
+.bdg{font-size:.6rem;padding:.16rem .5rem;border-radius:20px;font-weight:600;letter-spacing:.02em}
+.bdg-j{background:var(--accent);color:var(--navy);border:1px solid rgba(26,58,92,.15)}
+.bdg-y{background:rgba(184,134,11,.08);color:var(--gold);border:1px solid rgba(184,134,11,.2)}
+.bdg-i{background:var(--bg-m);color:var(--text-s);border:1px solid var(--border)}
+.ptit{font-family:var(--serif);font-size:.97rem;font-weight:700;line-height:1.55;color:var(--text);margin-bottom:.38rem}
+.ptit mark{background:rgba(212,160,23,.2);color:var(--gold);padding:0 1px;border-radius:2px}
+.pau{font-size:.76rem;color:var(--text-s);margin-bottom:.45rem}
+.aname{color:var(--navy-lt);font-weight:500;cursor:pointer;text-decoration:underline;text-decoration-color:transparent;transition:var(--tr)}
+.aname:hover{text-decoration-color:var(--navy-lt)}
+.pabs{font-size:.76rem;color:var(--text-s);line-height:1.75;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:.65rem}
+.pkws{display:flex;gap:.3rem;flex-wrap:wrap}
+.kw{font-size:.63rem;padding:.16rem .5rem;background:var(--bg-s);border:1px solid var(--border);border-radius:4px;color:var(--text-s)}
+.kw.ai{background:rgba(184,134,11,.06);border-color:rgba(184,134,11,.2);color:var(--gold)}
+
+/* PAGINATION */
+.pag{display:flex;justify-content:center;gap:.3rem;padding:1.75rem 0;flex-wrap:wrap}
+.pgbtn{font-family:var(--sans);font-size:.76rem;min-width:34px;height:34px;padding:0 .45rem;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--border);background:var(--bg);border-radius:var(--r-s);cursor:pointer;transition:var(--tr);color:var(--text-s);font-weight:500}
+.pgbtn:hover{border-color:var(--navy);color:var(--navy)}
+.pgbtn.active{background:var(--navy);border-color:var(--navy);color:#fff}
+
+/* MODAL */
+.mov{position:fixed;inset:0;background:rgba(26,58,92,.5);z-index:300;display:flex;align-items:flex-end;justify-content:center;opacity:0;pointer-events:none;transition:opacity .25s;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+.mov.open{opacity:1;pointer-events:all}
+.mod{background:var(--bg);width:100%;max-width:680px;max-height:90vh;overflow-y:auto;border-radius:var(--r-l) var(--r-l) 0 0;box-shadow:var(--sh-l);transform:translateY(32px);transition:transform .3s cubic-bezier(.34,1.56,.64,1);-webkit-overflow-scrolling:touch}
+.mov.open .mod{transform:translateY(0)}
+.mod-hdl{width:40px;height:4px;background:var(--border);border-radius:2px;margin:.7rem auto 0}
+.mod-hdr{padding:.7rem 1.4rem .9rem;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg);z-index:1}
+.mod-cls{position:absolute;top:.7rem;right:1rem;background:var(--bg-m);border:none;width:30px;height:30px;border-radius:50%;cursor:pointer;color:var(--text-s);font-size:.85rem;display:flex;align-items:center;justify-content:center;transition:var(--tr)}
+.mod-cls:hover{background:var(--border)}
+.mod-ti{font-family:var(--serif);font-size:1rem;font-weight:700;line-height:1.5;margin-bottom:.3rem;padding-right:2.5rem;color:var(--text)}
+.mod-ten{font-size:.73rem;color:var(--muted);font-style:italic;margin-bottom:.55rem;padding-right:2.5rem}
+.mod-bdy{padding:1.1rem 1.4rem 2rem}
+.dgrd{display:grid;grid-template-columns:76px 1fr;gap:.35rem .7rem;margin-bottom:.35rem}
+.dlbl{font-size:.66rem;color:var(--muted);letter-spacing:.05em;padding-top:2px;font-weight:600}
+.dval{font-size:.8rem;color:var(--text-s);line-height:1.6}
+.msec{font-size:.63rem;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;margin:1.2rem 0 .55rem;padding-bottom:.38rem;border-bottom:1px solid var(--border);font-weight:600}
+.mabs{font-size:.8rem;line-height:1.9;color:var(--text-s)}
+.mlks{display:flex;gap:.5rem;margin-top:1.4rem;flex-wrap:wrap}
+.mlk{display:inline-flex;align-items:center;gap:.35rem;padding:.55rem 1rem;font-family:var(--sans);font-size:.75rem;text-decoration:none;border-radius:50px;transition:var(--tr);font-weight:600;min-height:40px}
+.mlk.pri{background:var(--navy);color:#fff}
+.mlk.pri:hover{background:var(--navy-lt)}
+.mlk.sec{background:var(--bg-s);color:var(--navy);border:1.5px solid var(--border)}
+.mlk.sec:hover{border-color:var(--navy);background:var(--accent)}
+.mlk.home{background:var(--bg-s);color:var(--text-s);border:1.5px solid var(--border)}
+.mlk.home:hover{border-color:var(--muted);background:var(--bg-m)}
+/* 학술지 홈페이지 안내 */
+.journal-note{font-size:.68rem;color:var(--muted);margin-top:.6rem;padding:.5rem .75rem;background:var(--bg-s);border-radius:var(--r-s);border-left:3px solid var(--gold);line-height:1.7}
+
+/* BOTTOM NAV */
+.bnav{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-top:1px solid var(--border);z-index:200;height:var(--bot-nav);padding:0 1rem;padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -4px 20px rgba(26,58,92,.08)}
+.bnav-in{display:flex;justify-content:space-around;align-items:center;height:100%}
+.bnav-btn{display:flex;flex-direction:column;align-items:center;gap:3px;background:none;border:none;cursor:pointer;padding:.5rem 1.2rem;border-radius:var(--r-s);transition:var(--tr);color:var(--muted);min-height:44px;justify-content:center}
+.bnav-btn.on{color:var(--navy)}
+.bnav-ic{font-size:1.15rem;line-height:1}
+.bnav-lb{font-size:.58rem;font-weight:600;letter-spacing:.04em}
+
+/* DRAWER */
+.drov{display:none;position:fixed;inset:0;background:rgba(26,58,92,.4);z-index:250;opacity:0;transition:opacity .25s;backdrop-filter:blur(2px)}
+.drov.open{opacity:1}
+.drw{position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-radius:var(--r-l) var(--r-l) 0 0;z-index:260;max-height:75vh;overflow-y:auto;transform:translateY(100%);transition:transform .3s cubic-bezier(.34,1.2,.64,1);padding-bottom:env(safe-area-inset-bottom)}
+.drw.open{transform:translateY(0)}
+.drw-hdl{width:40px;height:4px;background:var(--border);border-radius:2px;margin:.7rem auto 0}
+.drw-hdr{padding:.7rem 1.25rem .45rem;border-bottom:1px solid var(--border);font-family:var(--serif);font-size:.95rem;font-weight:700;color:var(--text)}
+.drw-cnt{padding:.45rem 1.25rem 1.5rem}
+
+/* UPDATE BANNER */
+.ubanner{background:var(--accent);border-bottom:1px solid rgba(26,58,92,.1);padding:.38rem 1.25rem;text-align:center;font-size:.68rem;color:var(--navy);font-weight:500;display:flex;align-items:center;justify-content:center;gap:.4rem}
+
+/* FOOTER */
+.ftr{background:var(--navy);color:rgba(255,255,255,.4);text-align:center;padding:2rem 1.25rem;font-size:.7rem;line-height:2.2;margin-top:2rem}
+.ftr a{color:var(--gold-lt);text-decoration:none}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  body{padding-bottom:calc(var(--bot-nav) + env(safe-area-inset-bottom))}
+  .bnav{display:flex}
+  .drov{display:block}
+  .hdr-cnt{display:none}
+  .hero{padding:1.75rem 1rem 1.5rem}
+  .hero-ti{font-size:1.18rem}
+  .hero-su{font-size:.68rem;margin-bottom:1.2rem}
+  .srch-in{font-size:.93rem;padding:.82rem 2.9rem .82rem 1.05rem}
+  .fbar-in{padding:.48rem 1rem}
+  .main{grid-template-columns:1fr;padding:.9rem 1rem;gap:0}
+  .sbar{display:none}
+  .card{padding:.95rem 1.05rem}
+  .ptit{font-size:.92rem}
+  .mod{max-height:92vh}
+  .mod-hdr{padding:.5rem 1.2rem .7rem}
+  .mod-ti{font-size:.92rem}
+  .mod-bdy{padding:.9rem 1.2rem 2rem}
+  .mlks{flex-direction:column}
+  .ftr{font-size:.66rem;padding:1.4rem 1rem}
+}
+@media(min-width:769px){
+  .mov{align-items:center;padding:1rem}
+  .mod{border-radius:var(--r-l);max-height:85vh}
+  .mod-hdl{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="hdr-in">
+    <a href="#" class="logo">
+      <span class="logo-m">불교학논문 통합검색</span>
+      <span class="logo-s">Buddhist Studies Portal · RISS</span>
+    </a>
+    <span class="hdr-cnt" id="headerMeta">로딩 중…</span>
+  </div>
+</header>
+
+<div class="ubanner" id="updateBanner" style="display:none">
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> 최근 업데이트: <span id="lastUpdated"></span>
+</div>
+
+<section class="hero">
+  <div class="hero-ey">Buddhist Studies Research Portal</div>
+  <h1 class="hero-ti">불교계 학술논문 통합 검색</h1>
+  <p class="hero-su">불교학술지 26종 · 논문명 / 저자명 / 키워드</p>
+  <div class="srch-wr">
+    <input type="text" id="searchInput" class="srch-in"
+           placeholder="논문명, 저자명, 키워드 입력…"
+           autocomplete="off" spellcheck="false" enterkeyhint="search">
+    <button class="srch-btn" onclick="doSearch()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
+  </div>
+  <div class="hints">
+    <button class="hint" onclick="setQuery('화엄경')">화엄경</button>
+    <button class="hint" onclick="setQuery('원효')">원효</button>
+    <button class="hint" onclick="setQuery('간화선')">간화선</button>
+    <button class="hint" onclick="setQuery('대승기신론')">대승기신론</button>
+    <button class="hint" onclick="setQuery('불교미술')">불교미술</button>
+    <button class="hint" onclick="setQuery('정토')">정토</button>
+  </div>
+</section>
+
+<div class="fbar">
+  <div class="fbar-in">
+    <span class="flbl">필터</span>
+    <select class="fsel" id="filterCategory" onchange="applyFilters()">
+      <option value="">전체 카테고리</option>
+      <option value="불교학">불교학</option>
+      <option value="불교미술사학">불교미술사학</option>
+      <option value="불교사학">불교사학</option>
+    </select>
+    <select class="fsel" id="filterJournal" onchange="applyFilters()">
+      <option value="">전체 학술지</option>
+    </select>
+    <select class="fsel" id="filterYear" onchange="applyFilters()">
+      <option value="">전체 연도</option>
+    </select>
+    <select class="fsel" id="sortSelect" onchange="applyFilters()">
+      <option value="relevance">관련도순</option>
+      <option value="year_desc">최신순</option>
+      <option value="year_asc">오래된순</option>
+    </select>
+    <span class="rcnt" id="resultCount"></span>
+  </div>
+</div>
+
+<div class="main">
+  <aside class="sbar">
+    <div class="sbar-hd">
+      <span class="sbar-ti">학술지별 탐색</span>
+      <select class="sbar-sort" id="sidebarSort" onchange="buildSidebar()">
+        <option value="name">학술지명순</option>
+        <option value="publisher">기관명순</option>
+        <option value="latest">최신호순</option>
+      </select>
+    </div>
+    <ul class="jlist" id="journalList"></ul>
+  </aside>
+  <main class="res" id="resultsArea">
+    <div class="st-msg" id="welcomeMsg">
+      <span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+      <p>검색어를 입력하거나<br>학술지를 선택해 논문을 탐색하세요.<br><br>
+      불교학 학술 논문 통합 검색 서비스</p>
+    </div>
+  </main>
+</div>
+
+<footer class="ftr">
+  <div>불교학논문 통합검색 · 불교학술지 26종</div>
+  <div style="margin:.3rem 0">데이터: <a href="https://www.riss.kr" target="_blank">학술연구정보서비스(RISS)</a></div>
+  <div style="margin-top:.8rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.1);font-size:.65rem;color:rgba(255,255,255,.35);line-height:2">
+    제작: 서담 한민수 · 동명대학교 (Tongmyong University)<br>
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" style="color:rgba(255,255,255,.4)">CC BY-NC-ND 4.0</a>
+    &nbsp;·&nbsp; 무단 복제 금지 &nbsp;·&nbsp; 변경 시 제작자 허가 필요
+  </div>
+</footer>
+
+<nav class="bnav">
+  <div class="bnav-in">
+    <button class="bnav-btn on" onclick="goSearch()">
+      <span class="bnav-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></span><span class="bnav-lb">검색</span>
+    </button>
+    <button class="bnav-btn" onclick="openDrawer()">
+      <span class="bnav-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><span class="bnav-lb">학술지</span>
+    </button>
+    <button class="bnav-btn" onclick="doReset()">
+      <span class="bnav-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg></span><span class="bnav-lb">초기화</span>
+    </button>
+  </div>
+</nav>
+
+<div class="drov" id="drov" onclick="closeDrawer()"></div>
+<div class="drw" id="drw">
+  <div class="drw-hdl"></div>
+  <div class="drw-hdr">
+    학술지별 탐색
+    <select class="sbar-sort" id="sidebarSortM" onchange="buildSidebar()" style="margin-left:.5rem">
+      <option value="name">학술지명순</option>
+      <option value="publisher">기관명순</option>
+      <option value="latest">최신호순</option>
+    </select>
+  </div>
+  <div class="drw-cnt"><ul class="jlist" id="journalListM"></ul></div>
+</div>
+
+<div class="mov" id="mov" onclick="closeMod(event)">
+  <div class="mod">
+    <div class="mod-hdl"></div>
+    <div class="mod-hdr">
+      <button class="mod-cls" onclick="closeModBtn()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      <div class="mod-ti" id="modTi"></div>
+      <div class="mod-ten" id="modTen"></div>
+      <div class="pmeta" id="modMeta"></div>
+    </div>
+    <div class="mod-bdy">
+      <div id="modAu"></div>
+      <div class="msec">서지 정보</div>
+      <div id="modBib"></div>
+      <div class="msec">국문초록</div>
+      <div class="mabs" id="modAbs"></div>
+      <div class="msec">키워드</div>
+      <div class="pkws" id="modKw"></div>
+      <div class="msec">원문 링크</div>
+      <div class="mlks" id="modLks"></div>
+      <div id="modNote"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ════════════════════════════════════════
+// 학술지 홈페이지 URL 및 안내
+// ════════════════════════════════════════
+const JOURNAL_URLS = {
+  "불교미술사학":       {url:"https://www.earticle.net/ASP/?MQA5ADkA", note:""},
+  "동악미술사학":       {url:"https://dongak-art.jams.or.kr/po/search/poArtiSearList.kci", note:""},
+  "강좌미술사":         {url:"http://arthistory.or.kr/journal/search", note:""},
+  "정토학연구":         {url:"http://www.jungtohak.or.kr/page/sub3_1.html", note:""},
+  "선문화연구":         {url:"http://www.seonli.or.kr/board02/list.asp", note:"<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> 자료실 → 논문자료 메뉴로 이동하세요. 일부 초기 호수가 누락되어 있을 수 있습니다."},
+  "불교문예연구":       {url:"https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003288813", note:""},
+  "불교학보":           {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000003817", note:""},
+  "불교학연구":         {url:"https://journal.kabs.re.kr/articles/all-issues/", note:""},
+  "한국불교학":         {url:"http://ikabs.org/bbs/content.php?co_id=menu0301", note:""},
+  "동아시아불교문화":   {url:"http://www.easternasia.kr/html/sub04_01.asp", note:""},
+  "불교철학":           {url:"http://www.duwbsi.or.kr/html/sub03-01.asp", note:""},
+  "대각사상":           {url:"http://www.taegak.or.kr/page/data1.php", note:""},
+  "선학":               {url:"http://www.seonstudy.org/bbs/board.php?bo_table=paper_01", note:""},
+  "보조사상":           {url:"https://bojo.jams.or.kr/po/search/poArtiSearList.kci", note:""},
+  "한국교수불자연합학회지":{url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000002132", note:""},
+  "불교학리뷰":         {url:"https://gcbs.ggu.ac.kr/sub04_1", note:""},
+  "불교학밀교학연구":   {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000006189", note:""},
+  "불교연구":           {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=001849", note:""},
+  "인도철학":           {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=001529", note:""},
+  "명상심리상담":       {url:"https://mpca.or.kr/?c=journal/72", note:""},
+  "불교와 사회":        {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000006075", note:""},
+  "IJBTC":              {url:"https://ijbtc.dongguk.edu/", note:"<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Issues → Journal Archive 메뉴로 이동하세요. 일부 초기 호수가 누락되어 있을 수 있습니다."},
+  "한국불교사연구":     {url:"http://www.kbhi.or.kr/html/sub03_01.asp", note:""},
+  "한마음연구":         {url:"https://daehaeng.re.kr/article_paperdown?sca=16%EC%A7%91", note:""},
+  "종학연구":           {url:"https://jonghak.dongguk.edu/article/journal/list", note:""},
+  "무형문화연구":       {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000006102", note:""},
+};
+
+// ════════════════════════════════════════
+// 상태
+// ════════════════════════════════════════
+const S={db:null,idx:[],fuse:null,q:"",fj:"",fc:"",fy:"",sort:"relevance",res:[],pg:1,pp:15};
+
+async function loadDB(){
+  try{
+    const r=await fetch("./output/papers.json");
+    if(!r.ok)throw 0;
+    S.db=await r.json();S.idx=S.db.index||[];init();
+  }catch{S.db=SAMP;S.idx=SAMP.index;init(true);}
+}
+
+function init(demo=false){
+  S.fuse=new Fuse(S.idx,{
+    keys:[{name:"title_kr",weight:3},{name:"author_names",weight:2},{name:"keywords",weight:2},{name:"abstract_kr",weight:1},{name:"journal_name",weight:1}],
+    threshold:.35,includeScore:true,includeMatches:true,minMatchCharLength:2,ignoreLocation:true
+  });
+  const m=S.db.meta||{};
+  document.getElementById("headerMeta").textContent=`총 ${(m.total_articles||S.idx.length).toLocaleString()}편`+(demo?" (샘플)":"");
+  if(m.last_updated){document.getElementById("lastUpdated").textContent=m.last_updated;document.getElementById("updateBanner").style.display="block";}
+  buildFJ();buildFY();buildSidebar();
+  const inp=document.getElementById("searchInput");
+  inp.addEventListener("input",deb(doSearch,280));
+  inp.addEventListener("keydown",e=>{if(e.key==="Enter")doSearch();});
+}
+
+function buildFJ(){
+  const js=[...new Set(S.idx.map(a=>a.journal_name))].sort();
+  const sel=document.getElementById("filterJournal");
+  js.forEach(j=>{const o=document.createElement("option");o.value=o.textContent=j;sel.appendChild(o);});
+}
+function buildFY(){
+  const ys=[...new Set(S.idx.map(a=>a.year).filter(Boolean))].sort((a,b)=>b-a);
+  const sel=document.getElementById("filterYear");
+  ys.forEach(y=>{const o=document.createElement("option");o.value=y;o.textContent=y+"년";sel.appendChild(o);});
+}
+
+// 학술지 발행기관 맵 (데이터에서 추출)
+function getPublisher(jname, jdata){
+  return jdata?.info?.publisher || jdata?.info?.name || jname;
+}
+
+// 학술지 최신 연도
+function getLatestYear(jdata){
+  const arts = jdata?.articles || [];
+  if(!arts.length) return "";
+  const yrs = arts.map(a=>a.year||"").filter(Boolean).sort();
+  return yrs[yrs.length-1]||"";
+}
+
+function buildSidebar(){
+  const js=S.db.journals||{};
+  const sortMode = document.getElementById("sidebarSort")?.value || "name";
+  // 모바일 드로어 sync
+  const sortM = document.getElementById("sidebarSortM");
+  if(sortM) sortM.value = sortMode;
+
+  const cats={"불교미술사학":[],"불교사학":[],"불교학":[]};
+  Object.entries(js).forEach(([n,d])=>{
+    const c=d.info?.category||"불교학";
+    (cats[c]||cats["불교학"]).push({n,d});
+  });
+
+  ["journalList","journalListM"].forEach(lid=>{
+    const el=document.getElementById(lid);if(!el)return;
+    el.innerHTML="";
+    const isMob=lid==="journalListM";
+
+    Object.entries(cats).forEach(([cat,items])=>{
+      if(!items.length)return;
+      const h=document.createElement("li");
+      h.innerHTML=`<div class="cat-hdr">${cat}</div>`;
+      el.appendChild(h);
+
+      // 정렬
+      let sorted=[...items];
+      if(sortMode==="name"){
+        sorted.sort((a,b)=>a.n.localeCompare(b.n,"ko"));
+      } else if(sortMode==="publisher"){
+        sorted.sort((a,b)=>{
+          const pa=getPublisher(a.n,a.d);
+          const pb=getPublisher(b.n,b.d);
+          return pa.localeCompare(pb,"ko");
+        });
+      } else if(sortMode==="latest"){
+        sorted.sort((a,b)=>{
+          const ya=getLatestYear(a.d);
+          const yb=getLatestYear(b.d);
+          return yb.localeCompare(ya);
+        });
+      }
+
+      sorted.forEach(({n,d})=>{
+        const li=document.createElement("li");li.className="jitem";
+        const pub=getPublisher(n,d);
+        li.innerHTML=`<button class="jbtn" onclick="selJ('${n}',this,${isMob})">
+          <span>
+            <div class="jbtn-nm">${n}</div>
+            <div class="jbtn-pub">${pub}</div>
+          </span>
+        </button>`;
+        el.appendChild(li);
+      });
+    });
+  });
+}
+
+function doSearch(){S.q=document.getElementById("searchInput").value.trim();S.pg=1;applyFilters();}
+function setQuery(q){document.getElementById("searchInput").value=q;S.q=q;S.pg=1;applyFilters();goSearch();}
+function selJ(n,btn,mob=false){
+  document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");
+  S.fj=n;document.getElementById("filterJournal").value=n;S.pg=1;applyFilters();
+  if(mob)closeDrawer();
+}
+function doReset(){
+  S.q=S.fj=S.fc=S.fy="";S.pg=1;
+  document.getElementById("searchInput").value="";
+  document.getElementById("filterJournal").value="";
+  document.getElementById("filterCategory").value="";
+  document.getElementById("filterYear").value="";
+  document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));
+  document.getElementById("resultsArea").innerHTML='<div class="st-msg"><span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><p>검색어를 입력하거나 학술지를 선택하세요.</p></div>';
+  document.getElementById("resultCount").innerHTML="";
+}
+function applyFilters(){
+  S.fc=document.getElementById("filterCategory").value;
+  S.fj=document.getElementById("filterJournal").value;
+  S.fy=document.getElementById("filterYear").value;
+  S.sort=document.getElementById("sortSelect").value;
+  let res=S.q?S.fuse.search(S.q).map(r=>({...r.item,_s:r.score})):[...S.idx];
+  if(S.fc)res=res.filter(a=>a.category===S.fc);
+  if(S.fj)res=res.filter(a=>a.journal_name===S.fj);
+  if(S.fy)res=res.filter(a=>a.year===S.fy);
+  if(S.sort==="year_desc")res.sort((a,b)=>(b.year||0)-(a.year||0));
+  else if(S.sort==="year_asc")res.sort((a,b)=>(a.year||0)-(b.year||0));
+  S.res=res;render();
+}
+
+function render(){
+  const area=document.getElementById("resultsArea");
+  document.getElementById("welcomeMsg")?.remove();
+  const{res,pg,pp}=S;const tot=res.length;const sl=res.slice((pg-1)*pp,pg*pp);
+  document.getElementById("resultCount").innerHTML=tot?`<strong>${tot.toLocaleString()}</strong>편`:"결과 없음";
+  if(!tot){area.innerHTML='<div class="st-msg"><span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6M11 8v6"/></svg></span><p>검색 결과가 없습니다.<br>다른 검색어나 한자 표기를 시도해보세요.</p></div>';return;}
+  let h="";
+  sl.forEach((a,i)=>{
+    const au=fmtAu(a.authors||[]);
+    const kw=bldKw(a);
+    const ab=a.abstract_kr?a.abstract_kr.slice(0,110)+"…":"";
+    const hl=S.q?hlTx(a.title_kr||"",S.q):(a.title_kr||"");
+    h+=`<article class="card" onclick="openMod('${esc(a.id)}')" style="animation-delay:${i*.04}s">
+      <div class="pmeta">
+        <span class="bdg bdg-j">${a.journal_name||""}</span>
+        ${a.year?`<span class="bdg bdg-y">${a.year}</span>`:""}
+        ${a.issue?`<span class="bdg bdg-i">${a.issue}호</span>`:""}
+      </div>
+      <div class="ptit">${hl}</div>
+      <div class="pau">${au}</div>
+      ${ab?`<div class="pabs">${ab}</div>`:""}
+      <div class="pkws">${kw}</div>
+    </article>`;
+  });
+  const tp=Math.ceil(tot/pp);
+  if(tp>1){
+    h+='<div class="pag">';
+    for(let i=1;i<=tp;i++){
+      if(i===1||i===tp||Math.abs(i-pg)<=2)h+=`<button class="pgbtn${i===pg?" active":""}" onclick="goPg(${i})">${i}</button>`;
+      else if(Math.abs(i-pg)===3)h+=`<span style="align-self:center;color:var(--muted);padding:0 .2rem">…</span>`;
+    }
+    h+='</div>';
+  }
+  area.innerHTML=h;
+}
+function goPg(p){S.pg=p;render();window.scrollTo({top:0,behavior:"smooth"});}
+
+function openMod(id){
+  const a=S.idx.find(x=>x.id===id);if(!a)return;
+  document.getElementById("modTi").textContent=a.title_kr||"";
+  document.getElementById("modTen").textContent=a.title_en||"";
+  document.getElementById("modMeta").innerHTML=`
+    <span class="bdg bdg-j">${a.journal_name||""}</span>
+    ${a.year?`<span class="bdg bdg-y">${a.year}년</span>`:""}
+    ${a.issue?`<span class="bdg bdg-i">${a.issue}호</span>`:""}`;
+  const auH=(a.authors||[]).map(x=>`<span style="margin-right:1rem;font-size:.83rem">
+    <strong style="font-family:var(--serif)">${x.name}</strong>
+    ${x.affiliation?`<small style="color:var(--muted)"> (${x.affiliation})</small>`:""}
+  </span>`).join("");
+  document.getElementById("modAu").innerHTML=auH?`<div style="margin-bottom:1rem;line-height:2.2">${auH}</div>`:"";
+  document.getElementById("modBib").innerHTML=`<div class="dgrd">
+    <span class="dlbl">학술지</span><span class="dval">${a.journal_name||"-"}</span>
+    <span class="dlbl">발행연도</span><span class="dval">${a.year||"-"}년</span>
+    <span class="dlbl">권·호</span><span class="dval">${a.volume?a.volume+"권 ":""}${a.issue?a.issue+"호":"-"}</span>
+    <span class="dlbl">페이지</span><span class="dval">${a.start_page?(a.start_page+(a.end_page?"–"+a.end_page:""))+"p":"-"}</span>
+    ${a.doi?`<span class="dlbl">DOI</span><span class="dval"><a href="https://doi.org/${a.doi}" target="_blank" style="color:var(--navy-lt)">${a.doi}</a></span>`:""}
+  </div>`;
+  document.getElementById("modAbs").textContent=a.abstract_kr||"초록 정보 없음";
+  const kH=[...(a.keywords_kr||[]).map(k=>`<span class="kw">${k}</span>`),
+             ...(a.keywords_en||[]).map(k=>`<span class="kw">${k}</span>`),
+             ...(a.ai_keywords||[]).map(k=>`<span class="kw ai">${k}</span>`)].join("")||`<span style="color:var(--muted);font-size:.78rem">없음</span>`;
+  document.getElementById("modKw").innerHTML=kH;
+
+  // 링크 버튼
+  let lks="";
+  if(a.riss_url) lks+=`<a href="${a.riss_url}" target="_blank" class="mlk pri"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> RISS 원문</a>`;
+  if(a.kci_url)  lks+=`<a href="${a.kci_url}"  target="_blank" class="mlk sec"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> KCI 보기</a>`;
+  if(a.doi)      lks+=`<a href="https://doi.org/${a.doi}" target="_blank" class="mlk sec">DOI</a>`;
+
+  // 학술지 홈페이지
+  const jinfo = JOURNAL_URLS[a.journal_name];
+  if(jinfo?.url){
+    lks+=`<a href="${jinfo.url}" target="_blank" class="mlk home"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 학술지 홈페이지</a>`;
+  }
+  document.getElementById("modLks").innerHTML=lks||`<span style="color:var(--muted);font-size:.78rem">원문 링크 없음</span>`;
+
+  // 안내 문구 (선문화연구·IJBTC)
+  const noteEl = document.getElementById("modNote");
+  if(jinfo?.note){
+    noteEl.innerHTML=`<div class="journal-note">${jinfo.note}</div>`;
+  } else {
+    noteEl.innerHTML="";
+  }
+
+  document.getElementById("mov").classList.add("open");
+  document.body.style.overflow="hidden";
+}
+function closeMod(e){if(e.target===document.getElementById("mov"))closeModBtn();}
+function closeModBtn(){document.getElementById("mov").classList.remove("open");document.body.style.overflow="";}
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeModBtn();closeDrawer();}});
+
+function openDrawer(){document.getElementById("drw").classList.add("open");document.getElementById("drov").classList.add("open");document.body.style.overflow="hidden";}
+function closeDrawer(){document.getElementById("drw").classList.remove("open");document.getElementById("drov").classList.remove("open");document.body.style.overflow="";}
+function goSearch(){document.getElementById("searchInput").scrollIntoView({behavior:"smooth",block:"center"});setTimeout(()=>document.getElementById("searchInput").focus(),400);}
+
+function fmtAu(au){
+  if(!au.length)return"";
+  return au.slice(0,5).map(a=>`<span class="aname" onclick="event.stopPropagation();srchAu('${a.name}')">${a.name}</span>${a.affiliation?` <small style="color:var(--muted)">(${a.affiliation})</small>`:""}`).join(" · ")+(au.length>5?` 외 ${au.length-5}인`:"");
+}
+function srchAu(n){document.getElementById("searchInput").value=n;S.q=n;S.fj="";document.getElementById("filterJournal").value="";S.pg=1;applyFilters();window.scrollTo({top:0,behavior:"smooth"});}
+function bldKw(a){return(a.keywords_kr||[]).slice(0,4).map(k=>`<span class="kw">${k}</span>`).join("")+(a.ai_keywords||[]).slice(0,2).map(k=>`<span class="kw ai">${k}</span>`).join("");}
+function hlTx(t,q){if(!q)return t;const e=q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");return t.replace(new RegExp(`(${e})`,"gi"),"<mark>$1</mark>");}
+function esc(s){return(s||"").replace(/'/g,"\\'");}
+function deb(fn,d){let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>fn(...a),d);};}
+
+// 샘플 데이터
+const SAMP={
+  meta:{total_articles:4,journals:2,last_updated:"2025-04-10",version:"1.0-sample"},
+  journals:{
+    "선학":{info:{name:"선학",category:"불교학",publisher:"한국선학회"},articles:[]},
+    "불교학보":{info:{name:"불교학보",category:"불교학",publisher:"동국대 불교문화연구원"},articles:[]},
+  },
+  index:[
+    {id:"s001",journal_name:"선학",category:"불교학",title_kr:"대승기신론의 一心 개념과 선정 수행의 관계 연구",title_en:"",authors:[{name:"한민수",affiliation:"동명대학교",order:"1"}],year:"2025",volume:"",issue:"72",start_page:"5",end_page:"36",abstract_kr:"본 연구는 대승기신론에서 논의되는 일심(一心) 개념을 중심으로 선정 수행과의 관계를 고찰한다.",keywords_kr:["대승기신론","일심","선정","지관"],ai_keywords:[],riss_url:"https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f62ae70224b1b0e67ecd42904f0c5d65",kci_url:"",doi:"",source:"RISS"},
+    {id:"s002",journal_name:"불교학보",category:"불교학",title_kr:"원효의 화쟁(和諍) 사상과 현대 불교 철학적 의의",title_en:"",authors:[{name:"정도일",affiliation:"동국대학교",order:"1"}],year:"2022",volume:"",issue:"101",start_page:"43",end_page:"82",abstract_kr:"원효(元曉)의 화쟁(和諍) 사상은 신라 불교 철학의 정수로 평가된다.",keywords_kr:["원효","화쟁","불교철학"],ai_keywords:[],riss_url:"",kci_url:"https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002800004",doi:"",source:"KCI"},
+  ]
+};
+loadDB();
+</script>
+</body>
+</html>
