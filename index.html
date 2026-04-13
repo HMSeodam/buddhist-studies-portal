@@ -165,6 +165,10 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 /* UPDATE BANNER */
 .ubanner{background:var(--accent);border-bottom:1px solid rgba(26,58,92,.1);padding:.38rem 1.25rem;text-align:center;font-size:.68rem;color:var(--navy);font-weight:500;display:flex;align-items:center;justify-content:center;gap:.4rem}
 
+/* TOAST */
+.toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%) translateY(2rem);background:var(--navy);color:#fff;padding:.6rem 1.2rem;border-radius:2rem;font-size:.78rem;font-weight:500;box-shadow:0 4px 16px rgba(0,0,0,.25);opacity:0;transition:opacity .3s,transform .3s;pointer-events:none;z-index:9999;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
 /* FOOTER */
 .ftr{background:var(--navy);color:rgba(255,255,255,.4);text-align:center;padding:2rem 1.25rem;font-size:.7rem;line-height:2.2;margin-top:2rem}
 .ftr a{color:var(--gold-lt);text-decoration:none}
@@ -213,6 +217,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 <div class="ubanner" id="updateBanner" style="display:none">
   <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> 최근 업데이트: <span id="lastUpdated"></span>
 </div>
+<div class="toast" id="toast"></div>
 
 <section class="hero">
   <div class="hero-ey">Buddhist Studies Research Portal</div>
@@ -391,68 +396,168 @@ const JOURNAL_FILES = [
   "riss_한국불교학.json","riss_한마음연구.json"
 ];
 
+// ════════════════════════════════════════
+// 캐시 설정
+// ════════════════════════════════════════
+const CACHE_NAME = "buddhist-papers-v1";
+
+function showToast(msg, duration=3500){
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.classList.add("show");
+  setTimeout(() => t.classList.remove("show"), duration);
+}
+
+// 논문 1건 → index 항목 변환 (loadDB / checkForUpdates 공용)
+function toIndexItem(art, jname, category){
+  const au = (art.authors||[]).map(a=>a.name||"").join(" ");
+  const kws = [...(art.keywords_kr||[]),...(art.keywords_en||[]),...(art.ai_keywords||[])];
+  return {
+    id:           art.article_id || art.id || ("R"+Math.random().toString(36).slice(2)),
+    journal_name: jname,
+    category:     category || "불교학",
+    title_kr:     art.title_kr || "",
+    title_en:     art.title_en || "",
+    author_names: au,
+    authors:      art.authors || [],
+    year:         art.year || "",
+    volume:       art.volume || "",
+    issue:        art.issue || "",
+    start_page:   art.start_page || "",
+    abstract_kr:  art.abstract_kr || "",
+    keywords:     kws,
+    keywords_kr:  art.keywords_kr || [],
+    ai_keywords:  art.ai_keywords || [],
+    riss_url:     art.riss_url || "",
+    kci_url:      art.kci_url || "",
+    doi:          art.doi || "",
+    source:       art.source || "RISS",
+  };
+}
+
 async function loadDB(){
-  try{
-    const db = {meta:{total_articles:0,last_updated:"",journals:26}, journals:{}, index:[]};
-    let loaded = 0;
+  const db = {meta:{total_articles:0,last_updated:"",journals:26}, journals:{}, index:[]};
+  document.getElementById("headerMeta").textContent = "데이터 로딩 중…";
 
-    // 헤더에 로딩 표시
-    document.getElementById("headerMeta").textContent = "데이터 로딩 중…";
+  // Cache API 열기 (지원 안 하면 null)
+  let cache = null;
+  try{ cache = await caches.open(CACHE_NAME); } catch(e){}
 
-    for(const fname of JOURNAL_FILES){
-      try{
-        const r = await fetch("./output/" + fname);
-        if(!r.ok) continue;
-        const data = await r.json();
-
-        // 학술지 정보
-        const jname = data.info?.name || fname.replace("riss_","").replace(".json","");
-        db.journals[jname] = data;
-
-        // index 생성
-        const info = data.info || {};
-        (data.articles || []).forEach(art => {
-          const au = (art.authors||[]).map(a=>a.name||"").join(" ");
-          const kws = [...(art.keywords_kr||[]),...(art.keywords_en||[]),...(art.ai_keywords||[])];
-          db.index.push({
-            id:           art.article_id || art.id || ("R"+Math.random().toString(36).slice(2)),
-            journal_name: jname,
-            category:     info.category || "불교학",
-            title_kr:     art.title_kr || "",
-            title_en:     art.title_en || "",
-            author_names: au,
-            authors:      art.authors || [],
-            year:         art.year || "",
-            volume:       art.volume || "",
-            issue:        art.issue || "",
-            start_page:   art.start_page || "",
-            abstract_kr:  art.abstract_kr || "",
-            keywords:     kws,
-            keywords_kr:  art.keywords_kr || [],
-            ai_keywords:  art.ai_keywords || [],
-            riss_url:     art.riss_url || "",
-            kci_url:      art.kci_url || "",
-            doi:          art.doi || "",
-            source:       art.source || "RISS",
-          });
-        });
-
-        loaded++;
-        document.getElementById("headerMeta").textContent = `로딩 중… ${loaded}/${JOURNAL_FILES.length}`;
-      } catch(e){ console.warn(fname, e); }
+  async function loadOne(fname){
+    const url = "./output/" + encodeURIComponent(fname);
+    try{
+      // 캐시 확인
+      if(cache){
+        const cached = await cache.match(url);
+        if(cached){
+          return { fname, data: await cached.json(), fromCache: true };
+        }
+      }
+      // 캐시 없음 → 네트워크 fetch
+      const r = await fetch(url);
+      if(!r.ok) return null;
+      // 응답을 캐시에 저장
+      if(cache) await cache.put(url, r.clone());
+      return { fname, data: await r.json(), fromCache: false };
+    } catch(e){
+      console.warn(fname, e);
+      return null;
     }
+  }
 
-    // 최신 업데이트 날짜
-    const dates = db.index.map(a=>a.year).filter(Boolean).sort();
-    db.meta.total_articles = db.index.length;
-    db.meta.last_updated = new Date().toISOString().slice(0,10);
+  // 병렬 로드 (캐시 or 네트워크)
+  const results = await Promise.all(JOURNAL_FILES.map(loadOne));
+  let loaded = 0, fromCache = 0;
 
-    S.db = db;
-    S.idx = db.index;
-    init();
-  } catch(e){
-    console.error(e);
-    S.db=SAMP; S.idx=SAMP.index; init(true);
+  for(const res of results){
+    if(!res) continue;
+    const {fname, data} = res;
+    const info = data.info || {};
+    const jname = info.name || fname.replace("riss_","").replace(".json","");
+    db.journals[jname] = data;
+    (data.articles || []).forEach(art =>
+      db.index.push(toIndexItem(art, jname, info.category))
+    );
+    loaded++;
+    if(res.fromCache) fromCache++;
+  }
+
+  // 로드 실패 시 안내
+  if(loaded === 0){
+    document.getElementById("headerMeta").textContent = "⚠ 데이터 로드 실패";
+    document.getElementById("resultsArea").innerHTML =
+      '<div class="st-msg"><p>논문 데이터를 불러올 수 없습니다.<br>' +
+      'index.html을 직접 열지 말고, 로컬 서버(<code>python3 -m http.server</code>)나 ' +
+      'GitHub Pages를 통해 접속해 주세요.</p></div>';
+    return;
+  }
+
+  db.meta.total_articles = db.index.length;
+  db.meta.last_updated = new Date().toISOString().slice(0,10);
+  db.meta.journals = loaded;
+
+  S.db = db; S.idx = db.index;
+  init();
+
+  // 캐시에서 로드한 파일이 있으면 백그라운드에서 업데이트 확인
+  if(cache && fromCache > 0){
+    setTimeout(() => checkForUpdates(cache), 1500);
+  }
+}
+
+// ════════════════════════════════════════
+// 백그라운드 업데이트 체크
+// ════════════════════════════════════════
+async function checkForUpdates(cache){
+  let newCount = 0;
+
+  for(const fname of JOURNAL_FILES){
+    const url = "./output/" + encodeURIComponent(fname);
+    const cached = await cache.match(url);
+    if(!cached) continue;
+
+    try{
+      // If-Modified-Since 헤더로 조건부 요청 → 변경 없으면 304, 변경 있으면 200
+      const lastMod = cached.headers.get("last-modified");
+      const r = await fetch(url, {
+        cache: "no-cache",
+        headers: lastMod ? {"If-Modified-Since": lastMod} : {}
+      });
+
+      if(r.status === 304 || !r.ok) continue; // 변경 없음
+
+      // 변경된 파일 → 캐시 갱신
+      const data = await r.json();
+      await cache.put(url, r.clone ? new Response(JSON.stringify(data), {
+        headers: {"Content-Type":"application/json",
+                  "Last-Modified": r.headers.get("last-modified") || new Date().toUTCString()}
+      }) : r);
+
+      // 이 학술지의 기존 항목 교체
+      const info = data.info || {};
+      const jname = info.name || fname.replace("riss_","").replace(".json","");
+      const before = S.idx.filter(a => a.journal_name === jname).length;
+      S.idx = S.idx.filter(a => a.journal_name !== jname);
+      (data.articles || []).forEach(art =>
+        S.idx.push(toIndexItem(art, jname, info.category))
+      );
+      const after = S.idx.filter(a => a.journal_name === jname).length;
+      newCount += Math.max(0, after - before);
+
+    } catch(e){ /* 오프라인 등 무시 */ }
+  }
+
+  if(newCount > 0){
+    // Fuse 재초기화 + 헤더 갱신
+    S.db.meta.total_articles = S.idx.length;
+    S.fuse = new Fuse(S.idx, {
+      keys:[{name:"title_kr",weight:3},{name:"author_names",weight:2},
+            {name:"keywords",weight:2},{name:"abstract_kr",weight:1},{name:"journal_name",weight:1}],
+      threshold:.35, includeScore:true, includeMatches:true, minMatchCharLength:2, ignoreLocation:true
+    });
+    document.getElementById("headerMeta").textContent =
+      `총 ${S.idx.length.toLocaleString()}편`;
+    showToast(`📄 새 논문 ${newCount}편이 추가되었습니다`);
   }
 }
 
