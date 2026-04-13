@@ -588,10 +588,15 @@ function buildFJ(){
   const sel=document.getElementById("filterJournal");
   js.forEach(j=>{const o=document.createElement("option");o.value=o.textContent=j;sel.appendChild(o);});
 }
-function buildFY(){
-  const ys=[...new Set(S.idx.map(a=>a.year).filter(Boolean))].sort((a,b)=>b-a);
+function buildFY(journal=""){
+  const pool = journal ? S.idx.filter(a=>a.journal_name===journal) : S.idx;
+  const ys=[...new Set(pool.map(a=>a.year).filter(Boolean))].sort((a,b)=>b-a);
   const sel=document.getElementById("filterYear");
+  const prev=sel.value;
+  sel.innerHTML='<option value="">전체 연도</option>';
   ys.forEach(y=>{const o=document.createElement("option");o.value=y;o.textContent=y+"년";sel.appendChild(o);});
+  if([...sel.options].some(o=>o.value===prev)) sel.value=prev;
+  else { sel.value=""; S.fy=""; }
 }
 // 권/호 표시 레이블 생성
 function fmtVI(volume, issue){
@@ -605,9 +610,10 @@ function fmtVI(volume, issue){
 // 권/호 정렬용 숫자 키 (권 우선, 호 보조)
 function viSortKey(volume, issue){
   const v=parseInt(volume)||0, i=parseInt(issue)||0;
-  if(v > 0 && i > 0) return v*10000 + i; // 권+호 둘 다: 권 우선
-  if(v > 0) return v;                     // 권만: 권 번호 그대로
-  return i;                               // 호만: 호 번호 그대로
+  // 권이 있으면 권이 주, 없으면 호가 주 / 보조는 호 (권 있을 때만)
+  const primary   = v > 0 ? v : i;
+  const secondary = v > 0 ? i : 0;
+  return primary * 10000 + secondary;
 }
 
 function buildFI(journal="", year=""){
@@ -735,6 +741,7 @@ function doReset(){
   document.getElementById("filterCategory").value="";
   document.getElementById("filterYear").value="";
   document.getElementById("filterIssue").value="";
+  buildFY();  // 전체 연도 복원
   buildFI();  // disabled 상태로 복원
   document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));
   document.getElementById("resultsArea").innerHTML='<div class="st-msg"><span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><p>검색어를 입력하거나 학술지를 선택하세요.</p></div>';
@@ -749,7 +756,13 @@ function applyFilters(){
   S.fy=document.getElementById("filterYear").value;
   S.sort=document.getElementById("sortSelect").value;
   // 학술지·연도 바뀌면 호수 선택 초기화
-  if(S.fj!==prevFj||S.fy!==prevFy){ S.fi=""; document.getElementById("filterIssue").value=""; }
+  if(S.fj!==prevFj){
+    S.fy=""; document.getElementById("filterYear").value="";
+    S.fi=""; document.getElementById("filterIssue").value="";
+    buildFY(S.fj);
+  } else if(S.fy!==prevFy){
+    S.fi=""; document.getElementById("filterIssue").value="";
+  }
   buildFI(S.fj, S.fy);
   S.fi=document.getElementById("filterIssue").value;
   let res=S.q?S.fuse.search(S.q).map(r=>({...r.item,_s:r.score})):[...S.idx];
