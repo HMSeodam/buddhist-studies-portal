@@ -359,9 +359,9 @@ const JOURNAL_URLS = {
   "동악미술사학":       {url:"https://dongak-art.jams.or.kr/po/search/poArtiSearList.kci", note:""},
   "강좌미술사":         {url:"http://arthistory.or.kr/journal/search", note:""},
   "정토학연구":         {url:"http://www.jungtohak.or.kr/page/sub3_1.html", note:""},
-  "선문화연구":         {url:"http://www.seonli.or.kr/board02/list.asp", note:"자료실 → 논문자료 메뉴로 이동하세요. 일부 초기 호수가 누락되어 있을 수 있습니다."},
-  "불교문예연구":       {url:"https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003288813", note:""},
-  "불교학보":           {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000003817", note:""},
+  "선문화연구":         {url:"http://www.seonli.or.kr/board02/list.asp", note:"선문화연구는 학회 홈페이지에 들어가신 뒤, 자료실 → 논문자료 메뉴로 이동해주세요."},
+  "불교문예연구":       {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000003817", note:""},
+  "불교학보":           {url:"https://abchome.dongguk.edu/sub/contOutLinkView?clsType=%ED%95%99%EC%88%A0%EC%A7%80_%EB%B6%88%EA%B5%90%ED%95%99%EB%B3%B4", note:""},
   "불교학연구":         {url:"https://journal.kabs.re.kr/articles/all-issues/", note:""},
   "한국불교학":         {url:"http://ikabs.org/bbs/content.php?co_id=menu0301", note:""},
   "동아시아불교문화":   {url:"http://www.easternasia.kr/html/sub04_01.asp", note:""},
@@ -376,11 +376,11 @@ const JOURNAL_URLS = {
   "인도철학":           {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=001529", note:""},
   "명상심리상담":       {url:"https://mpca.or.kr/?c=journal/72", note:""},
   "불교와 사회":        {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000006075", note:""},
-  "IJBTC":              {url:"https://ijbtc.dongguk.edu/", note:"Issues → Journal Archive 메뉴로 이동하세요. 일부 초기 호수가 누락되어 있을 수 있습니다."},
+  "IJBTC":              {url:"https://ijbtc.dongguk.edu/", note:"IJBTC는 학회 홈페이지에 들어가신 뒤, Issues → Journal Archive 메뉴로 이동해주세요.", category:"불교학"},
   "한국불교사연구":     {url:"http://www.kbhi.or.kr/html/sub03_01.asp", note:""},
   "한마음연구":         {url:"https://daehaeng.re.kr/article_paperdown?sca=16%EC%A7%91", note:""},
-  "종학연구":           {url:"https://jonghak.dongguk.edu/article/journal/list", note:""},
-  "무형문화연구":       {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000006102", note:""},
+  "종학연구":           {url:"https://jonghak.dongguk.edu/article/journal/list", note:"", category:"불교학"},
+  "무형문화연구":       {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000006102", note:"", category:"불교학"},
 };
 
 // ════════════════════════════════════════
@@ -481,10 +481,17 @@ async function loadDB(){
     if(!res) continue;
     const {fname, data} = res;
     const info = data.info || {};
-    const jname = info.name || fname.replace("riss_","").replace(".json","");
-    db.journals[jname] = data;
-    (data.articles || []).forEach(art =>
-      db.index.push(toIndexItem(art, jname, info.category))
+    // 리스트 형식 파일은 info.name 없음 → 첫 article의 journal_name 사용
+    const arts = Array.isArray(data) ? data : (data.articles || []);
+    const jname = info.name
+      || (arts.length && arts[0].journal_name)
+      || fname.replace("riss_","").replace(".json","");
+    // JOURNAL_URLS에서 카테고리 보완
+    const jurl = JOURNAL_URLS[jname] || {};
+    const category = info.category || jurl.category || "불교학";
+    db.journals[jname] = Array.isArray(data) ? {info:{name:jname,category}, articles:data} : data;
+    arts.forEach(art =>
+      db.index.push(toIndexItem(art, jname, category))
     );
     loaded++;
     if(res.fromCache) fromCache++;
