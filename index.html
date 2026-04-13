@@ -605,7 +605,9 @@ function fmtVI(volume, issue){
 // 권/호 정렬용 숫자 키 (권 우선, 호 보조)
 function viSortKey(volume, issue){
   const v=parseInt(volume)||0, i=parseInt(issue)||0;
-  return v*100000 + i;  // 권이 주, 호가 부
+  if(v > 0 && i > 0) return v*10000 + i; // 권+호 둘 다: 권 우선
+  if(v > 0) return v;                     // 권만: 권 번호 그대로
+  return i;                               // 호만: 호 번호 그대로
 }
 
 function buildFI(journal="", year=""){
