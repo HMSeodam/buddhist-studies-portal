@@ -251,7 +251,7 @@ def fetch_detail(driver, article_id: str) -> dict:
                 affil = ""
                 next_txt = a.next_sibling
                 if next_txt and isinstance(next_txt, str):
-                    affil = re.sub(r"[()]", "", next_txt).strip()
+                    affil = next_txt.strip().strip("()")
                 if nm and len(nm) >= 2:
                     authors.append({"name":nm,"affiliation":affil,"order":str(len(authors)+1)})
             if authors:
