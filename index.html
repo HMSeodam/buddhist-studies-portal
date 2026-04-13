@@ -731,7 +731,8 @@ function doSearch(){S.q=document.getElementById("searchInput").value.trim();S.pg
 function setQuery(q){document.getElementById("searchInput").value=q;S.q=q;S.pg=1;applyFilters();goSearch();}
 function selJ(n,btn,mob=false){
   document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");
-  S.fj=n;document.getElementById("filterJournal").value=n;S.pg=1;applyFilters();
+  document.getElementById("filterJournal").value=n;  // DOM만 세팅, S.fj는 applyFilters가 읽음
+  S.pg=1;applyFilters();
   if(mob)closeDrawer();
 }
 function doReset(){
