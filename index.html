@@ -592,20 +592,42 @@ function buildFY(){
   const sel=document.getElementById("filterYear");
   ys.forEach(y=>{const o=document.createElement("option");o.value=y;o.textContent=y+"년";sel.appendChild(o);});
 }
+// 권/호 표시 레이블 생성
+function fmtVI(volume, issue){
+  const v=(volume||"").trim(), i=(issue||"").trim();
+  const hasV = v && v!=="0";
+  if(hasV && i) return v+"권 "+i+"호";
+  if(hasV)      return v+"권";
+  if(i)         return i+"호";
+  return "";
+}
+// 권/호 정렬용 숫자 키 (권 우선, 호 보조)
+function viSortKey(volume, issue){
+  const v=parseInt(volume)||0, i=parseInt(issue)||0;
+  return v*100000 + i;  // 권이 주, 호가 부
+}
+
 function buildFI(journal=""){
   const sel=document.getElementById("filterIssue");
   const prev=sel.value;
   sel.innerHTML='<option value="">전체 호수</option>';
-  // 현재 journal 필터 기준으로 호수 목록 추출
   const pool = journal ? S.idx.filter(a=>a.journal_name===journal) : S.idx;
-  const issues=[...new Set(pool.map(a=>a.issue).filter(Boolean))]
-    .sort((a,b)=>( (parseInt(b)||0)-(parseInt(a)||0) ));
-  issues.forEach(i=>{
+  // 권+호 복합 키로 중복 제거
+  const seen=new Map();
+  pool.forEach(a=>{
+    const key=(a.volume||"")+"|"+(a.issue||"");
+    if(!seen.has(key)) seen.set(key,{volume:a.volume||"",issue:a.issue||""});
+  });
+  // 권 내림차순 → 호 내림차순 정렬
+  const sorted=[...seen.values()]
+    .filter(x=>fmtVI(x.volume,x.issue))
+    .sort((a,b)=>viSortKey(b.volume,b.issue)-viSortKey(a.volume,a.issue));
+  sorted.forEach(x=>{
     const o=document.createElement("option");
-    o.value=i; o.textContent=i+"호";
+    o.value=(x.volume||"")+"|"+(x.issue||"");
+    o.textContent=fmtVI(x.volume,x.issue);
     sel.appendChild(o);
   });
-  // 이전 선택값 유지 가능하면 유지
   if([...sel.options].some(o=>o.value===prev)) sel.value=prev;
 }
 
@@ -709,18 +731,22 @@ function applyFilters(){
   if(S.fc)res=res.filter(a=>a.category===S.fc);
   if(S.fj)res=res.filter(a=>a.journal_name===S.fj);
   if(S.fy)res=res.filter(a=>a.year===S.fy);
-  if(S.fi)res=res.filter(a=>a.issue===S.fi);
+  if(S.fi){
+    const[fv,fi]=S.fi.split("|");
+    res=res.filter(a=>(a.volume||"")===(fv||"") && (a.issue||"")===(fi||""));
+  }
   if(S.sort==="year_desc")res.sort((a,b)=>{
     const yd=(b.year||0)-(a.year||0);
     if(yd!==0)return yd;
-    // 같은 연도 내: 같은 학술지면 호수 내림차순
-    if(a.journal_name===b.journal_name)return(parseInt(b.issue)||0)-(parseInt(a.issue)||0);
+    if(a.journal_name===b.journal_name)
+      return viSortKey(b.volume,b.issue)-viSortKey(a.volume,a.issue);
     return 0;
   });
   else if(S.sort==="year_asc")res.sort((a,b)=>{
     const yd=(a.year||0)-(b.year||0);
     if(yd!==0)return yd;
-    if(a.journal_name===b.journal_name)return(parseInt(a.issue)||0)-(parseInt(b.issue)||0);
+    if(a.journal_name===b.journal_name)
+      return viSortKey(a.volume,a.issue)-viSortKey(b.volume,b.issue);
     return 0;
   });
   S.res=res;render();
