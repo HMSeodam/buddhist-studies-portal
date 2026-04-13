@@ -1,6 +1,6 @@
 # 불교학논문 통합검색
 
-**[→ 바로가기](https://hmseodam.github.io/buddhist-studies-portal)**
+**[앱 바로실행](https://hmseodam.github.io/buddhist-studies-portal)**
 
 불교계 학술지 26종의 논문을 통합 검색하는 무료 학술 서비스입니다.
 
