@@ -2,10 +2,10 @@
 # riss_updater.py — 증분 업데이트 (매주 자동 실행용)
 #
 # 동작:
-#   1. 기존 papers.json 로드
+#   1. output/ 폴더의 학술지별 개별 JSON 파일 로드 (riss_학술지명.json)
 #   2. 각 학술지 최신 호수 1~2개만 확인
 #   3. 새 논문 ID 발견 시에만 상세 수집
-#   4. 기존 데이터에 병합 후 저장
+#   4. 해당 학술지 JSON 파일에만 업데이트 저장 (papers.json 사용 안 함)
 #
 # 사용법:
 #   python riss_updater.py           # 최신 1호수씩 확인
@@ -22,7 +22,6 @@ from datetime import datetime
 import argparse
 
 OUTPUT_DIR    = "./output"
-PAPERS_JSON   = f"{OUTPUT_DIR}/papers.json"
 REQUEST_DELAY = 2.0
 RISS_BASE     = "https://www.riss.kr"
 
@@ -83,23 +82,45 @@ def load_page(driver, url, wait_sec=4):
 
 
 # ════════════════════════════════════════
-#  기존 데이터 로드
+#  개별 학술지 JSON 로드 / 저장
 # ════════════════════════════════════════
 
-def load_existing() -> tuple[dict, set]:
-    """기존 papers.json 로드 → (db, 기존 article_id 집합)"""
-    path = Path(PAPERS_JSON)
+def journal_path(journal_name: str) -> Path:
+    return Path(OUTPUT_DIR) / f"riss_{journal_name}.json"
+
+def load_journal(journal_name: str) -> dict:
+    """개별 학술지 JSON 파일 로드. 없으면 빈 구조 반환."""
+    path = journal_path(journal_name)
     if not path.exists():
-        print(f"⚠ {PAPERS_JSON} 없음 → 전체 수집 필요")
-        print("  riss_selenium_crawler.py --all 을 먼저 실행하세요.")
-        return None, set()
-
+        print(f"  ⚠ {path.name} 없음 → 빈 데이터로 시작")
+        return {"info": {"name": journal_name}, "articles": []}
     with open(path, encoding="utf-8") as f:
-        db = json.load(f)
+        return json.load(f)
 
-    existing_ids = {a["id"] for a in db.get("index", [])}
-    print(f"기존 데이터: {len(existing_ids)}편")
-    return db, existing_ids
+def save_journal(journal_name: str, data: dict):
+    """개별 학술지 JSON 파일 저장."""
+    path = journal_path(journal_name)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    sz = path.stat().st_size / 1024 / 1024
+    print(f"  저장: {path.name} ({len(data['articles'])}편, {sz:.1f}MB)")
+
+def load_all_existing_ids() -> set:
+    """모든 학술지 JSON에서 기존 article_id 전부 수집 (중복 방지용)."""
+    ids = set()
+    for path in Path(OUTPUT_DIR).glob("riss_*.json"):
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+            arts = data.get("articles", data) if isinstance(data, dict) else data
+            for a in arts:
+                aid = a.get("article_id") or a.get("id", "")
+                if aid:
+                    ids.add(aid)
+        except Exception as e:
+            print(f"  ⚠ {path.name} 로드 실패: {e}")
+    print(f"기존 전체 데이터: {len(ids)}편")
+    return ids
 
 
 # ════════════════════════════════════════
@@ -290,46 +311,42 @@ def fetch_detail(driver, article_id: str) -> dict:
 
 
 # ════════════════════════════════════════
-#  papers.json 병합 및 저장
+#  학술지별 병합 및 저장
 # ════════════════════════════════════════
 
-def merge_and_save(db: dict, new_articles: list[dict]) -> int:
-    """새 논문을 기존 db에 병합하고 저장"""
+def merge_and_save_journal(journal_name: str, new_articles: list[dict],
+                            existing_ids: set) -> int:
+    """새 논문을 해당 학술지 JSON 파일에 병합하고 저장."""
     if not new_articles:
         return 0
 
-    # index에 추가
-    existing_index = db.get("index", [])
-    existing_ids   = {a["id"] for a in existing_index}
+    data = load_journal(journal_name)
+    current_articles = data.get("articles", [])
+
+    # 기존 article_id 집합 (이 파일 내)
+    file_ids = {a.get("article_id") or a.get("id", "") for a in current_articles}
 
     added = 0
     for art in new_articles:
         aid = art.get("article_id") or _gid(art)
-        if aid in existing_ids:
-            continue
         art["id"] = aid
-        existing_index.append(art)
-        existing_ids.add(aid)
+        if aid in file_ids:
+            continue
+        current_articles.append(art)
+        file_ids.add(aid)
+        existing_ids.add(aid)   # 전역 중복 방지 집합도 업데이트
         added += 1
 
-    # journals 업데이트
-    for art in new_articles:
-        jname = art["journal_name"]
-        if jname not in db.get("journals", {}):
-            db.setdefault("journals", {})[jname] = {"info": {"name": jname}, "articles": []}
-        db["journals"][jname].setdefault("articles", []).append(art)
+    if added == 0:
+        return 0
 
-    # meta 업데이트
-    db["index"] = existing_index
-    db["meta"]["total_articles"] = len(existing_index)
-    db["meta"]["last_updated"]   = datetime.now().strftime("%Y-%m-%d")
-    db["meta"]["updated_at"]     = datetime.now().isoformat()
+    # info 보존 (기존 것 우선)
+    if "info" not in data:
+        data["info"] = {"name": journal_name}
+    data["info"]["last_updated"] = datetime.now().strftime("%Y-%m-%d")
+    data["articles"] = current_articles
 
-    with open(PAPERS_JSON, "w", encoding="utf-8") as f:
-        json.dump(db, f, ensure_ascii=False, indent=2)
-
-    sz = Path(PAPERS_JSON).stat().st_size / 1024 / 1024
-    print(f"  papers.json 저장: {len(existing_index)}편 ({sz:.1f}MB)")
+    save_journal(journal_name, data)
     return added
 
 
@@ -340,10 +357,8 @@ def merge_and_save(db: dict, new_articles: list[dict]) -> int:
 def run(depth=1):
     Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
 
-    # 기존 데이터 로드
-    db, existing_ids = load_existing()
-    if db is None:
-        return
+    # 모든 학술지 파일에서 기존 ID 수집
+    existing_ids = load_all_existing_ids()
 
     print(f"\nChrome 초기화...")
     driver = init_driver()
@@ -386,7 +401,7 @@ def run(depth=1):
                 time.sleep(REQUEST_DELAY)
 
             if journal_new:
-                added = merge_and_save(db, journal_new)
+                added = merge_and_save_journal(name, journal_new, existing_ids)
                 total_new += added
                 print(f"  → {name}: {added}편 추가")
             else:
