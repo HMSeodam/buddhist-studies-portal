@@ -379,12 +379,81 @@ const JOURNAL_URLS = {
 // ════════════════════════════════════════
 const S={db:null,idx:[],fuse:null,q:"",fj:"",fc:"",fy:"",sort:"relevance",res:[],pg:1,pp:15};
 
+const JOURNAL_FILES = [
+  "riss_IJBTC.json","riss_강좌미술사.json","riss_대각사상.json",
+  "riss_동아시아불교문화.json","riss_동악미술사학.json","riss_명상심리상담.json",
+  "riss_무형문화연구.json","riss_보조사상.json","riss_불교문예연구.json",
+  "riss_불교미술사학.json","riss_불교연구.json","riss_불교와 사회.json",
+  "riss_불교철학.json","riss_불교학리뷰.json","riss_불교학밀교학연구.json",
+  "riss_불교학보.json","riss_불교학연구.json","riss_선문화연구.json",
+  "riss_선학.json","riss_인도철학.json","riss_정토학연구.json",
+  "riss_종학연구.json","riss_한국교수불자연합학회지.json","riss_한국불교사연구.json",
+  "riss_한국불교학.json","riss_한마음연구.json"
+];
+
 async function loadDB(){
   try{
-    const r=await fetch("./output/papers.json");
-    if(!r.ok)throw 0;
-    S.db=await r.json();S.idx=S.db.index||[];init();
-  }catch{S.db=SAMP;S.idx=SAMP.index;init(true);}
+    const db = {meta:{total_articles:0,last_updated:"",journals:26}, journals:{}, index:[]};
+    let loaded = 0;
+
+    // 헤더에 로딩 표시
+    document.getElementById("headerMeta").textContent = "데이터 로딩 중…";
+
+    for(const fname of JOURNAL_FILES){
+      try{
+        const r = await fetch("./output/" + fname);
+        if(!r.ok) continue;
+        const data = await r.json();
+
+        // 학술지 정보
+        const jname = data.info?.name || fname.replace("riss_","").replace(".json","");
+        db.journals[jname] = data;
+
+        // index 생성
+        const info = data.info || {};
+        (data.articles || []).forEach(art => {
+          const au = (art.authors||[]).map(a=>a.name||"").join(" ");
+          const kws = [...(art.keywords_kr||[]),...(art.keywords_en||[]),...(art.ai_keywords||[])];
+          db.index.push({
+            id:           art.article_id || art.id || ("R"+Math.random().toString(36).slice(2)),
+            journal_name: jname,
+            category:     info.category || "불교학",
+            title_kr:     art.title_kr || "",
+            title_en:     art.title_en || "",
+            author_names: au,
+            authors:      art.authors || [],
+            year:         art.year || "",
+            volume:       art.volume || "",
+            issue:        art.issue || "",
+            start_page:   art.start_page || "",
+            abstract_kr:  art.abstract_kr || "",
+            keywords:     kws,
+            keywords_kr:  art.keywords_kr || [],
+            ai_keywords:  art.ai_keywords || [],
+            riss_url:     art.riss_url || "",
+            kci_url:      art.kci_url || "",
+            doi:          art.doi || "",
+            source:       art.source || "RISS",
+          });
+        });
+
+        loaded++;
+        document.getElementById("headerMeta").textContent = `로딩 중… ${loaded}/${JOURNAL_FILES.length}`;
+      } catch(e){ console.warn(fname, e); }
+    }
+
+    // 최신 업데이트 날짜
+    const dates = db.index.map(a=>a.year).filter(Boolean).sort();
+    db.meta.total_articles = db.index.length;
+    db.meta.last_updated = new Date().toISOString().slice(0,10);
+
+    S.db = db;
+    S.idx = db.index;
+    init();
+  } catch(e){
+    console.error(e);
+    S.db=SAMP; S.idx=SAMP.index; init(true);
+  }
 }
 
 function init(demo=false){
