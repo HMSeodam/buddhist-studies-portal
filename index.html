@@ -7,7 +7,7 @@
 <title>불교학논문 통합검색</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Noto+Sans+KR:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
 <style>
 :root {
   --navy:#1A3A5C; --navy-lt:#2E5A8A;
@@ -355,7 +355,7 @@ const JOURNAL_URLS = {
   "동악미술사학":       {url:"https://dongak-art.jams.or.kr/po/search/poArtiSearList.kci", note:""},
   "강좌미술사":         {url:"http://arthistory.or.kr/journal/search", note:""},
   "정토학연구":         {url:"http://www.jungtohak.or.kr/page/sub3_1.html", note:""},
-  "선문화연구":         {url:"http://www.seonli.or.kr/board02/list.asp", note:"자료실 → 논문자료 메뉴로 이동하세요. 일부 초기 호수가 누락되어 있을 수 있습니다."},
+  "선문화연구":         {url:"http://www.seonli.or.kr/board02/list.asp", note:"<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> 자료실 → 논문자료 메뉴로 이동하세요. 일부 초기 호수가 누락되어 있을 수 있습니다."},
   "불교문예연구":       {url:"https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003288813", note:""},
   "불교학보":           {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000003817", note:""},
   "불교학연구":         {url:"https://journal.kabs.re.kr/articles/all-issues/", note:""},
@@ -372,7 +372,7 @@ const JOURNAL_URLS = {
   "인도철학":           {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=001529", note:""},
   "명상심리상담":       {url:"https://mpca.or.kr/?c=journal/72", note:""},
   "불교와 사회":        {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000006075", note:""},
-  "IJBTC":              {url:"https://ijbtc.dongguk.edu/", note:"Issues → Journal Archive 메뉴로 이동하세요. 일부 초기 호수가 누락되어 있을 수 있습니다."},
+  "IJBTC":              {url:"https://ijbtc.dongguk.edu/", note:"<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Issues → Journal Archive 메뉴로 이동하세요. 일부 초기 호수가 누락되어 있을 수 있습니다."},
   "한국불교사연구":     {url:"http://www.kbhi.or.kr/html/sub03_01.asp", note:""},
   "한마음연구":         {url:"https://daehaeng.re.kr/article_paperdown?sca=16%EC%A7%91", note:""},
   "종학연구":           {url:"https://jonghak.dongguk.edu/article/journal/list", note:""},
@@ -439,9 +439,13 @@ async function loadDB(){
   const db = {meta:{total_articles:0,last_updated:"",journals:26}, journals:{}, index:[]};
   document.getElementById("headerMeta").textContent = "데이터 로딩 중…";
 
-  // Cache API 열기 (지원 안 하면 null)
+  // Cache API 열기 — 타임아웃 2초 (Edge 추적방지 등으로 hang될 수 있음)
   let cache = null;
-  try{ cache = await caches.open(CACHE_NAME); } catch(e){}
+  try{
+    const _open = caches.open(CACHE_NAME);
+    const _timeout = new Promise((_, r) => setTimeout(() => r(new Error("cache timeout")), 2000));
+    cache = await Promise.race([_open, _timeout]);
+  } catch(e){ cache = null; }
 
   async function loadOne(fname){
     const url = "./output/" + encodeURIComponent(fname);
@@ -456,8 +460,8 @@ async function loadDB(){
       // 캐시 없음 → 네트워크 fetch
       const r = await fetch(url);
       if(!r.ok) return null;
-      // 응답을 캐시에 저장
-      if(cache) await cache.put(url, r.clone());
+      // 응답을 캐시에 저장 (실패해도 무시)
+      if(cache) cache.put(url, r.clone()).catch(()=>{});
       return { fname, data: await r.json(), fromCache: false };
     } catch(e){
       console.warn(fname, e);
