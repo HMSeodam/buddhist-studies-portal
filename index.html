@@ -254,6 +254,9 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
     <select class="fsel" id="filterYear" onchange="applyFilters()">
       <option value="">전체 연도</option>
     </select>
+    <select class="fsel" id="filterIssue" onchange="applyFilters()">
+      <option value="">전체 호수</option>
+    </select>
     <select class="fsel" id="sortSelect" onchange="applyFilters()">
       <option value="relevance">관련도순</option>
       <option value="year_desc">최신순</option>
@@ -382,7 +385,7 @@ const JOURNAL_URLS = {
 // ════════════════════════════════════════
 // 상태
 // ════════════════════════════════════════
-const S={db:null,idx:[],fuse:null,q:"",fj:"",fc:"",fy:"",sort:"relevance",res:[],pg:1,pp:15};
+const S={db:null,idx:[],fuse:null,q:"",fj:"",fc:"",fy:"",fi:"",sort:"relevance",res:[],pg:1,pp:15};
 
 const JOURNAL_FILES = [
   "riss_IJBTC.json","riss_강좌미술사.json","riss_대각사상.json",
@@ -573,7 +576,7 @@ function init(demo=false){
   const m=S.db.meta||{};
   document.getElementById("headerMeta").textContent=`총 ${(m.total_articles||S.idx.length).toLocaleString()}편`+(demo?" (샘플)":"");
   if(m.last_updated){document.getElementById("lastUpdated").textContent=m.last_updated;document.getElementById("updateBanner").style.display="block";}
-  buildFJ();buildFY();buildSidebar();
+  buildFJ();buildFY();buildFI();buildSidebar();
   const inp=document.getElementById("searchInput");
   inp.addEventListener("input",deb(doSearch,280));
   inp.addEventListener("keydown",e=>{if(e.key==="Enter")doSearch();});
@@ -588,6 +591,22 @@ function buildFY(){
   const ys=[...new Set(S.idx.map(a=>a.year).filter(Boolean))].sort((a,b)=>b-a);
   const sel=document.getElementById("filterYear");
   ys.forEach(y=>{const o=document.createElement("option");o.value=y;o.textContent=y+"년";sel.appendChild(o);});
+}
+function buildFI(journal=""){
+  const sel=document.getElementById("filterIssue");
+  const prev=sel.value;
+  sel.innerHTML='<option value="">전체 호수</option>';
+  // 현재 journal 필터 기준으로 호수 목록 추출
+  const pool = journal ? S.idx.filter(a=>a.journal_name===journal) : S.idx;
+  const issues=[...new Set(pool.map(a=>a.issue).filter(Boolean))]
+    .sort((a,b)=>( (parseInt(b)||0)-(parseInt(a)||0) ));
+  issues.forEach(i=>{
+    const o=document.createElement("option");
+    o.value=i; o.textContent=i+"호";
+    sel.appendChild(o);
+  });
+  // 이전 선택값 유지 가능하면 유지
+  if([...sel.options].some(o=>o.value===prev)) sel.value=prev;
 }
 
 // 학술지 발행기관 맵 (데이터에서 추출)
@@ -668,11 +687,12 @@ function selJ(n,btn,mob=false){
   if(mob)closeDrawer();
 }
 function doReset(){
-  S.q=S.fj=S.fc=S.fy="";S.pg=1;
+  S.q=S.fj=S.fc=S.fy=S.fi="";S.pg=1;
   document.getElementById("searchInput").value="";
   document.getElementById("filterJournal").value="";
   document.getElementById("filterCategory").value="";
   document.getElementById("filterYear").value="";
+  document.getElementById("filterIssue").value="";
   document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));
   document.getElementById("resultsArea").innerHTML='<div class="st-msg"><span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><p>검색어를 입력하거나 학술지를 선택하세요.</p></div>';
   document.getElementById("resultCount").innerHTML="";
@@ -681,13 +701,28 @@ function applyFilters(){
   S.fc=document.getElementById("filterCategory").value;
   S.fj=document.getElementById("filterJournal").value;
   S.fy=document.getElementById("filterYear").value;
+  S.fi=document.getElementById("filterIssue").value;
   S.sort=document.getElementById("sortSelect").value;
+  // 학술지 변경 시 호수 목록 재구성
+  buildFI(S.fj);
   let res=S.q?S.fuse.search(S.q).map(r=>({...r.item,_s:r.score})):[...S.idx];
   if(S.fc)res=res.filter(a=>a.category===S.fc);
   if(S.fj)res=res.filter(a=>a.journal_name===S.fj);
   if(S.fy)res=res.filter(a=>a.year===S.fy);
-  if(S.sort==="year_desc")res.sort((a,b)=>(b.year||0)-(a.year||0));
-  else if(S.sort==="year_asc")res.sort((a,b)=>(a.year||0)-(b.year||0));
+  if(S.fi)res=res.filter(a=>a.issue===S.fi);
+  if(S.sort==="year_desc")res.sort((a,b)=>{
+    const yd=(b.year||0)-(a.year||0);
+    if(yd!==0)return yd;
+    // 같은 연도 내: 같은 학술지면 호수 내림차순
+    if(a.journal_name===b.journal_name)return(parseInt(b.issue)||0)-(parseInt(a.issue)||0);
+    return 0;
+  });
+  else if(S.sort==="year_asc")res.sort((a,b)=>{
+    const yd=(a.year||0)-(b.year||0);
+    if(yd!==0)return yd;
+    if(a.journal_name===b.journal_name)return(parseInt(a.issue)||0)-(parseInt(b.issue)||0);
+    return 0;
+  });
   S.res=res;render();
 }
 
