@@ -590,10 +590,15 @@ function init(demo=false){
   inp.addEventListener("keydown",e=>{if(e.key==="Enter")doSearch();});
 }
 
-function buildFJ(){
-  const js=[...new Set(S.idx.map(a=>a.journal_name))].sort();
+function buildFJ(category=""){
+  const pool = category ? S.idx.filter(a=>a.category===category) : S.idx;
+  const js=[...new Set(pool.map(a=>a.journal_name))].sort((a,b)=>a.localeCompare(b,"ko"));
   const sel=document.getElementById("filterJournal");
+  const prev=sel.value;
+  sel.innerHTML='<option value="">전체 학술지</option>';
   js.forEach(j=>{const o=document.createElement("option");o.value=o.textContent=j;sel.appendChild(o);});
+  if([...sel.options].some(o=>o.value===prev)) sel.value=prev;
+  else { sel.value=""; S.fj=""; }
 }
 function buildFY(journal=""){
   const pool = journal ? S.idx.filter(a=>a.journal_name===journal) : S.idx;
@@ -749,6 +754,7 @@ function doReset(){
   document.getElementById("filterCategory").value="";
   document.getElementById("filterYear").value="";
   document.getElementById("filterIssue").value="";
+  buildFJ();  // 전체 학술지 복원
   buildFY();  // 전체 연도 복원
   buildFI();  // disabled 상태로 복원
   document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));
@@ -757,13 +763,32 @@ function doReset(){
 }
 function applyFilters(){
   // 변경 전 값 저장
-  const prevFj=S.fj, prevFy=S.fy;
+  const prevFc=S.fc, prevFj=S.fj, prevFy=S.fy;
   // DOM에서 새 값 읽기
   S.fc=document.getElementById("filterCategory").value;
   S.fj=document.getElementById("filterJournal").value;
   S.fy=document.getElementById("filterYear").value;
   S.sort=document.getElementById("sortSelect").value;
-  // 학술지·연도 바뀌면 호수 선택 초기화
+
+  // 학술지 선택 → 카테고리 자동 고정
+  if(S.fj && S.fj!==prevFj){
+    const jCat = S.idx.find(a=>a.journal_name===S.fj)?.category||"";
+    if(jCat && jCat!==S.fc){
+      S.fc=jCat;
+      document.getElementById("filterCategory").value=jCat;
+    }
+  }
+
+  // 카테고리 변경 → 학술지 목록 재구성, 무관 학술지면 초기화
+  if(S.fc!==prevFc){
+    buildFJ(S.fc);
+    const validJ=[...document.getElementById("filterJournal").options].map(o=>o.value);
+    if(S.fj && !validJ.includes(S.fj)){
+      S.fj=""; document.getElementById("filterJournal").value="";
+    }
+  }
+
+  // 학술지·연도 바뀌면 하위 필터 초기화
   if(S.fj!==prevFj){
     S.fy=""; document.getElementById("filterYear").value="";
     S.fi=""; document.getElementById("filterIssue").value="";
