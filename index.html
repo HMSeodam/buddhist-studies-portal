@@ -600,8 +600,10 @@ function buildFJ(category=""){
   if([...sel.options].some(o=>o.value===prev)) sel.value=prev;
   else { sel.value=""; S.fj=""; }
 }
-function buildFY(journal=""){
-  const pool = journal ? S.idx.filter(a=>a.journal_name===journal) : S.idx;
+function buildFY(journal="", category=""){
+  let pool = S.idx;
+  if(journal)  pool = pool.filter(a=>a.journal_name===journal);
+  else if(category) pool = pool.filter(a=>a.category===category);
   const ys=[...new Set(pool.map(a=>a.year).filter(Boolean))].sort((a,b)=>b-a);
   const sel=document.getElementById("filterYear");
   const prev=sel.value;
@@ -690,9 +692,18 @@ function buildSidebar(){
   if(sortM) sortM.value = sortMode;
 
   const cats={"불교미술사학":[],"불교사학":[],"불교학":[]};
+  // S.db.journals 기반 (dict 형식)
   Object.entries(js).forEach(([n,d])=>{
     const c=d.info?.category||"불교학";
     (cats[c]||cats["불교학"]).push({n,d});
+  });
+  // S.idx 기반으로 빠진 학술지 보완 (list 형식 파일)
+  const covered=new Set(Object.keys(js));
+  [...new Set(S.idx.map(a=>a.journal_name))].forEach(n=>{
+    if(covered.has(n)) return;
+    const sample=S.idx.find(a=>a.journal_name===n);
+    const c=sample?.category||"불교학";
+    (cats[c]||cats["불교학"]).push({n,d:{info:{name:n,category:c}}});
   });
 
   ["journalList","journalListM"].forEach(lid=>{
@@ -755,7 +766,7 @@ function doReset(){
   document.getElementById("filterYear").value="";
   document.getElementById("filterIssue").value="";
   buildFJ();  // 전체 학술지 복원
-  buildFY();  // 전체 연도 복원
+  buildFY("","");  // 전체 연도 복원
   buildFI();  // disabled 상태로 복원
   document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));
   document.getElementById("resultsArea").innerHTML='<div class="st-msg"><span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><p>검색어를 입력하거나 학술지를 선택하세요.</p></div>';
@@ -782,14 +793,22 @@ function applyFilters(){
   // 카테고리 변경 → 학술지 목록 재구성, 무관 학술지면 초기화
   if(S.fc!==prevFc){
     buildFJ(S.fc);
+    // 학술지 선택이 이 카테고리에 없으면 초기화
     const validJ=[...document.getElementById("filterJournal").options].map(o=>o.value);
     if(S.fj && !validJ.includes(S.fj)){
       S.fj=""; document.getElementById("filterJournal").value="";
     }
+    // 학술지 없으면 카테고리 기준으로 연도 재구성
+    if(!S.fj){
+      S.fy=""; document.getElementById("filterYear").value="";
+      S.fi=""; document.getElementById("filterIssue").value="";
+      buildFY("", S.fc);
+      buildFI("", "");
+    }
   }
 
   // 학술지·연도 바뀌면 하위 필터 초기화
-  if(S.fj!==prevFj){
+  if(S.fj && S.fj!==prevFj){
     S.fy=""; document.getElementById("filterYear").value="";
     S.fi=""; document.getElementById("filterIssue").value="";
     buildFY(S.fj);
