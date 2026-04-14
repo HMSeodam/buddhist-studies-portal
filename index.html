@@ -72,8 +72,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 .sbar{position:sticky;top:108px;max-height:calc(100vh - 128px);overflow-y:auto;scrollbar-width:thin}
 .sbar-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:.7rem;padding-bottom:.45rem;border-bottom:1.5px solid var(--border)}
 .sbar-ti{font-size:.63rem;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;font-weight:600}
-.sbar-sort{font-size:.6rem;color:var(--muted);background:none;border:1px solid var(--border);border-radius:10px;padding:.15rem .4rem;cursor:pointer;font-family:var(--sans);transition:var(--tr)}
-.sbar-sort:hover{border-color:var(--navy);color:var(--navy)}
+
 .cat-hdr{font-size:.58rem;letter-spacing:.12em;color:#fff;background:var(--navy);padding:.18rem .5rem;border-radius:4px;margin:.7rem 0 .25rem;display:inline-block;font-weight:600}
 .jlist{list-style:none}
 .jitem{border-bottom:1px solid rgba(221,227,235,.5)}
@@ -271,11 +270,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
   <aside class="sbar">
     <div class="sbar-hd">
       <span class="sbar-ti">학술지별 탐색</span>
-      <select class="sbar-sort" id="sidebarSort" onchange="buildSidebar()">
-        <option value="name">학술지명순</option>
-        <option value="publisher">기관명순</option>
-        <option value="latest">최신호순</option>
-      </select>
+
     </div>
     <ul class="jlist" id="journalList"></ul>
   </aside>
@@ -317,11 +312,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
   <div class="drw-hdl"></div>
   <div class="drw-hdr">
     학술지별 탐색
-    <select class="sbar-sort" id="sidebarSortM" onchange="buildSidebar()" style="margin-left:.5rem">
-      <option value="name">학술지명순</option>
-      <option value="publisher">기관명순</option>
-      <option value="latest">최신호순</option>
-    </select>
+
   </div>
   <div class="drw-cnt"><ul class="jlist" id="journalListM"></ul></div>
 </div>
@@ -686,10 +677,7 @@ function getLatestYear(jdata){
 
 function buildSidebar(){
   const js=S.db.journals||{};
-  const sortMode = document.getElementById("sidebarSort")?.value || "name";
-  // 모바일 드로어 sync
-  const sortM = document.getElementById("sidebarSortM");
-  if(sortM) sortM.value = sortMode;
+  const sortMode = "name";  // 학술지명순 고정
 
   const cats={"불교미술사학":[],"불교사학":[],"불교학":[]};
   // S.db.journals 기반 (dict 형식)
@@ -754,7 +742,10 @@ function doSearch(){S.q=document.getElementById("searchInput").value.trim();S.pg
 function setQuery(q){document.getElementById("searchInput").value=q;S.q=q;S.pg=1;applyFilters();goSearch();}
 function selJ(n,btn,mob=false){
   document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");
-  document.getElementById("filterJournal").value=n;  // DOM만 세팅, S.fj는 applyFilters가 읽음
+  // 카테고리 미리 세팅 → applyFilters 내에서 buildFJ 재호출 방지 (모바일 피커 재오픈 버그 방지)
+  const jCat = S.idx.find(a=>a.journal_name===n)?.category||"";
+  if(jCat){ S.fc=jCat; document.getElementById("filterCategory").value=jCat; buildFJ(jCat); }
+  document.getElementById("filterJournal").value=n;
   S.pg=1;applyFilters();
   if(mob)closeDrawer();
 }
