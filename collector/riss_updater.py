@@ -14,6 +14,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import json, time, re, hashlib
@@ -52,6 +53,9 @@ JOURNALS = [
     {"name":"IJBTC",                 "category":"불교학",      "control_no":"b44e9e4716ca7ae7ffe0bdc3ef48d419"},
     {"name":"종학연구",              "category":"불교학",      "control_no":"d6dbf60f1a65bfc4ffe0bdc3ef48d419"},
     {"name":"무형문화연구",          "category":"불교학",      "control_no":"e92ddca29a0f1d20ffe0bdc3ef48d419"},
+    # display_name: RISS 표시명(세계불학)과 포털 표시명(세화불학) 분리
+    {"name":"세계불학", "display_name":"세화불학",  "category":"불교학",  "control_no":"b0e2ccd5057ccc6bffe0bdc3ef48d419"},
+    {"name":"전자불전",                              "category":"불교학",  "control_no":"4ed0c31dbf9d9728ffe0bdc3ef48d419"},
 ]
 
 
@@ -59,25 +63,54 @@ JOURNALS = [
 #  드라이버
 # ════════════════════════════════════════
 
+try:
+    import undetected_chromedriver as uc
+    _UC_AVAILABLE = True
+except ImportError:
+    _UC_AVAILABLE = False
+
 def init_driver():
+    if _UC_AVAILABLE:
+        opts = uc.ChromeOptions()
+        opts.add_argument("--headless=new")
+        opts.add_argument("--no-sandbox")
+        opts.add_argument("--disable-dev-shm-usage")
+        opts.add_argument("--disable-gpu")
+        opts.add_argument("--window-size=1280,900")
+        driver = uc.Chrome(options=opts, use_subprocess=True)
+        driver.implicitly_wait(5)
+        print("  드라이버: undetected_chromedriver (headless)")
+        return driver
+
+    # ── fallback: 표준 selenium ────────────────────────────
     opts = Options()
     opts.add_argument("--headless=new")
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
     opts.add_argument("--disable-gpu")
     opts.add_argument("--window-size=1280,900")
+    opts.add_argument("--disable-blink-features=AutomationControlled")
+    opts.add_experimental_option("excludeSwitches", ["enable-automation"])
+    opts.add_experimental_option("useAutomationExtension", False)
     opts.add_argument(
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
+    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+        "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+    })
     driver.implicitly_wait(5)
+    print("  드라이버: selenium (UC 미설치)")
     return driver
 
 
 def load_page(driver, url, wait_sec=4):
     driver.get(url)
     time.sleep(wait_sec)
+    landed = driver.current_url
+    if landed.rstrip("/") != url.rstrip("/") and "DetailView" in url and "DetailView" not in landed:
+        print(f"  ⚠ 리다이렉트 감지: {url[:70]}")
     return BeautifulSoup(driver.page_source, "html.parser")
 
 
@@ -87,6 +120,10 @@ def load_page(driver, url, wait_sec=4):
 
 def journal_path(journal_name: str) -> Path:
     return Path(OUTPUT_DIR) / f"riss_{journal_name}.json"
+
+def journal_key(journal: dict) -> str:
+    """파일명·표시에 쓰이는 이름 반환 (display_name 우선)."""
+    return journal.get("display_name") or journal["name"]
 
 def load_journal(journal_name: str) -> dict:
     """개별 학술지 JSON 파일 로드. 없으면 빈 구조 반환."""
@@ -129,36 +166,64 @@ def load_all_existing_ids() -> set:
 
 def get_recent_issues(driver, control_no: str, depth: int) -> list[dict]:
     """학술지 페이지에서 최신 호수 N개만 수집"""
-    url  = (f"{RISS_BASE}/search/detail/DetailView.do"
-            f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}")
-    soup = load_page(driver, url, wait_sec=5)
+    base_url = (f"{RISS_BASE}/search/detail/DetailView.do"
+                f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}")
+    driver.get(base_url)
+    time.sleep(5)
 
     issues = []
     seen   = set()
 
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if "v_control_no" not in href:
-            continue
-        m = re.search(r"v_control_no=([a-f0-9]+)", href)
-        if not m or m.group(1) in seen:
-            continue
-        seen.add(m.group(1))
+    def collect_from_current():
+        found = []
+        soup  = BeautifulSoup(driver.page_source, "html.parser")
+        for a in soup.find_all("a"):
+            href    = a.get("href",    "") or ""
+            onclick = a.get("onclick", "") or ""
+            source  = href if "v_control_no" in href else onclick if "v_control_no" in onclick else ""
+            if not source:
+                continue
+            m = re.search(r"v_control_no=([a-f0-9]+)", source)
+            if not m or m.group(1) in seen:
+                continue
+            v_id = m.group(1)
+            seen.add(v_id)
+            txt   = a.get_text(strip=True)
+            no_m  = re.search(r"No\.(\d+)", txt)
+            vol_m = re.search(r"Vol\.(\d+)", txt)
+            if href.startswith("/"):
+                full_url = RISS_BASE + href
+            elif href.startswith("http"):
+                full_url = href
+            else:
+                full_url = (f"{RISS_BASE}/search/detail/DetailView.do"
+                           f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}"
+                           f"&v_control_no={v_id}&inside_outside=1")
+            found.append({
+                "v_control_no": v_id,
+                "issue":        no_m.group(1)  if no_m  else "",
+                "volume":       vol_m.group(1) if vol_m else "",
+                "label":        txt,
+            })
+        return found
 
-        txt   = a.get_text(strip=True)
-        no_m  = re.search(r"No\.(\d+)", txt)
-        vol_m = re.search(r"Vol\.(\d+)", txt)
-        issues.append({
-            "v_control_no": m.group(1),
-            "issue":        no_m.group(1)  if no_m  else "",
-            "volume":       vol_m.group(1) if vol_m else "",
-            "label":        txt,
-        })
+    # 1차: 기본 페이지
+    issues += collect_from_current()
 
-        if len(issues) >= depth:
-            break  # 최신 N개만
+    if not issues:
+        # 2차: 연도별 URL 직접 순회 (세계불학·전자불전 구조)
+        cur = datetime.now().year
+        for year in range(cur, cur - 4, -1):
+            year_url = (f"{RISS_BASE}/search/detail/DetailView.do"
+                       f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}"
+                       f"&inside_outside=0&v_year={year}")
+            driver.get(year_url)
+            time.sleep(3)
+            issues += collect_from_current()
+            if len(issues) >= depth:
+                break
 
-    return issues
+    return issues[:depth]
 
 
 # ════════════════════════════════════════
@@ -363,11 +428,17 @@ def run(depth=1):
     print(f"\nChrome 초기화...")
     driver = init_driver()
 
+    # RISS 세션 쿠키 확보 (직접 상세 URL 접근 시 홈으로 튕기는 현상 방지)
+    print("  RISS 세션 워밍업 중...")
+    driver.get(RISS_BASE)
+    time.sleep(4)
+    print(f"  세션 확보 완료")
+
     total_new = 0
 
     try:
         for journal in JOURNALS:
-            name       = journal["name"]
+            name       = journal_key(journal)   # display_name 우선
             control_no = journal["control_no"]
 
             print(f"\n[{name}] 최신 {depth}호수 확인 중...")
