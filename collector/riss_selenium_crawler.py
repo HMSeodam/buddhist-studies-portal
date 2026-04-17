@@ -181,7 +181,7 @@ def get_issue_list(driver, control_no: str) -> list:
     print("  연도 클릭 방식으로 호수 탐색 중...")
     year_els = [
         el for el in driver.find_elements(By.TAG_NAME, "a")
-        if re.match(r"^20\d{2}", el.text.strip())
+        if re.match(r"^(19|20)\d{2}", el.text.strip())
     ]
     if year_els:
         for el in year_els:
@@ -195,7 +195,36 @@ def get_issue_list(driver, control_no: str) -> list:
                 print(f"{len(issues) - before}개 발견")
             except Exception as e:
                 print(f"클릭 실패: {e}")
+
+    # ── 2-1차: 사이드바에 없는 이전 연도 추가 탐색 ───────────────────────
+    # 사이드바가 특정 연도 이전을 표시하지 않는 경우(예: 전자불전 1999년)
+    # 찾은 연도 중 가장 이른 연도 이전을 v_year URL로 추가 시도
     if issues:
+        found_years = []
+        for el in year_els:
+            m = re.match(r"(19|20)\d{2}", el.text.strip())
+            if m:
+                found_years.append(int(m.group(1)))
+        if found_years:
+            earliest = min(found_years)
+            print(f"  사이드바 최초 연도 {earliest}년 이전 추가 탐색...")
+            consecutive_empty = 0
+            for year in range(earliest - 1, earliest - 10, -1):
+                year_url = (f"{RISS_BASE}/search/detail/DetailView.do"
+                            f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}"
+                            f"&inside_outside=0&v_year={year}")
+                driver.get(year_url)
+                time.sleep(3)
+                before  = len(issues)
+                issues += _collect_issues_from_page(driver, control_no, seen)
+                added   = len(issues) - before
+                if added:
+                    print(f"    {year}년: {added}개 발견")
+                    consecutive_empty = 0
+                else:
+                    consecutive_empty += 1
+                    if consecutive_empty >= 3:
+                        break
         return issues
 
     # ── 3차: 연도별 URL 직접 순회 (fallback) ─────────────────────────────
