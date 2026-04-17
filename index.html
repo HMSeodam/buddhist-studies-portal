@@ -222,7 +222,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 <section class="hero">
   <div class="hero-ey">Buddhist Studies Research Portal</div>
   <h1 class="hero-ti">불교계 학술논문 통합 검색</h1>
-  <p class="hero-su">불교학술지 26종 · 논문명 / 저자명 / 키워드</p>
+  <p class="hero-su">불교학술지 <span id="journalCount">-</span>종 · 논문명 / 저자명 / 키워드</p>
   <div class="srch-wr">
     <input type="text" id="searchInput" class="srch-in"
            placeholder="논문명, 저자명, 키워드 입력…"
@@ -284,7 +284,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 </div>
 
 <footer class="ftr">
-  <div>불교학논문 통합검색 · 불교학술지 26종</div>
+  <div>불교학논문 통합검색 · 불교학술지 <span id="journalCountFooter">-</span>종</div>
   <div style="margin:.3rem 0">데이터: <a href="https://www.riss.kr" target="_blank">학술연구정보서비스(RISS)</a></div>
   <div style="margin-top:.8rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.1);font-size:.65rem;color:rgba(255,255,255,.35);line-height:2">
     제작: 서담 한민수 · 동명대학교 (Tongmyong University)<br>
@@ -372,6 +372,8 @@ const JOURNAL_URLS = {
   "한마음연구":         {url:"https://daehaeng.re.kr/article_paperdown?sca=16%EC%A7%91", note:""},
   "종학연구":           {url:"https://jonghak.dongguk.edu/article/journal/list", note:"", category:"불교학"},
   "무형문화연구":       {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000006102", note:"", category:"불교학"},
+  "세화불학":           {url:"https://xn--wr3bl1e16firr29a.org/journal/search", note:"", category:"불교학"},
+  "전자불전":           {url:"https://www.iebtc.net/%EC%B6%9C%ED%8C%90%EB%AC%BC-journal/jebtc", note:"", category:"불교학"},
 };
 
 // ════════════════════════════════════════
@@ -388,7 +390,8 @@ const JOURNAL_FILES = [
   "riss_불교학보.json","riss_불교학연구.json","riss_선문화연구.json",
   "riss_선학.json","riss_인도철학.json","riss_정토학연구.json",
   "riss_종학연구.json","riss_한국교수불자연합학회지.json","riss_한국불교사연구.json",
-  "riss_한국불교학.json","riss_한마음연구.json"
+  "riss_한국불교학.json","riss_한마음연구.json",
+  "riss_세화불학.json","riss_전자불전.json"
 ];
 
 // ════════════════════════════════════════
@@ -575,6 +578,11 @@ function init(demo=false){
   const m=S.db.meta||{};
   document.getElementById("headerMeta").textContent=`총 ${(m.total_articles||S.idx.length).toLocaleString()}편`+(demo?" (샘플)":"");
   if(m.last_updated){document.getElementById("lastUpdated").textContent=m.last_updated;document.getElementById("updateBanner").style.display="block";}
+
+  // 실제 로드된 학술지 수로 동적 업데이트
+  const jCount = Object.keys(S.db.journals||{}).length;
+  document.querySelectorAll("#journalCount, #journalCountFooter").forEach(el => el.textContent = jCount);
+
   buildFJ();buildFY();buildFI();buildSidebar();
   const inp=document.getElementById("searchInput");
   inp.addEventListener("input",deb(doSearch,280));
