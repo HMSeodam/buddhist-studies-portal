@@ -56,6 +56,7 @@ JOURNALS = [
     # display_name: RISS 표시명(세계불학)과 포털 표시명(세화불학) 분리
     {"name":"세계불학", "display_name":"세화불학",  "category":"불교학",  "control_no":"b0e2ccd5057ccc6bffe0bdc3ef48d419"},
     {"name":"전자불전",                              "category":"불교학",  "control_no":"4ed0c31dbf9d9728ffe0bdc3ef48d419"},
+    {"name":"원불교사상과 종교문화",                  "category":"불교학",  "control_no":"5c0f0b74c7717105"},
 ]
 
 
@@ -329,8 +330,8 @@ def fetch_detail(driver, article_id: str) -> dict:
 
         elif label == "권호사항":
             txt = div.get_text(separator=" ", strip=True)
-            vol_m = re.search(r"Vol\.(\d+)", txt)
-            no_m  = re.search(r"No\.(\d+)", txt)
+            vol_m = re.search(r"Vol\.(\d+(?:[-·~]\d+)?)", txt)
+            no_m  = re.search(r"No\.(\d+(?:[-·~]\d+)?)", txt)
             yr_m  = re.search(r"\[(\d{4})\]", txt)
             if vol_m: r["volume"] = vol_m.group(1)
             if no_m:  r["issue"]  = no_m.group(1)
