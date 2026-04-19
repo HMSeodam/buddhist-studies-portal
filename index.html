@@ -169,6 +169,11 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 .toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%) translateY(2rem);background:var(--navy);color:#fff;padding:.6rem 1.2rem;border-radius:2rem;font-size:.78rem;font-weight:500;box-shadow:0 4px 16px rgba(0,0,0,.25);opacity:0;transition:opacity .3s,transform .3s;pointer-events:none;z-index:9999;white-space:nowrap}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
+/* SIDEBAR TABS */
+.sb-tab{font-family:var(--sans);font-size:.6rem;padding:.22rem .6rem;border-radius:20px;border:1.5px solid var(--border);background:var(--bg-s);color:var(--muted);cursor:pointer;transition:var(--tr);font-weight:600;white-space:nowrap;line-height:1}
+.sb-tab.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.sb-tab:hover:not(.on){background:var(--bg-m)}
+
 /* FOOTER */
 .ftr{background:var(--navy);color:rgba(255,255,255,.4);text-align:center;padding:2rem 1.25rem;font-size:.7rem;line-height:2.2;margin-top:2rem}
 .ftr a{color:var(--gold-lt);text-decoration:none}
@@ -208,7 +213,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
   <div class="hdr-in">
     <a href="#" class="logo">
       <span class="logo-m">불교학논문 통합검색</span>
-      <span class="logo-s">Buddhist Studies Portal · RISS</span>
+      <span class="logo-s">Buddhist Studies Portal · RISS · J-Stage</span>
     </a>
     <span class="hdr-cnt" id="headerMeta">로딩 중…</span>
   </div>
@@ -222,7 +227,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 <section class="hero">
   <div class="hero-ey">Buddhist Studies Research Portal</div>
   <h1 class="hero-ti">불교계 학술논문 통합 검색</h1>
-  <p class="hero-su">불교학술지 <span id="journalCount">-</span>종 · 논문명 / 저자명 / 키워드</p>
+  <p class="hero-su">불교학술지 <span id="journalCount">…</span>종 · 논문명 / 저자명 / 키워드</p>
   <div class="srch-wr">
     <input type="text" id="searchInput" class="srch-in"
            placeholder="논문명, 저자명, 키워드 입력…"
@@ -251,6 +256,11 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
     <select class="fsel" id="filterJournal" onchange="applyFilters()">
       <option value="">전체 학술지</option>
     </select>
+    <select class="fsel" id="filterCountry" onchange="applyFilters()">
+      <option value="">전체 국가</option>
+      <option value="Korea">한국</option>
+      <option value="Japan">일본</option>
+    </select>
     <select class="fsel" id="filterYear" onchange="applyFilters()">
       <option value="">전체 연도</option>
     </select>
@@ -270,7 +280,11 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
   <aside class="sbar">
     <div class="sbar-hd">
       <span class="sbar-ti">학술지별 탐색</span>
-
+      <div style="display:flex;gap:3px">
+        <button id="sbTabAll" class="sb-tab on" onclick="setSbTab('')">전체</button>
+        <button id="sbTabKR"  class="sb-tab"    onclick="setSbTab('Korea')">한국</button>
+        <button id="sbTabJP"  class="sb-tab"    onclick="setSbTab('Japan')">일본</button>
+      </div>
     </div>
     <ul class="jlist" id="journalList"></ul>
   </aside>
@@ -284,8 +298,8 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 </div>
 
 <footer class="ftr">
-  <div>불교학논문 통합검색 · 불교학술지 <span id="journalCountFooter">-</span>종</div>
-  <div style="margin:.3rem 0">데이터: <a href="https://www.riss.kr" target="_blank">학술연구정보서비스(RISS)</a></div>
+  <div>불교학논문 통합검색 · 불교학술지 <span id="journalCountFtr">…</span>종</div>
+  <div style="margin:.3rem 0">데이터: <a href="https://www.riss.kr" target="_blank">학술연구정보서비스(RISS)</a> &nbsp;·&nbsp; <a href="https://www.jstage.jst.go.jp/browse/-char/ja" target="_blank">科学技術情報発信・流通総合システム（J-STAGE）</a></div>
   <div style="margin-top:.8rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.1);font-size:.65rem;color:rgba(255,255,255,.35);line-height:2">
     제작: 서담 한민수 · 동명대학교 (Tongmyong University)<br>
     <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" style="color:rgba(255,255,255,.4)">CC BY-NC-ND 4.0</a>
@@ -312,7 +326,11 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
   <div class="drw-hdl"></div>
   <div class="drw-hdr">
     학술지별 탐색
-
+    <div style="display:flex;gap:3px;margin-top:.35rem">
+      <button id="sbTabAllM" class="sb-tab on" onclick="setSbTab('',true)">전체</button>
+      <button id="sbTabKRM"  class="sb-tab"    onclick="setSbTab('Korea',true)">한국</button>
+      <button id="sbTabJPM"  class="sb-tab"    onclick="setSbTab('Japan',true)">일본</button>
+    </div>
   </div>
   <div class="drw-cnt"><ul class="jlist" id="journalListM"></ul></div>
 </div>
@@ -324,24 +342,356 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
       <button class="mod-cls" onclick="closeModBtn()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
       <div class="mod-ti" id="modTi"></div>
       <div class="mod-ten" id="modTen"></div>
+      <div class="mod-ten" id="modTja" style="font-style:normal;font-size:.72rem;color:var(--muted);margin-top:-.3rem"></div>
       <div class="pmeta" id="modMeta"></div>
     </div>
     <div class="mod-bdy">
       <div id="modAu"></div>
       <div class="msec">서지 정보</div>
       <div id="modBib"></div>
-      <div class="msec">국문초록</div>
+      <div class="msec">초록</div>
       <div class="mabs" id="modAbs"></div>
       <div class="msec">키워드</div>
-      <div class="pkws" id="modKw"></div>
+      <div class="pkws" id="modKw" style="margin-bottom:1rem"></div>
       <div class="msec">원문 링크</div>
       <div class="mlks" id="modLks"></div>
       <div id="modNote"></div>
     </div>
   </div>
 </div>
-
 <script>
+// ════════════════════════════════════════
+// 이체자(異體字) 정규화 — 한국 한자 ↔ 일본 한자 통합 검색
+// ════════════════════════════════════════
+
+// 한국 전통자 → 일본 신자체 (또는 공통형) 매핑
+// 양방향: 검색어와 인덱스 모두 같은 형태로 정규화
+// 정규화 방향: 번체(한국·중국) → 신자체(일본) 통일
+// 검색어와 인덱스 모두 동일 형태로 변환하므로 양방향 검색 가능
+const KANJI_MAP = {
+  // ── 佛교 핵심 ──────────────────────────
+  '佛':'仏',  // 佛→仏 (★ 주의: 仳가 아니라 仏)
+  '禪':'禅',  // 禪→禅 (★ 방향: 번체→신자체)
+  '釋':'釈',  // 釋→釈
+  '藏':'蔵',  // 藏→蔵
+  '經':'経',  // 經→経
+  '緣':'縁',  // 緣→縁
+  '觀':'観',  // 觀→観
+  '淨':'浄',  // 淨→浄
+  '寶':'宝',  // 寶→宝
+  '彌':'弥',  // 彌→弥
+  '嚴':'厳',  // 嚴→厳 (★ 주의: 岮가 아니라 厳)
+  '莊':'荘',  // 莊→荘
+  '龍':'竜',  // 龍→竜 (한국 번체)
+  // ── 일반 자주 쓰이는 글자 ──────────────
+  '學':'学',  // 學→学
+  '國':'国',  // 國→国
+  '來':'来',  // 來→来
+  '實':'実',  // 實→実
+  '傳':'伝',  // 傳→伝
+  '續':'続',  // 續→続
+  '證':'証',  // 證→証
+  '讀':'読',  // 讀→読
+  '辭':'辞',  // 辭→辞
+  '號':'号',  // 號→号
+  '歲':'歳',  // 歲→歳
+  '體':'体',  // 體→体
+  '萬':'万',  // 萬→万
+  '顯':'顕',  // 顯→顕
+  '專':'専',  // 專→専
+  '獨':'独',  // 獨→独
+  '變':'変',  // 變→変
+  '惡':'悪',  // 惡→悪
+  '壞':'壊',  // 壞→壊
+  '讚':'讃',  // 讚→讃
+  '點':'点',  // 點→点
+  '齊':'斉',  // 齊→斉
+  '尙':'尚',  // 尙→尚
+  '歸':'帰',  // 歸→帰
+  '澤':'沢',  // 澤→沢
+  '數':'数',  // 數→数
+  '處':'処',  // 處→処
+  '爲':'為',  // 爲→為
+  '關':'関',  // 關→関
+  '開':'開',  // 이미 같음
+  '發':'発',  // 發→発
+  '會':'会',  // 會→会
+  '對':'対',  // 對→対
+  '當':'当',  // 當→当
+  '藝':'芸',  // 藝→芸
+  '飜':'翻',  // 飜→翻
+  '禮':'礼',  // 禮→礼
+  '靈':'霊',  // 靈→霊
+  '臺':'台',  // 臺→台
+  '區':'区',  // 區→区
+  '圖':'図',  // 圖→図
+  '廣':'広',  // 廣→広
+  '應':'応',  // 應→応
+  '戰':'戦',  // 戰→戦
+  '氣':'気',  // 氣→気
+  '淵':'渕',  // 淵→渕
+  '燈':'灯',  // 燈→灯
+  '獸':'獣',  // 獸→獣
+  '眞':'真',  // 眞→真
+  '稱':'称',  // 稱→称
+  '禱':'祈',  // 禱→祈 (기도)
+  '總':'総',  // 總→総
+  '義':'義',  // 이미 같음
+  '聲':'声',  // 聲→声
+  '舊':'旧',  // 舊→旧
+  '蘇':'蘇',  // 이미 같음
+  '虛':'虚',  // 虛→虚
+  '覺':'覚',  // 覺→覚
+  '計':'計',  // 이미 같음
+  '諸':'諸',  // 이미 같음
+  '論':'論',  // 이미 같음
+  '豐':'豊',  // 豐→豊
+  '辯':'弁',  // 辯→弁
+  '邊':'辺',  // 邊→辺
+  '錄':'録',  // 錄→録
+  '頌':'頌',  // 이미 같음
+  '顔':'顔',  // 이미 같음
+  '飜':'翻',  // 飜→翻
+};
+
+function normalizeKanji(str) {
+  if (!str) return '';
+  // 1) NFKC 유니코드 정규화
+  str = str.normalize('NFKC');
+  // 2) 이체자 통합
+  return str.replace(/[一-鿿豈-﫿]/g, ch => KANJI_MAP[ch] || ch);
+}
+
+
+// ════════════════════════════════════════
+// 일본 불교학 학자명 별칭 사전
+// 한국어 독음 / 로마자 표기 → 한자명 변환
+// 새 학자 추가: {kr:"한국어독음", romaji:"로마자", kanji:"漢字名"}
+// ════════════════════════════════════════
+
+const SCHOLAR_ALIASES = [
+
+  // ━━ ㄱ ━━
+  {kr:["가등순장","가토준쇼"],          romaji:["kato junsho"],                  kanji:"加藤純章"},
+  {kr:["가등정준","가토세이준"],        romaji:["kato seijun"],                  kanji:"加藤精純"},
+  {kr:["가등도수","가토미치히사"],      romaji:["kato michihisa"],               kanji:"加藤道壽"},
+  {kr:["각흘구주","가쿠키츠규슈"],      romaji:["kakukitsu gyushu"],             kanji:"覺吉久壽"},
+  {kr:["고교신위","고쿄신이"],          romaji:["kokyo shinni"],                 kanji:"高橋信位"},
+  {kr:["고교정존","다카하시마사노부"],  romaji:["takahashi masanobu"],           kanji:"高橋正信"},
+  {kr:["고전수충","고텐히데미츠"],      romaji:["koten hidemitsu"],              kanji:"高田修"],
+  {kr:["곡구정각","야타니쇼카쿠"],      romaji:["yatani shokaku"],               kanji:"谷口正覺"},
+  {kr:["궁본정존","미야모토쇼존"],      romaji:["miyamoto shozon"],              kanji:"宮本正尊"},
+  {kr:["길장"],                          romaji:["jizang","chi-tsang"],           kanji:"吉藏"},
+  {kr:["길천행남","요시카와유키오"],    romaji:["yoshikawa yukio"],              kanji:"吉川幸男"},
+  {kr:["길천박항","요시카와히로유키"],  romaji:["yoshikawa hiroyuki"],           kanji:"吉川博行"},
+
+  // ━━ ㄴ ━━
+  {kr:["나가르주나","용수"],             romaji:["nagarjuna"],                    kanji:"龍樹"},
+  {kr:["남전보원","난센후간"],           romaji:["nansen fugan","nanquan"],       kanji:"南泉普願"},
+  {kr:["능인방영","노닌호에이"],         romaji:["nonin hoei"],                   kanji:"能忍方英"},
+
+  // ━━ ㄷ ━━
+  {kr:["대도공정","다이도코쇼"],         romaji:["daido kosho"],                  kanji:"大道公正"},
+  {kr:["도원","도겐"],                   romaji:["dogen","dōgen"],                kanji:"道元"},
+  {kr:["도본정갑","도우본쇼코"],         romaji:["dohon shoko"],                  kanji:"道本正甲"},
+
+  // ━━ ㄹ ━━
+  {kr:["롱첸빠","용청파"],               romaji:["longchenpa","longchen"],        kanji:"龍青巴"},
+
+  // ━━ ㅁ ━━
+  {kr:["마쓰모토시로","송본사랑"],       romaji:["matsumoto shiro"],              kanji:"松本史朗"},
+  {kr:["말목문미사","스에키후미히코"],   romaji:["sueki fumihiko","sueki"],       kanji:"末木文美士"},
+  {kr:["명석해",  "아케이시카이"],       romaji:["akeishi kai"],                  kanji:"明石海"},
+  {kr:["무라카미신칸","촌상진간"],       romaji:["murakami shinkan"],             kanji:"村上眞完"},
+  {kr:["무착"],                           romaji:["asanga"],                       kanji:"無着"},
+  {kr:["무치"],                           romaji:["vasubandhu","seshin"],          kanji:"世親"},
+  {kr:["미야사카유쇼","궁판유승"],       romaji:["miyasaka yusho"],               kanji:"宮坂宥勝"},
+  {kr:["미즈노고겐","수야홍원"],         romaji:["mizuno kogen"],                  kanji:"水野弘元"},
+
+  // ━━ ㅂ ━━
+  {kr:["반야"],                           romaji:["prajna","prajña","hannya"],    kanji:"般若"},
+  {kr:["백조청","시라토기요시"],          romaji:["shiratori kiyoshi"],            kanji:"白鳥清"},
+  {kr:["법장"],                           romaji:["fazang","fa-tsang"],            kanji:"法藏"},
+
+  // ━━ ㅅ ━━
+  {kr:["사사키겐준","좌목목헌준"],       romaji:["sasaki genjun"],                kanji:"佐佐木現順"},
+  {kr:["사사키시즈카","좌목목정"],       romaji:["sasaki shizuka"],               kanji:"佐佐木閑"},
+  {kr:["사이초","최징"],                  romaji:["saicho","dengyo daishi"],       kanji:"最澄"},
+  {kr:["산구건웅","야마구치스스무"],     romaji:["yamaguchi susumu"],             kanji:"山口益"},
+  {kr:["삼지충준","미쓰지쥬준"],         romaji:["mitsuji jujun"],                kanji:"三枝充悳"},
+  {kr:["서산","휴정"],                    romaji:["hyujeong","seosan"],            kanji:"西山休靜"},
+  {kr:["스즈키다이세츠","영목대졸"],     romaji:["suzuki daisetz","suzuki daisetsu","suzuki"], kanji:"鈴木大拙"},
+  {kr:["스에키후미히코","말목문미사"],   romaji:["sueki fumihiko"],               kanji:"末木文美士"},
+
+  // ━━ ㅇ ━━
+  {kr:["안전양연","야스다료켄"],         romaji:["yasuda ryoken"],                kanji:"安田良憲"},
+  {kr:["우정박수","우에노히로시"],       romaji:["ueno hiroshi"],                 kanji:"上野博司"},
+  {kr:["우이하쿠주","우정백수"],         romaji:["ui hakuju"],                    kanji:"宇井伯壽"},
+  {kr:["원담준교","엔탄준교"],           romaji:["entan junkyo"],                 kanji:"圓曇遵教"},
+  {kr:["원효"],                           romaji:["wonhyo"],                       kanji:"元曉"},
+  {kr:["월칭"],                           romaji:["candrakirti","chandrakirti"],   kanji:"月稱"},
+
+  // ━━ ㅈ ━━
+  {kr:["장곡순일","쵸다니준이치"],       romaji:["chodani junichi"],              kanji:"長谷純一"},
+  {kr:["전조수도","젠쵸슈도"],           romaji:["zencho shudo"],                 kanji:"禪超秀道"},
+  {kr:["조주"],                           romaji:["zhaozhou","joshu","chaozhou"], kanji:"趙州"},
+  {kr:["죽촌행남","다케무라마키오"],     romaji:["takemura makio","takemura"],    kanji:"竹村牧男"},
+  {kr:["중관",  "중관파"],               romaji:["madhyamaka"],                   kanji:"中觀"},
+  {kr:["지관","천태","쟈칸"],            romaji:["chikan","tiantai"],             kanji:"止觀"},
+  {kr:["지도린","치드린"],               romaji:["jidorin"],                      kanji:"智度論"},
+
+  // ━━ ㅊ ━━
+  {kr:["천태대사","지의"],               romaji:["zhiyi","chih-i","tiantai daishi"], kanji:"天台大師"},
+  {kr:["최원식","사이겐쇼쿠"],          romaji:["saigen shoku"],                 kanji:"崔元植"},
+  {kr:["치마가헌소","하카마야노리아키"],romaji:["hakamaya noriaki","hakamaya"],   kanji:"袴谷憲昭"},
+
+  // ━━ ㅋ ━━
+  {kr:["쿠카이","공해","홍법대사"],     romaji:["kukai","kobo daishi"],          kanji:"空海"},
+
+  // ━━ ㅌ ━━
+  {kr:["태허"],                           romaji:["taixu","tai hsu"],              kanji:"太虛"},
+
+  // ━━ ㅍ ━━
+  {kr:["평천창","히라카와아키라"],       romaji:["hirakawa akira","hirakawa"],    kanji:"平川彰"},
+  {kr:["평락사준","히라라쿠지준"],       romaji:["hiraraku jijun"],               kanji:"平樂寺準"},
+
+  // ━━ ㅎ ━━
+  {kr:["하카마야노리아키","치마가헌소"],romaji:["hakamaya noriaki"],              kanji:"袴谷憲昭"},
+  {kr:["한상길"],                         romaji:["han sang-gil"],                 kanji:"韓相吉"},
+  {kr:["화엄","현수"],                    romaji:["huayan","kegon","fazang"],      kanji:"華嚴"},
+  {kr:["횡산굉일","요코야마코이치"],     romaji:["yokoyama koichi"],              kanji:"橫山紘一"},
+
+];
+
+/**
+ * 검색어에 학자명 별칭이 포함되면 한자명을 추가 반환
+ * 예: "죽촌행남" → "죽촌행남 竹村牧男"
+ * 복수 학자 동시 지원: "죽촌행남 평천창" → "죽촌행남 평천창 竹村牧男 平川彰"
+ */
+function expandScholarQuery(q) {
+  if (!q) return q;
+  const qn = q.replace(/\s+/g, '').toLowerCase();
+  let result = q;
+  for (const entry of SCHOLAR_ALIASES) {
+    const krMatch  = (entry.kr||[]).some(k => qn.includes(k.replace(/\s+/g,'')));
+    const roMatch  = (entry.romaji||[]).some(r => q.toLowerCase().includes(r));
+    if ((krMatch || roMatch) && !result.includes(entry.kanji)) {
+      result = result + ' ' + entry.kanji;
+    }
+  }
+  return result.trim();
+}
+
+// ════════════════════════════════════════
+// 일본어 가나(かな) 검색 지원
+// 히라가나·카타카나 → 한자 변환
+// ════════════════════════════════════════
+
+// カタカナ → ひらがな 변환
+function kata2hira(str){
+  return str.replace(/[\u30A1-\u30F6]/g, ch=>String.fromCharCode(ch.charCodeAt(0)-0x60));
+}
+
+// 불교 주요 용어 가나 → 한자 사전
+// 히라가나 기준으로 저장 (검색어는 kata2hira로 정규화 후 매칭)
+const BUDDHIST_KANA = [
+  // ── 핵심 교리 ───────────────────────────────────────────────────────────
+  {kana:["ぶっしょう"],              kanji:"仏性"},
+  {kana:["くうかん","くう"],         kanji:"空"},
+  {kana:["えんぎ"],                  kanji:"縁起"},
+  {kana:["ぎゃくたい","ぼさつ"],     kanji:"菩薩"},
+  {kana:["にょらい"],                kanji:"如来"},
+  {kana:["じょうど"],                kanji:"浄土"},
+  {kana:["ぜん"],                    kanji:"禅"},
+  {kana:["けごん"],                  kanji:"華厳"},
+  {kana:["てんだい"],                kanji:"天台"},
+  {kana:["ほっけ","ほけきょう"],     kanji:"法華"},
+  {kana:["はんにゃ"],                kanji:"般若"},
+  {kana:["ゆいしき"],                kanji:"唯識"},
+  {kana:["ちゅうがん"],              kanji:"中観"},
+  {kana:["りつしゅう","りつ"],       kanji:"律"},
+  {kana:["みっきょう","みっ"],       kanji:"密教"},
+  {kana:["ぜんしゅう"],              kanji:"禅宗"},
+  {kana:["じょうどしんしゅう"],      kanji:"浄土真宗"},
+  {kana:["しんごん"],                kanji:"真言"},
+  {kana:["ぜんじょう"],              kanji:"禅定"},
+  {kana:["さとり"],                  kanji:"悟り"},
+  {kana:["ほとけ","ぶつ"],          kanji:"仏"},
+  {kana:["だるま"],                  kanji:"達磨"},
+  {kana:["ごかい"],                  kanji:"五戒"},
+  {kana:["はちしょうどう"],          kanji:"八正道"},
+  {kana:["しょうぎょう"],            kanji:"声聞"},
+  {kana:["えんかく"],                kanji:"縁覚"},
+  {kana:["さんぽう"],                kanji:"三宝"},
+  {kana:["いっしん"],                kanji:"一心"},
+  {kana:["ほんかく"],                kanji:"本覚"},
+  {kana:["しかく"],                  kanji:"始覚"},
+  {kana:["むみょう"],                kanji:"無明"},
+  {kana:["ごう"],                    kanji:"業"},
+  {kana:["ねはん"],                  kanji:"涅槃"},
+  {kana:["りんね"],                  kanji:"輪廻"},
+  {kana:["ぎゃくえん"],              kanji:"逆縁"},
+  {kana:["しょうもん"],              kanji:"声聞"},
+  // ── 경전 ────────────────────────────────────────────────────────────────
+  {kana:["はんにゃしんぎょう"],      kanji:"般若心経"},
+  {kana:["だいにちきょう"],          kanji:"大日経"},
+  {kana:["きんごうきょう"],          kanji:"金剛経"},
+  {kana:["むりょうじゅきょう"],      kanji:"無量寿経"},
+  {kana:["けごんきょう"],            kanji:"華厳経"},
+  {kana:["ほけきょう","ほっけきょう"],kanji:"法華経"},
+  {kana:["だいじょうきしんろん"],    kanji:"大乗起信論"},
+  // ── 인물 ────────────────────────────────────────────────────────────────
+  {kana:["しゃかむに","しゃか"],     kanji:"釈迦"},
+  {kana:["くうかい","こうぼうだいし"],kanji:"空海"},
+  {kana:["さいちょう","でんぎょうだいし"],kanji:"最澄"},
+  {kana:["どうげん"],                kanji:"道元"},
+  {kana:["にちれん"],                kanji:"日蓮"},
+  {kana:["しんらん"],                kanji:"親鸞"},
+  {kana:["ほうねん"],                kanji:"法然"},
+  {kana:["げんしん"],                kanji:"源信"},
+  {kana:["りゅうじゅ","なーがるじゅな"],kanji:"龍樹"},
+  {kana:["むちゃく"],                kanji:"無著"},
+  {kana:["せしん","ヴぁすばんどぅ"], kanji:"世親"},
+  // ── 종파·사찰 ────────────────────────────────────────────────────────────
+  {kana:["こうふくじ"],              kanji:"興福寺"},
+  {kana:["とうだいじ"],              kanji:"東大寺"},
+  {kana:["えんりゃくじ"],            kanji:"延暦寺"},
+  {kana:["こうやさん"],              kanji:"高野山"},
+  {kana:["りんざいしゅう"],          kanji:"臨済宗"},
+  {kana:["そうとうしゅう"],          kanji:"曹洞宗"},
+  {kana:["おうばくしゅう"],          kanji:"黄檗宗"},
+  // ── 일반 학술 용어 ───────────────────────────────────────────────────────
+  {kana:["にんどがく","いんどがく"],  kanji:"印度学"},
+  {kana:["ぶっきょうがく"],          kanji:"仏教学"},
+  {kana:["ぶっきょうしそう"],        kanji:"仏教思想"},
+  {kana:["ぶっきょうびじゅつ"],      kanji:"仏教美術"},
+  {kana:["ぶっきょうし"],            kanji:"仏教史"},
+  {kana:["だいじょう"],              kanji:"大乗"},
+  {kana:["しょうじょう"],            kanji:"小乗"},
+  {kana:["こんごうちょうきょう"],    kanji:"金剛頂経"},
+];
+
+/**
+ * 히라가나·카타카나 검색어를 한자로 확장
+ * 예: "ぜん" → "ぜん 禅"  /  "ケゴン" → "ケゴン 華厳"
+ */
+function expandKanaQuery(q){
+  if(!q) return q;
+  // 카타카나 포함 여부 확인 후 히라가나로 통일
+  const hasKana = /[\u3041-\u3096\u30A1-\u30F6]/.test(q);
+  if(!hasKana) return q;
+  const qh = kata2hira(q);  // 카타카나→히라가나 통일
+  let result = q;
+  for(const entry of BUDDHIST_KANA){
+    const matched = (entry.kana||[]).some(k => qh.includes(k));
+    if(matched && !result.includes(entry.kanji)){
+      result = result + ' ' + entry.kanji;
+    }
+  }
+  // 학자명 alias도 가나 지원 (SCHOLAR_ALIASES에 kana 필드 추가 예정 — 현재는 kanji 매칭)
+  return result.trim();
+}
+
 // ════════════════════════════════════════
 // 학술지 홈페이지 URL 및 안내
 // ════════════════════════════════════════
@@ -372,15 +722,15 @@ const JOURNAL_URLS = {
   "한마음연구":         {url:"https://daehaeng.re.kr/article_paperdown?sca=16%EC%A7%91", note:""},
   "종학연구":           {url:"https://jonghak.dongguk.edu/article/journal/list", note:"", category:"불교학"},
   "무형문화연구":       {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000006102", note:"", category:"불교학"},
-  "세화불학":           {url:"https://xn--wr3bl1e16firr29a.org/journal/search", note:"", category:"불교학"},
+  "세화불학":           {url:"https://xn--wr3bl1e16flrr29a.org/journal/search", note:"", category:"불교학"},
   "전자불전":           {url:"https://www.iebtc.net/%EC%B6%9C%ED%8C%90%EB%AC%BC-journal/jebtc", note:"", category:"불교학"},
-  "원불교사상과 종교문화":{url:"https://wth.or.kr/homepage/custom/view", note:"", category:"불교학"},
+  "印度學佛教學研究":    {url:"https://www.inbuds.net/kor/", note:"", category:"불교학", country:"Japan"},
 };
 
 // ════════════════════════════════════════
 // 상태
 // ════════════════════════════════════════
-const S={db:null,idx:[],fuse:null,q:"",fj:"",fc:"",fy:"",fi:"",sort:"relevance",res:[],pg:1,pp:15};
+const S={db:null,idx:[],fuse:null,q:"",fj:"",fc:"",fy:"",fi:"",fn:"",sort:"relevance",res:[],pg:1,pp:15};
 
 const JOURNAL_FILES = [
   "riss_IJBTC.json","riss_강좌미술사.json","riss_대각사상.json",
@@ -389,11 +739,10 @@ const JOURNAL_FILES = [
   "riss_불교미술사학.json","riss_불교연구.json","riss_불교와 사회.json",
   "riss_불교철학.json","riss_불교학리뷰.json","riss_불교학밀교학연구.json",
   "riss_불교학보.json","riss_불교학연구.json","riss_선문화연구.json",
-  "riss_선학.json","riss_인도철학.json","riss_정토학연구.json",
+  "riss_선학.json","riss_세화불학.json","riss_인도철학.json","riss_전자불전.json","riss_정토학연구.json",
   "riss_종학연구.json","riss_한국교수불자연합학회지.json","riss_한국불교사연구.json",
   "riss_한국불교학.json","riss_한마음연구.json",
-  "riss_세화불학.json","riss_전자불전.json",
-  "riss_원불교사상과 종교문화.json"
+  "ibk_印度學佛教學研究.json"
 ];
 
 // ════════════════════════════════════════
@@ -409,27 +758,48 @@ function showToast(msg, duration=3500){
 }
 
 // 논문 1건 → index 항목 변환 (loadDB / checkForUpdates 공용)
-function toIndexItem(art, jname, category){
-  const au = (art.authors||[]).map(a=>a.name||"").join(" ");
-  const kws = [...(art.keywords_kr||[]),...(art.keywords_en||[]),...(art.ai_keywords||[])];
+function toIndexItem(art, jname, category, country){
+  const au   = (art.authors||[]).map(a=>a.name||"").join(" ");
+  const kws  = [...(art.keywords_kr||[]),...(art.keywords_en||[]),...(art.ai_keywords||[])];
+  const title = art.title_kr || art.title_ja || "";
+  const abs   = art.abstract_kr || art.abstract_ja || "";
+  const kwAll = [...(art.keywords_kr||[]),...(art.keywords_ja||[]),...(art.keywords_en||[]),...(art.ai_keywords||[])].join(" ");
+  // 저자명 alias: 한자명 → 한국어 독음/로마자 역방향 매핑 (일본 학자 한국어 검색 지원)
+  let authorAlias = "";
+  (art.authors||[]).forEach(a => {
+    const nm = a.name || "";
+    for (const entry of SCHOLAR_ALIASES) {
+      if (nm === entry.kanji || nm.includes(entry.kanji)) {
+        authorAlias += " " + (entry.kr||[]).join(" ") + " " + (entry.romaji||[]).join(" ");
+        break;
+      }
+    }
+  });
+  // 통합 검색 텍스트: 한국어+일본어+한자+저자 alias 전부 합산
+  const search_text = normalizeKanji([title, art.title_ja||"", art.title_en||"", au, abs, kwAll, jname, authorAlias].join(" "));
   return {
     id:           art.article_id || art.id || ("R"+Math.random().toString(36).slice(2)),
     journal_name: jname,
     category:     category || "불교학",
-    title_kr:     art.title_kr || "",
+    country:      country || "Korea",
+    title_kr:     title,
+    title_ja:     art.title_ja || "",
     title_en:     art.title_en || "",
     author_names: au,
     authors:      art.authors || [],
+    search_text:  search_text,
     year:         art.year || "",
     volume:       art.volume || "",
     issue:        art.issue || "",
     start_page:   art.start_page || "",
-    abstract_kr:  art.abstract_kr || "",
+    abstract_kr:  art.abstract_kr || art.abstract_ja || "",
     keywords:     kws,
-    keywords_kr:  art.keywords_kr || [],
+    keywords_kr:  art.keywords_kr || art.keywords_ja || [],
     ai_keywords:  art.ai_keywords || [],
     riss_url:     art.riss_url || "",
     kci_url:      art.kci_url || "",
+    jstage_url:   art.jstage_url || "",
+    ndl_url:      art.ndl_url || "",
     doi:          art.doi || "",
     source:       art.source || "RISS",
   };
@@ -485,9 +855,10 @@ async function loadDB(){
     // JOURNAL_URLS에서 카테고리 보완
     const jurl = JOURNAL_URLS[jname] || {};
     const category = info.category || jurl.category || "불교학";
+    const country  = info.country  || jurl.country  || "Korea";
     db.journals[jname] = Array.isArray(data) ? {info:{name:jname,category}, articles:data} : data;
     arts.forEach(art =>
-      db.index.push(toIndexItem(art, jname, category))
+      db.index.push(toIndexItem(art, jname, category, country))
     );
     loaded++;
     if(res.fromCache) fromCache++;
@@ -562,8 +933,23 @@ async function checkForUpdates(cache){
     // Fuse 재초기화 + 헤더 갱신
     S.db.meta.total_articles = S.idx.length;
     S.fuse = new Fuse(S.idx, {
-      keys:[{name:"title_kr",weight:3},{name:"author_names",weight:2},
-            {name:"keywords",weight:2},{name:"abstract_kr",weight:1},{name:"journal_name",weight:1}],
+      keys:[
+        {name:"title_kr",     weight:3},
+        {name:"title_ja",     weight:3},
+        {name:"title_en",     weight:2},
+        {name:"author_names", weight:2},
+        {name:"keywords",     weight:2},
+        {name:"abstract_kr",  weight:1},
+        {name:"search_text",  weight:1},
+        {name:"journal_name", weight:1},
+      ],
+      // 이체자 정규화 적용 — 검색어·인덱스 모두 동일한 형태로 비교
+      getFn: (obj, path) => {
+        const val = Fuse.config.getFn(obj, path);
+        if (typeof val === 'string') return normalizeKanji(val);
+        if (Array.isArray(val)) return val.map(v => typeof v==='string'?normalizeKanji(v):v);
+        return val;
+      },
       threshold:.35, includeScore:true, includeMatches:true, minMatchCharLength:2, ignoreLocation:true
     });
     document.getElementById("headerMeta").textContent =
@@ -574,25 +960,44 @@ async function checkForUpdates(cache){
 
 function init(demo=false){
   S.fuse=new Fuse(S.idx,{
-    keys:[{name:"title_kr",weight:3},{name:"author_names",weight:2},{name:"keywords",weight:2},{name:"abstract_kr",weight:1},{name:"journal_name",weight:1}],
+    keys:[
+      {name:"title_kr",     weight:3},
+      {name:"title_ja",     weight:3},
+      {name:"title_en",     weight:2},
+      {name:"author_names", weight:2},
+      {name:"keywords",     weight:2},
+      {name:"abstract_kr",  weight:1},
+      {name:"search_text",  weight:1},
+      {name:"journal_name", weight:1},
+    ],
+    getFn:(obj,path)=>{
+      const val=Fuse.config.getFn(obj,path);
+      if(typeof val==="string")return normalizeKanji(val);
+      if(Array.isArray(val))return val.map(v=>typeof v==="string"?normalizeKanji(v):v);
+      return val;
+    },
     threshold:.35,includeScore:true,includeMatches:true,minMatchCharLength:2,ignoreLocation:true
   });
   const m=S.db.meta||{};
   document.getElementById("headerMeta").textContent=`총 ${(m.total_articles||S.idx.length).toLocaleString()}편`+(demo?" (샘플)":"");
   if(m.last_updated){document.getElementById("lastUpdated").textContent=m.last_updated;document.getElementById("updateBanner").style.display="block";}
-
-  // 실제 로드된 학술지 수로 동적 업데이트
-  const jCount = Object.keys(S.db.journals||{}).length;
-  document.querySelectorAll("#journalCount, #journalCountFooter").forEach(el => el.textContent = jCount);
-
-  buildFJ();buildFY();buildFI();buildSidebar();
+  // 학술지 수·논문 편수 동적 업데이트
+  const jCount = Object.keys(S.db.journals||{}).length || JOURNAL_FILES.length;
+  const aCount = S.idx.length;
+  ["journalCount","journalCountFtr"].forEach(id=>{
+    const el=document.getElementById(id);if(el)el.textContent=jCount;
+  });
+  const acEl=document.getElementById("articleCount");if(acEl)acEl.textContent=aCount.toLocaleString();
+  buildFJ("","");buildFY("","","");buildFI();buildSidebar();
   const inp=document.getElementById("searchInput");
   inp.addEventListener("input",deb(doSearch,280));
   inp.addEventListener("keydown",e=>{if(e.key==="Enter")doSearch();});
 }
 
-function buildFJ(category=""){
-  const pool = category ? S.idx.filter(a=>a.category===category) : S.idx;
+function buildFJ(category="", country=""){
+  let pool = S.idx;
+  if(country)  pool = pool.filter(a=>a.country===country);
+  if(category) pool = pool.filter(a=>a.category===category);
   const js=[...new Set(pool.map(a=>a.journal_name))].sort((a,b)=>a.localeCompare(b,"ko"));
   const sel=document.getElementById("filterJournal");
   const prev=sel.value;
@@ -601,8 +1006,9 @@ function buildFJ(category=""){
   if([...sel.options].some(o=>o.value===prev)) sel.value=prev;
   else { sel.value=""; S.fj=""; }
 }
-function buildFY(journal="", category=""){
+function buildFY(journal="", category="", country=""){
   let pool = S.idx;
+  if(country)  pool = pool.filter(a=>a.country===country);
   if(journal)  pool = pool.filter(a=>a.journal_name===journal);
   else if(category) pool = pool.filter(a=>a.category===category);
   const ys=[...new Set(pool.map(a=>a.year).filter(Boolean))].sort((a,b)=>b-a);
@@ -685,22 +1091,59 @@ function getLatestYear(jdata){
   return yrs[yrs.length-1]||"";
 }
 
-function buildSidebar(){
+// ─── 사이드바 탭 ──────────────────────────────────────────────────────────────
+function setSbTab(country, isMob=false){
+  // 탭 on 표시
+  const pairs = isMob
+    ? [["sbTabAllM",""],["sbTabKRM","Korea"],["sbTabJPM","Japan"]]
+    : [["sbTabAll",""],["sbTabKR","Korea"],["sbTabJP","Japan"]];
+  pairs.forEach(([id,val])=>{
+    const el=document.getElementById(id);
+    if(el) el.classList.toggle("on", val===country);
+  });
+  // 반대쪽 탭(데스크탑↔모바일)도 동기화
+  const mirror = isMob
+    ? [["sbTabAll",""],["sbTabKR","Korea"],["sbTabJP","Japan"]]
+    : [["sbTabAllM",""],["sbTabKRM","Korea"],["sbTabJPM","Japan"]];
+  mirror.forEach(([id,val])=>{
+    const el=document.getElementById(id);
+    if(el) el.classList.toggle("on", val===country);
+  });
+  // 국가 필터 DOM 동기화
+  S.fn=country;
+  const cnEl=document.getElementById("filterCountry");
+  if(cnEl) cnEl.value=country;
+  // 학술지·연도 드롭다운 재구성
+  if(S.fj){
+    const jCountry=S.idx.find(a=>a.journal_name===S.fj)?.country||"";
+    if(country && jCountry!==country){
+      S.fj=""; document.getElementById("filterJournal").value="";
+      S.fc=""; document.getElementById("filterCategory").value="";
+    }
+  }
+  buildFJ(S.fc, country);
+  buildFY(S.fj, S.fc, country);
+  buildFI(S.fj, S.fy);
+  buildSidebar(country);
+}
+
+function buildSidebar(countryFilter=""){
   const js=S.db.journals||{};
-  const sortMode = "name";  // 학술지명순 고정
 
   const cats={"불교미술사학":[],"불교사학":[],"불교학":[]};
-  // S.db.journals 기반 (dict 형식)
   Object.entries(js).forEach(([n,d])=>{
     const c=d.info?.category||"불교학";
+    const jCountry=S.idx.find(a=>a.journal_name===n)?.country||"Korea";
+    if(countryFilter && jCountry!==countryFilter) return;
     (cats[c]||cats["불교학"]).push({n,d});
   });
-  // S.idx 기반으로 빠진 학술지 보완 (list 형식 파일)
   const covered=new Set(Object.keys(js));
   [...new Set(S.idx.map(a=>a.journal_name))].forEach(n=>{
     if(covered.has(n)) return;
     const sample=S.idx.find(a=>a.journal_name===n);
     const c=sample?.category||"불교학";
+    const jCountry=sample?.country||"Korea";
+    if(countryFilter && jCountry!==countryFilter) return;
     (cats[c]||cats["불교학"]).push({n,d:{info:{name:n,category:c}}});
   });
 
@@ -715,28 +1158,12 @@ function buildSidebar(){
       h.innerHTML=`<div class="cat-hdr">${cat}</div>`;
       el.appendChild(h);
 
-      // 정렬
-      let sorted=[...items];
-      if(sortMode==="name"){
-        sorted.sort((a,b)=>a.n.localeCompare(b.n,"ko"));
-      } else if(sortMode==="publisher"){
-        sorted.sort((a,b)=>{
-          const pa=getPublisher(a.n,a.d);
-          const pb=getPublisher(b.n,b.d);
-          return pa.localeCompare(pb,"ko");
-        });
-      } else if(sortMode==="latest"){
-        sorted.sort((a,b)=>{
-          const ya=getLatestYear(a.d);
-          const yb=getLatestYear(b.d);
-          return yb.localeCompare(ya);
-        });
-      }
-
+      const sorted=[...items].sort((a,b)=>a.n.localeCompare(b.n,"ko"));
       sorted.forEach(({n,d})=>{
         const li=document.createElement("li");li.className="jitem";
         const pub=getPublisher(n,d);
-        li.innerHTML=`<button class="jbtn" onclick="selJ('${n}',this,${isMob})">
+        const isActive=S.fj===n;
+        li.innerHTML=`<button class="jbtn${isActive?" active":""}" onclick="selJ('${n.replace(/'/g,"\\'")}',this,${isMob})">
           <span>
             <div class="jbtn-nm">${n}</div>
             <div class="jbtn-pub">${pub}</div>
@@ -748,62 +1175,104 @@ function buildSidebar(){
   });
 }
 
-function doSearch(){S.q=document.getElementById("searchInput").value.trim();S.pg=1;applyFilters();}
-function setQuery(q){document.getElementById("searchInput").value=q;S.q=q;S.pg=1;applyFilters();goSearch();}
+function doSearch(){
+  const raw=document.getElementById("searchInput").value.trim();
+  // 순서: 학자명 alias → 가나→한자 → 한자 정규화
+  const expanded = expandKanaQuery(expandScholarQuery(raw));
+  S.q=normalizeKanji(expanded);
+  S.pg=1;applyFilters();
+}
+function setQuery(q){document.getElementById("searchInput").value=q;S.q=normalizeKanji(expandKanaQuery(expandScholarQuery(q)));S.pg=1;applyFilters();goSearch();}
 function selJ(n,btn,mob=false){
   document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");
-  // 카테고리 미리 세팅 → applyFilters 내에서 buildFJ 재호출 방지 (모바일 피커 재오픈 버그 방지)
-  const jCat = S.idx.find(a=>a.journal_name===n)?.category||"";
-  if(jCat){ S.fc=jCat; document.getElementById("filterCategory").value=jCat; buildFJ(jCat); }
+  const found=S.idx.find(a=>a.journal_name===n);
+  const jCat    =found?.category||"";
+  const jCountry=found?.country||"";
+  // 국가·카테고리·학술지 필터 설정
+  S.fn=jCountry;
+  const cnEl=document.getElementById("filterCountry");if(cnEl)cnEl.value=jCountry;
+  if(jCat){S.fc=jCat;document.getElementById("filterCategory").value=jCat;}
+  // 사이드바 탭 국가와 동기화
+  [["sbTabAll",""],["sbTabKR","Korea"],["sbTabJP","Japan"],
+   ["sbTabAllM",""],["sbTabKRM","Korea"],["sbTabJPM","Japan"]].forEach(([id,val])=>{
+    const el=document.getElementById(id);if(el)el.classList.toggle("on",val===jCountry);
+  });
+  buildFJ(jCat, jCountry);
   document.getElementById("filterJournal").value=n;
-  S.pg=1;applyFilters();
+  S.fj=n;S.pg=1;
+  applyFilters();
   if(mob)closeDrawer();
 }
 function doReset(){
-  S.q=S.fj=S.fc=S.fy=S.fi="";S.pg=1;
+  S.q=S.fj=S.fc=S.fy=S.fi=S.fn="";S.pg=1;
   document.getElementById("searchInput").value="";
   document.getElementById("filterJournal").value="";
   document.getElementById("filterCategory").value="";
   document.getElementById("filterYear").value="";
   document.getElementById("filterIssue").value="";
-  buildFJ();  // 전체 학술지 복원
-  buildFY("","");  // 전체 연도 복원
-  buildFI();  // disabled 상태로 복원
+  const cnEl=document.getElementById("filterCountry");if(cnEl)cnEl.value="";
+  buildFJ("","");buildFY("","","");buildFI();
+  // 사이드바 탭 초기화 (전체)
+  ["sbTabAll","sbTabKR","sbTabJP","sbTabAllM","sbTabKRM","sbTabJPM"].forEach(id=>{
+    const el=document.getElementById(id);
+    if(el)el.classList.toggle("on",id==="sbTabAll"||id==="sbTabAllM");
+  });
+  buildSidebar("");
   document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));
   document.getElementById("resultsArea").innerHTML='<div class="st-msg"><span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><p>검색어를 입력하거나 학술지를 선택하세요.</p></div>';
   document.getElementById("resultCount").innerHTML="";
 }
 function applyFilters(){
   // 변경 전 값 저장
-  const prevFc=S.fc, prevFj=S.fj, prevFy=S.fy;
+  const prevFc=S.fc, prevFj=S.fj, prevFy=S.fy, prevFn=S.fn;
   // DOM에서 새 값 읽기
   S.fc=document.getElementById("filterCategory").value;
   S.fj=document.getElementById("filterJournal").value;
   S.fy=document.getElementById("filterYear").value;
+  S.fn=document.getElementById("filterCountry")?.value||"";
   S.sort=document.getElementById("sortSelect").value;
 
-  // 학술지 선택 → 카테고리 자동 고정
+  // 국가 변경 → 학술지·연도·권호 하위 필터 초기화 및 재구성
+  if(S.fn!==prevFn){
+    // 현재 선택된 학술지가 이 국가에 속하지 않으면 초기화
+    if(S.fj){
+      const jCountry=S.idx.find(a=>a.journal_name===S.fj)?.country||"";
+      if(S.fn && jCountry!==S.fn){
+        S.fj=""; document.getElementById("filterJournal").value="";
+        S.fc=""; document.getElementById("filterCategory").value="";
+      }
+    }
+    // 학술지 드롭다운 국가 기준으로 재구성
+    buildFJ(S.fc, S.fn);
+    S.fy=""; document.getElementById("filterYear").value="";
+    S.fi=""; document.getElementById("filterIssue").value="";
+    buildFY(S.fj, S.fc, S.fn);
+    buildFI("","");
+  }
+
+  // 학술지 선택 → 카테고리·국가 자동 고정
   if(S.fj && S.fj!==prevFj){
-    const jCat = S.idx.find(a=>a.journal_name===S.fj)?.category||"";
+    const jCat    = S.idx.find(a=>a.journal_name===S.fj)?.category||"";
+    const jCountry= S.idx.find(a=>a.journal_name===S.fj)?.country||"";
     if(jCat && jCat!==S.fc){
-      S.fc=jCat;
-      document.getElementById("filterCategory").value=jCat;
+      S.fc=jCat; document.getElementById("filterCategory").value=jCat;
+    }
+    if(jCountry && jCountry!==S.fn){
+      S.fn=jCountry; document.getElementById("filterCountry").value=jCountry;
     }
   }
 
-  // 카테고리 변경 → 학술지 목록 재구성, 무관 학술지면 초기화
+  // 카테고리 변경 → 학술지 목록 재구성
   if(S.fc!==prevFc){
-    buildFJ(S.fc);
-    // 학술지 선택이 이 카테고리에 없으면 초기화
+    buildFJ(S.fc, S.fn);
     const validJ=[...document.getElementById("filterJournal").options].map(o=>o.value);
     if(S.fj && !validJ.includes(S.fj)){
       S.fj=""; document.getElementById("filterJournal").value="";
     }
-    // 학술지 없으면 카테고리 기준으로 연도 재구성
     if(!S.fj){
       S.fy=""; document.getElementById("filterYear").value="";
       S.fi=""; document.getElementById("filterIssue").value="";
-      buildFY("", S.fc);
+      buildFY("", S.fc, S.fn);
       buildFI("", "");
     }
   }
@@ -819,6 +1288,7 @@ function applyFilters(){
   buildFI(S.fj, S.fy);
   S.fi=document.getElementById("filterIssue").value;
   let res=S.q?S.fuse.search(S.q).map(r=>({...r.item,_s:r.score})):[...S.idx];
+  if(S.fn)res=res.filter(a=>a.country===S.fn);
   if(S.fc)res=res.filter(a=>a.category===S.fc);
   if(S.fj)res=res.filter(a=>a.journal_name===S.fj);
   if(S.fy)res=res.filter(a=>a.year===S.fy);
@@ -855,11 +1325,15 @@ function render(){
     const kw=bldKw(a);
     const ab=a.abstract_kr?a.abstract_kr.slice(0,110)+"…":"";
     const hl=S.q?hlTx(a.title_kr||"",S.q):(a.title_kr||"");
+    const viLabel=fmtVI(a.volume,a.issue);
+    const srcBdg=a.source==="J-Stage"
+      ?`<span class="bdg" style="background:rgba(220,38,38,.07);color:#b91c1c;border:1px solid rgba(220,38,38,.2);font-size:.55rem">J-Stage</span>`:"";
     h+=`<article class="card" onclick="openMod('${esc(a.id)}')" style="animation-delay:${i*.04}s">
       <div class="pmeta">
         <span class="bdg bdg-j">${a.journal_name||""}</span>
         ${a.year?`<span class="bdg bdg-y">${a.year}</span>`:""}
-        ${a.issue?`<span class="bdg bdg-i">${a.issue}호</span>`:""}
+        ${viLabel?`<span class="bdg bdg-i">${viLabel}</span>`:""}
+        ${srcBdg}
       </div>
       <div class="ptit">${hl}</div>
       <div class="pau">${au}</div>
@@ -882,50 +1356,80 @@ function goPg(p){S.pg=p;render();window.scrollTo({top:0,behavior:"smooth"});}
 
 function openMod(id){
   const a=S.idx.find(x=>x.id===id);if(!a)return;
+  const isIBK=(a.journal_name==="印度學佛教學研究");
+
+  // ── 헤더 ──────────────────────────────────────────────────────────────────
   document.getElementById("modTi").textContent=a.title_kr||"";
   document.getElementById("modTen").textContent=a.title_en||"";
-  document.getElementById("modMeta").innerHTML=`
-    <span class="bdg bdg-j">${a.journal_name||""}</span>
-    ${a.year?`<span class="bdg bdg-y">${a.year}년</span>`:""}
-    ${a.issue?`<span class="bdg bdg-i">${a.issue}호</span>`:""}`;
-  const auH=(a.authors||[]).map(x=>`<span style="margin-right:1rem;font-size:.83rem">
-    <strong style="font-family:var(--serif)">${x.name}</strong>
-    ${x.affiliation?`<small style="color:var(--muted)"> (${x.affiliation})</small>`:""}
-  </span>`).join("");
+  // IBK: 원어(일본어) 제목이 title_kr과 다를 때만 별도 표시
+  const modTja=document.getElementById("modTja");
+  if(modTja) modTja.textContent=(isIBK&&a.title_ja&&a.title_ja!==a.title_kr)?"原題: "+a.title_ja:"";
+
+  // ── 메타 뱃지 ─────────────────────────────────────────────────────────────
+  const viLabel=fmtVI(a.volume,a.issue);
+  document.getElementById("modMeta").innerHTML=
+    `<span class="bdg bdg-j">${a.journal_name||""}</span>`+
+    (a.year?`<span class="bdg bdg-y">${a.year}년</span>`:"")+
+    (viLabel?`<span class="bdg bdg-i">${viLabel}</span>`:"")+
+    (isIBK?`<span class="bdg" style="background:rgba(220,38,38,.07);color:#b91c1c;border:1px solid rgba(220,38,38,.2)">J-Stage</span>`:"");
+
+  // ── 저자 ──────────────────────────────────────────────────────────────────
+  const auH=(a.authors||[]).map(x=>
+    `<span style="margin-right:1rem;font-size:.83rem"><strong style="font-family:var(--serif)">${x.name}</strong>${x.affiliation?` <small style="color:var(--muted)">(${x.affiliation})</small>`:""}</span>`
+  ).join("");
   document.getElementById("modAu").innerHTML=auH?`<div style="margin-bottom:1rem;line-height:2.2">${auH}</div>`:"";
+
+  // ── 서지 ──────────────────────────────────────────────────────────────────
   document.getElementById("modBib").innerHTML=`<div class="dgrd">
     <span class="dlbl">학술지</span><span class="dval">${a.journal_name||"-"}</span>
     <span class="dlbl">발행연도</span><span class="dval">${a.year||"-"}년</span>
-    <span class="dlbl">권·호</span><span class="dval">${a.volume?a.volume+"권 ":""}${a.issue?a.issue+"호":"-"}</span>
+    <span class="dlbl">권·호</span><span class="dval">${viLabel||"-"}</span>
     <span class="dlbl">페이지</span><span class="dval">${a.start_page?(a.start_page+(a.end_page?"–"+a.end_page:""))+"p":"-"}</span>
     ${a.doi?`<span class="dlbl">DOI</span><span class="dval"><a href="https://doi.org/${a.doi}" target="_blank" style="color:var(--navy-lt)">${a.doi}</a></span>`:""}
   </div>`;
+
+  // ── 초록 ──────────────────────────────────────────────────────────────────
   document.getElementById("modAbs").textContent=a.abstract_kr||"초록 정보 없음";
-  const kH=[...(a.keywords_kr||[]).map(k=>`<span class="kw">${k}</span>`),
-             ...(a.keywords_en||[]).map(k=>`<span class="kw">${k}</span>`),
-             ...(a.ai_keywords||[]).map(k=>`<span class="kw ai">${k}</span>`)].join("")||`<span style="color:var(--muted);font-size:.78rem">없음</span>`;
-  document.getElementById("modKw").innerHTML=kH;
 
-  // 링크 버튼
+  // ── 키워드 ────────────────────────────────────────────────────────────────
+  document.getElementById("modKw").innerHTML=
+    [...(a.keywords_kr||[]).map(k=>`<span class="kw">${k}</span>`),
+     ...(a.keywords_en||[]).map(k=>`<span class="kw">${k}</span>`),
+     ...(a.ai_keywords||[]).map(k=>`<span class="kw ai">${k}</span>`)].join("")
+    ||`<span style="color:var(--muted);font-size:.78rem">없음</span>`;
+
+  // ── 링크 ──────────────────────────────────────────────────────────────────
   let lks="";
-  if(a.riss_url) lks+=`<a href="${a.riss_url}" target="_blank" class="mlk pri"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> RISS 원문</a>`;
-  if(a.kci_url)  lks+=`<a href="${a.kci_url}"  target="_blank" class="mlk sec"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> KCI 보기</a>`;
-  if(a.doi)      lks+=`<a href="https://doi.org/${a.doi}" target="_blank" class="mlk sec">DOI</a>`;
-
-  // 학술지 홈페이지
-  const jinfo = JOURNAL_URLS[a.journal_name];
-  if(jinfo?.url){
-    lks+=`<a href="${jinfo.url}" target="_blank" class="mlk home"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 학술지 홈페이지</a>`;
-  }
-  document.getElementById("modLks").innerHTML=lks||`<span style="color:var(--muted);font-size:.78rem">원문 링크 없음</span>`;
-
-  // 안내 문구 (선문화연구·IJBTC)
-  const noteEl = document.getElementById("modNote");
-  if(jinfo?.note){
-    noteEl.innerHTML=`<div class="journal-note">${jinfo.note}</div>`;
+  const jinfo=JOURNAL_URLS[a.journal_name];
+  const icoHome=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>`;
+  const icoLink=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`;
+  const icoDoc=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>`;
+  if(isIBK){
+    if(a.jstage_url) lks+=`<a href="${a.jstage_url}" target="_blank" class="mlk pri">${icoLink} J-Stage 원문</a>`;
+    // NDL Search: ndl_url 직접 링크 우선, 없으면 DOI로 검색, DOI도 없으면 제목으로 검색
+    if(a.ndl_url){
+      lks+=`<a href="${a.ndl_url}" target="_blank" class="mlk sec">NDL Search</a>`;
+    } else if(a.doi){
+      const ndlUrl="https://ndlsearch.ndl.go.jp/search?cs=bib&q="+encodeURIComponent(a.doi);
+      lks+=`<a href="${ndlUrl}" target="_blank" class="mlk sec">NDL Search</a>`;
+    } else if(a.title_ja){
+      const ndlUrl="https://ndlsearch.ndl.go.jp/search?cs=bib&q="+encodeURIComponent(a.title_ja)+"&f-dn=article";
+      lks+=`<a href="${ndlUrl}" target="_blank" class="mlk sec">NDL Search</a>`;
+    }
+    if(a.doi) lks+=`<a href="https://doi.org/${a.doi}" target="_blank" class="mlk sec">DOI</a>`;
+    // 학술지 관련 고정 링크
+    lks+=`<a href="https://www.jstage.jst.go.jp/browse/ibk/-char/ja" target="_blank" class="mlk home">${icoHome} J-Stage 전체 호수</a>`;
+    lks+=`<a href="https://www.inbuds.net/kor/" target="_blank" class="mlk home">${icoHome} INBUDS 검색(한국어)</a>`;
+    lks+=`<a href="https://www.jaibs.jp/" target="_blank" class="mlk home">${icoHome} 학회 홈(日本印度学仏教学会)</a>`;
   } else {
-    noteEl.innerHTML="";
+    if(a.riss_url) lks+=`<a href="${a.riss_url}" target="_blank" class="mlk pri">${icoDoc} RISS 원문</a>`;
+    if(a.kci_url)  lks+=`<a href="${a.kci_url}"  target="_blank" class="mlk sec">${icoLink} KCI 보기</a>`;
+    if(a.doi)      lks+=`<a href="https://doi.org/${a.doi}" target="_blank" class="mlk sec">DOI</a>`;
+    if(jinfo?.url) lks+=`<a href="${jinfo.url}" target="_blank" class="mlk home">${icoHome} 학술지 홈페이지</a>`;
   }
+  // ── 공통 DOM 업데이트 (if/else 밖) ───────────────────────────────────────
+  document.getElementById("modLks").innerHTML=lks||`<span style="color:var(--muted);font-size:.78rem">원문 링크 없음</span>`;
+  document.getElementById("modNote").innerHTML=(jinfo?.note&&!isIBK)?`<div class="journal-note">${jinfo.note}</div>`:"";
 
   document.getElementById("mov").classList.add("open");
   document.body.style.overflow="hidden";
