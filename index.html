@@ -918,11 +918,16 @@ async function checkForUpdates(cache){
 
       // 이 학술지의 기존 항목 교체
       const info = data.info || {};
-      const jname = info.name || fname.replace("riss_","").replace(".json","");
+      const jname = info.name
+        || (data.articles && data.articles[0]?.journal_name)
+        || fname.replace("riss_","").replace("ibk_","").replace(".json","");
+      const jurl = JOURNAL_URLS[jname] || {};
+      const category = info.category || jurl.category || "불교학";
+      const country  = info.country  || jurl.country  || "Korea";
       const before = S.idx.filter(a => a.journal_name === jname).length;
       S.idx = S.idx.filter(a => a.journal_name !== jname);
       (data.articles || []).forEach(art =>
-        S.idx.push(toIndexItem(art, jname, info.category))
+        S.idx.push(toIndexItem(art, jname, category, country))
       );
       const after = S.idx.filter(a => a.journal_name === jname).length;
       newCount += Math.max(0, after - before);
@@ -1126,6 +1131,16 @@ function setSbTab(country, isMob=false){
   buildFY(S.fj, S.fc, country);
   buildFI(S.fj, S.fy);
   buildSidebar(country);
+  // 탭 변경 시 결과도 즉시 갱신
+  if(!S.q && !S.fj){
+    // 검색어·학술지 없을 때: 국가 필터만 적용해서 결과 표시
+    let res=[...S.idx];
+    if(country) res=res.filter(a=>a.country===country);
+    if(S.fc)    res=res.filter(a=>a.category===S.fc);
+    S.res=res; render();
+  } else {
+    applyFilters();
+  }
 }
 
 function buildSidebar(countryFilter=""){
