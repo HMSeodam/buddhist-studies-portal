@@ -853,7 +853,11 @@ async function loadDB(){
     const jurl = JOURNAL_URLS[jname] || {};
     const category = info.category || jurl.category || "불교학";
     const country  = info.country  || jurl.country  || "Korea";
-    db.journals[jname] = Array.isArray(data) ? {info:{name:jname,category}, articles:data} : data;
+    // info에 category/country 반영 (IBK처럼 배열이 아닌 JSON 파일도 올바르게 분류)
+    const storedData = Array.isArray(data)
+      ? {info:{name:jname,category,country}, articles:data}
+      : {...data, info:{...(data.info||{}), name:jname, category, country}};
+    db.journals[jname] = storedData;
     arts.forEach(art =>
       db.index.push(toIndexItem(art, jname, category, country))
     );
@@ -1403,7 +1407,7 @@ function openMod(id){
   const icoDoc=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>`;
   if(isIBK){
     if(a.jstage_url) lks+=`<a href="${a.jstage_url}" target="_blank" class="mlk pri">${icoLink} J-Stage 원문</a>`;
-    // NDL Search: ndl_url 직접 링크 우선, 없으면 DOI로 검색, DOI도 없으면 제목으로 검색
+    // NDL Search: 직접 링크 우선, 없으면 DOI 검색
     if(a.ndl_url){
       lks+=`<a href="${a.ndl_url}" target="_blank" class="mlk sec">NDL Search</a>`;
     } else if(a.doi){
@@ -1413,11 +1417,7 @@ function openMod(id){
       const ndlUrl="https://ndlsearch.ndl.go.jp/search?cs=bib&q="+encodeURIComponent(a.title_ja)+"&f-dn=article";
       lks+=`<a href="${ndlUrl}" target="_blank" class="mlk sec">NDL Search</a>`;
     }
-    if(a.doi) lks+=`<a href="https://doi.org/${a.doi}" target="_blank" class="mlk sec">DOI</a>`;
-    // 학술지 관련 고정 링크
-    lks+=`<a href="https://www.jstage.jst.go.jp/browse/ibk/-char/ja" target="_blank" class="mlk home">${icoHome} J-Stage 전체 호수</a>`;
-    lks+=`<a href="https://www.inbuds.net/kor/" target="_blank" class="mlk home">${icoHome} INBUDS 검색(한국어)</a>`;
-    lks+=`<a href="https://www.jaibs.jp/" target="_blank" class="mlk home">${icoHome} 학회 홈(日本印度学仏教学会)</a>`;
+    lks+=`<a href="https://www.inbuds.net/kor/" target="_blank" class="mlk home">${icoHome} INBUDS 검색</a>`;
   } else {
     if(a.riss_url) lks+=`<a href="${a.riss_url}" target="_blank" class="mlk pri">${icoDoc} RISS 원문</a>`;
     if(a.kci_url)  lks+=`<a href="${a.kci_url}"  target="_blank" class="mlk sec">${icoLink} KCI 보기</a>`;
