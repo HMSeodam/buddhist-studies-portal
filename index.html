@@ -721,6 +721,7 @@ const JOURNAL_URLS = {
   "무형문화연구":       {url:"https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=SER000006102", note:"", category:"불교학"},
   "세화불학":           {url:"https://xn--wr3bl1e16flrr29a.org/journal/search", note:"", category:"불교학"},
   "전자불전":           {url:"https://www.iebtc.net/%EC%B6%9C%ED%8C%90%EB%AC%BC-journal/jebtc", note:"", category:"불교학"},
+  "원불교사상과 종교문화": {url:"https://wth.or.kr/homepage/custom/view", note:"", category:"불교학"},
   "印度學佛教學研究":    {url:"https://www.inbuds.net/kor/", note:"", category:"불교학", country:"Japan"},
 };
 
@@ -738,7 +739,7 @@ const JOURNAL_FILES = [
   "riss_불교학보.json","riss_불교학연구.json","riss_선문화연구.json",
   "riss_선학.json","riss_세화불학.json","riss_인도철학.json","riss_전자불전.json","riss_정토학연구.json",
   "riss_종학연구.json","riss_한국교수불자연합학회지.json","riss_한국불교사연구.json",
-  "riss_한국불교학.json","riss_한마음연구.json",
+  "riss_한국불교학.json","riss_한마음연구.json","riss_원불교사상과 종교문화.json",
   "ibk_印度學佛教學研究.json"
 ];
 
@@ -774,9 +775,9 @@ function toIndexItem(art, jname, category, country){
   });
   // 통합 검색 텍스트: 한국어+일본어+한자+저자 alias 전부 합산
   const search_text = normalizeKanji([title, art.title_ja||"", art.title_en||"", au, abs, kwAll, jname, authorAlias].join(" "));
-  // JOURNAL_URLS를 최종 fallback으로 사용 — 어떤 경로로 호출되든 category/country 보장
+  // JOURNAL_URLS를 최우선 fallback으로 사용 — 크롤러 분류보다 포털 분류 기준 우선
   const jurl = JOURNAL_URLS[jname] || {};
-  const resolvedCategory = category || jurl.category || "불교학";
+  const resolvedCategory = jurl.category || category || "불교학";
   const resolvedCountry  = country  || jurl.country  || "Korea";
   return {
     id:           art.article_id || art.id || ("R"+Math.random().toString(36).slice(2)),
@@ -855,7 +856,8 @@ async function loadDB(){
       || fname.replace("riss_","").replace(".json","");
     // JOURNAL_URLS에서 카테고리 보완
     const jurl = JOURNAL_URLS[jname] || {};
-    const category = info.category || jurl.category || "불교학";
+    // JOURNAL_URLS 카테고리 우선 (크롤러가 수집한 info.category보다 포털 분류 기준이 우선)
+    const category = jurl.category || info.category || "불교학";
     const country  = info.country  || jurl.country  || "Korea";
     // info에 category/country 반영 (IBK처럼 배열이 아닌 JSON 파일도 올바르게 분류)
     const storedData = Array.isArray(data)
@@ -926,7 +928,7 @@ async function checkForUpdates(cache){
         || (data.articles && data.articles[0]?.journal_name)
         || fname.replace("riss_","").replace("ibk_","").replace(".json","");
       const jurl = JOURNAL_URLS[jname] || {};
-      const category = info.category || jurl.category || "불교학";
+      const category = jurl.category || info.category || "불교학";
       const country  = info.country  || jurl.country  || "Korea";
       const before = S.idx.filter(a => a.journal_name === jname).length;
       S.idx = S.idx.filter(a => a.journal_name !== jname);
