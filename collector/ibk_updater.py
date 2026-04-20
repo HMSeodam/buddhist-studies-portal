@@ -260,7 +260,7 @@ def save(data, articles):
 
     out = Path(OUTPUT_DIR) / OUTPUT_FILE
     with open(out, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
     sz = out.stat().st_size / 1024 / 1024
     print(f"저장: {out} ({sz:.1f}MB)")
 
