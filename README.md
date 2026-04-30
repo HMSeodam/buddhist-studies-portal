@@ -28,6 +28,7 @@
 ## 제작
 
 한민수 · 동명대학교 (Tongmyong University)
+
 진영아 · 신라대학교 (Silla University)
 
 본 서비스는 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 라이선스를 따릅니다.
