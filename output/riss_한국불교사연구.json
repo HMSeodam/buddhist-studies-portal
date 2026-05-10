@@ -3,7 +3,8 @@
     "name": "한국불교사연구",
     "category": "불교사학",
     "impact_factor": 0.33,
-    "control_no": "864d8da7fde953e0ffe0bdc3ef48d419"
+    "control_no": "864d8da7fde953e0ffe0bdc3ef48d419",
+    "last_updated": "2026-05-10"
   },
   "articles": [
     {
@@ -9136,6 +9137,97 @@
       ],
       "ai_keywords": [],
       "source": "RISS"
+    },
+    {
+      "article_id": "600f3af78516377fffe0bdc3ef48d419",
+      "title_kr": "독일 리트(Lied)와 프랑스 멜로디(Me´lodie)에 있어서의 시와 음악의 관계 연구",
+      "title_en": "",
+      "authors": [
+        {
+          "name": "조명희",
+          "affiliation": "성악, 교회음악",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "German lied and French me´lodie have some of the similar properties of Art song such as the union of music and poem, the accompaniment expressing the feeling of poem, and the variety and beauty of me´lodies. However, distinguished from French me´lodie, German lied has the folk color. As it could be found in Schubert songs, the uniqueness of German lied is presented by the harmony between the music and words. The Harmony shows German nature of internal lyricism characterized by simple, enthusiastic but not sentimental. Sometimes it gives the feeling of loneliness but not the shout of despair. The \"clear expression\" of French me´lodie which usually expresses moods and impression more than shown emotion is a contrast to German lied which express metaphysics and slowly. German lied are subjective in music and poem, however, French me´lodie are objective and intelligent in music and poem through connection between perception and sense. Thus, French me´lodie does not have the deep relationship with the popular music(like folk songs) that the German lied has. Above all, German has strong accent and French has vowels of nasal and liaison. These differences between two languages are the biggest difference. Lied writers should be caution about the syllables which have accent or not. In French, there are not strong accent like German but it is more rhythmic and recitative in expression therefore it is important to me´lodie writer to make the singers feel free in liaison. There is no doubt that the recreation of emotional expression from German music and poetry is easier to be made than the recreation of intelligent and polished mood of poem, and temperate and deep sentiment from the French music and poetry.",
+      "abstract_en": "",
+      "journal_name": "한국불교사연구",
+      "year": "2008",
+      "volume": "27",
+      "issue": "28",
+      "start_page": "443",
+      "end_page": "471",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/recommender/click.do?db=3&link_type=sdMeNonUser&p_mat_type=1a0202e37d52c72d&control_no=600f3af78516377fffe0bdc3ef48d419",
+      "kci_url": "",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "600f3af78516377fffe0bdc3ef48d419"
+    },
+    {
+      "article_id": "1a4e67ca2d1e2b1fe9810257f7042666",
+      "title_kr": "경복궁 근정전 단청안료의 성분분석",
+      "title_en": "The composition analysis of Danchung pigments at Geunjeongjeon Hall in Gyeongbokgung Palace",
+      "authors": [
+        {
+          "name": "조남철",
+          "affiliation": ";",
+          "order": "1"
+        },
+        {
+          "name": "문환석",
+          "affiliation": ";",
+          "order": "2"
+        },
+        {
+          "name": "홍종욱",
+          "affiliation": ";",
+          "order": "3"
+        },
+        {
+          "name": "황진주",
+          "affiliation": ";",
+          "order": "4"
+        },
+        {
+          "name": "Cho, Nam-Chul",
+          "affiliation": ";",
+          "order": "5"
+        },
+        {
+          "name": "Moon, Whan-Suk",
+          "affiliation": ";",
+          "order": "6"
+        },
+        {
+          "name": "Hong, Jong-Ouk",
+          "affiliation": ";",
+          "order": "7"
+        },
+        {
+          "name": "Hwang, Jin-Ju",
+          "affiliation": "",
+          "order": "8"
+        }
+      ],
+      "abstract_kr": "The composition analysis of Danchung pigments at Geunjeongjeon Hall in Gyeongbokgung Palace were carried out by FXRF and MXRD. The analytical result of the inside pigments at Geunjeongjeon showed that these painted in use the mineral pigments. Gold pigment was pure gold(Au).The main composition identified in green pigments were chalcanthite($CuSO_4$.$5H_2O$) and celadonite($K(Mg, Fe, Al)_2$.$(Si, Al)_4O_10(OH)_2$ ). Red pigments werecinnnabar(HgS).The analytical result of the outside pigments at Geunjeongjeon revealed that these applied to the artificial synthetic pigment. Yellow pigment was chromeyellow($PbCrO_4$). The main composition identified in red pigments were red lead($Pb_3O_4$)and hematite($Fe_2O_3$). Green pigments were emeral green($C_2H_3A_s3Cu_2O_8$) and chromegreen($Cr_2O_3$). Blue pigment was lazurite($Na_6Ca2Al_6Si_6O_24(SO_4)_2$), titanium dioxide($TiO_2$) of white pigment.",
+      "abstract_en": "",
+      "journal_name": "한국불교사연구",
+      "year": "2001",
+      "volume": "22",
+      "issue": "",
+      "start_page": "93",
+      "end_page": "114",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/recommender/click.do?db=3&link_type=sdMeNonUser&p_mat_type=1a0202e37d52c72d&control_no=1a4e67ca2d1e2b1fe9810257f7042666",
+      "kci_url": "",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "1a4e67ca2d1e2b1fe9810257f7042666"
     }
   ],
   "by_year": {
