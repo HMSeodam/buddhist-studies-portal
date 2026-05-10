@@ -78,7 +78,13 @@ def init_driver():
         opts.add_argument("--disable-dev-shm-usage")
         opts.add_argument("--disable-gpu")
         opts.add_argument("--window-size=1280,900")
-        driver = uc.Chrome(options=opts, use_subprocess=True)
+        try:
+            import subprocess as _sp
+            _v = _sp.run(['google-chrome','--version'], capture_output=True, text=True, timeout=5)
+            _major = int(re.search(r'(\d+)\.', _v.stdout).group(1))
+        except Exception:
+            _major = None
+        driver = uc.Chrome(options=opts, use_subprocess=True, version_main=_major)
         driver.implicitly_wait(5)
         print("  드라이버: undetected_chromedriver (headless)")
         return driver
