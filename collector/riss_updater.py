@@ -23,7 +23,7 @@ from pathlib import Path
 from datetime import datetime
 import argparse
 
-OUTPUT_DIR    = "./output"
+OUTPUT_DIR    = "../output"
 REQUEST_DELAY = 2.0
 RISS_BASE     = "https://www.riss.kr"
 

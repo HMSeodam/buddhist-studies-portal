@@ -21,7 +21,7 @@ from pathlib import Path
 from datetime import datetime
 import argparse
 
-OUTPUT_DIR  = "./output"
+OUTPUT_DIR  = "../output"
 OUTPUT_FILE = "ibk_印度學佛教學研究.json"
 JSTAGE_BASE = "https://www.jstage.jst.go.jp"
 JSTAGE_LIST = f"{JSTAGE_BASE}/browse/ibk/list/-char/ja"
