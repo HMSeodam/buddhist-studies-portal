@@ -23,7 +23,7 @@ from pathlib import Path
 from datetime import datetime
 import argparse
 
-OUTPUT_DIR    = "../output"
+OUTPUT_DIR    = "./output"
 REQUEST_DELAY = 2.0
 RISS_BASE     = "https://www.riss.kr"
 
@@ -140,7 +140,11 @@ def load_journal(journal_name: str) -> dict:
         print(f"  ⚠ {path.name} 없음 → 빈 데이터로 시작")
         return {"info": {"name": journal_name}, "articles": []}
     with open(path, encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+    # 구형 포맷(plain list) 호환 처리
+    if isinstance(data, list):
+        return {"info": {"name": journal_name}, "articles": data}
+    return data
 
 def save_journal(journal_name: str, data: dict):
     """개별 학술지 JSON 파일 저장."""
