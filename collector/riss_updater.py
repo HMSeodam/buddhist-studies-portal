@@ -15,6 +15,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import json, time, re, hashlib
@@ -171,64 +172,112 @@ def load_all_existing_ids() -> set:
 #  최신 호수 목록 (상위 N개만)
 # ════════════════════════════════════════
 
+def _collect_issues_from_page(driver, control_no: str, seen: set) -> list:
+    """현재 페이지 HTML에서 v_control_no 링크를 수집."""
+    found = []
+    soup  = BeautifulSoup(driver.page_source, "html.parser")
+    for a in soup.find_all("a"):
+        href    = a.get("href",    "") or ""
+        onclick = a.get("onclick", "") or ""
+        source  = href if "v_control_no" in href else onclick if "v_control_no" in onclick else ""
+        if not source:
+            continue
+        m = re.search(r"v_control_no=([a-f0-9]+)", source)
+        if not m or m.group(1) in seen:
+            continue
+        v_id = m.group(1)
+        seen.add(v_id)
+        txt   = a.get_text(strip=True)
+        no_m  = re.search(r"No\.(\d+)", txt)
+        vol_m = re.search(r"Vol\.(\d+)", txt)
+        if href.startswith("/"):
+            full_url = RISS_BASE + href
+        elif href.startswith("http"):
+            full_url = href
+        else:
+            full_url = (f"{RISS_BASE}/search/detail/DetailView.do"
+                       f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}"
+                       f"&v_control_no={v_id}&inside_outside=1")
+        found.append({
+            "v_control_no": v_id,
+            "issue":        no_m.group(1)  if no_m  else "",
+            "volume":       vol_m.group(1) if vol_m else "",
+            "label":        txt,
+        })
+    return found
+
+
 def get_recent_issues(driver, control_no: str, depth: int) -> list[dict]:
-    """학술지 페이지에서 최신 호수 N개만 수집"""
-    base_url = (f"{RISS_BASE}/search/detail/DetailView.do"
-                f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}")
-    driver.get(base_url)
+    """최신 호수 depth개 수집. riss_selenium_crawler.py의 3단계 클릭 방식 사용."""
+    url = (f"{RISS_BASE}/search/detail/DetailView.do"
+           f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}")
+    driver.get(url)
     time.sleep(5)
 
     issues = []
     seen   = set()
 
-    def collect_from_current():
-        found = []
-        soup  = BeautifulSoup(driver.page_source, "html.parser")
-        for a in soup.find_all("a"):
-            href    = a.get("href",    "") or ""
-            onclick = a.get("onclick", "") or ""
-            source  = href if "v_control_no" in href else onclick if "v_control_no" in onclick else ""
-            if not source:
-                continue
-            m = re.search(r"v_control_no=([a-f0-9]+)", source)
-            if not m or m.group(1) in seen:
-                continue
-            v_id = m.group(1)
-            seen.add(v_id)
-            txt   = a.get_text(strip=True)
-            no_m  = re.search(r"No\.(\d+)", txt)
-            vol_m = re.search(r"Vol\.(\d+)", txt)
-            if href.startswith("/"):
-                full_url = RISS_BASE + href
-            elif href.startswith("http"):
-                full_url = href
-            else:
-                full_url = (f"{RISS_BASE}/search/detail/DetailView.do"
-                           f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}"
-                           f"&v_control_no={v_id}&inside_outside=1")
-            found.append({
-                "v_control_no": v_id,
-                "issue":        no_m.group(1)  if no_m  else "",
-                "volume":       vol_m.group(1) if vol_m else "",
-                "label":        txt,
-            })
-        return found
+    # ── 1차: 기본 페이지 HTML에서 바로 수집 ──────────────────────────────
+    issues += _collect_issues_from_page(driver, control_no, seen)
+    if issues:
+        return issues[:depth]
 
-    # 1차: 기본 페이지
-    issues += collect_from_current()
-
-    if not issues:
-        # 2차: 연도별 URL 직접 순회 (세계불학·전자불전 구조)
-        cur = datetime.now().year
-        for year in range(cur, cur - 4, -1):
-            year_url = (f"{RISS_BASE}/search/detail/DetailView.do"
-                       f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}"
-                       f"&inside_outside=0&v_year={year}")
-            driver.get(year_url)
-            time.sleep(3)
-            issues += collect_from_current()
+    # ── 2차: 연도 탭 클릭 → JS 렌더링 후 수집 ────────────────────────────
+    print("  연도 클릭 방식으로 호수 탐색 중...")
+    year_els = [
+        el for el in driver.find_elements(By.TAG_NAME, "a")
+        if re.match(r"^(19|20)\d{2}", el.text.strip())
+    ]
+    if year_els:
+        for el in year_els:
             if len(issues) >= depth:
                 break
+            try:
+                year_txt = el.text.strip()
+                print(f"    [{year_txt}] 클릭...", end=" ", flush=True)
+                driver.execute_script("arguments[0].click();", el)
+                time.sleep(2)
+                before = len(issues)
+                issues += _collect_issues_from_page(driver, control_no, seen)
+                print(f"{len(issues) - before}개 발견")
+            except Exception as e:
+                print(f"클릭 실패: {e}")
+        if issues:
+            return issues[:depth]
+
+    # ── 3차: 연도별 URL 직접 순회 (fallback) ─────────────────────────────
+    print("  연도별 URL 방식으로 호수 탐색 중...")
+    cur = datetime.now().year
+    consecutive_empty = 0
+    for year in range(cur, cur - 6, -1):
+        if len(issues) >= depth:
+            break
+        year_url = (f"{RISS_BASE}/search/detail/DetailView.do"
+                    f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}"
+                    f"&inside_outside=0&v_year={year}")
+        driver.get(year_url)
+        time.sleep(4)
+        before  = len(issues)
+        issues += _collect_issues_from_page(driver, control_no, seen)
+        added   = len(issues) - before
+        if added:
+            print(f"  {year}년: {added}개 발견")
+            consecutive_empty = 0
+        else:
+            consecutive_empty += 1
+            if consecutive_empty >= 3:
+                break
+
+    # ── 디버그: 여전히 0개이면 페이지 상태 출력 ──────────────────────────
+    if not issues:
+        landed = driver.current_url
+        print(f"  호수 없음 (현재 URL: {landed[:80]})")
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        print("  <a> 태그 샘플:")
+        for tag in soup.find_all("a")[:8]:
+            h = (tag.get("href") or "")[:60]
+            t = tag.get_text(strip=True)[:30]
+            print(f"    {t!r:30s}  href={h!r}")
 
     return issues[:depth]
 
@@ -453,7 +502,6 @@ def run(depth=1):
             # 최신 호수 목록
             issues = get_recent_issues(driver, control_no, depth)
             if not issues:
-                print(f"  호수 없음")
                 continue
 
             journal_new = []
