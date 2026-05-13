@@ -3,7 +3,8 @@
     "name": "선학",
     "category": "불교학",
     "impact_factor": 0.65,
-    "control_no": "d18b923635d64155ffe0bdc3ef48d419"
+    "control_no": "d18b923635d64155ffe0bdc3ef48d419",
+    "last_updated": "2026-05-13"
   },
   "articles": [
     {
@@ -28456,6 +28457,329 @@
       ],
       "ai_keywords": [],
       "source": "RISS"
+    },
+    {
+      "article_id": "2e1bebaa69a9cf11b36097776a77e665",
+      "title_kr": "석전의 『백법론회석』에 나타난 유식학과 참선의 조화",
+      "title_en": "Harmony of Yogācāra and Seon Meditation in Seokjeon’s Baeknon hoesok",
+      "authors": [
+        {
+          "name": "박인석",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 석전 박한영의 『백법론회석』에 나타난 유식학과 참선의 관계를 분석하는 것을 목적으로 한다. 석전은 1916년 중앙학림 교재로 『백법론회석』을 편찬하면서, 명대 유식학자 명욱의 주석과 더불어 여래장 사상에 입각한 덕청의 주석을 함께 회편하였다. 여기에는 유식학의 이론적 이해를 참선 수행의 실천으로 연결하려는 의도가 들어가 있다. 덕청은 상종(유식)과 성종(여래장)의 긴장 관계를 『대승기신론』의 ‘일심 이문’ 구조로 통합하고, 선종을 교외별전(敎外別傳)으로 위치시켰다. 수행론적으로는 아뢰야식을 ‘불생멸이 생멸과 화합한 것’으로 규정하여 각의(불성)와 불각의(무명)를 함께 갖춘 것으로 보았으며, 심소를 업 생성의 과정으로 재편하였다. 특히 변행심소 5가지를 ‘선악이 최초로 움직이는 찰나’로 파악하고, 참선에서 화두를 들어 생각을 끊는 것이 곧 작의를 차단하는 것이라 설명하였다. 나아가 이무아(二無我)의 실현을 수행의 완성으로 제시하였다. 석전이 이러한 덕청의 관점을 수용한 것은, 유식학을 마음 구조의 지도로 삼고 참선을 그 실천으로 삼는 상호보완적 수행론을 구현하려 했기 때문이다.",
+      "abstract_en": "This paper analyzes the relationship between Yogācāra philosophy and Seon meditation as presented in Baeknon hoesok by Seokjeon Bak Han-yeong. When Seokjeon compiled Baeknon hoesok as a textbook for Jungang Haklim in 1916, he incorporated both the commentary of Mingyù, a Ming-dynasty Yogācāra scholar, and the commentary of Deqing, who wrote from the perspective of Tathāgatagarbha thought. This was intended to connect the theoretical understanding of Yogācāra doctrine with the actual practice of Seon meditation. Deqing integrated the tension between the Xiang school (Yogācāra) and the Xing school (Tathāgatagarbha) through the structure of “one mind, two gates” found in the Awakening of Mahāyāna Faith, and positioned the Seon school as a transmission outside the teachings (jiaowai biezhuan). In terms of soteriology, he defined the ālayavijñāna as “the non-arising-and-ceasing mind in union with arising-and-ceasing,” holding both the aspect of enlightenment (juéyì) and the aspect of non-enlightenment (bùjuéyì), and restructured the fifty-one mental factors (caitasika) as a sequential process of karma generation. In particular, he identified the five universal mental factors (sarvatraga) as “the initial moment in which good and evil first stir,” explaining that raising a huatou in Seon practice and cutting off conceptual consciousness is precisely the act of blocking manaskāra. He further presented the realization of the two kinds of selflessness (dvayairātmya) as the culmination of practice. Seokjeon’s adoption of Deqing’s perspective reflects his aim to embody a mutually complementary soteriology in which Yogācāra serves as a map of the mind’s structure and Seon meditation serves as its practical realization.",
+      "journal_name": "선학",
+      "year": "2026",
+      "volume": "",
+      "issue": "73",
+      "start_page": "5",
+      "end_page": "27",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2e1bebaa69a9cf11b36097776a77e665",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "석전 박한영",
+        "『백법론회석』",
+        "감산 덕청",
+        "유식학",
+        "참선"
+      ],
+      "keywords_en": [
+        "Seokjeon Bak Han-yeong",
+        "Baeknon hoesok",
+        "Hanshan Deqing",
+        "Yogācāra",
+        "Seon meditation."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "2e1bebaa69a9cf11b36097776a77e665"
+    },
+    {
+      "article_id": "8efda34920a268556aae8a972f9116fb",
+      "title_kr": "법안문익의 선사상적 특질과 그 연원",
+      "title_en": "The Distinctive Features of Fayan Wenyi’s Chan Thought and Its Intellectual Origins",
+      "authors": [
+        {
+          "name": "인봉스님(최정근)",
+          "affiliation": "동국대학교 대학원  WISE캠퍼스",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 조사선 오가(五家) 가운데 마지막으로 성립한 법안종(法眼宗)의 선사상적 특질과 그 연원을 밝히는 것을 목적으로 한다. 특히 법안문익(法眼文益)의 생애와 오도 과정을 중심으로, 그가 제창한 ‘일체현성(一切現成)’의 사상과 그 철학적 기반을 분석하였다. 문익은 나한계침(羅漢桂琛)과의 만남을 통해 “일체현성”의 깨달음에 이르렀으며, 이후 그의 선사상은 이 ‘일체현성’을 중심으로 전개된다. 이러한 사상은 청원계 선법의 전통, 특히 석두희천(石頭希遷)의 「참동계(參同契)」와 『조론(肇論)』의 ‘촉사이진(觸事而眞)’ 등의 사상과 깊은 관련을 지니며, 문익은 이를 계승하여 ‘일체현성’이라는 종지로 재구성하였다. 동시에 그는 법장(法藏)과 이통현(李通玄)의 저술을 비롯한 화엄학을 적극적으로 원용하여, 이사원융(理事圓融)의 논리를 통해 자신의 선사상을 이론적으로 심화하였다. 이러한 점에서 법안종은 조사선과 화엄학이 결합된 ‘선교융합’의 성격을 지닌다고 할 수 있다. 또한 문익은 『종문십규론(宗門十規論)』을 통해 당시 조사선의 폐해를 비판하고, 종문에 대한 포괄적 인식을 제시하였으며, 교학을 통해 조사의 마음에 계합해야 한다는 점에서 선교일치의 입장을 제시하였다. 결론적으로 문익의 선사상은 조사선의 전통을 계승하면서도 화엄학을 수용하여 ‘일체현성’이라는 독자적 종지를 정립한 것으로, 이는 법안종의 성립과 더불어 선종 사상사의 중요한 전환점을 이룬다고 평가할 수 있다.",
+      "abstract_en": "This study aims to elucidate the distinctive characteristics and intellectual origins of the Fayan School (法眼宗), the last of the Five Houses of Patriarchal Chan (祖師禪). Focusing on the life and enlightenment of Fayan Wenyi (法眼文益), it analyzes the concept of “the complete presence of all phenomena” (一切現成) that he advocated, along with its philosophical foundations. Wenyi attained enlightenment through his encounter with Luohan Guichen (羅漢桂琛), and his Chan thought thereafter developed around this central notion of “all is already manifest.” This idea is deeply connected to the Qingyuan lineage of Chan, particularly to Shitou Xiqian’s (石頭希遷) Cantongqi (參同契) and Sengzhao’s (僧肇) Zhaolun (肇論), especially the notion of “truth realized in encountering phenomena” (觸事而眞). Wenyi inherited and reformulated these traditions into the doctrinal core of “the complete presence of all phenomena.” At the same time, he actively incorporated Huayan thought, drawing on the works of Fazang (法藏) and Li Tongxuan (李通玄), and further systematized his Chan philosophy through the principle of the interpenetration of principle and phenomena (理事圓融). In this respect, the Fayan School can be understood as embodying a synthesis of Chan and Huayan thought.Furthermore, through his Ten Regulations of the Chan School (宗門十規論), Wenyi critically examined the doctrinal and practical deficiencies of contemporary Chan and articulated a comprehensive understanding of the Chan lineage. He also emphasized the necessity of aligning with the patriarchal mind through the proper understanding of Buddhist teachings, thereby advocating the unity of Chan and doctrine (禪敎一致).In conclusion, Wenyi’s Chan thought, while inheriting the tradition of Patriarchal Chan, established an original doctrinal framework centered on “the complete presence of all phenomena” through the incorporation of Huayan philosophy. This represents a significant turning point in the intellectual history of Chan Buddhism and the formation of the Fayan School.",
+      "journal_name": "선학",
+      "year": "2026",
+      "volume": "",
+      "issue": "73",
+      "start_page": "29",
+      "end_page": "59",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8efda34920a268556aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "법안문익(法眼文益)",
+        "법안종(法眼宗)",
+        "일체현성(一切現成)",
+        "종문십규론(宗門十規論)",
+        "선교일치(禪敎一致)"
+      ],
+      "keywords_en": [
+        "Fayan Wenyi",
+        "Fayan School",
+        "the complete presence of all phenomena",
+        "Ten Regulations of the Chan School",
+        "unity of Chan and doctrine."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "8efda34920a268556aae8a972f9116fb"
+    },
+    {
+      "article_id": "2e1bebaa69a9cf11c85d2949c297615a",
+      "title_kr": "초기불교 5력과 간화선 수행체계의 비교 고찰",
+      "title_en": "A Comparative Exploration of the Five Spiritual Powers in Early Buddhism and the Practice System of Ganhwa Seon",
+      "authors": [
+        {
+          "name": "김성식",
+          "affiliation": "중앙대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 현대 사회의 정신적 위기 속에서 한국 불교가 간화선 전통을 계승하고 발전시켜야 할 과제에 주목한다. 물질문명의 발달로 심화된 삼독(탐, 진, 치)의 정신문화를 극복하기 위해 초기불교 5력 수행과 선종 간화선 수행 체계를 비교 분석하고, 5력 수행 관점에서 간화선 수행의 개선점을 제시하고자 한다.먼저 초기불교 5력 수행(신력, 정진력, 염력, 정력, 혜력)의 개념과 정의, 역할 및 37조도법과의 관계를 분석하고, 선종 간화선의 개념, 성립 배경, 수행 방법을 고찰하여 그 특징들을 도출하였다. 이를 바탕으로 초기불교 5력과 선종 간화선 수행 체계를 다섯 가지 요소를 중심으로 비교 분석하고, 공통점과 차이점을 제시하였다. 마지막으로 초기불교 5력 관점에서 간화선 수행의 개선 방안을 제안하고, 융합적 고찰을 통해 간화선 수행의 발전 방향을 모색하고자 한다. 또한 두 수행 체계는 깨달음을 목표로 하나 수행 방법론과 강조점에서 차이를 보였다. 5력 수행은 다섯 가지 힘의 균형있는 계발을 통해 점진적 깨달음을 강조하는 반면, 간화선 수행은 화두를 통한 의정 발생과 의단 타파를 통한 직관적 깨달음을 중시하였다. 이에 본 연구는 간화선 수행이 다음과 같은 측면에서 5력 수행 관점의 보완이 필요함을 제안한다. (1) 신심에 관하여 사불괴정(四不壞淨, 불·법·승·계)에 대한 확고한 믿음이 재정립되어야 한다. (2) 정진이란 몸과 마음의 사정근(四正勤)이며, 지속적인 윤리적 삶의 실천을 확보해야 한다. (3) 화두에 대한 집중적인 마음챙김뿐만 아니라 몸과 마음의 균형 잡힌 마음챙김은 수행과정에서 건전하고 실질적인 염력의 구현이다. (4) 선정 자체에 집착하기보다 화두 참구를 위한 삼매 활용으로 깨달음에 다가가야 한다. (5) 공안을 통한 깨달음으로 무분별지 추구와 별도로 사성제(四聖諦)에 대한 통찰력이 확보되어야 한다.끝으로 간화선 수행이 초기불교 5력 수행의 균형과 조화를 통해 더욱 효과적이고 지속 가능한 수행 체계로 발전할 수 있음을 시사한다. 이는 한국 불교가 간화선 전통을 계승하면서도 시대적 요구에 부응하여 정신문화를 회복하고 사회에 기여하는 데 도움이 될 것이다.",
+      "abstract_en": "This paper addresses the challenge of inheriting and evolving the Ganhwa Seon tradition in Korean Buddhism amidst the spiritual crisis of modern society. To overcome the “Three Poisons” (greed, hatred, and delusion) intensified by material civilization, this study comparatively analyzes the Five Powers (Pa ca Bal ni) of Early Buddhism and the Ganhwa Seon system.First, it examines the definitions and roles of the Five Powers (Faith, Effort, Mindfulness, Concentration, and Wisdom) and their relationship with the 37 Factors of Enlightenment. It then explores the characteristics of Ganhwa Seon, including its historical background and methodologies. Based on this, the study identifies commonalities and differences between the two systems. While both aim for enlightenment, the Five Powers emphasize balanced development and gradual progress, whereas Ganhwa Seon focuses on intuitive awakening through the breakthrough of “Doubt-mass” (Uidan).Based on this analysis, the study proposes five improvements for Ganhwa Seon from the perspective of the Five Powers: (1) Re-establishing faith based on the Four Unshakable Confidences (Cattāro Aveccappasādā). (2) Ensuring the sustainability of practice through the Four Right Efforts (Sammappadhāna) and ethical living. (3) Cultivating balanced Mindfulness (Sati) of body and mind alongside intensive focus on the Hwadu. (4) Utilizing Samadhi as a dynamic tool for Hwadu contemplation rather than becoming attached to the state of stillness itself. (5) Securing insight into the Four Noble Truths alongside the pursuit of non-discriminating wisdom.In conclusion, integrating the balance and harmony of the Five Powers can transform Ganhwa Seon into a more effective and sustainable system, helping Korean Buddhism respond to contemporary needs and restore spiritual values in society.",
+      "journal_name": "선학",
+      "year": "2026",
+      "volume": "",
+      "issue": "73",
+      "start_page": "61",
+      "end_page": "96",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2e1bebaa69a9cf11c85d2949c297615a",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "간화선",
+        "초기불교",
+        "5력",
+        "불교 수행",
+        "융합"
+      ],
+      "keywords_en": [
+        "Ganhwa Seon",
+        "Early Buddhism",
+        "Five Powers",
+        "Buddhist Practice",
+        "Integration."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "2e1bebaa69a9cf11c85d2949c297615a"
+    },
+    {
+      "article_id": "2e1bebaa69a9cf114884a65323211ff0",
+      "title_kr": "사무색정의 교설 구조 고찰",
+      "title_en": "A Study on the Doctrinal Structure of the Four Formless Attainments",
+      "authors": [
+        {
+          "name": "김출곤",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 팔리불전에 나타난 사무색정의 경설을 고찰함으로써, 불교 교설에서 사무색정이 차지하는 위상을 밝히는 것을 목적으로 한다. 먼저 경설을 근거로 사무색처의 ‘무색’이 수·상·행·식의 사무색음을 가리킴을 확인하고, 이를 토대로 초기 바라문 전통의 두 무색처와 구차제정의 두 무색처의 동이성을 논한다. 전자는 색은 물론 사무색음을 올바로 관찰하지 못하여 무색음을 즐거워하는 결박에 묶이는 반면, 후자는 사선의 차제를 이어 무색음을 무상·고·공·무아로 관찰한다. 또한 사선 이후 ‘무량한 심삼매’와 함께 사무색처에 입정함을 밝히고, 나아가 ‘색, 무색, 멸’의 삼계 구조와 팔해탈 교설을 검토하여, 사무색처는 상수멸에 이르기 위한 차제이지 그 자체가 목적이 아님을 보인다. 끝으로 칠인설의 양분해탈자와 혜해탈자를 이 구조 안에서 재정의하여, 양분해탈자는 사선, 사무색처, 상수멸의 차제를 통해 누진에 이르는 자이며 혜해탈자는 사선에서 곧장 누진에 이른 자임을 논증한다. 이러한 분석을 통해 본고는 사무색정이 불교 외부 전통을 단순 수용한 것이 아니라, 불교 교설의 내적 정합성 안에서 무색처를 무상·고·공·무아로 올바르게 관찰하도록 재구성된 차제임을 제시한다.",
+      "abstract_en": "This paper examines the doctrinal structure of the four formless attainments in the Pāli Canon and their place within the Buddhist teaching system. Drawing on MN 64, it establishes that arūpa denotes the four formless aggregates, not mere absence of material form. It argues that the “externally derived” formless spheres of the Brahmanical tradition differ fundamentally from those in the nine successive attainments: the former lead only to rebirth through delight, whereas the latter, presupposing the four jhānas, involve contemplation of the aggregates as impermanent, suffering, empty, and non-self.The paper further shows that the mind entering the formless spheres operates through “immeasurable mental composure” (appamāṇo samādhi), not the “unshakeable mind” (ānejja). Within the three-realm structure and the eight liberations, the formless spheres form an intermediate stage in which perception is progressively extinguished; only in cessation (nirodhasamāpatti) are both perception and feeling fully extinguished, enabling wisdom to destroy the taints. One liberated both ways (ubhatobhāgavimutta) attains the destruction of the taints (āsavakkhaya) by traversing the formless attainments and cessation, while one liberated by wisdom (paññāvimutta) attains it directly from the four jhānas.",
+      "journal_name": "선학",
+      "year": "2026",
+      "volume": "",
+      "issue": "73",
+      "start_page": "97",
+      "end_page": "123",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2e1bebaa69a9cf114884a65323211ff0",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "사무색처",
+        "상수멸",
+        "구차제정",
+        "팔해탈",
+        "양분해탈"
+      ],
+      "keywords_en": [
+        "four formless spheres",
+        "cessation of perception and feeling",
+        "nine successive attainments",
+        "eight liberations",
+        "both-ways liberated."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "2e1bebaa69a9cf114884a65323211ff0"
+    },
+    {
+      "article_id": "2e1bebaa69a9cf1147de9c1710b0298d",
+      "title_kr": "연기(緣起)의 의미 재해석: “imasmiṁ sati idaṁ hoti”에서 ‘일즉일체(一卽一切)’로",
+      "title_en": "Reinterpreting the Meaning of Dependent Origination: from “imasmiṁ sati idaṁ hoti” to “one is everything(一卽一切)”",
+      "authors": [
+        {
+          "name": "조연숙",
+          "affiliation": "대한불교조계종",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 초기 경전의 연기 게송 “imasmiṁ sati idaṁ hoti(이것이 있을 때 이것이 있다)”에서 출발하여, 7세기 이후 주석서에 나타난 ‘일즉일체(一卽一切)’ 의미를 통해 현존하는 문헌 속에서 연기(緣起, paṭiccasamuppāda/ pratītyasamutpāda)의 의미 변천을 추적하여 재해석하려고 한다.‘이것’을 지시하는 대명사 imasmiṁ과 idaṁ에서 전자를 능(能), 후자를 소(所)로 이해할 때, 그 상호 의존관계 자체가 곧 연기법으로 드러난다. 이러한 대치는 화엄에서 찰나 ‘일’을 ‘이치(理)’, ‘일체’를 ‘현상(事)’으로 해석하는 사상과 일맥상통한다. 따라서 imasmiṁ을 하나(一, eka)의 이치로, idaṁ을 모든 것(一切, sabba/ sarva)의 현상으로 파악할 수도 있다. “연기를 보는 자는 법을 보고, 법을 보는 자는 붓다를 본다”라는 Śālistambasūtra의 문구는 연기의 조건적 상호의존성을 올바로 통찰하는 자가 ‘일즉일체’의 세계, 즉 한마음이 온 세상인 세계를 현전하게 될 가능성을 보여준다.",
+      "abstract_en": "This paper opens with the formula of dependent origination found in the early scriptures, “imasmiṁ sati idaṁ hoti” (“when this exists, this comes to be”), and seeks to trace and reinterpret the transformation of the meaning of dependent origination (paṭiccasamuppāda/ pratītyasamutpāda) as it appears in extant literature, particularly through the concept of “the one is the all” (一卽一切) found in commentarial works from the 7th century onward.When the demonstrative pronouns imasmiṁ and idaṁ are understood respectively as the subjective (能) and the objective (所), their very relationship of mutual dependence is revealed as dependent origination itself. This contrast resonates with the Huayan interpretation in which the “one” (一) is understood as principle (理) and the “all” (一切) as phenomena (事). Accordingly, imasmiṁ may be interpreted as the principle of the one, while idaṁ may be understood as the phenomena of all things.The statement from the Śālistambasūtra—“One who sees dependent origination sees the dharma; one who sees the dharma sees the Buddha” —suggests that a correct insight into the conditional interdependence of dependent origination may open up the possibility of actualizing the world of “the one is the all,” where a single mind encompasses the entire world.",
+      "journal_name": "선학",
+      "year": "2026",
+      "volume": "",
+      "issue": "73",
+      "start_page": "125",
+      "end_page": "154",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2e1bebaa69a9cf1147de9c1710b0298d",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "연기(緣起",
+        "차유고피유(此有故彼有)",
+        "Śālistambasūtra(『稻芉經』)",
+        "일즉일체(一卽一切)"
+      ],
+      "keywords_en": [
+        "dependent origination (緣起",
+        "paṭiccasamuppāda)",
+        "when this exists this arises (imasmiṁ sati idaṁ hoti)",
+        "that exists because this exists (此有故彼有)",
+        "the one is the all (一卽一切)",
+        "Śālistambasūtra (稻芉經).",
+        "Pā. paṭiccasamuppāda",
+        "Skt. pratītyasamutpāda)",
+        "“imasmiṁ sati idaṁ hoti”"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "2e1bebaa69a9cf1147de9c1710b0298d"
+    },
+    {
+      "article_id": "2e1bebaa69a9cf117f7a54760bb41745",
+      "title_kr": "AI 시대 계정혜 선(禪)수행을 통한 잉여정신의 윤리적 전환",
+      "title_en": "Ethical Transformation of the Surplus Mind through Seon Practice of Śīla, Samādhi, and Prajñā in the Age of AI",
+      "authors": [
+        {
+          "name": "유반야",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 AI 확산에 따른 인지노동 구조의 변화 속에서 상대적으로 유휴화되는 정신적 자원을 ‘잉여정신(剩餘精神, Surplus Mind)’으로 개념화하고, 계·정·혜 삼학 수행을 통한 그 윤리적 전환 가능성을 고찰하였다. 본 연구에서 잉여정신은 기술 환경의 변화로 인해 상대적으로 재배치된 주의력, 성찰 능력, 내적 지향성을 포괄하는 개념이다. 이러한 정신적 자원은 의도적인 수행적 개입이 없을 경우 방일, 자극 추구, 의미 상실의 방향으로 소진될 위험이 있다. 이에 계는 잉여정신의 유실을 방지하고, 정은 분산된 정신적 자원을 응집하며, 혜는 이를 통찰의 차원으로 전환시키는 역할을 한다. 이러한 전환은 발심과 원력을 통해 수행의 방향성과 지속성이 확보될 때 보다 안정적으로 이루어질 수 있다. 따라서 삼학 수행은 AI 환경에서 재배치된 정신적 자원을 개인의 내면 성숙과 윤리적 실천의 방향으로 전환하는 하나의 수행론적 틀로 이해될 수 있으며, 그 함의는 사회적 실천의 차원으로 확장될 수 있다",
+      "abstract_en": "This study conceptualizes the mental resources that become relatively unoccupied in the context of changes in the structure of cognitive labor brought about by the expansion of artificial intelligence (AI) as ‘Surplus Mind (剩餘精神)’ and examines the possibility of their ethical transformation through the Threefold Training of Śīla, samādhi, and prajñā. In this study, Surplus Mind refers to a conceptual category encompassing attention, reflective capacity, and inner orientation that have been relatively reallocated under changing technological conditions. Without intentional contemplative intervention, these mental resources may be at risk of being dissipated in the directions of heedlessness, stimulus-seeking, and loss of meaning. In response, Śīla functions to prevent the dissipation of Surplus Mind, samādhi to gather dispersed mental resources, and prajñā to transform them toward the level of insight. Such transformation can be more stably achieved when the direction and continuity of practice are secured through bodhicitta and vow-power. Therefore, the Threefold Training can be understood as a practical framework for redirecting mentally reallocated resources in AI environments toward inner maturity and ethical practice, with implications that may extend to the level of social practice.",
+      "journal_name": "선학",
+      "year": "2026",
+      "volume": "",
+      "issue": "73",
+      "start_page": "155",
+      "end_page": "187",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2e1bebaa69a9cf117f7a54760bb41745",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "잉여정신",
+        "계정혜 삼학",
+        "참선 선수행",
+        "명상",
+        "AI 윤리"
+      ],
+      "keywords_en": [
+        "Surplus Mind(剩餘精神)",
+        "Threefold Training(三學)",
+        "Seon Practice(禪修行)",
+        "Meditation(冥想)",
+        "AI Ethics."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "2e1bebaa69a9cf117f7a54760bb41745"
+    },
+    {
+      "article_id": "2e1bebaa69a9cf117ecd42904f0c5d65",
+      "title_kr": "명상을 통한 인식 전환과 평화 - 요한 갈퉁의 평화학에 대한 실천적 담론 -",
+      "title_en": "Change of Awareness and Peace through Meditation -Johan Galtung’s Practical Discourse on Peace Studies-",
+      "authors": [
+        {
+          "name": "김종용",
+          "affiliation": "불교의례문화 연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 요한 갈퉁(J. Galtung, 1930-2024)의 평화학을 기반으로, 평화를 도모하기 위한 방법론의 일환으로 선(禪) 또는 명상의 이론적, 과학적 유효성에 대해 살펴본 글이다.갈퉁이 말하는 간접적 폭력이 없는 상태라는 것은 ‘통합’의 의미가 내포되어 있는데, 이는 곧 자신과 타인을 분별하지 않고 만인이 동등하다는 의식에서 출발한다. 이에 적극적 평화를 이루기 위해서는 개개인이 타인을 바라보는 ‘인식 전환’이 필요한 것이다. ‘나’라고 하는 국한된 개념보다는 ‘우리’라고 하는 확장적 개념을 갖는 인식의 전환이 필요한 것이다. 이와 같은 인식 전환이 이루어진다면 우리 사회는 진정한 의미에서의 ‘통합’을 도모할 수 있는 그 기반이 마련된다고 갈퉁은 말한다. 이에 본 논문은 인식 전환의 방법론으로서 명상의 유효성을 살펴보았다. 이러한 검토를 위해 논자는 두 시선으로 이를 조망하였으며, 첫째는 선불교적 관점에서 이를 이론적 논리를 검토하였고, 둘째는 뇌과학적 방면에서 명상의 효용성(본 연구에서는 DMN에 집중하였다)을 살펴보았다.먼저 선불교 이론적 측면 부분이다. 불교에서 말하는 선(禪) 또는 명상이라고 하는 자기 수행은 깨달음을 목적으로 하는 것이다. 하지만 불교에서는 이러한 수행 과정에서 지혜를 발견할 수 있으며 이러한 지혜는 곧 자비의 의미가 내재되어 있음을 분명히 하고 있다. 왜냐하면 불교에서 말하는 깨달음이라는 것은 자신이 절대적 신(神)이라는 것을 아는 것이 아니라 만물의 원리와 본래의 실상을 깨달음으로써 본디 ‘나’라고 하는 주체 또는 실체는 없음을 체인하게 된다. 즉, 불교에서 말하는 깨달아 부처가 된다는 것은 실질적 신이 된다는 것이 아니라 만물의 진리 그 자체를 깨달은 자 또는 형이상자로서의 깨달음 그 자체를 말하는 것이다. 이처럼 각자(覺者)는 만물이 본디 둘이 아니라 하나임[自他不二]을 알기 때문에 모든 유정(有情)과 무정(無情)에 ‘나’ 아님이 없음을 안다. 이와 같이 아는 사람은 타인은 물론이고 모든 자연의 산물을 함부로 함이 있을 수 없는 것이다. 따라서 선 또는 명상을 통한 인식 전환은 자타의 경계의 무너짐이고 이와 같이 아는 자는 자연히 자리이타(自利利他)‧동체대비심(同體慈悲)을 행하게 되는 것이다.다음은 뇌과학적 부분이다. 명상은 뇌의 휴지기 상태인 DMN(Default Mode Network)의 활성을 감소시킨다는 것을 fMRI(Functional magnetic resonance imaging) 결과 밝혀졌다. DMN은 자아 성찰과 같은 고차원적 메타 인지를 수행한다. 이러한 과정은 자기 참조 처리(self-referential processing)로 곧 ‘자아’ 형성의 기반이 된다. 신경과학자들은 이런 특성 때문에 DMN을 ‘나 네트워크(the me network)’라고도 부른다. 이에 DMN이 활성화되면 내적 사고 및 기억과 같은 ‘나’와 관련한 무엇을 주로 처리하는 것이다. 이에 명상을 통해 DMN이 감소한다는 것은 ‘나’ 자신에 대한 생각을 내려놓는다는 것과 다름 아니다. 버클리대학교 교수인 마이클 폴란(Michael Pollan, 1955-) 또한 DMN이 감소하면 자아가 엷어지고 자신과 세계-주체와 객체 사이의 경계가 사라지게 된다고 말한다. 이와 같이 본다면 명상은 자기중심적 사고에서 벗어나 보다 큰 자아로서의 인식 전환을 가지고 온다는 것을 확인할 수 있다.",
+      "abstract_en": "This study examines the theoretical and scientific validity of Zen (Seon) and meditation as a methodology for promoting peace, grounded in Johan Galtung's peace studies framework.The absence of indirect violence, as articulated by Galtung, inherently carries the meaning of “integration” — a concept rooted in the consciousness that all people are equal and that the distinction between self and other is fundamentally dissolved. Accordingly, achieving positive peace requires an “epistemic transformation” in how each individual perceives others: a shift from the restrictive concept of “I” toward the expansive concept of “We.” Galtung argues that once such a transformation takes place, the foundation for genuine integration within society becomes established. In this light, the present study examines the validity of meditation as a methodology for epistemic transformation, approached from two perspectives: first, a theoretical examination from the standpoint of Zen Buddhism; and second, an exploration of meditation's efficacy from the perspective of neuroscience, with particular focus on the Default Mode Network (DMN).Regarding the theoretical dimension of Zen Buddhism: the self-cultivation practice known as Zen or meditation in Buddhism is oriented toward the attainment of enlightenment. Buddhism makes clear, however, that wisdom can be discovered through this practice, and that such wisdom inherently contains the meaning of compassion (karuna). This is because enlightenment in Buddhism does not mean recognizing oneself as an absolute deity, but rather realizing the principles underlying all phenomena and their original nature — thereby coming to understand that there is, in truth, no independent self or substantial subject called “I.” In other words, to become a Buddha in the Buddhist sense is not to become a literal god, but to be one who has awakened to the truth of all things, or to be enlightenment itself as a metaphysical realization. Because the enlightened one (gakja, 覺者) knows that all things are originally not two but one [jata-buri, 自他不二], they recognize that nothing in existence — sentient or non-sentient — is separate from themselves. One who knows this cannot act carelessly toward others or toward the natural world. Thus, the epistemic transformation brought about through Zen or meditation consists in the dissolution of the boundary between self and other; and one who knows this naturally practices jari-ita (自利利他, benefiting both oneself and others) and dongche-daebi (同體慈悲, great compassion arising from the recognition of shared being).Regarding the neuroscientific dimension: functional magnetic resonance imaging (fMRI) research has demonstrated that meditation reduces activation of the Default Mode Network (DMN), the brain's resting-state network. The DMN is responsible for higher-order metacognitive functions such as self-reflection, and this process — known as self-referential processing — constitutes the basis of “self” formation. Neuroscientists refer to the DMN as “the me network” due to these characteristics, as its activation primarily involves processing self-related content such as internal thought and memory.Accordingly, the reduction of DMN activity through meditation is tantamount to relinquishing preoccupation with thoughts about the “self.” Michael Pollan, professor at the University of California, Berkeley, similarly notes that when DMN activity decreases, the sense of self becomes attenuated and the boundary between oneself and the world — between subject and object — begins to dissolve. Taken together, these findings confirm that meditation facilitates an epistemic transformation away from egocentric thinking and toward a recognition of a more expansive self.",
+      "journal_name": "선학",
+      "year": "2026",
+      "volume": "",
+      "issue": "73",
+      "start_page": "189",
+      "end_page": "212",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2e1bebaa69a9cf117ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "명상",
+        "요한 갈퉁",
+        "적극적 평화",
+        "간접적 폭력",
+        "평화"
+      ],
+      "keywords_en": [
+        "meditation",
+        "Johan Galtung",
+        "positive peace",
+        "indirect violence",
+        "peace"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "2e1bebaa69a9cf117ecd42904f0c5d65"
+    },
+    {
+      "article_id": "2e1bebaa69a9cf11b7998d826d417196",
+      "title_kr": "난임 여성의 스트레스 감소를 위한 명상프로그램 개발 - 사성제·사념처·자기연민의 통합 모형 제시 -",
+      "title_en": "Development of a Meditation Program for Stress Reduction in Women with Infertility   - An Integrated Model of the Four Noble Truths, Four Foundations of Mindfulness, and Self-Compassion -",
+      "authors": [
+        {
+          "name": "김나래",
+          "affiliation": "동국대학교 불교학술원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 난임 여성의 스트레스 감소를 위한 명상프로그램을 불교 수행관에 기반하여 개발하고 그 이론적 모형을 제시하는 것을 목적으로 한다. 난임은 의학적 문제를 넘어 통제 상실, 자기비난과 수치심, 존재 정체성의 위기라는 세 가지 핵심 심리 기제로 구성된 복합적 생애 위기이다. 기존의 마음챙김 기반 개입(MBI)은 난임 여성의 심리적 고통 완화에 일정한 효과를 보이고 있으나, 불교 수행의 체계성·윤리적 차원·전체론적 지향을 충분히 구현하지 못한 한계를 드러내고 있다. 본 연구는 이러한 문제의식에서 출발하여 MBI의 성과를 인정하되, 불교 수행의 구조와 세계관을 유지한 채 현대 임상 맥락에서 재구성한 BDI(Buddhist-derived Interventions, 불교 파생 개입)의 구체적 모형을 제안한다.프로그램은 사성제(四聖諦)를 인지적 재구성 틀로, 사념처(四念處)를 경험적 개입 방법론으로, 불교 자비(mettā-karuṇā) 전통에 뿌리를 둔 자기연민을 정서적 수용과 통합의 기제로 구성한다. 사성제의 고(苦) → 집(集) → 멸(滅) → 도(道) 구조는 난임 여성의 핵심 심리 기제에 구조적으로 대응하며, 각 단계 간 이행은 수용·탈동일시·희망이라는 심리적 기제에 의해 매개된다. 사념처의 신·수·심·법 네 영역은 난임 여성의 신체적·정서적·인지적·실존적 고통에 고유하게 대응하며 다차원적 치유를 가능하게 한다. 본 연구는 8주 집단 프로그램 모형의 설계와 향후 무선통제실험(RCT)을 통한 효과 검증 방향을 함께 제시한다.",
+      "abstract_en": "This study develops a BDI(Buddhist-derived Interventions) meditation program for stress reduction in women with infertility and proposes its theoretical model. Infertility constitutes a complex life crisis structured around three core psychological mechanisms: loss of control, self-blame and shame, and existential identity crisis. Existing Mindfulness-Based Interventions (MBI) have demonstrated certain therapeutic effects, yet fail to sufficiently embody the systematic structure, ethical dimension, and holistic orientation of Buddhist practice. Rather than negating MBI’s contributions, this study proposes BDIas a structural expansion that maintains the framework and worldview of Buddhist practice within contemporary clinical contexts.The program integrates the Four Noble Truths (cattāri ariyasaccāni) as a cognitive reframing structure, the Four Foundations of Mindfulness (cattāro satipaṭṭhānā) as experiential intervention methodology, and self-compassion rooted in Buddhist karuṇā tradition as a mechanism for emotional acceptance and integration. The necessity of the dukkha → samudaya → nirodha→magga sequence is argued through its logical and practical indispensability, with each inter-stage transition mediated by acceptance, decentering, and hope/self-efficacy respectively. Self-compassion is reconceptualized not as mere emotional self-soothing but as a relational healing process grounded in anattā (non-self) and paṭicca-samuppāda (dependent origination), thereby preserving the ethical and relational dimensions that MBI has discarded. The study also proposes a concrete direction for future randomized controlled trials to empirically validate the program’s efficacy.",
+      "journal_name": "선학",
+      "year": "2026",
+      "volume": "",
+      "issue": "73",
+      "start_page": "213",
+      "end_page": "240",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2e1bebaa69a9cf11b7998d826d417196",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "난임 여성",
+        "불교 파생 개입(BDI)",
+        "사성제",
+        "사념처",
+        "자기연민"
+      ],
+      "keywords_en": [
+        "women with infertility",
+        "BDI(Buddhist-derived Interventions)",
+        "Four Noble Truths",
+        "Four Foundations of Mindfulness",
+        "self-compassion."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "2e1bebaa69a9cf11b7998d826d417196"
     }
   ],
   "by_year": {

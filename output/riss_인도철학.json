@@ -3,7 +3,8 @@
     "name": "인도철학",
     "category": "불교학",
     "impact_factor": 0.48,
-    "control_no": "6c3aaa42b0296663ffe0bdc3ef48d419"
+    "control_no": "6c3aaa42b0296663ffe0bdc3ef48d419",
+    "last_updated": "2026-05-13"
   },
   "articles": [
     {
@@ -28737,6 +28738,215 @@
       ],
       "ai_keywords": [],
       "source": "RISS"
+    },
+    {
+      "article_id": "38bbaf7b079e097547de9c1710b0298d",
+      "title_kr": "중국과 인도의 우주본체론 비교 고찰 - 『태극도설』과 SāṃkhyaKārikā 의 전변설을 중심으로 -",
+      "title_en": "A Comparative Study of Chinese and  Indian Cosmological Ontology",
+      "authors": [
+        {
+          "name": "권윤영",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 신유학의 기원인 『태극도설』과 상키야 철학의 고전인 SāṃkhyaKārikā(SK)에 나타난 전변설을 비교분석하며, 중국과 인도의 우주본체론이 인간의 행동과 사회에서 다르게 표출되는 과정을 밝히는 작업이다. 『태극도설』은 ‘무극·태극’이라는 일원적 우주본체로부터 ‘음양·오행’을 거쳐 만물이 생성되는 과정을 보여준다. 이는 ‘천인합 일’이라는 중국 전통철학의 고유한 사유형식을 반영하며, 인간은 우주본체의 이치를 사회 속에서 실천하는 성인을 이상으로 삼게 한다. SK는 뿌루샤와 쁘라끄리띠의 이원 적 전변설을 주장한다. 두 전변설의 차이는 인간의 행동과 사회에서 구체적으로 드러 난다. 본고는 이를 ‘원형적 세계관’의 관점에서 고찰한다. ‘원형적 세계관’은 개별 현상 의 근원이 되는 원형(原型)을 심상적 직관으로 인식하고, 그 원형을 통해 세계를 이해하 는 관점이다.중국과 인도는 모두 순환·반복의 세계관을 공유하지만, 중국은 일회적 생사관인 혼 백설을 토대로 세밀한 역사 기록과 사회질서 유지를 통해 우주본체의 이치를 현실에 구현하려 했다. 반면에 인도는 반복적 생사관 안에서 해탈이라는 궁극적 목표를 설정 하였다. 전통과 사회질서에서도 중국은 우주본체 안에서 조화를 이루는 구심력의 문 화라면, 인도는 개인이 해탈을 추구하는 원심력과 기존 사회질서를 유지하려는 구심 력이 이중적으로 공존하는 문화이다.",
+      "abstract_en": "This paper compares and analyzes the theory of universal transformation (pariṇāma) presented in the Taijitu Shuo (Diagram of the Supreme Ultimate Explained), the origin of Neo-Confucianism, and the SāṃkhyaKārikā (SK), a classic of Sāṃkhya philosophy. It elucidates how the cosmological ontologies of China and India manifest differently in human behavior and society. The Taijitu Shuo demonstrates the process by which all things are generated from the monistic cosmic principle of ‘Wuji and Taiji’ through ‘Yin-Yang and the Five Elements’. This reflects the unique mode of thought inherent in traditional Chinese philosophy, ‘the unity of heaven and humanity’, and establishes the sage — who practices the principles of the cosmic essence within society — as the ideal. SK advocates the dualistic theory of transformation involving Puruṣa and Prakṛti. The  difference  between  these  two  theories  of  transformation  manifests concretely in human actions and society. This paper examines this from the perspective  of  an  ‘archetypal  worldview’,  which  refers  to  the  mode  of understanding the world through original archetypes intuitively perceived as the source of individual phenomena. While both China and India share a cyclical, repetitive worldview, China sought to embody the principles of the cosmic  essence  in  reality  through  meticulous  historical  records  and  the maintenance of social order, based on the non-cyclical (once-occurring) view of life and death (hun-bai). In contrast, India set the ultimate goal of liberation (mokṣa) within its cyclical view of life and death. In terms of tradition and social order, China represents a centripetal culture that seeks harmony within the framework of the cosmic essence, while India embodies a dualistic culture in which two opposing forces coexist: the centrifugal drive of individuals pursuing liberation, and the centripetal effort to maintain the existing social order.",
+      "journal_name": "인도철학",
+      "year": "2026",
+      "volume": "",
+      "issue": "76",
+      "start_page": "1",
+      "end_page": "38",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=38bbaf7b079e097547de9c1710b0298d",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "우주본체론",
+        "전변설",
+        "상키야",
+        "신유학",
+        "순환적 세계관",
+        "태극도설"
+      ],
+      "keywords_en": [
+        "Cosmological Ontology",
+        "Theory of Universal Transformation (pariṇāma)",
+        "Sāṃkhya Philosophy",
+        "Neo-Confucianism",
+        "Cyclical Worldview",
+        "Taijitu Shuo"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "38bbaf7b079e097547de9c1710b0298d"
+    },
+    {
+      "article_id": "b4c3de33d5e93597e9810257f7042666",
+      "title_kr": "『마하바라타』 지옥 서사의 구조와  윤리적 기능",
+      "title_en": "The Structure and Ethical Function of the Hell Narrative in the Mahābhārata",
+      "authors": [
+        {
+          "name": "김진영",
+          "affiliation": "동국대학교 WISE(와이즈)캠퍼스 갈등치유연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 『마하바라타』 제18권에 나타나는 지옥 서사를 분석하여, 이 장면이 카르마 의 인과법칙을 확증하는 교리적 공간이 아니라 다르마의 윤리적 의미를 재구성하는 서사적 장치로 기능함을 밝히는 것을 목적으로 한다. 기존 연구는 이 서사를 후대 힌 두교 문헌에서 체계화되는 응보적 지옥 관념의 전조로 이해해 왔다. 그러나 본고는 유 디슈티라의 지옥 체험을 중심으로 서사를 재검토함으로써, 해당 장면이 특정 죄와 형 벌의 대응 관계로 조직된 교리적 설명이라기보다 전통적인 권선징악의 도식을 의도적 으로 전복하는 서사적 장치임을 논증한다. 특히 의로운 왕 유디슈티라가 지옥에 이르 고, 반대로 악의 상징인 두료다나가 천상에 거하는 가치 전도는 업보에 따른 보상 논 리를 흔들며 강렬한 윤리적 긴장을 형성한다. 나아가 유디슈티라가 지옥에서 고통받 는 존재들과 함께 머물기를 선택하는 장면은 다르마의 근거가 외적 상벌 질서가 아니 라 타자의 고통에 응답하는 자비의 감응에 있음을 시사한다. 이러한 분석을 통해 본 연구는 『마하바라타』의 지옥 서사가 응보적 정의의 단순한 재현을 넘어, 전쟁 이후의 윤리적 책임과 기억을 성찰하게 만드는 서사적 장치이며 다르마의 의미를 인간적 감 응성의 차원에서 재사유하도록 하는 핵심 장면임을 제시한다.",
+      "abstract_en": "This study argues that the hell narrative in Book 18 of the Mahābhārata does not function as a doctrinal confirmation of karmic retribution but as a narrative device that reconfigures the ethical meaning of dharma. Previous scholarship has often treated the epic’s hell as a precursor to the systematic models of retribution found in later Hindu traditions. Yet Yudhiṣṭhira’s experience in hell reveals a different logic. The episode disrupts the conventional scheme of rewarding virtue and punishing vice: the righteous Yudhiṣṭhira encounters hell, while Duryodhana appears in heaven. This inversion destabilizes the notion of karmic compensation and generates a profound ethical tension within the narrative. Yudhiṣṭhira’s decision to remain with the suffering foregrounds compassionate responsiveness (dayā, 慈悲) rather than reward and punishment as the ground of dharma. In this way, the hell episode prompts a reconsideration of dharma - not as a system of moral recompense, but as an ethical responsibility emerging from compassion in the aftermath of war.",
+      "journal_name": "인도철학",
+      "year": "2026",
+      "volume": "",
+      "issue": "76",
+      "start_page": "39",
+      "end_page": "63",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b4c3de33d5e93597e9810257f7042666",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "마하바라타",
+        "지옥 서사",
+        "유디슈티라",
+        "다르마",
+        "자비",
+        "응보"
+      ],
+      "keywords_en": [
+        "Mahābhārata",
+        "Yudhiṣṭhira",
+        "Hell(Naraka)",
+        "Dharma",
+        "Karma",
+        "Compassion(Dayā)",
+        "Ethics of Responsiveness"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "b4c3de33d5e93597e9810257f7042666"
+    },
+    {
+      "article_id": "b4c3de33d5e93597d18150b21a227875",
+      "title_kr": "인도 불교식 결혼 의례의 변화 양상과 그 함의 -2000년대 초반 이후 마하라슈뜨라 서부 지역을 중심으로-",
+      "title_en": "Transformations in Buddhist Wedding Rituals in India: Western Maharashtra since the Early 2000s",
+      "authors": [
+        {
+          "name": "이지은",
+          "affiliation": "세종대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 연구는 인도 마하라슈뜨라 서부 지역의 불교도 공동체에서 행해지는 결혼 의례의 변화 양상을 분석하고 그 사회·문화적 함의를 고찰하는 것을 목적으로 한다. 연구는 먼저 문헌 자료를 통해 불교식 결혼 의례의 형성 배경을 검토한 후, 2001~2003년 사 이 필자가 현지에서 참여 관찰한 네 건의 결혼식과 2021~2025년 사이 유튜브에 공개 된 결혼식 영상 다섯 건을 비교 분석하였다.분석 결과, 삼귀의와 오계의 독송, 망갈 숫따의 낭송, 신랑·신부의 결혼 서약, 화환 교 환과 망갈수뜨라 수여 등은 두 시기에 공통적으로 나타나는 핵심 요소로서 불교도 결 혼 의례의 기본 구조를 형성하고 있었다. 그러나 최근의 결혼 의례에서는 다양한 경전 독송, 가족 참여 확대, 반지나 꽃다발 교환 등 새로운 요소가 추가되며 의례의 절차가 전반적으로 확대되고 복잡해지는 경향이 나타났다. 또한 일부 사례에서는 띠까나 신 두르와 같은 힌두교적 상징이 등장하는 반면, 암베드까르가 결혼 의례의 핵심으로 제 시했던 물단지와 흰 실 의례가 생략되는 경우도 확인되었다.이러한 변화는 불교 공동체가 힌두교 중심적인 문화 환경, 미디어 환경의 변화, 그리 고 사회·경제적 성장 속에서 결혼 의례를 지속적으로 재구성하고 있음을 보여준다. 불교식 결혼 의례는 단순한 종교 의례를 넘어 공동체의 정체성을 표현하고 재확인하 는 문화적 실천으로 기능하고 있다.",
+      "abstract_en": "This study examines the transformation of Buddhist wedding rituals among Neo-Buddhist  communities  in  western  Maharashtra,  India.  It  begins  by reviewing the textual and historical foundations of these rituals, focusing on B.R. Ambedkar’s guidelines that delineate the fundamental elements of a Buddhist marriage ceremony. The research employs a comparative analysis of four wedding ceremonies observed through field participation between 2001 and 2003, and five subsequent ceremonies conducted between 2021 and 2025, analyzed via online video recordings.The findings indicate that core ritualistic components  ―  including the recitation of the Three Refuges and Five Precepts, the chanting of the Maṅgal Sutta, the exchange of vows and garlands, and the presentation of the mangalsutra ― have remained consistent across both periods. However, contemporary ceremonies exhibit increased complexity, characterized by expanded scriptural recitations,  enhanced  familial  participation,  and  the  introduction  of  new symbolic items such as rings and bouquets. Notably, while some ceremonies incorporate Hindu-derived elements like tilak or sindoor, the “water-pot and white-thread” ritual prescribed by Ambedkar is occasionally omitted. These shifts suggest that Buddhist wedding rituals are being continuously reshaped by evolving social, cultural, and media environments, even as they remain a vital expression of community identity.",
+      "journal_name": "인도철학",
+      "year": "2026",
+      "volume": "",
+      "issue": "76",
+      "start_page": "65",
+      "end_page": "97",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b4c3de33d5e93597d18150b21a227875",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "인도 불교",
+        "신불교",
+        "결혼식",
+        "불교 의례",
+        "달리뜨",
+        "암베드까르"
+      ],
+      "keywords_en": [
+        "Indian Buddhism",
+        "Neo-Buddhism",
+        "Wedding",
+        "Buddhist Ritual",
+        "Dalit",
+        "Ambedkar"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "b4c3de33d5e93597d18150b21a227875"
+    },
+    {
+      "article_id": "b4c3de33d5e935976aae8a972f9116fb",
+      "title_kr": "자비심의 심소적 해석에 대한 고찰 - 안혜의 『유식삼십송석』을 중심으로 -",
+      "title_en": "A Study on the Yogācāra Interpretation  of Compassion(Maitrī-karuṇā ) - Focusing on Sthiramati’s Triṃśikāvijñaptibhāṣya  -",
+      "authors": [
+        {
+          "name": "정성헌",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 자비심에 대한 초기불교의 해석이 어떠한지 살펴보고, 유식 심소의 분류 체 계에서는 어떻게 설명이 되고 있는지 안혜의 『유식삼십송석』을 중심으로 살펴본다. 자비심은 불교의 핵심 교의로서 초기불교의 자비관 수행과 사무량심에서 중요한 위치 를 차지하며, 유식학에서는 선심소로 분류된다.안혜는 자비심을 무진(無瞋) 심소와 불해(不害) 심소로 체계화하였다. 무진은 진(瞋)의 대 치로서 자심(慈心, maitrī)에 해당하며, 중생에게 즐거움을 주는 실천이다. 불해는 해(害)의 대치로서 비심(悲心, karuṇā)에 해당한다. 안혜는 비심을 세 차원에서 해명하였다. 어원 적으로 ‘[자신의] 행복을 제거한다’는 의미이다. 즉 타자의 행복 상실을 포착하는 인식으 로부터 시작하여 자신의 아만심의 만족을 제거하는 의미에서 행복의 제거한다는 뜻한 다. 정서적으로 타인의 고통을 함께 느끼는 공감적 아픔이고, 실천적으로 해치지 않는 비폭력의 행위이다.유식의 심소 분류 체계에서 진은 근본번뇌이며 해는 수번뇌이다.초기불교는 다른 양상을 보인다. 『수타니파타』 「자경」에서 자심은 여락과 불해를 포괄 하는 통합적 개념이며, 『맛지마 니까야』의 사무량심은 자심과 비심의 기능을 구분한 다. 네 가지 무량심이 유기적으로 연결된 통합적 수행 체계로 제시된다.본 연구를 통해 초기불교의 통합적 자비관이 유식학에서 무진과 불해로 분석되어 정 밀한 심리학적 체계로 발전하였음을 확인하였다. 안혜의 해석은 비심의 어원 분석과 정서·실천 차원의 통합을 통해 연민의 본질을 깊이 해명하였다는 독창성을 지닌다.",
+      "abstract_en": "This study examines the interpretations of compassion (maitrī-karuṇā) in Early Buddhism and investigates how it is explained within the classification system of mental factors (caitta)  in Yogācāra, focusing specifically on Sthiramati’s Triṃśikāvijñaptibhāṣya. As a core tenet of Buddhism, compassion occupies a vital position in the cultivation of Buddhist loving-kindness and the four immeasurables  (apramāṇa)  of  Early  Buddhism,  and  it  is  categorized  as  a wholesome mental factor (kuśala-caitta)  in Yogācāra philosophy. Sthiramati systematizes compassion into two mental factors: non-hatred(adveṣa) and non- harming(avihiṃsā). Non-hatred corresponds to loving-kindness(maitrī)  as the practice of bringing happiness(yogarakṣaṇa), while non-harming corresponds to compassion(karuṇā)   as  the  practice  of  removing  suffering(duḥkhaprahāṇa). Notably, Sthiramati provides an original interpretation of compassion through etymological, affective, and practical dimensions. However, early Buddhist compassion presents loving-kindness as an integrated concept encompassing non-harming,  and  the  four  immeasurables  emphasize  organic  connection rather  than  hierarchy.   This  reveals  how  early  Buddhism's  integrated understanding of compassion developed into Yogācāra's precise psychological analytical system.",
+      "journal_name": "인도철학",
+      "year": "2026",
+      "volume": "",
+      "issue": "76",
+      "start_page": "99",
+      "end_page": "133",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b4c3de33d5e935976aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "자비심",
+        "심소",
+        "무진",
+        "불해",
+        "안혜",
+        "유식삼십송석"
+      ],
+      "keywords_en": [
+        "compassion",
+        "mental factors",
+        "Sthiramati",
+        "non-hatred(adveṣa)",
+        "nonharming(avihiṃsā)",
+        "triṃśikā-vijnaptibhāṣyam"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "b4c3de33d5e935976aae8a972f9116fb"
+    },
+    {
+      "article_id": "a8046d8398d8621f7ecd42904f0c5d65",
+      "title_kr": "Yogācāra Curriculum for Five Fields of Science",
+      "title_en": "",
+      "authors": [
+        {
+          "name": "최성호",
+          "affiliation": "서울대학교 아시아연구소 남아시아센터",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "The  Yogācārabhūmi  introduces  and  justifies  five  fields  of  science, pañcavidyāsthāna, which are learning the Buddha’s speech, grammar, medicine, logic, and the mundane arts and crafts. In the Bodhisattvabhūmi chapter, it is stated that Boddhisattvas, who aim not only to attain their own liberation but also to rescue suffering beings, should learn all five subjects. The examination of relevant texts demonstrates that this Bodhisattva idea reflects a change in the ideal type of Buddhist practitioner. An early Buddhist text, the Suttanipāta, regards ideal Buddhists as those who concentrate on their own spiritual cultivation and do not pay attention to learning medicine, ritual formulae, and the interpretation of signs, which are not directly related to Buddha’s teachings. In a later Mahāyāna text, however, knowledge beyond the Buddha’s own teachings was regarded as useful for helping other beings, which would in turn increase faith in Buddhism. Therefore, the establishment of five sciences can be regarded as a phenomenon corresponding to the emphasis on altruism, which is ultimately connected to proselytization, within the Buddhist tradition.",
+      "abstract_en": "",
+      "journal_name": "인도철학",
+      "year": "2026",
+      "volume": "",
+      "issue": "76",
+      "start_page": "135",
+      "end_page": "156",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a8046d8398d8621f7ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "학문",
+        "유가행파",
+        "보살",
+        "이타주의",
+        "포교"
+      ],
+      "keywords_en": [
+        "Science",
+        "Yogācāra",
+        "Bodhisattva",
+        "Altruism",
+        "Proselytization"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "a8046d8398d8621f7ecd42904f0c5d65"
     }
   ],
   "by_year": {
