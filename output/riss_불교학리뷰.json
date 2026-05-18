@@ -3,7 +3,8 @@
     "name": "불교학리뷰",
     "category": "불교학",
     "impact_factor": 0.61,
-    "control_no": "b4d6ff724148c295ffe0bdc3ef48d419"
+    "control_no": "b4d6ff724148c295ffe0bdc3ef48d419",
+    "last_updated": "2026-05-18"
   },
   "articles": [
     {
@@ -10809,6 +10810,205 @@
       ],
       "ai_keywords": [],
       "source": "RISS"
+    },
+    {
+      "article_id": "2faf023f067baf3ed18150b21a227875",
+      "title_kr": "빠알리어 경어 복수형의 용법과 변천:『자얏디사 자따까(Jayaddisa Jātaka)』의 용례를 중심으로",
+      "title_en": "Honorific Plurals in Pāli and Its Chronological Development:Usages from the Jayaddisa Jātaka and Others",
+      "authors": [
+        {
+          "name": "권예림",
+          "affiliation": "동국대학교)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "김경래",
+          "affiliation": "동국대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "빠알리어의 수는 단수(ekavacana)와 복수(bahuvacana) 두 가지로 구성된다. 여기서 복수는 산스크리트어의 양수를 포함하여 둘 이상의 대상을 가리킬 때 사용된다. 그러나 빠알리 문헌에는 이러한 일반적인 용법과 달리 표현하고자 하는 대상이 단수임에도 복수형으로 서술되는 용례들이 발견된다. 본 논문에서 다루고자 하는 경어 복수형이 그중 하나이다. 경어 복수형(honorific plural)은 권위를 갖는 한 명의 인물을 높이기 위해 사용되는 복수형을 뜻하는데, 실제로 빠알리 주석전통 및 문법전통에서는 ‘존경의 복수형(garu-bahuvacana)’이라는 명칭이 언급되고 있다. 본 논문의 목적은 빠알리어의 경어 복수형이 무엇이며 문헌에서 어떠한 방식으로 사용되는지를 밝히고, 빠알리 문헌에 드러나는 경어 복수형 용법의유의미한 변천을 살펴보는 것이다. 이를 위해 논자는 빠알리 문헌을 원전(Mūla)과 주석서(Aṭṭhakathā)의 층위로 나누어 각각에 특징적인 경어 복수형의 활용양상을 분석했고, 자따까 주석서(Jātakatthavaṇṇanā)의 513번째 텍스트인 『자얏디사자따까(Jayaddisa Jātaka)』에 등장하는 구체적인 용례들을 검토했다. 그 결과 원전인 게송을 통해서는 1인칭 경어 복수형을, 주석을 통해서는 2인칭 대명사 경어 복수형의 용례들을 확인할 수 있었다. 또한 자따까 주석서뿐만 아니라 『밀린다빵하(Milindapañha)』, 그리고 붓다고사(Buddhaghosa)와 담마빨라(Dhammapāla)가 저술한 주석서들의 용례분석을 통해 2인칭 대명사 경어 복수형이 빠르게는 CE 1-3세기, 늦게는 CE 5세기 이전에 이미 문법화 되어 상용되었을 가능성을 제시했다.",
+      "abstract_en": "There is a distinctive usage of plurals(bahuvacana) in Pāli which has been under-researched in the field: honorific plurals. This paper introduces textual evidence for early knowledge on the subject by citing Dhammapāla’s commentaries as well as the Rūpasiddhi and the Saddanīti. In characterizing Mūla and Aṭṭhakathāusages of honorific plurals, passages from the Jayaddisa Jātaka in the Jātakatthavaṇṇanā prove to be representative since they contain honorific plurals in first person, which are predominant in canonical texts, and honorific plurals of the second person pronoun unique to post-canonical texts. The latter is found in multitude in the Milindapañha and several commentaries, whereas the former is distributed sparsely across the canonical body. Evidences suggests that the second person pronoun honorific plurals in second person pronouns had likely been grammaticalized by the time when Milindapañha was composed and continued to be applied frequently by the early commentators such as Buddhaghosa, Dhammapāla and the author of the Jātakatthavaṇṇanā. Herein, this chronological development is examined using pericopes set in various pragmatic contexts. Since a detailed academic discussion of the subject has been lacking, most examples and analyses presented in this paper are new and therefore should contribute to enhancing our understanding of honorific plurals in Pāli.",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "39",
+      "issue": "",
+      "start_page": "9",
+      "end_page": "34",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2faf023f067baf3ed18150b21a227875",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "경어 복수형",
+        "빠알리어 문법",
+        "빠알리주석서(Pāli-Aṭṭhakathā)",
+        "자얏디사 자따까(Jayaddisa Jātaka)",
+        "2인칭 대명사"
+      ],
+      "keywords_en": [
+        "존경의 복수형(garu-bahuvacana)",
+        "honorific plurals",
+        "garu-bahuvacana",
+        "Pāli grammar",
+        "Pāli-Aṭṭhakathā",
+        "the Jayaddisa Jātaka",
+        "second person pronoun."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "2faf023f067baf3ed18150b21a227875"
+    },
+    {
+      "article_id": "ec9dabd70d5dba5d7f7a54760bb41745",
+      "title_kr": "율(Vinaya)과 사띠(sati)의 수행 기제 비교 연구:이중 절단점 모델을 중심으로",
+      "title_en": "A Comparative Study on the Practice Mechanisms of Vinaya and Sati:Focusing on the Dual Cut-off Points Model",
+      "authors": [
+        {
+          "name": "하대용",
+          "affiliation": "동방문화대학원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 불교 수행의 토대인 율(vinaya)과 사띠(sati)의 기능적 결합이 무아(anattā)에 대한 통찰, 즉 ‘비동일시(Non-Identification)’로 전이되는 수행론적 기제를 고찰한다. 기존 연구들이 ‘율’을 윤리 규범으로, 사띠를 개별 명상 기법으로 이원화해 온 한계를 넘어, 본고는 연기(緣起) 구조 내에서 ‘절단점(Cut-off Point)’이라는 분석적 개념을 도입하여 이들의 통합적 작동 방식을 규명하였다. 분석 결과, ‘율’은 ‘촉(phassa) -수(vedanā)’ 구간에서 감각 접촉을 구조적으로 제한하는 방파제로서, ‘촉 -수-애(taṇhā)’의 자동 전개를 사전에 약화시키는 ‘1차 절단점’의 기능을 수행한다. 이 방파제를 넘어온 ‘촉’은 그 세력이 약화되어, 사띠는 발생한 ‘수’를 ‘조건 지어진 현상’으로 분리 관찰하는 ‘2차 절단점’의 역할을 담당한다. 이 과정에서 ‘율’과 사띠는 상호강화적 피드백 관계를 형성하며, 수행자의 의도(cetanā)는 강한 정진에서 여리작의(yoniso manasikāra)로 단계적으로 축소된다. 본 연구의 ‘이중 절단점 모델’은 수용전념치료(ACT)의 ‘인지적 탈융합’, ‘수용’, ‘심리적 유연성’과 기능적 유사성을 지니면서도, 「무아상경(Anattalakkhaṇa Sutta)」의 삼중 부정 논리가 자아 개념 자체를 근본적으로 해체하여 완전한 무아 통찰로 이행시킨다는 점에서 차별화된다. 결론적으로 본 연구는 ‘율’이라는 구조적 토대가 사띠의 인지적 전환을 지속시키는 필수 조건임을 제시함으로써, 현대 마음챙김의 탈맥락화 비판에 대한 이론적 응답을 마련하고자 한다.",
+      "abstract_en": "This study investigates the praxeological mechanism through which Vinaya (monastic discipline) and Sati (mindfulness) functionally integrate to facilitate insight into anattā (non-self), specifically through the process of ‘Non-Identification.’ Moving beyond previous research that treats Vinaya as mere ethical norms and Sati as an isolated meditation technique, this study introduces the analytical concept of ‘Cut-off Point’ within the chain of Dependent Origination to examine their integrated operation.The analysis reveals that Vinaya functions as a breakwater, serving as the primary cut-off point that structurally restricts sensory contact to suspend the automatic progression from phassa (contact) through vedanā (feeling) to taṇhā (craving). The ‘waves’ of sensory stimuli that pass over this breakwater arrive with diminished force, enabling Sati to serve as the secondary cut-off point by observing the weakened vedanā as a conditioned phenomenon separate from self-identification. Vinaya and Sati form a mutually reinforcing feedback relationship, and this integrated mechanism is characterized by the gradual reduction of cetanā (intention), transitioning from vigorous effort to wise attention (yoniso manasikāra).The ‘Dual Cut-off Points Model’ proposed in this study shares functional similarities with ‘Cognitive Defusion,’ ‘Acceptance,’ and ‘Psychological Flexibility’ in Acceptance and Commitment Therapy (ACT). However, it is distinguished by its ultimate aim of dismantling sakkāya-diṭṭhi (identity view) through the triple negation logic of the Anattalakkhaṇa Sutta—”This is not mine, this I am not, this is not my self”—thereby fundamentally deconstructing the very concept of self rather than merely enhancing its flexibility.In conclusion, this study provides a theoretical response to critiques of decontextualized modern mindfulness by demonstrating that Vinaya, as a structural foundation, constitutes an essential condition for sustaining the cognitive transformation effected by Sati.",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "39",
+      "issue": "",
+      "start_page": "35",
+      "end_page": "60",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec9dabd70d5dba5d7f7a54760bb41745",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "비동일시",
+        "절단점",
+        "의도(cetanā)",
+        "무아(anattā)",
+        "유신견(sakkāya-diṭṭhi)"
+      ],
+      "keywords_en": [
+        "Vinaya",
+        "Sati",
+        "Non-Identification",
+        "Cut-off Point",
+        "cetanā",
+        "anattā",
+        "sakkāya-diṭṭhi",
+        "율(vinaya)",
+        "사띠(sati)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "ec9dabd70d5dba5d7f7a54760bb41745"
+    },
+    {
+      "article_id": "2faf023f067baf3e6aae8a972f9116fb",
+      "title_kr": "비구니 팔경법과 여성성불설에 대한 소고(小考) - 『대애도비구니경』을 중심으로 -",
+      "title_en": "A Study on the Eight Garudhammas and the Doctrine of Female Buddhahood - Centered on the Mahāprajāpatī Bhikṣuṇī Sūtra -",
+      "authors": [
+        {
+          "name": "이해영",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 『대애도비구니경』을 중심으로 팔경법과 여성 성불에 관한 불교의 입장을 재검토하고, 여성불성불설(女性不成佛說) ·변성남신설(變性男身說) ·여성성불설(女性成佛說)을 상호 모순된 교설이 아니라 일관된 수행론적 구조 안에서 재해석하고자 한다. 기존 연구는 팔경법을 여성 차별의 제도적 장치로, 여성불성불설과 변성남신설을 여성의 수행 능력을 제한하는 교리로 이해해 왔다. 그러나 『대애도경』의 서술을 면밀히 분석한 결과, 이러한 통념과는 다른 해석 가능성이 확인된다. 오장설(五障說)은 여성의 본질적 한계를 의미하기보다 당시 사회 구조에서 최고 지도자 지위가 제한되었던 현실과 관련된 것으로 이해될 수 있으며, 작불(作佛)과 성불(成佛)의 구분을 통해 성불 자체의 가능성은 여성에게도 열려 있음을 밝힐 수 있다. 또한 ‘장부(丈夫)’ 개념은 생물학적 남성이 아니라 수행의 성취와 덕목을 갖춘 존재를 가리키는 규범적 개념으로 재해석될 수 있다. 변성남신설 역시 문자 그대로의 성전환이 아니라 번뇌의 극복과 수행의 완성을 상징적으로 드러낸 표현으로 이해된다. 나아가 팔경법은 여성 수행자를 본질적으로 제한하기 위한 규정이라기보다, 당시 사회적 조건 속에서 여성의 출가와 수행을 제도적으로 보장하기 위한 현실적 방편으로 볼 수 있다. 이러한 분석을 통해 『대애도경』이 전하는 여성 성불의 원리는 여성 역시 수행을 통해 성불할 수 있다는 평등의 원리에 있음을 논증한다.",
+      "abstract_en": "This study reexamines the meaning of the Eight Garudhammas(八敬法) and the Buddhist view of female Buddhahood, focusing on the Mahāprajāpatī Bhikṣuṇī Sūtra(大愛道比丘尼經). Previous scholarship has often regarded the Eight Garudhammas as institutional symbols of gender discrimination and interpreted the denial of female Buddhahood and the doctrine of transformation into a male body as limitations on women’s capacity for practice. Through close textual analysis, this paper proposes an alternative reading, understanding these teachings not as contradictory doctrines but as elements within a coherent soteriological framework.The theory of the Five Obstacles(五障說) is interpreted not as asserting women’s inherent inferiority, but as reflecting historical constraints on women occupying positions of supreme authority. By distinguishing between “becoming a Buddha” as religious leadership(作佛) and “attaining Buddhahood” as the realization of awakening(成佛), this study argues that enlightenment itself remains open to women. The concept of “zhangfu”(丈夫) is reinterpreted as a normative term denoting spiritual virtue rather than biological maleness. Likewise, transformation into a male body is understood symbolically, signifying the eradication of defilements and the completion of practice.Furthermore, the Eight Garudhammas are reconsidered not as essential restrictions but as pragmatic measures securing institutional conditions for women’s ordination within their historical context. Through this analysis, this study demonstrates that the Mahāprajāpatī Bhikṣuṇī Sūtra presents the principle of equality, affirming that women can also attain Buddhahood through practice.",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "39",
+      "issue": "",
+      "start_page": "61",
+      "end_page": "94",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2faf023f067baf3e6aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "대애도비구니경",
+        "팔경법",
+        "여성성불",
+        "여성불성불",
+        "변성남신성불."
+      ],
+      "keywords_en": [
+        "Mahāprajāpatī Bhikṣuṇī Sūtra",
+        "Eight Garudhammas",
+        "Female Buddhahood",
+        "Denial of Female Buddhahood",
+        "Transformation into a Male Body"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "2faf023f067baf3e6aae8a972f9116fb"
+    },
+    {
+      "article_id": "c1af522a1a6ce25a7ecd42904f0c5d65",
+      "title_kr": "Āptamīmāṃsā의 찰나멸론 비판",
+      "title_en": "Critique of Kṣaṇavāda in the Āptamīmāṃsā",
+      "authors": [
+        {
+          "name": "최지연",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 사만타바드라의 Āptamīmāṃsā(ĀM) 제3장 41-54송에 나타난 불교 찰나멸론(kṣaṇavāda) 비판을 분석한다. ĀM은 일체지자의 권위를 논증하는 과정에서 타 학파의 핵심 교리를 비판적으로 검토하는 구조를 취하며, 스야드바다(syādvāda)의 정당성을 논증한 문헌이다. 이 가운데 제3장은 영원성과 무상성의 대립을 다루며, 불교의 찰나멸론은 무상성을 절대화하는 대표적 입장으로 제시된다. 본 논문은 41–54송을 내용 전환에 따라 병렬적으로 구분하기보다, 찰나멸론의 난점을 직접 제기하는 부분과 이에 대한 불교 측의 예상 반론을 재반박하는 부분으로 재구성하여 그 논증 구조를 검토한다. 이에 따르면 ĀM의 비판은 첫째, 재인식과 사후 존재의 문제를 통해 시간에 걸친 동일성과 연속성을 문제 삼고, 둘째, 특정한 결과가 특정한 원인에 결부되는 인과적 필연성을 지적하며, 셋째, 의도와 행위, 속박과 해탈, 행위와 과보의 귀속 문제를 통해 윤리적·수행론적 난점을 드러낸다. 아울러 사만타바드라는 상속(santāna), 관습적 표현(saṃvṛti), 불가언설(avācya) 등 불교 측의 가능한 방어 논리를 예상하여, 절대적 찰나성을 유지하는 한 이러한 보조 개념들 역시 연속성·동일성·귀속의 문제를 해결하지 못한다고 비판한다. 본 논문은 이를 통해 ĀM의 찰나멸론 비판이 무상 일반을 부정하는 데 있지 않고, 변화만을 실재의 전부로 절대화하는 일면적 존재론을 비판함으로써 자이나의 조건부 서술과 다면적 실재관의 철학적 필요성을 정당화하는 논증적 장치임을 밝히고자 한다.",
+      "abstract_en": "This paper examines Samantabhadra’s critique of the Buddhist doctrine of momentariness (kṣaṇavāda) in verses 41–54 of Chapter 3 of the Āptamīmāṃsā (ĀM). The ĀM is a polemical text that establishes the authority of the omniscient one (āpta) by critically examining one-sided doctrines advanced by rival schools, while at the same time articulating the legitimacy of the Jaina doctrines of syādvāda and anekāntavāda. Chapter 3 addresses the opposition between permanence and impermanence, and Buddhist momentariness is presented in this chapter as a representative case of the absolutization of impermanence.Rather than treating verses 41–54 as a simple sequence of separate thematic units, this paper reconstructs them in terms of their argumentative structure by distinguishing between Samantabhadra’s direct critique of momentariness and his rebuttal of possible Buddhist responses. In this reconstruction, the critique focuses on three major issues. First, it problematizes temporal identity and continuity through the examples of recognition(pratyabhijñā) and post-mortem existence. Second, it raises the issue of causal determination and necessity, asking how a specific effect can be linked to a specific cause if all entities are absolutely momentary. Third, it exposes the moral difficulties implied by momentariness, especially with regard to the relation between intention and action, bondage and liberation, and action and karmic result.At the same time, Samantabhadra anticipates Buddhist defensive strategies based on santāna, saṃvṛti, and avācya, and argues that as long as absolute momentariness is maintained, such auxiliary concepts cannot ultimately resolve the problems of continuity, identity, and attribution. The paper thus argues that the target of the ĀM is not impermanence as such, but a one-sided ontology that absolutizes change as the whole of reality. In this way, Samantabhadra’s critique of momentariness functions not merely as an anti-Buddhist refutation, but as a positive argumentative device for establishing the philosophical necessity of conditional predication and the Jaina doctrine of many-sided reality.",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "39",
+      "issue": "",
+      "start_page": "95",
+      "end_page": "118",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c1af522a1a6ce25a7ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "찰나멸론",
+        "사만타바드라",
+        "스야드바다",
+        "압타미망사",
+        "자이나교.",
+        "Āptamīmāṃsā",
+        "kṣaṇavāda"
+      ],
+      "keywords_en": [
+        "Jaina",
+        "Samanthabadra",
+        "syādvāda"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "c1af522a1a6ce25a7ecd42904f0c5d65"
+    },
+    {
+      "article_id": "ec9dabd70d5dba5de9810257f7042666",
+      "title_kr": "『화엄현담회현기(華嚴懸談會玄記)』제35권의 역주 - 오교십종(五敎十宗)교판에 대한 분석Ⅱ -",
+      "title_en": "A Partial Translation of Huayan Jing Xuantǎn huixuanJi 華嚴經懸談會玄記, Fascicle 35 by Purui in Yuan ChinaⅡ",
+      "authors": [
+        {
+          "name": "박은영",
+          "affiliation": "동국대학교 불교문화연구원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "39",
+      "issue": "",
+      "start_page": "121",
+      "end_page": "155",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec9dabd70d5dba5de9810257f7042666",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "ec9dabd70d5dba5de9810257f7042666"
     }
   ],
   "by_year": {
