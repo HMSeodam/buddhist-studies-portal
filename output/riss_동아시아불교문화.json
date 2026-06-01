@@ -3,7 +3,8 @@
     "name": "동아시아불교문화",
     "category": "불교학",
     "impact_factor": 0.74,
-    "control_no": "89d7868617dd0940"
+    "control_no": "89d7868617dd0940",
+    "last_updated": "2026-06-01"
   },
   "articles": [
     {
@@ -43718,6 +43719,498 @@
       ],
       "ai_keywords": [],
       "source": "RISS"
+    },
+    {
+      "article_id": "0ae1b24cf61ebee1b7998d826d417196",
+      "title_kr": "淸虛 休靜의 儒敎 이해 - 『三家龜鑑』의 『儒家龜鑑』을 중심으로 -",
+      "title_en": "Hyujeong’s Understanding of Confucianism: A Study Centered on the Yugagwigam in the Samgagwigam",
+      "authors": [
+        {
+          "name": "서재택",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 청허 휴정(淸虛 休靜, 1520~1604)의 『유가귀감(儒家龜鑑)』을 대상으로, 텍스트의 실제 판본 비교를 토대로 하여 그 수양 구조의 배열 원리와 사상적 의의를 규명하고자 한다. 특히 ‘계구(戒懼)·신독(愼獨)·근독(謹獨) ·함양(涵養)’의 네 항목이 성리학의 미발(未發)·이발(已發) 구조를 기준으로 마음 작용의 전개 국면에 따라 구성되어 있음을 분석한다.『유가귀감』의 저본과 이본의 구성 및 항목 배열 차이를 검토함으로써, 이는 단순한 유교 윤리 교화서가 아니라, 마음을 근거로 한 실천 구조를 단계적으로 체계화한 저술임을 밝힌다. 나아가 이러한 배열은 불교의 계(戒)·정(定)·혜(慧) 삼학과 교의적으로 동일한 체계는 아니나, 수행의 전개 과정이라는 점에서 구조적 평행을 형성함을 알린다.이로써 『유가귀감』은 조선 중기 숭유억불의 사회적 조건 속에서, 불교가 유교적 심성론의 언어를 매개로 자신의 수행 논리를 제시한 실천 구조 차원의 회통 양상으로 이해될 수 있음을 제시한다.",
+      "abstract_en": "This article examines Hyujeong’s understanding of Confucianism through the Yugagwigam (儒家龜鑑) in the Samgagwigam (三家龜鑑), with the aim of clarifying the principle of arrangement underlying its structure of self-cultivation and its philosophical significance on the basis of an actual comparison of extant editions. In particular, it analyzes how the four items of gyegu (戒懼), sindok (愼獨), geundok (謹獨), and hamyang (涵養) are arranged according to the phases of the mind’s unfolding on the basis of the Neo-Confucian framework of the unaroused and aroused states (mibal and ibal).By examining the differences in composition and item arrangement between the base text and the variant editions of the Yugagwigam, this study argues that the work is not merely a Confucian ethical manual, but a text that systematically organizes a structure of practice grounded in the mind. Furthermore, although this arrangement is not doctrinally identical to the Buddhist triad of precepts (戒), concentration (定), and wisdom (慧), it nonetheless forms a structural parallel in terms of the process of cultivation.In this way, the Yugagwigam can be understood, under the social conditions of mid-Joseon suppressing Buddhism while promoting Confucianism, as a mode of reconciliation at the level of practical structure, through which Buddhism presented its own logic of cultivation by mediating it through the language of Confucian discourse on the mind and human nature.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "3",
+      "end_page": "24",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0ae1b24cf61ebee1b7998d826d417196",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "청허 휴정(淸虛 休靜)",
+        "『삼가귀감(三家龜鑑)』",
+        "『유가귀감(儒家龜鑑)』",
+        "유불회통(儒佛會通)",
+        "미발·이발(未發·已發)",
+        "수양구조(修養構造)"
+      ],
+      "keywords_en": [
+        "Cheongheo Hyujeong(淸虛 休靜)",
+        "Samgagwigam(三家龜鑑)",
+        "Yugagwigam(儒家龜鑑)",
+        "Reconciliation of Confucianism and Buddhism",
+        "Mibal and Ibal(未發․已發)",
+        "Structure of Cultivation."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "0ae1b24cf61ebee1b7998d826d417196"
+    },
+    {
+      "article_id": "d8d8129d6933adfee9810257f7042666",
+      "title_kr": "혜암(慧菴)과 종달(宗達)의 간화선 비교 - 의정의 작동과 화두 운용을 중심으로 -",
+      "title_en": "A Comparative Study of Ganhwa Seon(看話禪) in Hyeam Seonggwan(慧菴性觀) and Uihyeon Jongdal(義玄宗達) : Focusing on the Operation of Uijeong(疑情) and the Use of Hwadu(話頭)",
+      "authors": [
+        {
+          "name": "이상호",
+          "affiliation": "서강대학교 종교연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 혜암성관(慧菴性觀, 1920~2001)과 의현종달(義玄宗達, 1905~ 1990)의 간화선을 의정(疑情)의 작동과 화두 운용의 관점에서 비교함으로써, 근현대 한국 간화선이 단일한 수행 형식으로만 이해되기 어려우며 서로 다른 수행 조건 속에서 다양한 수행 구조를 형성해 왔음을 밝히고자 한다.이를 위해 본고는 의정을 정태(靜態)적 심리 상태가 아니라, 수행자가 화두를 통해 자기 문제를 붙들고 그 긴장을 유지·심화해 가는 수행의 작동 구조로 파악한다. 혜암의 간화선은 이뭣고와 회광반조를 중심으로 하나의 화두를 끝까지 참구하면서 의정을 자기 생사 문제와 본래면목(本來面目)의 문제로 깊이 회수(回收)하는 구조를 보여준다. 반면 종달의 간화선은 󰡔무문관󰡕 공안의 순차적 참구, 입실점검(入室點檢), 생활 속 실천을 통해 의정이 재가 수행 공동체와 생활의 장 속에서도 지속적으로 유지·점검되는 구조를 보여준다.본고는 이 비교를 통해 혜암의 단수 화두 참구와 종달의 복수 공안 운용의 차이가 단순한 수량 차이에 머무르지 않으며, 각각 의정의 응축(凝縮)과 지속(持續)이라는 서로 다른 수행 조직 원리와 연결될 수 있음을 보여준다.특히 종달의 복수 공안 운용은 각 공안의 순차적 투과가 곧바로 궁극적 타파를 뜻하는 단계표라기보다는, 수행 현실 속에서 의정의 긴장이 약화되지 않도록 하기 위한 실천적 배열로 이해될 필요가 있다. 결국 혜암과 종달의 차이는 간화선의 궁극 목적이 다른 것이 아니라, 의정이 형성·유지·심화되는 수행 조직의 방식에서 드러난다. 다만 여기서 말하는 의정의 ‘유지’는 ‘응축’의 반대가 아니라, 응축의 가능성을 지속시키는 절차적·환경적 장치를 뜻한다.이 점에서 본고는 근현대 한국 간화선을 정통과 변형의 이분법보다는, 서로 다른 수행 조건 속에서 의정이 조직되는 수행 구조의 차이로 이해할 필요가 있음을 제안한다.",
+      "abstract_en": "This article compares the Ganhwa Seon (看話禪) of Hyeam Seonggwan (慧菴性觀, 1920-2001) and Uihyeon Jongdal (義玄宗達, 1905-1990) from the perspective of the operation of uijeong (疑情) and the use of hwadu (話頭), in order to show that modern Korean Ganhwa Seon was organized not as a single fixed model of practice, but as multiple practical structures formed under different conditions of cultivation.For this purpose, uijeong is understood not as a static psychological state, but as a practical structure through which the practitioner grasps one’s own fundamental issue by means of hwadu, sustains its tension, and gradually deepens it in the course of practice.Hyeam’s Ganhwa Seon, centered on imwotgo (“What is this?”) and hoegwang banjo (廻光返照), exhibits a structure in which uijeong is deeply returned to the problem of birth and death and to one’s original face (本來面目) through the sustained investigation of a single hwadu. By contrast, Jongdal’s Ganhwa Seon shows a structure in which uijeong is continuously maintained and examined within a lay practice community through the sequential investigation of koans (公案) in the Wumenguan (無門關), ipsil jeomgeom (入室點檢), and the extension of practice into everyday life.Based on this comparison, this article argues that the difference between single-hwadu practice and multiple-koan practice cannot be reduced to a mere numerical distinction. Rather, they are connected to two different organizing principles of practice: the condensation and the continuity of uijeong. In particular, Jongdal’s use of multiple koans should not be understood as a stepwise schema in which the sequential penetration of each koan directly signifies the ultimate breakthrough. Rather, it should be understood as a practical arrangement designed to prevent the tension of uijeong from weakening under the conditions of latter-day practitioners of limited capacity.Ultimately, the difference between Hyeam and Jongdal does not lie in the final aim of Ganhwa Seon, but in the ways in which uijeong is generated, sustained, and deepened within different structures of practice. In this sense, this study suggests that modern Korean Ganhwa Seon should be understood not through the dichotomy of orthodoxy and deviation, but through multiple practice structures in which uijeong is organized under different practical conditions.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "25",
+      "end_page": "54",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d8d8129d6933adfee9810257f7042666",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "혜암성관",
+        "의현종달",
+        "간화선",
+        "의정",
+        "화두"
+      ],
+      "keywords_en": [
+        "Hyeam Seonggwan(慧菴性觀)",
+        "Uihyeon Jongdal(義玄宗達)",
+        "Ganhwa Seon (看話禪)",
+        "Uijeong(疑情)",
+        "Hwadu(話頭)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "d8d8129d6933adfee9810257f7042666"
+    },
+    {
+      "article_id": "d8d8129d6933adfe6aae8a972f9116fb",
+      "title_kr": "임제의현(臨濟義玄)의 선사상(禪思想)과 심(心)의 의미 고찰",
+      "title_en": "A Study on the Zen Thought of Linji Yixuan and the Meaning of Mind",
+      "authors": [
+        {
+          "name": "임상목",
+          "affiliation": "강원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 당나라 후기 사회 변동 속에서 형성된 임제의현의 선사상을 고찰하고 그 핵심 개념인 ‘심(心)’의 의미와 구조를 규명하는 데 목적이 있다. 임제의 선사상은 홍주선 계열의 사상을 계승하면서도 독자적으로 발전하였다. 그는 마조도일의 ‘즉심즉불’과 ‘비심비불’ 그리고 황벽희운의 ‘유일심’ 사상을 바탕으로 모든 인간이 본래 불성을 지니고 있음을 강조하였다. 그러나 그는 이러한 사상에 대한 집착마저 경계하며 ‘무의도인’, ‘무위진인’과 같은 개념을 통해 수행자의 자각을 촉구하였다.임제 사상의 핵심은 심성론에 있으며 마음을 모든 존재의 근원이자 동시에 공(空)한 것으로 이해하였다. 마음은 선과 악, 깨달음과 번뇌를 모두 포괄하는 근원적 자리이지만 고정된 자성을 지니지 않는 공무(空無)의 성격을 가진다. 이러한 관점에서 그는 마음과 부처, 진심과 망심의 이분법을 부정하고 ‘불이(不二)’의 사유를 제시하였다. 특히 ‘심심불이’와 ‘심여환화’의 개념을 통해 마음의 비실체성과 자유로운 작용을 설명하고, 수행자는 모든 집착과 분별을 초월한 ‘무사(無事)’의 경지에 도달해야 함을 강조하였다.임제의 심성론은 ‘즉심시불’의 긍정과 ‘심의 공성’에 대한 통찰을 통합한 사상으로 마음을 깨달음의 근거이면서도 집착의 대상이 아닌 것으로 파악한다. 이는 선종 사상에서 수행과 깨달음, 존재와 공을 통합적으로 이해하는 이론적 틀을 제공하며 나아가 동아시아 불교 사상 전개에 중요한 영향을 미쳤다.",
+      "abstract_en": "This study aims to examine the Chan (Zen) thought of Linji Yixuan, which was formed amid the social transformations of the late Tang dynasty, and to clarify the meaning and structure of its core concept, “mind” (xin, 心). Linji’s thought both inherited and independently developed the Hongzhou Chan tradition. Based on the doctrines of Mazu Daoyi—“the mind itself is the Buddha” and “neither mind nor Buddha”—as well as Huangbo Xiyun’s teaching of the “one mind,” he emphasized that all human beings inherently possess Buddha-nature. However, he also warned against attachment to these very ideas, urging practitioners toward self-realization through concepts such as the “person of no dependence” (wuyi daoren) and the “true person of no rank” (wuwei zhenren).The core of Linji’s thought lies in his theory of mind-nature. He understood the mind as both the source of all existence and fundamentally empty (śūnya). While the mind encompasses good and evil, enlightenment and delusion, it lacks any fixed self-nature and is characterized by emptiness. From this perspective, he rejected dualistic distinctions such as mind and Buddha, or true mind and deluded mind, and instead proposed a non-dual (non-duality, bu’er) framework. In particular, through the notions of “the non-differentiation of mind from moment to moment” (xin xin bu yi) and “mind as illusion-like” (xin ru huanhua), he explained the non-substantial and dynamic nature of the mind. He emphasized that practitioners should transcend all attachments and discriminations, ultimately attaining the state of  “no affairs” (wushi).Linji’s theory of mind integrates the affirmation of “the mind itself is the Buddha” with an insight into the emptiness of the mind, understanding it as both the ground of enlightenment and not an object of attachment. This provides a theoretical framework within Chan Buddhism for integrating practice and enlightenment, as well as being and emptiness, and it significantly influenced the development of East Asian Buddhist thought. Furthermore, by emphasizing the search for truth within one’s own mind rather than reliance on external authority, his philosophy carries important implications for modern notions of subjectivity and existential self-awareness.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "55",
+      "end_page": "84",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d8d8129d6933adfe6aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "임제의현",
+        "심성론",
+        "즉심시불",
+        "불이",
+        "무사(無事)"
+      ],
+      "keywords_en": [
+        "Linji Yixuan",
+        "Shimseongnon",
+        "JiXinJiFo",
+        "Non-duality",
+        "Wu-shi"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "d8d8129d6933adfe6aae8a972f9116fb"
+    },
+    {
+      "article_id": "d8d8129d6933adfeb7998d826d417196",
+      "title_kr": "명말(明末) 숭도억불기(崇道抑佛期) 감산덕청(憨山德淸)의 선교일치(禪敎一致) 수행론 연구 - 일심(一心)에 근거한 상보적 회통과 이교인심(以敎印心) 체계를 중심으로 -",
+      "title_en": "A Study on Hanshan Deqing’s Soteriology of the Unity of Seon and Doctrine during the Pro-Taoist and Anti-Buddhist Period of the Late Ming Dynasty : Focusing on the Complementary Integration Based on “One Mind” and the System of “Validation the Mind t",
+      "authors": [
+        {
+          "name": "홍근하",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 명말 불교의 위기 속에서 감산덕청(憨山德淸, 1546-1623)이 제시한 선교일치 사상의 수행론적 의의를 고찰한다. 당시 불교계는 가혹한 숭도억불 정책과 선지식 부재로 인해 승단의 타락과 선교의 분열이라는 난국에 처해 있었다. 감산은 이를 타파하고자 선과 교를 일심(一心)의 근원에서 발현된 상보적 양상으로 정립하고, 눈 밝은 스승이 고갈된 시대에 경전을 최종 인가자로 삼는 ‘이교인심(以敎印心)’의 결단을 내렸다. 특히 『조론(肇論)』과 『능엄경(楞嚴經)』을 통해 자신의 삼매 체험을 부처의 가르침에 대조함으로써 수행의 객관적 정당성을 확보했다. 감산의 이교인심은 그의 독보적인 실존적 의단과 삼매 성취를 전제로 한 특수한 수행 체계로서, 스승 없는 시대에 수행자가 스스로의 경지를 확증할 수 있는 독창적인 수행론적 모델을 제시했다는 점에서 중대한 역사적 가치를 지닌다.",
+      "abstract_en": "This study examines the contemplative significance of the “Unity of Zen and Doctrine” (Seon-Gyo) proposed by Hanshan Deqing (1546-1623) amid the Buddhist crisis of the late Ming Dynasty. The sangha faced monastic corruption and fragmented teachings due to harsh state policies. To overcome this crisis, Hanshan redefined Zen and Doctrine as complementary aspects emerging from the source of “One Mind” (一心). He made the pivotal choice of Validating the Mind through Doctrine (以敎印心), positioning scriptures as the final authority in an era when insightful human masters were scarce. He secured objective legitimacy for his practice by verifying personal Samadhi experiences against the Buddha’s teachings through the Zhao Lun and Shurangama Sutra. Hanshan’s “Validating the Mind through Doctrine” is a system of practice predicated on his exceptional existential doubt and profound spiritual attainment in Samadhi. It holds significant historical value for providing an original contemplative model that allows practitioners to independently verify their spiritual state in an age without masters.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "85",
+      "end_page": "109",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d8d8129d6933adfeb7998d826d417196",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "감산덕청",
+        "명말불교",
+        "선교일치",
+        "일심",
+        "『조론』",
+        "『능엄경』"
+      ],
+      "keywords_en": [
+        "Hanshan Deqing",
+        "Late Ming Buddhism",
+        "Unity of Seon and Gyo",
+        "One Mind."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "d8d8129d6933adfeb7998d826d417196"
+    },
+    {
+      "article_id": "d8d8129d6933adfeb36097776a77e665",
+      "title_kr": "인드라망과 리좀 - 화엄 원융 사상과 들뢰즈 생성 철학의 관계론 비교 -",
+      "title_en": "Indra's Net and Rhizome: Comparative Study of Huayan Relational Ontology and Deleuze-Guattarian Philosophy of Becoming",
+      "authors": [
+        {
+          "name": "임상락",
+          "affiliation": "경희대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 화엄 사상의 인드라망(Indra-jāla)과 들뢰즈·가타리의 리좀(Rhizome) 개념을 비교 분석하여, 현대 디지털 네트워크가 직면한 관계론적 위기에 대한 철학적 통찰을 모색한다. 두 사유는 시공간적 간극에도 불구하고 초월적 원리를 거부하는 내재성의 철학, 관계의 존재론적 우선성, 중심의 해체라는 공통 기반을 공유한다. 그러나 관계의 작동 방식에서는 근본적 차이를 보인다. 인드라망은 일체 존재가 고정된 자성 없이 상호의존적으로 성립한다는 법성(法性)에 근거한 연기적 상호 내재, 일체 존재의 총체적 포괄성, 본래적 조화가 매 순간 현행하는 영원한 현재를 전제한다. 반면 리좀은 기능적 필요에 의한 외재적 접속, 선택적·국소적 연결, 끊임없는 접속과 탈주가 반복되는 생성적 시간을 전제한다. 이러한 존재론적 차이는 현대 디지털 네트워크에서 상이한 가능성과 한계로 구현된다. 인드라망의 연기적 상호 내재 전제는 보편적 소통 가능성을 보장하지만 동질성 강제의 위험을, 리좀의 외재적 접속 전제는 이질적 만남의 자유를 보장하지만 윤리적 방향성 부재의 위험을 내포한다. 본 연구는 두 관계론의 상보적 결합을 통해 전 지구적 연결과 억압적 통일성에 대한 저항, 새로운 관계의 생성과 공동체적 윤리의 유지가 양립할 수 있는 가능성을 제시한다.",
+      "abstract_en": "This study conducts a comparative analysis of the Huayan concept of Indra's Net (Indra-jāla) and Deleuze and Guattari's concept of the Rhizome, seeking philosophical insights into the relational crisis confronting contemporary digital networks. Despite their spatiotemporal distance, the two frameworks share a common ground in their philosophy of immanence that rejects transcendent principles, the ontological primacy of relations, and the deconstruction of centers. However, they exhibit fundamental differences in the operative modalities of relation. Indra's Net presupposes the dependent co-arising (pratītyasamutpāda) mutual immanence grounded in dharmatā — the principle that all beings arise interdependently without fixed self-nature — along with the total inclusivity of all existents and an eternal present in which originary harmony is actualized at every moment. The Rhizome, by contrast, presupposes extrinsic connection driven by functional necessity, selective and local linkages, and a generative temporality marked by the ceaseless repetition of connection and lines of flight. These ontological differences are realized as distinct possibilities and limitations within contemporary digital networks. The presupposition of dependent co-arising mutual immanence in Indra's Net guarantees the possibility of universal communication yet carries the risk of enforcing homogeneity, while the Rhizome's presupposition of extrinsic connection guarantees the freedom of heterogeneous encounters yet harbors the risk of an absence of ethical orientation. Through a complementary synthesis of these two relational ontologies, this study proposes the possibility of reconciling global connectivity with resistance to oppressive unity, and the generation of new relations with the maintenance of communal ethics.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "113",
+      "end_page": "143",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d8d8129d6933adfeb36097776a77e665",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "인드라망(Indra-jāla)",
+        "원융(圓融)",
+        "상즉상입(相卽相入)"
+      ],
+      "keywords_en": [
+        "Indra-jāla",
+        "Rhizome",
+        "Perfect Integration(圓融)",
+        "Mutual Identity and Interpenetration(相卽相入)",
+        "Becoming",
+        "리좀(Rhizome)",
+        "되기(becoming)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "d8d8129d6933adfeb36097776a77e665"
+    },
+    {
+      "article_id": "0ae1b24cf61ebee1c85d2949c297615a",
+      "title_kr": "불교 전파지역인 서북인도의 정통성 확보과정에 관한 논고",
+      "title_en": "A Study on the Process of Establishing Legitimacy in Northwestern India as a Region of Buddhist Transmission",
+      "authors": [
+        {
+          "name": "한지연",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "인도문화권이 곧 불교의 출발점이라는 잘못된 인식으로 인해 서북인도 역시 다른 지역으로의 불교 전파과정의 시발점으로 인지하는 경향이 있다. 그러나 서북인도는 붓다의 직접적인 활동지역이 아니며, 오히려 근본분열이 발생하는 시점에 상좌부 교단의 집단 이동이 이루어지면서 비로소 불교가 전파된 지역이다. 다시 말해서 서북인도 역시 전파 지역의 하나인 것이다. 이후 서북인도는 다른 지역에서의 불교 발전 과정에 전래·수용한 배경에 관한 그 정통성을 확보하기 위해 다양한 시도를 지속했다.그 노력의 일환으로 북전 문헌 상에서는 상좌부 정착 과정에 교단 전체의 이동과 국가적 뒷받침을 전제로 그려내고 있다. 이는 현재 우리의 잘못된 인식을 도출할 만큼의 파급력을 가질 정도로 교단의 집단 이동 현상은 부분적 전파가 아닌 명료하게 시작점으로 정착시키는데 성공하였다. 또한 서북인도 곳곳에서는 붓다의 전생 활동 지역이었음을 강조하는 작업 또한 이루어졌다. 이러한 경향성은 동아시아로 2차 전파가 이루어지는 과정에도 드러나며, 더욱이 2차 전파 지역이 갖는 또 다른 정통성 확보에 있어 서북인도에 대한 정통성을 공고히 하기 위한 작업의 일환이 더해지면서 더욱 견고한 내용으로 탈바꿈하게 된다.이와 같은 일련의 현상들을 본 논문에서는 1차적으로 서북인도가 불교전파의 시발점이 아닌 전파지역이었음을 확인한다. 그리고 전파지역이 갖는 정통성 확보의 과정을 다양한 각도에서 조명하였다.",
+      "abstract_en": "Due to the mistaken perception that the Indian cultural sphere itself constitutes the point of origin of Buddhism, there is a tendency to regard Northwestern India as the starting point in the process of the transmission of Buddhism to other regions. However, Northwestern India was not a region of the Buddha’s direct activity; rather, it was only at the time of the early schisms that Buddhism was transmitted there, through the collective migration of the Sthavira (Elders) community. In other words, Northwestern India should likewise be understood as one of the regions to which Buddhism was transmitted.Subsequently, Northwestern India continued to undertake various efforts to secure its legitimacy in relation to the background of transmission and reception within the broader process of Buddhist development in other regions. As part of these efforts, Northern Buddhist textual traditions depict the establishment of the Sthavira community in Northwestern India as premised upon the migration of the entire monastic community, supported at the level of the state. This narrative proved sufficiently influential to shape modern misconceptions, successfully establishing the phenomenon of collective monastic migration not as a case of partial transmission but as a clear point of origin.In addition, across various parts of Northwestern India, there were sustained efforts to emphasize that the region had been a site of the Buddha’s activities in his previous lives. This tendency is also evident in the process of the secondary transmission of Buddhism to East Asia. Moreover, as these secondary transmission regions sought to secure their own forms of legitimacy, further efforts were made to reinforce the legitimacy of Northwestern India, resulting in a more firmly consolidated narrative.In light of these phenomena, this paper first demonstrates that Northwestern India was not the starting point of Buddhist transmission, but rather one of its recipient regions. It then examines, from multiple perspectives, the processes through which such transmission regions sought to establish their legitimacy.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "145",
+      "end_page": "167",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0ae1b24cf61ebee1c85d2949c297615a",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "서북인도",
+        "상좌부",
+        "전륜성왕",
+        "본생담",
+        "불교전파"
+      ],
+      "keywords_en": [
+        "Northwest India",
+        "Theravada Buddhism",
+        "The Great Disciple of the Wheel of Dharma",
+        "Jataka",
+        "The Spread of Buddhism"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "0ae1b24cf61ebee1c85d2949c297615a"
+    },
+    {
+      "article_id": "0ae1b24cf61ebee16aae8a972f9116fb",
+      "title_kr": "의정 세예법(義淨洗穢法)의 성립과 규범 구조 - 세정법(洗淨法)과의 문헌 비교를 중심으로 -",
+      "title_en": "A Study of “Yijing’s Method of Purification (義淨洗穢法)”: A Comparison with the Method of Cleansing (洗淨法)",
+      "authors": [
+        {
+          "name": "전명원(자오)",
+          "affiliation": "동국대학교 대학원 불교학과)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "손진(정완)",
+          "affiliation": "동국대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "본 논문은 『송고승전(宋高僧傳)』 ｢의상전(義湘傳)｣에 나타나는 “義淨洗穢法 不用巾帨 立期乾燥而止”라는 기록을 중심으로, ‘의정 세예법(義淨洗穢法)’의 성립과 규범 구조를 규명하는 것을 목적으로 한다. 특히 ‘의정 세예법’이라는 용어가 의정(義淨)의 저술에 직접 나타나지 않는다는 점에 주목하여, 이를 독립된 계율 체계로 이해해 온 기존 해석을 비판적으로 재검토한다.먼저 본 논문은 율장 문헌과 의정 계열 문헌을 비교 분석하여, 세예(洗穢)와 세정(洗淨)이 서로 다른 규범이 아니라 배변 이후 동일한 세정 행위를 지칭하는 이명(異名) 관계임을 규명하였다. 나아가 『행사초(行事鈔)』·『남해기귀내법전(南海寄歸內法傳)』·『설죄요행법(說罪要行法)』을 중심으로 세정 규정을 비교한 결과, 동일한 행위가 전승 계통에 따라 서로 다른 체계로 재구성됨을 확인하였다.또한 남산 율종 계열이 세정을 오염 제거 중심의 실용적 절차로 해석하고 닦기(拭)를 보조적으로 허용하는 데 비해, 의정 계열은 물과 흙을 통한 반복 세정을 통해 청정을 완성하고 닦기 행위를 배제함으로써 세정 자체를 완결된 계율 절차로 규정하고 있음을 살펴보았다.특히 “不用巾帨 立期乾燥”는 세정 이후 닦는 행위를 배제하고 자연 건조를 통해 세정의 완료를 확정하는 방식으로 해석되며, 이와 같은 실천이 단순한 위생적 처리에 머무르지 않고 수행 성립의 조건으로 구조화되었음을 보여준다.결론적으로 의상이 실천한 ‘의정 세예법’은 의정 문헌의 ‘세정법(洗淨法)’이 후대 율학 전통 속에서 ‘세예(洗穢)’라는 용어로 재지칭되면서 형성된 개념으로 파악된다. 본 연구는 이와 같은 용어 변환과 규범 재구성 과정을 통해 동아시아 불교 계율 체계의 형성 원리를 설명하는 분석 틀을 제시한다.",
+      "abstract_en": "This study aims to reexamine the formation and normative structure of the so-called “Yijing’s post-defecation purification practice” (Yijing xihui fa, 義淨洗穢法) based on the record in the Song gaoseng zhuan (宋高僧傳), “Biography of Uisang (義湘傳),” which states: “He always practiced Yijing’s cleansing method, not using cloth or towel, and only concluding it after natural drying” (義淨洗穢法 不用巾帨 立期乾燥而止). Particular attention is given to the fact that the term “Yijing’s post-defecation purification practice” does not appear in Yijing’s own writings, and thus previous interpretations that regard it as an independent monastic rule are critically reexamined.First, through a comparative analysis of Vinaya texts and Yijing-related literature, this study demonstrates that xihui (洗穢, removal of impurity) and xijing (洗淨, purification) are not distinct practices but refer to the same post-defecation cleansing act, functioning as synonymous terms within different textual traditions. Furthermore, a comparison of the cleansing regulations in the Xingshichao (行事鈔), Nanhai jigui neifa zhuan (南海寄歸內法傳), and Shuozui yaoxing fa (說罪要行法) reveals that the same practice was reconfigured into different normative structures according to distinct transmission lineages.While the Nanshan Vinaya tradition interprets cleansing as a practical act focused on removing impurity and permits wiping as a supplementary measure, the Yijing tradition emphasizes repeated cleansing with water and earth to achieve purity, explicitly excluding wiping and thereby defining cleansing itself as a complete Vinaya practice. In this context, the phrase “not using cloth or towel and concluding after natural drying” is interpreted as a rule that excludes wiping after cleansing and establishes natural drying as the criterion for completion. This indicates that cleansing was not merely a hygienic act but was structured as a prerequisite for religious practice.In conclusion, the so-called “Yijing’s post-defecation purification practice” should not be understood as an independent Vinaya category, but rather as a later designation that emerged when Yijing’s concept of purification (xijing) was rearticulated within the Nanshan Vinaya tradition using the term xihui. This study thus proposes an analytical framework for understanding how the East Asian Buddhist Vinaya system was formed through processes of terminological transformation and normative reconstruction.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "169",
+      "end_page": "192",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0ae1b24cf61ebee16aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "의상",
+        "의정",
+        "세예법(洗穢法)",
+        "세정법(洗淨法)",
+        "세정 규범"
+      ],
+      "keywords_en": [
+        "Uisang",
+        "Yijing",
+        "Xihui(洗穢)",
+        "Xijing(洗淨)",
+        "Post-Defecation Purification Practice",
+        "Vinaya Regulation"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "0ae1b24cf61ebee16aae8a972f9116fb"
+    },
+    {
+      "article_id": "d8d8129d6933adfe47de9c1710b0298d",
+      "title_kr": "이산당 원오, 오이산의 교육사상과 실천",
+      "title_en": "Educational Ideas and Practice of Ishan Dang Wonoh, Oh-Isan",
+      "authors": [
+        {
+          "name": "강길주",
+          "affiliation": "동국대학교 WISE캠퍼스 일반대학원 불교학과",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 일제강점기 조선불교계를 대표하는 교육자이자 종교인이었던 이산당 원오 오이산(1886~1936)의 교육사상과 실천을 체계적으로 규명하는 것을 목적으로 한다. 오이산은 범어사 강원과 명정학교 운영, 조선불교교무원 활동, 보성고등보통학교 경영, 해동역경원 설립 등 전통과 근대, 종교와 세속, 수행과 사회참여가 교차하는 지점에서 교육 활동을 전개하였다. 그럼에도 불구하고 기존 연구에서는 범어사나 조선불교교무원사 서술의 일부로만 부분적으로 다루어져, 교육사상과 실천을 종합적으로 조명한 연구는 부재하였다.연구 방법으로는 『이산당 원오대선사 문집』과 ｢금정산 범어사 이산당원오대선사지비명｣, 『불교』·『불교시보』 등 불교잡지, 동아일보·조선일보·매일신보 등 신문 기사, 조선총독부 관보, 󰡔보성백년사󰡕 등 관련 학교사, 해동역경원 관련 자료를 폭넓게 검토하였다.연구 결과, 첫째 오이산의 교육사상은 전통과 근대의 조화라는 측면에서 특징을 보인다. 유년기 유학 교육과 서당 교사 경험, 출가 후 혼해 강백 아래에서의 강원 수학, 일본 불교시찰 경험은 근대 교육제도 수용과 전통 교학을 결합시키는 기반이 되었다. 범어사 강원–명정학교–중앙학림으로 이어지는 승가·일반 교육의 연계 체계를 구축함으로써, 지역 불교교육의 근대화를 추진하였다. 둘째, 조선불교교무원 재무이사와 예산위원, 감사로서의 활동은 교육재정 확보와 인재양성을 목표로 한 정책적 실천으로 나타났다. 특히 김태흡 유학 지원을 둘러싼 예산 유용 논의에서 드러난 탄력적 예산운용론은, 재정 원칙을 지키면서도 교육 투자를 우선하는 교육관을 잘 보여준다. 보성고등보통학교 인수와 지원, 이후 평의원회에서의 학교 관련 안건 처리 역시 이러한 문제의식의 연장선상에 있다. 셋째, 보성고등보통학교 경영과 1934년 인계 위기 대응은 불교계의 민족교육 수호 의지를 집약적으로 드러낸다. 오이산은 만암 송종헌 등과 함께 팔본산 책임서 채택, 재단 증자 추진 등을 통해 학교를 끝까지 지키고자 하였는데, 일제 식민지 교육정책하에서 종교계가 취할 수 있었던 우회적 저항의 한 형태로 해석될 수 있다. 넷째, 해동역경원 설립과 『불타의 의의』, 『사종의 원리』, 『불교성전』 간행은 한문 경전을 우리말로 번역함으로써 불교 대중화와 민족어 보존을 동시에 추구한 문화적 실천이었다. 통도사·범어사·해인사 등 경남3본산이 공동으로 재정을 부담한 이 사업은, 백용성의 삼장역회와 더불어 일제강점기 역경운동의 중요한 축을 형성하였다.본 연구는 ①전통과 근대의 조화, ②종교와 세속의 통합, ③개인 수행과 사회 실천의 균형이라는 세 가지 분석 축을 설정하고, 이를 준거로 오이산의 교육사상을 해석하였다. 조선불교교무원·보성고등보통학교·해동역경원을 매개로 한 구체적 실천 사례를 통해 입증하였다. 이를 통해 일제강점기 민족교육사에서 상대적으로 간과되었던 불교계 교육 활동과, 그 중심에 있었던 승려 교육자의 역할을 부각시켰다는 점에서 의의를 지닌다. 또한 오이산의 교육활동이 해방 이후 한국불교 교육과 역경 사업으로 이어지는 연속성의 출발점 중 하나였음을 보여줌으로써, 오늘날 불교계 교육과 언어·문화 정책을 성찰하는 데도 유의미한 시사점을 제공한다.",
+      "abstract_en": "This study systematically examines the educational thought and practice of Oh-Isan (1886-1936), a prominent Buddhist monk-educator of the Japanese colonial period, through three analytical axes: the harmonization of tradition and modernity, the integration of religion and secular society, and the balance between personal cultivation and social engagement. He worked at Beomeosa’s monastic college and Myeongjeong School, in the Chosŏn Buddhist Kyomuwŏn, at Boseong Higher Common School, and in founding the Haedong Translation Institute, where tradition and modern schooling, religion and the secular sphere, and monastic cultivation and social engagement intersected.The research is based on textual sources such as his collected writings and stele inscription, Buddhist periodicals, major newspapers, official gazettes, school histories, and materials related to the Haedong Translation Institute. The findings show, first, that his thought centered on harmonizing traditional scholastic training with modern educational institutions, and on building a linked structure between monastic and general education that advanced the modernization of regional Buddhist education. Second, his roles as financial director, budget committee member, and auditor in the Kyomuwŏn, and his stance in the Kim Tae-hŭp study-abroad case, reveal a fiscal philosophy that prioritized investment in education and human resources.Third, his involvement in the management of Boseong Higher Common School and the 1934 transfer crisis condensed the Buddhist community’s determination to defend national education and can be read as a form of indirect resistance under colonial education policy. Fourth, the Haedong Translation Institute and the publication of works such as The Meaning of the Buddha, The Principle of the Four Truths, and The Buddhist Bible were cultural practices that combined Buddhist popularization with the preservation of the Korean language, forming, together with Paek Yongsŏng’s translation activities, an important axis of colonial-period translation work. By interpreting O Isan’s educational thought in terms of harmony between tradition and modernity, the integration of religion and the secular, and the balance between personal cultivation and social practice, this study highlights neglected Buddhist educational efforts and the pivotal role of the monk‑educator, while also offering implications for contemporary Buddhist education and language policy.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "193",
+      "end_page": "227",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d8d8129d6933adfe47de9c1710b0298d",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "오이산",
+        "범어사",
+        "보성고등보통학교",
+        "교육",
+        "백용성"
+      ],
+      "keywords_en": [
+        "Oh-Isan",
+        "Beomeosa Temple",
+        "Boseong Higher Common School",
+        "Education",
+        "Paek Yongsung"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "d8d8129d6933adfe47de9c1710b0298d"
+    },
+    {
+      "article_id": "0ae1b24cf61ebee147de9c1710b0298d",
+      "title_kr": "다보탑 기단 장식 복원에 관한 연구",
+      "title_en": "A Research on Decoration of Platform Base of Dabo Stūpa",
+      "authors": [
+        {
+          "name": "한대성",
+          "affiliation": "한국교원대 중등교원양성센터 강사",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 다보탑 기단부 장식에 관한 두 양식이 동시에 존재할 수 없다는 모순을 드러내어, 일반적으로 받아들여지는 다보탑의 복원 모델이 유일한 복원안이 아님을 제시하였다. 이는 한 국립박물관에 전시되었던 것처럼 사사자상이 기단부의 사우를 장식하는 모델이 아니라, 소맷돌 기저에서 시작되어 기단부 갑석을 감싸는 난간이 원형이었다는 모델이 더 설득력이 있음을 시사하였다. 선행연구에서는 이 난간과 동자주의 양식을 탑의 외부구조인 청운교·백운교의 것을 채용한 복원모델을 제시하였지만, 본 연구에서는 탑의 내부구조인 탑신 1층과 2층의 동자주와 돌림대 및 하방 등을 모델로 한 복원안을 제시하였다.다보탑의 기단의 사우에 사사자상이 위치한 것이 분황사의 그것을 모델로 했다는 주장이 유력하게 받아들여지고 있다. 본 논문에서는 이 주장 또한 그 구조의 역사성을 중심으로 비판적으로 검토하였다. 분황사의 기단 사우에 있는 사사자상은 그 어떤 문헌이나 고고학적 근거에 기반되지 않은 채 일본인들에 의해 복원되었고, 심지어 이는 다보탑의 그것을 모델로 하였다고 하기도 한다. 따라서 다보탑의 사자상의 배치구조가 분황사 모전석탑의 그것을 따랐기에 정통적이라고 한 주장은 근거가 불확실한 것임을 논하였다.",
+      "abstract_en": "This paper reveals that the widely accepted reconstruction of the Dabo stūpa may not be the only plan, highlighting a paradox concerning the decoration of the stūpa’s platform base. It argues for a model in which railings encircle the platform base, extending along the four stairways of their feet, in contrast to the accepted model featuring four lion stone statues at the four corners, as displayed in a national museum.Previously, a reconstruction model of railing decoration on the platform base was proposed; however, this model is based on handrails installed outside the stūpa. In this article, a reconstruction of the decoration of the stūpa’s platform base with railings is proposed, modeled after the internal structure of the stūpa, with railings with their stand in the first and second layers of the main body.The claim that the placement of the four lion statues on the four corners of the platform base of the Dabo stūpa is original is said to be modeled after that of Bunhwangsa temple. This claim is critically analyzed by reviewing the historicity of the structure. The structure is reconstructed by the Japanese without any textual or archaeological basis during the colonial period, even said to be modeled after that of Dabo stūpa. Hence, the claim that the configuration of lion statues of Dabo stūpa on the platform base is authentic for it is modeled after that of Bunhwangsa temple, cannot be sustained.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "229",
+      "end_page": "258",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0ae1b24cf61ebee147de9c1710b0298d",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "다보탑",
+        "불국사",
+        "분황사",
+        "불교 건축"
+      ],
+      "keywords_en": [
+        "Dabo Stūpa",
+        "Bulguksa",
+        "Bunhwangsa",
+        "Buddhist Architecture",
+        "Stūpa"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "0ae1b24cf61ebee147de9c1710b0298d"
+    },
+    {
+      "article_id": "0ae1b24cf61ebee17f7a54760bb41745",
+      "title_kr": "봉은사 토지의 매각과 국가 정권의 헤게모니 전략",
+      "title_en": "The Sale of Bongeunsa Land and the Hegemonic Strategy of the State Regime",
+      "authors": [
+        {
+          "name": "조기룡",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "서울의 강남에 위치한 봉은사는 경제적·지리적 측면에서 최고의 가치를 지니는 사찰로 평가받는다. 봉은사의 이러한 높은 가치는 강남을 제2서울로 개발하는 ‘영동 제2지구 개발’의 영향이 컸다. 본고는 영동 제2지구 개발계획의 전후 시기인 1969-1971년 사이 봉은사 토지 10만 여 평이 매각되는 사건을 연구의 모티브(motive)로 한다. 강남 개발이 되면 봉은사 토지는 금싸라기가 되는데, 그러한 땅 10만 평 이상이 국가 정권에 의해 헐값으로 매각되었음에 주목하는 것이다.이에 본고는 봉은사 토지 매각 사건을 국가 정권의 불교교단에 대한 헤게모니(hegemony) 전략의 관점에서 연구한다. 박정희 정권이 불교교단을 직접적·간접적으로 영향력 아래에 두면서 강제(coercion)와 유인(incentives)을 사용해 헤게모니를 구사하며 봉은사 토지를 매매했던 과정을 분석하는 것이다. 그 분석은 ① 봉은사 토지의 매각 이유(정권의 정치자금 마련) ② 봉은사 토지 매각의 법령 위반(경내지 매각) ③ 봉은사 토지 매매계약의 반사회적 법률 행위성(정부의 불교종단 기망과 총무원의 배임) 등을 쟁점으로 진행한다. 이를 위한 선행 작업으로, 한국불교의 분열과 박정희 정권의 불교 통제를 분석한다. 또한 봉은사 토지의 매각과 그에 대한 반발 과정도 순차적으로 조사한다.",
+      "abstract_en": "Bongeunsa Temple, located in Seoul’s Gangnam district, is considered one of the most valuable temples in South Korea in terms of both geographical and economic significance. This high valuation is closely tied to the development of the Yeongdong Second District, which played a central role in transforming Gangnam into a “Second Seoul.” This paper takes as its point of departure the sale of approximately 100,000 pyeong (approximately 330,000 square meters) of Bongeunsa land between 1969 and 1971, a period surrounding the development of the Yeongdong Second District. It focuses on the fact that this vast and increasingly valuable land was sold at a low price under the influence of state power.The study examines the Bongeunsa land sale as part of the Park Chung-hee regime’s hegemonic strategy toward the Buddhist community. The Park regime exerted both direct and indirect influence over the Buddhist community, employing a combination of coercion and incentives to exert hegemony. This paper analyzes the land sale process as a manifestation of this strategy. The analysis is organized around three main issues: (1) the political motivations behind the sale of Bongeunsa land, particularly the regime’s need to secure political funds; (2) the legal violations involved in the transaction, specifically the sale of temple precincts, which was prohibited by law; and (3) the potentially unlawful and anti-social nature of the transaction, including the government’s deception of the Buddhist order and possible breach of fiduciary duty by the Jogye Order's administration.As a preliminary step, this study analyzes the schism within Korean Buddhism and the Park Chung-hee regime’s control over Buddhist institutions. It also systematically examines the process of the Bongeunsa land sale and the subsequent opposition to it.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "259",
+      "end_page": "292",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0ae1b24cf61ebee17f7a54760bb41745",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "봉은사",
+        "서운(瑞雲)",
+        "헤게모니 전략",
+        "조계종 총무원",
+        "박정희 정권"
+      ],
+      "keywords_en": [
+        "Bongeunsa",
+        "Seoun(瑞雲)",
+        "Hegemonic Strategy",
+        "Headquarters of the Jogye Order",
+        "Park Chung-Hee Regime"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "0ae1b24cf61ebee17f7a54760bb41745"
+    },
+    {
+      "article_id": "0ae1b24cf61ebee1d18150b21a227875",
+      "title_kr": "근세 한·일의 불교사원과 국가권력의 관계 - 원당사원과 문적사원의 경제기반을 중심으로 -",
+      "title_en": "Buddhist Temples and State Power in Early Modern Korea and Japan: The Economic Bases of Wondang and Monzeki Temples",
+      "authors": [
+        {
+          "name": "조승미",
+          "affiliation": "부산대학교 인문학연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 근세 조선의 원당 사원과 도쿠가와 일본의 문적 사원의 경제 기반의 비교를 통해 전근대 한‧일의 불교 사원과 국가 권력의 관계를 고찰한 것이다. 두 사원 모두는 사원 경제 기반의 핵심인 토지를 당대의 통치 권력으로부터 보장받았다는 공통점을 지니고 있었다. 조선의 원당 사원은 토지 및 그와 관련한 경제적 특권을 부여받고 왕실이 필요로 하는 물자를 상납하며 일종의 왕실 재정으로서 기능하는 공존의 양상을 보였다. 한편 도쿠가와 일본의 문적 사원 역시 막부로부터 토지를 보장받았으나 그 한계는 명확했고 막부로부터의 재정적 지원조차 점차 줄었기에, 사원은 수입 획득을 위한 대부업 운영에 나섰으며 이는 막부와의 갈등으로 이어졌다.이처럼 사원 경제를 기준으로 전근대 한‧일의 사원과 국가 권력과의 관계를 비교한다면, 선별적이기는 하나 권력의 보호를 받고 있었던 조선의 원당 사원이, 불교가 막부의 통치 질서 내로 편입되며 적극적으로 용인되었던 도쿠가와 일본의 사원보다 오히려 경제적으로 긴밀한 관계에 놓여 있었으며, 궁극적으로는 조선 왕실을 중심으로 하는 국가 체제의 유지에 이바지하고 있었던 것으로 보인다.",
+      "abstract_en": "This article explores the relationship between Buddhist temples and state power in early modern Korea and Japan by comparing the economic bases of Joseon wondang(願堂) temples and Japanese monzeki(門跡) temples. In both cases, the economic base of the temple rest on in land guaranteed by the ruling authority. This commonality points to the close entanglement of Buddhist institutions with secular power.The comparison, however, also reveals a significant divergence. Joseon wondang temples received land and related economic privileges, supplied goods required by the royal household, and formed part of the court’s financial base. By contrast, monzeki temples in Tokugawa Japan also held lands guaranteed by the shogunate, but these grants were limited and shogunal financial support gradually diminished. As a result, the temples turned to moneylending to secure income, a development that ultimately brought them into conflict with the bakufu. This comparison suggests that, despite receiving only selective protection from the state, Joseon wondang temples were economically more closely integrated into political authority than Tokugawa monzeki temples and,  in that sense, helped sustain a state order centered on the royal house.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "293",
+      "end_page": "319",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0ae1b24cf61ebee1d18150b21a227875",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "조선",
+        "도쿠가와 일본",
+        "원당 사원",
+        "문적 사원",
+        "사원 경제"
+      ],
+      "keywords_en": [
+        "Joseon",
+        "Tokugawa Japan",
+        "Wondang Temples",
+        "Monzeki Temples",
+        "Temple Economy"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "0ae1b24cf61ebee1d18150b21a227875"
+    },
+    {
+      "article_id": "0ae1b24cf61ebee14884a65323211ff0",
+      "title_kr": "청소년 회복탄력성을 위한 그림책 선명상의작동기제 연구 - 선 수행의 비언어적 입장에서 -",
+      "title_en": "A Study of the Operative Mechanisms of Picture-Book Seon Meditation for Enhancing Adolescent Resilience: From the Perspective of the Nonverbal Dimension of Seon Practice",
+      "authors": [
+        {
+          "name": "이은영",
+          "affiliation": "동국대학교 선학과 명상수행코칭전공)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "서왕모",
+          "affiliation": "동국대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "본 연구는 선 수행의 비언어성을 청소년 회복탄력성의 관점에서 재해석하고, 그림책을 매개로 한 선명상의 작동기제를 밝히는 데 목적이 있다. 설명과 훈계 중심의 언어적 접근만으로는 청소년의 자기조절과 내적 전환을 충분히 이끌기 어렵다는 문제의식 아래, 선불교의 초월적 언어관과 ‘머묾[住]’·‘알아차림[知]’의 수행 구조, 그리고 그림책의 상징성·여백성·관조성을 문헌연구를 통해 검토하였다. 본 연구에서 ‘선 수행’은 전통 선불교 수행의 원리와 구조를 포괄하는 상위 개념이며, ‘그림책 선명상’은 그러한 원리를 동시대 교육 맥락에서 재구성한 적용적 명상 모형을 뜻한다.고찰 결과, 선 수행의 비언어성은 언어를 부정하는 데 있지 않고, 언어적 분별이 앞서기 이전의 경험을 드러내는 수행 원리로 이해될 수 있었다. 이를 바탕으로 그림책 선명상의 작동기제는 세 층위로 정리된다. 첫째, 그림책의 이미지와 장면이 불러오는 감각·정서·기억을 비언어적으로 자각하는 단계이다. 둘째, 그 반응을 곧바로 해석하거나 평가하지 않고 판단중지와 머묾 속에서 지켜보는 단계이다. 셋째, 이러한 과정을 통해 자기 안정이 형성되고, 고통을 대하는 관계가 새롭게 조정되는 단계이다. 이 세 작동기제는 각각 분리된 기능이 아니라 연속적 구조를 이루며, 청소년 회복탄력성의 하위 요소인 자기인식, 정서조절, 주의의 안정, 경험 재구성과 긴밀하게 맞닿아 있다.따라서 그림책은 단순한 독서자료나 치유 보조도구에 머무르지 않고, 선 수행의 비언어적 원리를 청소년 교육 현장에서 경험 가능하게 하는 수행적 매개가 될 수 있다. 본고의 의의는 선 수행의 비언어성을 동시대 청소년 교육과 치유의 맥락에서 다시 읽고, 그림책 선명상을 청소년 회복탄력성 증진을 위한 불교적 교육·명상 모형으로 제시하였다는 데 있다.",
+      "abstract_en": "This study aims to reinterpret the nonverbal dimension of Seon practice from the perspective of adolescent resilience and to elucidate the operative mechanisms of picture-book Seon meditation. Based on the recognition that language-centered approaches grounded solely in explanation and admonition are insufficient to foster adolescents’ self-regulation and inner transformation, this study examines, through a review of the literature, the Seon Buddhist view of language, the practice structure of abiding [住] and awareness [知], and the symbolism, blank space, and contemplative quality of picture books. In this study, Seon practice refers to the broader traditional principles and structure of Seon cultivation, whereas picture-book Seon meditation refers to an applied meditative model that rearticulates those principles within a contemporary educational context. The findings suggest that the nonverbal dimension of Seon practice does not lie in negating language itself; rather, it may be understood as a principle of practice that discloses experience prior to the onset of linguistic discrimination. On this basis, the operative mechanisms of picture-book Seon meditation may be organized into three interrelated layers. First, it begins with a nonverbal awareness of sensations, emotions, and memories evoked by the images and scenes of a picture book. Second, these responses are observed within suspension of judgment and abiding, without being immediately interpreted or evaluated. Third, through this process, inner stability is formed and one’s relation to suffering is newly reconfigured. These three mechanisms do not function as isolated units; rather, they constitute a continuous structure closely connected to key subcomponents of adolescent resilience, including self-awareness, emotional regulation, attentional stability, and the reconstruction of experience. Accordingly, picture books are not merely reading materials or auxiliary therapeutic tools. Rather, they may serve as a practical medium through which the nonverbal principles of Seon practice become experientially accessible in educational settings for adolescents. The significance of this study lies in reinterpreting the nonverbal dimension of Seon practice within the contemporary context of adolescent education and healing, and in proposing picture-book Seon meditation as a Buddhist educational and meditative model for enhancing adolescent resilience.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "start_page": "321",
+      "end_page": "354",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0ae1b24cf61ebee14884a65323211ff0",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "선 수행",
+        "그림책 선명상",
+        "머묾(住)",
+        "알아차림(知)",
+        "청소년 회복탄력성"
+      ],
+      "keywords_en": [
+        "Seon Practice",
+        "Picture-Book Seon Meditation",
+        "Abiding(住)",
+        "Awareness(知)",
+        "Adolescent Resilience"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "0ae1b24cf61ebee14884a65323211ff0"
     }
   ],
   "by_year": {
