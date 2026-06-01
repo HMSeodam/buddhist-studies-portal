@@ -1,6 +1,6 @@
 name: 논문 데이터 업데이트
 
-'on':
+on:
   schedule:
     # ── RISS: 매주 월요일 오전 9시 KST (UTC 00:00)
     - cron: "0 0 * * 1"
@@ -16,10 +16,6 @@ name: 논문 데이터 업데이트
         description: "확인할 최신 호수 개수"
         required: false
         default: "2"
-      journal:
-        description: "RISS에서 업데이트할 학회지 이름 (공백 구분 여러 개 가능)"
-        required: false
-        default: ""
 
 jobs:
   update:
@@ -67,13 +63,8 @@ jobs:
         if: steps.target.outputs.target == 'riss' || steps.target.outputs.target == 'all'
         run: |
           DEPTH="${{ github.event.inputs.depth || '1' }}"
-          JOURNAL="${{ github.event.inputs.journal || '' }}"
           cd collector
-          if [ -n "$JOURNAL" ]; then
-            xvfb-run --auto-servernum --server-args='-screen 0 1280x900x24' python riss_updater.py --depth "$DEPTH" --humanize --no-headless --journal $JOURNAL
-          else
-            xvfb-run --auto-servernum --server-args='-screen 0 1280x900x24' python riss_updater.py --depth "$DEPTH" --humanize --no-headless
-          fi
+          python riss_updater.py --depth "$DEPTH"
         env:
           DISPLAY: ""
 
