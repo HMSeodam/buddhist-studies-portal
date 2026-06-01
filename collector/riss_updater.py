@@ -185,6 +185,20 @@ def click_article_by_id(driver, article_id: str) -> bool:
     return False
 
 
+def debug_page_state(driver, context=""):
+    try:
+        url = driver.current_url
+        ready = driver.execute_script("return document.readyState")
+        a_count = len(driver.find_elements(By.TAG_NAME, "a"))
+        print(f"  [DEBUG] {context} URL={url[:120]}")
+        print(f"  [DEBUG] {context} readyState={ready}, anchors={a_count}")
+        preview = driver.execute_script("return (document.body.innerText || '').slice(0, 600);")
+        for line in preview.splitlines()[:6]:
+            print(f"    {line[:120]}")
+    except Exception as e:
+        print(f"  [DEBUG] 상태 조회 실패: {e}")
+
+
 def page_is_blocked(soup):
     text = soup.get_text(separator=" ").strip()
     if not text:
@@ -262,6 +276,12 @@ def load_page(driver, url, wait_sec=4, retries=PAGE_LOAD_RETRIES):
 
 def wait_for_issue_list(driver, timeout=20, allow_refresh=True):
     def is_loaded(d):
+        try:
+            ready = d.execute_script("return document.readyState")
+        except Exception:
+            ready = "unknown"
+        if ready != "complete":
+            return False
         page = d.page_source
         return all(token not in page for token in [
             "조회중",
@@ -276,6 +296,7 @@ def wait_for_issue_list(driver, timeout=20, allow_refresh=True):
             return True
         except TimeoutException:
             print("  ⚠ 조회중 상태가 사라지지 않음")
+            debug_page_state(driver, context=f"wait_for_issue_list#{attempt}")
             dismiss_alert(driver)
             if attempt == 1 and allow_refresh:
                 print("  ⟳ 새로고침 후 재시도")
