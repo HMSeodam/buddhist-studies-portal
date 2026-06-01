@@ -16,15 +16,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import (
-    TimeoutException,
-    WebDriverException,
-    UnexpectedAlertPresentException,
-    NoAlertPresentException,
-)
 from webdriver_manager.chrome import ChromeDriverManager
-from random import uniform, choice
 from bs4 import BeautifulSoup
 import json, time, re, hashlib
 from pathlib import Path
@@ -33,10 +25,6 @@ import argparse
 
 OUTPUT_DIR    = "../output"
 REQUEST_DELAY = 2.0
-PAGE_LOAD_TIMEOUT = 120
-PAGE_LOAD_RETRIES = 3
-RETRY_DELAY = 5.0
-ALLOW_REFRESH_ON_BLOCK = True
 RISS_BASE     = "https://www.riss.kr"
 
 JOURNALS = [
@@ -83,11 +71,10 @@ try:
 except ImportError:
     _UC_AVAILABLE = False
 
-def init_driver(headless=True):
+def init_driver():
     if _UC_AVAILABLE:
         opts = uc.ChromeOptions()
-        if headless:
-            opts.add_argument("--headless=new")
+        opts.add_argument("--headless=new")
         opts.add_argument("--no-sandbox")
         opts.add_argument("--disable-dev-shm-usage")
         opts.add_argument("--disable-gpu")
@@ -100,15 +87,12 @@ def init_driver(headless=True):
             _major = None
         driver = uc.Chrome(options=opts, use_subprocess=True, version_main=_major)
         driver.implicitly_wait(5)
-        driver.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
-        driver.set_script_timeout(PAGE_LOAD_TIMEOUT)
-        print(f"  드라이버: undetected_chromedriver ({'headless' if headless else 'GUI'})")
+        print("  드라이버: undetected_chromedriver (headless)")
         return driver
 
     # ── fallback: 표준 selenium ────────────────────────────
     opts = Options()
-    if headless:
-        opts.add_argument("--headless=new")
+    opts.add_argument("--headless=new")
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
     opts.add_argument("--disable-gpu")
@@ -125,189 +109,17 @@ def init_driver(headless=True):
         "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
     })
     driver.implicitly_wait(5)
-    driver.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
-    driver.set_script_timeout(PAGE_LOAD_TIMEOUT)
-    print(f"  드라이버: selenium ({'headless' if headless else 'GUI'}, UC 미설치)")
+    print("  드라이버: selenium (UC 미설치)")
     return driver
 
 
-def dismiss_alert(driver):
-    try:
-        alert = driver.switch_to.alert
-        text = alert.text
-        alert.accept()
-        print(f"  ⚠ 알림 닫음: {text[:60]}")
-    except NoAlertPresentException:
-        pass
-    except Exception as e:
-        print(f"  ⚠ 알림 처리 실패: {e}")
-
-
-def human_sleep(min_sec=0.8, max_sec=2.0):
-    sec = uniform(min_sec, max_sec)
-    time.sleep(sec)
-    return sec
-
-
-def human_scroll(driver, steps=2):
-    for _ in range(steps):
-        try:
-            dist = choice([120, 180, 240, 320])
-            driver.execute_script(f"window.scrollBy(0, {dist});")
-            time.sleep(uniform(0.4, 0.9))
-        except Exception:
-            break
-
-
-def click_element_safely(driver, element):
-    try:
-        ActionChains(driver).move_to_element(element).pause(uniform(0.2, 0.7)).click(element).perform()
-        return True
-    except Exception:
-        try:
-            driver.execute_script("arguments[0].scrollIntoView({behavior:'smooth', block:'center'});", element)
-            time.sleep(0.5)
-            element.click()
-            return True
-        except Exception:
-            return False
-
-
-def click_article_by_id(driver, article_id: str) -> bool:
-    xpath = f"//a[contains(@href,'control_no={article_id}') and contains(@href,'p_mat_type=1a0202')]"
-    try:
-        els = driver.find_elements(By.XPATH, xpath)
-        for el in els:
-            if click_element_safely(driver, el):
-                return True
-    except Exception:
-        pass
-    return False
-
-
-def debug_page_state(driver, context=""):
-    try:
-        url = driver.current_url
-        ready = driver.execute_script("return document.readyState")
-        a_count = len(driver.find_elements(By.TAG_NAME, "a"))
-        print(f"  [DEBUG] {context} URL={url[:120]}")
-        print(f"  [DEBUG] {context} readyState={ready}, anchors={a_count}")
-        preview = driver.execute_script("return (document.body.innerText || '').slice(0, 600);")
-        for line in preview.splitlines()[:6]:
-            print(f"    {line[:120]}")
-    except Exception as e:
-        print(f"  [DEBUG] 상태 조회 실패: {e}")
-
-
-def page_is_blocked(soup):
-    text = soup.get_text(separator=" ").strip()
-    if not text:
-        return False
-    blocked_tokens = [
-        "조회중",
-        "조회 중",
-        "자동화",
-        "로봇",
-        "bot",
-        "차단",
-        "차단되었습니다",
-        "접근이 제한",
-    ]
-    return any(token in text for token in blocked_tokens)
-
-
-def navigate_home_then_url(driver, url):
-    try:
-        load_page(driver, RISS_BASE, wait_sec=2)
-        human_scroll(driver, steps=2)
-        human_sleep(0.8, 1.5)
-    except Exception:
-        pass
-    return load_page(driver, url, wait_sec=5)
-
-
-def load_page(driver, url, wait_sec=4, retries=PAGE_LOAD_RETRIES):
-    for attempt in range(1, retries + 1):
-        try:
-            driver.get(url)
-            try:
-                WebDriverWait(driver, min(wait_sec + 10, PAGE_LOAD_TIMEOUT)).until(
-                    lambda d: d.execute_script("return document.readyState") == "complete"
-                )
-            except Exception:
-                pass
-            human_sleep(0.8, 1.3)
-            page = driver.page_source
-            soup = BeautifulSoup(page, "html.parser")
-            if page_is_blocked(soup) and attempt < retries and ALLOW_REFRESH_ON_BLOCK:
-                print(f"  ⚠ 페이지 차단 의심 감지, 재시도 ({attempt}/{retries})")
-                dismiss_alert(driver)
-                try:
-                    driver.refresh()
-                except Exception as e:
-                    print(f"  ⚠ 새로고침 실패: {e}")
-                time.sleep(RETRY_DELAY)
-                continue
-            break
-        except UnexpectedAlertPresentException:
-            dismiss_alert(driver)
-            print(f"  ⚠ 알림 때문에 로드 재시도 ({attempt}/{retries})")
-        except TimeoutException as e:
-            print(f"  ⚠ 페이지 로드 실패 ({attempt}/{retries}): {e}")
-            dismiss_alert(driver)
-            try:
-                driver.execute_script("window.stop();")
-            except Exception:
-                pass
-        except WebDriverException as e:
-            print(f"  ⚠ WebDriver 오류 ({attempt}/{retries}): {e}")
-            dismiss_alert(driver)
-        if attempt >= retries:
-            print(f"  ❌ 최종 실패: {url[:70]}")
-            return BeautifulSoup(driver.page_source, "html.parser")
-        time.sleep(RETRY_DELAY)
+def load_page(driver, url, wait_sec=4):
+    driver.get(url)
     time.sleep(wait_sec)
-    dismiss_alert(driver)
     landed = driver.current_url
     if landed.rstrip("/") != url.rstrip("/") and "DetailView" in url and "DetailView" not in landed:
         print(f"  ⚠ 리다이렉트 감지: {url[:70]}")
     return BeautifulSoup(driver.page_source, "html.parser")
-
-
-def wait_for_issue_list(driver, timeout=20, allow_refresh=True):
-    def is_loaded(d):
-        try:
-            ready = d.execute_script("return document.readyState")
-        except Exception:
-            ready = "unknown"
-        if ready != "complete":
-            return False
-        page = d.page_source
-        return all(token not in page for token in [
-            "조회중",
-            "조회 중",
-            "조회중 오류",
-            "조회 중 오류"
-        ])
-
-    for attempt in range(1, 3):
-        try:
-            WebDriverWait(driver, timeout).until(is_loaded)
-            return True
-        except TimeoutException:
-            print("  ⚠ 조회중 상태가 사라지지 않음")
-            debug_page_state(driver, context=f"wait_for_issue_list#{attempt}")
-            dismiss_alert(driver)
-            if attempt == 1 and allow_refresh:
-                print("  ⟳ 새로고침 후 재시도")
-                try:
-                    driver.refresh()
-                except Exception as e:
-                    print(f"  ⚠ 새로고침 실패: {e}")
-                time.sleep(RETRY_DELAY)
-                continue
-            return False
-    return False
 
 
 # ════════════════════════════════════════
@@ -399,14 +211,12 @@ def _collect_issues_from_page(driver, control_no: str, seen: set) -> list:
     return found
 
 
-def get_recent_issues(driver, control_no: str, depth: int) -> list[dict] | None:
+def get_recent_issues(driver, control_no: str, depth: int) -> list[dict]:
     """최신 호수 depth개 수집. riss_selenium_crawler.py의 3단계 클릭 방식 사용."""
     url = (f"{RISS_BASE}/search/detail/DetailView.do"
            f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}")
-    navigate_home_then_url(driver, url)
-    if not wait_for_issue_list(driver, timeout=20):
-        print("  ⚠ 호수 목록 로딩 실패: 차단 또는 로딩 지연")
-        return None
+    driver.get(url)
+    time.sleep(5)
 
     issues = []
     seen   = set()
@@ -429,12 +239,8 @@ def get_recent_issues(driver, control_no: str, depth: int) -> list[dict] | None:
             try:
                 year_txt = el.text.strip()
                 print(f"    [{year_txt}] 클릭...", end=" ", flush=True)
-                if not click_element_safely(driver, el):
-                    print("클릭 실패")
-                    continue
-                if not wait_for_issue_list(driver, timeout=20):
-                    print("    ⚠ 연도 클릭 후 로딩 실패")
-                    continue
+                driver.execute_script("arguments[0].click();", el)
+                time.sleep(2)
                 before = len(issues)
                 issues += _collect_issues_from_page(driver, control_no, seen)
                 print(f"{len(issues) - before}개 발견")
@@ -453,10 +259,8 @@ def get_recent_issues(driver, control_no: str, depth: int) -> list[dict] | None:
         year_url = (f"{RISS_BASE}/search/detail/DetailView.do"
                     f"?p_mat_type=3a11008f85f7c51d&control_no={control_no}"
                     f"&inside_outside=0&v_year={year}")
-        navigate_home_then_url(driver, year_url)
-        if not wait_for_issue_list(driver, timeout=20):
-            print(f"  ⚠ {year}년 페이지 로딩 실패")
-            continue
+        driver.get(year_url)
+        time.sleep(4)
         before  = len(issues)
         issues += _collect_issues_from_page(driver, control_no, seen)
         added   = len(issues) - before
@@ -487,35 +291,14 @@ def get_recent_issues(driver, control_no: str, depth: int) -> list[dict] | None:
 # ════════════════════════════════════════
 
 def get_articles_by_issue(driver, issue: dict, control_no: str,
-                           journal_name: str, existing_ids: set,
-                           humanize: bool = False) -> list[dict]:
+                           journal_name: str, existing_ids: set) -> list[dict]:
     """호수 페이지에서 기존에 없는 논문만 수집"""
     base_url = (f"{RISS_BASE}/search/detail/DetailView.do"
                 f"?p_mat_type=3a11008f85f7c51d"
                 f"&control_no={control_no}"
                 f"&v_control_no={issue['v_control_no']}"
                 f"&inside_outside=1")
-    issue_page_url = f"{base_url}&currentPage=1&rowPerPage=100"
-    navigate_home_then_url(driver, issue_page_url)
-    if not wait_for_issue_list(driver, timeout=30):
-        print("  ⚠ 호수 목록 로딩 실패: 새로고침 후 다시 시도")
-        try:
-            driver.refresh()
-        except Exception as e:
-            print(f"  ⚠ 새로고침 실패: {e}")
-        time.sleep(RETRY_DELAY)
-        navigate_home_then_url(driver, issue_page_url)
-        if not wait_for_issue_list(driver, timeout=30):
-            print("  ⚠ 호수 목록 재로딩에서도 실패")
-            return None
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    if page_is_blocked(soup):
-        print("  ⚠ 차단/로딩 실패 감지: 이 호수의 논문 목록을 가져오지 못함")
-        return None
-
-    if humanize:
-        human_scroll(driver, steps=2)
-        human_sleep(0.6, 1.2)
+    soup = load_page(driver, f"{base_url}&currentPage=1&rowPerPage=100", wait_sec=3)
 
     new_arts = []
     for lk in soup.find_all("a", href=lambda h: h and "p_mat_type=1a0202" in str(h)):
@@ -561,29 +344,10 @@ def get_articles_by_issue(driver, issue: dict, control_no: str,
 #  논문 상세 수집
 # ════════════════════════════════════════
 
-def fetch_detail(driver, article_id: str, humanize: bool = False, issue_url: str | None = None) -> dict | None:
-    if humanize and issue_url:
-        # issue page로 돌아가서 실제 링크를 클릭해서 이동
-        navigate_home_then_url(driver, issue_url)
-        if not wait_for_issue_list(driver, timeout=30):
-            print(f"  ⚠ 상세 페이지 클릭 전 호수 목록 로딩 실패: {article_id}")
-        else:
-            human_scroll(driver, steps=2)
-            human_sleep(0.6, 1.2)
-            if click_article_by_id(driver, article_id):
-                time.sleep(1.0)
-                soup = BeautifulSoup(driver.page_source, "html.parser")
-                if not page_is_blocked(soup):
-                    return parse_detail_soup(soup)
-                print(f"  ⚠ 상세 페이지 차단/로딩 실패: article_id={article_id}")
-            else:
-                print(f"  ⚠ 상세 페이지 클릭 실패: article_id={article_id}")
+def fetch_detail(driver, article_id: str) -> dict:
     url  = (f"{RISS_BASE}/search/detail/DetailView.do"
             f"?p_mat_type=1a0202e37d52c72d&control_no={article_id}")
     soup = load_page(driver, url, wait_sec=5)
-    if page_is_blocked(soup):
-        print(f"  ⚠ 상세 페이지 차단/로딩 실패: article_id={article_id}")
-        return None
     r    = {}
 
     # 제목
@@ -671,90 +435,6 @@ def fetch_detail(driver, article_id: str, humanize: bool = False, issue_url: str
     return r
 
 
-def parse_detail_soup(soup: BeautifulSoup) -> dict:
-    r = {}
-
-    ti = soup.select_one(".thesisInfo h3.title")
-    if ti:
-        full = ti.get_text(separator="\n", strip=True)
-        parts = re.split(r"\n\s*=\s*", full)
-        r["title_kr"] = parts[0].strip()
-        if len(parts) > 1:
-            r["title_en"] = parts[1].strip()
-
-    for li in soup.select(".infoDetailL li"):
-        label_el = li.find("span", class_="strong")
-        if not label_el:
-            continue
-        label = label_el.get_text(strip=True)
-        div   = li.find("div")
-        if not div:
-            continue
-
-        if label == "저자":
-            authors = []
-            for a in div.find_all("a"):
-                nm = a.get_text(strip=True)
-                affil = ""
-                next_txt = a.next_sibling
-                if next_txt and isinstance(next_txt, str):
-                    affil = next_txt.strip().strip("()")
-                if nm and len(nm) >= 2:
-                    authors.append({"name":nm,"affiliation":affil,"order":str(len(authors)+1)})
-            if authors:
-                r["authors"] = authors
-
-        elif label == "발행연도":
-            yr = div.get_text(strip=True)
-            if re.match(r"^\d{4}$", yr):
-                r["year"] = yr
-
-        elif label == "권호사항":
-            txt = div.get_text(separator=" ", strip=True)
-            vol_m = re.search(r"Vol\.(\d+(?:[-·~]\d+)?)", txt)
-            no_m  = re.search(r"No\.(\d+(?:[-·~]\d+)?)", txt)
-            yr_m  = re.search(r"\[(\d{4})\]", txt)
-            if vol_m: r["volume"] = vol_m.group(1)
-            if no_m:  r["issue"]  = no_m.group(1)
-            if yr_m and not r.get("year"): r["year"] = yr_m.group(1)
-
-        elif label == "수록면":
-            txt = div.get_text(strip=True)
-            pg  = re.search(r"(\d+)\s*[-~]\s*(\d+)", txt)
-            if pg:
-                r["start_page"] = pg.group(1)
-                r["end_page"]   = pg.group(2)
-
-        elif label == "주제어":
-            kk, ke = [], []
-            for a in div.find_all("a"):
-                kw = a.get_text(strip=True)
-                if not kw or len(kw) < 2:
-                    continue
-                ratio = sum(c.isascii() for c in kw) / len(kw)
-                (ke if ratio > 0.7 else kk).append(kw)
-            if kk: r["keywords_kr"] = kk
-            if ke: r["keywords_en"] = ke
-
-    abs_el = soup.select_one("#abs1.textWrap, #abs1 .textWrap")
-    if abs_el:
-        t = abs_el.get_text(strip=True)
-        if t and len(t) > 20:
-            r["abstract_kr"] = t
-
-    abs_en = soup.select_one("#abs2.textWrap, #abs2 .textWrap")
-    if abs_en:
-        t = abs_en.get_text(strip=True)
-        if t and len(t) > 20:
-            r["abstract_en"] = t
-
-    kci_el = soup.select_one("a[href*='kci.go.kr']")
-    if kci_el:
-        r["kci_url"] = kci_el.get("href", "")
-
-    return r
-
-
 # ════════════════════════════════════════
 #  학술지별 병합 및 저장
 # ════════════════════════════════════════
@@ -799,28 +479,14 @@ def merge_and_save_journal(journal_name: str, new_articles: list[dict],
 #  메인
 # ════════════════════════════════════════
 
-def filter_journals(journal_names: list[str] | None):
-    if not journal_names:
-        return JOURNALS
-    names = {name.strip().lower() for name in journal_names}
-    selected = []
-    for journal in JOURNALS:
-        if journal_key(journal).lower() in names or journal["name"].lower() in names:
-            selected.append(journal)
-    if not selected:
-        print(f"  ⚠ 지정한 학회지를 찾을 수 없습니다: {journal_names}")
-        return JOURNALS
-    return selected
-
-
-def run(depth=1, headless=True, journal_names=None, humanize=False):
+def run(depth=1):
     Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
 
     # 모든 학술지 파일에서 기존 ID 수집
     existing_ids = load_all_existing_ids()
 
     print(f"\nChrome 초기화...")
-    driver = init_driver(headless=headless)
+    driver = init_driver()
 
     # RISS 세션 쿠키 확보 (직접 상세 URL 접근 시 홈으로 튕기는 현상 방지)
     print("  RISS 세션 워밍업 중...")
@@ -829,49 +495,24 @@ def run(depth=1, headless=True, journal_names=None, humanize=False):
     print(f"  세션 확보 완료")
 
     total_new = 0
-    pending_journals = list(filter_journals(journal_names))
-    retry_journals = []
-    second_pass = False
 
     try:
-        while pending_journals:
-            journal = pending_journals.pop(0)
+        for journal in JOURNALS:
             name       = journal_key(journal)   # display_name 우선
             control_no = journal["control_no"]
 
             print(f"\n[{name}] 최신 {depth}호수 확인 중...")
 
             # 최신 호수 목록
-            try:
-                issues = get_recent_issues(driver, control_no, depth)
-            except Exception as e:
-                print(f"  ⚠ {name} 최신 호수 수집 중 예외: {e}")
-                if not second_pass:
-                    retry_journals.append(journal)
-                continue
-            if issues is None:
-                print(f"  ⚠ {name} 처리 실패, 다음 학회지로 우선 이동")
-                if not second_pass:
-                    retry_journals.append(journal)
-                continue
+            issues = get_recent_issues(driver, control_no, depth)
             if not issues:
                 continue
 
             journal_new = []
-            blocked_issue_encountered = False
             for iss in issues:
                 label = f"Vol.{iss['volume']} No.{iss['issue']}" if iss['volume'] else iss['label']
-                issue_page_url = (f"{RISS_BASE}/search/detail/DetailView.do"
-                                  f"?p_mat_type=3a11008f85f7c51d"
-                                  f"&control_no={control_no}"
-                                  f"&v_control_no={iss['v_control_no']}"
-                                  f"&inside_outside=1&currentPage=1&rowPerPage=100")
-                arts  = get_articles_by_issue(driver, iss, control_no, name, existing_ids, humanize=humanize)
+                arts  = get_articles_by_issue(driver, iss, control_no, name, existing_ids)
 
-                if arts is None:
-                    print(f"  [{label}] 차단/로딩 실패로 인해 건너뜀")
-                    blocked_issue_encountered = True
-                    continue
                 if not arts:
                     print(f"  [{label}] 새 논문 없음")
                     continue
@@ -880,17 +521,10 @@ def run(depth=1, headless=True, journal_names=None, humanize=False):
 
                 # 상세 수집
                 for i, art in enumerate(arts):
-                    try:
-                        d = fetch_detail(driver, art["article_id"], humanize=humanize, issue_url=issue_page_url)
-                        if d is None:
-                            print(f"    ⚠ 상세 수집 실패: {art['article_id']}")
-                            continue
-                        for k, v in d.items():
-                            if v: art[k] = v
-                        existing_ids.add(art["article_id"])  # 중복 방지
-                    except Exception as e:
-                        print(f"    ⚠ 상세 수집 예외: {art['article_id']} / {e}")
-                        continue
+                    d = fetch_detail(driver, art["article_id"])
+                    for k, v in d.items():
+                        if v: art[k] = v
+                    existing_ids.add(art["article_id"])  # 중복 방지
                     time.sleep(REQUEST_DELAY)
 
                 journal_new.extend(arts)
@@ -903,21 +537,7 @@ def run(depth=1, headless=True, journal_names=None, humanize=False):
             else:
                 print(f"  → 새 논문 없음")
 
-            if blocked_issue_encountered and not second_pass:
-                retry_journals.append(journal)
-
             time.sleep(REQUEST_DELAY)
-
-            if not pending_journals and retry_journals and not second_pass:
-                print("\n차단/로딩 실패한 학회지를 다시 시도합니다...")
-                pending_journals = retry_journals
-                retry_journals = []
-                second_pass = True
-
-        if retry_journals:
-            print("\n다시 시도 후에도 실패한 학회지: ")
-            for journal in retry_journals:
-                print(f"  - {journal_key(journal)}")
 
     finally:
         driver.quit()
@@ -932,13 +552,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="RISS 증분 업데이트")
     parser.add_argument("--depth", type=int, default=1,
                         help="학술지당 확인할 최신 호수 개수 (기본: 1)")
-    parser.add_argument("--journal", nargs="+",
-                        help="업데이트할 학회지 이름을 하나 이상 지정")
-    parser.add_argument("--no-headless", dest="headless", action="store_false",
-                        help="GUI 브라우저로 실행")
-    parser.add_argument("--humanize", action="store_true",
-                        help="사람처럼 클릭/대기 행동을 추가")
-    parser.set_defaults(headless=True)
     args = parser.parse_args()
 
-    run(depth=args.depth, headless=args.headless, journal_names=args.journal, humanize=args.humanize)
+    run(depth=args.depth)
