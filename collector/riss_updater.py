@@ -16,6 +16,8 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException, WebDriverException
+from urllib3.exceptions import ReadTimeoutError
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import json, time, re, hashlib
@@ -74,6 +76,7 @@ except ImportError:
 def init_driver():
     if _UC_AVAILABLE:
         opts = uc.ChromeOptions()
+        opts.page_load_strategy = "eager"
         opts.add_argument("--headless=new")
         opts.add_argument("--no-sandbox")
         opts.add_argument("--disable-dev-shm-usage")
@@ -87,6 +90,7 @@ def init_driver():
             _major = None
         driver = uc.Chrome(options=opts, use_subprocess=True, version_main=_major)
         driver.implicitly_wait(5)
+        driver.set_page_load_timeout(30)
         print("  드라이버: undetected_chromedriver (headless)")
         return driver
 
@@ -109,17 +113,41 @@ def init_driver():
         "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
     })
     driver.implicitly_wait(5)
+    driver.set_page_load_timeout(30)
     print("  드라이버: selenium (UC 미설치)")
     return driver
 
 
-def load_page(driver, url, wait_sec=4):
-    driver.get(url)
-    time.sleep(wait_sec)
-    landed = driver.current_url
-    if landed.rstrip("/") != url.rstrip("/") and "DetailView" in url and "DetailView" not in landed:
-        print(f"  ⚠ 리다이렉트 감지: {url[:70]}")
-    return BeautifulSoup(driver.page_source, "html.parser")
+def load_page(driver, url, wait_sec=4, retries=2):
+    last_error = None
+
+    for attempt in range(1, retries + 1):
+        try:
+            driver.get(url)
+            time.sleep(wait_sec)
+
+            landed = driver.current_url
+            if (
+                landed.rstrip("/") != url.rstrip("/")
+                and "DetailView" in url
+                and "DetailView" not in landed
+            ):
+                print(f"  ⚠ 리다이렉트 감지: {url[:70]}")
+
+            return BeautifulSoup(driver.page_source, "html.parser")
+
+        except (TimeoutException, WebDriverException, ReadTimeoutError) as e:
+            last_error = e
+            print(f"    ⚠ 페이지 로딩 실패 ({attempt}/{retries}): {url}")
+
+            try:
+                driver.execute_script("window.stop();")
+            except Exception:
+                pass
+
+            time.sleep(3)
+
+    raise RuntimeError(f"페이지 로딩 최종 실패: {url}") from last_error
 
 
 # ════════════════════════════════════════
@@ -517,17 +545,39 @@ def run(depth=1):
                     print(f"  [{label}] 새 논문 없음")
                     continue
 
+
                 print(f"  [{label}] 새 논문 {len(arts)}편 발견 → 상세 수집 중...")
-
+                
                 # 상세 수집
-                for i, art in enumerate(arts):
-                    d = fetch_detail(driver, art["article_id"])
-                    for k, v in d.items():
-                        if v: art[k] = v
-                    existing_ids.add(art["article_id"])  # 중복 방지
+                successful_arts = []
+                
+                for i, art in enumerate(arts, start=1):
+                    try:
+                        print(
+                            f"    [{i}/{len(arts)}] 상세 수집 시작: "
+                            f"{art['title_kr'][:40]} / {art['article_id']}"
+                        )
+                
+                        d = fetch_detail(driver, art["article_id"])
+                
+                        for k, v in d.items():
+                            if v:
+                                art[k] = v
+                
+                        existing_ids.add(art["article_id"])
+                        successful_arts.append(art)
+                
+                        print(f"    [{i}/{len(arts)}] 상세 수집 완료")
+                
+                    except Exception as e:
+                        print(
+                            f"    ⚠ 상세 수집 실패, 이번 실행에서 제외: "
+                            f"{art['title_kr'][:40]} / {art['article_id']} / {e}"
+                        )
+                
                     time.sleep(REQUEST_DELAY)
-
-                journal_new.extend(arts)
+                
+                journal_new.extend(successful_arts)
                 time.sleep(REQUEST_DELAY)
 
             if journal_new:
