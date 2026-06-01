@@ -3,7 +3,8 @@
     "name": "명상심리상담",
     "category": "불교학",
     "impact_factor": 0.48,
-    "control_no": "2158cb1ffaedc442ffe0bdc3ef48d419"
+    "control_no": "2158cb1ffaedc442ffe0bdc3ef48d419",
+    "last_updated": "2026-06-01"
   },
   "articles": [
     {
@@ -8000,6 +8001,432 @@
       ],
       "ai_keywords": [],
       "source": "RISS"
+    },
+    {
+      "article_id": "01dcc6086a8334436aae8a972f9116fb",
+      "title_kr": "일상 수행으로서의 명상 경험에 대한 질적 연구",
+      "title_en": "Meditation experience as daily practice: A qualitative study",
+      "authors": [
+        {
+          "name": "손강숙",
+          "affiliation": "중앙승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 일상 수행으로서의 명상 경험을 탐색하는 것을 목적으로 하였다. 이를 위하여 일상 수행으로서의 명상을 하고 있는 명상수행자 36명을 5그룹으로 나누어 포커스 그룹 인터뷰를 진행하였다. 본 연구의 연구결과는 다음과 같다. 첫째, ‘일상 수행으로서의 명상을 통한 주관 적 경험’에서 ‘일상에서 쉼과 이완을 경험함’, ‘일상에서 마음의 안정과 평화를 경험함’, ‘일상 수행으로서의 명상을 통해 내면을 만남’, ‘일상 수행으로서의 명상이 훈련과 과정이라고 생각함’, ‘일상에서 명상하며 살아가는 경험을 함’의 5개 범주가 도출되었다. 둘째, ‘일상 수행으로 서의 명상을 통한 정서적 수용’에서 ‘일상 수행으로서의 명상을 통해 감정 인식하고 수용하게 됨’, ‘일상 수행으로서의 명상을 통해 정서조절 능력이 향상됨을 느낌’, ‘일상 수행으로서의 명상을 통해 정서에 대한 성찰을 통한 성장을 경험함’, ‘일상 수행으로서의명상을 통해 대인관계 속에서의 정서를 조절할 수 있게 됨’, ‘일상 수행으로서의 명상을 통해 부정적 정서의 감소를 경험함’, ‘일상 수행으로서의 명상을 통해 긍정적 정서가 증가함’의 6개 범주가 도출되었다. 셋째, ‘일상 수행으로서의 명상을 통한 대처의 변화’에서 ‘일상 수행으로서의 명상을 통해 자기 성 찰과 행동에 대한 인식이 증가함’, ‘일상 수행으로서의 명상을 통해 신중하게 행동하게 됨’, ‘일상 수행으로서의 명상을 통해 대인관계에서의 부드러워진 태도의 변화를 경험함’, ‘일상 수행으로서의 명상을 통해 가족과의 관계에서 배려심이 증가함’, ‘일상 수행으로서의 명상을 통해 갈등 상황에서의 대응하는 방식이 변화함’, ‘일상 수행으로서의 명상을 통해 행동이 여유로워짐’의 6개 범주가 도출되었다. 본 연구는 명상이 특정한 공간이나 시간에 한정된 활동이 아니라, 일상 속에서 실천될 수 있는 지속 가능한 수행이라는 점을 확인하였다는데 그 의의가 있다.",
+      "abstract_en": "This study aimed to explore meditation experiences as daily practice. For this purpose, focus group interviews were conducted with 36 meditation practitioners who practice meditation as part of their daily routine, divided into 5 groups. The research findings are as follows: First, in ‘subjective experiences through meditation as daily practice,’ five categories emerged: ‘experiencing rest and relaxation in daily life,’ ‘experiencing mental stability and peace in daily life,’ ‘encountering one’s inner self through meditation as daily practice,’ ‘considering meditation as daily practice as training and process,’ and ‘experiencing living with meditation in daily life.’ Second, in ‘emotional acceptance through meditation as daily practice,’ six categories emerged: ‘becoming able to recognize and accept emotions through meditation as daily practice,’ ‘feeling improved emotional regulation ability through meditation as daily practice,’ ‘experiencing growth through reflection on emotions via meditation as daily practice,’ ‘becoming able to regulate emotions in interpersonal relationships through meditation as daily practice,’ ‘experiencing reduction of negative emotions through meditation as daily practice,’ and ‘increased positive emotions through meditation as daily practice.’ Third, in ‘changes in coping through meditation as daily practice,’ six categories emerged: ‘increased self-reflection and awareness of behavior through meditation as daily practice,’ ‘becoming more deliberate in actions through meditation as daily practice,’ ‘experiencing changes toward gentler attitudes in interpersonal relationships through meditation as daily practice,’ ‘increased consideration in family relationships through meditation as daily practice,’ ‘changes in ways of responding to conflict situations through meditation as daily practice,’ and ‘actions becoming more relaxed through meditation as daily practice.’ This study has significance in confirming that meditation is not an activity limited to specific spaces or times, but rather a sustainable practice that can be implemented in daily life.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "36",
+      "issue": "",
+      "start_page": "1",
+      "end_page": "13",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=01dcc6086a8334436aae8a972f9116fb",
+      "kci_url": "",
+      "keywords_kr": [
+        "일상",
+        "수행",
+        "명상",
+        "경험",
+        "질적 연구"
+      ],
+      "keywords_en": [
+        "daily life",
+        "practice",
+        "meditation",
+        "experience",
+        "qualitative research"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "01dcc6086a8334436aae8a972f9116fb"
+    },
+    {
+      "article_id": "01dcc6086a833443e9810257f7042666",
+      "title_kr": "불교 명상 프로그램의 효과성에 대한 메타분석 연구",
+      "title_en": "A meta-analysis on the effectiveness of Buddhist meditation intervention programs",
+      "authors": [
+        {
+          "name": "정귀연",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 불교 명상 중재 프로그램의 효과성을 체계적으로 평가하기 위해 메타분석을 수행하였다. 2024년부터 2025년까지 KCI 등재 및 등재후보지에 게재된 연구물 138편, 총 참여자 6,366명을 분석 대상으로 하였다. 연구 간 이질성을 고려하여 무선효과모형을 적용하였으며, 효과크기 지표로는 Hedges’ g를 사용하였다.연구 결과, 전체 효과크기는 Hedges’ g = .250(95% CI: .040–.460, p < .05)으로 작은–중간 수준의 통계적으로 유의한 효과가 확인되었 다. 이질성 검증 결과 I2 = 93.0%로 매우 높은 수준이었으며, Egger’s Test에서 출판편향은 발견되지 않았다(t = 1.886, p > .05).중재유형별 하위집단 분석에서 MBSR/MBCT(g = .766, p < .001)와 기타 마음챙김 명상(g = .716, p < .01)이 가장 높은 효과크기를 보였 으며, 자비명상(g = .115)과 상담치료 명상(g = .013)은 통계적으로 유의하지 않았다. 참여자 연령급별로는 유아/아동(g = 3.364, p < .001) 과 성인(g = 1.360, p < .05) 집단에서 통계적으로 유의한 효과가 확인되었으며, 프로그램 기간별로는 12회기 초과의 장기 프로그램(g = .776, p < .05)에서만 통계적으로 유의한 효과가 나타났다.결과변인별 분석에서는 자기자비(g = 1.641, p < .05)와 마음챙김(g = 1.132, p < .001)이 가장 큰 효과크기를 보였으며, 우울(g = –.910, p < .01), 지각된 스트레스(g = –.774, p < .01), 불안(g = –.727, p < .01), 정서조절곤란(g = –.582, p < .05) 등 부정적 심리 요인도 모두 유 의하게 감소하였다. 또한 문제해결역량(g = 1.100, p < .001)과 자기관리역량(g = .721, p < .01)이라는 실천적 역량 변인에서도 유의한 효과 가 확인되었다.이러한 결과는 불교 명상 프로그램이 긍정적 심리 자산의 함양, 부정적 심리 요인의 감소, 실천적 역량의 강화를 포괄하는 다차원적 치료적 효과를 지니고 있음을 보여주며, 포스트 코로나 시대의 정신건강 증진을 위한 과학적 근거를 갖춘 보완적 중재 방안으로서의 가치를 실증적 으로 확인하였다. 본 연구는 임상 및 교육 현장에 적용 가능한 실천적 시사점을 제공하고, 동서양 심리학 간의 학제적 융합을 촉진하는 데 기 여하고자 하였다.",
+      "abstract_en": "This study conducted a meta-analysis to systematically evaluate the effectiveness of Buddhist meditation intervention programs on psychological health outcomes. A total of 138 studies published between 2024 and 2025, listed in KCI-indexed or KCI-candidate journals, involving 6,366 participants were analyzed. Effect sizes were computed using Hedges’ g under a random-effects model to account for high heterogeneity among studies. The overall effect size was g = .250 (95% CI: .040–.460, p < .05), indicating a small-to-medium positive effect. Heterogeneity was substantial (I² = 93.0%, Q = 1949.88, p < .001), and Egger’s test confirmed no significant publication bias (t = 1.886, p > .05). Subgroup analyses by intervention type revealed that MBSR/MBCT programs yielded the highest effect size (g = .766, p < .001), followed by other mindfulness-based programs (g = .716, p < .01) and yoga meditation (g = .726, p > .05). Compassion meditation (g = .115) and counseling-therapy meditation (g = .013) did not reach statistical significance. Regarding participant age groups, the effect was most pronounced among children (g = 3.364, p < .001) and adults (g = 1.360, p < .05), while adolescents and young adults showed non-significant positive trends. Analysis by program duration indicated that long-term programs exceeding 12 sessions demonstrated the largest and only statistically significant effect (g = .776, p < .05), suggesting that sustained practice is essential for meaningful psychological change. Outcome-specific analyses showed that Buddhist meditation programs were highly effective in enhancing positive psychological factors, including self-compassion (g = 1.641, p < .05), mindfulness (g = 1.132, p < .001), life satisfaction (g = .899, p < .001), and problem-solving competency (g = 1.100, p < .001). Significant reductions were also observed in negative psychological indicators such as depression (g = –.910, p < .01), perceived stress (g = –.774, p < .01), anxiety (g = –.727, p < .01), and emotion dysregulation (g = –.582, p < .05). These findings demonstrate that Buddhist meditation programs possess multidimensional therapeutic effects encompassing the cultivation of positive psychological assets, the alleviation of psychological distress, and the enhancement of practical life competencies. The results provide empirical evidence supporting Buddhist meditation as a viable complementary intervention for mental health promotion in the post-COVID era and offer practical implications for designing tailored programs in clinical and educational settings.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "36",
+      "issue": "",
+      "start_page": "15",
+      "end_page": "29",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=01dcc6086a833443e9810257f7042666",
+      "kci_url": "",
+      "keywords_kr": [
+        "불교 명상",
+        "프로그램 효과성",
+        "메타분석",
+        "효과크기",
+        "마음챙김",
+        "심리적 건강"
+      ],
+      "keywords_en": [
+        "Buddhist meditation",
+        "Meta-analysis",
+        "Effect size",
+        "Mindfulness",
+        "Psychological health"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "01dcc6086a833443e9810257f7042666"
+    },
+    {
+      "article_id": "01dcc6086a8334437f7a54760bb41745",
+      "title_kr": "AI 및 XR 기반 디지털 명상 서비스의 다각적 현황 분석: 학술 문헌, 시장 동향 및 온라인 대중 인식을 중심으로",
+      "title_en": "A multi-perspective analysis of AI- and XR-based digital meditation services: Focusing on academic literature, market trends, and online public perception",
+      "authors": [
+        {
+          "name": "최우현",
+          "affiliation": "LG전자 알고리즘 개발팀)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "박상욱",
+          "affiliation": "강원대학교 전자반도체공학부",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "본 연구는 인공지능(AI) 및 확장현실(XR) 기술이 전통적 명상 서비스에 통합되는 양상을 학술, 시장, 대중 인식의 차원에서 다각적으로 분 석하고자 하였다. 연구방법은 PCC(Population, Concept, Context) 프레임워크에 기반한 5단계 주제범위 문헌고찰(2017–2026)을 수행 하였으며, 글로벌 시장 동향에 대한 환경 스캐닝과 네트워크 분석 기반의 빅데이터 소셜 리스닝을 병행하였다. 그 결과 AI 개입 수준은 수동적 전달(Passive Delivery), 반응적 적응(Reactive Adaptation), 자율적 생성(Autonomous Generation)의 세 단계로 범주화되었으 며, 주요 시장 특성과 함께 기술적 기대감, 사용자 저항을 포함한 대중 담론의 핵심 주제가 확인되었다. 결론적으로, 본 연구는 과학적 근거와 시장성을 축으로 한 4사분면 격차 분석 모델을 제안하여 이론, 산업, 대중 인식 간의 불일치를 시각화하였으며, 이를 바탕으로 디지털 명상 서 비스의 향후 발전 방향과 윤리적 고려사항을 제시하였다.",
+      "abstract_en": "Purpose: This study conducts a multi-perspective analysis of the integration of artificial intelligence (AI) and extended reality (XR) into traditional meditation services across academic, market, and public dimensions. Methods: A five-stage scoping review (2017–2026) was performed using the PCC framework, complemented by environmental scanning of global market trends and big data social listening via network analysis. Results: The research categorized AI interventions into three levels—Passive Delivery, Reactive Adaptation, and Autonomous Generation—while identifying key market specifications and public discourse themes, including technological expectations and user resistance. Conclusion: A four-quadrant gap analysis model based on scientific evidence and marketability was proposed to visualize discrepancies among theory, industry, and perception, providing strategic directions and ethical considerations for the future development of digital meditation services.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "36",
+      "issue": "",
+      "start_page": "31",
+      "end_page": "44",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=01dcc6086a8334437f7a54760bb41745",
+      "kci_url": "",
+      "keywords_kr": [
+        "인공지능(AI)",
+        "확장현실(XR)",
+        "디지털 명상",
+        "시장 분석",
+        "온라인 담론"
+      ],
+      "keywords_en": [
+        "Artificial Intelligence (AI)",
+        "Extended Reality (XR)",
+        "Digital Meditation",
+        "Market Analysis",
+        "Online Discourse"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "01dcc6086a8334437f7a54760bb41745"
+    },
+    {
+      "article_id": "01dcc6086a833443d18150b21a227875",
+      "title_kr": "초기불교의 자발성 존중 가치:『앙굿따라 니까야』를 통한 자기결정과 자기실현",
+      "title_en": "Respect for spontaneity in early Buddhism: Self-determination and self-actualization through the Aṅguttara Nikāya",
+      "authors": [
+        {
+          "name": "안경훈(경국)",
+          "affiliation": "봉은사",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "현대사회는디지털정보의급격한확산속에서정보과부하,자아상실,주체성약화와같은문제에직면하고있다.이에따라개인의자율 성과 자발적 결정의 중요성이 더욱 부각되고 있으며, 이는 자발성 존중을 통한 자기결정권을 존중하는 사회복지의 기본 가치와도 깊이 연결 된다. 본 연구는 초기불교 경전인 『앙굿따라 니까야』에 내재된 자발성 존중의 가치를 분석함으로써 불교사회복지적 함의를 고찰하고자 한 다. 연구는 자기결정과 자기실현이라는 두 범주를 중심으로 전개되었다. 자기결정은 자율적 결정과 사성제를 규칙으로 한 결정으로 구분되 며, 이는 인간이 외부의 강제에 의존하지 않고 스스로 문제를 인식하고 선택하며 실천하는 과정을 보여준다. 자기실현은 37조도품을 통합적 으로 분석하여, 수행자가 잠재된 능력을 계발하고 궁극적 해탈에 이르는 길로 나아가는 과정을 설명한다. 이를 통해 『앙굿따라 니까야』속 의 붓다의 가르침이 인간의 자유의지와 자발성을 존중하며 현대 사회복지에서 강조하는 자기결정과 자기실현의 가치와 긴밀히 맞닿아 있음 을 확인하였다. 본 연구는 초기불교 사상이 디지털 시대 개인의 주체성과 자발성 회복을 이끌어갈 사회복지 실천의 방향을 제시한다는 점에 서 의의가 있다.",
+      "abstract_en": "Modern society faces challenges such as information overload and loss of autonomy due to rapid digitalization. Consequently, the importance of individual autonomy and voluntary decision-making has grown, aligning with the social welfare value of respecting self-determination. This study examines the implications for Buddhist social welfare by analyzing the value of voluntariness in the Aṅguttara Nikāya.The research focuses on two dimensions: self-determination and self-actualization. Self-determination is analyzed through autonomous decision-making and the Four Noble Truths, demonstrating how individuals recognize problems and act independently. Self-actualization is explored through an integrative analysis of the Thirty-seven Aids to Enlightenment (bodhipakkhiyā dhammā), which describes the process of cultivating latent potential toward liberation.The findings confirm that the Aṅguttara Nikāya respects human free will, closely aligning with the values of self-determination and self-actualization in contemporary social welfare. This study suggests a direction for social welfare practice to restore individual autonomy in the digital age, grounded in early Buddhist thought.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "36",
+      "issue": "",
+      "start_page": "45",
+      "end_page": "59",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=01dcc6086a833443d18150b21a227875",
+      "kci_url": "",
+      "keywords_kr": [
+        "앙굿따라니까야",
+        "자발성",
+        "자기결정",
+        "자기실현",
+        "사성제",
+        "37조도품"
+      ],
+      "keywords_en": [
+        "Aṅguttara Nikāya",
+        "voluntariness",
+        "self-determination",
+        "self-actualization",
+        "Four Noble Truths",
+        "Thirty-seven Factors of Enlightenment"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "01dcc6086a833443d18150b21a227875"
+    },
+    {
+      "article_id": "85f53da0c77b71c47ecd42904f0c5d65",
+      "title_kr": "소공경(MN 121)의 동요(daratha) 서술 구조 분석: 명상 부작용 이해를 위한 경전적 근거 고찰",
+      "title_en": "Structural analysis of daratha narration in the Cūḷasuññata Sutta (MN 121): Scriptural foundations for understanding meditation adverse effects",
+      "authors": [
+        {
+          "name": "하대용",
+          "affiliation": "동방문화대학원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 소공경(Cūḷasuññata Sutta, MN 121)에 반복 출현하는 daratha(동요) 서술 구조를 분석하고, 이를 바탕으로 현대 명상 부작 용 담론을 경전적 관점에서 새롭게 재프레이밍하고자 한다. 소공경은 아홉 단계에 걸친 지각(saññā)의 전환 과정에서 “다만 이 정도의 동요 가 있다”라는 정형구를 통해 수행의 진전과 동요의 잔존을 동시에 조명한다.본고는 이 정형구의 문법적 구조와 변이 과정을 고찰하여 동요 서술의 3중 차원을 도출하였다. 첫째, 지각적 차원에서는 이전 동요의 투명 화와 새로운 동요의 잔존이 교차하는 이중 구조가 확인된다. 둘째, 존재론적 차원에서는 지각 대상에 의한 동요가 사라진 후 신체와 생명 조건 에 기반한 근원적 동요가 전경화되는 차원 전환이 일어난다. 셋째, 형성된 것(abhisaṅkhata)에 대한 통찰과 함께 관찰 서식 자체가 해체 및 변형되는 단계에 이른다.이러한 3중 구조를 현대 임상 사례 및 선행 연구와 대조한 결과, 경전은 동요를 제거(pajahati)의 대상이 아닌 관찰과 안다(pajānāti)의 대상으로 서술하고 있음이 확인된다. 이는 명상 부작용을 병리적 현상이 아닌 ‘공(suññā)으로의 이행에 수반되는 구조적 잔여 동요’로 재이 해할 수 있는 가능성을 제시한다. 나아가 본 연구는 계(sīla)에 기반한 관계적 안전망이 동요를 직시하기 위한 구조적 선행 조건으로 기능할 수 있음을 논의함으로써, 기법 중심에서 윤리적 토대 중심으로 명상 지도의 패러다임이 전환되어야 함을 간접적으로 시사한다.",
+      "abstract_en": "This study explores the narrative structure of daratha (agitation) as presented in the Cūḷasuññata Sutta (MN 121) to provide a scriptural foundation for reframing contemporary discourses on meditation adverse effects. The Sutta consistently employs a specific formula- “there is only this measure of agitation”- across nine stages of perceptual (saññā) transition.Through a structural and sequential analysis of this formula, this research identifies three distinct dimensions of daratha: (1) Perceptual daratha, characterized by a dual structure where previous agitation becomes transparent while new agitation remains; (2) Ontological daratha, a dimensional shift where agitation contingent upon the body and life-conditions emerges after perceptual agitations have ceased; and (3) Dissolution of the formula, where the conventional framework of observation is deconstructed through insight into the conditioned (abhisaṅkhata).By correlating this three- dimensional structure with clinical vignettes and the taxonomy of challenging meditation experiences (Lindahl et al., 2017), this study suggests that the Cūḷasuññata Sutta frames agitation not as an element to be eliminated (pajahati) but as an object to be discerned (pajānāti). Consequently, meditation “adverse effects” are reframed as “structural residual agitation accompanying the transition toward emptiness (suññā).” Furthermore, the study suggests that sīla-based relational safety is not merely an ethical guideline but a structural prerequisite for the stable observation of daratha, advocating for a shift in meditation guidance from technique-centered interventions to those rooted in ethical foundations.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "36",
+      "issue": "",
+      "start_page": "61",
+      "end_page": "74",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=85f53da0c77b71c47ecd42904f0c5d65",
+      "kci_url": "",
+      "keywords_kr": [
+        "suññā",
+        "명상 부작용",
+        "공(suññā)"
+      ],
+      "keywords_en": [
+        "daratha",
+        "pajānāti",
+        "Cūḷasuññata Sutta (MN 121)",
+        "meditation adverse effects",
+        "daratha(動搖)",
+        "pajānāti",
+        "소공경(MN 121)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "85f53da0c77b71c47ecd42904f0c5d65"
+    },
+    {
+      "article_id": "85f53da0c77b71c4b36097776a77e665",
+      "title_kr": "오공(五共) 사상 기반 생성형 AI 명상 프로그램을 통한 중년 여성의 자기 및 관계 인식 변화 경험: 다중 사례 분석",
+      "title_en": "Experiences of changes in self and relationship perception among middle-aged women through an Ogong philosophy-based generative AI meditation program: A multiple case study analysis",
+      "authors": [
+        {
+          "name": "김준형",
+          "affiliation": "한마음과학원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 디지털 전환기에 중년 여성이 겪는 존재론적 불안과 관계적 단절에 대한 대안으로 대행선사의 한마음 오공(五共) 사상에 기반한 생성형 AI 활용 심상유도명상 프로그램의 경험 양상과 의미를 탐구하였다. 이를 위해 중년 여성 6명을 대상으로 8회기 프로그램을 실시하였으며, 질적 다중사례연구 방법을 통해 변화의 의미구조를 분석하였다. 연구 결과는 다음과 같다. 첫째, 생성형 AI 이미지는 내면 심상을 가시화하는 매개체로서 무의식의 객관화와 자기 인식을 촉진하였으며, 이는 자기 탐색의 토대가 되었다. 둘째, 소모적 자아 동일시에서 탈피하여 주체적 자기인식을 확장하는 과정은 오공 사상의 공생(共生) 및 공체(共體)의 가치와 맞닿아 있음을 확인하였다. 셋째, 타자에 대한 수용성과 상호주관성이 심화되는 양상은 공심(共心)과 공용(共用)을 통해 폐쇄적 관계 구조가 상호연결적 구조로 재구성되는 과정으로 해석되었다. 넷째, 존재적 연결성에 기반한 생명 에너지의 순환과 실천 의지의 발현은 공체(共體)와 공식(共⻝)의 가치가 내면화되어 전인적 주체성 확립으로 나아가는 경로를 보여주었다. 본 연구는 전통사상과 첨단기술을 융합하여 현대적 상담 및 명상실천모델의 활용가능성을 탐색하고, 관련 분야의 학술적·실천적 논의의 확장에 기여하고자 하였다.",
+      "abstract_en": "This study explores the perceived therapeutic meanings and relational changes associated with a generative AI-integrated guided imagery meditation program based on Seon Master Daehaeng’s Hanmaum Ogong philosophy. Designed for middle-aged women facing existential anxiety and relational disconnection, this research employs a multiple-case study of six participants over eight sessions to examine their transformational experiences. The results are as follows: First, generative AI facilitates the visualization and objectification of the unconscious. Second, the shift toward autonomous self-perception reflects the values of Gongsaeng and Gongche. Third, intersubjective receptivity reconfigures relational patterns via Gongsim and Gongyong. Fourth, the circulation of life energy, based on existential connectivity and practical will, reveals a pathway to holistic subjectivity, internalizing the values of Gongche and Gongsik. By synthesizing traditional philosophy with cutting-edge technology, this research proposes a modern framework for counseling and meditation, broadening both academic and practical discourse.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "36",
+      "issue": "",
+      "start_page": "75",
+      "end_page": "92",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=85f53da0c77b71c4b36097776a77e665",
+      "kci_url": "",
+      "keywords_kr": [
+        "오공(五共) 사상",
+        "생성형 AI",
+        "심상유도명상",
+        "중년 여성",
+        "다중 사례 분석"
+      ],
+      "keywords_en": [
+        "Ogong philosophy",
+        "generative AI",
+        "guided imagery meditation",
+        "middle-aged women",
+        "multiple case study analysis"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "85f53da0c77b71c4b36097776a77e665"
+    },
+    {
+      "article_id": "85f53da0c77b71c44884a65323211ff0",
+      "title_kr": "국내 자비 증진 프로그램에 관한 동향분석: 학회지 논문을 중심으로(2016-2025)",
+      "title_en": "Trend analysis of domestic compassion promotion programs: Focusing on journal articles (2016-2025)",
+      "authors": [
+        {
+          "name": "윤수진",
+          "affiliation": "인하대학교 인문융합치료학과)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "송인실",
+          "affiliation": "인하대학교 인문융합치료학과)\n                            \n                                    ;",
+          "order": "2"
+        },
+        {
+          "name": "정화정",
+          "affiliation": "인하대학교 인문융합치료학과",
+          "order": "3"
+        }
+      ],
+      "abstract_kr": "본 연구는 2016년부터 2025년까지 최근 10년간 국내 학회지에 게재된 자비 증진 프로그램 연구 64편을 대상으로, 연구동향과 자비 개입 의 핵심 메커니즘을 통합적으로 규명하는 데 목적이 있다. 기본 동향 분석 결과, 자비 증진 프로그램 연구는 팬데믹 이후 점진적으로 증가하였 으며 심리·교육 분야의 실증연구가 중심을 이루었다. 연구대상은 성인과 대학생에 집중되었으며 연구방법은 양적연구가 주를 이루었다. 자 비 개입의 핵심 메커니즘 분석 결과, 자기자비 및 자기 관련 변인의 변화가 가장 높은 비중을 차지하였고, 정서·정신건강, 삶의 질, 관계·사회 적 기능으로 효과가 확장되는 경향이 나타났다. 또한 자기자비 이론, MSC, CFT와 같은 직접적 접근이 주류를 이루는 가운데, 마음챙김과 수 용 기반 접근이 보완적으로 작용하는 이중 구조가 확인되었다. 프로그램은 명상·마음챙김, 글쓰기, 집단상담을 중심으로 구성되었으며 고통 에 대한 비판단적 인식, 자기비판 완화, 자기친절의 형성을 핵심 메커니즘으로 공유하였다. 본 연구는 국내 자비 증진 프로그램의 연구 지형 과 자비 개입의 핵심 작동 구조를 체계화함으로써, 향후 자비 기반 개입 설계와 적용을 위한 기초 자료를 제공하였다는 것에 의의를 지닌다.",
+      "abstract_en": "This study examined 64 compassion cultivation program studies published in Korean academic journals from 2016 to 2025 to identify research trends, program characteristics, and core mechanisms of compassion-based interventions. Findings showed that research has expanded since the COVID-19 pandemic, with a predominance of quantitative studies in psychology, counseling, and education, mainly targeting adults and university students. Programs primarily aimed to enhance self-compassion and related self-constructs, with effects extending to emotional and mental health, quality of life, and relational functioning. Most programs were based on direct compassion training approaches such as MSC and CFT, combined with mindfulness- and acceptance-based approaches, and commonly utilized meditation, writing, and group counseling. A shared phased structure was identified, involving recognition of suffering, reduction of self-criticism, cultivation of self-kindness, and integration into daily life. Compassion-based interventions operated by reconstructing the relationship with the self, shifting emotion regulation from threat-based to safety-based systems, and reinforcing compassionate responses through repeated practice, extending from self to others. These findings provide a systematic understanding of compassion cultivation programs and offer foundational implications for future intervention design and application.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "36",
+      "issue": "",
+      "start_page": "93",
+      "end_page": "105",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=85f53da0c77b71c44884a65323211ff0",
+      "kci_url": "",
+      "keywords_kr": [
+        "자비 증진 프로그램",
+        "동향분석",
+        "자기친절",
+        "마음챙김",
+        "보편적 인간성"
+      ],
+      "keywords_en": [
+        "compassion promotion program",
+        "trend analysis",
+        "self-kindness",
+        "mindfulness",
+        "common humanity"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "85f53da0c77b71c44884a65323211ff0"
+    },
+    {
+      "article_id": "8bcd1ab500a8b26eb36097776a77e665",
+      "title_kr": "언어네트워크 분석을 통한 대학생의 캠퍼스 산책 경험의 심리적 의미 구조 탐색",
+      "title_en": "Exploring the psychological meaning structure of campus walking experiences among university students through language network analysis",
+      "authors": [
+        {
+          "name": "이영림(범우)",
+          "affiliation": "동국대학교 WISE캠퍼스 명상심리상담학과",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 언어네트워크 분석을 활용하여 대학생의 캠퍼스 산책 경험이 지니는 심리적 의미 구조를 탐색하였다. 수집된 텍스트 자료는 Python을 활용하여 전처리한 후, 단어 빈도 분석과 공출현 네트워크를 구축하였다. 이후 중심성 분석과 CONCOR 분석을 실시하여 네트워 크 내 의미 군집을 도출하였다.분석 결과, 네 개의 군집이 확인되었으며, 각각 ‘마음돌봄’, ‘신체기반 회복’, ‘감각일상’, ‘자연교감’으로 유형화되었다. 중심성 분석에서는 ‘걷기’가 가장 높은 중심성을 나타내며 네트워크의 중심 노드로 기능하였고, ‘마음’, ‘자연’, ‘관계’ 역시 매개 중심성 상위에 위치하였다. 전체 적으로캠퍼스산책경험은신체활동을중심으로정서적의미와자연관련의미가결합된구조로나타났다.이러한결과는산책이단순한이 동 행위를 넘어 신체적, 정서적, 환경적 요소가 상호 연결된 복합적 경험으로 인식되고 있음을 시사한다. 본 연구는 대학생의 캠퍼스 산책 경 험을 대상으로 텍스트 기반 언어네트워크 분석을 적용하여 의미 구조를 정량적으로 제시하였다는 점에서 의의를 지닌다.",
+      "abstract_en": "This study explored the psychological meaning structure of campus walking experiences among university students using language network analysis. The collected textual data were preprocessed using Python, followed by word frequency analysis and the construction of a co-occurrence network. Centrality analysis and CONCOR analysis were conducted to identify semantic clusters within the network. As a result, four clusters were identified and labeled as ‘Mind Care’, ‘Body-Based Recovery’, ‘Sensory Everyday Experience’, and ‘Nature Interaction’. In the centrality analysis, walking exhibited the highest centrality and functioned as the central node in the network, while mind, nature, and companionship also ranked among the top nodes in terms of betweenness centrality. Overall, walking experiences were structured into four domains in which emotional and nature-related meanings were organized around physical activity. These findings suggest that walking is perceived not merely as a movement activity but as a complex experience in which physical, emotional, and environmental elements are interconnected. This study contributes to the literature by quantitatively presenting the semantic network structure of walking experiences through text-based language network analysis.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "36",
+      "issue": "",
+      "start_page": "107",
+      "end_page": "117",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8bcd1ab500a8b26eb36097776a77e665",
+      "kci_url": "",
+      "keywords_kr": [
+        "캠퍼스 산책 경험",
+        "심리적 회복",
+        "정서 경험",
+        "자연교감",
+        "의미 구조"
+      ],
+      "keywords_en": [
+        "campus walking experiences",
+        "psychological recovery",
+        "emotional experience",
+        "nature interaction",
+        "meaning structure Received: Revised: Accepted: March 26",
+        "2026 April 23",
+        "2026 April 29",
+        "2026 Copyright: c 2026 Meditation based Psychological Counseling Association."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "8bcd1ab500a8b26eb36097776a77e665"
+    },
+    {
+      "article_id": "8bcd1ab500a8b26e7ecd42904f0c5d65",
+      "title_kr": "RHS 명상심리상담 경험에 대한 내러티브 탐구",
+      "title_en": "A narrative inquiry on RHS (Recovering the Human Spirit) meditation counseling experiences",
+      "authors": [
+        {
+          "name": "송민서",
+          "affiliation": "동국대학교 불교대학원 명상심리상담학과)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "송영숙(서광)",
+          "affiliation": "-",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "본 연구는 중년 성인을 대상으로 RHS(Recovering the Human Spirit) 명상기반 심리상담 경험을 내러티브 탐구를 통해 탐색하고, 자 기인식 변화의 과정과 의미를 이해하는 데 목적이 있다. 이를 위해 Clandinin과 Connelly의 내러티브 탐구 방법을 적용하였으며, 중년 참 여자 3명을 대상으로 RHS 명상기반 심리상담 10회기를 실시하였다. 자료는 시간성(temporality), 사회성(sociality), 장소성(place)의 세 차원 탐구공간을 중심으로 분석하였다. 연구 결과, 시간성 차원에서는 정서 회피에서 정서 자각으로, 그리고 ‘있는 그대로 바라보기’로 나아 가는 경험의 흐름이 나타났다. 사회성 차원에서는 상담 관계 속에서 안전감과 이완을 경험하고, 알아차림이 확장되는 양상이 드러났다. 장소 성 차원에서는 안내자의 존재와 안전한 공간의 형성, 그리고 일상 속으로 확장되는 마음챙김 경험이 확인되었다. 이러한 과정을 통해 참여자 들은 자신의 감정과 경험을 새롭게 이해하고, 진정한 자기와의 관계를 재구성해 나가는 모습을 보였다. 본 연구는 RHS 명상기반 심리상담 경험이 중년기 성인의 삶 속에서 어떻게 의미화되고 이해되는지를 드러내며, 자기인식 변화의 과정을 해석적으로 제시한다. 또한 본 연구는 특정 개입의 효과를 검증하기보다는 참여자의 경험을 통해 드러나는 변화의 의미를 이해하는 데 초점을 두었다는 점에서, 개인상담 장면에 서 RHS 모델의 질적 적용 가능성을 제시하고 중년기 발달 과제를 다루는 상담 및 교육적 논의에 기초 자료를 제공한다.",
+      "abstract_en": "This study aimed to explore the experiences of RHS (Recovering the Human Spirit) meditation-based psychological counseling among middle-aged adults through narrative inquiry and to understand the process and meaning of changes in self-awareness. Clandinin and Connelly’s narrative inquiry methodology was employed, and ten sessions of RHS meditation-based psychological counseling were conducted with three middle-aged participants. The data were analyzed within a three-dimensional inquiry space: temporality, sociality, and place. The findings revealed a progression in the temporality dimension from emotional avoidance to emotional awareness, and further toward observing experiences as they are. In the sociality dimension, participants experienced a sense of safety and relaxation within the counseling relationship, along with an expansion of awareness. In the place dimension, the presence of a guide, the formation of a safe space, and the extension of mindfulness into everyday life were identified. Through these processes, participants came to understand their emotions and experiences in new ways and reconstructed their relationship with their authentic selves. This study illuminates how experiences of RHS meditation-based psychological counseling are meaningfully constructed and understood in the lives of middle-aged adults, and interpretively presents the process of changes in self-awareness. Rather than verifying the effectiveness of a specific intervention, this study focuses on understanding the meaning of change as revealed through participants’ experiences. The findings suggest the qualitative applicability of the RHS model in individual counseling settings and provide foundational insights for counseling and educational discussions addressing midlife developmental tasks.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "36",
+      "issue": "",
+      "start_page": "119",
+      "end_page": "138",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8bcd1ab500a8b26e7ecd42904f0c5d65",
+      "kci_url": "",
+      "keywords_kr": [
+        "RHS 모델",
+        "명상기반 심리상담",
+        "중년기",
+        "유식학",
+        "내러티브 탐구"
+      ],
+      "keywords_en": [
+        "RHS model",
+        "meditation-based psychological counseling",
+        "middle adulthood",
+        "Yogācāra psychology",
+        "narrative inquiry"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "8bcd1ab500a8b26e7ecd42904f0c5d65"
+    },
+    {
+      "article_id": "36f9ae2a41ab23727f7a54760bb41745",
+      "title_kr": "대학생의 사회부과적 완벽주의가 중도탈락의도에 미치는 영향: 학업소진을 통한 그릿의 조절된 매개효과",
+      "title_en": "The effect of socially prescribed perfectionism on dropout intention among university students: The moderated mediation effect of grit through academic burnout",
+      "authors": [
+        {
+          "name": "강요한",
+          "affiliation": "중부대학교 대학혁신지원사업단",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 대학생을 대상으로 사회부과적 완벽주의가 학업소진을 매개로 중도탈락의도에 미치는 영향을 확인하고, 이 과정에서 그릿의 조 절된 매개효과를 검증하고자 하였다. 이를 위해 대학생을 대상으로 사회부과적 완벽주의, 학업소진, 중도탈락의도 및 그릿을 측정하는 설문 조사를 실시하였으며, 수집된 자료는 IBM SPSS Statistics 23과 PROCESS macro를 활용하여 분석하였다. 자료 분석을 위해 기술통계분 석, 신뢰도분석 및 상관분석을 실시하였으며, 매개효과 검증을 위해 PROCESS macro Model 4를 적용하고 부트스트래핑 방법을 통해 간 접효과의 유의성을 확인하였다. 또한 사회부과적 완벽주의와 학업소진 간 관계에서 그릿의 조절효과와 조절된 매개효과를 검증하기 위해 PROCESS macro Model 7을 적용하였다.연구 결과, 사회부과적 완벽주의는 학업소진 및 중도탈락의도와 정적 상관을 보였으며, 그릿은 이들 변인과 부적 상관을 나타냈다. 또한 사회부과적 완벽주의는 학업소진을 통해 중도탈락의도에 간접적인 영향을 미치는 것으로 나타나 학업소진의 매개효과가 확인되었다. 더 나 아가 사회부과적 완벽주의와 학업소진 간 관계에서 그릿의 조절효과가 유의하게 나타났으며, 사회부과적 완벽주의가 학업소진을 통해 중도 탈락의도에 미치는 간접효과 역시 그릿 수준에 따라 달라지는 조절된 매개효과가 확인되었다. 특히 그릿 수준이 높은 경우 사회부과적 완벽 주의가 학업소진을 통해 중도탈락의도로 이어지는 간접효과가 유의한 것으로 나타났다.본 연구 결과는 사회부과적 완벽주의가 대학생의 중도탈락의도에 영향을 미치는 과정에서 학업소진이 중요한 심리적 매개요인으로 작용 함을 확인하였으며, 개인의 목표 지속 성향으로 알려진 그릿이 특정 상황에서는 심리적 부담을 강화하는 요인으로 작용할 수 있음을 시사한 다. 이는 대학생의 학업 적응을 이해하는 데 있어 완벽주의 성향과 심리적 자원의 상호작용을 고려할 필요성을 제시하며, 대학생의 학업소진 예방과 학업 지속을 지원하기 위한 심리적 개입 방안 마련에 기초자료를 제공한다. 마지막으로 본 연구 결과를 바탕으로 연구의 제한점과 후 속 연구를 위한 제언을 논의하였다.",
+      "abstract_en": "This study examined the effect of socially prescribed perfectionism on dropout intention among university students through the mediating role of academic burnout and investigated the moderated mediation effect of grit in this relationship. A survey was conducted with university students to measure socially prescribed perfectionism, academic burnout, dropout intention, and grit. The collected data were analyzed using IBM SPSS Statistics 23 and the PROCESS macro. Descriptive statistics, reliability analysis, and correlation analysis were conducted, and PROCESS Macro Models 4 and 7 were applied to test the mediating effect of academic burnout and the moderated mediation effect of grit.The results showed that socially prescribed perfectionism was positively correlated with academic burnout and dropout intention, whereas grit was negatively correlated with these variables. Academic burnout mediated the relationship between socially prescribed perfectionism and dropout intention. In addition, grit moderated the relationship between socially prescribed perfectionism and academic burnout, and the indirect effect of socially prescribed perfectionism on dropout intention through academic burnout varied depending on the level of grit, indicating a significant moderated mediation effect.These findings suggest that academic burnout plays an important mediating role in the relationship between socially prescribed perfectionism and dropout intention among university students. Furthermore, grit, typically considered a positive personal trait, may intensify psychological burden under certain conditions. This study provides implications for understanding university students’ academic adjustment and offers basic data for developing psychological interventions to prevent academic burnout and support academic persistence.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "36",
+      "issue": "",
+      "start_page": "139",
+      "end_page": "150",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=36f9ae2a41ab23727f7a54760bb41745",
+      "kci_url": "",
+      "keywords_kr": [
+        "사회부과적 완벽주의",
+        "학업소진",
+        "중도탈락의도",
+        "그릿",
+        "조절된 매개효과"
+      ],
+      "keywords_en": [
+        "socially prescribed perfectionism",
+        "academic burnout",
+        "dropout intention",
+        "grit",
+        "moderated mediation effect"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "36f9ae2a41ab23727f7a54760bb41745"
     }
   ],
   "by_year": {
