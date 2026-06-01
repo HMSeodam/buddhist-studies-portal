@@ -70,9 +70,9 @@ jobs:
           JOURNAL="${{ github.event.inputs.journal || '' }}"
           cd collector
           if [ -n "$JOURNAL" ]; then
-            python riss_updater.py --depth "$DEPTH" --journal $JOURNAL
+            xvfb-run --auto-servernum --server-args='-screen 0 1280x900x24' python riss_updater.py --depth "$DEPTH" --humanize --no-headless --journal $JOURNAL
           else
-            python riss_updater.py --depth "$DEPTH"
+            xvfb-run --auto-servernum --server-args='-screen 0 1280x900x24' python riss_updater.py --depth "$DEPTH" --humanize --no-headless
           fi
         env:
           DISPLAY: ""
