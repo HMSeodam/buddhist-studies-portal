@@ -1,21 +1,29 @@
-name: 논문 데이터 업데이트
+name: 논문 데이터 업데이트 (요일별 분산)
 
 on:
   schedule:
-    # ── RISS: 매주 월요일 오전 9시 KST (UTC 00:00)
-    - cron: "0 0 * * 1"
-    # ── IBK: 매월 1일 오전 9시 KST (UTC 00:00) — 연 2회 발행이므로 월 1회 체크로 충분
-    - cron: "0 0 1 * *"
+    - cron: "0 13 * * 1"   # 월요일 22:00 KST
+    - cron: "0 12 * * 2"   # 화요일 21:00 KST
+    - cron: "0 13 * * 3"   # 수요일 22:00 KST
+    - cron: "0 11 * * 4"   # 목요일 20:00 KST
+    - cron: "0 13 * * 5"   # 금요일 22:00 KST
+    - cron: "0 12 * * 6"   # 토요일 21:00 KST
+    - cron: "0 11 * * 0"   # 일요일 20:00 KST (전체 점검)
+    - cron: "0 13 1 * *"   # 매월 1일 22:00 KST (IBK)
   workflow_dispatch:
     inputs:
+      day:
+        description: "요일 지정 (mon/tue/wed/thu/fri/sat/sun/all)"
+        required: false
+        default: ""
       target:
-        description: "업데이트 대상 (riss / ibk / all)"
+        description: "실행 대상 (riss/ibk/all)"
         required: false
-        default: "all"
+        default: "riss"
       depth:
-        description: "확인할 최신 호수 개수"
+        description: "RISS 확인할 최신 호수 개수 (1 또는 2, 기본: 요일 설정 따름)"
         required: false
-        default: "2"
+        default: ""
 
 jobs:
   update:
@@ -24,11 +32,9 @@ jobs:
       contents: write
 
     steps:
-      # ── 0. 체크아웃 ───────────────────────────────────────────────────────
       - name: 저장소 체크아웃
         uses: actions/checkout@v4
 
-      # ── 1. 환경 설정 ──────────────────────────────────────────────────────
       - name: Python 설정
         uses: actions/setup-python@v5
         with:
@@ -40,49 +46,69 @@ jobs:
       - name: Python 패키지 설치
         run: pip install -r collector/requirements.txt
 
-      # ── 2. 스케줄 트리거 판별 ─────────────────────────────────────────────
-      # schedule 트리거는 workflow_dispatch.inputs 가 없으므로 날짜로 구분
-      - name: 업데이트 대상 결정
-        id: target
+      # ── 요일 판별 ────────────────────────────────────────────
+      - name: 실행 요일 결정
+        id: day
         run: |
-          TARGET="${{ github.event.inputs.target }}"
-          if [ -z "$TARGET" ]; then
-            # schedule 트리거: 1일이면 IBK 포함, 그 외는 RISS만
-            DAY=$(date +'%d')
-            if [ "$DAY" = "01" ]; then
-              TARGET="all"
-            else
-              TARGET="riss"
-            fi
+          DAY_INPUT="${{ github.event.inputs.day }}"
+          if [ -n "$DAY_INPUT" ]; then
+            DAY="$DAY_INPUT"
+          else
+            # 스케줄 트리거: 오늘 요일 자동 판별
+            DOW=$(date +'%u')   # 1=월 ... 7=일
+            case $DOW in
+              1) DAY="mon" ;;
+              2) DAY="tue" ;;
+              3) DAY="wed" ;;
+              4) DAY="thu" ;;
+              5) DAY="fri" ;;
+              6) DAY="sat" ;;
+              7) DAY="sun" ;;
+            esac
           fi
-          echo "target=$TARGET" >> $GITHUB_OUTPUT
-          echo "▶ 업데이트 대상: $TARGET"
+          echo "day=$DAY" >> $GITHUB_OUTPUT
+          echo "▶ 실행 요일: $DAY"
 
-      # ── 3. RISS 업데이트 ──────────────────────────────────────────────────
-      - name: RISS 증분 업데이트
-        if: steps.target.outputs.target == 'riss' || steps.target.outputs.target == 'all'
+      # ── RISS 업데이트 ─────────────────────────────────────────
+      - name: RISS 요일별 업데이트
+        if: >
+          github.event.inputs.target == '' ||
+          github.event.inputs.target == 'riss' ||
+          github.event.inputs.target == 'all'
         run: |
-          DEPTH="${{ github.event.inputs.depth || '1' }}"
-          cd collector
-          python riss_updater.py --depth "$DEPTH"
+          DEPTH="${{ github.event.inputs.depth }}"
+          if [ -n "$DEPTH" ]; then
+            cd collector && python riss_updater.py --day "${{ steps.day.outputs.day }}" --depth "$DEPTH"
+          else
+            cd collector && python riss_updater.py --day "${{ steps.day.outputs.day }}"
+          fi
         env:
           DISPLAY: ""
 
-      # ── 4. IBK 업데이트 ───────────────────────────────────────────────────
-      - name: IBK 印度學佛教學研究 증분 업데이트
-        if: steps.target.outputs.target == 'ibk' || steps.target.outputs.target == 'all'
+      # ── IBK 업데이트 (매월 1일 또는 수동) ────────────────────
+      - name: 매월 1일 여부 확인
+        id: ibk_check
         run: |
-          DEPTH="${{ github.event.inputs.depth || '2' }}"
+          DAY=$(date +'%d')
+          TARGET="${{ github.event.inputs.target }}"
+          if [ "$DAY" = "01" ] || [ "$TARGET" = "ibk" ] || [ "$TARGET" = "all" ]; then
+            echo "run=true" >> $GITHUB_OUTPUT
+          else
+            echo "run=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: IBK 업데이트
+        if: steps.ibk_check.outputs.run == 'true'
+        run: |
           cd collector
-          python ibk_updater.py --depth "$DEPTH"
+          python ibk_updater.py --depth 2
         env:
           DISPLAY: ""
 
-      # ── 5. 변경 감지 ──────────────────────────────────────────────────────
+      # ── 변경 감지 & 커밋 ─────────────────────────────────────
       - name: 변경된 파일 확인
         id: changes
         run: |
-          git diff --name-only output/
           CHANGED=$(git diff --name-only output/ | wc -l)
           echo "changed=$CHANGED" >> $GITHUB_OUTPUT
           if [ "$CHANGED" -gt "0" ]; then
@@ -92,24 +118,15 @@ jobs:
             echo "변경 없음"
           fi
 
-      # ── 6. 커밋 & 푸시 ────────────────────────────────────────────────────
-      - name: 변경 사항 커밋 & 푸시
+      - name: 커밋 & 푸시
         if: steps.changes.outputs.changed != '0'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
-          # 어떤 대상이 업데이트됐는지 커밋 메시지에 반영
-          TARGET="${{ steps.target.outputs.target }}"
+          DAY="${{ steps.day.outputs.day }}"
           DATE=$(date +'%Y-%m-%d')
-          if [ "$TARGET" = "riss" ]; then
-            MSG="data: RISS 업데이트 $DATE"
-          elif [ "$TARGET" = "ibk" ]; then
-            MSG="data: IBK 업데이트 $DATE"
-          else
-            MSG="data: RISS+IBK 업데이트 $DATE"
-          fi
-          git commit -m "$MSG"
+          git commit -m "data: RISS 업데이트 [$DAY] $DATE"
           git push
 
       - name: 업데이트 없음 안내
