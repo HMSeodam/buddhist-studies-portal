@@ -111,7 +111,12 @@ except ImportError:
     _UC_AVAILABLE = False
 
 def init_driver():
-    if _UC_AVAILABLE:
+    # GitHub Actions 환경 감지 (CI=true 환경변수)
+    import os
+    is_ci = os.environ.get("CI", "false").lower() == "true"
+
+    if _UC_AVAILABLE and not is_ci:
+        # 로컬 환경: UC 사용 (봇 감지 우회)
         opts = uc.ChromeOptions()
         opts.add_argument("--headless=new")
         opts.add_argument("--no-sandbox")
@@ -121,7 +126,6 @@ def init_driver():
         try:
             import subprocess as _sp
             _major = None
-            # Windows: 레지스트리에서 Chrome 버전 읽기
             for reg_cmd in [
                 r'reg query "HKCU\Software\Google\Chrome\BLBeacon" /v version',
                 r'reg query "HKLM\SOFTWARE\Google\Chrome\BLBeacon" /v version',
@@ -137,7 +141,6 @@ def init_driver():
                         break
                 except Exception:
                     continue
-            # Linux/Mac fallback
             if _major is None:
                 for cmd in [['google-chrome', '--version'],
                             ['chromium-browser', '--version'],
@@ -157,6 +160,8 @@ def init_driver():
         print("  드라이버: undetected_chromedriver (headless)")
         return driver
 
+    # GitHub Actions 또는 UC 미설치: 표준 Selenium 사용
+    # webdriver-manager가 현재 Chrome 버전에 맞는 드라이버를 자동 설치
     opts = Options()
     opts.add_argument("--headless=new")
     opts.add_argument("--no-sandbox")
