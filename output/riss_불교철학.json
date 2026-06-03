@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.72,
     "control_no": "0c20a8836b6e2010ffe0bdc3ef48d419",
-    "last_updated": "2026-05-22"
+    "last_updated": "2026-06-03"
   },
   "articles": [
     {
@@ -5471,6 +5471,44 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "a617b20ed4da06ec4884a65323211ff0"
+    },
+    {
+      "article_id": "1758d283bc4af955ffe0bdc3ef48d419",
+      "title_kr": "간호사의 강화교육이 뇌졸중 환자의 언어치료에 미치는 효과에 관한 실험적 연구",
+      "title_en": "An Experimental Study of the Effects of Reinforcement Education for Language Therapy of Aphsia Patients by Nurses",
+      "authors": [
+        {
+          "name": "김윤희",
+          "affiliation": "경희대학교 의과대학 간호학과)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "송승희",
+          "affiliation": "경희의료원 한방병원 간호사)\n                            \n                                    ;",
+          "order": "2"
+        },
+        {
+          "name": "김수정",
+          "affiliation": "경희의료원 한방병원 언어치료사",
+          "order": "3"
+        }
+      ],
+      "abstract_kr": "In general, the rehabilitation of CVA is thought to be only the recovery of the paralysis of limbs but, in fact, that of Aphsia is also important, for the ability to communicate one's thought is one of the characteristics of human beings that make them different from animals. So, if one suddenly loses this ability, he must be discouraged and it may cause big problem.Nursing to treat the patient's Aphsia and to improve his smooth communication is necessary. Therefore the development of effective Nursing Intervention is required.This study is designed to develop Nursing Intervention called \"Reinforcement of Verbal Stimulation\" utilizing \"Reinforcement Theory\" which is already proved to be effective in helping aphasia patients recover from their inability as soon as possible.As a method of study, this researcher divied aphsia patients hospitalized into K Medical Center Oriental Hospital into experimental and control group (5 each) on the condition that other extraneous variables are controlled. The selected patients in both group have the similar extent and part of derangement and were controlled by any other conditions. This researcher reinforced only experimental group two times (the 1st day - the 15th day, the 16th day - 30th day) and collected data after measuring the difference of the extent of recovery in each reinforcement. The way to emasure the extent of ability of verbal communication is MWAB (Modified Western Aphasia Battery) by Deok-lyul Na.2. Additional AnalysisThrough the statistics there was significant difference in the ability of verbal communication after the first reinforcement (U=0.0, P=0.04) but there was no big difference after the second reinforcement (U=8.0, P=0.210).As a result of this study, educational effects of reinforcement education is more conspicuous than a sing1e educatioanl program. Expecially this reinforcement education can be a desireable for the patients requiring long-term care. As frequently given reinforcement programs can pay much attention to patients, the programs not only promote efficienty of learning is compliance but also serve as psychological nursing.Therefore, the reinforcement education can achieve the goals of comprehensive nursing care heightening the effects of other nursing because the reinforcement education can result in positive change in the relationship between patients and nurses.The data collected through above methods were analyzed by Mann-Whitney U-Test to review a hypothesis on the effect of reinforcement education for rehabilitation. And the corelation of ability of verbal communication is analyzed by pearson Correlation.The summary of the result for this study is as follows ;The Main Hypothesis : the analysis of the effect of reinforcement \"he extent of recovery from the ability of verbal communication in the experimental group given reinforcement is more rapid than the control group without reinforcement\" was supported. (U=0.0, P=0.00395)The first sub-hypothesis :\"The extent of recovery from the ability of speaking in the experimental group given reinforcement is more rapid than the control gourp without reinforcement\" was supported. (U=3.0, P=0.028)The second sub-hypothesis :\"The extent of recovery from the ability of understanding in the experimental group given reinforcement is more rapid than the control group without reinforcement\" was not supported. (U=6.0, P=0.111)The third sub-hypothesis :\"The extent of recovery from the ability of repeating in the experi- mental group given reinforcement is more rapid than the control group without reinforcement\" was supported. (U=4.50, P=0.048)The fourth sub-hypothesis :\"The extent of recovery from the ability of naming in the experi- mental group given reinforcement is more rapid than the control group without reinforcement\" was not supported. (U=9.0, P=0.273)",
+      "abstract_en": "",
+      "journal_name": "불교철학",
+      "year": "1995",
+      "volume": "24",
+      "issue": "",
+      "start_page": "351",
+      "end_page": "376",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/recommender/click.do?db=3&link_type=sdMeNonUser&p_mat_type=1a0202e37d52c72d&control_no=1758d283bc4af955ffe0bdc3ef48d419",
+      "kci_url": "",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "1758d283bc4af955ffe0bdc3ef48d419"
     }
   ],
   "by_year": {
