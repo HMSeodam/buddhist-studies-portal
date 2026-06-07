@@ -3,7 +3,8 @@
     "name": "한국불교학",
     "category": "불교학",
     "impact_factor": 0.85,
-    "control_no": "cb236634237a7a74"
+    "control_no": "cb236634237a7a74",
+    "last_updated": "2026-06-07"
   },
   "articles": [
     {
@@ -50138,6 +50139,505 @@
       ],
       "ai_keywords": [],
       "source": "RISS"
+    },
+    {
+      "article_id": "27bf9253980aee5c47de9c1710b0298d",
+      "title_kr": "초기불교 경전에서 산냐(saññā)의 인식론적 전이 구조 - sañjānāti에서 pajānāti로의 서술적 이행을 중심으로 -",
+      "title_en": "The Epistemological Transition of saññā in Early Buddhist Texts - Focusing on the Descriptive Shift from sañjānāti to pajānāti -",
+      "authors": [
+        {
+          "name": "하대용",
+          "affiliation": "동방문화대학원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 초기불교 경전에서 범주적 재인식(sañjānāti)에서 직접 앎(pajānāti)으로의 인식론적 전이가 경전 서술에 어떻게 내장되어 있는지를 문헌학적으로 규명한다. 중심 분석 대상인 「뿌리에 대한 법문 경」(MN 1)의 동사 분포 분석을 통해, 범부(puthujjana)의 sañjānāti → maññati 연쇄가 ‘개념 증식(papañca)’의 인식론적 기제임을 실증하고, 바른 사람(sappurisa)의 ‘수승하게 안다(abhijānāti)’ 구조는 이 증식을 경유하지 않는 직접 앎임을 확인한다. 분석은 세 가지 독립적 텍스트 지표—(1) 인식 동사 유형, (2) 산냐 대상의 명시 정도, (3) 개념 증식(papañca) 동사의 분포—를 기준으로 삼각검증(triangulation)을 수행한다.분석 결과, sañjānāti의 범주적 재인식이 약화될수록 개념 증식이 감소하고 직접 앎이 전경화되는 인식론적 전이 구조가 확인되며, 이 전이 구조는 「소공경」(MN 121)에서 산냐의 단계적 초월과 개념 증식 기반의 소거가 동시에 수렴하는 서술 구조로 귀결된다.본 연구는 기존 연구가 산냐(saññā)의 개념 정의에 집중하는 동안 다루지 않았던 경전 서술 구조 분석을 수행함으로써, MN 1의 동사 분포가 인식론적 전이를 구조적으로 내장함을 실증하고, ‘개념 증식’ 동사 분포를 독립 지표로 도입한 방법론적 기여를 제안한다. 나아가 경전의 동사 서술 구조가 수행론적 전이를 체계적으로 구현함을 확인함으로써, 경전 문헌학 연구의 방법론적 확장에 기여한다.",
+      "abstract_en": "This study philologically examines how the epistemological transition from sañjānāti (categorical re-cognition) to pajānāti (direct knowing) is embedded in early Buddhist texts. Through a verb-distribution analysis of the Mūlapariyāya Sutta (MN 1), the study demonstrates that the ordinary person’s (puthujjana) sañjānāti → maññati sequence constitutes the epistemological mechanism of conceptual proliferation (papañca), while the good person’s (sappurisa) abhijānāti structure represents direct knowing that bypasses this proliferative sequence. The analysis employs a triangulation of three independent textual indicators: (1) types of cognitive verbs, (2) degree of explicit object specification, and (3) distribution of conceptual proliferation (papañca) verbs. Building on a preceding study that analyzed the gradient structure of cetanā (volition), this study applies the same triangulation framework to saññā.The analysis identifies three descriptive modes of saññā: distorted perception (vipallāsa), cultivated perception (bhāvitā bahulīkatā), and transcendence (amanasikāra). The findings reveal an epistemological transition structure in which the weakening of sañjānāti- based categorical re-cognition corresponds to diminishing conceptual proliferation and the foregrounding of direct knowing (pajānāti). This transition structure converges in the Cūḷasuññata Sutta (MN 121), where the gradual backgrounding of saññā and the elimination of papañca verbs occur simultaneously.By conducting a textual-structural analysis that existing studies—focused primarily on the conceptual definition and psychological role of saññā—had not addressed, this study demonstrates that the verb distribution of MN 1 structurally encodes the epistemological transition within the text itself, and proposes the methodological contribution of introducing the distribution of papañca verbs as an independent triangulation indicator. This approach offers a broader understanding of essential vocabulary in early Buddhist texts.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "9",
+      "end_page": "42",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=27bf9253980aee5c47de9c1710b0298d",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "산냐(saññā)",
+        "상자나띠(sañjānāti)",
+        "빠자나띠(pajānāti)",
+        "개념 증식(papañca)",
+        "전도(顚倒",
+        "saññā",
+        "sañjānāti"
+      ],
+      "keywords_en": [
+        "vipallāsa)",
+        "pajānāti",
+        "conceptual proliferation (papañca)",
+        "perceptual distortion (vipallāsa)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "27bf9253980aee5c47de9c1710b0298d"
+    },
+    {
+      "article_id": "eb657036e0beba254884a65323211ff0",
+      "title_kr": "식(食, āhāra)의 연기적 작용 고찰",
+      "title_en": "A Study on the Dependent Origination of āhāra(食)",
+      "authors": [
+        {
+          "name": "강향임",
+          "affiliation": "위덕대학교)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "강대현",
+          "affiliation": "위덕대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "아하라(āhāra)는 한역경전에서 식(食)으로 번역된다. 초기불교에서 4식은 단식‧촉식‧사식‧식식으로서, 일체 유정의 생명과 존재를 유지하는 네 가지 양식이다. 단식은 신체를 유지하는 아하라이고, 촉식은 감각작용의 아하라이며, 의사식은 내입처와 외입처가 대응하는 아하라, 식식은 명색을 장양하는 아하라이다. 이러한 4식은 3온‧5처‧11계에 포섭된다. 단식은 색온에, 촉식과 의사식은 행온에, 식식은 식온에 포섭되고, 단식은 향처, 미처, 촉처 3처에 포함되고, 의사식은 법처에, 식식은 의처에 포섭되고, 단식은 향‧미‧촉의 3계에, 촉식과 의사식은 법계에, 식식은 7심계에 포섭되는데, 이는 아하라가 ‘나’에게 머무르기 때문이다. 4식은 또한 욕계의 중생, 유학 및 색계‧무색계의 중생, 아라한과의 성자, 그리고 제불보살 등 4부류에 차별적으로 건립된다. 이러한 아하라는 연기적으로 작동한다. 번뇌의 아하라는 유애의 원인으로 무명에 이어 오개, 삼악행, 불호제근, 부정념부정지, 부정사유, 불신, 문악법, 친근악지식, 악인에 이르는 부정의 과정에 관여하고, 역으로 악인의 아하라는 결국 유애로 귀결되는 악순환에도 관여하게 된다. 하지만 청정의 아하라는 명‧해탈의 원인으로 칠각지에 이어 사념처, 삼묘행, 제호근, 정념정지, 정사유, 믿음, 친근선지식, 선인에 이르는 청정의 과정을 보여주고, 역으로 선인의 아하라는 결국 명‧해탈로 귀결되는 청정의 순환에도 관여하게 된다. 또한 아하라의 연기적 작용성은 자연현상인 큰 바다[大海]와 하천 및 비[雨]와의 관계에서도 예를 들고 있다.",
+      "abstract_en": "Āhāra is translated as “food” in Chinese translations of scriptures. In early Buddhism, the four kinds of food are kabaḷīṃkāra‒āhāra, phassa‒āhāra, manosañcetanā‒āhāra, and viññāṇa-āhāra, which are the four forms that sustain the life and existence of all sentient beings. kabaḷīṃkāra-āhāra is an āhāra that maintains the body, phassaāhāra is an āhāra of sensory functions, manosañcetanā‒āhāra is an āhāra in which the internal and external senses fields correspond, and viññāṇa‒āhāra is an āhāra that nourishes nāma‒rūpa. These four kinds of food are encompassed in the three skandhas, five āyatana, and eleven dhātu. kabaḷīṃkāra‒āhāra is encompassed in the rūpa‒khandha, phassaāhāra and manosañcetanā‒ āhāra in the saṅkhāra‒khandha, and manosañcetanā‒āhāra in the viññāṇa‒khandha; kabaḷīṃkāra‒āhāra is included in the three sense fields of gandhāyatana, rasāyatana and sparśāyatana; manosañcetanā‒ āhāra is encompassed in the dhammāyatana; viññāṇa‒khandha is encompassed in the mana‒āyatana; kabaḷīṃkāra‒āhāra is encompassed in the three realms of gandha‧rasa, and sparśa; phassaāhāra and manosañcetanā‒āhāra are encompassed in the realm of dhamma‒ dhātu; and viññāṇa‒khandha is encompassed in the seven realms of viññāṇa‒dhātu, because the āhāra dwells in the ‘self’. The cattāro‒āhāra is established differentially in four categories: sentient beings of the desire realm, sentient beings of the actively involved in applied practices, form and formless realm, saints of the Arhat realm, and all Buddhas and Bodhisattvas. This āhāra operates in a dependent arising way. The āhāra of defilement is the cause of attachment to existence, and it is involved in the negative process leading from nescience to the five obstructions, the three evil activities, not guarding of faculties, not correct mindfulness and not correct wisdom, incorrect thought, no faith, to hear negative factors, to become familiar with bad friend, and the evil person. Conversely, the ahara of the person is also involved in the vicious cycle that eventually leads to attachment to existence. However, the pure āhāra demonstrates the process of purity that leads from the seven factors of enlightenment to the four bases of mindfulness, the three marvelous activities, to protect faculties, correct mindfulness and correct wisdom, correct thought, faith, become intimate with a good teacher, and a good person as the cause of enlightenment and liberation; conversely, the āhāra of a good person also become involved in the cycle of purity that ultimately culminates in enlightenment and liberation. Furthermore, the dependency of āhāra is exemplified in its relationship with natural phenomena such as the ocean, rivers, and rain.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "43",
+      "end_page": "68",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=eb657036e0beba254884a65323211ff0",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "āhāra",
+        "4식",
+        "온‧처‧계",
+        "『식경』",
+        "연기성"
+      ],
+      "keywords_en": [
+        "cattāro-āhāra",
+        "skandhas‧āyatana‧dhātu",
+        "Āhārā Sutta",
+        "paratantra"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "eb657036e0beba254884a65323211ff0"
+    },
+    {
+      "article_id": "3c0c1e847fd68a44e9810257f7042666",
+      "title_kr": "『능엄경』 염불원통(念佛圓通)의 독자적 위상 - 이근원통(耳根圓通)과의 비교를 중심으로 -",
+      "title_en": "The Independent Status of Samādhi of Buddha Recitation(念佛圓通) in the Śūraṃgama Sūtra - A Comparative Study with Samādhi through the Ear Faculty(耳根圓通) -",
+      "authors": [
+        {
+          "name": "박성완",
+          "affiliation": "동국대학교 WISE캠퍼스",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 『능엄경』 대세지보살 염불원통(念佛圓通)의 독자적 수행론적 위상의 해명을 목적으로 한다. 기존 연구는 문수보살이 이근원통(耳根圓通)을 선택한 경문을 근거로 이근원통의 우위를 전제하고, 염불의 념성(念性)이 생멸에 속한다는 논거로 염불원통의 수행론적 한계를 지적하였다. 그러나 이근원통의 수승함이 음성은 생멸하나 듣는 성품[聞性]은 항상하기[常眞實] 때문이라면, 중생의 염불심은 생멸하더라도 염불이 향하는 불성(佛性)은 항상하고 생멸을 떠나 있다는 점에서 동일한 논리가 염불원통에도 그대로 적용된다. 역대 주석가들 또한 두 원통을 단순한 우열로 파악하지 않았다. 계환(戒環)은 염불이 삼관(三觀)을 내포한다고 하였고, 통윤(通潤)은 참선과 염불이 ‘본무이치(本無二致)’임을 선언하였으며, 감산덕청(憨山德淸)은 염불수행의 자력적 측면을 드러냈고, 우익지욱(蕅益智旭)은 염불삼매가 ‘삼매의 왕[三昧中王]’임을 천명하였다. 나아가 염불원통의 도섭육근(都攝六根)은 근대(根大) 전체를 총섭하는 광대한 구조를 지니며, 정념상계(淨念相繼)는 삼관을 포괄하고, 감응도교(感應道交)는 염불원통만의 독자적 수행 원리를 구현한다. 궁극에서 이근원통과 염불원통은 각각 반문(反聞)과 염불(念佛)이라는 다른 방식을 취하면서도, 시각(始覺)과 본각(本覺)의 합일이라는 동일한 구조를 향하는 상보적 수행의 두 축이라 할 수 있다.",
+      "abstract_en": "This paper aims to elucidate the independent soteriological status of the Samādhi of Buddha Recitation(念佛圓通) of Bodhisattva Mahāsthāmaprāpta in the Śūraṃgama Sūtra. Prior scholarship has presupposed the superiority of the Samādhi through the Ear Faculty(耳根圓通) and argued that the recollecting mind (念性) belongs to the realm of arising and ceasing(生滅), thereby limiting the soteriological scope of buddha recitation. However, if the excellence of the Ear Faculty Samādhi rests on the fact that the faculty of hearing remains eternally constant(常眞實) even as sounds arise and cease, the same logic applies equally to the Buddha Recitation Samādhi: the Buddha-nature toward which recollection is directed likewise remains eternally constant, transcending arising and ceasing. The major commentators did not regard the two samādhis as standing in a simple hierarchical relationship. Tongrun(通潤) declared that meditation and buddha recitation are fundamentally not two(本無二致); Hanshan Deqing(憨山德淸) illuminated the self-power dimension of buddha recitation; and Ouyi Zhixu(蕅益智旭) proclaimed it the king of all samādhis (三昧中王). The total gathering of the six sense faculties(都攝六根), the continuous maintenance of pure recollection(淨念相繼), and the mutual resonance between practitioner and Buddha(感應道交) together constitute a soteriological structure unique to the Buddha Recitation Samādhi. Ultimately, both samādhis are oriented toward the same structure—the union of incipient awakening(始覺) and original awakening(本覺)—and are thus the two complementary axes of Mahāyāna practice.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "69",
+      "end_page": "99",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3c0c1e847fd68a44e9810257f7042666",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "능엄경",
+        "염불원통(念佛圓通)",
+        "도섭육근(都攝六根)",
+        "정념상계(淨念相繼)",
+        "감응도교(感應道交)",
+        "Śūraṃgama Sūtra(楞嚴經)"
+      ],
+      "keywords_en": [
+        "Samādhi of Buddha Recitation (念佛圓通)",
+        "Complete Gathering of the Six Sense Faculties(都攝六根)",
+        "Continuous Succession of Pure Recollection(淨念相繼)",
+        "Responsiveness and Interpenetratio(感應道交)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3c0c1e847fd68a44e9810257f7042666"
+    },
+    {
+      "article_id": "3c0c1e847fd68a44d18150b21a227875",
+      "title_kr": "염불에서 신심은 왜 중요한가? - 정토 염불의 인지과학적 재해석 -",
+      "title_en": "Why Does Faith Matter in Buddha-Recitation? - A Cognitive Scientific Reinterpretation of Pure Land Nianfo -",
+      "authors": [
+        {
+          "name": "임상락",
+          "affiliation": "경희대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "정토불교 전통은 염불 수행에서 반복의 양이 아니라 반복 안에 담긴 신심(信心)의 유무가 왕생의 성패를 결정한다고 일관되게 주장해 왔다. 본고는 이 주장의 구조를 정토 경론의 텍스트 분석과 반복적 발성에 관한 인지과학 연구의 교차 독해를 통해 재검토한다. 먼저 정토 삼부경의 ‘지심(至心)‧일심불란(一心不亂)‧삼심(三心)’ 개념과, 담란의 ‘재심‧재연‧재결정(在心‧在緣‧在決定)’ 분석, 도작의 삼불상응(三不相應) 진단, 선도의 잡독지선(雜毒之善)과 진실업(真實業)의 구분, 원효의 신해(信解) 개념을 검토하여, 신심이 칭명에 부가되는 외적 조건이 아니라 칭명이 유효한 수행으로 성립하기 위한 내적 구성 요소임을 확인한다. 이어서 베르코비치-오하나(Berkovich-Ohana) 등의 만트라 효과 연구, 가오(Gao) 등의 아미타불 염불 fMRI 연구, 페리(Perry) 등의 대규모 설문 연구를 분석하여, 의미 없는 단어의 반복이 기본값 모드 네트워크(DMN)를 비활성화하는 상향식(bottom-up) 효과를 산출하는 데 반해, 종교적으로 의미 있는 이름의 반복은 이에 더하여 정서 조절 회로를 선택적으로 활성화하는 하향식(top-down) 효과를 추가로 산출하며, 이 효과가 행위자의 의도성과 헌신의 수준에 의해 조절됨을 확인한다. 이러한 분석을 토대로 본고는 정토불교의 신심 개념이 인지과학의 ‘하향식 조절’과 구조적으로 유비적임을 논증하되, 타력(他力)의 존재론적 차원과 실상에 대한 지혜(慧)의 인식론적 차원은 이 유비의 범위를 넘어선다는 한계를 함께 제시한다. 이를 통해 ‘어떻게 되뇌는가’의 문제가 갖는 수행론적‧윤리적 함의를 조명한다.",
+      "abstract_en": "The Pure Land Buddhist tradition has consistently maintained that the efficacy of nianfo (念佛, Buddha-recitation) depends not on the quantity of repetition but on the presence of xinxin (信心, faith-mind) within it. This paper reexamines this claim through a cross-reading of Pure Land scriptural and commentarial texts and cognitive neuroscience research on repetitive vocalization. First, it analyzes the concepts of zhixin (至心, utmost sincerity), yixin bulan (一心不亂, single-minded concentration), and sanxin (三心, threefold mind) in the Three Pure Land Sūtras, alongside Tanluan’s tripartite analysis of zaixin (在心), zaiyuan (在緣), and zaijueding (在決定); Daochuo’s diagnosis of threefold incongruence (三不相應); Shandao’s distinction between “virtue mixed with poison” (雜毒之善) and “true practice” (真實業); and Wonhyo’s concept of faith-understanding (信解). Through this examination, the paper confirms that faith is not an external addendum to name-recitation but an internal constitutive element without which the practice cannot function as a valid cause of rebirth. The paper then reviews neuroscientific studies on repetitive vocalization, including Berkovich-Ohana et al.’s “mantra effect” research, Gao et al.’s fMRI studies on Amitābha chanting, and Perry et al.’s large-scale survey of chanting practitioners. These studies demonstrate that while the repetition of a semantically neutral word produces a bottom-up effect of default mode network (DMN) deactivation, the repetition of a religiously meaningful name additionally generates a top-down effect that selectively activates emotion regulation circuits, and that this effect is modulated by the practitioner’s level of intentionality and devotion. On this basis, the paper argues that the Pure Land concept of xinxin is structurally analogous to the cognitive scientific notion of top-down regulation, while acknowledging that the ontological dimension of Other-power (他力) and the epistemological dimension of wisdom (慧) regarding ultimate reality exceed the scope of this analogy. The paper concludes by illuminating the ethical and soteriological implications of the question of how one recites.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "101",
+      "end_page": "132",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3c0c1e847fd68a44d18150b21a227875",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "정토불교",
+        "신심(信心)",
+        "염불",
+        "기본값 모드 네트워크(DMN)"
+      ],
+      "keywords_en": [
+        "하향식 조절(top-down regulation)",
+        "Pure Land Buddhism",
+        "faith-mind",
+        "Buddha-recitation",
+        "top-down regulation",
+        "default mode network (DMN)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3c0c1e847fd68a44d18150b21a227875"
+    },
+    {
+      "article_id": "eb657036e0beba2547de9c1710b0298d",
+      "title_kr": "한국불교 출가수행 三門修業(염불‧간경‧참선)과 전두엽 발달의 뇌과학적 고찰",
+      "title_en": "A Neuroscientific Inquiry into the Threefold Practice (Sammun Suŏp, 三門修業; Chanting, Sutra Reading, and Seon Practice) of Korean Buddhist Monastic Training and Its Impact on Frontal Lobe Development",
+      "authors": [
+        {
+          "name": "엄미경",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 한국불교 전통수행의 핵심 실천인 삼문수업(三門修業)—염불(念佛), 간경(看經), 참선(參禪)—이 수행자의 전두엽 기능 발달에 미치는 영향을 신경과학적 관점에서 고찰한 것이다. 전두엽은 주의 집중, 자기통제, 감정조절, 도덕 판단 등 인간의 고등 인지 기능을 통합적으로 조절하는 핵심 영역으로, 그 기능의 강화는 곧 심리적 회복력, 인지 유연성, 사회적 공감능력 등의 향상으로 이어진다. 연구 결과, 염불은 정서적 안정 및 자기 연민과 관련된 vmPFC와 언어 회로를 활성화하며, 간경은 언어 기반 고차 인지 활동을 통해 브로카‧베르니케 영역과 도덕적 판단 회로를 자극하고, 참선은 주의 조절과 충동 억제에 관여하는 DLPFC와 ACC를 자극한다. 또한 출가수행의 규칙적이고 금욕적인 삶의 환경은 전두엽 기반 자기조절 네트워크의 장기적 강화에 최적화된 구조를 제공한다. 이러한 수행체계는 단순한 종교적 관행이 아니라, 정신의 고도화를 실현하는 자기완성적 삶의 실천이며, 현대인의 인지‧정서적 위기를 극복하는 신경심리학적 대안 모델로 기능할 수 있다. 본 연구는 한국불교 수행의 과학적 정당성을 입증하고, 출가의 현대적 가치를 재조명함으로써 수행문화의 사회적 인식 확장을 위한 이론적 기반을 제공한다. 향후 연구에서는 뇌영상 기반의 정량 분석과 수행유형별 신경 반응 비교 등을 통해 실증적 자료의 축적이 요구된다.",
+      "abstract_en": "This study investigates, from a neurocognitive perspective, the impact of the core practices of Korean Buddhist monasticism—chanting, sutra reading, and Seon practice, collectively referred to as Sammun Suŏp (Threefold Practice, 三門修業)—on the functional development of the frontal lobe. The frontal lobe plays a central role in higher-order cognitive functions, including attention regulation, emotional control, behavioral inhibition, and moral reasoning. Enhancing its function is associated with improved psychological resilience, cognitive flexibility, and empathic capacity.Findings suggest that Chanting engages the ventromedial prefrontal cortex (vmPFC) and language-related circuits, contributing to emotional stabilization and the cultivation of self-compassion. Sutra reading stimulates Broca’s and Wernicke’s areas, as well as neural pathways related to linguistic reasoning and moral cognition. Seon practice activates the dorsolateral prefrontal cortex (DLPFC) and anterior cingulate cortex (ACC), thereby strengthening sustained attention and self-regulatory capacity.In addition, the structured and ascetic lifestyle of monastic communities provides optimal environmental conditions for long- term reinforcement of frontal-executive networks. Taken together, the findings indicate that Sammun Suŏp constitutes not merely a set of religious rituals, but a systematic neurocognitive training framework that facilitates deep self-regulation, cognitive maturity, and emotional integration.This research contributes to the scientific validation of traditional Korean Buddhist practices and repositions monastic discipline as a meaningful path for advanced mental development in modern contexts. Future research should involve empirical investigations using neuroimaging techniques, longitudinal designs, and cross-modal comparisons to further substantiate these findings.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "133",
+      "end_page": "170",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=eb657036e0beba2547de9c1710b0298d",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "三門修業",
+        "삼문수업(삼문수행)",
+        "전두엽",
+        "염불",
+        "간경",
+        "참선(간화선)"
+      ],
+      "keywords_en": [
+        "Threefold Practice (Sammun Suŏp",
+        "Chanting",
+        "Sutra Reading",
+        "and Seon Practice)",
+        "Frontal lobe",
+        "Chanting",
+        "Sutra reading",
+        "Seon practice (Ganhwa Seon)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "eb657036e0beba2547de9c1710b0298d"
+    },
+    {
+      "article_id": "3c0c1e847fd68a446aae8a972f9116fb",
+      "title_kr": "후기 중관시대 찬드라키르티에 대한 고찰",
+      "title_en": "A Study on Cadrakīrti in Late Madhyamaka",
+      "authors": [
+        {
+          "name": "박경미",
+          "affiliation": "대한불교조계종",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구의 목적은 중기 중관의 전성기를 이끌었던 찬드라키르티(Candrakīrti)의 사상적 위상이 후기 인도 중관 사상사에서 미미하게 평가되었던 배경을 고찰하고, 그 사상의 잠재적 영향력을 재조명하는 데 있다. 바비베카(Bhāviveka)의 자립논증파(*Svātantrika) 전통이 주류를 형성했던 문헌적 실제에도 불구하고, 아티샤(Atiśa)의 전승 계보에 찬드라키르티가 근본 스승으로 등장한다는 사실은 그의 사상이 수면 아래에서 지속되었음을 시사한다.본고는 이러한 사상사적 위상 변화의 핵심 변수를 세속(saṃvṛti)에 대한 철저한 무자성 해석에서 찾고자 한다. 이를 규명하기 위해 당대의 주류였던 산타락쉬타(Śāntarakṣita)와 찬드라키르티의 무자성 논증을 비교 분석하였다.먼저 산타락쉬타는 ‘이일다성(離一多性)논증’을 통해 무자성을 입증하되, 세속 내에서는 효과적 작용 능력(arthakriyāśakti)이 발휘되는 영역을 정세속(tathyasaṃvṛti)으로 안립한다. 이는 궁극적 진리를 사유와 논증의 영역으로 포섭하려는 후기 중관의 시대적 산물이다.반면 찬드라키르티는 타자로부터의 발생을 비판하는 사구부정을 통해 자파 내 자립적 주장들의 오류를 지적한다. 그는 세속적 대상의 존재론적 근거를 개별 사물의 자성이 아닌 공동체 내부의 인식적 합의인 세간의 관습에서 찾는다.결과적으로, 인식론적 안립인 정세속과 중관 규범의 철저한 고수(固守)라는 두 논사의 대비점은 찬드라키르티 사상이 지닌 고유한 사상사적 전환의 요인을 밝히는 핵심적인 지표가 된다.",
+      "abstract_en": "This study investigates the historical divergence of Middle Madhyamaka into the Svātantrika and Prāsaṅgika schools, represented by Bhāviveka and Candrakīrti. Despite this zenith, Candrakīrti’s influence remained marginal in later Indian Madhyamaka, where literature confirms the dominance of the Svātantrika tradition.However, Candrakīrti’s inclusion in Atiśa’s transmission lineage suggests his philosophical influence persisted latently. This research identifies the variable behind Candrakīrti’s dramatic historical re-emergence in his rigorous interpretation of niḥsvabhāvatā regarding conventional reality. By comparing Candrakīrti’s arguments with those of the mainstream figure Śāntarakṣita, this study posits that their decisive difference lies in the contrast between epistemological establishment (tathyasaṃvṛti) and normative Madhyamaka adherence.Śāntarakṣita demonstrates niḥsvabhāvatā (lack of intrinsic nature) by reducing the formal conditions for the existence of an essence to the categories of ‘neither one nor many’ (ekānekasvabhāvaviyoga) and proving that neither can be established. Within the conventional realm, he defines the sphere where efficacious causal capacity (arthakriyāśakti) operates as ‘correct convention’ . By incorporating even the concept of ‘non-arising’ (anutpāda) into the realm of correct convention, he establishes the ‘concordant ultimate’ (anurūpaparamārtha) as an expedient means to reach the final truth. Through this framework, he successfully brings the ultimate truth into the domain of discursive thought and logical demonstration, securing the epistemological (pramāṇa) rigor of the Madhyamaka system.Conversely, Candrakīrti critiques internal fallacies through a rejection of ‘arising from other’ within the fourfold negation (catuṣkoṭi). He does not ground conventionality in the efficacious capacity of objects, but emphasizes that the basis of conventional objects lies in cognitive consensus within the worldly community. Candrakīrti rejected the logical reconstruction of the conventional, arguing that any structural attempt to establish causality under specific conditions paradoxically allows room for the reintroduction of intrinsic nature (svabhāva). This rejection constitutes a pivotal turning point in Madhyamaka history.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "173",
+      "end_page": "203",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3c0c1e847fd68a446aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "찬드라키르티",
+        "산타락쉬타",
+        "사구부정",
+        "이일다성논증",
+        "정세속"
+      ],
+      "keywords_en": [
+        "Candrakīrti",
+        "catuṣkoṭi",
+        "Śāntarakṣita",
+        "ekānekasvabhāvaviyoga",
+        "tathya-saṃvṛti"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3c0c1e847fd68a446aae8a972f9116fb"
+    },
+    {
+      "article_id": "eb657036e0beba25b36097776a77e665",
+      "title_kr": "도선(道宣) 계율사상의 수행론적 구조 - 『행사초』와 『갈마소』를 중심으로 -",
+      "title_en": "Daoxuan’s Vinaya Thought as a Soteriological Structure - Focusing on the Xingshi chao and the Jiemo shu -",
+      "authors": [
+        {
+          "name": "천미순",
+          "affiliation": "봉녕사",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 도선(道宣)의 율학을 사분율 주석 체계로 이해하는 통념에서 나아가, 그가 계율을 심성의 변화와 수행의 과정 속에서 이해하였음을 밝히는 데 목적을 둔다. 이를 위해 『사분율산번보궐행사초』와 『사분율산보수기갈마소』를 중심으로 도선 율학의 특징과 그 수행적 성격을 분석하였다.먼저 『행사초』에 나타난 삼학 연동의 수행 구조와 「문의결통의」‧「표종현덕편」의 논의를 통해 도선이 계율을 수행 전반과 분리되지 않는 것으로 이해하였음을 살펴보았다. 이어 사분율의 분통대승적 성격과 수계의식에서 강조된 대승 서원 및 상품심의 의미를 검토함으로써, 성문율의 실천이 대승적 발심과 연결되는 방식을 고찰하였다.나아가 도선은 계체를 수계의 일회적 결과가 아니라, 본장식에 형성된 선종자(善種子)가 현행과 재훈습을 거치며 지속되는 과정으로 이해하였으며, 수중(受中)‧수중(隨中)의 구조와 삼취정계에 대한 설명을 통해 이를 구체화하였다.이상의 논의에 따르면 도선 율학은 성문율의 규범 체계를 유지하면서도 이를 대승 수행과 분리하지 않았으며, 그 궁극적 방향은 ‘종귀대승(終歸大乘)’에 있음을 알 수 있다. 이러한 도선의 계율사상은 동아시아 불교에서 성문율에 입각하면서도 대승 수행을 함께 실천하는 ‘대소겸수’의 계율관이 형성되는 데 중요한 사상적 기반이 되었다.",
+      "abstract_en": "This study reexamines the Vinaya thought of Daoxuan (道宣, 596–667) not simply as a scholastic commentary on the Four-Part Vinaya (Sifen lü), but as a comprehensive Mahāyāna-oriented framework of practice grounded in a soteriological theory of mind. Focusing on the Sifen lü shanfan buque xingshi chao (Xingshi chao) and the Sifen lü shanbu suiji jiemo shu (Jiemo shu), the paper investigates the theoretical foundations and soteriological structure underlying his understanding of precepts.Daoxuan did not treat precepts as external norms or institutional regulations; rather, he understood them as conditions that discipline and transform the mind. From this perspective, the precept-substance (jieti, 戒體) is not a one-time conferral at ordination, but a dynamic mental structure formed as wholesome seeds within the storehouse consciousness through ritual action and initial aspiration, and continually activated through ongoing observance and repeated cultivation.This understanding is articulated in the Xingshi chao through the dual framework of reception (shou, 受) and subsequent observance (sui, 隨), which foregrounds post-ordination practice as integral to the realization of precepts.Moreover, Daoxuan interprets full ordination as a Mahāyāna act of aspiration by linking it to bodhisattva precepts, and explains the Three Clusters of Pure Precepts (sanju jingjie, 三聚淨戒) in relation to the functional manifestation of the Buddha’s three bodies. Vinaya practice is thereby understood not simply as moral discipline, but as a mode of cultivation in which ethical conduct, wisdom, and bodhisattva practice are developed together.Ultimately, this study argues that Daoxuan’s Vinaya thought is consistently oriented toward the principle of “ultimate orientation toward Mahāyāna” (zhonggui dasheng, 終歸大乘), providing a doctrinal foundation for the East Asian tradition in which the precepts of the Sifen lü and the bodhisattva precepts were received and practiced together rather than understood as mutually opposed.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "205",
+      "end_page": "242",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=eb657036e0beba25b36097776a77e665",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "도선(道宣)",
+        "사분율",
+        "계체(戒體)",
+        "행사초(行事鈔)",
+        "갈마소(羯磨疏)"
+      ],
+      "keywords_en": [
+        "Daoxuan (道宣)",
+        "Four-Part Vinaya (Sifen lü)",
+        "Precept-Substance (Jieti)",
+        "Vinaya Practice",
+        "Soteriological Structure"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "eb657036e0beba25b36097776a77e665"
+    },
+    {
+      "article_id": "27bf9253980aee5c7f7a54760bb41745",
+      "title_kr": "선(禪)의 질문 정신 - 『직지심체요절』을 중심으로 -",
+      "title_en": "The Spirit of Questioning in Jikji Simche Yojeol - An Inquiry into ‘Direct Pointing’ and ‘Direct Vision’ in Seon Buddhism -",
+      "authors": [
+        {
+          "name": "이복희",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "동아시아 선(禪)의 역사는 본질적으로 ‘질문’의 역사이다. 본 연구는 고려 후기 백운경한이 편찬한 『백운화상초록불조직지심체요절』(이하『직지』)에 나타난 선문답과 질문의 용례를 분석하여, 선에서 질문이 기능하는 본질적인 정신과 작동 원리를 규명하고자 한다. 기존의 『직지』 연구가 주로 금속활자본이라는 서지학적 가치에 중점을 둔 것에서 한 걸음 나아가, 본 논문은 텍스트 내면에 담긴 ‘질문의 기술과 정신’이라는 실천적 가치에 주목하였다. 『직지』에 수록된 질문은 지적 호기심을 충족하거나 교리적 해답을 구하기 위한 수단이 아니라, 그 자체로 답이 소거된 거대한 ‘의문 덩어리’로서 학인의 고착된 인식을 붕괴시키고 본성을 직시하게 만드는 고도의 교육적 장치이다.본 연구는 이러한 선의 질문 정신을 세 가지 특성으로 체계화하였다. 첫째, ‘목적성’이다. 선의 질문은 밖으로 향하던 시선을 내면으로 돌려 분별망상을 끊어내고 지혜와 해탈로 직입하게 하는 철저한 구도의 지향성을 지닌다. 둘째, ‘현장성’이다. 백운은 해석 체계를 걷어내고 독자를 깨달음이 드러나는 치열한 문답의 무대 위로 소환함으로써 텍스트를 살아있는 수행의 현장으로 전환시켰다. 셋째, ‘역동성’이다. 학인의 물음과 선지식이라는 자극이 마주치는 역동의 과정은 존재의 실상을 직시(直視)하게 한다.본고는 이 세 특성이 선문헌 일반에서도 공유되는 보편적 속성임을 인정하면서, 『직지』의 고유성은 그 구현 양태에 있음을 『벽암록』 및 『선문염송』과의 비교를 통해 규명하였다. 즉 백운은 편찬자의 착어를 20곳으로 절제함으로써, 독자를 편찬자가 아닌 불조(佛祖)의 본문과 직접 대면하게 하는 ‘언어의 절제’를 방법론으로 채택하였다. 또한 선지식의 직지(直指)에서 학인의 직시(直視)로 이어지는 전환의 찰나는 종밀(宗密)의 공적영지(空寂靈知) 개념을 통해, 외부의 부가적 작용이 아닌 본래 영지의 드러남으로 해명될 수 있음을 제시하였다. 결론적으로 『직지』는, 과거의 기록을 넘어 사유의 단절을 이끌어내는 깨달음의 지침서이며, 선의 본질인 질문의 정신을 회복한다는 의의를 지닌다.",
+      "abstract_en": "The history of East Asian Seon(Zen) is essentially a history of “questioning.” This study analyzes Seon dialogues in Baegun hwasang chorok buljo jikji simche yojeol (hereafter Jikji), compiled by Baegun Gyeonghan(白雲景閑) in the late Goryeo period, to elucidate the operational principles of questioning in Seon. Moving beyond scholarship focused on Jikji’s bibliographical value as the world’s oldest metal-type print, this paper highlights the “art and spirit of questioning” embedded within the text. Questions in Jikji are not tools for intellectual curiosity but pedagogical expedients—‘blocks of doubt’ with answers eliminated—designed to shatter fixed perceptions and induce direct encounter with one’s original nature. This study systematizes the Seon spirit of questioning into three characteristics. First, “purposefulness” refers to the orientation that turns the gaze inward toward wisdom and liberation. Second, “situational presence” signifies the transformation of the text into a live stage for awakening. Third, “dynamics” denotes the process in which the practitioner’s inquiry clashes with the master’s unpredictable stimuli to deconstruct ego-identity. While acknowledging that these characteristics are shared across East Asian Seon literature, this study identifies Jikji’s distinctiveness in its mode of embodiment, through comparison with the Biyan lu (碧巖錄) and Seonmun yeomsong (禪門拈頌). Baegun confined his editorial interventions (chakeo, 著語) to only twenty instances, adopting a methodology of “linguistic restraint” that brings the reader into direct encounter with the texts of the Buddhas and patriarchs rather than the compiler’s commentary. Furthermore, the transition from the master’s “Direct Pointing”(直指) to the practitioner’s “Direct Vision”(直視) is elucidated through Guifeng Zongmi’s(圭峰宗密) concept of “empty and quiescent numinous awareness”(空寂靈知), which conceives this transition not as an external stimulus but as the self-retrieval of an originally functioning awareness. In conclusion, this study repositions Jikji within East Asian Seon literature as a unique text embodying the spirit of inquiry through “linguistic restraint.”",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "243",
+      "end_page": "270",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=27bf9253980aee5c7f7a54760bb41745",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "동아시아 선(禪)",
+        "질문",
+        "의문",
+        "직지(直指)",
+        "직시(直視)"
+      ],
+      "keywords_en": [
+        "East Asian Seon",
+        "Questioning",
+        "Doubt",
+        "Direct Pointing (Jikji)",
+        "Direct Vision (Jiksi)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "27bf9253980aee5c7f7a54760bb41745"
+    },
+    {
+      "article_id": "eb657036e0beba257ecd42904f0c5d65",
+      "title_kr": "백파(白坡)는 외롭지 않았다 - 조선 후기 삼종선(三種禪)의 지지자들 -",
+      "title_en": "Baekpa was not Lonely - The Proponents of the Threefold Seon Theory in the Late Joseon Period -",
+      "authors": [
+        {
+          "name": "박진영",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "삼종선은 선을 비평하기 위한 일종의 분석 틀로서, 조선 후기에 개발되어 19세기 선리 논쟁의 쟁점 중 하나로 떠올랐다. 선의 유형에는 조사선, 여래선, 의리선이 있으며, 이 가운데 조사선과 여래선은 격외선에 속한다는 것이 삼종선의 기본 구조이다. 삼종선을 지지했던 인물로는 선리 논쟁에 참여한 백파 긍선과 설두 봉기 외에도 응운 인전, 해붕 전령이 있었다. 본 연구는 이들 네 선사의 삼종선에 대한 의론을 파악하는 데 목적을 둔다.백파와 설두가 삼종선론의 체계를 확립한 대표자들이라면, 응운과 해붕은 삼종선을 설했지만 그동안 조명되지 않았던 숨은 지지자들이었다. 백파는 삼종선과 임제 3구를 결합하여 근기에 따른 우열을 설정했으며, 삼종선의 적용 대상을 삼처전심과 선종 5가의 종지 등 다양한 주제로 확대해 나갔다. 설두는 백파의 삼종선론을 옹호하면서 세부적인 논지와 논거를 보충하였다. 응운도 백파가 고안한 이론을 대부분 수용하여 임제 3구 기반의 삼종선론을 펼쳤다. 부휴계인 해붕은 삼종선을 임제 3구와 연계하지 않았으며, 의리선을 교학으로 간주하는 독자적인 삼종선 이해를 보여 주었다. 이 같은 연구 내용은 삼종선의 사상사적 위상 및 선리 논쟁의 구도를 재인식할 수 있는 시사점을 제공한다.",
+      "abstract_en": "The Threefold Seon (三種禪) theory was developed in the late Joseon period as an analytical framework for evaluating Seon. It became one of the major issues in the Seon Doctrinal Controversy of the nineteenth century. This theory classified Seon into Patriarchal Seon (祖師禪), Tathāgata Seon (如來禪), and Doctrinal Seon (義理禪); among these, Patriarchal Seon and Tathāgata Seon are categorized as belonging to Extra-doctrinal Seon (格外禪). In addition to Baekpa Geungseon (白坡亘璇, 1767-1852) and Seoldu Bong-gi (雪竇奉琪, 1824-1889), participants in the Seon Doctrinal Controversy, other proponents of the theory included Eung-un Injeon (應雲仁全, 1794-?) and Haebung Jeonryeong (海鵬展翎, ?- 1826). This study examines the discourses of these four Seon masters on the Threefold Seon.While Baekpa and Seoldu were the principal figures who systematized the Threefold Seon theory, Eung-un and Haebung may be regarded as its lesser-known proponents, who articulated the Threefold Seon but have received little scholarly attention. Baekpa integrated the Threefold Seon with the Linji’s Three Phrases (臨濟三句), thereby establishing a hierarchical structure based on practitioners’ capacities and extending its application to various subjects, including the Threefold Transmission of Mind (三處傳心) and the principal teaching of the Five Schools of Seon (禪宗五家). Seoldu upheld Baekpa’s theory, complementing it with more elaborate reasoning and textual evidence. Eung-un likewise adopted much of Baekpa’s approach, developing the theory grounded in the Linji’s Three Phrases. Haebung, a member of the Buhyu’s lineage (浮休系), did not associate the Threefold Seon with the Three Phrases and interpreted Doctrinal Seon as scriptural doctrine. These findings have important implications for reexamining the historical status of the Threefold Seon theory and the overall configuration of the Seon Doctrinal Controversy.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "271",
+      "end_page": "300",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=eb657036e0beba257ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "선리 논쟁",
+        "백파 긍선",
+        "설두 봉기",
+        "응운 인전",
+        "해붕 전령"
+      ],
+      "keywords_en": [
+        "Seon Doctrinal Controversy",
+        "Baekpa Geungseon",
+        "Seoldu Bong-gi",
+        "Eung-un Injeon",
+        "Haebung Jeonryeong"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "eb657036e0beba257ecd42904f0c5d65"
+    },
+    {
+      "article_id": "27bf9253980aee5ce9810257f7042666",
+      "title_kr": "19세기 참선계 불교가사의 성격과 불교사적 의미",
+      "title_en": "The Nature and Buddhist Historical Significance of 19th-Century Buddhist Gasa Works Focusing on Seon Meditation",
+      "authors": [
+        {
+          "name": "김기종",
+          "affiliation": "전북대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "19세기 참선계 불교가사는 중생의 괴로움‧인생무상‧세상사의 몽환 등을 ‘참선의 이유’로 제시하고 있고, ‘참선의 방법’으로는 회광반조‧칭명염불‧간화선‧염불선 등을 들고 있다. 대부분의 가사들이 한 작품 안에 두 가지의 참선 방법을 함께 서술하고 있다. ‘참선의 결과’는 모든 작품들에서 ‘성불’을 노래하고 있는데, 성불을 의미하는 직접적인 시어와 간접적인 표현을 사용하고 있다. 참선의 이유‧방법‧결과로 구성된 작품들이 가장 큰 비중을 차지하고 있지만, 참선의 결과만을 노래한 가사들도 다수 존재한다. 몇몇 작품의 경우는 참선의 이유‧결과에서 왕생계 불교가사의 일부 내용을 수용하고 있다.이상과 같은 논의 결과는 조선후기 불교계의 수행체계인 ‘삼문(三門)’의 정립과 그로 인한 ‘원돈문(圓頓門)’‧‘염불문(念佛門)’의 확산‧성행과 관련이 있다. 왕생계 불교가사의 일부 내용 및 칭명염불의 수용과, 한 작품 안에서의 간화선‧염불선의 공존은 불교계의 염불문 성행이 투영된 것이자, 원돈문‧염불문의 성행에 대한 당시 선사(禪師)들의 문학적 대응으로 볼 수 있다. 그리고 참선의 결과만을 노래하고 있는 가사의 창작은 원돈문‧염불문과 구별되는 경절문의 우월성을 보여주기 위한 것이라 할 수 있다. 원돈문‧염불문보다 우월한 참선의 이익 내지 중요성을 알리는 데 있어서, 참선 수행의 결과로 얻은 화자 자신의 깨달음의 세계를 노래하는 것만큼 효과적인 방법은 없을 것이기 때문이다.결국, 19세기의 참선계 불교가사는 조선후기 불교계의 원돈문‧염불문의 확산‧성행과 경절문의 위축에 대한 문학적 대응으로, 청자층의 확대‧칭명염불의 수용‧청자의 근기에 따른 참선 방법의 제시를 통해 참선의 대중화를 시도하고 있다고 하겠다.",
+      "abstract_en": "The vast majority of 19th-century Buddhist Gasa works focusing on Seon meditation consist of works that discuss the reasons, methods, and results of Seon meditation. Many also sing solely of the results of Seon meditation. Some works incorporate elements of Buddhist Gasa works focusing on rebirth in the Pure land. The suffering of sentient beings, the impermanence of life, and the dreaminess of worldly affairs are presented as ‘reasons for Seon meditation’, while ‘methods of Seon meditation’ include the practice of Hoegwangbanjo, Chanting Amitabha’s Name, Ganhwa Seon, Yeombulseon. Most of these Gasa works describe two different Zen methods within a single work. The ‘result of Seon meditation’ in all works sings of ‘becoming a Buddha’, employing both direct and indirect poetic expressions of this attainment.The results of the above discussion are related to the establishment of the ‘Discipline of Three Gates’, a system of practice in the Buddhist world in the late Joseon Dynasty, and the resulting spread and popularity of Huayan scholasticism and Chanting Amitabha’s Name. The acceptance of some of the content of the Buddhist Gasa works focusing on rebirth in the Pure land and the practice of Chanting Amitabha’s Name, as well as the coexistence of Ganhwaseon, and Yeombulseon within a single work, can be seen as a reflection of the prevalence of Chanting Amitabha’s Name in the Buddhist community and a literary response to the prevalence of Huayan scholasticism and Chanting Amitabha’s Name. Furthermore, the creation of Gasa works that sing only of the results of Seon meditation can be seen as an attempt to demonstrate the superiority of Seon meditation over Huayan scholasticism and Chanting Amitabha’s Name. There is no method more effective than singing about the speaker’s own world of enlightenment, achieved as a result of Seon meditation practice.Ultimately, the 19th century Buddhist Gasa works focusing on Seon meditation were created as a literary response to the spread and popularity of Huayan scholasticism and Chanting Amitabha’s Name in the Buddhist world in the late Joseon Dynasty and the decline of Seon meditation. They can be said to be an attempt to popularize Seon meditation by expanding the audience, accepting the practice of Chanting Amitabha’s Name, and presenting Seon meditation methods according to the listener’s innate abilities.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "303",
+      "end_page": "332",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=27bf9253980aee5ce9810257f7042666",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "19세기 참선계 불교가사",
+        "성불",
+        "간화선",
+        "염불선",
+        "시심마"
+      ],
+      "keywords_en": [
+        "19th-century Buddhist Gasa works focusing on Seon meditation",
+        "becoming a Buddha",
+        "Ganhwaseon",
+        "Yeombulseon",
+        "Sisimma(是甚麼)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "27bf9253980aee5ce9810257f7042666"
+    },
+    {
+      "article_id": "eb657036e0beba25c85d2949c297615a",
+      "title_kr": "PBL 기반의 진관사 국행수륙재(國行水陸齋)를 활용한 불교 어린이법회 교육 프로그램 운영 사례 및 실천 과제",
+      "title_en": "A Case Study and Practical Tasks of a PBL-based Buddhist Children’s Dharma Program Using the Jinkwansa Gukhaeng Suryukjae(國行水陸齋)",
+      "authors": [
+        {
+          "name": "장상지",
+          "affiliation": "진관사",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구의 목적은 국가무형유산인 진관사 국행수륙재(國行水陸齋)의 무차평등(無遮平等) 사상을 문제중심학습(PBL)과 결합한 어린이법회 교육 프로그램의 운영 사례를 분석하고, 이를 바탕으로 지속 가능한 불교 어린이 포교를 위한 실천 과제를 도출하는 데 있다. 이를 위해 2024년 9월 1일부터 12월 29일까지 약 4개월간 지도법사, 지도교사, 어린이, 부모 등 총 123명을 대상으로 19차시의 프로젝트형 프로그램을 운영하였다. 프로그램 운영 결과 참여자의 반응과 평가를 중심으로 팀별평가와 교수자평가를 실시하였고 정량적‧정성적 방법을 병행하여 분석하였다. 연구 결과 본 프로그램은 첫째, 불교적 스토리텔링과 문화 체험 활동을 융합하여 수륙재의 자비 사상을 어린이의 삶과 연계하는 ‘사유와 실천의 통합적 인성교육’ 모델로 기능함을 확인하였다. 둘째, 어린이‧부모‧교수자가 유기적으로 연계된 다층적 협력 구조를 통해 불교적 공동체 의식을 함양하는 데 효과적임을 확인하였다. 셋째, 범패(梵唄)와 작법무(作法舞) 등 수륙재의 연행 요소를 현대적 교육 콘텐츠로 재구성함으로써 미래 세대를 문화유산의 주체적 전승자로 양성하고, 어린이 포교의 교육적 확장 가능성을 제시하였다. 나아가 참여자 의견 분석을 통해 운영 매뉴얼 구축, 역할‧책임(R&R)의 명확화 등 어린이법회 운영의 내실화를 위한 실천 과제가 도출되었다. 결론적으로 본 연구는 진관사 국행수륙재를 활용한 PBL 기반의 어린이법회 프로그램이 불교교육의 현대적 적용 가능성과 향후 불교 포교 및 문화유산 교육의 실천적 기반으로 활용될 수 있음을 시사한다.",
+      "abstract_en": "This study aims to analyze a case of Buddhist children’s Dharma program that integrates problem-based learning (PBL) with the principle of non-discriminatory equality (無遮平等) embodied in the Jinkwansa Gukhaeng Suryukjae (國行水陸齋), a National Intangible Cultural Heritage of Korea. Based on this analysis, the study seeks to derive practical tasks to sustainably propagate Buddhism among children. This study operated a 19-session project-based program for a total of 123 participants, including instructors, teachers, children, and parents, for approximately four months from September 1 to December 29, 2024.The program’s outcomes were examined through both quantitative and qualitative analyses of participants’ responses and evaluations, utilizing team-based assessments and instructor evaluations. The findings are as follows. First, the program was confirmed as an integrated model of character education that combines contemplation and practice, effectively linking the compassionate values of the Suryukjae with children’s lives through the convergence of Buddhist storytelling and experiential cultural activities. Second, the program was found to be effective in fostering a sense of Buddhist community through a multi- layered collaborative structure that organically linked children, parents, and instructors. Third, the program reconstructed performative elements of the Suryukjae—such as beompae (梵唄) and jakbeommu (作法舞)—into contemporary educational content. This approach contributed to cultivating future generations as active transmitters of cultural heritage and demonstrated the educational potential of Buddhist children’s Dharma programs. Furthermore, the analysis of participant opinion identified practical tasks, including developing operational manuals and clarifying roles and responsibilities (R&R).In conclusion, this study suggests that a PBL-based Buddhist children’s Dharma program utilizing the Jinkwansa Gukhaeng Suryukjae provides a viable model for the contemporary application of Buddhist education and a practical foundation for future Buddhist propagation and heritage education.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "333",
+      "end_page": "368",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=eb657036e0beba25c85d2949c297615a",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "진관사 국행수륙재(國行水陸齋)",
+        "불교교육",
+        "어린이법회 프로그램",
+        "인성교육",
+        "문제중심학습(PBL)"
+      ],
+      "keywords_en": [
+        "Jinkwansa Gukhaeng Suryukjae(國行水陸齋)",
+        "Buddhist Education",
+        "Children’s Dharma Program",
+        "Character Education",
+        "Problem Based Learning"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "eb657036e0beba25c85d2949c297615a"
+    },
+    {
+      "article_id": "eb657036e0beba25b7998d826d417196",
+      "title_kr": "문화콘텐츠로서의 사찰음식 소비자 행동 분석 - 주관적 웰빙의 매개효과를 중심으로 -",
+      "title_en": "Analyzing Consumer Behavior toward Temple Food as Cultural Content - Focusing on the Mediating Effect of Subjective Well-being -",
+      "authors": [
+        {
+          "name": "강경갑",
+          "affiliation": "상명대학교)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "홍완수",
+          "affiliation": "상명대학교)\n                            \n                                    ;",
+          "order": "2"
+        },
+        {
+          "name": "김일림",
+          "affiliation": "상명대학교",
+          "order": "3"
+        }
+      ],
+      "abstract_kr": "본 연구는 사찰음식 소비자의 주관적 웰빙이 선택속성(건강성, 완성도)과 만족도(건강철학, 미식가치), 행동 의도 간의 관계에서 수행하는 다차원적 매개 역할을 실증 분석하였다.2025년 3월 사찰음식 경험자 467명을 대상으로 설문조사를 실시한 결과 첫째, 선택속성의 건강성과 완성도는 모든 만족도 요인에 유의미한 정(+)의 영향을 미쳤다.둘째, 선택속성과 만족도 간의 관계에서 주관적 웰빙 하위요인별 매개 효과를 분석한 결과, 완성도는 긍정 정서와 삶의 만족을 통해 만족도를 제고하는 부분 매개 경로가 확인된 반면, 건강성은 정서적 매개 없이 직접적으로 만족도에 투영되었다.셋째, 만족도가 행동 의도에 미치는 영향에서 삶의 만족은 유의미한 역방향 부분 매개 효과를 나타냈다. 이는 사찰음식 만족이 전반적인 삶의 만족도를 높이지만, 충족된 안녕감이 역설적으로 추가적인 행동 의지를 상쇄할 수 있다는 ‘쾌락 적응’의 기제를 시사한다.본 연구는 사찰음식의 가치가 심리적 웰빙을 거쳐 행동으로 연결되는 복합적인 메커니즘을 규명함으로써 단순한 건강식을 넘어 현대인의 삶의 질을 향상시키는 문화 콘텐츠로서의 사찰음식 마케팅 전략 수립에 실무적 시사점을 제공한다.",
+      "abstract_en": "This study empirically investigated the multi-dimensional mediating role of subjective well-being in the relationship between choice attributes (healthiness, completeness), satisfaction (health philosophy, gastronomic value), and behavioral intentions among temple food consumers. Based on an online survey of 467 experienced temple food consumers conducted in March 2025, the results are as follows.First, both healthiness and completeness of choice attributes had a significant positive effect on all satisfaction factors.Second, the analysis of the mediating effect of each sub-factor of subjective well-being revealed that completeness had a partial mediating path enhancing satisfaction through positive affect and life satisfaction. In contrast, healthiness was directly reflected in satisfaction without emotional mediation. Negative affect did not function as a mediator between choice attributes and satisfaction.Third, life satisfaction showed a significant reverse partial mediating effect in the relationship between satisfaction and behavioral intention. This suggests a mechanism of ‘Hedonic Adaptation,’ where the enhancement of overall life satisfaction through temple food paradoxically offsets the intention for additional behavioral engagement.By elucidating the complex mechanism through which the value of temple food is linked to behavior via psychological well-being, this study provides practical implications for developing marketing strategies for temple food as a cultural content that improves the quality of life beyond simple healthy eating.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "start_page": "369",
+      "end_page": "404",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=eb657036e0beba25b7998d826d417196",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "사찰음식",
+        "주관적 웰빙",
+        "선택속성",
+        "만족도",
+        "행동 의도"
+      ],
+      "keywords_en": [
+        "Temple food",
+        "Subjective well-being",
+        "Choice attributes",
+        "Satisfaction",
+        "Behavioural intention"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "eb657036e0beba25b7998d826d417196"
     }
   ],
   "by_year": {
