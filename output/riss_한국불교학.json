@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.85,
     "control_no": "cb236634237a7a74",
-    "last_updated": "2026-06-07"
+    "last_updated": "2026-06-28"
   },
   "articles": [
     {
@@ -50638,6 +50638,97 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "eb657036e0beba25b7998d826d417196"
+    },
+    {
+      "article_id": "2ad47e95d289be217ecd42904f0c5d65",
+      "title_kr": "석남암사 비로자나불좌상으로 보는 8세기 신라의 불교 미술과 밀교 의례",
+      "title_en": "Buddhist Art and Esoteric Ritual in Eighth-Century Silla - The Vairocana Buddha at Seoknamamsa",
+      "authors": [
+        {
+          "name": "최선아",
+          "affiliation": "명지대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 현재 경남 산청 덕산사(구 내원사)에 봉안된 석남암사 비로자나불좌상을 중심으로 8세기 신라 불교 미술에 보이는 밀교 신앙과 의례의 다채로운 면모를 조명한다. 그동안 신라 불교 미술에서 밀교의 역할은 상대적으로 축소되었다. 중기 밀교의 수인인 지권인을 결한 석남암사 비로자나불상도 화엄의 맥락에서 밀교의 도상을 차용했을 뿐, 밀교와의 관련은 적은 것으로 여겨졌다. 본 논문은 “불상을 보거나, 불상에 대해 듣거나, 불상의 그림자 안에 들거나, 불상을 스치는 바람을 맞는 이들 모두가 삼악도의 업을 소멸하기를 바란다”는 석남암사 비로자나불좌상 명문의 내용이 『무구정광대다라니경』 등 8세기 신라에 소개되고 유통되고 있던 다라니경에서 비롯되었음을 강조하는 한편, 이 상에서 확인되는 여러 요소들―화엄과 밀교, 초기 밀교와 중기 밀교―의 공존은 8세기 신라 불교 미술에 전반적으로 보이는 특징임을 주장한다. 석굴암, 칠불암과 굴불사지 사면 석불의 약사여래상, 경주 읍성에서 수습한 석탑 부조, <신라 백지묵서 대방광불화엄경>, 壇에 관한 『삼국유사』의 기사가 그 예로, 이들에 대한 재검토를 통해 8세기 신라미술에는 신앙이자 의례로서의 밀교가 종파론이나 학문적 편의에 따라 구획한 단계에 국한되지 않고 여러 형태와 방식으로 널리 반영되고 활용되었음을 확인한다.",
+      "abstract_en": "This paper examines the diverse manifestations of Esoteric Buddhist beliefs and rituals in eighth-century Silla Buddhist art, focusing on the seated Vairocana Buddha from Seoknamamsa, now enshrined at Deoksansa (formerly Naewonsa) in Sancheong, Gyeongsangnam-do. The role of Esoteric Buddhism in Silla Buddhist art has long been underestimated. Even the Seoknamamsa Vairocana Buddha, which displays the bodhyagri mudrā (智拳印), the characteristic mudrā of the Mature Esoteric period, has often been regarded merely as an adoption of Esoteric iconography within the context of the Avataṃsaka (Huayan) tradition, with little genuine connection to Esoteric practice itself.This study argues, however, that the inscription of the Seoknamamsa Vairocana Buddha―“May all who see the image, hear of it, enter its shadow, or be touched by the wind that passes by it eradicate the karma leading to the three evil realms”―derives from dhāraṇī scriptures such as the Wugou jingguang da tuoluoni jing (無垢淨光⼤陀羅尼經), which were introduced and circulated in Silla during the eighth century. Furthermore, the coexistence of various elements observable in this statue―Huayan and Esoteric Buddhism, early and mature forms of Esotericism―reflects a broader characteristic of eighth-century Silla Buddhist art.Examples such as Seokguram, the Silla Manuscript of the Avataṃsaka Sūtra, a relief from the stone pagoda brought from Gyeongju Fortress Town, and the Medicine Buddha images at Chilburam and Gulbulsa, as well as the account of the altar (壇) in the Samguk yusa, collectively demonstrate that Esoteric Buddhism in Silla was not confined to doctrinal or sectarian boundaries. Rather, it was widely represented and practiced in diverse forms―as both belief and ritual―throughout the artistic and religious culture of the time.",
+      "journal_name": "한국불교학",
+      "year": "2025",
+      "volume": "67",
+      "issue": "",
+      "start_page": "7",
+      "end_page": "38",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/recommender/click.do?db=3&link_type=sdMeNonUser&p_mat_type=1a0202e37d52c72d&control_no=2ad47e95d289be217ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "석남암사(石南巖寺)",
+        "비로자나(毘盧遮那)",
+        "무구정광대다라니경(無垢淨光大陀羅尼經)",
+        "밀교(密敎)",
+        "불정존승다라니경(佛頂尊勝陀羅尼經)",
+        "신라 백지묵서 대방광불화엄경(新羅白紙墨書 大方廣佛華嚴經)",
+        "약사(藥師)",
+        "단(壇)"
+      ],
+      "keywords_en": [
+        "Vairocana(毘盧遮那)",
+        "Esoteric Buddhism(密敎)",
+        "dharani(陀羅尼)",
+        "ritual(儀禮)",
+        "Medicine Buddha(藥師)",
+        "altar(壇)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "2ad47e95d289be217ecd42904f0c5d65"
+    },
+    {
+      "article_id": "99089be92b0cfca0e9810257f7042666",
+      "title_kr": "新羅皇龍寺丈六像(신라황룡사장육상)의 淵源(연원)과 性格(성격) -6世紀(세기) 中國(중국) 南北朝時代(남북조시대)政治的瑞像(정치적서상)과 比較分析(비교분석)을 통한 연구",
+      "title_en": "The origin and characteristics of Jiang-Liu Statue in Hwangnyongsa -A comparative study on the political auspicious image of the Northern and Southern Dynasties, China, in the 6thcentury",
+      "authors": [
+        {
+          "name": "소현숙 ( Hyun Sook So )",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "The Jiang-Liu statue completed in the year 35 of King Jinheung (574) is close related with the religion of the Ashokan statue. And it was a political auspicious image that had secured the legitimacy of Shilla Dynasty showing the presages of large national events. This paper intende to identify the characteristic of Jang-Liu statue of Hwangnyongsa(皇龍寺) through comparative analysis of the political auspicious image of China in the 6thcentury. The Ashokan statue worship was mostly popular in the Southern Dynasties until 574 when the statue of Hwangnyongsa was completed. The Ashokan statue worship appeared in the Northern Dynasties after occupation of Chengdu(成都) and Jiangling (江陵) of Western Wei(西魏) in 553 and 554, respectively. And in the north of the Yangtze River(揚子江) the Ashokan statue worship was appeared at last in 570. Therefore, it is clear that the Jiang-Liu statue of Hwangnyongsa was constructed under the religious influence of Ashokan statues of the Southern Dynasties. The most specific characteristic of Jiang-Liu statue of Hwangnyongsa is that it is the monumental statue of the Buddha representing Shilla and was a political auspicious image that was close related with the national authority showing the presages of large national events. The tradition that the statue of the Buddha were idolized as the political auspicious image that was close related with the authority of the country or emperor was relative significant in Liang(梁) Dynasty. However, the tradition of political auspicious image seemed to be very weak in the Northern Dynasties and appeared in unified Sui(隋) Dynasty. Therefore, it is indicated that the Jiang-Liu statue of Hwangnyongsa was constructed as a political auspicious image under the strong influence of the Southern Dynasties. The influence of the Southern Dynasties is also indicated in the appearance process that the Buddhist auspicious signs appeared through a sea. It could be identified that the Buddhist culture of the Southern Dynasties influenced in construction of Jiang-Liu statue of Hwangnyongsa through the comparative analysis focused in above-stated three directions. Meanwhile, the characteristics of the Southern Dynasties were very significant in the Jiang-Liu statue of Hwangnyongsa such originality was more emphasized in the historical tale of the Jiang-Liu statue of Hwangnyongsa. When reviewing the related records, it is emphasized that the large statue, Jiang-Liu statue of Hwnagnyongsa, could not be completed by King Ashoka but was completed by King Jinheung. Also, Jiang-Liu was emphasized in the explanation that such statue was called the Jiang-Liu statue and that the place to put such statue was called Jiang-Liu shrine . Jiang-Liu was considered to be the real body of Sakyamuni and the whole Buddha in China in the 6thCentury. As the statue of the Buddha of Hwangnyongsa was called Sakyamuni Statue, Jiang-Liu statue was the very real body of Sakyamuni. Therefore, the completion of the Jiang-Liu statue of Hwangnyongsa would be recognized to be the appearance of Sakyamuni in the land of Shilla and Shilla was naturally changed to the Pure Land. When it is considered that the statues made by King Ashoka, King Cakravartin of India, were transmitted to the Southern Dynasties, it is indicated that the adoration of political auspicious images in the Southern Dynasties in the 6thcentury had the structure to secure the legitimacy of a dynasty. In other words, the structure was that the legitimacy of a dynasty was secured depending upon a sage king of the old days. This was “the Returning to the Ancients(復古)” which had been used in China from a long time ago so that the legitimacy of dynasties might be secured. While, as it was emphasized that Jiang-Liu statue of Hwangnyongsa was completed in spite of the failure made by King Ashoka, the method to be depended upon a sage king of the old days and a type different from that of the Southern Dynasties is shown; the reason would be the situation that Shilla had no political ideology for “security of legitimacy with he Returning to the Ancients” at that time differently from the dynasties of China.",
+      "abstract_en": "",
+      "journal_name": "한국불교학",
+      "year": "2012",
+      "volume": "37",
+      "issue": "",
+      "start_page": "5",
+      "end_page": "30",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/recommender/click.do?db=3&link_type=sdMeNonUser&p_mat_type=1a0202e37d52c72d&control_no=99089be92b0cfca0e9810257f7042666",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "황룡사",
+        "皇龍寺",
+        "장육상",
+        "丈六像",
+        "아육왕상",
+        "阿育王像",
+        "남조",
+        "南朝",
+        "정치적 서상",
+        "瑞像",
+        "독자성"
+      ],
+      "keywords_en": [
+        "Hangnyongsa",
+        "Jiang-Liu Statue",
+        "Ashokan Statue",
+        "Southern Dynasties",
+        "The Political Auspicious Image",
+        "Originality"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "99089be92b0cfca0e9810257f7042666"
     }
   ],
   "by_year": {
