@@ -127,6 +127,7 @@ jobs:
           DAY="${{ steps.day.outputs.day }}"
           DATE=$(date +'%Y-%m-%d')
           git commit -m "data: RISS 업데이트 [$DAY] $DATE"
+          git pull --rebase origin main
           git push
 
       - name: 업데이트 없음 안내
