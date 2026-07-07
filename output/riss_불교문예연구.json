@@ -3,7 +3,8 @@
     "name": "불교문예연구",
     "category": "불교학",
     "impact_factor": 0.91,
-    "control_no": "54b47b13bc649e27ffe0bdc3ef48d419"
+    "control_no": "54b47b13bc649e27ffe0bdc3ef48d419",
+    "last_updated": "2026-07-07"
   },
   "articles": [
     {
@@ -12447,6 +12448,530 @@
       ],
       "ai_keywords": [],
       "source": "RISS"
+    },
+    {
+      "article_id": "0f2a102f439166686aae8a972f9116fb",
+      "title_kr": "경제(京制) 중례문 수륙재 음악 연구",
+      "title_en": "A Study on the Ritual Music of the Gyeongge(京制) Jungnyemun(中禮文) Suryukjae(水陸齋)",
+      "authors": [
+        {
+          "name": "손인애",
+          "affiliation": "서울시 무형유산위원회",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 <경제어산> 중례문 수륙재에서 설행되는 평염불, 안채비소리(유치성・편계성・소성・착어성), 겉채비소리(홑소리)를 중심으로 그 음악적 특징과 의례적 기능을 고찰한 연구이다. 분석 결과, 중례문 수륙재의 음악은 단순한 의례 반주가 아니라 의례 구조와 교리 내용을 소리로 구현하는 체계적 음악 언어로 기능하고 있음을 확인할 수 있었다. 특히 안채비소리는 산문과 게송의 내용을 성조에 따라 음악화하는 ‘법문 전달형 음악 구조’를 형성하며, 유치성・편계성・소성・착어성은 각각 의례 절차와 교화 기능에 따라 서로 다른 역할을 수행한다. 또한 이들 소리는 한문 사성(四聲)에 따른 선율 운용을 비교적 엄격하게 유지하면서, 통절식 구조 속에서 성조와 의미에 반응하는 선율형을 지속적으로 활용한다는 특징을 보인다.음조직 측면에서는 메나리토리를 근간으로 하되 경기 음악어법이 부분적으로 혼입된 혼합적 양상이 확인된다. 특히 착어성은 넓은 음역과 변형된 경토리적 선율을 통해 다른 안채비소리보다 감화적이고 자애로운 음악성을 드러낸다. 아울러 대부분의 소리는 제한된 음역과 절제된 변주 속에서도 ‘짓는소리’를 통해 악구의 종결과 의례 단계의 전환을 명확히 드러내며, 의례적 질서를 유지한다. 한편 〈보통축원〉은 선후창 형식을 통해 대중 참여성을 보여주고, 〈엄정팔방〉은 도량 정화와 법회 개설의 의미를 장중하게 표현함으로써 겉채비소리의 상징성과 예술성을 드러낸다.요컨대 중례문 수륙재의 음악은 성조 중심의 선율 논리와 의례 기능이 유기적으로 결합된 ‘소리 중심 의례 체계’라 할 수 있으며, 이는 <경제어산> 범패 전승의 음악적 정체성을 집약적으로 보여주는 중요한 사례로 평가된다.",
+      "abstract_en": "This study examines the musical characteristics and ritual functions of the chants performed in the Jungnyemun Suryukjae of <Gyeongge Eosan(京制魚山)>, focusing on Pyeongyeombul, Anch’aebi sori, and Geotchaebi sori. The results show that the music of Jungnyemun Suryukjae functions not simply as ritual accompaniment, but as a systematic musical language that conveys Buddhist doctrine and ritual meaning through sound.In particular, Anch’aebi sori forms a sermon-oriented musical structure in which prose and verse texts are musicalized according to the four tones(四聲:平・上・去・入) of Classical Chinese. The melodies are generally through-composed and closely related to tonal contour and semantic meaning. Musically, the chants are based on the Menaritori mode while partially incorporating elements of the Gyeonggi regional musical style. Despite restrained melodic variation and limited pitch range, the music effectively articulates ritual order and transitions through distinctive cadential formulas.In addition, Botongchugwon (普通祝願) demonstrates collective participation through responsorial singing, while Eomjeong- palbang (嚴淨八方) symbolically expresses the purification of the ritual space and the opening of the Dharma assembly. Overall, the music of Jungnyemun Suryukjae represents a sound-centered ritual system in which melodic structure and ritual function are organically integrated, revealing the distinctive musical identity of the <Gyeongge Eosan> Beompae tradition.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "11",
+      "end_page": "39",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0f2a102f439166686aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어: 경제어산",
+        "중례문 수륙재",
+        "안채비소리",
+        "평염불",
+        "겉채비소리",
+        "성조(四聲)",
+        "메나리토리",
+        "경기 음악어법",
+        "법문 전달형 음악 구조"
+      ],
+      "keywords_en": [
+        "Keywords: Gyeongge Eosan",
+        "Jungnyemun Suryukjae",
+        "Beompae",
+        "Anch’aebi sori",
+        "Four Tones",
+        "Menaritori",
+        "ritual music"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "0f2a102f439166686aae8a972f9116fb"
+    },
+    {
+      "article_id": "4f7df29a1b1aff73b7998d826d417196",
+      "title_kr": "유교사회에서 불교 수륙재의 생태적 적응* - 하위(下位)의 조상의례와 헌식의(獻食儀)를 중심으로 -",
+      "title_en": "The Ecological Adaptation of Suryukjae in a Confucian Society: Focusing on Lower-Level Ancestor Rites and Heonsik-ui",
+      "authors": [
+        {
+          "name": "심일종",
+          "affiliation": "서울대학교 인문학연구원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 중국화된 불교인 격의불교가 한반도에 유입되는 과정을 살펴보면서 중국의 불교의례가 유교사회의 맥락에서 어떻게 기능해 왔는지를 논의하고 있다. 조선시대라는 사회문화적 상황은 불교의 존망을 뒤흔드는 정치적 사태일 수 있었으나, 불교의례를 통해 효(孝)와 조상의례를 실현시킴으로써 타협점을 찾고 있었던 것으로 보인다. 본 연구는 조선시대 불교의례를 다룸에 있어서 지반문으로 알려져 있는 『법계성범수륙승회수재의궤』를 중심으로 유교와 불교의 상관성의 문제를 짚어보면서 이 문제를 접근하였다.구체적으로 조선의 왕과 왕실과 사대부 그리고 민중들의 조상에 대한 효의 정신이 조상의 제사에서 하위의 아귀들을 불러내어 불보살의 교화의 설을 듣고 또 염불 다라니를 통해 시식을 법식으로 변화시켜서 배고픔과 갈증을 해소하면서 궁극적으로 천상으로 인도되기에 이르게 된다. 이러한 불교 수륙재의 설정은 조선 불교의 특이성을 낳았고 급기야 조선후기는 물론이고 오늘날 가정신앙과 마을신앙의 여러 신격들이 좌정하는 결과로 이어지는 것을 살펴보았다.",
+      "abstract_en": "This study examines the process by which \"Gyeogui Buddhism\" (matching-concept Buddhism) ─ a Sinicized form of the religion ─was introduced to the Korean Peninsula and discusses how Buddhist rituals functioned within the context of a Confucian society. While the socio-cultural landscape of the Joseon Dynasty posed a political threat to the very survival of Buddhism, the religion appears to have found a point of compromise by facilitating the practice of filial piety (孝) and ancestral rites through its ceremonial traditions. This research approaches the correlation between Confucianism and Buddhism by focusing on the 『Beopgye Seongbeom Suryuk Seung-hoe Sujae Uigwi』, commonly known as Jibanmun.Specifically, the study explores how the spirit of filial piety toward ancestors—held by the kings, the royal family, the literati (Sadaebu), and the common people—was manifested. In these rites, lower-level hungry ghosts (Pretas) are summoned to hear the teachings of Buddhas and Bodhisattvas. Through the chanting of Nembutsu and Dharani, ritual offerings are transformed into spiritual food (Dharma-food), alleviating their hunger and thirst and ultimately guiding them toward rebirth in heaven. This structural setting of the Suryuk-jae (Water and Land Ceremony) gave rise to the unique characteristics of Joseon Buddhism. Consequently, this study observes how these rituals led to the consolidation of various deities within domestic and village faiths, a phenomenon that persisted through the late Joseon period and continues into the present day.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "41",
+      "end_page": "75",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4f7df29a1b1aff73b7998d826d417196",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어: 효",
+        "조상",
+        "유교",
+        "불교",
+        "수륙재"
+      ],
+      "keywords_en": [
+        "Keywords: Filial Piety",
+        "Ancestors",
+        "Confucianism",
+        "Buddhism",
+        "Suryukjae"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "4f7df29a1b1aff73b7998d826d417196"
+    },
+    {
+      "article_id": "67a1420cc6d619017ecd42904f0c5d65",
+      "title_kr": "『법계성범수륙승회수재의궤』에 나타난 법계일심론(法界一心論)과 선정쌍수론(禪淨雙修論) 고찰",
+      "title_en": "A Study of the Theory of Beopbyeilsim (法界一心論) and Seonjeongssangs (禪淨雙修論) in the Beobgye Seongbeom Suryukseunghoe Sujaeui Gye",
+      "authors": [
+        {
+          "name": "임병정(명조)",
+          "affiliation": "사)아시아종교연구원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 명대 운서 주굉(雲棲 袾宏)이 중정(重訂)한 『법계성범수륙승회수재의궤』를 중심으로, 수륙재 의례에 내재된 선종 사상의 구조와 그 수행론적 성격을 규명하는 것을 목적으로 한다. 특히 본고는 수륙재를 공덕 추구의 제의가 아니라, 일심(一心)의 자각을 지향하는 선적 수행 체계로 재해석하고자 한다.첫째, 『수륙의궤』를 관통하는 사상적 기반으로서 ‘법계일심(法界一心)’의 원리를 고찰하였다. 법계일심은 선종의 ‘즉심시불(卽心是佛)’ 사상과 계합하여, 모든 존재가 본래 불성을 구족하고 있음을 드러낸다. 천태의 원융삼제는 이러한 인식을 이론적으로 보완하는 역할을 수행하며, 결과적으로 수륙의례는 외재적 공양이 아니라 일심을 현증하는 수행의 장으로 전환된다. 둘째, 소청에서 사십팔원에 이르는 의례 과정에 나타난 교화 구조를 선종의 수행론적 관점에서 분석하였다. ‘죄성본공(罪性本空)’의 선언은 중생의 업장을 실체화하지 않고 공성(空性)으로 환원함으로써, 영가로 하여금 자기 본성에 대한 각성을 촉발하는 계기로 작용한다. 이 과정에서 영가는 구제의 대상이 아니라, 스스로 참회와 발원을 통해 각성을 실현하는 주체로 전환된다. 이는 선종의 자각 중심 수행론이 의례 속에 구조화된 양상이라 할 수 있다. 셋째, 주굉의 선정쌍수(禪淨雙修) 사상을 선종 수행의 확장이라는 관점에서 고찰하였다. 지명염불(持名念佛)은 단순한 타력 신앙이 아니라, 『능엄경』의 ‘반문문자성(反聞聞自性)’ 수행과 결합함으로써 자기 마음을 관조하는 선적 실천으로 재구성된다. 이에 따라 왕생정토를 지향하는 염불은 궁극적으로 자성정토(自性淨土)를 체득하는 수행으로 내면화되며, 정토 신앙은 선종적 깨달음의 방식으로 통합된다.결론적으로 『법계성범수륙승회수재의궤』는 선종의 일심 사상을 기반으로 의례를 수행화한 체계라 할 수 있다. 본 연구는 수륙재가 지닌 기복적 성격을 넘어, 모든 존재가 본래의 불성을 자각하고 일심의 경지로 귀환하도록 이끄는 선적 수행 구조임을 밝혔다.",
+      "abstract_en": "This study aims to examine the structure of Seonjong philosophy and its discipline theoretical character inherent in the Suryukjae rituals, focusing on the “Beobgye Seongbeom Suryuk- seunghoe Sujaeui Gye” written by Zhuhong of Yunqi (雲棲 袾宏) during the Ming Dynasty. Specifically, this study seeks to reinterpret the Suryukjae not merely as a ritual for seeking good deeds, but as a system of Seon practice oriented toward the awakening of the Ilsim (一心).First, this study examines the principle of “Beopgyeilsim (法界一心)” as the philosophical foundation permeating the Suryukui Gye. Beopgyeilsim aligns with “Jeuksimsibul (卽心是佛)” of Seonjong, revealing that all beings are inherently endowed with Buddhist nature. Wonyungsamje of Cheontae serves the role of theoretically complementing this perception, and consequently, Suryuk ritual transforms from an external offering into the practicing site of realizing the Ilsim.Second, this study analyzes the edification structure which manifests in the ritual process ranging from the Socheong to the Sasibpalwon, from the perspective of discipline theory of Seonjong. The declaration of “Joeseongbonggong (罪性本空)” does not reify the karmic hindrances of the living but reduces them to Gongseong (空性), serving as a catalyst for spirits to awaken to their original nature. In this process, the spirit is transformed from a mere object of salvation into an active subject who realizes awakening through personal repentance and the making of vows. This can be described as an instance where self-awakening of Seonjong is structurally integrated into the ritual.Third, this study examines Zhuhong’s philosophy of the Seonjongssangsu (禪淨雙修) from the perspective of expanding Seonjong practice. Jimyeongyeombul is not treated as a simple Taryeok faith, but rather by combining it with the practice of \"Banmun Munjaseong (反聞聞自性)“ of ”Neungeomgyeong,“ it is reconstructed as Seon practice of contemplating one's own mind. Accordingly, Yeombul aiming at Wangsaengjeongto is ultimately internalized as a practice for realizing the Jaseongjeongto, thereby integrating Jeongto faith into the framework of Seonjong enlighten- ment.In conclusion, the “Beobgye Seongbeom Suryukseunghoe Sujaeui Gye” can be defined as a system that transforms a ritual into a form of spiritual practice based on Ilsim philosophy of Seonjong. This study demonstrates that beyond the ritual’s traditional focus on seeking worldly blessings, the Suryukjae possesses a Seon practice that guides all beings to realize their original Buddhist-nature and return to the realm of Ilsim.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "77",
+      "end_page": "99",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=67a1420cc6d619017ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어: 법계성범수륙승회수재의궤(法界聖凡水陸勝會修齋儀軌)",
+        "운서 주굉(雲棲 袾宏)",
+        "법계일심(法界一心)",
+        "죄성본공(罪性本空)",
+        "선정쌍수(禪淨雙修)",
+        "지명염불(持名念佛)",
+        "반문문자성(反聞聞自性)",
+        "자성정토(自性淨土)"
+      ],
+      "keywords_en": [
+        "Keyword: Beobgye Seongbeom Suryukseunghoe Sujaeui Gye (法界聖凡水陸勝會修齋儀軌)",
+        "Zhuhong of Yunqi (雲棲 袾宏)",
+        "Beopbyeilsim (法界一心)",
+        "Joeseongbongong (罪性本空)",
+        "Seonjeongssangs (禪淨雙修)",
+        "Jimyeongyeombul (持名念佛)",
+        "BanmunMunjaseong (反聞聞自性)",
+        "Jaseongjeongto (自性淨土)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "67a1420cc6d619017ecd42904f0c5d65"
+    },
+    {
+      "article_id": "4f7df29a1b1aff7347de9c1710b0298d",
+      "title_kr": "명상과 조식(調食)의 상관성 고찰  - 식단 논쟁과 마음챙김 먹기를 중심으로 -",
+      "title_en": "A Buddhist Perspective on Contemporary Dietary Regimes: Focusing on Dietary Debates and Mindful Eating",
+      "authors": [
+        {
+          "name": "오철우",
+          "affiliation": "중앙승가대학교  불교사회학부",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 한국 불교 음식 문화가 주로 문화 콘텐츠 및 실물 중심으로 연구되어 온 경향에 문제를 제기하고, 상대적으로 소홀했던 교학적 측면에서 불교 음식의 의미를 재조명하고자 하였다. 특히 현대 영양학의 주요 쟁점인 카니보어 식단과 비건 식단 간의 논쟁을 불교적 관점에서 고찰하고, 서구에서 발전한 마음챙김 먹기를 수행론적으로 검토함으로써 기존 연구의 실물 편중성과 문헌 연구의 정체성을 극복하고자 하였다.먼저 본 연구는 불교 음식의 핵심 개념인 삼덕(輕軟・淨潔・如法)을 중심으로 카니보어 식단과 비건 식단을 분석하였다. 그 결과 양 식단은 외형적으로 대립하지만, 모두 ‘정화’라는 공통된 지향을 공유한다는 점을 확인하였다. 카니보어는 신체 기능 회복과 대사 안정화를 통해 경연을 구현하고, 비건은 비폭력성과 윤리적 순수성을 통해 정결을 강조하며, 양자 모두 절제와 규율을 통해 여법의 요소를 갖는다. 이에 본 연구는 두 식단을 불교의 중도와 화쟁 사상을 통해 신체와 정신의 정화라는 기준에서 재통합할 것을 제안하였다.다음으로 마음챙김 먹기는 비판단적 자각과 자기 조절을 통해 과식과 섭식 문제를 완화하고 건강한 식습관 형성에 기여한다는 점에서 실천적 의의를 지닌다. 그러나 이러한 프로그램은 불교 교학의 핵심인 무상・무아・연기에 대한 통찰을 충분히 반영하지 못하고, 결과적으로 탐・진・치의 근본적 소멸이 아닌 심리적 안정과 행동 조절이라는 기능적 수준에 머무르는 한계를 드러낸다. 특히 마음챙김이 개인의 스트레스 관리와 생산성 향상을 위한 도구로 활용될 경우, 사회 구조적 문제를 은폐한 채 개인의 적응만을 강조하는 방향으로 전환될 위험성도 존재한다. 이에 비해 불교의 4념처 수행은 단순한 주의 집중을 넘어, 경험의 무상성을 통찰함으로써 집착과 번뇌의 발생 구조 자체를 해체하고 해탈에 이르는 것을 목표로 한다. 즉 마음챙김 먹기가 ‘반응의 억제’에 머무른다면, 불교 수행은 ‘반응의 발생 근거’를 소멸시키는 데까지 나아간다는 점에서 양자는 질적으로 구별된다.",
+      "abstract_en": "This study challenges the prevailing tendency in Korea to approach Buddhist food culture primarily as cultural content or in terms of its material and culinary aspects, and seeks to reexamine its meaning from a doctrinal perspective that has been relatively neglected. In particular, it investigates, from a Buddhist standpoint, the contemporary nutritional debate between the carnivore diet and the vegan diet, and critically examines Mindful Eating ─ developed in the West ─ from the perspective of Buddhist praxis. In doing so, the study aims to overcome the dual limitations of existing research, namely its bias toward material aspects and the stagnation of purely textual studies.First, this study analyzes the carnivore and vegan diets through the core Buddhist concept of the Three Virtues (samdeok: Lightness and Softness, Purity, and Conformity to the Dharma). Although the two diets appear to be fundamentally opposed, the analysis shows that both share a common orientation toward “purification.” The carnivore diet embodies Lightness and Softness by promoting metabolic stabilization and the restoration of bodily function, while the vegan diet emphasizes Purity through nonviolence and ethical integrity. Both diets also incorporate elements of Conformity to the Dharma insofar as they require discipline and restraint. Accordingly, this study proposes that the apparent opposition between the two can be reconciled through the Buddhist principles of the Middle Way and harmonization (hwajaeng), reinterpreting them according to the fundamental criterion of physical and mental purification.Next, Mindful Eating is recognized as having practical value insofar as it alleviates overeating and eating disorders through nonjudgmental awareness and self-regulation, thereby contributing to healthier eating habits. However, such programs fail to fully incorporate key Buddhist doctrinal insights, particularly impermanence (anicca), non-self (anattā), and dependent origination (pratītyasamutpāda). As a result, they remain at the functional level of psychological stabilization and behavioral control, rather than addressing the fundamental eradication of greed, aversion, and delusion. Moreover, when mindfulness is utilized as a tool for stress management and productivity enhancement, it risks reinforcing individual adaptation while obscuring underlying structural problems. In contrast, the Buddhist practice of the Four Foundations of Mindfulness (Satipaṭṭhāna) goes beyond mere attention and awareness, aiming to dismantle the very structure of attachment and affliction by realizing the impermanent nature of all experience, ultimately leading to liberation. In this sense, while Mindful Eating remains at the level of suppressing reactive patterns, Buddhist practice seeks to eliminate the very conditions that give rise to such reactions, marking a qualitative distinction between the two.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "103",
+      "end_page": "138",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4f7df29a1b1aff7347de9c1710b0298d",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어: 불교 음식",
+        "삼덕(輕軟・淨潔・如法)",
+        "카니보어 식단과 비건 식단",
+        "마음챙김 먹기",
+        "4념처 수행."
+      ],
+      "keywords_en": [
+        "Keyword: Buddhist Food",
+        "Three Virtues (Lightness & Softness",
+        "Purity",
+        "Conformity to the Dharma)",
+        "Carnivore Diet and Vegan Diet",
+        "Mindful Eating",
+        "Four Foundations of Mindfulness (Satipaṭṭhāna Practice)."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "4f7df29a1b1aff7347de9c1710b0298d"
+    },
+    {
+      "article_id": "4f7df29a1b1aff73c85d2949c297615a",
+      "title_kr": "조선시대 연(蓮)의 이념적 확장과  식재료적 이용",
+      "title_en": "The Ideological Expansion of Lotus and Its Use for Food in the Choseon Dynasty",
+      "authors": [
+        {
+          "name": "오경순",
+          "affiliation": "동방문화대학원대학교 박사과정)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "공만식",
+          "affiliation": "동방문화대학원대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "(蓮)은 불교와 밀접한 관련을 가지고 있는 식물로, 인도 불교문헌에서 연은 종교적 상징이나 의미를 나타내는 중요한 요소이다. 진흙 속에서도 때묻지 않는 연의 물리적 속성은 번뇌 속에서도 깨달음을 구하는 의미로 사용되거나 연화대를 통해 붓다를 상징하기도 한다. 인도 불교문헌은 또한 우유와 같이 하얗고 꿀처럼 달콤한 맛을 가진 식재료로서의 연의 수승한 점은 언급하기도 한다.인도 불교문헌이 담고 있던 연에 관한 상징과 의미는 한국불교에도 전해져 고려와 조선의 승려문집에도 인도 불교문헌이 묘사하는 연에 관한 내용이 계승되고 있으며, 연이라는 단어는 또한 불(佛)이나 승(僧)을 대체하는 용어로 사용되어 붓다, 사찰, 정토세계를 나타내는 의미로 사용되기도 한다.연은 고려나 조선시대에 인도 불교문헌이 담고 있는 상징과 의미를 계승하였으며 연근 등은 불교사찰의 중요한 식재료로서 기능하였다. 이와 더불어 고려후기에 수용된 북송 주돈이(周敦?, 1017-1073)의 「애련설(愛蓮說)」은 조선시대에 들어와 더욱 유가사대부 사회에서 애호되면서 연 관련 문화가 조선사회에 확대되는 요소로 작용한다. 연을 감상하는 관연절이나 연잎과 줄기를 술잔으로 사용하는 벽통배의 문화는 조선 유가사대부의 중요한 문화로 자리잡는다. 또한 다양한 연 관련 음식들이 조선사회의 음식문화로 자리잡게 된다.연 문화는 불교적 상징과 의미로 주로 소비되던 조선 이전의 토양에서 조선시대부터는 유가문화에 열렬히 수용되면서 불교와 유교 문화 모두에게 유의미한 상징과 의미로 착근하게 되었다.",
+      "abstract_en": "viewpoints of the lotus in the BuddhThe paper aims at investigation the comparison between the ist texts and Confucian poems and the use as food in the respective areas.The lotus in the Indian Buddhist texts is connected to the Buddha and the Enlightenment and it is used as the image in which the lotus has the purity not soiled in the mire. The lotus is mentioned as excellent foodstuff which has white color as milk and sweet taste as honey. It is considered that lotus was used as quite popular foodstuff in the ancient India as the Indian Vinaya texts frequent quoted the lotus as popular foodstuff. It is said that the lotus was used as medicine and the story about Sariputra related to the use of lotus in which Sariputra was ill and recovered after he consumed the lotus.The image of Lotus in Korean Buddhist texts is inherited as religious symbol and meaning which represent what Indian Buddhist texts mention about lotus. The letter, 'lotus' in Korean Buddhist texts is used as word for meaning the Buddha(佛) and the Buddhist Monk(僧) and the Buddhist temple and the Pure Land(淨土) are expressed by the word, lotus(蓮).The Àiliánshuō(愛蓮說) written by the Confucian scholar, ZhōuDūnyí(周敦頤, 1017-1073)greatly influenced the Korean Confucian society and the lotus culture were popularized in the society. Korean Confucian scholars enjoyed lotus culture in which the scholars appreciated the lotus flower and enjoyed a drinking party with a lotus leaf glass.The Choseon Confucian society used lotus as foodstuff and the lotus was used various foodstuffs for wine, steamed rice, porridge, Kimchi, noodle and side-dishes.The lotus was welcomed by Korean Buddhist and Confucian society and the lotus functions as religious symbols and meaning and food culture in the Choseon society.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "139",
+      "end_page": "165",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4f7df29a1b1aff73c85d2949c297615a",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어: 연(蓮)",
+        "진흙",
+        "깨달음",
+        "식재료."
+      ],
+      "keywords_en": [
+        "Keywords: Lotus",
+        "Mire",
+        "Honey",
+        "Enlightenment",
+        "foodstuff."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "4f7df29a1b1aff73c85d2949c297615a"
+    },
+    {
+      "article_id": "4f7df29a1b1aff73e9810257f7042666",
+      "title_kr": "유대치(劉大致)의 개화사상과  오대산 은거설*",
+      "title_en": "Yu Dae-chi´s Enlightenment Thoughts and His Retreat in Odaesan Mt.",
+      "authors": [
+        {
+          "name": "김경집",
+          "affiliation": "동국대학교 연구교수",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "유대치는 개화기 조선의 난국을 타개하기 위해 청년들을 규합하여 개화파를 조직하였다. 1884년 12월 4일 갑신정변을 일으켰으나 3일 만에 끝났다. 정변 후 많은 사람이 처형되거나 일본으로 망명하였다. 유대치 역시 피난할 수밖에 없었다. 유대치의 활동에도 불구하고 신분과 가계에 대한 이견(異見)이 존재하고, 저술이 없어 그가 생각하고 있던 개화사상의 기조와 방향이 무엇인지 가늠하기 어려웠다. 본 연구에서는 그의 가계를 파악할 수 있는 새로운 자료를 제시하고 그를 따랐던 인물과의 관계 속에 나타난 개화사상을 살펴보았다.『한양유씨세보』에 나오는 유홍기를 개화파를 지도한 유홍기와 동일 인물로 본 연구는 오세창의 진술과 『윤치호일기』와 『승정원일기』에 나오는 큰사위 金永燦의 제시로 다른 인물임이 제시되었다. 여기에 『조선개교오십년지』에 등장하는 사위 金彰熙로 볼 때 동일인으로 보기 어렵다. 신분에 있어 양반이라는 주장은 오세창의 회고처럼 중인 계급으로 보는 것이 적절하다.유대치가 가지고 있던 개화사상의 윤곽은 그와 함께 개화운동을 펼친 인물들과의 활동과 대화 속에 담긴 내용을 분석할 때 다음과 같이 정리할 수 있다. 첫 번째 불교의 평등사상에 기초하여 양반 체제인 조선의 신분사회를 개혁하려고 했던 인권 개혁이었다. 두 번째 내실 있는 국가를 수립하고, 여러 국가와 외교관계를 맺어 청나라의 종속적 체제에서 벗어나는 내정 개혁과 자주 국가 실현이었다. 세 번째 상업과 공업의 발전으로 국가 재정이 튼튼해지고 이를 통해 군비를 갖출 수 있는 산업 발전을 통한 부국강병이었다.이 내용들은 갑신정변 후 개화파가 발표한 정강에 포함되어 그가 오경석과 나누었던 조선 사회의 개혁이었고, 따라서 갑신정변의 막후 조정자였음을 알 수 있다. 최후에 관한 여러 추측이 있다. 그 가운데 용문산 은거설과 오대산 은거설이 당시 상황에 적합하다. 두 가지 가운데 그가 활동했던 경성에서 먼 지역으로 피신하고 싶은 심리, 신앙적으로 용문산보다 오대산이 불교 聖地로 본다면 이곳에 은거했을 가능성이 크다.",
+      "abstract_en": "Yu Dae-chi was a revolutionary in the late Joseon Dynasty. From early on, he tried to overcome Joseon's national crisis by accepting Western civilization. What he planned was to unite young people and create a reform force. With that intention, the reformist group was organized. The reformists staged a coup on December 4, 1884. It ended in three days due to the suppression by the Qing Dynasty. After the coup, many people were executed. Many people fled to Japan. Yu Dae-chi also fled to the provinces.The activities of Yu Dae-chi are very important for understanding the late Joseon Dynasty. Despite his stature, there are differing opinions about his identity and lineage. Because there are no writings, it is difficult to know what enlightenment thoughts he was thinking about. This study provides new information about his family lineage. Through interactions with people who followed him, I was able to learn about the thoughts of enlightenment. The person named Yu Hong-gi in the Yu clan genealogy is a different person from the person who led the reformist faction. His status is middle class.The enlightenment thoughts that Judaechi had can be summarized as follows. First, it was a human rights reform aimed at changing Joseon's class society based on the Buddhist idea of ​​equality. Second, it was to establish a sound state through internal reforms and establish diplomatic relations with various countries, thereby realizing an independent state free from the Qing Dynasty's dependent system. Third, it was a country that was rich and strong by strengthening its national finances through the development of commerce and industry, and through this, by equipping its military.These contents were included in the platform announced by the reformists after the cou It was a reform of Joseon society that was discussed with Oh Gyeong-seok. Therefore, he can be said to be the behind-the-scenes coordinator of the cou There are various speculations regarding the end of Yu Dae-chi. The theory that it was hidden in Yongmunsan Mt and Odaesan Mt is appropriate. The farthest of the two is Odaesan Mt. This place is called a holy place in Korean Buddhism. Considering the desire to travel far from Seoul, Odaesan Mt is a strong candidate.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "167",
+      "end_page": "204",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4f7df29a1b1aff73e9810257f7042666",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어 : 유대치",
+        "오경석",
+        "개화파",
+        "갑신정변",
+        "김옥균",
+        "박영효",
+        "윤치호"
+      ],
+      "keywords_en": [
+        "Keywords : Yu Dae-chi",
+        "Oh Gyeong-seok",
+        "the reformists",
+        "Gabsinjeongbyeon(Political events that occurred on December 4",
+        "1884)",
+        "Kim Ok-gyun",
+        "Park Young-hyo",
+        "Yun Chi-ho"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "4f7df29a1b1aff73e9810257f7042666"
+    },
+    {
+      "article_id": "4f7df29a1b1aff73b36097776a77e665",
+      "title_kr": "근대 제주불교와 만암・묵담의 역할",
+      "title_en": "The Role of Manam and Mukdam in Modern Jeju Buddhism",
+      "authors": [
+        {
+          "name": "이성수",
+          "affiliation": "불교신문사",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 일제강점기 육지 사찰의 제주 포교 활동을 분석하고, 만암 송종헌(1876~1957)과 묵담 성우(1896~1981)가 근대 제주불교 재흥에 미친 영향을 규명하는 데 목적이 있다. 1911년 사찰령 시행으로 제주에 독립 본사가 설치되지 않으면서, 제주 사찰들은 9개 육지 본사 소속 포교소로 편제되었다. 이 중 백양사는 1943년까지 26개 포교소를 운영하며 제주 전역에 포교망을 구축하였다. 백양사 주지 만암은 포교소 건립비 지원과 승려 파견, 제주불교간강원 설치 등을 통해 1918년 법정사 항일운동 이후 위축된 제주불교의 재흥을 위한 조직적・재정적 기반을 마련하였다. 만암은 수차례 보살계 법회와 대승경전 강설을 통해 재가 신도들의 신심을 고양하고 제주불교 대중화를 이끌었다. 지선의 구술에 따르면, 만암은 제주 어로를 생업으로 인정하는 대승적 해석을 제시하며 지역 현실에 부합하는 방편적 포교관을 실천하였다. 박한영의 「영주기행」, 서진하의 관음사 입적, 이회명의 제주불교협회 활동 등은 제주가 고립된 섬 불교가 아닌 한국불교 전체 네트워크 속에 위치하고 있었음을 보여준다. 이 연구는 근대 제주불교 재흥이 제주 내부의 노력뿐만 아니라 육지 불교계의 체계적 지원과 협력 속에서 이루어졌음을 밝혔다는 데 의의가 있다.",
+      "abstract_en": "This study analyzes the proselytizing activities of mainland Buddhist temples in Jeju during the Japanese colonial period and aims to clarify the roles of Manam Jongheоn(1876–1957) and Mukdam Seong-u(1896–1981) in the revival of modern Jeju Buddhism. Following the enforcement of the Temple Ordinance in 1911, no independent head temple was established in Jeju, and Jeju temples were organized as branch missionary offices under nine mainland head temples. Among these, Baegyangsa Temple operated 26 missionary offices across Jeju by 1943, establishing a comprehensive proselytizing network throughout the island. As the head monk of Baegyangsa Temple, Manam laid the organizational and financial groundwork for the revival of Jeju Buddhism—which had been suppressed in the aftermath of the 1918 anti-Japanese uprising at Beobjeongsa Temple—by funding the construction of missionary offices, dispatching monks, and establishing the Jeju Buddhist Lecture Institute. Mukdam contributed to the popularization of Jeju Buddhism by elevating the faith of lay believers through repeated Bodhisattva Precept ceremonies and lectures on Mahayana scriptures. According to the oral testimony of Jiseon, Manam practiced an expedient approach to proselytization suited to local realities by offering a Mahayana interpretation that recognized Jeju's fishing practices as a legitimate livelihood. Park Han-Young's travel account 「YeongJuGiHeang(瀛洲紀行)」 Seo Jin-Ha's death at Gwaneumsa Temple, and Lee Hoe-Myeong's activities in the Jeju Buddhist Association all demonstrate that Jeju was not an isolated island Buddhism but was positioned within the broader network of Korean Buddhism as a whole. This study is significant in that it reveals the revival of modern Jeju Buddhism to have been achieved not solely through internal efforts within Jeju, but through the systematic support and cooperation of the mainland Buddhist community.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "205",
+      "end_page": "240",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4f7df29a1b1aff73b36097776a77e665",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어 : 제주불교",
+        "만암 종헌",
+        "묵담 성우",
+        "봉려관",
+        "박한영"
+      ],
+      "keywords_en": [
+        "Keywords : Jeju Buddhism",
+        "Manam Jongheоn",
+        "Mukdam Seong-u",
+        "Bongnyeogwan",
+        "Park Han-Young"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "4f7df29a1b1aff73b36097776a77e665"
+    },
+    {
+      "article_id": "4f7df29a1b1aff73d18150b21a227875",
+      "title_kr": "『부모은중경』과 「회심곡」에 나타난 효사상의 상관성과 의의",
+      "title_en": "Filial Piety in Hoesimgok: Focusing on the Sutra on the Profound Kindness of Parents",
+      "authors": [
+        {
+          "name": "이문영",
+          "affiliation": "사) 국가무형유산 구례향제줄풍류 전승교육사",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 한국 전통 성악곡인 「회심곡」에 나타난 효사상이 불교 경전인 『부모은중경(父母恩重經)』의 사상적 기반과 어떠한 연관성을 지니며 전개되는지를 고찰하는 데 목적이 있다. 『부모은중경』은 부모가 자식에게 베푸는 열 가지 은혜를 체계적으로 제시함으로써 효를 인간이 반드시 실천해야 할 근본 윤리로 강조하는 경전이다. 이러한 교리적 내용은 「회심곡」에서 감성적이고 서사적인 형식으로 재구성되어 나타나며, 청자로 하여금 부모의 은혜를 자각하고 자신의 삶을 반성하도록 유도한다.특히 「회심곡」은 부모의 희생과 헌신을 구체적인 정서로 형상화하여 공감을 이끌어내는 데 주력한다. 『부모은중경』이 설법적이고 교훈적인 방식으로 효를 전달하는 데 비해, 「회심곡」은 음악과 서사를 결합하여 감정적 울림을 강화하고 참회와 각성을 촉진하는 특징을 보인다. 이 과정에서 부모의 사랑과 자식의 불효가 극적으로 대비되며, 이는 효 실천의 당위성을 강조하는 중요한 장치로 기능한다.또한 「회심곡」과 『부모은중경』은 인과응보와 윤회사상을 공통된 사상적 배경으로 삼아 효의 실천을 강조한다는 점에서 일치한다. 『부모은중경』은 부모의 은혜를 갚지 못할 때 따르는 업보를 제시하고 있으며, 「회심곡」 역시 불효의 결과가 사후 세계까지 이어질 수 있음을 강조한다. 이러한 사상은 효를 단순한 도덕규범을 넘어 인간 존재의 근본 질서를 유지하는 핵심 가치로 인식하게 한다.결론적으로 「회심곡」과 『부모은중경』은 각각 음악적 표현과 종교적 교리라는 상이한 형식을 취하면서도, 효를 중심으로 한 도덕적 교화를 지향한다는 점에서 상호보완적 관계에 있다. 이는 한국 전통사회에서 효사상이 종교와 예술을 통해 심화되고 대중적으로 확산된 양상을 보여주는 중요한 사례라 할 수 있다.",
+      "abstract_en": "This study aims to examine how the filial piety ideology embodied in Hoesimgok, a traditional Korean vocal narrative song, is closely related to and developed upon the ideological foundation of the Buddhist scripture The Sutra on the Deep Kindness of Parents (Bumo Eunjoong Gyeong). The scripture systematically presents the ten great benevolences bestowed by parents upon their children, emphasizing filial piety as a fundamental moral duty that must be fulfilled by human beings. In Hoesimgok, these doctrinal teachings are restructured into an emotional and narrative form, leading listeners to reflect upon their lives and recognize parental grace.In particular, Hoesimgok focuses on evoking the sacrifices and devotion of parents through vivid emotional expression, thereby eliciting deep empathy. While The Sutra on the Deep Kindness of Parents delivers filial ethics through didactic and doctrinal discourse, Hoesimgok amplifies emotional resonance by integrating music and storytelling, ultimately inducing repentance and moral awakening. Through the dramatic contrast between parental love and filial ingratitude, the song effectively reinforces the necessity of practicing filial piety.Furthermore, both texts share the underlying principles of karmic retribution and rebirth, emphasizing the consequences of failing to repay parental kindness. The scripture warns of the karmic consequences awaiting those who neglect their filial duties, and Hoesimgok similarly underscores that the effects of unfilial behavior may extend into the afterlife. This shared perspective elevates filial piety from a mere ethical norm to a fundamental principle sustaining the moral order of human existence.In conclusion, although Hoesimgok and The Sutra on the Deep Kindness of Parents adopt different forms ─ musical expression and religious doctrine ─ they function in a complementary manner in promoting moral edification centered on filial piety. Their interrelation demonstrates how filial ideology in traditional Korean society was deepened and disseminated through the integration of religion and artistic expression.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "241",
+      "end_page": "276",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4f7df29a1b1aff73d18150b21a227875",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어 : 회심곡",
+        "부모은중경",
+        "효사상",
+        "불교윤리",
+        "인과응보",
+        "윤회사상",
+        "교화음악"
+      ],
+      "keywords_en": [
+        "Keywords : Hoesimgok",
+        "The Sutra on the Deep Kindness of Parents",
+        "Filial Piety",
+        "Buddhist Ethics",
+        "Karma",
+        "Rebirth",
+        "Didactic Music"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "4f7df29a1b1aff73d18150b21a227875"
+    },
+    {
+      "article_id": "4f7df29a1b1aff737f7a54760bb41745",
+      "title_kr": "라마나 마하르쉬의 윤리 연구 ― 아드바이타 베단타와 존재론적 윤리의 관점에서 -",
+      "title_en": "A Study on the Ethics of Ramana Maharshi: From the Perspective of Advaita Vedānta and Ontological Ethics",
+      "authors": [
+        {
+          "name": "전남권",
+          "affiliation": "동방문화대학원대학교)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "문진건",
+          "affiliation": "동방문화대학원대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "본 연구는 Ramana Maharshi의 윤리관을 아드바이타 베단타(Advaita Vedānta)의 비이원론적 존재론과 지반묵티(jīvanmukti) 사상을 중심으로 고찰하고, 그의 사회적 비개입성이 어떠한 철학적 기반 위에서 형성되었는지를 분석하는 데 목적이 있다. 마하르쉬는 자아 탐구(ātma-vicāra)를 통해 참자아(Self, Ātman)를 자각하는 길을 제시하였으며, 그의 삶은 ‘살아 있는 동안의 해탈’인 지반묵티의 실존적 구현으로 이해되어 왔다. 그러나 그는 사회 참여와 적극적 봉사를 해탈자의 필수적 덕목으로 강조하지 않았으며, 세계의 비실재성과 자아의 절대성을 강조함으로써 사회윤리적 책임에 대해 소적인 태도를 보였다는 비판을 받아왔다.본 연구는 이러한 마하르쉬의 윤리를 단순한 개인적 무관심이 아니라, 아드바이타의 비이원론적 형이상학과 연결하여 해석하였다. 특히 그의 윤리가 외적 규범과 사회적 의무를 강조하는 일반적 규범윤리와 달리, 에고의 소멸과 존재의 변형을 중심으로 하는 ‘존재론적 윤리’의 성격을 지닌다는 점에 주목하였다. 마하르쉬에게 윤리란 특정한 행위 규범의 준수가 아니라, 자아와 타자의 구별을 초월하여 모든 존재를 동일한 참자아로 인식하는 존재 상태의 문제이다. 따라서 자비, 평등성, 비집착과 같은 윤리적 특성은 규범적 의무라기보다 비이원적 자각 이후 자연스럽게 드러나는 삶의 방식으로 이해된다.그러나 이러한 윤리는 사회적 책임과 실천의 문제를 충분히 설명하지 못한다는 한계를 지닌다. 그럼에도 불구하고 마하르쉬 윤리는 윤리의 근거를 외적 규범이 아니라 존재 자체의 변형에 두었다는 점에서 중요한 철학적 의의를 가지며, 현대 종교철학과 윤리학에서 윤리와 존재론의 관계를 재검토하는 데 하나의 가능성을 제공한다.",
+      "abstract_en": "This study aims to examine Ramana Maharshi’s ethical views by focusing on the non-dualistic ontology of Advaita Vedānta and the philosophy of Jīvanmukti, and to analyze the philosophical foundation upon which his social non-interventionism was formed. Maharshi presented a path to realizing the True Self (Ātman) through self-inquiry (ātma-vicāra), and his life has been understood as the existential embodiment of Jīvanmukti, which is \"liberation while alive.\" However, he has been criticized for not emphasizing social participation and active service as essential virtues for a liberated person, and for displaying a passive attitude toward socio-ethical responsibility by emphasizing the unreality of the world and the absoluteness of the self.This study interprets Maharshi’s ethics not merely as personal indifference, but in connection with the non-dualistic metaphysics of Advaita. In particular, attention was paid to the fact that, unlike general normative ethics which emphasizes external norms and social obligations, his ethics possesses the character of an ‘ontological ethics’ centered on the extinction of the ego and the transformation of being. For Maharshi, ethics is not a matter of observing specific behavioral norms, but rather a matter of a state of being that transcends the distinction between self and other to recognize all beings as the same true self. Therefore, ethical characteristics such as compassion, equality, and non-attachment are understood not as normative obligations, but as ways of life that naturally emerge following non-dualistic awareness.However, this ethics has limitations in that it fails to fully explain the issues of social responsibility and practice. Nevertheless, Maharshi’s ethics holds significant philosophical importance in that it places the basis of ethics not in external norms but in the transformation of being itself, and it offers a possibility for re-examining the relationship between ethics and ontology in modern philosophy of religion and ethics.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "279",
+      "end_page": "314",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4f7df29a1b1aff737f7a54760bb41745",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어: 라마나 마하르쉬",
+        "아드바이타 베단타",
+        "지반묵티",
+        "존재론적 윤리",
+        "비이원론",
+        "자아탐구"
+      ],
+      "keywords_en": [
+        "Keyword: Ramana Maharshi",
+        "Advaita Vedānta",
+        "jīvanmukti",
+        "ontological ethics",
+        "non-dualism",
+        "ātma-vicāra."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "4f7df29a1b1aff737f7a54760bb41745"
+    },
+    {
+      "article_id": "4f7df29a1b1aff734884a65323211ff0",
+      "title_kr": "선무도 수행체계와 만다라의 상징세계에 담긴 미학적 의미 비교 연구*",
+      "title_en": "A Comparative Study on the Aesthetic Meanings Embedded in the Practice System of Sunmudo and the Symbolic World of the Mandala: From Religious, Artistic, and Psychological Perspectives",
+      "authors": [
+        {
+          "name": "임시연",
+          "affiliation": "만다라심리연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 불교 전통 수행체계인 선무도(禪武道)와 밀교적 의례 도구이자 상징 체계인 만다라(曼茶羅)의 미학적 의미를 비교・고찰한 문헌연구이다. 두 체계는 공통적으로 밀교철학을 사상적 토대로 삼으며, 심신일여(心身一如)를 수행의 목표로 공유한다는 점에서 비교 연구의 내적 근거를 갖는다.본 연구는 미학을 감각・정서가 조직되는 경험, 그 경험을 가능하게 하는 형식의 작동, 경험의 결과로 나타나는 변용의 세 차원으로 정의하고, 이를 ‘경험–형식–변용’의 3축으로 설정하여 예술적・종교적・심리적 관점과 교차 분석하였다.분석 결과, 선무도는 호흡・동작・주의(注意)의 결합을 통해 몸의 감각에서 삼매로 나아가는 시간적・리듬적 미학 구조를 갖는 ‘몸이 만다라가 되는’ 수행이며, 만다라는 중심・결계・존상 배치라는 시각적 상징 구조를 통해 심상을 가시화하고 내면화하는 공간적・순환적 미학 구조를 갖는 ‘만다라가 마음이 되는’ 수행으로 각각 해석되었다. 두 체계는 삼밀(三密)의 동시적 조화, 성속(聖俗)의 재구성, 주의 훈련과 전체성 회복이라는 공통점을 지니면서도, 체현(體現)과 관상(觀想)이라는 서로 다른 실천 경로를 통해 상호 침투(interpenetration)의 관계를 형성한다.이 상호 침투의 구조를 근거로 두 체계의 현대적 통합 활용 방안을 제안하였다. 선무도와 만다라의 결합 활용, 만다라를 방편으로 한 선무도, 선무도를 방편으로 한 만다라의 세 방향은 각각 독립적으로 적용될 수 있으며, 궁극적으로 몸과 마음의 심신일여 실현이라는 하나의 방향을 공유한다. 본 연구는 두 체계의 미학적 비교를 통해 감각 과잉의 현대에 유효한 수행적 미학 경험의 이론적 근거를 마련하고, 이를 현대적 실천으로 연결하는 통합적 활용 가능성을 제시하였다는 점에서 의의를 갖는다.",
+      "abstract_en": "This study is a comparative literature review examining the aesthetic meanings embedded in Sunmudo (禪武道), a traditional Buddhist martial and meditative practice, and the Mandala (曼茶羅), a symbolic system rooted in Esoteric Buddhist ritual. Both systems share a common philosophical foundation in Esoteric Buddhist (Vajrayāna) thought and pursue the same practice goal of psychophysical unity (心身一如, simsin-iryeo), providing an internal basis for comparative analysis.Aesthetics in this study is defined not merely as the judgment of beauty, but as encompassing three dimensions: experience as the qualitative organization of sensation and affect; form as the structural principle that enables such experience; and transformation as the change in meaning and selfunderstanding that results from the experience. These three axes ─ experience, form, and transformation ─ are cross-analyzed through artistic, religious, and psychological perspectives.The analysis reveals that Sunmudo constitutes a temporal and rhythmic aesthetic structure in which the practitioner moves from bodily sensation through breath and movement toward meditative absorption (samādhi) ─ a practice in which \"the body becomes the Mandala.\" The Mandala, by contrast, constitutes a spatial and cyclical aesthetic structure in which inner images are externalized, internalized, and transformed through the visual symbolic order of center, boundary, and directional arrangement ─ a practice in which \"the Mandala becomes the mind.\" While the two systems share the simultaneous integration of the Three Mysteries (三密, sammil), the reconstitution of the sacred and the profane, and the cultivation of attention and psychological wholeness, they diverge in their respective paths of embodiment (體現) and contemplative visualization (觀想), forming a relationship of mutual interpenetration.On the basis of this interpenetrating structure, the study proposes three directions for contemporary integrated application: the combined use of Sunmudo and Mandala, the use of Mandala as a skillful means within Sunmudo practice, and the use of Sunmudo as a skillful means within Mandala practice. The significance of this study lies in establishing a theoretical foundation for an aesthetics of practice relevant to the contemporary condition of sensory excess, and in articulating the conditions under which these two systems may be integrated in modern application.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "315",
+      "end_page": "354",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4f7df29a1b1aff734884a65323211ff0",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어 : 선무도",
+        "만다라",
+        "불교미학",
+        "심신일여",
+        "삼밀수행",
+        "경험–형식–변용",
+        "상호 침투"
+      ],
+      "keywords_en": [
+        "Keywords : Sunmudo",
+        "Mandala",
+        "Buddhist aesthetics",
+        "Psychophysical unity",
+        "Three Mysteries practice",
+        "ㄷExperience–form–transformation",
+        "Mutual interpenetration"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "4f7df29a1b1aff734884a65323211ff0"
+    },
+    {
+      "article_id": "4f7df29a1b1aff737ecd42904f0c5d65",
+      "title_kr": "논박과 선문답의 구조적 비교와    개념적 확장",
+      "title_en": "A Structural Comparison and Conceptual Expansion of Disputation and Seon Dialogue",
+      "authors": [
+        {
+          "name": "피자영",
+          "affiliation": "젠 코칭",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 인지정서행동치료(REBT)의 핵심 기법인 논박이 여전히 ‘논쟁적’이고 ‘공격적’이라는 오해 속에서 이해되고 있다는 문제의식에서 출발하여, 이러한 인식을 재검토하고 그 개념적 확장 가능성을 탐색하는 데 목적이 있다. 이를 위해 본 연구는 선(禪)의 수행방법론인 선문답에 주목하고, 논박과 선문답의 구조적 대응 관계를 중심으로 양자의 공통된 작동 원리를 비교・분석하였다. 연구는 문헌연구를 기반으로 진행되었으며, 치료적 동맹과 사제관계, 관찰자기와 관(觀), 신념과 집착이라는 세 가지 차원을 중심으로 두 체계를 구조적으로 고찰하였다.연구 결과, 논박과 선문답은 모두 질문과 응답의 대화적 형식을 통해 개인이 자신의 인지적・존재적 구조를 회피하지 않고 직접 마주하도록 유도하는 ‘직면’의 기제를 공유하고 있는 것으로 나타났다. 특히 논박은 비합리적 신념의 오류를 논리적으로 반박하는 기법에 그치는 것이 아니라, 내담자가 자신의 신념을 명료하게 인식하고 자각하도록 하는 과정으로 재해석될 수 있으며, 이는 선문답이 수행자의 분별적 사고를 전환시키는 방식과 구조적 유사성을 지닌다. 이에 본 연구는 REBT에서의 수용 개념을 ‘직시(acknowledgement)’의 관점에서 재구성하고, 논박을 ‘직면을 통한 자각’으로 확장된 개념으로 제시하였다.이러한 논의는 논박을 단순한 인지적 반박 기법이 아닌, 내담자의 인식 구조를 전환시키는 대화적 개입으로 재정의함으로써, REBT의 이론적 확장 가능성을 제시한다. 동시에 선문답을 현대 상담 장면에서 적용 가능한 심리치료적 대화 방식으로 재해석함으로써, 인지적 개입과 존재론적 통찰을 연결하는 통합적 접근의 기반을 마련하였다.그러나 본 연구는 이론적 분석에 기반한 연구로서, 제시된 개념적 통합이 실제 상담 장면에서 어떻게 구현될 수 있는지에 대한 구체적인 방법론을 제시하지 못한 한계를 지닌다. 향후 연구에서는 논박의 선문답적 확장을 실제 상담 기법으로 개발하고, 그 효과를 경험적으로 검증하는 연구가 필요할 것이다.",
+      "abstract_en": "This study begins from the problem awareness that disputation, a core technique of Rational Emotive Behavior Therapy (REBT), is still understood within the misconception that it is “argumentative” and “aggressive,” and aims to reexamine such perceptions and explore the possibility of its conceptual expansion. To this end, the study focuses on Seon dialogue, a methodological practice of Seon (Zen) Buddhism, and compares and analyzes the common operating principles of disputation and Seon dialogue, centering on their structural correspondence. The research is based on a literature review and examines the two systems structurally in terms of three dimensions: the therapeutic alliance and the master-disciple relationship, the observing self and contemplation (gwan), and belief and attachment.The results show that both disputation and Seon dialogue share the mechanism of “confrontation,” in that they guide individuals to directly face their own cognitive and existential structures without avoidance through a dialogical form of question and answer. In particular, disputation can be reinterpreted not merely as a technique of logically refuting the irrationality of beliefs, but as a process that enables clients to clearly recognize and become aware of their own beliefs. This demonstrates structural similarity to the way Seon dialogue transforms the practitioner’s discriminative thinking. Accordingly, this study reconstructs the concept of acceptance in REBT from the perspective of “acknowledgement” and proposes disputation as an expanded concept of “awareness through confrontation.” These discussions redefine disputation not as a simple technique of cognitive rebuttal but as a dialogical intervention that transforms the client’s structure of cognition, thereby suggesting the possibility of theoretical expansion in REBT. At the same time, by reinterpreting Seon dialogue as a psychotherapeutic mode of dialogue applicable to contemporary counseling settings, this study establishes a foundation for an integrative approach that connects cognitive intervention with ontological insight.However, as a study based on theoretical analysis, this research has the limitation of not providing concrete methodologies for how the proposed conceptual integration can be implemented in actual counseling settings. Future research should develop the Seon-dialogue-based expansion of disputation into practical counseling techniques and empirically examine their effectiveness.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "355",
+      "end_page": "390",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4f7df29a1b1aff737ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어 : 논박",
+        "선문답",
+        "직면",
+        "자각",
+        "비합리적 신념"
+      ],
+      "keywords_en": [
+        "Keywords :Disputation",
+        "Seon Dialogue",
+        "Confrontation",
+        "Self-awareness",
+        "Irrational Belief"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "4f7df29a1b1aff737ecd42904f0c5d65"
+    },
+    {
+      "article_id": "4f7df29a1b1aff736aae8a972f9116fb",
+      "title_kr": "관음 자비 상징의 분석심리학적 고찰 - 『법화경』 「보문품」을 중심으로 -",
+      "title_en": "An Analytical Psychological Interpretation of the Symbol of Avalokitesvara's Compassion: Focusing on the ‘Universal Gateway Chapter’ of the Lotus Sutra",
+      "authors": [
+        {
+          "name": "이지은",
+          "affiliation": "국립공주대학교IR센터",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 대승불교의 핵심 경전인 『법화경』 「보문품」에 나타난 관세음보살의 자비와 구제 서사를 칼 융(C. G. Jung)의 분석심리학적 관점에서 조명한 문헌해석 중심의 이론 논문이다. 관세음보살의 자비는 단순한 종교적 구원의 상징을 넘어, 인간 내면의 무의식과 의식을 통합하고 심리적 전체성을 회복해가는 ‘개성화(Individuation)’ 과정과 본질적으로 맞닿아 있다.이를 규명하기 위해 본 논문은 네 가지 주요 논점을 전개한다. 첫째, 관세음보살의 33신(身) 화현을 분석심리학의 ‘자기(Self)’ 개념과 연결하여, 자기가 자아(Ego)의 필요에 맞춰 다양한 상징으로 접근하는 내면적 통합 구조로 파악하였다. 둘째, 동아시아 불교에서 두드러지는 관세음보살의 여성적 상징성을 ‘아니마(Anima)’ 원형으로 분석하여, 억압된 감정과 수용성을 회복하는 심리적 중재자로서의 역할을 조명하였다. 셋째, 칠난(七難) 구제 서사를 억압된 무의식인 ‘그림자(Shadow)’와의 직면 및 수용 과정으로 해석하고, 칭명성호(稱名聖號)를 그림자 통합을 위한 안전한 상징적 장치로 규명하였다. 넷째, 관세음보살의 언어를 초월한 자비와 구제를 ‘초월 기능(Transcendent Function)’과 불이(不二)의 침묵으로 해석하여, 언어의 한계를 넘어선 무의식과의 직관적 만남을 강조하였다.결론적으로 본 연구는 관세음보살 신앙이 현대 심리치료에서 직접적인 임상적 기제로 작동한다고 단정하기보다는, 현대인의 심리적 위기를 이해하고 치유의 방향성을 제시할 수 있는 이론적 모델이자 해석 가능성을 탐구하는 데 의의를 둔다. 이를 통해 동양의 종교적 구제관과 서양의 심층 심리를 교차하는 상징적 매핑(Symbolic Mapping)을 시도하며, 상징이 지니는 심리적 통합의 가치를 모색하고자 한다.",
+      "abstract_en": "This study aims to explore the possibility of integrating Eastern and Western understandings of the human psyche by reinterpreting the compassion and salvation narratives of Avalokitesvara Bodhisattva in the \"Universal Gateway Chapter\" of the Lotus Sutra through the lens of Carl Jung's Analytical Psychology. Avalokitesvara's compassion goes beyond a mere symbol of religious salvation; it is fundamentally aligned with the process of \"Individuation,\" which integrates the conscious and unconscious to restore psychological wholeness.To elucidate this, the paper develops four main arguments. First, Avalokitesvara's manifestation in 33 different forms is connected to the Jungian concept of the 'Self,' demonstrating how the Self approaches the Ego through various symbols to induce inner integration. Second, the feminine symbolism of Avalokitesvara, prominent in East Asian Buddhism, is analyzed as the 'Anima' archetype, highlighting its role as a psychological mediator that restores repressed emotions and receptivity. Third, the narrative of salvation from the Seven Disasters (七難) is interpreted as the process of facing and accepting the 'Shadow' ─ the repressed unconscious ─ while the practice of chanting the Bodhisattva's name is identified as a safe symbolic mechanism for Shadow integration. Fourth, Avalokitesvara's compassion beyond words is explained through the 'Transcendent Function' and non-dualistic silence, emphasizing the intuitive encounter with the unconscious beyond the limits of language.In conclusion, rather than asserting that the faith in Avalokitesvara Bodhisattva operates directly as a clinical mechanism in modern psychotherapy, this study aims to explore its potential as a theoretical model and an interpretative frameworkthat offers directions for healing the psychological crises of modern individuals. Through this, the study attempts a symbolic mappingthat intersects the Eastern religious perspective of salvation with Western depth psychology, seeking the value of psychological integration inherent in symbols.",
+      "journal_name": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "start_page": "391",
+      "end_page": "420",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4f7df29a1b1aff736aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "핵심어 : 관세음보살",
+        "법화경 보문품",
+        "분석심리학",
+        "칼 융",
+        "개성화",
+        "아니마(Anima)"
+      ],
+      "keywords_en": [
+        "Keywords : Avalokitesvara Bodhisattva",
+        "Universal Gateway Chapter of the Lotus Sutra",
+        "Analytical Psychology",
+        "Carl Jung",
+        "Individuation",
+        "Self",
+        "Anima",
+        "Shadow",
+        "자기(Self)",
+        "그림자(Shadow)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "4f7df29a1b1aff736aae8a972f9116fb"
     }
   ],
   "by_year": {
