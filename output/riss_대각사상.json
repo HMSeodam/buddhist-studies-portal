@@ -3,7 +3,8 @@
     "name": "대각사상",
     "category": "불교학",
     "impact_factor": 0.65,
-    "control_no": "609d6ddc429d15c5"
+    "control_no": "609d6ddc429d15c5",
+    "last_updated": "2026-07-12"
   },
   "articles": [
     {
@@ -18070,6 +18071,472 @@
       ],
       "ai_keywords": [],
       "source": "RISS"
+    },
+    {
+      "article_id": "d902b6134048701047de9c1710b0298d",
+      "title_kr": "불교정화운동 연구사, 회고",
+      "title_en": "A History of Buddhist Purification Movement Research and Reflections",
+      "authors": [
+        {
+          "name": "김광식",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 고찰은 한국 근현대 불교사에서 가장 큰 사건이자 운동인 불교정화운동에 대한 연구를 회고하고 그에 나타난 제반 성격을 정리한 글이다. 그러면서 새로운 연구 과제를 도출하고자 하였다. 지금껏 정화운동에 대한 다양한 저술, 논문, 회고 등이 있었지만 그를 학술적으로 정리하고, 비평한 글은 많지 않았다. 그래서 불교 정화운동에 대한 전체적인 개요, 성격, 연구 성과, 문제점 등을 파악하기는 어렵다. 이런 측면을 유의한 필자는 다음과 같은 관점에서 이 글을 집필하였다.첫째, 정화운동에 대한 연구사를 간단명료하게 이해할 수 있는 글을 쓰    고자 하였다.둘째, 정화운동에 대한 개설서, 단행본, 논문 등을 정리하였다.셋째, 정화운동의 개요 즉 요인(내인론, 외인론), 배경(일제하의 불교, 해    방공간의 불교)을 파악하고자 하였다.넷째, 정화운동의 성격과 이념을 도출하고자 하였다.다섯째, 정화운동의 전개 과정 및 주역을 찾고자 하였다.여섯째, 정화운동의 영향, 계승, 부산물 등을 정리하려고 하였다.일곱째, 정화운동에 대한 추후의 연구 과제를 도출하고자 하였다.이상과 같은 관점에서 서술한 이 논고가 불교정화운동에 대한 재인식, 그 당시 불교사의 재조명, 정화운동의 주역 등의 연구에 참고가 되길 기대한다.",
+      "abstract_en": "This study retrospectively examines the Buddhist Purification Movement, the largest event and movement in modern and contemporary Korean Buddhist history, and summarizes its various characteristics. In doing so, it aims to identify new research topics. While numerous publications, theses, and retrospectives on the Purification Movement have been written, few have academically summarized or critiqued it. Therefore, it is difficult to grasp the overall outline, nature, research achievements, and challenges of the Buddhist Purification Movement. Mindful of these aspects, the author wrote this article with the following perspectives: First, I aimed to write a concise and clear overview of the history of research on the Purification Movement.Second, I organized introductory books and monographs on the movement.Third, I aimed to outline the Purification Movement, including its factors (internal and external causes) and its context (Buddhism under Japanese colonial rule and Buddhism in the post-liberation period).Fourth, I aimed to elucidate the nature and ideology of the Purification Movement.Fifth, I sought to identify the development process and key players of the Purification Movement.Sixth, I attempted to summarize the influence, succession, and byproducts of the Purification Movement. Seventh, I sought to identify research topics related to the Purification Movement.I hope this paper, written from the above perspective, will contribute to a renewed understanding of the Buddhist Purification Movement, a reexamination of Buddhist history at the time, and research on the key figures in the movement.",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "9",
+      "end_page": "47",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d902b6134048701047de9c1710b0298d",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "불교정화운동",
+        "정화운동",
+        "국가권력",
+        "이승만",
+        "하동산",
+        "이청담",
+        "송만암",
+        "범어사",
+        "백양사",
+        "선학원"
+      ],
+      "keywords_en": [
+        "Buddhist Purification Movement",
+        "Purification Movement",
+        "State Power",
+        "Syngman Rhee",
+        "Hadongsan",
+        "Lee Cheongdam",
+        "Songmanam",
+        "Beomeosa  Temple",
+        "Baekyangsa Temple",
+        "Seonhakwon"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "d902b6134048701047de9c1710b0298d"
+    },
+    {
+      "article_id": "d902b613404870106aae8a972f9116fb",
+      "title_kr": "만암스님과 정화운동 - 근대 한국불교의 전환과 리더십의 관점에서 -",
+      "title_en": "Ven. Manam and the Buddhist Purification Movement:  From the Perspective of Transition and Leadership in Modern Korean Buddhism",
+      "authors": [
+        {
+          "name": "오종만",
+          "affiliation": "중앙승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 해방 이후 한국불교 정화운동을 근대 한국불교의 전환과 리더십의 관점에서 재검토하고, 그 과정에서 만암스님의 정화운동이 지닌 역사적 의미를 새롭게 조명하는 데 목적이 있다.기존 연구는 대체로 1954년 정부의 정화 유시 이후 전개된 비구 중심의 급진적 정화운동에 초점을 맞추어 이를 한국불교의 근대화와 계율 복원의 핵심 서사로 이해해 왔다. 그러나 이러한 서사는 해방공간에 공존했던 다른 정화 노선, 특히 만암스님의 점진적이고 제도 지향적인 정화를 충분히 설명하지 못한다.이에 본 연구는 베버의 권위 유형론을 분석 틀로 삼아, 해방 이후 한국불교가 식민지 잔재, 제도적 공백, 승가 내부의 갈등 속에서 자기 정당성과 질서를 재구성해 간 과정을 살펴보았다. 이를 통해 당시 정화운동에는 기존 질서와의 단절을 통해 청정성과 정통성을 회복하려는 카리스마적ㆍ급진적 리더십과 현실을 인정하면서 갈등을 최소화하고 제도적 안정 속에서 변화를 추구한 합리적ㆍ점진적 리더십이 병존했음을 밝혔다. 만암스님의 정화는 후자에 해당하며, 고불총림의 구상과 정법중과 호법중의 분화, 선농일치, 단계적 정화론 등을 통해 제도화된 대안적 정화 모델을 제시하였다. 따라서 만암스님의 정화는 해방공간에서 한국불교가 선택할 수 있었던 또 하나의 역사적 경로로 재평가될 필요가 있다.",
+      "abstract_en": "This study aims to reexamine the Buddhist Purification Movement in post-liberation Korean Buddhism from the perspective of transition and leadership in modern Korean Buddhism, and in doing so, to shed new light on the historical significance of Ven. Manam’s purification movement. Previous studies have generally focused on the monk-centered radical purification movement that unfolded after the government’s purification directive of 1954, interpreting it as the core narrative of the modernization of Korean Buddhism and the restoration of monastic discipline.However, such a narrative does not sufficiently explain other coexisting lines of purification in the liberation period, particularly Ven. Manam’s gradual and institution-oriented approach. In response, this study adopts Max Weber’s typology of authority as its analytical framework and examines how post-liberation Korean Buddhism reconstructed its legitimacy and order amid colonial remnants, institutional vacuums, and internal conflicts within Sangha.                Through this analysis, the study argues that the purification movement of the time involved the coexistence of two forms of leadership: a charismatic and radical leadership that sought to restore purity and orthodoxy through a break with the existing order, and a rational and gradual leadership that acknowledged reality, minimized conflict, and pursued change within institutional stability. Ven. Manam’s purification belonged to the latter.Through the vision of Gobul Chongnim, the differentiation between Jeongbeop-Monk[正法衆] and Hobeop-Monk[護法衆], the ideal of the unity of Seon and agriculture, and the theory of gradual purification, he presented an institutionalized alternative model of Buddhist purification. Therefore, Ven. Manam’s purification should be reevaluated not as a peripheral variant of radical purification, but as another historical path that Korean Buddhism in the liberation period could have taken.",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "49",
+      "end_page": "78",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d902b613404870106aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "만암스님",
+        "고불총림",
+        "불교정화",
+        "한국불교",
+        "해방공간",
+        "베버",
+        "카리스마적 리더십",
+        "합리적 리더십"
+      ],
+      "keywords_en": [
+        "Ven. Manam",
+        "Gobul Chongnim",
+        "Buddhist Purification",
+        "Korean  Buddhism",
+        "the Liberation Period",
+        "Weber",
+        "Charismatic Leadership",
+        "Rational Leadership"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "d902b613404870106aae8a972f9116fb"
+    },
+    {
+      "article_id": "7c71a355f886a02c4884a65323211ff0",
+      "title_kr": "만암 종헌의 종사(宗史) 인식과 종조관(宗祖觀)",
+      "title_en": "Manam Jongheon’s Perception of the Order’s History and His View of the Founding Patriarch",
+      "authors": [
+        {
+          "name": "김상영",
+          "affiliation": "중앙승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "한국 근현대 불교사에서 만암 종헌(曼庵宗憲, 1876~1957)은 뚜렷한 종사(宗史) 인식을 지녔던 고승으로 평가된다. 그는 젊은 시절부터 역사의 중요성에 대해 남다른 관심을 보였는데, 청류암 광성의숙(廣成義塾)의 설립과 운영 과정에서 이러한 역사 인식을 잘 살펴볼 수 있다.만암은 백양사와 종단을 영도하는 위치에 오른 뒤, 이른바 ‘태고법통’의 뚜렷한 신봉자와도 같은 모습으로 일관하였다. 특히 만암의 일대기에서 무엇보다 주목되는 점은 그가 백양사 중창 과정에서 ‘도의영당(道義影堂)’을 마련코자 했다는 사실이다. 만암은 통도사의 구하(九河) 스님에게 도의영당 편액 글씨를 부탁하였는데, 이 편액은 현재 백양사에 소장 중이다.만암의 종사 인식은 고불총림의 ｢강령｣과 ｢청규｣를 통해서도 살펴볼 수 있다. 이를 통해 그는 ‘태고법통’을 지니고 있었으며, 왜색불교의 영향으로 인해 조선불교가 태고법통을 상실하게 된 것으로 이해하고 있었음을 살필 수 있다.이승만의 담화 이후 선학원을 중심으로 한 비구들은 1954년 9월 28~29일 전국비구승대회를 선학원에서 개최하였다. 이 대회에서 비구들은 종조를 지눌로 바꾸는 등의 종헌개정안을 수립하였는데, 종정 만암은 이에 대해 강력한 반대 의사를 표명하였다. 비구측은 이를 빌미로 새로운 종정을 추대하는 일까지 감행하였지만, 만암은 환부역조하는 이들과는 함께 할 수 없다면서 뜻을 굽히지 않았다. 만암은 태고법통을 중시하면서, 종조 도의를 선양하는 일에 적극 앞장섰던 고승으로 평가할 수 있다.",
+      "abstract_en": "In modern and contemporary Korean Buddhist history, Manam Jongheon (曼庵宗憲, 1876–1957) is regarded as an eminent monk who possessed a clear and distinctive awareness of the order’s history (jongsa). From his youth, he showed an exceptional interest in the importance of history, and this historical consciousness can be clearly observed in the process by which he established and operated Gwangseong Uisuk (廣成義塾) at Cheongnyuam Hermitage.After assuming leadership of Baekyangsa Temple and the Buddhist order, Manam consistently maintained the position of a firm adherent of the so-called “Taego Dharma lineage.” What is especially noteworthy in his life is the fact that, during the reconstruction of Baekyangsa Temple, he sought to establish the Douiyeongdang (道義影堂). a portrait hall honoring Master Doui. Manam requested the calligraphy for the hall’s signboard from Master Guha (九河) of Tongdosa Temple, and this signboard is currently preserved at Baekyangsa Temple.Manam’s understanding of the order’s history can also be examined through the “Guiding Principles”(gangnyeong) and “Monastic Regulations” (cheonggyu) of the Gobul Monastic Complex (古佛叢林). These documents show that he upheld the Taego Dharma lineage and understood Korean Buddhism to have lost this lineage under the influence of Japanese-style Buddhism.Following President Syngman Rhee’s public statements, the bhikkhus centered around Seonhakwon convened the National Bhikkhu Assembly at Seonhakwon on September 28–29, 1954. At this assembly, they drafted amendments to the order’s constitution, including a proposal to change the founding patriarch to Jinul. Manam, who was then serving as Supreme Patriarch, expressed strong opposition to this proposal. The bhikkhu faction used his opposition as a pretext to install a new Supreme Patriarch. Nevertheless, Manam refused to yield, declaring that he could not stand together with those who would “exchange the father and replace the ancestor”(換父易祖). Manam may therefore be evaluated as an eminent monk who placed great importance on the Taego Dharma lineage and actively took the lead in honoring Doui as the founding patriarch.",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "79",
+      "end_page": "113",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c71a355f886a02c4884a65323211ff0",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "만암 종헌",
+        "백양사",
+        "도의영당",
+        "태고법통",
+        "환부역조",
+        "종사와 종조 인식"
+      ],
+      "keywords_en": [
+        "Manam Jongheon",
+        "Baekyangsa Temple",
+        "Douiyeongdang",
+        "Taego Dharma lineage",
+        "Gobul Monastic Complex",
+        "view of the founding patriarch",
+        "awareness of the order’s history."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "7c71a355f886a02c4884a65323211ff0"
+    },
+    {
+      "article_id": "7c71a355f886a02c7ecd42904f0c5d65",
+      "title_kr": "정화운동 자료 현황과 편찬을 위한 과제 - <근현대불교 아카이브>의 제안 -",
+      "title_en": "Current Status of Materials on the Purification Movement and Tasks for Compilation - Proposal for the <Modern and Contemporary Buddhism Archive> -",
+      "authors": [
+        {
+          "name": "이재수",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논의는 한국불교의 정체성을 회복하고 미래를 위한 정화운동을 밝히고 그 정신을 기리려고 했던 공동체의 노력을 살펴보고자 하였다. 바로 정화운동 관련 자료의 현황을 살펴 이를 현재에 어떻게 구현할 것인가에 대한 고민을 정리하였다.정화운동 관련 자료를 자료집과 종단사 관련 자료 및 구술사 관련 자료로 구분하여 살펴보았다. 30여 년 전 선우도량 한국불교근현대사연구회가 간행한 󰡔(신문으로 본) 한국불교근현대사Ⅰ과 중앙승가대 불교사학연구소의  한국 현대불교사 일지󰡕를 필두로 조직적 활동을 통해 역사를 증언한 정화운동 자료들을 살펴보았다. 각 자료집은 왜 어떠한 목적으로 어떻게 작업하고 정리했는지를 정리해 보았다. 각 자료집의 성격과 의의를 정리하여, 정화운동의 본질과 의의를 살펴 정화운동의 정신과 가치를 논의하였다. 이를 통해 정화운동 자료들의 특성을 정리해 낼 수 있을 것이다. 정화운동을 탐구하는 길잡이의 역할을 증언해 줄 수 있는 생생한 자료를 구축하기 위한 방향을 잡고자 하였다.디지털 대전환의 시대에 불교기록유산 아카이브 구축의 사례를 통해 <정화운동 아카이브>를 위한 방향을 잡아 보고자 한다. 정화운동이 담긴 복합적 합의를 온전히 드러내기 위해 확장성과 디지털화를 전제로 복합적 활용을 지향할 것을 제안한다. ‘정화운동 온톨로지’를 설계하여 시맨틱 DB를 지향하여 온톨로지를 구축하고 AI 대전환을 위한 ‘한국불교 소버린 AI’의 핵심 자료 구축의 시발점이 될 <근현대불교 아카이브> 구축을 향한 방향을 살펴보고자 한다.",
+      "abstract_en": "This discussion aimed to examine the efforts of the community to restore the identity of Korean Buddhism, shed light on the purification movement for the future, and honor its spirit. Specifically, it reviewed the current status of materials related to the purification movement and summarized considerations on how to implement them in the present.Materials related to the purification movement were examined by classifying them into source books, materials concerning the history of Buddhist orders, and materials related to oral history. Beginning with Modern and Contemporary History of Korean Buddhism (as Seen Through Newspapers) I, published over 30 years ago by the Seonwoo Doryang Association for the Study of Modern and Contemporary Korean Buddhism, and Journal of Modern Korean Buddhist History by the Institute of Buddhist History at Jungang Sangha University, the study examined purification movement materials that testified to history through organized activities. It summarized why, for what purpose, and how each sourcebook was compiled and organized. By summarizing the nature and significance of each source book, the study examined the essence and significance of the purification movement and discussed its spirit and value. Through this, it will be possible to summarize the characteristics of the purification movement materials. We sought to establish a direction for constructing vivid materials that could serve as a guide for exploring the purification movement.In the era of the great digital transformation, this paper aims to establish a direction for the <Purification Movement Archive> through the case study of establishing an archive for Buddhist documentary heritage. To fully reveal the complex consensus embodied in the Purification Movement, it proposes pursuing multifaceted utilization premised on scalability and digitization. By designing a ‘Purification Movement Ontology’ and constructing an ontology that aims for a semantic database, this paper examines the direction toward establishing the <Modern and Contemporary Buddhism Archive>, which will serve as the starting point for building core data for the ‘Korean Buddhism Sovereign AI’ in preparation for the great AI transformation.",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "115",
+      "end_page": "148",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c71a355f886a02c7ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "불교정화",
+        "정화운동",
+        "불교기록유산",
+        "디지털아카이브",
+        "근현대불교",
+        "조계종"
+      ],
+      "keywords_en": [
+        "Buddhist Purification",
+        "Purification Movement",
+        "Buddhist Documentary Heritage",
+        "Digital Archive",
+        "Modern and Contemporary Buddhism",
+        "Jogye Order"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "7c71a355f886a02c7ecd42904f0c5d65"
+    },
+    {
+      "article_id": "d902b61340487010e9810257f7042666",
+      "title_kr": "󰡔열반종요󰡕에 나타난 원효의 불성 해석",
+      "title_en": "Wonhyo’s Interpretation of Buddha-Dhātu as Presented in Nirvāṇa-Jongyo",
+      "authors": [
+        {
+          "name": "양용선",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "원효는 󰡔열반종요󰡕에서 󰡔열반경󰡕의 ‘불성(佛性)’을 이해하기 위해서는 진여(眞如), 종성(種性), 법신(法身), 보불(報佛) 등 네 가지 개념이 필요하다고 주장한다. 이는 기존의 열반종・섭론종・삼론종・법상종 등에서 해석해온 불성 개념들을 종합해서 새롭게 체계화한 결과이기도 하지만, 동시에 󰡔열반경󰡕 전체에 걸쳐 설해진 ‘불성’을 온전하게 파악했기 때문이다. 이를 바탕으로 원효는, 당시 섭론종의 진제가 주장한 불성, 즉 진여와 종성은 단지 인불성(因佛性)에 해당할 뿐이며, 󰡔열반경󰡕에서 말하는 ‘불성’은 본래 도생이 주장한 과불성(果佛性), 즉 법신과 보신을 가리킨다고 보았다. 더 나아가 원효는 네 가지 불성들을 성정문(性淨門)과 수염문(隨染門)으로 다시 분류한다. 이러한 분류를 통해 원효는 󰡔열반경󰡕에서 설해진 ‘불성’에 관한 여러 논란을 효과적으로 회통할 수 있음을 보여준다.원효는 󰡔열반경󰡕의 여래비밀법장(如來秘密法藏)으로서 상(相)도 여의고 성(性)도 여읜 무이실성(無二實性)을 제시한다. 왜냐하면 󰡔열반경󰡕에서 ‘불성’은 본래 상(相)을 여읜 무위법이면서도, 항상 성(性)을 떠나 유위의 작용을 일으킨다고 설하고 있기 때문이다. 다시 말하면 보불의 법신이라는 본체가 항상 진여의 종성이라는 작용을 일으킨다는 것이다. 최종적으로 원효는 삼승가(三乘家)에서 주장하는 인불성과 일승가(一乘家)에서 주장하는 과불성을 모두 아우르는 일심(一心)・불성(佛性)이 󰡔열반경󰡕의 ‘불성’이라고 주장한다. 구체적으로 일심・불성이라는 대열반의 바다에서 과불성이라는 바닷물이 인불성이라는 파도를 항상 일으킨다는 것이다. 결국 원효는 사상적으로 삼승을 포용하는 일승가인 것으로 보인다. 이는 󰡔열반경󰡕의 불성을 단지 인불성으로만 이해하고 있는 선행 연구자들에게 시사하는 바가 크다고 본다.",
+      "abstract_en": "Wonhyo argues in Nirvana-Jongyo that, in order to understand the “Buddha-dhātu” taught in Mahāparinirvāṇa Sūtra, four concepts are required: Tathatā, Gotra, Dharmakāya, and Sambhogakāya. This is not only the result of a newly systematized synthesis of the concept of “Buddha-dhātu” as interpreted by earlier schools such as the Nirvāṇa school, Shelun school, Sanlun school, and Faxiang school, but also reflects a complete understanding of the meaning of “Buddha-dhātu” as taught throughout Mahāparinirvāṇa Sūtra.On this basis, Wonhyo contended that Buddha-dhātu posited by Jinje of the Shelun school — namely, Tathatā and Gotra — corresponds merely to the causal dimension of Buddha-dhātu. In contrast, he argued that Buddha-dhātu expounded in Mahāparinirvāṇa Sūtra signifies the Resultant Buddha-dhātu, as originally advanced by Daosheng, encompassing both Dharmakāya and Saṃbhogakāya.            Furthermore, Wonhyo reclassifies the four concepts of Buddha-dhātu by assigning Dharmakāya and Tathatā to the “Gate of Intrinsic Purity”, and Gotra and Saṃbhogakāya to the “Gate of Following Defilement”. Through this classification, Wonhyo shows that the various controversies surrounding Buddha-dhātu in Mahāparinirvāṇa Sūtra can be effectively harmonized.Wonhyo presents the Tathāgata’s “hidden treasury of the Dharma” in Mahāparinirvāṇa Sūtra as the non-dual true nature that transcends both characteristics (相) and nature (性). Because Mahāparinirvāṇa Sūtra teaches that “Buddha-dhātu” is originally an unconditioned dharma free from all characteristics, yet without ever departing from its own nature, it constantly gives rise to conditioned activity.In other words, the essential nature of the Dharmakāya of the Sambhogakāya constantly gives rise to the Gotra of the Tathatā. Wonhyo ultimately argues that Buddha-dhātu described in Mahāparinirvāṇa Sūtra encompasses both the causal Buddha-dhātu, as asserted by the Three-Vehicle school, and the resultant Buddha-dhātu, as asserted by the One-Vehicle school, integrating them into the concept of the “One Mind Buddha-dhātu”.Specifically, in the ocean of Great Nirvāṇa — constituted by the “One Mind Buddha-dhātu” — the water of the Resultant Buddha-dhātu constantly gives rise to the waves of the Causal Buddha-dhātu. Ultimately, Wonhyo appears to be a thinker of the One Vehicle who embraces the Three Vehicles. This finding carries important implications for earlier scholars who have interpreted Buddha-dhātu in Mahāparinirvāṇa Sūtra solely in terms of Causal Buddha-dhātu.",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "167",
+      "end_page": "195",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d902b61340487010e9810257f7042666",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "원효",
+        "열반종요",
+        "열반경",
+        "불성",
+        "법신",
+        "일심",
+        "일승가."
+      ],
+      "keywords_en": [
+        "Wonhyo",
+        "Nirvāṇa-Jongyo",
+        "Mahāparinirvāṇa Sūtra",
+        "Buddha-dhātu",
+        "Dharmakāya",
+        "One Mind",
+        "One-Vehicle Thinker."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "d902b61340487010e9810257f7042666"
+    },
+    {
+      "article_id": "7c71a355f886a02cb36097776a77e665",
+      "title_kr": "󰡔육조단경요역󰡕에 보인 원돈(圓頓)적 이해 고찰",
+      "title_en": "A Study of the Wondon (圓頓) Understanding Presented in the Yukjo Dangyeong Yoyeok",
+      "authors": [
+        {
+          "name": "송준환",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "백용성(白龍城, 1864~1940)은 한국 근대불교 전개에 큰 영향을 끼친 인물이다. 대각교 수행론과 실천적 사상은 근현대 선사상의 전개 방향을 구명하는 데 중요한 의미를 지닌다. 그는 간화선 중심의 수행론을 일관되게 주장하고, 포교 또한 이에 기반하였다. 그러나 그가 추진한 한글 번역의 역경사업 역시 한국 불교사의 중요한 업적으로 평가된다.용성은 보광사에서 접한 󰡔단경󰡕을 대각교의 정신적 근간으로 삼아서 이를 번역하였는데 저본은 덕이본이었다. 대각교 선관은 임제 간화선풍을 정통으로 내세워 그 수행법을 계승하였다. 조사선에서 불성은 문자적 의미를 넘어 성불과 열반 및 각(覺)을 포괄하는 개념으로 이해된다. 여기에 조선후기의 삼학사상과 선교일치(禪敎一致)의 흐름을 수용할 경우, 불성은 화엄적 관점에서 반야와 원융적으로 해석될 수 있다. 즉 반야와 불성은 진공묘지의 차원에서 융즉한 관계에 놓인다. 본고는 이러한 관점에서 대원각성(大圓覺性)을 진여본성(眞如本性)으로 원각체성(圓覺體性)을 진공묘지(眞空妙智)로 규정한 용성의 해석을 원돈적 관점으로 논구하고자 한다.이를 위해 덕이본의 한국 전래와 사상적 특징을 고찰하고, 용성의 주해서인 󰡔요역󰡕의 연원과 전승 및 변형 양상을 경문과 번역의 비교를 통해서 분석한다. 나아가 덕이본의 마하반야바라밀과 정혜일체 사상이 󰡔요역󰡕에서 진공묘지로 재정립되는 과정을 밝힘으로써, 조사선의 선풍을 계승하면서도 원돈적으로 해석이 가능한 용성의 각 사상과 󰡔요역󰡕을 통해 한국 근현대불교의 선교관 사상에 미친 영향을 구명하고자 한다.",
+      "abstract_en": "Baek Yongseong (白龍城, 1864–1940) was a prominent figure in the development of modern Korean Buddhism. The theory and praxis of Daegakgyo (大覺敎) provide a useful basis for understanding the development of modern Seon thought. He consistently advocated a ganhwa seon-centered approach to practice, and his proselytizing activities were grounded in this orientation. However, his translation of Buddhist scriptures into vernacular Korean constitutes a significant contribution to the history of Korean Buddhism.Having encountered the Platform Sutra at Bogwangsa, Baek established it as the spiritual foundation of Daegakgyo and undertook its translation, using the Deogi (德異) edition as his base text. The Seon orientation of Daegakgyo upheld the Linji (臨濟) tradition of ganhwa seon as orthodox and transmitted its method of hwadu (話頭) practice. Within Patriarchal Seon (祖師禪), buddha-nature is understood as transcending its literal sense and as encompassing enlightenment, nirvāṇa, and awakening. When considered in the context of the late Joseon discourse on the Threefold Training (三學) and the current of Seon–Gyo unity (禪敎一致), buddha-nature may be interpreted, from a Huayan (華嚴) perspective, as interpenetrating with prajñā. In other words, prajñā and buddha-nature stand in a yungjeuk (融卽) relationship at the level of jinkong myoji (眞空妙智). From this perspective, this study seeks to examine, from a wondon perspective, Yongseong’s interpretation that identifies daewon gakseong (大圓覺性) as jinyeo bonseong (眞如本性) and wongak cheseong (圓覺體性).To this end, this study examines the transmission and doctrinal characteristics of the Deogi edition in Korea and, through a comparison between the original scripture and its translation, analyzes the origins, transmission, and transformation of the Yoyeok (要譯), Yongseong’s principal exegetical text. By elucidating the process through which the doctrines of mahāprajñāpāramitā and the unity of samādhi and prajñā (定慧一體) as presented in the Deogi edition were rearticulated as jinkong myoji in the Yoyeok, this study examines Yongseong’s doctrinal thought and explores the influence of the Yoyeok on the Seon–Gyo discourse of modern Korean Buddhism—demonstrating how, while inheriting the spirit of Patriarchal Seon, it allows for a wondon interpretation.",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "197",
+      "end_page": "227",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c71a355f886a02cb36097776a77e665",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "백용성",
+        "덕이본 단경",
+        "육조단경요역",
+        "마하반야바라밀",
+        "정혜일체",
+        "자성 청정심",
+        "진공묘지",
+        "원돈",
+        "원융",
+        "융즉."
+      ],
+      "keywords_en": [
+        "Baek Yongseong",
+        "Deogi edition of the Platform Sutra",
+        "Yukjo Dangyeong Yoyeok",
+        "mahāprajñāpāramitā",
+        "unity of samādhi and prajñā",
+        "prakṛti-prabhāsvara-citta",
+        "jinkong myoji",
+        "wondon",
+        "wonyung",
+        "yungjeuk."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "7c71a355f886a02cb36097776a77e665"
+    },
+    {
+      "article_id": "7c71a355f886a02cb7998d826d417196",
+      "title_kr": "백용성 스님의 각설범망경 역경과 승가 정화운동 - 참회 사상을 중심으로 -",
+      "title_en": "Back yongseong’s Translation of Gakseol Beommanggyeong and the Sangha Purification Movement : Focusing on Repentance Thought",
+      "authors": [
+        {
+          "name": "지하나",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 일제 강점기 백용성 스님의 󰡔각설범망경󰡕(1933) 간행이 단순한 경전 번역을 넘어, 왜색화된 한국불교의 정체성을 회복하고 청정 승가를 구현하기 위한 승가 정화운동의 핵심 도구였음을 규명하는 데 목적이 있다. 당시 타율적인 사찰령 체제와 대처식육(帶妻食肉)의 풍조 속에서 계율 정신이 붕괴할 위기에 처하자, 용성스님은 구체적인 행동 강령과 수행 지침을 담은 󰡔각설범망경󰡕을 간행하여 사상적 대응에 나섰다.본고는 이 텍스트의 구조 분석을 통해 용성스님이 상권(一心地法門)과 하권(계율 목록)을 통합하여 이론과 실천의 일원화를 추구하였음을 밝혔다. 특히 그가 고안한 ｢대각교수계참회행법(大覺敎受戒懺悔行法)｣의 10단 의례는 추상적이었던 죄의식을 四十八輕戒라는 구체적인 참회 목록으로 시각화하였다. 이는 승려 개개인이 타인의 감시 없이도 스스로 파계 사실을 자각하고 정화할 수 있도록, 포살(布薩)과 수계(受戒)를 기반으로 한 강력하고 주체적인 내적 자기 검열 시스템을 구축한 것이다.가장 주목할 점은 이러한 용성스님의 참회와 계율 수호 의지가 궁극적으로 임제선풍(臨濟禪風)의 수호와 맞닿아 있다는 사실이다. 용성스님에게 계율의 엄격한 실천은 단순한 도덕적 규제를 넘어, 깨달음을 향한 선(禪) 수행의 청정한 바탕을 마련하는 선율겸행(禪律兼行)의 필수적 과정이었다. 즉, 그는 자발적인 멸죄 시스템을 통해 타락한 수행 풍토를 일소하고, 한국불교의 전통적인 선풍(禪風)을 대각(大覺) 사상으로 승화시킴으로써 민족 불교의 주체성을 재건하고자 하였다.결론적으로 백용성 스님의 󰡔각설범망경󰡕 역경은 난해한 한문에 갇힌 계율을 해방한 주체(主體)의 번역이었으며, 박제화된 규범을 선율겸행의 살아있는 수행 현장으로 불러내어 해방 이후 비구 승단 정화운동의 굳건한 사상적 원동력을 제공했다는 데 깊은 의의가 있다.",
+      "abstract_en": "This study aims to elucidate that the publication of Gakseol Beommanggyeong(1933) by Ven. Baek Yongseong during the Japanese colonial period was not a mere translation of scriptures, but a core instrument of the Sangha purification movement to restore the identity of Korean Buddhism, which was being Japanized, and to realize a pure Sangha. Faced with the crisis of the collapse of the precept spirit under the heteronomous Temple Ordinance (Sachal-ryeong) system and the trend of marriage and meat-eating (Daecheo Sigyuk) among monks, Ven. Yongseong responded ideologically by publishing Gakseol Beommanggyeong, which contained specific codes of conduct and practice guidelines.Through a structural analysis of this text, this paper reveals that  Yongseong pursued the unification of theory and practice by integrating the upper volume (Dharma-door of the Mind-ground) and the lower volume (list of precepts). In particular, the 10-stage ritual of the \"Daegakgyo Precepts and Repentance Practice (Daegakgyo Suge Chamhoe Haengbeop)” which he designed, visualized the abstract sense of guilt into a concrete list of repentance through the 48 minor precepts. This established a strong and independent “internal self-censorship system” based on Uposatha(Posal) and precepts (Suge), allowing individual monks to realize and purify their own violations of precepts without external monitoring.What is most notable is that Yongseong's will to repent and defend the precepts was ultimately connected to the defense of the Linji (Imje) Zen tradition. For Yongseong, the strict practice of precepts went beyond simple moral regulation; it was an essential process of Seon-Vinaya dual practice (Seonyul Gyeomsu) to lay a pure foundation for Zen practice toward enlightenment. In other words, through a voluntary system of extinguishing sins, he sought to eradicate the corrupted climate of practice and reconstruct the subjectivity of national Buddhism by sublimating the traditional Zen spirit of Korean Buddhism into the Daegak (Great Enlightenment) thought.In conclusion, Back Yongseong's translation of Gakseol Beommanggyeong was a “translation of subjectivity” that liberated the precepts trapped in esoteric Classical Chinese. It holds profound significance in bringing fossilized norms into the living field of Seon-Vinaya dual practice, thereby providing a solid ideological driving force for the Bhikkhu Sangha Purification Movement after liberation.",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "229",
+      "end_page": "267",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c71a355f886a02cb7998d826d417196",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "백용성",
+        "각설범망경",
+        "대각교수계참회행법",
+        "범망경연의",
+        "포살과 수계",
+        "역경",
+        "참회행법",
+        "승가정화. 선율겸수",
+        "선율일치."
+      ],
+      "keywords_en": [
+        "Back Yongseong",
+        "GakseolBeommanggyeong",
+        "Daegakgyo Suge Chamhoe Haengbeop",
+        "Beommanggyeong-Yeonui",
+        "Uposatha and Precept-taking",
+        "Self-reliance Faith",
+        "Translation of Buddhist scriptures",
+        "Repentance Practice",
+        "Sangha Purification",
+        "Daegak Thought"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "7c71a355f886a02cb7998d826d417196"
+    },
+    {
+      "article_id": "d902b61340487010d18150b21a227875",
+      "title_kr": "신 자료 발굴로 보는 한용운과 홍성",
+      "title_en": "Han Yong-un and Hongseong through Newly Uncovered Materials",
+      "authors": [
+        {
+          "name": "한건택",
+          "affiliation": "-",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 연구는 한용운이 승려로 출가한 이후 불교 개혁뿐 아니라 독립운동과 문학 활동에 투신하게 된 정신적·사상적 기반의 형성 과정을 규명하고자 하는 데 목적이 있다. 특히 한용운이 출생 이후 출가 이전까지 성장한 홍성 지역을 중심으로 서당 교육과 가문 전통, 그리고 지역 사찰에서 유학·문학·불교 사상 등의 영향을 받으며 그의 사상적 토대가 형성되었음을 밝히고자 한다.최근 공개된 한용운 가문의 고문서 자료를 비롯하여, 한용운의 부친 한응준 관련 자료, 출가 이전 홍주부 감영에서 받은 완문, 형 한윤경과 아들 한보국의 제적등본, 일제강점기 때 작성된 토지대장 등 홍성 지역의 관련 사료를 우선적으로 조사하였다. 아울러 일제강점기에 작성된 한용운의 자필 이력서와 민적부, 󰡔동광󰡕 수록 이력서, 3·1운동 관련 법정 자료, 당시 신문 및 잡지에 수록된 회고 자료 등 다양한 2차 자료를 종합적으로 검토·분석하였다.이를 바탕으로 한용운의 부친 한응준이 동학농민군을 토벌하기 위한 초토군에 참여하였음을 확인하였으며, 기존에 온양방씨로만 알려져 있던 모친의 이름이 방여완임과 그녀의 사망 시기를 새롭게 규명하였다. 또한 한용운의 출생지가 홍성군 홍성읍 오관리 212번지였음을 고증하였다.한용운은 3~4세 무렵부터 형성된 유학적 소양과 폭넓은 독서, 부친 한응준과의 담화, 그리고 김복한의 위정척사사상의 영향을 바탕으로 훗날 독립운동에 투신하게 되었다. 또한 한용운의 문학 및 불교와의 인연은 󰡔서상기󰡕를 접한 데에서 비롯되었으며, 이후 󰡔선요󰡕 발문에 수록된 문구와 󰡔화엄경󰡕 ｢보현행원품｣에서 받은 깊은 깨달음은 그로 하여금 유서를 불태우고 불법에 귀의하게 하는 계기가 되었으며, 이후 백담사로 들어가 정식으로 출가하여 승려의 길을 걷게 하였다.한용운의 저항정신과 독창적인 문학 사상의 뿌리를 홍성이라는 지역사적 맥락과 연결하여 이해될 필요가 있음을 다시 한번 강조하고자 한다.",
+      "abstract_en": "This study aims to identify the ideological origins that led Han Yong-un (Manhae) to become a Buddhist reformer, independence activist, and literary figure. Focusing on Hongseong, where he was born and raised before becoming a monk, the research examines how his family background, village schools, and nearby temples shaped his intellectual development through Confucianism, literature, and Buddhism.Using newly disclosed family documents and historical records, along with autobiographical materials, legal documents, newspapers, and memoirs, the study reexamines and verifies existing information about Han Yong-un’s early life. Several important findings were made: his mother’s name was confirmed as Bang Yeo-wan; his family was relatively well-off and not involved in the Donghak movement; and his father, Han Eung-jun, was found to have participated in military efforts against the Donghak Peasant Army rather than serving as a local government clerk. The study also disproves previous claims that his father and brother participated in the Hongju Righteous Army.The research further identifies Han Yong-un’s actual birthplace and clarifies the educational environments that influenced his childhood. He was deeply affected by Confucian values, particularly the spirit of loyalty and self-sacrifice, through both his father and Kim Bok-han, a scholar of the Namdang school. These ideas later became an important foundation for his devotion to Korea’s independence movement.His interest in literature and Buddhism began in childhood through works such as The Romance of the Western Chamber and Chinese historical novels. After completing the mourning period for his father, Han sought advancement through study but became disillusioned by social changes following the Gabo Reform. During his stay at Yongbongsa Temple, exposure to Buddhist texts led him to a profound spiritual awakening. Inspired by Buddhist teachings, he abandoned his previous scholarly pursuits and chose the path of Buddhism, eventually becoming a monk at Baekdamsa Temple.As a monk, independence activist, nationalist, and writer, Han Yong-un’s later achievements were deeply rooted in the social, cultural, and historical environment of Hongseong, which provided the intellectual and spiritual foundation for his life and work.",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "269",
+      "end_page": "316",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d902b61340487010d18150b21a227875",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "한용운",
+        "홍성",
+        "한응준",
+        "한보국",
+        "안동장씨",
+        "서당",
+        "김복한",
+        "서상기",
+        "열국지"
+      ],
+      "keywords_en": [
+        "Han Yong-un",
+        "Hongseong",
+        "Han Eung-jun",
+        "Han Bo-guk",
+        "Andong Jang clan",
+        "Seodang",
+        "Kim Bok-han",
+        "Seosanggi",
+        "Yeolgukji"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "d902b61340487010d18150b21a227875"
+    },
+    {
+      "article_id": "7c71a355f886a02cc85d2949c297615a",
+      "title_kr": "근대 여성 우봉운의 불교계 활동",
+      "title_en": "The Buddhist Activities of Woo Bong-woon, a Modern Woman",
+      "authors": [
+        {
+          "name": "한금순",
+          "affiliation": "제주대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "한국 근대 시대를 대표하는 민족운동가이며 여성운동가인 우봉운은 조선불교여자청년회 회장과 능인여자학원 교장 등의 활동으로 불교 포교와 여성 교육을 통한 여성의 사회운동 참여 활동에 앞장선 인물이다. 여자선학원에서 수행하고 부인선우회에서 신행 활동을 하였다.조선불교여자청년회는 불교 일요학교와 불교 부인강좌를 개설하여 불교 포교활동을 하였다. 여성 교육 활동으로 능인여자학원과 자명여학교를 운영하였고 문자보급반 활동을 통해 한글 교육을 실행하였고, 명성여자실업학원을 개설하여 의류 기술 및 요리와 사진 기술 등 실업교육을 하였다. 여성의 직업교육을 통해 경제력을 갖춘 여성을 양성하겠다는 활동이었다. 수재 구제와 기근 구제 활동 등의 각종 사회 현안에 참여하는 활동도 실행하여 여성이 사회 현안에 참여하도록 이끌기도 하였다.우봉운은 간도에서 명동여학교 등에서 교육 활동을 하였고, 간도와 연해주 지역에서 철혈광복단 여자단원으로 민족운동을 하였다. 여성의 지위 향상과 민족 해방이라는 목표를 위해 조선여성동우회와 근우회 활동 주역을 담당한 인물이기도 하다. 우봉운은 노동하는 여성으로 경제적 독립을 바탕으로 하여 여성이 사회적 역할을 수행해야 함을 주장하는 활동을 선도하였다.우봉운은 근대 불교계에서 여성 활동을 이끌었던 대표 인물로 불교 수행을 바탕으로 근대 여성의 능력 계발이라는 목표와 민족운동이라는 시대적 과제를 위해 활동한 한국 근대 여성의 대표적 인물이라 할 수 있다.",
+      "abstract_en": "Woo Bong-woon, a representative nationalist and women’s rights activist of the modern Korean era, was a leading figure in women’s participation in social movements through Buddhist propagation and education. She served as the president of the Joseon Buddhist women’s Youth Association and the principal of Neungin women’s Academy. She also practiced at the Women's Seonhakwon Meditation center and engaged in religious activities at the women’s Sunwoo Association.The Joseon Buddhist women’s Youth Association conducted Buddhist propagation activities by establishing Buddhist Sunday schools and Buddhist lectures for women. In terms of women’s education, she operated Neungin women’s Academy and Jamyeong Girls’ School, implemented Hangeul education through literacy classes, and established Myeongseong women’s Vocational Academy to provide vocational training in clothing technology, cooking, and photography. Her goal was to cultivate economically empowered women through vocational education. She also engaged in various social issues, such as flood and famine relief, thereby encouraging women to participate in social affairs.Woo Bong-woon conducted educational activities in Gando at institutions such as Myeongdong Girls’ School and participated in the nationalist movement as a female member of the Cheolhyeol Gwangbokdan in the Gando and Primorsky Krai regions. She was also a leading figure in the activities of the Joseon women’s Dongwoohoe and Geunwoohoe, aiming for the advancement of women's status and national liberation. Woo Bong-woon spearheaded activities advocating that women should fulfill social roles based on economic independence as working women.As a representative figure who led women’s activities within the modern Buddhist community, Woo Bong-woon can be considered a representative figure of modern Korean women who worked for the goal of developing the capabilities of modern women and fulfilling the historical task of the national movement, all based on Buddhist practice.",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "317",
+      "end_page": "346",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c71a355f886a02cc85d2949c297615a",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "우봉운",
+        "조선불교여자청년회",
+        "능인여자학원",
+        "기석호",
+        "여자선학원",
+        "부인선우회",
+        "자명여학교",
+        "명성여자실업학원",
+        "근우회"
+      ],
+      "keywords_en": [
+        "Woo Bong-woon",
+        "Joseon Buddhist Women's Youth Association",
+        "Neungin Women’s Academy",
+        "Ki Seok-ho",
+        "Women’s Seonhakwon Meditation center",
+        "Women’s Sunwoo Association",
+        "Jamyeong Girls’ School",
+        "Myeongseong Women's Vocational Academy",
+        "Geunwoohoe"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "7c71a355f886a02cc85d2949c297615a"
+    },
+    {
+      "article_id": "d902b613404870107f7a54760bb41745",
+      "title_kr": "종달 이희익 수행세계의 구조적 해석과 과제",
+      "title_en": "A Structural Interpretation of Jongdal’s Practice World and the Methodological Tasks It Raises",
+      "authors": [
+        {
+          "name": "이상호",
+          "affiliation": "서강대학교 종교연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고의 목적은 근현대 한국불교의 맥락에서 종달(宗達)의 수행세계를 구조적으로 분석하고, 그 해석이 요청하는 방법론적 과제를 제시하는 데 있다. 종달은 해방 이전 일본 임제종 묘심사파 경성별원에서 출가하여 법맥을 계승하였고, 해방 이후에는 한국 사회의 재가 조건 속에서 선도회(禪道會)를 중심으로 수행의 장을 재조직하였다. 또한 󰡔대한불교(大韓佛敎)󰡕, 󰡔법시(法施)󰡕, 󰡔선문화(禪文化)󰡕 등의 언론·출판 활동을 통해 수행 담론을 공론장으로 확산하였다.본고는 종달의 수행세계를 수행 주체, 수행 질문, 공동체, 생활세계, 공론장이라는 다섯 차원에서 분석하였다. 이를 통해 종달의 수행세계가 출가수행의 경험을 재가의 생활 조건 속에서 재구성하고, 공동체적 실천과 생활수행의 언어, 매체를 통한 담론 유통 속에서 지속·확산된 과정임을 밝혔다. 특히 그의 실천은 공안을 통한 의정의 형성, 참구의 심화, 입실점검에 의한 검증, 다음 공안으로의 이행이라는 연속적 수행 구조를 보여준다.나아가 이러한 해석이 수행 주체의 복합적 개념화, 수행 언어의 정련, 비교 수행론의 설계, 생활수행 양태의 층위화, 공론장 연구의 심화라는 방법론적 과제를 요청함을 밝혔다. 마지막으로 종달의 수행세계를 재가선 일반 가운데서도 출가수행의 경험, 공안 참구, 공동체적 지속, 일상적 실천, 매체 활동이 결합된 특수한 수행 유형으로 파악하고, 재가선 개념으로 이해할 때 제기되는 주요 논점을 정리하였다.",
+      "abstract_en": "This article offers a structural interpretation of Jongdal (宗達)’s practice world within the context of modern and contemporary Korean Buddhism and proposes the methodological tasks required for its further study. Jongdal was ordained before Korea’s liberation in the Myōshinji lineage of Japanese Rinzai Zen and inherited its dharma lineage. After liberation, however, he could not simply continue that practice tradition within the same institutional framework. Instead, he reorganized a field of practice within the lay conditions of Korean society, centering on Seondohoe (禪道會), and extended Seon practice discourse into a wider Buddhist public sphere through media and publishing activities such as Daehan Bulgyo (大韓佛敎), Beopsi (法施), and Seonmunhwa (禪文化).This study examines Jongdal’s practice world through five interrelated dimensions: the practice subject, practice questioning, community, lifeworld, and public sphere. It argues that Jongdal’s practice world should not be understood merely as an extension of monastic Seon or as a general form of lay religious practice. Rather, it can be seen as a process in which monastic training, dharma-lineage consciousness, and gong’an practice were reconfigured within post-liberation lay life. In this process, gong’an inquiry, the formation and deepening of uijeong (疑情), verification through ipsil jeomgeom (入室點檢), communal continuity, everyday practice, and media-based discourse were not separate elements but mutually related aspects of a single practice structure.The article further clarifies several methodological tasks required for future studies of Jongdal. These include the complex conceptualization of the practice subject beyond a simple monastic–lay binary, the refinement of practice language into analytical concepts, the design of a comparative theory of practice, the stratification of modes of everyday cultivation, the deepening of research on Buddhist media and the public sphere, and the construction of a stable documentary basis for cumulative research. These tasks are necessary because Jongdal’s practice world cannot be sufficiently explained through biographical description, doctrinal interpretation, or a simple reconstruction of organizational history alone.In particular, this article proposes that Jongdal’s lay Seon should be understood not merely as the fact that laypeople practiced Seon, nor as a designation based on personal status. Rather, it should be treated as an analytical concept that explains how monastic experience, gong’an inquiry, communal discipline, lifeworld practice, and media activity were combined under lay conditions. In this sense, Jongdal’s case shows how traditional Seon practice was inherited, reorganized, and socially extended within the changing conditions of modern Korean Buddhism.By presenting Jongdal’s practice world as a structural nexus of practice subject, practice questioning, community, lifeworld, and public sphere, this article seeks to provide a methodological basis for expanding the study of modern Korean Buddhist practice history and lay Buddhism.",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "347",
+      "end_page": "382",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d902b613404870107f7a54760bb41745",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "종달",
+        "재가선",
+        "수행 주체",
+        "생활수행",
+        "수행 담론",
+        "선도회",
+        "불교 공론장",
+        "근현대 한국불교"
+      ],
+      "keywords_en": [
+        "Jongdal (宗達)",
+        "practice world",
+        "lay Seon",
+        "everyday practice",
+        "practice    discourse",
+        "Seondohoe (禪道會)",
+        "Buddhist public sphere",
+        "modern and contemporary Korean Buddhism."
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "d902b613404870107f7a54760bb41745"
     }
   ],
   "by_year": {
