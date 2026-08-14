@@ -4,7 +4,7 @@
     "category": "불교사학",
     "impact_factor": 0.33,
     "control_no": "864d8da7fde953e0ffe0bdc3ef48d419",
-    "last_updated": "2026-07-26"
+    "last_updated": "2026-08-14"
   },
   "articles": [
     {
@@ -9705,6 +9705,34 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "c43076f8919a78686aae8a972f9116fb"
+    },
+    {
+      "article_id": "b9cbcf4b80af76f747de9c1710b0298d",
+      "title_kr": "서울 남산(南山)의 문화적 의미와 철학·사상적 가치",
+      "title_en": "",
+      "authors": [
+        {
+          "name": "윤명철",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "한국불교사연구",
+      "year": "2026",
+      "volume": "29",
+      "issue": "",
+      "start_page": "5",
+      "end_page": "26",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b9cbcf4b80af76f747de9c1710b0298d",
+      "kci_url": "",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "b9cbcf4b80af76f747de9c1710b0298d"
     }
   ],
   "by_year": {
