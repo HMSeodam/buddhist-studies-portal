@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.65,
     "control_no": "609d6ddc429d15c5",
-    "last_updated": "2026-07-12"
+    "last_updated": "2026-08-23"
   },
   "articles": [
     {
@@ -18537,6 +18537,34 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "d902b613404870107f7a54760bb41745"
+    },
+    {
+      "article_id": "5aefc6d4d8e6e0057f7a54760bb41745",
+      "title_kr": "내가 들은 만암스님",
+      "title_en": "",
+      "authors": [
+        {
+          "name": "암도스님",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "149",
+      "end_page": "165",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5aefc6d4d8e6e0057f7a54760bb41745",
+      "kci_url": "",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "5aefc6d4d8e6e0057f7a54760bb41745"
     }
   ],
   "by_year": {

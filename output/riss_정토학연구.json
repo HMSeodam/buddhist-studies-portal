@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 1.04,
     "control_no": "20c4186b3804871f",
-    "last_updated": "2026-07-13"
+    "last_updated": "2026-08-23"
   },
   "articles": [
     {
@@ -18593,6 +18593,34 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "3167f340db70bb33b36097776a77e665"
+    },
+    {
+      "article_id": "5aefc6d4d8e6e005b7998d826d417196",
+      "title_kr": "신라불교로 정신문화와 생태문화를 꽃피우다",
+      "title_en": "",
+      "authors": [
+        {
+          "name": "한태식(보광)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "정토학연구",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "start_page": "13",
+      "end_page": "19",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5aefc6d4d8e6e005b7998d826d417196",
+      "kci_url": "",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "5aefc6d4d8e6e005b7998d826d417196"
     }
   ],
   "by_year": {
