@@ -3,7 +3,8 @@
     "name": "한마음연구",
     "category": "불교학",
     "impact_factor": 0.31,
-    "control_no": "5324a18d726261b4ffe0bdc3ef48d419"
+    "control_no": "5324a18d726261b4ffe0bdc3ef48d419",
+    "last_updated": "2026-09-04"
   },
   "articles": [
     {
@@ -5785,6 +5786,446 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS"
+    },
+    {
+      "article_id": "ce476e3d1cc5570eb7998d826d417196",
+      "title_kr": "번뇌가 있는 중생은 어떻게 깨달을 수있는가?- SN 12.17의 사구분별 틀로 본 번뇌의 연기론적 구조와 해탈의 가능성",
+      "title_en": "How Can Sentient Beings Possessed of Defilements Attain Awakening: The Dependent Structure of Defilements and the Possibility of Liberation, Considered Through the Fourfold Analysis of the Acelakassapa-sutta",
+      "authors": [
+        {
+          "name": "이필원(동국대 WISE 부교수)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "This paper addresses a paradox at the heart of early Buddhist soteriology: How can a sentient being possessed of defilementsattain awakening? Previous studies have treated defilements as an intrinsic property of the mind, an adventitious factor,or a cognitive-affective process. None has adequately addressed the question of genesis, how defilements arise, and why thestructure of their arising entails the possibility of their cessation.This paper fills that gap by applying the fourfold analysis of the Acelakassapa-sutta to defilements. There the Buddha rejects all four propositions concerning suffering—self-caused, other-caused, both, or uncaused—and puts forward the notionof dependent-arising instead. The same logical structure governs the origin of defilements. The recognition that defilementsare neither self-caused nor caused by outside factor but arise dependent on conditions is precisely the philosophical groundof awakening for a being who still possesses them. Three implications follow: 1) defilements arise dependent on conditions, and cease when those conditions change; 2) being neither the mind's original nature nor an external compulsion,they do not preclude practice; and 3) to know the conditions of their arising as they are is itself yoniso manasikāra, fromwhich liberation begins.Keywords: āsava, dependent arising (paṭicca-samuppāda), Acelakassapa-sutta, catuṣkoṭi, yoniso manasikāra, Sabbāsava-sutta",
+      "abstract_en": "초기불교 해탈론은 ‘번뇌를 지닌 중생이 어떻게 깨달음을 얻는가’라는 역설을 안고 있다. 기존 연구는 번뇌를 마음의 내재적 성질, 외래적요소, 또는 인지적∙정서적 과정으로 분석해 왔으나, ‘번뇌는 어떻게발생하며 그 발생 구조가 왜 소멸 가능성을 함의하는가’라는 발생론적물음에는 충분히 답하지 못했다.본 논문은 『상윳따 니까야』 12.17 ｢아쩰라 깟사빠 경｣의 사구분별四句分別을 번뇌론에 적용한다. 붓다는 고苦에 관한 네 물음—자작自作∙타작他作∙자타공작自他共作∙무인작無因作—을 모두 기각하고 연기緣起를 제시했다. 이 논리 구조는 번뇌의 기원 문제에도 그대로 적용된다. 번뇌가자작도 타작도 아니라 연기적으로 발생한다는 인식이야말로 번뇌 있는중생의 깨달음을 가능케 하는 토대이다.이 관점은 세 함의를 갖는다. 첫째, 번뇌는 조건적으로 발생하므로조건이 변하면 소멸한다. 둘째, 번뇌는 마음의 본래 성질도 외부 강제력도 아니므로 번뇌가 있는 상태에서도 수행이 가능하다. 셋째, 번뇌의발생 조건을 여실히 아는 것 자체가 yoniso manasikāra이며, 이 앎에서해탈이 시작된다. MN 2의 일곱 방법은 이 원리의 실천적 표현으로재해석된다.",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "15",
+      "end_page": "61",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ce476e3d1cc5570eb7998d826d417196",
+      "kci_url": "",
+      "keywords_kr": [
+        "번뇌",
+        "연기",
+        "사구분별",
+        "아쩰라 깟사빠 경",
+        "요니소 마나시까라",
+        "빛나는마음",
+        "케마까 경"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "ce476e3d1cc5570eb7998d826d417196"
+    },
+    {
+      "article_id": "ce476e3d1cc5570e7f7a54760bb41745",
+      "title_kr": "「대념처경」 법념처의 수행론적 구조에대한 고찰-외향에서 내향으로의 방향 전환",
+      "title_en": "Regarding the Cultivational Structure of Dhammānupassanā Method of Practice Found in the Mahāsatipaṭṭhāna-sutta:\nA Directional Turn From Outward to Inward",
+      "authors": [
+        {
+          "name": "이윤진(능인대학원대)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 니까야 ｢대념처경｣의 법념처에 배속된 다섯 항목, 오개∙오취온∙육내외처∙칠각지∙사성제의 배열을 ‘차제’가 아니라 ‘방향’의 관점에서 다시 읽는다. 임승택(2004)의 차제적 이해와 이중성 논제를출발점으로 삼되, 같은 배열에 외향에서 내향으로의 방향이 각인되어있음을 논의한다. 앞의 세 항목은 장애∙집착∙결박을 ‘버림’으로 덜어내는 외향의 국면을 이룬다. 여기서 외향은 바깥 대상을 통제하려는탐욕에 실린 집착의 벡터를 가리키며, 이 국면은 그 벡터에서 탐욕을 덜어낸다. 뒤의 두 항목은 깨달음의 자질을 ‘닦아(bhāvanā)’ 키우고 갈애를 자신의 과제로 되돌리는 내향의 국면을 이룬다. 버림과 닦음은 동일한 자양을 공유하는 한 쌍이며, 욕탐(chandarāga)에서 탐욕이 떨어지고 의욕(chanda)만 안으로 회전할 때 감산은 가산으로, 외향은 내향으로 뒤집힌다. 사성제에 이르러 이 축은 ‘갈애에 의존한 갈애의 버림’을수행의 무대에 올리고 자등명∙자귀의로 완성된다. 본 연구는 법념처의 배열이 외부 통제에서 내부 통제로 옮겨 가는 방향 전환의 구조이며,이 전환이 마음의 통제권을 자신에게로 가져오는 자기 조절의 점진적성립임을 제시한다.",
+      "abstract_en": "This study rereads the five items of the dhammānupassanā method of practice found in the Mahāsatipaṭṭhāna-sutta. Theyare, 1) five hindrances, 2) five aggregates of clinging, 3) six internal-external sense bases, 4) seven factors of awakening, and5) the Four Noble Truths. Here I focus on the “directional” move from outward to inward sphere.The first three constitute the outward phase for reducing hindrance, attachment, and bondage through “letting go.” This indicates the vector of clinging propelled by greed to control external objects, from which this phase removes greed. The latter two items form the inward phase where the qualities of awakening are cultivated and craving is dissolved through cultivation.Non-attachment and cultivation form a pair that share the same aim of nourishment; when reduction becomes addition and outward transforms to inwardness.Regarding the Four Noble Truths, this axis brings “the lettinggo of craving in dependence on craving” into a method of practice and manifests the progression to the stages of attadīpa and attasaraṇa. The arrangement thus emerges as a directional turn from external control to internal control—a gradual establishment of self-regulation bringing mastery over the mind back to oneself.Keywords: Mahāsatipaṭṭhāna-sutta, dhammānupassanā, outward and inward, cultivation (bhāvanā), fetter (saṃyojana), craving (taṇhā), self-training (atta-danta), seven awakening factors,Four Noble Truths.",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "63",
+      "end_page": "112",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ce476e3d1cc5570e7f7a54760bb41745",
+      "kci_url": "",
+      "keywords_kr": [
+        "대념처경",
+        "법념처",
+        "외향과 내향",
+        "닦음(bhāvanā)",
+        "결박",
+        "갈애",
+        "자기조복",
+        "칠각지",
+        "사성제"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "ce476e3d1cc5570e7f7a54760bb41745"
+    },
+    {
+      "article_id": "ce476e3d1cc5570ee9810257f7042666",
+      "title_kr": "재가 아라한의 존재 가능성에 관한 고찰",
+      "title_en": "A Study on the Possibility of the Existence of a Lay Arahant",
+      "authors": [
+        {
+          "name": "이수창(마성, 팔리문헌연구소 소장)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 ‘재가자가 아라한이 될 수 있는가?’와 ‘재가 아라한이 존재할 수 있는가?’라는 논쟁의 전말顚末을 다룬 것이다. 후자의 논쟁은 ‘재가자가 아라한이 된 이후에도 재가 생활을 계속할 수 있는가?’라는 것이다. 원론적으로는 재가자도 아라한이 될 수 있다. 그러나 현실적으로 재가자가 아라한이 된다는 것은 거의 불가능에 가깝다. 실제로 붓다 시대에도 아라한과를 실현한 사람은 극소수에 불과하다. 재가자 는 근본적으로 감각적 욕망에 토대를 두고 살아가는 존재이기 때문이다. 그런데 ‘재가 아라한이 존재할 수 있는가?’에 대해서는 부파 간에 견해가 일치하지 않는다. 상좌부 계통은 재가 아라한이 존재할 수 없다는 견해를 견지하지만, 대중부 계통은 재가 아라한이 존재할 수 있다는 견해를 갖고 있다. 상좌부에 따르면, 재가 아라한의 신분으로 재가 생활을 계속한다는 것은 불가능하다. 아라한의 성질(arahatta)과 재가자의 표상(gihī-liṅga)은 양립할 수 없기 때문이다. 그래서 재가자가 아라한이 되면 ‘그날 바로 출가하거나 그날 바로 열반하게 된다’라고 주장한다. 필자는 두 가지 주장 중에서 테라와다의 주장이 더 합리적이 고 타당하다고 생각한다.",
+      "abstract_en": "This paper examines such debatable ideas as “Can a layperson become an arahant?” or “Can a lay arahant exist?” The second point is based on the question, “Can a person continue to lead a lay life after becoming an arahant?” In theory, a layperson can become an arahant. However, in reality it is nearly impossible for a layperson to become an arahant. In fact, even during the Buddha's time, only a very small number of people achieved arahantship. This is because fundamentally a layperson’s life is based on sensory desires.However, there is disagreement among Buddhist sects regarding the question, “Can a lay arahant exist?” The Theravāda school maintains that a lay arahant cannot exist, while on the other hand, the Mahāsāṃghika tradition holds the view that lay arahants can exist. According to the Theravāda school, it is impossible for a lay Buddhist to continue his or her life as a lay arahant, because the nature of an arahant and the presence of a house holder (gihī-liṅga) are incompatible.Keywords: gihissārahātikathā, Theravāda, Mahāsaṃghika, Uttarāpathaka, gihi-saṃyojana, arahatta, gihī-liṅga",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "113",
+      "end_page": "150",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ce476e3d1cc5570ee9810257f7042666",
+      "kci_url": "",
+      "keywords_kr": [
+        "가주아라한론",
+        "상좌부",
+        "대중부",
+        "북도파",
+        "재가의 족쇄",
+        "아라한의 성질",
+        "재가자의 표상"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "ce476e3d1cc5570ee9810257f7042666"
+    },
+    {
+      "article_id": "ce476e3d1cc5570ed18150b21a227875",
+      "title_kr": "사미의 악행과 제재 방식 연구",
+      "title_en": "Misconduct and Disciplinary Measures for Novice Monks in the Pāli Vinaya",
+      "authors": [
+        {
+          "name": "이자랑(동국대 HK교수)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 빨리율을 중심으로 사미의 악행과 그에 대한 제재 방식을 고찰하여, 승가가 예비 출가자를 어떠한 원칙 아래 교육하고 관리하였는지를 밝히는 것을 목적으로 한다. 빨리율 ｢대건도(Mahākkhandhaka)｣에서는 사미의 악행을 ‘(1)사미십계’, ‘(2)단다갈마의 대상이 되는 다섯가지 행위’, ‘(3)멸빈의 대상이 되는 열 가지 행위’의 세 범주로 설명한다.그런데 이 가운데 (2)에 대해서는 범계의 내용뿐 아니라 그에 따른 제재 방식까지 설명하고 있는 반면, (1)의 경우 제재 방식에 대한언급이 전혀 없고, (3)의 경우에도 멸빈이 구체적으로 어떠한 제재를 동반하는 처벌인지 알 수 없다. 이에 본고에서는 주석 『사만따빠사디까(Samantapāsādikā)』의 관련 내용을 분석하여 이 세 범주의 악행이 서로 어떠한 관계 속에서 이해되고 제재되는지를 검토한다. 이를 통해 빨리 상좌부의 사미 제재가 ‘단다갈마’와 ‘멸빈’을 중심으로 이루어졌음을 밝히고, 나아가 이들 제재 방식이 참회와 교화를 우선하면서도 공동체의 질서를 중대하게 훼손하는 행위에 대해서는 단호한 배제를 통해 승가의 청정을 유지하고자 하였음을 논증한다.",
+      "abstract_en": "This study examines the categories of novice (sāmaṇera) misconduct and the disciplinary measures prescribed in the PāliVinaya, with the aim of clarifying the principles by which the saṅgha educated and administered novice monks. The“Mahākkhandhaka” section classifies novice misconduct into three categories: (1) Ten Precepts for Novices, (2) five offencessubject to disciplinary acts (daṇḍakamma), and (3) ten offences subject to expulsion (nāsanā). While the second category specifies both the offences and the corresponding disciplinary procedures, the first provides no information regarding sanctions for violations, and the third does not explain what expulsion specifically entails.To address these issues, this study analyzes the relevant passages of the Pāli text Samantapāsādikā to examine how these three categories of misconduct are related to one another, how they were sanctioned, and how the novice disciplinary system was structured. Based on the current analysis, I argue that dis-ciplinary measures for novices in the Theravāda tradition is centered on the concepts daṇḍakamma and nāsanā.Furthermore, it demonstrates that this disciplinary system prioritized repentance and moral rehabilitation while preserving the purity of the saṅgha through the decisive exclusion of those whose conduct seriously threatened the harmony and discipline of the monastic community.Keywords: sāmaṇera, Ten Precepts for Novices, daṇḍakamma,nāsanā, Liṅganāsanā, daṇḍakammanāsanā, Pāli Vinaya, kaṇṭakasikkhāpada, “Mahākkhandhaka\"",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "151",
+      "end_page": "184",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ce476e3d1cc5570ed18150b21a227875",
+      "kci_url": "",
+      "keywords_kr": [
+        "사미",
+        "사미십계",
+        "단다갈마",
+        "멸빈",
+        "표식멸빈",
+        "단다갈마멸빈",
+        "빨리율",
+        "대건도",
+        "깐타까 학처"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "ce476e3d1cc5570ed18150b21a227875"
+    },
+    {
+      "article_id": "ce476e3d1cc5570e6aae8a972f9116fb",
+      "title_kr": "안혜(Sthiramati)의 예시(dṛṣṭānta) 연구— ‘예시의 부재(dṛṣṭāntābhāva)’에 이르기까지—",
+      "title_en": "A Study of Sthiramati’s Examples (dṛṣṭānta): Toward the Absence of Examples (dṛṣṭāntābhāva)",
+      "authors": [
+        {
+          "name": "송부경(동국대)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 유가행파 논사 안혜(Sthiramati, ca. 510~570 CE)의 『대승오온론석(Pañcaskandhakavibhāṣā)』과 『유식삼십송석(Triṃśikābhāṣya)』을 중심으로, ‘오직 식일 뿐(vijñaptimātra)’이라는 세계관 속에서 예시(dṛṣṭānta)가 어떻게 드러나는지를 고찰한다. 본고는 안혜의 비유 일반을 그의 산스크리트 어법에 따라 은유(upacāra)∙비유(upamā)∙예시의 세 층위로 구분한다. 본고가 다루는 8종은 구조적으로는 비유이며, 논증에 배치되면서 담당한 기능은 예시이다. 이 예시를 메타적으로 세 측면으로 분류하고, 종국에는 그 비유가 깨지는 지점을 분석한다.제1측면은 존재자의 지속과 상속(폭류, 물과 파도, 꽃과 참깨), 제2측면은 보이지 않는 것의 현존(자석과 철, 배가 부르지 않은 처녀), 제3측면은 인식의 착오와 전도(눈병, 허공의 꽃, 토끼 뿔)이다. 나아가 예시는 존재에서 비존재로 이행하는데, ‘사유 불가능한 것(acintya)’에 가면 비유 자체가 부재함[dṛṣṭāntābhāva]에 이른다. 즉 예시는 진리에 닿기 위해 쓰이지만, 도달한 뒤에는 버려지는 인식론적 임시 장치(upāya)로 해석된다.",
+      "abstract_en": "Focusing on Sthiramati’s (ca. 510–570 CE) Pañcaskandhakavibhāṣā and Triṃśikābhāṣya, this study examines how examples (dṛṣṭānta) operate within the worldview of consciousness-only (vijñapti-mātra) of the tradition. First, three strata in Sthiramati’s figurative language are distinguished as metaphor (upacāra), analogy (upamā), and example (dṛṣṭānta) following his own use of Sanskrit semantics. This distinction rests not on an external framework but on his use of the expressions, dṛṣṭānta, -vat, and upacaryate. The eight types examined here are analogies in structure, and as they are placed within an argument, they acquire the function of “example.”The study then classifies them into three dimensions and analyzes the points at which each analogy is delimited. The firstdimension concerns the succession and continuity of cognition (water torrent, water and waves, flowers and sesame); the second concerns the presence of invisible phenomena (magnet and iron, a maiden); the third, the illusoriness of cognition (cataracts,sky-flower, rabbit's horn). It further observes that examples shift from the existent to the non-existent, but once it reaches the stage of the inconceivable (acintya), analogy becomes absent (dṛṣṭāntābhāva). Examples are thus interpreted as an epistemological expedient (upāya) employed in order to reach the truth but discarded once truth has been reached.Keywords: Sthiramati, Pañcaskandhakavibhāṣā, Triṃśikābhāṣya, example (dṛṣṭānta), metaphor (upacāra), analogy (upamā)",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "185",
+      "end_page": "221",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ce476e3d1cc5570e6aae8a972f9116fb",
+      "kci_url": "",
+      "keywords_kr": [
+        "안혜",
+        "대승오온론석",
+        "유식삼십송석",
+        "예시",
+        "은유",
+        "비유"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "ce476e3d1cc5570e6aae8a972f9116fb"
+    },
+    {
+      "article_id": "13bfdb1b2024d7af7ecd42904f0c5d65",
+      "title_kr": "『법화경』의 상불경보살의 근기와 법사행 — 천태지의의 『법화문구』·『법화현의』를 중심으로",
+      "title_en": "The Capacity and Dharmabhāṇaka Practice of Bodhisattva Sadāparibhūta in the Lotus Sutra:Focusing on Zhiyi's Compositions, Fahua wenju and Fahua xuanyi",
+      "authors": [
+        {
+          "name": "차지선(금강대)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 『법화경』에 등장하는 상불경보살의 근기와 법사행을 천태 지의의 『법화문구』와 『법화현의』를 기반으로 천태교학의 수행계위를중심으로 분석하였다. 본 논문에서는 상불경보살이 『법화경』과 관련 없이 단순히 불자들을 예배∙찬탄하는 보살이 아니라, 『법화경』의 일승진리를 신해한 원교보 살로서 일승인행一乘因行의 법사행을 실천하였음을 규명하고자 하였다. 상불경보살의 근기는 원교圓敎 근기에 해당하며, 수행계위는 오품 제자위五品弟子位 중 초수희품初隨喜品에 위치함을 밝혔다. 또한 신해의 깊이에 따라 법사행의 양상에도 차이가 있음을 밝혔으며, 수희품의 법사행과 육근청정의 법사행은 중생교화 측면에서 그 범위와 내용에서 차이가 보인다. 수희품의 법사행은 일승진리의 신해를 바탕으로 한예배와 찬탄 중심이었지만, 이를 지속적으로 수행함으로써 육근청정의 과보를 성취하게 되고, 그 결과 육근청정의 법사행으로 나아가게 된다.이렇게 육근청정의 법사행은 가假의 진리를 알아 근기에 따라 중생을 교화하는 것으로, 이를 지속적으로 행하여 구경에는 성불에 이를 수있다. 상불경보살은 법사행을 통해 육근청정의 공덕을 증장하고 점차 법사 행의 범위를 넓혀, 빠르게 불도를 이루는 원교보살임을 밝혔다.",
+      "abstract_en": "This study analyzes the capacity and dharmabhāṇaka practice of Bodhisattva Sadāparibhūta found in the Lotus Sutra by focusing on the stages of practice presented in Zhiyi's Fahua wenju and Fahua xuanyi. It argues that Sadāparibhūta is not merely a bodhisattva venerating and praising Buddhist practitioners independently of the Lotus Sutra, but a bodhisattva of Perfect Teaching who, performs dharma-bhāṇaka as its causal practice of the One Vehicle. His capacity corresponds to the Perfect Teaching, and his stage of practice is the Initial Stage of Rejoicing among the Five Levels of Disciples.This study further argues that the dharmabhāṇaka practice varies according to the depth of faith and understanding. At the Initial Stage of Rejoicing, veneration and praise are emphasized. Continued practice brings about the purification of the six sense faculties and leads to the performance of the dharmabhāṇaka practice that includes understanding provisional truths and edification of sentient beings according to their capacities. Sustained practice ultimately leads to Buddhahood.Thus, Sadāparibhūta is shown to be a bodhisattva of the Perfect Teaching who increases merit that arises from the purification of the six sense faculties. In doing so, he broadens the scope of his dharmabhāṇaka practice, and swiftly attains Buddhahood.Keywords: Lotus Sutra, Tiantai, Bodhisattva Sadāparibhūta, Bodhisattva of the Perfect Teaching, Initial Stage of Rejoicing, purification of the six sense faculties, dharmabhāṇaka practices.",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "223",
+      "end_page": "263",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=13bfdb1b2024d7af7ecd42904f0c5d65",
+      "kci_url": "",
+      "keywords_kr": [
+        "법화경",
+        "천태",
+        "상불경보살",
+        "원교보살",
+        "초수희품",
+        "육근청정",
+        "법사행"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "13bfdb1b2024d7af7ecd42904f0c5d65"
+    },
+    {
+      "article_id": "13bfdb1b2024d7afb36097776a77e665",
+      "title_kr": "『삼국유사』 설화의 통과의례 서사와 헤테로토피아적 공간 - <만파식적>·<노힐부득 달달박박>·<욱면비염불서승>을 중심으로",
+      "title_en": "Rites of Passage Narratives and Heterotopian Spaces in the Tales of Samguk Yusa (三國遺事): Focusing on “Manpasikjeok” (萬波息笛), “Nohil Budeuk and Daldal Bakbak” (努肹夫得 怛怛朴朴), and “Ukmyeonbi Yeombul Seoseung” (郁⾯婢念佛西昇)",
+      "authors": [
+        {
+          "name": "박성호(동국대 강사)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 『삼국유사』 의 <만파식적>, <노힐부득 달달박박>, <욱면비염불서승>을 중심으로 통과의례의 서사 구조와 리미널 공간의 헤테로토피아적 성격을 고찰하였다. 세 설화는 ‘분리-전이-재통합’의 보편적의례 구조를 공유한다. <만파식적>은 국가적 위기(분리) 속에서 거북머리 섬(전이)을 거쳐 왕권 신성화와 공동체 재생(재통합)을 이룬다.<노힐부득 달달박박>은 세속 단절(분리) 후 무등곡에서의 시험(전이)을 통과해 현신성불(재통합)에 도달한다. <욱면비염불서승>은 노비 신분의 이탈(분리)과 미타사에서의 고행(전이)을 거쳐 진신왕생(재통합)이라는 개인 구원을 성취한다. 이들 리미널 공간은 일상 질서가 정지되고 다원적 차원이 중첩되는 ‘헤테로토피아’로 작동한다. 결론적으로  『삼국유사』 의 통과의례 서사는 국가, 구도자, 민중으로 초월의 양상이 분화하며, 세속의 한계를 돌파하고자 했던 신라인의 다층적 사상적 지향을투영한다.",
+      "abstract_en": "This study examines the narrative structure of rites of passage and heterotopian characteristics of liminal spaces in the threeSamguk Yusa tales: “Manpasikjeok,” “Nohil Budeuk and Daldal Bakbak,” and “Ukmyeonbi Yeombul Seoseung.” Applying thetheories of van Gennep, Turner, and Foucault, this research investigates how transcendent transformation is achievedthrough ritual processes and specific spatial settings.Analysis reveals that all three narratives follow the ritual structure of separation, transition, and reincorporation. In the tale “Manpasikjeok” is depicted a national rite where King Sinmun overcomes crisis and sacralizes his authority on the liminal Turtle-Head-shaped Island. The tale “Nohil Budeuk and Daldal Bakbak” illustrates an ascetic rite in Mudeunggok, culminating in hyeonsin seongbul (Buddhahood in the present body). The tale “Ukmyeonbi Yeombul Seoseung” portrays a slave’s rite at Mitasa temple, leading to jinsin wangsaeng (rebirth in a truebody) and a dramatic status reversal.Furthermore, these liminal spaces function as Foucault’s heterotopias. They juxtapose incompatible realms, display heterochronic time, and require transcendent authorization for access. Ultimately, this paper argues that these spaces are essential sites for ritual transformation, demonstrating that the people of Silla conceived transcendence not as a distant realm, but as an experience attainable through heterotopian spaces embedded within the everyday world.Keywords: Samguk Yusa (三國遺事), rites of passage, liminality, heterotopia, “Manpasikjeok” (萬波息笛), “Nohil Budeuk and DaldalBakbak” (努肹夫得 怛怛朴朴), “Ukmyeonbi Yeombul Seoseung” (郁⾯婢念佛西昇), Victor Turner, Michel Foucault",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "265",
+      "end_page": "298",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=13bfdb1b2024d7afb36097776a77e665",
+      "kci_url": "",
+      "keywords_kr": [
+        "삼국유사",
+        "통과의례",
+        "리미널리티",
+        "헤테로토피아",
+        "만파식적",
+        "노힐부득 달달박박",
+        "욱면비염불서승",
+        "빅터 터너",
+        "미셸 푸코"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "13bfdb1b2024d7afb36097776a77e665"
+    },
+    {
+      "article_id": "13bfdb1b2024d7af4884a65323211ff0",
+      "title_kr": "견성의 속성과 기능 고찰",
+      "title_en": "A Study on the Attributes and Function of Seeing One’s True Nature(⾒性)",
+      "authors": [
+        {
+          "name": "김호귀(동국대 교수)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "중국의 선종에서 견성見性의 개념은 깨달음의 경험으로 일찍부터 중요하게 취급되었다. 그 연원은 인도에서 출현한  『열반경』의 불성에 대한 체험에서 찾아볼 수가 있다. 이후로 중국의 선종에서는 견성의 체험이 구경각究竟覺에 도달하는 필요한 조건으로 정착되었다. 따라서 견성이 깨달음의 경험이라면 구경각은 견성의 경험을 통해서 도달한 궁극적인 경지로 묘사되었다.본 논문에서는 견성과 구경각에 대하여 이와 같은 관계에서 출발한 다. 소위 견성이란 다름이 아니라 구경각을 성취하는 수행이라는 행위의 측면이고, 구경각은 견성의 결과를 정의하는 측면이다. 이와 관련한 개념으로 직지인심 견성성불의 종지가 있다. 견성은 향상문向上門의 궁극에 대한 경험의 측면을 가리키지만, 성불은 향상문의 궁극으로 깨달음의 완성이면서 동시에 향하문向下門의 원천이 되는 측면을 가리킨다.그런 까닭에 견성은 번뇌를 벗어나서 자기의 불심을 직지하는 행위로 주목되어 있다. 견성은 때로는 자성을 직지하는 기능으로 드러나는가 하면, 수행의 행위로서 깨달음을 지향하는 절차탁마의 기능으로 드러나기도 하며, 성불의 관계에서 향상문으로 나아가는 궁극적인 기능으로 드러나기도 한다.",
+      "abstract_en": "In Chan Buddhism, the concept of seeing one’s true nature⾒性 has long been regarded as a crucial aspect in the experience of enlightenment. Its origins can be traced back to the experience of Buddha-nature described in the Mahāparinirvāṇa Sūtra.Subsequently, within the Chinese tradition of Chan Buddhism, the experience of seeing one’s true nature became established as a necessary condition for attaining ultimate enlightenment.Therefore, if seeing one’s true nature is the experience of enlightenment, ultimate enlightenment was described as the ultimate state attained through the experience of seeing one’s true nature.Here, the relationship between “directly pointing” and “seeing one’s true nature” is identical as both represent a profound experience of realizing that the Buddha-mind, which is inherently present, is pure. Likewise, the relationship between seeing one’s true nature and attaining Buddhahood is no different from that between seeing one’s true nature and ultimate enlightenment.In the latter case, seeing one’s true nature refers to the experiential aspect of the ultimate goal of the Gate of Ascent, whereas attaining Buddhahood refers to the aspect that is both the completion of enlightenment as the ultimate goal of the Gate of Ascent and the source of the Gate of Descent.Keywords: One’s True Nature, ultimate enlightenment, Chan Buddhism, Mahāparinirvāṇa Sūtra, Gate of Ascent, Gate of Descent, Buddhahood, attaining Buddhahood, seeing one’s true nature, ultimate enlightenment",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "299",
+      "end_page": "333",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=13bfdb1b2024d7af4884a65323211ff0",
+      "kci_url": "",
+      "keywords_kr": [
+        "선종",
+        "견성",
+        "구경각",
+        "직지인심",
+        "견성성불",
+        "열반경",
+        "향상문",
+        "향하문",
+        "심즉시불",
+        "일행삼매"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "13bfdb1b2024d7af4884a65323211ff0"
+    },
+    {
+      "article_id": "13bfdb1b2024d7afb7998d826d417196",
+      "title_kr": "‘무오 법정사 항일운동’에 관한 재고찰 - ‘김석윤 배후설’을 반박하며",
+      "title_en": "A Reconsideration of the 1918 Beopjeongsa Anti-Japanese Movement: Refuting the Kim Seogyun Mastermind Narrative",
+      "authors": [
+        {
+          "name": "정진희(혜달, (사)봉려관불교문화연구원장)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 최근 법정사 항일운동 역사에서 논란의 중심에 있는 김석윤 배후설의 진위를 규명하고, 김석윤이 법정사 항일운동과 무관함을 제시한 연구이다.법정사 항일운동은 법정사에서 김연일, 강창규, 방동화 등이 중심축이 되어 기획, 준비, 출정식을 거쳐 전개된 제주도민의 국권회복으로 평가받고 있다. 그런데 최근 연구에 따르면 김석윤이 법정사 항일운동 에 깊이 관여했으며 나아가 법정사 항일운동의 인적, 사상적 토대이자 핵심적 원동력이라 지목하고 있다. 하지만 이런 주장을 뒷받침할 객관적 증거는 부재하며 주장만 반복되는 실정이었고 관련 자료들에서 김석윤의 관련성은 전무全無했다.필자는 김석윤의 ｢승적부｣, 김석익의 저술, 일제 사법기관 문서, 일제 공기관 문서 등 16건의 자료들을 검토한 결과, 김석윤이 불교 제도권에서 출가, 수계한 객관적 기록이 없었고 관음사에서 승려생활도 하지 않았으며 법정사 항일운동은 물론 핵심 주모자들과도 관련성이 없었다는 결론에 도달했다. 그리고 일제가 법정사 항일운동 참여자 수를 최초 700명에서 점차 축소 기록했다는 주장도 허위임을 명확히 밝혀냈다.",
+      "abstract_en": "This study examines the narrative of Kim Seogyun as a mastermind behind the Beopjeongsa Anti-Japanese Movement, presenting evidence that he had no connection to the resistance.Historically, this movement was a pivotal effort by the people of Jeju Island to reclaim national sovereignty, led by Kim Yeonil, Kang Changgyu, and Bang Donghwa. Recently, however, some studies have claimed Kim Seogyun was its central ideological force, despite a lack of supporting evidence.Based on a review of sixteen primary sources, including Kim’s monastic registry, the writings of Kim Seogik, and Japanese colonial judicial records, this paper demonstrates that Kim Seogyun never entered the Buddhist priesthood, received precepts, or resided at Gwaneumsa Temple. Consequently, he had no involvement in the Beopjeongsa Temple resistance. Framing Kim as an officially recognized monk, leader of the 1909 Jeju Righteous Army, or the mastermind of the Beopjeongsa Uprising distorts the history of both events. By establishing his true status, this article confirms Kim’s complete detachment from the movement and refutes claims that Japanese colonial authorities artificially reduced the recorded number of participants from 700.Keywords: Beopjeongsa Anti-Japanese Movement, Gwaneumsa Temple, Kim Yeonil, Kang Changgyu, Bang Donghwa, Kim Seogyun",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "335",
+      "end_page": "378",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=13bfdb1b2024d7afb7998d826d417196",
+      "kci_url": "",
+      "keywords_kr": [
+        "법정사 항일운동",
+        "관음사",
+        "김연일",
+        "강창규",
+        "방동화",
+        "김석윤"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "13bfdb1b2024d7afb7998d826d417196"
+    },
+    {
+      "article_id": "13bfdb1b2024d7afc85d2949c297615a",
+      "title_kr": "대행선관법의 수증론적 구조 연구- 의정의 회수와 주인공 증명을 중심으로",
+      "title_en": "The Structure of Cultivation and Realization in Daehaeng Seon Contemplative Practice: The Return of Uijeong and the Verification of Juingong",
+      "authors": [
+        {
+          "name": "이상호(서강대  연구원)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 묘공당 대행의 대행선관법을 의정의 발생∙회수∙나툼∙증명의 흐름 속에서 검토하여, 수행이 증득을 지향하고 그 증득이 생활수행에서 확인되는 수증론적 구조를 해명한다.대행의 수행 생애와 법문에 나타난 유년기 고난과 ‘아빠’ 경험은 주체적 의정으로, 중원한암 선사의 법어를 통한 물음은 의도적 의정으로 형식화된다. 또한 주인공원리를 생명∙생각∙육신이 함께 작용하는 삼합 구조로 파악하고, 생활 경계를 주인공의 작용이 나툰 자리이자 의정이 발생하고 증명이 촉발되는 장으로 밝힌다. 수행자는 믿음∙놓음 ∙맡김∙지켜봄을 통해 의정과 반응을 주인공에게 회수하고, 일심적 집중 속에서 본래적 무심이 드러날 때 그 작용을 생각∙육신∙관계∙생활속 나툼으로 알아차리고 확인함으로써 주인공을 증명한다.따라서 대행선관법의 수증론적 특징은 생활 경계에서 발생한 의정이 관법을 통해 주인공으로 회수되고, 일심적 집중 속에서 드러난 무심과 생활 속 나툼의 확인이 내면적 인식 전환과 주인공의 증명으로 이어지는 왕복 구조에 있다. 이는 수행과 증득을 분리된 단계가 아니라 서로를 확인하고 심화하는 상호매개적 관계로 재배치한다.",
+      "abstract_en": "This study examines the soteriological structure of Master Myogong Daehaeng’s Seon contemplative practice by focusing on the arising and return of uijeong and the verification of juingong. Although Daehaeng’s practice has often been interpreted in terms of faith in juingong and contemplation in everyday life, her life and teachings also reveal sustained questioning arising from concrete life situations.The study argues that this questioning developed into subjective and intentional forms of uijeong through childhood suffering, the experience of the “Father,” and the dharma teachings of Jungwon Hanam. It further interprets the juingong principle as a triadic structure encompassing life, thought, and body.Everyday situations thus function both as fields in which juingong manifests and as sites in which uijeong arises. Through faith, letting go, entrusting, and observing, practitioners return uijeong and their arising reactions to juingong. As the mind becomes unified, original no-mind becomes manifest, and the functioning of juingong is confirmed through manifestations in thought, bodily activity, relationships, everyday life, and an inner transformation of awareness. Daehaeng’s practice therefore presents cultivation and realization as a reciprocal, non-linear, and integrated process within everyday life.Keywords: Daehaeng Seon, Daehaeng Seon contemplative practice, juingong, juingong-gwanbeop, uijeong, return, manifestation, verification, cultivation and realization",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "379",
+      "end_page": "428",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=13bfdb1b2024d7afc85d2949c297615a",
+      "kci_url": "",
+      "keywords_kr": [
+        "대행선",
+        "대행선관법",
+        "주인공관법",
+        "주인공원리",
+        "의정",
+        "회수",
+        "나툼",
+        "증명관",
+        "수증론"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "13bfdb1b2024d7afc85d2949c297615a"
+    },
+    {
+      "article_id": "13bfdb1b2024d7af47de9c1710b0298d",
+      "title_kr": "숙면일여의 가능성 재검토 -오매일여 담론과 무몽수면 의식 연구의 접점",
+      "title_en": "Reconsidering the Possibility of Deep-Sleep Unity: At the Interface between the Discourse of Wake-sleep unity and Research on Dreamless-Sleep Consciousness",
+      "authors": [
+        {
+          "name": "임상락(일윤, 경희대)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 현대 한국 간화선에서 깨달음의 검증 기준으로 제시된 오매일여, 특히 숙면일여의 가능성을 선 문헌과 인지과학의 접점에서 재검토한다. 성철은 숙면 중에도 화두가 지속되는 오매일여를 견성의 필수관문으로 보았으나, 김태완∙윤창화의 비판이 보이듯 그가 인용한 현사∙대혜∙『능엄경』∙『성유식론』 등의 전거는 대체로 숙면 중 화두 지속이라는 실지 경계보다 오매불이의 방편과 분별의 소멸을 가리킨다.본고는 이 문헌 비판을 수용하되, 그것이 겨냥한 층위와 ‘무몽수면 중대상 없는 각성의 존속’이라는 더 근본적 층위를 구분한다. 『능엄경』의오매항일, 아드바이타 베단타의 숙면 의식, 메칭거의 최소현상경험가설, 명상 수행자의 서파수면 뇌파 연구와 미시현상학적 면접은 분별이 사라진 뒤에도 최소한의 각성이 존속할 수 있음을 시사하며, 유식의 아뢰야식은 그 개념적 골격을 제공한다. 따라서 숙면일여는 숙면 중 화두 지속으로는 방어될 수 없으나, 무몽수면 중 순수 각성의 가능성으로는 재구성될 수 있다. 오매일여 논쟁은 화두 지속∙분별 소멸∙대상없는 각성이라는 층위의 혼동에서 비롯되었으며, 그 구분은 선 수행론과 수면 의식 연구의 생산적 대화를 가능하게 한다.",
+      "abstract_en": "This paper reexamines wake-sleep unity, particularly its deep-sleep case of deep-sleep unity, which was long presented in modern Korean Ganhwa Seon as a criterion for verified awakening. The focus of the study is the area that interfaces Seon literature and cognitive science. Master Seongcheol (1912–1993) regarded the persistence of hwadu even in deep sleep as an indispensable gateway to seeing one's true nature. Yet textual sources generally indicate the expedience of wake-sleep nonduality and the cessation of discrimination to be indispensable rather than the persistence of hwadu in deep sleep.Accepting this textual critique, this paper distinguishes the level that the textual critiques have targeted, from the more fundamental level of the persistence of objectless awareness in dreamless sleep. The Śūraṅgama Sūtra's notion of constancy through waking and sleeping, Advaita Vedānta's deep-sleep consciousness, Metzinger's minimal phenomenal experience hypothesis, and EEG and micro-phenomenological studies of meditators' slow-wave sleep all suggest that minimal awareness can persist once objectual discrimination ceases.The debate surrounding wake-sleep unity arises from the confusion of the level in the hwadu persistence-distinctions, cessation of discrimination, and objectless awareness. Clear distinctions of such levels will enable productive dialogue between Seon soteriology and sleep-consciousness research.Keywords: wake-sleep unity, deep-sleep unity, omae-hang-il, minimal phenomenal experience, dreamless-sleep awareness, pure consciousness, Seongcheol, Yogācāra",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "429",
+      "end_page": "469",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=13bfdb1b2024d7af47de9c1710b0298d",
+      "kci_url": "",
+      "keywords_kr": [
+        "오매일여",
+        "숙면일여",
+        "오매항일",
+        "최소현상경험",
+        "무몽수면 의식",
+        "순수의식",
+        "성철",
+        "유식"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "13bfdb1b2024d7af47de9c1710b0298d"
+    },
+    {
+      "article_id": "13bfdb1b2024d7af7f7a54760bb41745",
+      "title_kr": "국내 불교 차문화 연구의 동향 분석-불교와 다도 중심으로",
+      "title_en": "An Analysis of Research Trends on Domestic Buddhist Tea Culture: Focusing on Buddhism and the Tea Ceremony (dado)",
+      "authors": [
+        {
+          "name": "최성아(동국대 WISE)",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 현대인의 심리 위기에 대한 대응 방안으로 불교의 자기성찰과 다도의 인성교육 가치에 주목하고, 불교와 다도의 융합 연구 동향을 분석하여 향후 발전 방향을 모색하였다. 이를 위해 2000년부터 2025년 8월까지 학술연구정보서비스(RISS)에 수록된 불교와 다도 관련 논문 55편을 선정하여 발표 연도, 문헌 유형, 연구 주제, 연구자 소속을기준으로 분석하였다. 분석 결과, 관련 연구는 초기 석사학위논문 중심에서 박사학위논문과 학술지 논문으로 확대되며 성장하였다. 주요 연구는 고려시대 불교 차문화와 선승의 다도 정신이 한국 차문화의 정체성 형성에 미친 영향을 규명한 역사∙인물 연구에 집중되었다.또한 차생활과 수행의 접목을 통해 불교 정신을 일상에서 실천하는 방안이 제시되었으며, 동국대학교와 원광대학교 등 종립대학을 중심으로 학술 담론이 형성된 것으로 나타났다. 본 연구는 불교 차문화가 현대사회의 심리적 소외와 단절을 완화하는 실천 자원이 될 수 있으며, 다선일미 정신을 기반으로 K-컬처의 정신문화 콘텐츠로 발전할 잠재력을 지님을 시사한다.",
+      "abstract_en": "This study examines Buddhist method of self-reflection and the value of dado for education on one’s personal character as potential responses to the age of psychological crises of modern-day life. This paper analyzes research trends on the integration of Buddhism and dado and identifies directions for future research. A total of fifty-five studies published between the year 2000 and 2025, indexed in the Research Information Sharing Service, were analyzed.Findings indicate that the field has expanded steadily, moving from early master's theses to doctoral dissertations and journal articles. Existing scholarship has focused primarily on historical periods and human figures, particularly the influence of Goryeo Buddhist tea culture and dado philosophy of Seon/Zen on the formation of Korean cultural identity. Another group of studies proposes integrating the performance of tea ceremony with Buddhist cultivation as a means of embodying Buddhist princi-ples in everyday life.Academic discourse on this matter has developed largely at Buddhist-affiliated universities, particularly Dongguk University and Wonkwang University. These findings suggest that Buddhist tea culture may serve as a practical resource for alleviating issues of psychological alienation and social isolation.The findings also offer potentials for the development of K-culture content rooted in tea ceremony and Seon/Zen meditation.Keywords: Buddhist tea culture, dado, daseon-ilmi, K-culture, research trends",
+      "journal_name": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "start_page": "471",
+      "end_page": "507",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=13bfdb1b2024d7af7f7a54760bb41745",
+      "kci_url": "",
+      "keywords_kr": [
+        "불교 차문화",
+        "다도",
+        "다선 일미",
+        "K-컬처",
+        "연구 동향"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "13bfdb1b2024d7af7f7a54760bb41745"
     }
   ],
   "by_year": {
