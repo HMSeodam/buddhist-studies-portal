@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.85,
     "control_no": "cb236634237a7a74",
-    "last_updated": "2026-06-28"
+    "last_updated": "2026-09-06"
   },
   "articles": [
     {
@@ -50729,6 +50729,406 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "99089be92b0cfca0e9810257f7042666"
+    },
+    {
+      "article_id": "f29768eef658656c6aae8a972f9116fb",
+      "title_kr": "사띠는 무엇을 유지하는가? - 수념(anussati) 전통에 나타난 사띠의 준거틀을 현전시키는 기능 -",
+      "title_en": "What Does Sati Keep Present? - The Function of Making the Frame of Reference Present in the Anussati Tradition -",
+      "authors": [
+        {
+          "name": "하대용",
+          "affiliation": "동방문화대학원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "초기불교의 사띠(sati)는 흔히 기억이나 주의로 설명되어 왔다. 그러나 수념(隨念)과 사념처는 관찰 대상이 저마다 다른데도 모두 하나의 사띠로 묶이며, 기억설도 주의설도 이 점을 충분히 설명하지 못한다. 본고는 그 원인을, 사띠를 보존된 내용이나 안정된 상태로만 보고 진행 중인 과정으로 보지 못한 데서 찾고, 사띠를 과정‧확립‧귀결의 세 항으로 다시 규정한다.첫째, 사띠는 수행자가 채택한 해탈 지향적 준거틀을 빈틈없이 현전시키려는 과정이다. 여기서 ‘빈틈없는 현전’은 혼란 없음(asammuṭṭhā)‧현전함(upaṭṭhitā) 같은 니까야의 표현에 근거를 두되, 사띠가 이탈 없이 이어지는 양상을 가리키기 위해 본고가 도입한 분석 용어이다. 이렇게 보면 기억‧알아차림‧주의는 사띠의 본질이 아니라 이 과정을 이루는 한 국면으로 재배치된다. 둘째, 그 과정이 완성되어 준거틀이 이탈 없이 현전하게 된 상태가 확립(paṭṭhāna)이다. 「마하나마 경」(AN 6.10)은 여섯 수념에 한 자도 다르지 않은 정형구를 부여하는데, 이는 준거점은 여럿이어도 그것을 다루는 형식은 하나임을 보여 준다. 셋째, 산란의 교정과 그에 이은 삼매‧해탈은 이 확립에 부과된 목표가 아니라 거기서 자연히 따라 나오는 귀결이며, 「의도 경」(AN 10.2)은 이를 법의 이치(dhammatā)로 진술한다.이렇게 보면 여러 수념과 사념처는 준거점만 다를 뿐 하나의 동일한 기능으로 드러난다.",
+      "abstract_en": "In early Buddhism, sati has commonly been explained as either memory or attention. Yet neither explains how practices with different objects—the recollections (anussati) and the four establishments of mindfulness (satipaṭṭhāna)—belong to one category of sati. This paper diagnoses the difficulty as a failure to see sati as a process rather than preserved content or a settled state, and redefines it in three terms: process, establishment, and entailment.First, sati is the process of keeping seamlessly present a liberation-oriented frame of reference that the practitioner has adopted. Here ‘seamless presence’ is an analytical term, grounded in Nikāya usage (asammuṭṭhā, upaṭṭhitā), for sati’s continuance without lapse. On this account, memory, awareness, and attention are relocated as constitutive facets of the process, not its essence. Second, the completion of that process—the frame standing present without lapse—is its establishment (paṭṭhāna). That the Mahānāma Sutta (AN 6.10) assigns a verbatim formula to all six recollections shows that while the reference points differ, the form that handles them is one. Third, the correction of distraction, and the concentration and liberation that ensue, are not goals imposed on this establishment but entailments that naturally follow from it, as the Cetanākaraṇīya Sutta (AN 10.2) states in terms of dhammatā.On this analysis, the recollections and the four establishments, despite their different objects, prove to be a single function differing only in its reference point.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "start_page": "9",
+      "end_page": "40",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f29768eef658656c6aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "사념처(satipaṭṭhāna)"
+      ],
+      "keywords_en": [
+        "sati",
+        "anussati",
+        "satipaṭṭhāna",
+        "frame of reference",
+        "mindfulness",
+        "사띠(sati)",
+        "수념(anussati)",
+        "준거틀(frame of reference)",
+        "마음챙김(mindfulness)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "f29768eef658656c6aae8a972f9116fb"
+    },
+    {
+      "article_id": "3862f412986185f37f7a54760bb41745",
+      "title_kr": "갈애(愛, taṇhā)의 두 경향과 니밋따(nimitta) - 선(kusala)‧불선(akusala) 갈애와 촉발지에 대한 연구 -",
+      "title_en": "The Two Tendencies of Craving and Nimitta - A Study of the Divergence of Wholesome and Unwholesome Craving and Its Point of Ignition -",
+      "authors": [
+        {
+          "name": "이윤진",
+          "affiliation": "능인대학원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 초기경전을 중심으로 갈애가 하나의 에너지이면서 선(kusala)과 불선(akusala)의 두 경향으로 갈라지는 원리와, 그 경향이 점화되는 촉발지를 규명하는 데 목적이 있다. 갈애를 오직 제거해야 할 번뇌로만 보는 통념은 소멸을 향한 갈망 없이는 소멸을 추구할 수 없다는 욕망의 역설에 부딪힌다. 이 역설은 갈애가 한 종류가 아님을 통해 해소된다. 『앙굿따라니까야』의 “갈애에 의존하여 갈애를 제거한다”라는 설법은 제거하는 갈애와 제거되는 갈애를 니까야 스스로 전제하며, 『네띠빠까라나』와 『청정도론』은 이를 선한 갈애와 불선한 갈애로 정식화한다. 본 연구는 두 갈래를 가르는 것이 갈애 자체가 아니라 갈애에 잠복한 경향(anusaya)임을 「삼마딧티 숫따」의 자양분 설법에서 확인한다. 성스러운 제자가 제거하는 것은 갈애가 아니라 탐욕‧분노‧자아의식의 경향이기 때문이다. 나아가 본 연구는 그 경향이 점화되는 촉발지를 니밋따(nimitta)에서 찾는다. 초기경전은 아름다운 인상과 이치에 맞지 않는 정신활동이 함께 탐욕을 낳는다고 설한다. 주석서가 아름다운 인상을 ‘원하는 대상’으로 새기듯, 니밋따는 외부 대상의 사본이 아니라 ‘원하는 것’이 응결된 내면의 표상이다. 그러므로 괴로움은 내면에 고정된 니밋따와 변화하는 대상 사이의 균형이 깨어지는 자리에서 일어난다. 수행은 이 방향을 돌려세운다. ‘작은 쐐기로 큰 쐐기를 뽑듯’ 선한 니밋따로 불선한 니밋따를 밀어내고, ‘갈애에 의존하여 갈애를 버리는’ 방식으로 갈애의 에너지를 내면으로 되돌린다. 이는 관찰의 중심을 외부 대상에서 내면의 니밋따로 옮기는 코페르니쿠스적 전회이자, 갈애를 통한 자기 변혁이다. 결론적으로 자기 내면의 ‘원하는 것’으로 이루어진 니밋따를 아는 것이 수행의 첫걸음이다.",
+      "abstract_en": "This study examines, on the basis of the early Buddhist discourses, how craving (taṇhā) operates as a single energy that diverges into two tendencies, wholesome (kusala) and unwholesome (akusala), and locates the point at which this divergence is ignited. The common view that treats craving solely as a defilement to be eliminated runs into the paradox of desire: cessation cannot be pursued without a craving for cessation. This paradox dissolves once craving is seen as twofold. The Nettippakaraṇa distinguishes wholesome from unwholesome craving, and the Visuddhimagga recognizes craving as a distinctive karmic cause leading to a favorable destiny. This study argues that what divides the two is not craving itself but the underlying tendency (anusaya) latent within it, as shown in the Sammādiṭṭhi-sutta’s discourse on nutriment, where the noble disciple removes not craving but the tendencies toward lust, aversion, and the conceit “I am.” It further identifies nimitta as the site where such tendencies ignite. The discourses declare that a beautiful sign together with unwise attention gives rise to lust. As the commentary glosses the beautiful sign as a “desired object,” the nimitta is not a copy of an external object but an inward image in which one’s wanting has been condensed. Suffering thus arises where the balance breaks between a fixed inner nimitta and the changing object. Practice reverses this direction. Just as “a small peg drives out a large one,” a wholesome sign displaces an unwholesome one, and craving’s energy is turned inward. This is a Copernican turn shifting the center of observation from the external object to the inner nimitta—a self-transformation through craving rather than its unconditional abandonment. Knowing the nimitta made of one’s own wanting is the first step of practice.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "start_page": "41",
+      "end_page": "78",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3862f412986185f37f7a54760bb41745",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "taṇhā",
+        "갈애(taṇhā)",
+        "선한 갈애와 불선한 갈애"
+      ],
+      "keywords_en": [
+        "nimitta",
+        "wholesome and unwholesome craving",
+        "anusaya",
+        "wise attention",
+        "니밋따(nimitta)",
+        "경향(anusaya)",
+        "여리작의(yoniso manasikāra)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3862f412986185f37f7a54760bb41745"
+    },
+    {
+      "article_id": "3862f412986185f3b36097776a77e665",
+      "title_kr": "한월 법장의 선병(禪病) 인식과 심참(心懺) 수행론 - 『三峰和尚心懺』에 나타난 수행 장애와 대응을 중심으로 -",
+      "title_en": "Hanyue Fazang’s Understanding of Chan Sickness and His Theory of Mind Repentance - Focusing on Practice Obstacles and Responses in the Sanfeng Heshang Xinchan -",
+      "authors": [
+        {
+          "name": "전효진",
+          "affiliation": "석종사",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 명말 임제종 승려 한월 법장(漢月法藏, 1573-1635)의 선병(禪病) 인식과 심참(心懺) 수행론을 검토한 것이다. 기존 연구는 주로 한월 법장과 밀운 원오(密雲圓悟)의 법맥 논쟁, 『오종원』(五宗原)의 오가(五家) 종지론, 옹정제의 『간마변이록』(揀魔辨異錄) 비판에 집중되어 있다. 이에 비해 본고는 『어밀삼선병게』(於密滲禪病偈)와 『삼봉화상심참』(三峰和尚心懺)을 중심으로, 한월 법장이 참선자의 장애를 어떻게 인식하고 그것을 어떤 수행 장치로 처리했는지를 분석한다. 한월 법장에게 선병은 단순한 신체 병증이나 심리적 이상이 아니라, 화두 참구 과정에서 진의(眞疑)가 일어나지 못하거나 지속되지 못하는 수행상의 장애였다. 『삼봉화상심참』은 이러한 장애를 숙업과 장연의 문제로 진단하고, 참회‧예경‧발원‧정토‧준제 수행을 화두 참구의 보조 장치로 조직한다. 특히 한월 법장이 도입한 참회의 목적은 기존 행법의 목적과 달리 진의를 일으켜 화두와 의정이 하나가 되게 하는 데 있다. 두 문헌은 선병의 진단이 참회 의례의 구성으로 이어지는 과정을 보여준다. 따라서 한월 법장의 심참 도입은 명 말기 선종에서 조사선의 순수성을 강조하면서도 실제 현장에서는 의례와 다원적 수행법을 적극적으로 수용한 사례이다. 이는 국내에서 거의 소개되지 않은 한월 법장 연구를 선병론과 선종 의례 연구의 관점에서 확장하는 의의를 지닌 간화선 수행론 연구의 선종사적 비교 자료이다.",
+      "abstract_en": "This article examines Hanyue Fazang’s understanding of Chan sickness and his practice of “mind repentance” (xinchan). Previous scholarship has focused mainly on Hanyue Fazang’s dispute with Miyun Yuanwu, his interpretation of the Five Houses of Chan, and the Yongzheng emperor’s later condemnation of the Sanfeng lineage. By contrast, this study addresses the practical problem of obstacles arising in meditation as reflected in the Yumi shen chanbing ji and the Sanfeng heshang xinchan.For Hanyue Fazang, Chan sickness was not merely a physical or psychological disorder. It referred above all to problems arising in huatou practice, including the failure to arouse true doubt, the interruption of right mindfulness, and the tendency to mistake verbal understanding or quietistic absorption for genuine realization. The Sanfeng heshang xinchan explains such obstacles in terms of residual karma and obstructive conditions, and incorporates repentance, worship, vows, Pure Land aspiration, and Cundī practice as supports for huatou practice. The purpose of these practices is not to replace Chan with ritual, but to remove the conditions that hinder the arising and consolidation of true doubt in the practice of the huatou. Hanyue Fazang’s mind repentance thus shows how late-Ming Chan maintained the ideal of patriarchal Chan while incorporating ritual and multiple Buddhist practices into the actual setting of meditation training. His approach also provides a useful comparative case for Korean Seon studies, particularly for examining the relationship among Ganhwa Seon practice, Chan sickness, and ritual support.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "start_page": "79",
+      "end_page": "105",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3862f412986185f3b36097776a77e665",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "한월 법장",
+        "선병(禪病)",
+        "심참(心懺)",
+        "임제종",
+        "간화선"
+      ],
+      "keywords_en": [
+        "Hanyue Fazang",
+        "Chan sickness",
+        "mind repentance",
+        "Linji school",
+        "Ganhwa Seon"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3862f412986185f3b36097776a77e665"
+    },
+    {
+      "article_id": "3862f412986185f3b7998d826d417196",
+      "title_kr": "18세기 몽골 의승 이쉬발찌르의 병든 몸과 치료 지식 - 자서전과 숨붐 목차를 중심으로 -",
+      "title_en": "The Sick Body and Medical Knowledge of Ishbaljir, a Mongolian Monk-Physician of the Eighteenth Century - His Autobiography and the Catalogue of Collected Works -",
+      "authors": [
+        {
+          "name": "김경나",
+          "affiliation": "단국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "의학 저술을 남긴 사람의 병든 몸은 그가 속한 지식 세계를 가장 뚜렷하게 드러낸다. 본고는 18세기 몽골 의승(醫僧) 숨베 함바 이쉬발찌르(Сүмбэ Хамба Ишбалжир, Sum pa mkhan po Ye shes dpal ’byor)의 자서전과 숨붐 목차를 통해, 그가 자신의 병과 타인의 치료를 어떤 언어로 기록했는지를 살핀다. 이쉬발찌르는 몽골 전통의학을 대표하는 의학 저술가 가운데 한 사람이자 티베트와 몽골의 여러 지역에서 병자를 돌본 학승이었다. 의학 저술을 남긴 학승이 왜 자신의 병과 타인의 치료를 의학의 언어와 함께 수행과 꿈, 점성학과 수호존 의례의 언어로 서술했는가. 본고는 이 질문에서 출발한다. 그의 자서전에서 병든 몸은 약재와 처방의 대상인 동시에 수행과 의례가 필요한 몸으로 서술된다. 시신의 부정으로 설명한 병, 약수 치료, 천연두 대응, 병든 귀족의 치료, 죽음 앞의 의례는 꿈과 점성학, 수호존, 라마의 가피(加持, byin rlabs)와 함께 기록된다. 본고는 2011년 울란바타르에서 테르비쉬(L. Terbish)가 번역‧주석한 몽골어본을 일차 자료로 삼아 이쉬발찌르 자서전의 질병 서술과 숨붐 목차 및 어휘 목록의 지식 배열을 함께 검토한다.분석 결과, 이쉬발찌르의 치료 지식은 티베트 의학 문헌에서 출발해 몽골 불교 사회의 사원 네트워크, 이동, 후원 관계, 전염병 경험 속에서 형성된 실천 지식이었다. 숨붐 목차에서 의학 저술은 점성학‧의례 저술과 인접하여 배열된다. 이는 병과 치료가 몸, 시간, 수명, 보호, 공덕을 함께 다루는 지식 질서 안에서 이해되었음을 보여 준다. 이쉬발찌르에게 의학은 오명(五明) 체계의 의방명(醫方明, gso ba rig pa)이자, 중생을 돌보는 불교적 실천이었다.",
+      "abstract_en": "The sick body of a person who wrote on medicine reveals with particular clarity the world of knowledge to which he belonged. Through his autobiography and the catalogue of his collected works (gsung ’bum), this article examines the language in which Sümbe Khamba Ishbaljir (Sum pa mkhan po Ye shes dpal ’byor, 1704–1788), a Mongolian monk-physician of the eighteenth century, recorded his own illnesses and the healing of others. Ishbaljir was one of the representative medical authors of the Mongolian tradition and a scholar-monk who cared for the sick in many parts of Tibet and Mongolia. His autobiography describes the sick body both as an object of medicines and prescriptions and as a body in need of practice and ritual. An illness attributed to the defilement of a corpse, a treatment at medicinal springs, the response to smallpox, the healing of an ailing noyan, and the rites performed before death are recorded together with dreams and astrology, protector deities, and the blessings of lamas. The primary source is the Mongolian translation and annotation published by L. Terbish in Ulaanbaatar in 2011. The autobiography, which follows the conventions of Tibetan life writing (rnam thar), is read for the language in which illness and healing were understood, while the appended catalogue and its glossary show how that knowledge was arranged.The analysis shows that Ishbaljir’s medical knowledge rested on the reception of Tibetan medical literature, above all the Four Tantras (rGyud bzhi), yet took shape as the practical knowledge of a monk-physician, formed within the monastic networks, mobility, and patronage ties of Mongolian Buddhist society and through the experience of epidemics. In the catalogue his medical writings stand alongside works on astrology and ritual. This placement shows that illness and healing belonged to an order of knowledge in which body, time, longevity, protection, and merit interlock. For Ishbaljir, medicine was the science of healing (gso ba rig pa) within the classical scheme of the five sciences (rig gnas lnga) and, at the same time, a Buddhist practice of caring for sentient beings.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "start_page": "107",
+      "end_page": "144",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3862f412986185f3b7998d826d417196",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "이쉬발찌르",
+        "몽골 불교",
+        "의승(醫僧)",
+        "치료 지식",
+        "의방명(醫方明)"
+      ],
+      "keywords_en": [
+        "Ishbaljir",
+        "Mongolian Buddhism",
+        "Monk-Physician",
+        "Medical Knowledge",
+        "Science of Healing (gso ba rig pa)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3862f412986185f3b7998d826d417196"
+    },
+    {
+      "article_id": "3862f412986185f3e9810257f7042666",
+      "title_kr": "송대 천태가의 『수능엄경』 판속 논쟁에 관한 연구 - 지의 교판론에 따른 견도분 해석을 중심으로 -",
+      "title_en": "A Study of the Debate over the Doctrinal Classification of the Śūraṅgama Sūtra in Song-Dynasty Tiantai Buddhism - Focusing on an Interpretation of the Section on the Path of Seeing Based on Zhiyi’s Doctrinal Classification Theory -",
+      "authors": [
+        {
+          "name": "이상권",
+          "affiliation": "금강대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 천태 지의(智顗)의 5시4교(五時四敎)를 바탕으로 송대 천태가의 산가(山家)와 산외(山外)의 『수능엄경』(首楞嚴經)의 교판 논쟁을 재검토하였다. 송대 천태가는 성문의 일승성불 수기(授記)와 전‧후분의 내용 차이를 근거로, 이 경전을 법화열반시(法華涅槃時)와 방등시(方等時) 가운데 어디에 판속할 것인지를 두고 대립하였다. 본 연구는 논쟁의 핵심인 견도분(見道分)의 칠처징심(七處徵心)과 십번현견(十番顯見)을 지의의 교판론에 근거하여 해석하였다.칠처징심은 종가입공(從假入空)의 원리를 밝히는 교설이며, 십번현견은 종공입가(從空入假)를 통해 이타행을 드러내고 나아가 중도실상을 밝히는 교설이다. 따라서 견도분은 장교(藏敎)의 집착을 타파하고 통교(通敎)에서 별교(別敎)와 원교(圓敎)로 피접(被接)되는 과정을 보여 준다. 수기를 받은 성문은 이미 장교의 한계를 벗어난 존재이므로, 그 일승성불은 별교를 거치는 차제(次第)와 원교로 직입하는 원돈(圓頓)의 양면에서 이해될 수 있다.또한 전분에는 장‧통‧별‧원의 4교(四敎)가, 후분에는 원교가 드러난다. 이에 후분의 원교만을 근거로 법화열반시에 판속하기보다, 경전 전체의 유기적 구성과 파소현대(破小顯大)의 성격을 종합하여 『수능엄경』을 방등시에 판속한 지반의 견해가 가장 타당하다고 보았다.",
+      "abstract_en": "This study reexamines the Song-dynasty Tiantai debate over the doctrinal classification of the Śūraṅgama Sūtra (首楞嚴經) through Zhiyi’s (智顗) system of the Five Periods and Four Teachings (五時四敎). Shanjia (山家) and Shanwai (山外) scholars disagreed over whether the sūtra belongs to the Dharma Flower–Nirvana Period (法華涅槃時) or the Vaipulya Period (方等時), based on the prediction (授記) of Buddhahood for Śrāvakas and the difference between its former and latter sections. This study interprets the “section on the path of seeing” (見道分), especially the seven locations for investigating the mind (七處徵心) and the ten manifestations of seeing (十番顯見), within Zhiyi’s classificatory framework.The former clarifies entering emptiness from the provisional (從假入空); the latter presents entering the provisional from emptiness (從空入假), altruistic practice, and ultimately the reality of the Middle Way. The section on the path of seeing thus overcomes attachment to the Tripitaka Teaching (藏敎) and leads from the Shared Teaching (通敎) toward the Distinct (別敎) and Perfect Teachings (圓敎). Śrāvakas receiving the prediction have already transcended the Tripitaka Teaching; their One Vehicle realization may be understood either gradually, through the Distinct Teaching, or as direct entry into the Perfect Teaching.The former section contains all four teachings, whereas the latter primarily elucidates the Perfect Teaching. Therefore, classification under the Dharma Flower–Nirvana Period based solely on the latter is inadequate. Considering the sūtra’s organic structure and its character of refuting the lesser vehicle and revealing the Mahāyāna (破小顯大), this study concludes that Zhipan’s (志磐) classification of the Śūraṅgama Sūtra under the Vaipulya Period is most persuasive.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "start_page": "147",
+      "end_page": "180",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3862f412986185f3e9810257f7042666",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "수능엄경",
+        "법화열반시",
+        "방등시",
+        "5시4교",
+        "일승"
+      ],
+      "keywords_en": [
+        "Shurangama Sutra",
+        "Dharma Flower-Nirvana Period",
+        "Vaipulya Period",
+        "Five Periods and Four Teachings",
+        "One Vehicle"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3862f412986185f3e9810257f7042666"
+    },
+    {
+      "article_id": "3862f412986185f3c85d2949c297615a",
+      "title_kr": "다르마끼르띠와 원효의 인식‧수행‧구제 구조 비교 - 「Pramāṇasiddhi」와 『금강삼매경론』을 중심으로 -",
+      "title_en": "A Comparative Study of the Structures of Cognition, Practice, and Soteriology in Dharmakīrti and Wonhyo - Focusing on the 「Pramāṇasiddhi」 and 『the Commentary on the Vajrasamādhi Sūtra』 -",
+      "authors": [
+        {
+          "name": "김범수",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 다르마끼르띠(Dharmakīrti)의 『Pramāṇavārttika』 제2장 「Pramāṇasiddhi」와 원효의 『금강삼매경론』을 중심으로 인식‧수행‧구제의 구조를 비교‧분석하였다. 기존 연구가 양자의 사상을 각각 불교 인식론과 원효 사상의 맥락에서 개별적으로 이해하는 데 주력하였다면, 본 연구는 인간의 고통이 제거되고 해탈이 실현되는 과정을 구제론적 관점에서 재구성하였다. 다르마끼르띠는 올바른 인식(pramāṇa)을 비기만적 인식으로 규정하고, 그것이 목적 지향적 행위(pravṛtti)의 성공과 대상의 인과적 효력(arthakriyā)을 통해 고통의 제거와 해탈에 이르는 실천적 구조를 제시한다. 반면 원효는 인간의 미혹을 능취와 소취의 분별 구조에 대한 집착에서 찾고, 분별의 해체를 통해 본래 갖추어진 일심을 자각하는 인식 전환을 구제의 핵심으로 이해한다. 특히 금강삼매를 통한 분별의 해체와 본각‧시각의 관계는 인식과 수행, 구제가 하나의 사건 안에서 함께 현실화되는 비이원적 구조를 보여준다. 양자의 비교를 통해 두 사상이 모두 인식의 전환을 구제의 출발점으로 이해한다는 공통점을 확인하였다. 그러나 다르마끼르띠는 인식의 정당성과 행위의 성공을 중심으로 한 인과적‧매개적 구조를 제시하는 반면, 원효는 분별의 해체와 일심의 현실화를 중심으로 한 동시적‧비이원적 구조를 제시한다. 본 연구는 이러한 차이를 인식‧수행‧구제의 구조라는 공통된 분석틀에서 해명함으로써, 불교 구제론이 서로 다른 철학적 토대 위에서 다양하게 전개될 수 있음을 밝혔다.",
+      "abstract_en": "This study compares the structures of cognition, practice, and soteriology in Chapter II, Pramāṇasiddhi, of Dharmakīrti’s Pramāṇavārttika and Wonhyo’s Commentary on the Vajrasamādhi Sūtra (Geumgang Sammaegyeong Non). While previous studies have mainly examined these thinkers within the separate frameworks of Buddhist epistemology and Wonhyo’s philosophy, this study reinterprets both traditions from a soteriological perspective by asking how human suffering is overcome and liberation is realized.For Dharmakīrti, valid cognition (pramāṇa) is defined as non- deceptive cognition that makes successful action (pravṛtti) possible. The validity of cognition is confirmed through the causal efficacy (arthakriyā) of its object, thereby establishing a practical structure that links cognition, action, and liberation. Accordingly, the Buddha is presented as pramāṇabhūta, not merely because he possesses valid cognition, but because he successfully leads sentient beings to liberation through its realization in practice.In contrast, Wonhyo locates the root of delusion in attachment to the discriminative structure of subject (grāhaka) and object (grāhya). Liberation is therefore achieved not by acquiring new knowledge but by dismantling discrimination and awakening to the original One Mind (ilsim). The practice of Vajrasamādhi embodies this cognitive transformation, while the relationship between original enlightenment (bon’gak) and incipient enlightenment (sigak) explains how enlightenment is actualized through awakening rather than newly produced.The comparison demonstrates that both thinkers regard the transformation of cognition as the starting point of liberation. Nevertheless, Dharmakīrti explains liberation through a causal and mediating structure that connects valid cognition, action, and practice, whereas Wonhyo presents a nondual and simultaneous structure in which cognition, practice, and liberation arise together through the dissolution of discrimination. By reconstructing these differences within the common analytical framework of cognition, practice, and soteriology, this study offers a new comparative perspective on two distinct philosophical models of Buddhist liberation.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "start_page": "181",
+      "end_page": "210",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3862f412986185f3c85d2949c297615a",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "다르마끼르띠",
+        "원효",
+        "인식‧수행‧구제",
+        "『금강삼매경론』"
+      ],
+      "keywords_en": [
+        "Dharmakīrti",
+        "Wonhyo",
+        "Cognition‧Practice‧Soteriology",
+        "pramāṇa",
+        "Commentary on the Vajrasamādhi Sūtra",
+        "pramāṇa"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3862f412986185f3c85d2949c297615a"
+    },
+    {
+      "article_id": "3862f412986185f34884a65323211ff0",
+      "title_kr": "근현대 한국승려의 대처(帶妻)와 정치",
+      "title_en": "Married Monks and Politics in Modern Korean Buddhism",
+      "authors": [
+        {
+          "name": "조기룡",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 근현대 한국사회에서 승려가 아내를 두는 행위인 대처로 인하여 벌어진 정치의 현상과 과정을 불교교단(대처승과 비구승) 내뿐만 아니라 국가기관(일제총독부와 한국정부)과의 관계에서도 연구한다. 본고의 핵심 명제는 근현대 한국사회에서 승려의 대처를 둘러싼 정교유착이 단순한 종교적 일탈이나 정치적 부패의 문제가 아니라 비구승과 대처승 각각의 생존권이 걸린 정치 과정이었다는 것이다. 정부는 불교교단의 동원력을 국가 통치에 활용하고자 하였고, 비구승과 대처승은 각각 정부 권력과의 유착을 통해 불교 교권과 사찰 경제의 주도권을 확보하고자 하였다. 이 과정에서 정교유착은 어느 한쪽의 일방적 선택이 아니라 정부‧비구‧대처의 3자간 이익과 생존이 복합적으로 작용한 정치적 산물이었다.불교교단과 국가기관 간 정치는 두 시기에 걸쳐 전개되었다. 일제강점기에는 총독부가 일본불교에 우호적인 대처승에게 종단 설립과 운영의 주도권을 부여함으로써 식민정책에 이들을 원활하게 활용하고자 하였다. 해방 이후에는 이승만 정권이 정권 연장을 위하여 불교정화운동에 개입하였고, 비구승과 대처승은 각자 정권과의 유착을 위하여 선거에 적극 참여하였다. 이승만 정부는 불교의 분할 지배를 통한 배제적 헤게모니 전략으로, 비구승을 포섭하고 대처승을 배제하는 정치를 구사하였으며, 비구승은 이 구도를 적극적으로 활용하였다.대처승과 비구승 간 정치는 크게 두 가지 차원으로 나누어 살펴볼 수 있다. 그 하나는 전통과 근대의 격돌로서, 승려의 독신을 전통으로 수호하려는 비구승과 취처(娶妻)를 불교 근대화로 수용하려는 대처승 간의 충돌은 교단 정통성과 주도권을 둘러싼 정치적 투쟁이었다. 다른 하나는 불교 교권과 사찰 경제 주도권 쟁탈로서, 일제강점기의 사법(寺法) 개정과 불교정화운동기의 종헌(宗憲) 개정을 둘러싸고 대처승의 승려 자격 인정 여부를 핵심으로 한 충돌이 치열하게 전개되었다. 승려 자격 기준의 설정이 곧 교단 권력의 향방을 결정짓는 문제였기 때문이다.",
+      "abstract_en": "This study examines the political nature of the collusion between religion and state (jeong-gyo yuchak, 政敎癒着) surrounding the practice of married monks (daecheo, 帶妻) in modern and contemporary Korean society. The central argument is that the married monk controversy was not merely a matter of religious deviation or moral corruption, but rather a complex political process in which the survival and interests of three actors — celibate monks (biggu, 比丘), married monks, and state power — were intricately intertwined.The analysis proceeds along two axes. The first concerns the relationship between the state and the Buddhist establishment. During the Japanese colonial period, the Japanese Government- General granted institutional leadership to married monks, who were sympathetic to Japanese Buddhism’s permissive stance on marriage, thereby incorporating them into the colonial governance structure. After liberation, the Syngman Rhee regime directly intervened in the Buddhist Purification Movement, employing a divide-and-rule strategy that co-opted celibate monks while excluding their married counterparts. Both factions, in turn, actively sought political alignment with the regime in order to secure ecclesiastical authority.The second axis concerns the internal conflict between celibate and married monks. During the colonial period, ideological clashes arose between celibate monks defending traditional monastic celibacy and married monks embracing marriage as part of Buddhist modernization. After liberation, disputes over the physical occupation of temple compounds escalated into violent confrontations during the Purification Movement. Across both periods, the central contested issue was the revision of temple regulations and sectarian constitutions — specifically, whether married monks should be recognized as legitimate members of the clergy.This study reinterprets state-religion collusion not as a product of unilateral co-optation or subordination, but as a political construct actively shaped by all three parties — the state, celibate monks, and married monks — each pursuing their own survival.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "start_page": "213",
+      "end_page": "242",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3862f412986185f34884a65323211ff0",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "대처승",
+        "비구승",
+        "정교유착",
+        "정교분리",
+        "종교정치"
+      ],
+      "keywords_en": [
+        "Married Monks",
+        "Celibate Monks",
+        "State-Religion Collusion",
+        "Separation of State and Religion",
+        "Religious Politics"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3862f412986185f34884a65323211ff0"
+    },
+    {
+      "article_id": "3862f412986185f3d18150b21a227875",
+      "title_kr": "오대산 월정사의 불교적 지향과 브랜드 가치",
+      "title_en": "The Buddhist Aspirations and Brand Value of Woljeongsa Temple in Odaesan",
+      "authors": [
+        {
+          "name": "이재수",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "오대산 월정사는 자장율사가 창건한 문수 성지로 적멸보궁을 품고, 오대산사고를 지켜온 사찰이다. 한암과 탄허의 수행 가풍을 계승하고, 현대적 실천으로 명상과 치유 및 문화포교를 수행해 왔다. 본 논의는 최근 20여 년 동안 2004년 출가학교를 시작으로 펼친 불사의 성과를 통해, 불교적 지향점과 브랜드 가치를 살펴서 오늘날 한국불교에 끼친 영향과 그 미래의 비전을 논의해 보고자 한다.본 논의에서 첫째, 최근 월정사가 역사적 전통을 어떻게 재해석해 실천해 왔는지를 살펴 보았다. 월정사는 오대산 문수 성지와 오대산사고의 전통을 현대적으로 복원해 역사‧자연‧종교를 아우르는 글로벌 정신문화의 중심지로 자리잡은 과정을 정리하였다. 둘째, 월정사 브랜드의 가치를 어떻게 구현해 왔는지를 논의하였다. 역사‧문화적 가치로 문수 성지와 역사성을 계승한 점과 환경‧경관적 가치로 치유 공간의 자산을 활용한 것, 프로그램적 경험가치로 대중적 참여를 끌어낸 점, 사상적 원융 가치를 확장해 현대적 힐링 브랜딩에 성공한 것 등으로 분석하였다. 월정사가 불교문화적 가치를 브랜드화한 한암의 승가오칙에서 옴뷔(OMV)의 생활 명상으로 전환한 것, 탄허의 무애와 회통에서 융합형 웰니스로 융합시킨 면, 문수 성지를 시각화로 현실화한 것을 살폈다. 셋째, 월정사의 활동에서 한국불교의 미래의 모습을 발견하기 위해 제언을 하였다.본 연구를 통해 월정사 문화 전통의 현대적 계승과 실천이 한국불교에 주는 시사점에 대한 논의의 폭을 넓힐 것이다. 나아가 한국불교 미래의 발전을 위한 대안을 마련하는 데 이바지할 것이다.",
+      "abstract_en": "Woljeongsa Temple on Mt. Odaesan is a sacred site of Manjusri founded by Monk Jajang, a temple that has protected the Odaesan Historical Archives while housing the Jeokmyeolbogung Hall. Inheriting the ascetic traditions of Han-am and Tan-heo, the temple has engaged in meditation, healing, and cultural propagation through modern practices. This discussion aims to examine the temple’s Buddhist aspirations and brand value through the achievements of Buddhist projects undertaken over the past 20 years, beginning with the establishment of the Monastic School in 2004, in order to discuss the impact it has had on contemporary Korean Buddhism and its future vision.First, this discussion examined how Woljeongsa has recently reinterpreted and put its historical traditions into practice. It summarized the process by which Woljeongsa established itself as a global center of spiritual culture encompassing history, nature, and religion by modernizing the traditions of the Mt. Odaesan Manjusri Sacred Site and the Odaesan Historical Archives. Second, it discussed how the value of the Woljeongsa brand has been realized. This study analyzed the success of Woljeongsa Temple by focusing on its historical and cultural value, its utilization of healing space assets, its ability to attract public participation through programmatic experiential value, and its success in modern healing branding by expanding the value of philosophical harmony. It examined how Woljeongsa transitioned from Han-am’s Five Precepts of the Sangha—which branded Buddhist cultural values—to OMV’s meditation in daily life; how it fused Tanheo’s concepts of non-obstruction and integration into convergent wellness; and how it realized the sacred site of Manjusri through visualization. Thirdly, the study proposed ways to discover the future of Korean Buddhism through the activities of Woljeongsa Temple.Through this research, the scope of discussion regarding the implications of the modern inheritance and practice of Woljeongsa Temple’s cultural traditions for Korean Buddhism will be broadened. Furthermore, it will contribute to establishing alternatives for the future development of Korean Buddhism.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "start_page": "243",
+      "end_page": "277",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3862f412986185f3d18150b21a227875",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "오대산 월정사",
+        "문수 성지",
+        "승가오칙",
+        "자연명상마을",
+        "출가학교"
+      ],
+      "keywords_en": [
+        "Odaesan Woljeongsa Temple",
+        "Sacred Site of Manjusri",
+        "Five Precepts of the Sangha",
+        "Nature Meditation Village",
+        "Monastic School"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3862f412986185f3d18150b21a227875"
+    },
+    {
+      "article_id": "3862f412986185f347de9c1710b0298d",
+      "title_kr": "영천 거조사 『오백성중청문』의 조형적 수용과 오백나한 도상의 유형별 상관성",
+      "title_en": "Formative Adaptation of the Eulogy Gathas in the Obaekseongjung cheongmun and Typological Correlation of the Five Hundred Arhats Iconography at Geojosa Temple, Yeongcheon",
+      "authors": [
+        {
+          "name": "정연정",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 거조사 영산전 석조 오백나한상의 도상이 『오백성중청문』 찬덕게송과 단(段) 단위로 조응하도록 기획되었음을 논증한 것이다. 기존 연구는 텍스트와 조형의 대응을 거시적 위계 봉안 구조 차원에서만 다루었다. 따라서 개별 나한상의 도상이 게송의 구체적 구절과 어떻게 조응하는지에 대한 미시적 분석에는 이르지 못하였다. 이에 본고는 ‘영천 거조사 오백나한상 유형 분류표’를 작성하여, 7가지 조형 형식으로 분류하였다. 그 기준 위에서, 『청문』의 4단계 의례 구조를 바탕으로 제2단‧제4단‧제14단‧제44단을 핵심 대상으로 삼아 그 상관성을 면밀히 검토하였다.따라서 제2단에서는 출리(出離)의 게송 아래 전체 오백나한상 중 14구뿐인 두건‧피모 상 가운데 3구가 밀집하고, 제4단에서는 빈손의 전반부와 지물을 쥔 후반부가 명확히 분리 대응하였다. 제14단에서는 특수 도상의 부재 자체가 무애(無礙)를 형상화하는 무표(無標)의 대조군을 이루었다. 제44단에서는 노아(老兒)의 극적인 병치와 ‘명호-지물’의 조응이 확인되었다. 이로써 특수한 두건‧지물‧영수 등 도상 요소는 기획 층위에서, 조각 기본형은 장인의 제작 층위에서 독립 운용되며, 각 단의 정조로 수렴하는 조형 요소의 유기적 조합이 실증되었다. 이는 거조사 오백나한상이 의례 문헌을 설계도로 삼아 조성된 고려 말 나한 조각의 정수임을 보여준다고 할 수 있다.",
+      "abstract_en": "This study demonstrates that the iconography of the stone Five Hundred Arhat statues in Yeongsanjeon Hall at Geojosa Temple, Yeongcheon, was designed to correspond, group by group (dan 段), with the eulogy gathas (chandeok gesong) of the Obaekseongjung cheongmun (Invocation Text of the Five Hundred Holy Beings). Previous research has addressed the relationship between text and sculpture only at the level of the macroscopic enshrinement hierarchy, and has therefore not provided a microscopic analysis of how the iconography of individual statues corresponds to specific verses. Accordingly, this paper compiled the “Typological Table of the Five Hundred Arhat Statues of Geojosa Temple,” classifying the statues into seven formative styles, and on this basis closely examined the correlation between the gathas and the iconography of the 2nd, 4th, 14th, and 44th groups within the four-stage ritual structure of the text.The analysis confirmed the correspondence at four points. In the 2nd group, chanted under the gatha of renunciation (chulli), three of the merely fourteen hooded or veiled statues among all five hundred are concentrated. In the 4th group, the empty- handed first five statues and the attribute-holding latter five correspond in a precisely divided sequence. In the 14th group, the very absence of special iconography constitutes an unmarked (mupyo) control group embodying unhindered freedom (muae), and the 44th group displays the dramatic juxtaposition of the oldest and the youngest visages together with clear name–attribute correspondences. These findings substantiate a “modularity of form”: special iconographic elements such as hoods, attributes, and companion beasts were allocated at the planning level, while the basic sculptural types of face and body were executed at the artisans’ production level; though operating independently, the two layers converge organically on the single sentiment of each group. The Five Hundred Arhats of Geojosa thus epitomize late Goryeo Arhat sculpture, created with a ritual text as its definitive blueprint.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "start_page": "279",
+      "end_page": "326",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3862f412986185f347de9c1710b0298d",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "거조사",
+        "오백나한상",
+        "오백성중청문",
+        "찬덕게송",
+        "도상"
+      ],
+      "keywords_en": [
+        "Geojosa Temple",
+        "Five Hundred Arhat statues",
+        "Obaekseongjung cheongmun (Invocation Text of the Five Hundred Holy Beings)",
+        "chandeok gesong (eulogy gatha)",
+        "iconography"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3862f412986185f347de9c1710b0298d"
+    },
+    {
+      "article_id": "3862f412986185f37ecd42904f0c5d65",
+      "title_kr": "베제클릭석굴 제18굴 ‘長老須菩提請’ 벽화의 도상과 경전적 배경 - 기존 <견보탑품변상도> 비정의 재검토 -",
+      "title_en": "A Reconsideration of the Identification of the Main Wall Mural in Bezeklik Cave 18 - Focusing on the Inscription ‘Zhanglao Suboti Qing’(長老須菩提請) -",
+      "authors": [
+        {
+          "name": "조성금",
+          "affiliation": "한국예술종합학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "베제클릭 제18굴 주실의 우측벽 벽화는 지금까지 일반적으로 『묘법연화경』 「견보탑품」을 도상화한 <견보탑품변상도>로 알려져 왔다. 그러나 이러한 비정은 화면 상단에 표현된 두 부처의 존재를 근거로 형성된 것으로, 화면 전체의 도상 구성과 제기에 대한 종합적인 검토는 이루어지지 않았다. 특히 화면 중앙에 기록된 ‘長老須菩提請’이라는 제기는 기존 연구에서 거의 주목받지 못하였다.본 연구는 베제클릭 제18굴 벽화를 대상으로 현존하는 흑백사진과 조사기록을 바탕으로 화면 구성을 재검토하고, ‘長老須菩提請’ 제기와 수보리, 두 부처, 천왕상, 갑주 인물 및 보살衆의 도상을 종합적으로 분석하였다. 아울러 『금강반야바라밀경』, 『대반야바라밀다경』, 『마하반야바라밀경』, 『도행반야경』 등 반야경계 문헌과 『묘법연화경』 「견보탑품」을 비교하여 벽화의 경전적 배경을 검토하였다.그 결과 ‘長老須菩提請’은 장로 수보리가 부처에게 설법을 청하는 장면에 해당하는 제기로 이해되며, 화면 중앙의 비구상 역시 수보리로 비정하는 것이 타당함을 확인하였다. 또한 수보리를 중심으로 한 법회 구성은 반야경계 문헌과 높은 대응 관계를 보이는 반면, 기존의 「견보탑품」 비정은 이불병좌 도상은 설명할 수 있으나 제기와 수보리, 천왕상 및 화면 전체의 도상 구조를 충분히 설명하지 못한다는 점을 확인하였다. 따라서 본 벽화는 현 단계에서 <견보탑품변상도>로 단정하기보다 수보리를 중심으로 한 반야경계 법회의 가능성을 우선적으로 검토할 필요가 있다고 보았다.나아가 본 연구는 베제클릭 제18굴을 개별적인 벽화의 집합이 아니라 성불의 서원, 반야의 지혜, 현세의 재난 소멸, 윤회의 극복이라는 불교 신앙을 단계적으로 구현한 종합적인 신앙 공간으로 이해해야 할 방법을 제시하였다. 특히 제기를 해석의 출발점으로 삼아 화면 전체의 도상 구조와 경전을 종합적으로 대조하는 방법론을 제안하였다는 점에서 본 연구의 의의가 있겠다.",
+      "abstract_en": "This study reexamines the mural on the main wall of Cave 18 at the Bezeklik Caves, which has long been identified as an illustration of the “Beholding the Jeweled Stūpa” (見寶塔品) chapter of the Lotus Sūtra. Previous studies primarily based this identification on the depiction of the Two Buddhas seated side by side (Erfo Bingzuo, 二佛並坐), a well-established iconographic motif associated with the Lotus Sūtra. However, little attention has been paid to the inscription “Zhanglao Suboti Qing” (長老須菩提請) preserved within the mural or to the relationship between the inscription and the overall iconographic composition.This study reexamines the mural through an integrated analysis of its inscription, pictorial composition, and relevant Buddhist scriptures. The inscription is interpreted as referring to the scene in which the Elder Subhūti requests the Buddha to preach the Dharma. The central monk depicted in the mural is therefore identified as Subhūti, while the surrounding figures—including two haloed armored guardians, a secular armored donor without a halo, two seated Buddhas, and numerous bodhisattvas—are analyzed in relation to the overall composition.A comparative examination of the Diamond Sūtra, the Mahāprajñāpāramitā Sūtra, the Mahāprajñāpāramitā-śāstra tradition, and other Prajñāpāramitā scriptures demonstrates that Subhūti consistently appears as the principal interlocutor who requests the Buddha’s teaching. By contrast, although the Lotus Sūtra adequately explains the motif of the Two Buddhas, it does not sufficiently account for the inscription, the central role of Subhūti, or the complete iconographic program of the mural.Rather than proposing a definitive new textual identification, this study argues that the conventional designation of the mural as an illustration of the “Beholding the Jeweled Stūpa” chapter should be reconsidered. The mural is more appropriately understood as depicting a Prajñāpāramitā assembly centered on Subhūti. Furthermore, the study suggests that Cave 18 should be interpreted as an integrated religious space in which different scriptural murals collectively express the Uighur Buddhist ideals of bodhisattva practice, Prajñā wisdom, protection from worldly calamities, and liberation from saṃsāra. Methodologically, this study demonstrates the importance of combining inscriptions, iconographic analysis, and textual comparison in the interpretation of Buddhist mural paintings from Turfan.",
+      "journal_name": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "start_page": "327",
+      "end_page": "354",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3862f412986185f37ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "베제클릭석굴 제18굴",
+        "長老須菩提請",
+        "반야경",
+        "견보탑품변상도",
+        "위구르 불교회화"
+      ],
+      "keywords_en": [
+        "Bezeklik Cave 18",
+        "Zhanglao Suboti Qing(長老須菩提請)",
+        "Prajñāpāramitā",
+        "Illustration of the ‘Beholding the Jeweled Stūpa’ Chapter",
+        "Uighur Buddhist Painting"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3862f412986185f37ecd42904f0c5d65"
     }
   ],
   "by_year": {
