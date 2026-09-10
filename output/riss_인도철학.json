@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.48,
     "control_no": "6c3aaa42b0296663ffe0bdc3ef48d419",
-    "last_updated": "2026-05-13"
+    "last_updated": "2026-09-10"
   },
   "articles": [
     {
@@ -28947,6 +28947,126 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "a8046d8398d8621f7ecd42904f0c5d65"
+    },
+    {
+      "article_id": "64344964c431ef037ecd42904f0c5d65",
+      "title_kr": "니야야 학파 ‘추론근거의 특징’ 이론의  형성과 전개에 대한 재검토 - Nyāyasūtra  1.1.5에 대한 후대 니야야 주석과  철학사적 공백을 중심으로 -",
+      "title_en": "On the Formation of the Nyāya Theory of Hetulakṣaṇa - An Inquiry into the Nyāya Commentaries on NS 1.1.5 -",
+      "authors": [
+        {
+          "name": "손영산",
+          "affiliation": "서울대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 니야야 학파의 추론근거 특징(hetulakṣaṇa) 이론의 형성과 전개를 둘러싼 철학사적 공백을 재구성하기 위한 단초를 마련하고자, NS 1.1.5와 이에 대한 초기 및 후 대 니야야 주석 전통의 해석을 검토하였다. NS와 NBh에서는 추론근거나 그 특징에 관한 논의가 확인되지 않는 반면, 웃디요따까라의 NV에서는 NS 1.1.5를 새롭게 해 석하여 추론근거 특징에 관한 초기 아이디어가 제시되고 있다. 웃디요따까라는 NV에서 NS 1.1.5의 추론의 세 가지 유형을 가리키는 pūrvavat, śeṣavat, sāmānyatodṛṣṭa 를 ‘추론근거의 특징’으로 이해하는 해석을 도입한다. 9세기 이후에 나타난 니야야 텍스트, 즉 NM NBhūṣ NVTṬ 등은 공통적으로 NV의 해석을 수용하고 있지만, 이를 후대 니야야에서 확립된 추론근거의 다섯 특징 이론과 어떠한 관계로 이해할 것인 지에 대해서는 서로 다른 입장을 취한다. 또한 이들의 설명은 NV의 원래 논의 맥락과 비교할 때, 이론의 구성 및 개념 사용에서 적지 않은 차이를 보인다. 이러한 점을 고려 할 때, 후대 니야야 주석 전통에 의존하여 초기 니야야 학파의 이론과 NV 이후의 철학사적 공백을 이해하려는 경향에는 신중할 필요가 있다. 이를 바탕으로 본 연구는 후대 니야야의 추론근거 특징 이론을 NV로부터의 선형적 발전으로 이해하는 기존의 경 향을 돌아보고, NV와 후대 니야야 텍스트 사이 약 300년에 이르는 철학사적 공백기에 이루어졌을 것으로 보이는 이 이론의 복잡한 전개 과정을 지속적으로 추적하는 연구의 필요성을 제기한다.",
+      "abstract_en": "This paper examines the commentarial interpretations of NS 1.1.5 as a first step toward reconstructing the historical gap in the formation and development of the Nyāya theory of the characteristics of a valid reason (hetulakṣaṇa). Neither the Nyāyasūtra (NS) nor the Nyāyabhāṣya (NBh) contains an explicit discussion of the characteristics of a valid reason. By contrast, Uddyotakara’s Nyāyavārttika (NV) offers a new interpretation of NS 1.1.5 and presents an early idea of such a theory. An examination of the Nyāyamañjarī (NM), Nyāyabhūṣaṇa (NBhūṣ), and Nyāyavārttikatātparyaṭīkā  (NVTṬ)  shows  that  all  three  interpret  pūrvavat, śeṣavat, and sāmānyatodṛṣṭa in NV’s commentary on NS 1.1.5 as referring to the characteristics of a valid reason. However, they differ in explaining how this interpretation is related to the later Nyāya theory of the five characteristics of a valid reason. Their explanations also differ from the original context of NV in both the structure of the theory and the use of its key concepts. This suggests that caution is needed when reconstructing early Nyāya theory and the historical gap after NV solely on the basis of later Nyāya commentaries. On this basis, the paper reconsiders the common tendency to understand the later Nyāya theory of hetulakṣaṇa as the result of a linear development from NV. It also argues for the need to continue tracing the more complex theoretical developments that likely took place during the roughly 300-year historical gap between NV and the later Nyāya texts.",
+      "journal_name": "인도철학",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "1",
+      "end_page": "29",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=64344964c431ef037ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "니야야",
+        "『니야야수뜨라』 1.1.5",
+        "추론근거(hetu)",
+        "추론근거의 특징 (hetulakṣaṇa)"
+      ],
+      "keywords_en": [
+        "추론(anumāna)",
+        "Nyāya",
+        "Nyāyasūtra 1.1.5",
+        "inference (anumāna)",
+        "logical reason (hetu)",
+        "hetulakṣaṇa"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "64344964c431ef037ecd42904f0c5d65"
+    },
+    {
+      "article_id": "3e228a39a69be2d06aae8a972f9116fb",
+      "title_kr": "법념처(Dhammānupassanā)의  수행론적 기능 연구 - MN 118과 MN 10의 상보적 수행체계를 중심으로 -",
+      "title_en": "A Study on the Function of Dhammānupassanā  in Meditative Practice: Focusing on the Complementary  Practice System of MN 118 and MN 10",
+      "authors": [
+        {
+          "name": "하대용",
+          "affiliation": "동방문화대학원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "This study employs sutta-internal comparative hermeneutics—an analysis confined to the grammar and predicate usage of the Pāli texts themselves, independent of later commentaries—to examine the Ānāpānasatisutta (MN 118) and  the  Satipaṭṭhānasutta  (MN  10),  and  elucidates  the  function  of  Dham- mānupassanā as the locus where active formation gives way to non-interventive observation. Previous scholarship has tended either to divide the two texts along the samatha-vipassanā dichotomy or to read the sixteen steps as a strictly linear progression.This study argues instead that the two suttas form a complementary pair of “generative conditioning” and “interpretive diagnosis.” First, although both share pajānāti (clearly understands) and sikkhati (trains), their distribution differs structurally. MN 118 sustains sikkhati, together with the future ending-ssāmi, throughout steps 3-16 (87.5%), and embeds within this training frame a cluster of transitive   formative   participles   governing   accusative   objects,   thereby constructing samādhi intentionally, whereas MN 10 employs pajānāti, a verb cognate with paññā, to discern arisen phenomena through doctrinal categories without fabricating or altering them, thus functioning diagnostically. Second, cross-referencing MN 119, MN 44, and MN 52 confirms that the first three tetrads (body, feeling, mind) form not a single linear ladder but a pluralistic, open structure: each can independently fulfill samādhi and the seven factors of awakening according to the practitioner's disposition, so that the apparent non- linearity reflects the inclusivity of Nikāya praxis rather than a sequence internal to MN 118. Third, all pathways converge upon the fourth tetrad. The training frame—sikkhati with the future -ssāmi—persists into steps  13-16;  what disappears at step 13 is the transitive syntax of formative participles taking accusative objects, replaced by anupassī, whose prior member shifts from experiential contents to doctrinal categories (anicca, virāga, nirodha, paṭinissagga). Thus the practitioner deconstructs even the constructed samādhi, culminating in ultimate letting go (paṭinissagga).In  conclusion,  the  Buddha's meditation  forms  an  overarching  structure progressing from preliminary training (MN 62) through generative expansion (MN  118)  to  diagnostic  deconstruction  (MN  10),  thereby  reilluminating  the inclusivity and philosophical depth of early Buddhist praxis.",
+      "abstract_en": "",
+      "journal_name": "인도철학",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "31",
+      "end_page": "63",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3e228a39a69be2d06aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "사념처(satipaṭṭhāna)",
+        "분명히 앎(pajānāti)"
+      ],
+      "keywords_en": [
+        "Satipaṭṭhāna",
+        "Dhammānupassanā",
+        "pajānāti",
+        "sikkhati",
+        "anupassī",
+        "법념처(dhammānupassanā)",
+        "훈련(sikkhati)",
+        "수관 (anupassanā)"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "3e228a39a69be2d06aae8a972f9116fb"
+    },
+    {
+      "article_id": "64344964c431ef03b36097776a77e665",
+      "title_kr": "Dramatic Prakrit and the Diversity of Middle Indic Registers in Śūdraka’s Mṛcchakaṭika",
+      "title_en": "",
+      "authors": [
+        {
+          "name": "아디티 싱",
+          "affiliation": "서울대학교 아시아연구소 남아시아센터",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "This paper examines dramatic Prakrit in “Sanskrit theatre” not as a direct record of spoken Middle Indic and not as mere supplementary material to Sanskrit, but as an enregistered repertoire; a set of staged speech forms made socially recognizable through repeated association with  role,  scene,  affect,  and  ethical  evaluation.  Using  Śūdraka’s Mṛcchakaṭika as its primary case, this paper brings together philological description, historical work on Middle Indic, cultural-historical accounts of  the  premodern  language  order,  and  comparative  dramaturgical analysis.The aim of this paper is limited in the sense that it does not reconstruct the spoken language of Ujjayinī, nor does it map the whole sociolinguistic system of the play. It instead analyzes selected passages in which Prakrit, Sanskrit  chāyā,  and  dramatic  context  can  be  read  together.  These examples show how staged registers mark domestic intimacy, comic license, coercive authority, public stigma, and claims to legitimacy. The Sanskrit chāyā is treated as a mediating device that can clarify or stabilize semantic access to Prakrit without erasing its register-specific force. This paper does not present a new grammar of dramatic Prakrit, but a scene- based account of how philological forms become socially audible in drama.",
+      "abstract_en": "",
+      "journal_name": "인도철학",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "65",
+      "end_page": "99",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=64344964c431ef03b36097776a77e665",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "Chāyā",
+        "슈드라카",
+        "므리차카티카",
+        "극적 프라크리트어",
+        "중세 인도아리아어",
+        "차야"
+      ],
+      "keywords_en": [
+        "Śūdraka",
+        "Mṛcchakaṭika",
+        "Dramatic Prakrit",
+        "Middle Indic"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "64344964c431ef03b36097776a77e665"
     }
   ],
   "by_year": {

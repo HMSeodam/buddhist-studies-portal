@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.48,
     "control_no": "2158cb1ffaedc442ffe0bdc3ef48d419",
-    "last_updated": "2026-06-01"
+    "last_updated": "2026-09-10"
   },
   "articles": [
     {
@@ -8427,6 +8427,335 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "36f9ae2a41ab23727f7a54760bb41745"
+    },
+    {
+      "article_id": "829c94945ea4c37a47de9c1710b0298d",
+      "title_kr": "Mindfulness meditation의 불교적 기원과 현대적 변용: 사띠(sati) 수행의 전통과 세속적 재해석",
+      "title_en": "The Buddhist origins and modern adaptation of mindfulness meditation: The tradition of sati practice and its secular reinterpretation",
+      "authors": [
+        {
+          "name": "이필원",
+          "affiliation": "동국대학교 경주캠퍼스 파라미타 칼리지",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는빨리원전에근거하여초기불교사띠(sati) 수행의개념·구조·목적을규명하고, 이것이현대임상마인드풀니스로전환되는과정에서나타나는핵심적변용을분석하였다. 연구방법은니까야및『청정도론』의문헌학적대조, 다섯임상프로그램(MBSR, MBCT, DBT, ACT, MSC)의매뉴얼과효과연구검토, 그리고양자의개념대조분석이다.분석결과는다음과같다. 원전의사띠는‘기억’과‘현재의명료한알아차림’을동시에포함하는파지적기능이자선법과불선법을분별하는윤리적기능이며, 팔정도의맥락에내장되어있다. 또한사띠는사념처뿐아니라선정수행에서진입지원·대상유지·청정화·위빠사나연결이라는네기능을수행한다. 현대마인드풀니스는이가운데현재순간의관찰과비반응성을선택적으로추출하는대신, 계·정·혜의유기적연결을탈각시켰다. 특히신념처의부정관(asubha) 차원과사띠–사마디연결이가장철저하게소실된요소이다.결론적으로양자의관계는단순한연속이나왜곡이아니라, 검증가능한임상적효과를얻는대가로원래의수행체계가담보하던변혁적깊이를내어놓은‘선택적추출’로규정하는것이정확하다. 아울러본고는원전분석에기초한사띠의작업적정의를제시하고, 방편(upāya) 개념의성립조건에대한검토를통해이선택적추출이방편도왜곡도아닌, 목적을달리하는독립적재구성임을논증하였다.",
+      "abstract_en": "Purpose: This study aims to clarify the concept, structure, and soteriological purpose of sati practice in Early Buddhism on the basis of Pāli sources, and to analyze the core transformations that occur when sati is transposed into contemporary clinical mindfulness programs. It pays particular attention to the function of sati within jhāna practice, an aspect largely neglected in existing scholarship. Methods: The study combines philological analysis of the Pāli Nikāyas and the Visuddhimagga with a review of the manuals and outcome literature of five representative mindfulness-based programs (MBSR, MBCT, DBT, ACT, MSC), and then conducts a conceptual comparison across five axes: teleology, technique, secularization, the concept of self, and the sati-samādhi linkage. Results: Canonical sati operates as a retentive and ethically discriminating faculty embedded in the Eightfold Path, and functions in jhāna through access support, object retention, purification, and linkage to insight. Contemporary mindfulness selectively extracts present-moment observation and non-reactivity while detaching sati from sīla, samādhi, and the Four Noble Truths; the asubha dimension of body contemplation and the sati–samādhi linkage are the two elements most completely lost. Conclusion: The relation between the two traditions is best described neither as simple continuity nor as mere distortion, but as a selective extraction that yields demonstrable clinical benefit at the cost of the transformative depth secured by the original practice framework. The study further proposes a working definition of sati grounded in the canonical sources, and argues—through an examination of the conditions under which the notion of upāya (skillful means) properly applies—that this selective extraction constitutes an independent reconstruction serving a different telos, rather than either upāya or distortion.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "37",
+      "issue": "",
+      "start_page": "1",
+      "end_page": "13",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=829c94945ea4c37a47de9c1710b0298d",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "사띠",
+        "마인드풀니스",
+        "사념처",
+        "선정",
+        "탈종교화"
+      ],
+      "keywords_en": [
+        "MBSR",
+        "Sati",
+        "Mindfulness",
+        "MBSR",
+        "Satipaṭṭhāna",
+        "Jhāna",
+        "Secularization"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "829c94945ea4c37a47de9c1710b0298d"
+    },
+    {
+      "article_id": "739a414c477a091c7ecd42904f0c5d65",
+      "title_kr": "MSC 프로그램 참여자의 자기연민 체험: 해석학적 현상학 연구",
+      "title_en": "The lived experience of self-compassion among participants in the Mindful Self-Compassion (MSC) program: A hermeneutic phenomenological study",
+      "authors": [
+        {
+          "name": "송인실",
+          "affiliation": "한국시니어융합연구소)\n                            \n                                    ;",
+          "order": "1"
+        },
+        {
+          "name": "윤수진",
+          "affiliation": "인하대학교 인문융합치료전공",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "본연구는마음챙김자기연민(Mindful Self-Compassion, MSC) 프로그램에참여한성인이자기연민을어떻게체험하는지를탐구하고, 그체험의의미구조를해석하여이를관통하는본질을밝히고자하였다. 이를위해van Manen의해석학적현상학을연구방법으로채택하고, 표준MSC 프로그램을수료한성인3명을대상으로개별서면자료와두차례의집단심층면담자료를수집하여체험된신체, 시간, 공간, 관계의네가지실존적지평에서분석하였다. 연구결과, 참여자들에게자기연민은새로운기술을습득하거나특정한정서상태에도달하는경험이아니라, 자기와의관계를전환하는실존적체험으로나타났다. 자기연민은몸의감각을통해현재의자신을알아차리고, 흔들림과되돌아감을반복하는시간속에서형성되었으며, 평가와성취의부담이유예된공간에서촉진되었고, 자신을이해하는경험이타인을이해하는관계로확장되면서그의미가드러났다. 이러한네가지실존체의체험은하나의움직임으로수렴하였으며, 그본질은자신을끊임없이몰아가던익숙한삶의방향을거슬러현재의자기자신에게다시이르는‘거슬러돌아서는마음’으로해석되었다. 따라서자기연민은고정된심리적특성이아니라, 자기와의관계를새롭게살아가는실존적존재방식으로이해되었다. 이러한결과는자기연민기반프로그램에서평가와성취의부담이유예된안전한환경을조성하고, 참여자의삶의맥락과속도를존중하는프로그램운영이중요함을시사한다.",
+      "abstract_en": "Purpose: This study explored how adults who participated in a Mindful Self-Compassion (MSC) program experience self-compassion, and interpreted the meaning structure of that experience to reveal its underlying essence. Methods: Van Manen’s hermeneutic phenomenology was adopted.Data were collected from three adults who had completed a standard MSC program through individual written accounts and two group in-depth interviews, and were analyzed through the four existentials of lived body, lived time, lived space, and lived relation. Results: Self-compassion was not a matter of acquiring a new skill or reaching a particular emotional state, but an existential experience of reorienting one’s relationship with oneself. It emerged as participants became aware of their present selves through bodily sensation; took shape over time through repeated wavering and returning; was fostered in a space where the pressures of evaluation and achievement were suspended; and unfolded as understanding oneself extended into understanding others. These four dimensions converged into a single movement, whose essence was interpreted as “a mind that turns back against the current”—a turning away from the familiar direction that had continually driven participants forward, and a return to the self as it is in the present. Conclusion: Self-compassion is understood not as a fixed psychological trait but as an existential way of being.Self-compassion-based programs should cultivate a safe environment in which the burdens of evaluation and achievement are suspended, and should respect participants’ life contexts and their own pace.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "37",
+      "issue": "",
+      "start_page": "15",
+      "end_page": "29",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=739a414c477a091c7ecd42904f0c5d65",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "자기연민",
+        "마음챙김자기연민(MSC)",
+        "해석학적현상학",
+        "자기와의관계"
+      ],
+      "keywords_en": [
+        "van Manen",
+        "self-compassion",
+        "Mindful Self-Compassion (MSC)",
+        "hermeneutic phenomenology",
+        "relationship with oneself",
+        "van Manen"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "739a414c477a091c7ecd42904f0c5d65"
+    },
+    {
+      "article_id": "829c94945ea4c37ad18150b21a227875",
+      "title_kr": "『해심밀경』과『성유식론』의 진여(眞如) 유형 연구 :  원측『해심밀경소』와 규기『성유식론술기』를 중심으로",
+      "title_en": "A study of the typology of tathatā in the Saṃdhinirmocana-sūtra and the Cheng weishi lun: Focusing on Woncheuk’s Commentary on the Saṃdhinirmocana-sūtra and Kuiji’s Cheng weishi lun shuji",
+      "authors": [
+        {
+          "name": "안유숙",
+          "affiliation": "무량수원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본연구는『해심밀경』과『성유식론』에설해진7종진여와10종진여의내용과상호관계를고찰하고, 이를둘러싼원측의『해심밀경소』와규기의『성유식론술기』를비교·분석하였다. 『해심밀경』의7종진여는지관(止觀) 수행의소연(所緣)인여소유성(如所有性)의내용을체계화한것으로, 수행자가관찰해야할진여의여러측면을제시한다. 반면『성유식론』의10종진여는오위(五位) 가운데수습위(修習位)의전의(轉依)를설명하는과정에서제시된것으로, 십지(十地)에따른진여증득의차제를체계화한수행론적유형이다.본연구는7종진여와10종진여가서로독립된교설이아니라동일한진여를서로다른수행론적관점에서설명한상보적체계임을밝혔다. 7종진여가지관수행의소연구조를중심으로진여의내용을유형화한것이라면, 10종진여는전의의과정에서점차증득되는진여의공덕을수행계위에따라조직한것이다. 따라서7종에서10종으로의전개는진여개념자체의변화가아니라, 유식교학의관심이존재의실성에대한규명에서수행계위의체계화로이동한결과로이해할수있다.아울러원측과규기의주석을비교한결과, 양자는모두진여일미(眞如一味)와유형의가립성(假⽴性)을공통적으로인정하지만, 해석방법에서는차이를보인다. 원측은다양한문헌전통을회통하여진여해석의다층성을제시하는반면, 규기는약체(約體)·약전(約詮)과종능전설(從能詮說)의원칙아래진여유형론을일관된교학체계로정리한다. 이러한차이는동일한호법계유식교학안에서도서로다른해석학적성향이존재했음을보여준다.결론적으로유식의진여설은존재론적교설이아니라수행자의인식전환과전의의과정을설명하는수행론적체계이며, 7종진여와10종진여는각각소연과증득이라는상이한수행국면에서동일한진여를해명하는상보적구조임을확인하였다.",
+      "abstract_en": "This study examines the seven and ten types of tathatā presented in the Saṃdhinirmocana-sūtra and the Cheng weishi lun, and compares their interpretations in Woncheuk’s Commentary on the Saṃdhinirmocana-sūtra and Kuiji’s Cheng weishi lun shuji. Its purpose is to clarify the relationship between these two typologies and to demonstrate that the Yogācāra doctrine of tathatā is fundamentally structured as a theory of Buddhist practice. The study shows that the seven types of tathatā in the Saṃdhinirmocana-sūtra systematize the content of yathāvadbhāvikatā (如所有性) as the object of meditative contemplation, whereas the ten types of tathatā in the Cheng weishi lun explain the progressive realization of tathatā through the stages of practice. Thus, the former represents the perspective of the object of contemplation, while the latter represents the perspective of realization. A comparison of Woncheuk and Kuiji reveals that both accept the non-differentiated nature of tathatā and regard the sevenfold and tenfold classifications as provisional. However, Woncheuk adopts a harmonizing approach that integrates diverse textual traditions, whereas Kuiji systematically interprets the typologies according to the principles of yuequan bianti (約詮辨體) and cong nengquan shuo (從能詮說). This study concludes that the transition from the sevenfold to the tenfold typology does not indicate a transformation of tathatā itself, but reflects a shift in Yogācāra scholasticism from explaining the true nature of reality to systematizing the stages of Buddhist practice. The seven and ten types of tathatā respectively correspond to the object of contemplation and the realization of awakening, together constituting a coherent practical framework of Yogācāra.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "37",
+      "issue": "",
+      "start_page": "31",
+      "end_page": "43",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=829c94945ea4c37ad18150b21a227875",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "7종진여",
+        "10종진여",
+        "원측",
+        "규기",
+        "유식수행론"
+      ],
+      "keywords_en": [
+        "Seven Types of Thusness(tathatā)",
+        "Ten Types of Thusness(tathatā)",
+        "Woncheuk",
+        "Kuiji",
+        "Yogācāra Practice"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "829c94945ea4c37ad18150b21a227875"
+    },
+    {
+      "article_id": "829c94945ea4c37a6aae8a972f9116fb",
+      "title_kr": "초기불교 경전에 나타난 사회연대 가치 연구: 『디가니까야』의 상호의존성과 도덕적 책임의식을 중심으로",
+      "title_en": "A study on the value of social solidarity in early Buddhist scriptures: Focusing on interdependence and moral responsibility in the Dīgha Nikāya",
+      "authors": [
+        {
+          "name": "김미숙",
+          "affiliation": "중앙승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본연구는초기불교경전인『디가니까야』에나타난사회연대의가치를고찰하고, 현대불교사회복지적함의를도출하는데목적이있다. 현대사회는개인화의심화, 사회적고립, 공동체적관계약화등의문제에직면하고있으며, 이를극복하기위해인간을관계적존재로이해하고공동의책임을실천하는사회연대가치가요구되고있다.본연구는초기불교의연기(緣起) 사상을바탕으로『디가니까야』에나타난사회연대가치를상호의존성과도덕적책임의식이라는두가지분석기준을통해고찰하였다. 상호의존성은공생, 보시(나눔), 사회적관계, 비폭력, 다양성인정의측면에서분석하였으며, 도덕적책임의식은공감을위한성찰, 타인을위한배려심(이타심), 삶의질향상을위한실천을중심으로살펴보았다.연구결과, 『디가니까야』의사회연대가치는개인의수행과윤리적완성에머무르지않고타자와공동체를위한사회적실천으로확장되고있음을확인하였다. 상호의존성은공동체형성, 나눔, 관계회복, 포용의가치로나타났으며, 도덕적책임의식은자비와성찰을기반으로타인의행복과공동체의삶의질향상을추구하는실천적가치로나타났다.따라서『디가니까야』에나타난사회연대가치는현대사회복지가지향하는인간존엄성, 상호돌봄, 사회통합과연결될수있으며, 관계중심적불교사회복지실천을위한이론적기반을제공한다는점에서의의가있다.",
+      "abstract_en": "This study examines the value of social solidarity in the Dīgha Nikāya and explores its implications for contemporary Buddhist social welfare. Based on the concept of dependent origination (paṭiccasamuppāda), social solidarity is analyzed through two categories: interdependence and moral responsibility. The findings show that the Dīgha Nikāya presents social solidarity not only as individual ethical practice but also as social practice directed toward others and the community. These values are closely related to human dignity, mutual care, and social integration, providing a foundation for relationship-centered Buddhist social welfare practice.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "37",
+      "issue": "",
+      "start_page": "45",
+      "end_page": "57",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=829c94945ea4c37a6aae8a972f9116fb",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "『디가 니까야』",
+        "사회연대",
+        "상호의존성",
+        "도덕적 책임의식",
+        "불교사회복지"
+      ],
+      "keywords_en": [
+        "Dīgha Nikāya",
+        "Social Solidarity",
+        "Interdependence",
+        "Moral Responsibility",
+        "Buddhist Social Welfare"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "829c94945ea4c37a6aae8a972f9116fb"
+    },
+    {
+      "article_id": "739a414c477a091cb36097776a77e665",
+      "title_kr": "조선후기《단독형 약사불도》에 나타난 치유신앙과 종교도상의 사회적 기능",
+      "title_en": "Healing beliefs and the social function of religious iconography in Bhaiṣajyaguru Paintings of the late Joseon period",
+      "authors": [
+        {
+          "name": "윤정이",
+          "affiliation": "중앙승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본연구는조선후기민간신앙의핵심을이루는약사신앙에주목하여, 그조형적구현인《단독형약사불도》를3가지형식으로분류하고, 각형식의대표작을통해조형적특징과신앙적의미를고찰하였다. 약사신앙은생로병사의고통속에서중생의구원을염원하는믿음으로, 삼국시대부터전해져내려왔다. 이후고려와조선을거치며전승되었으며, 조선후기에는민간을중심으로한신앙으로서더욱활발히전개되었다. 이신앙은약사불도라는불화형식을통해회화적으로구체화되었다. 기존연구는고려와조선시대의삼불회도및십이약차대장도상에대한거시적접근에주력해왔다. 반면, 조선후기《단독형약사불도》의형식변화와그신앙적배경에대한체계적분석은상대적으로미진하였다. 이에본연구는상대적으로주목받지못했던조선후기《단독형약사불도》에주목하여, 사회적제약과불안정한시대상황속에서도지속된약사신앙의실천적양상을도상분석을통해다각도로조명하고자하였다. 이를통해불화형식의변화가약사신앙의전개흐름과어떻게맞물려나타났는지를규명하며, 조선후기약사신앙의회화적표현방식과그조형적의미에대한이해를더욱심화하고자한다.",
+      "abstract_en": "This study focuses on the Bhaiṣajyaguru faith, a core component of folk belief during the late Joseon dynasty, and examines its iconographic expression in the form of single-composition Bhaiṣajyaguru Paintings. The Bhaiṣajyaguru faith, centered on the Buddha’s vow to relieve the suffering of sentient beings, has been transmitted since the Three Kingdoms period and continued to thrive during the Joseon era. This faith was visually articulated through Bhaiṣajyaguru Paintings, which served as a form of religious expression. Previous research has predominantly focused on triadic Bhaiṣajyaguru Paintings, the iconography and roles of the Twelve Yakṣa Generals, and the origins of the Four Celestial Kings. However, there has been limited systematic research on the formal transformation and religious context of single-composition Bhaiṣajyaguru Paintings in the late Joseon period. This study fills this gap by classifying the single-composition Bhaiṣajyaguru Paintings into three types: Type I includes the Twelve Yakṣa Generals, Type II features the Four Celestial Kings, and Type III depicts Bhaiṣajyaguru in a triad format. Based on textual research and iconographic analysis, the study examines representative examples from Songgwangsa, Tongdosa, Jeondeungsa, Jijangsa, and Bunhwangsa temples. The findings reveal the visual representation of Bhaiṣajyaguru faith and its significance as a folk belief. Furthermore, the study uncovers how changes in painting formats were intertwined with shifts in religious devotion during the late Joseon period, offering significant insight into the evolution of religious art and its societal impact.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "37",
+      "issue": "",
+      "start_page": "59",
+      "end_page": "73",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=739a414c477a091cb36097776a77e665",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "약사신앙",
+        "약사불도",
+        "십이약차대장",
+        "사천왕",
+        "도상분석"
+      ],
+      "keywords_en": [
+        "Bhaiṣajyaguru Faith",
+        "Bhai ṣ ajyaguru Paintings",
+        "The Twelve Yakṣa Generals",
+        "Four Celestial Kings",
+        "Iconographic Analysis"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "739a414c477a091cb36097776a77e665"
+    },
+    {
+      "article_id": "829c94945ea4c37ae9810257f7042666",
+      "title_kr": "중장년 여성 불자의 자기자비가 행복에 미치는 영향: 우울의 매개효과를 중심으로",
+      "title_en": "The effect of self-compassion on happiness among middle-aged Buddhist women: The mediating role of depression",
+      "authors": [
+        {
+          "name": "오창헌",
+          "affiliation": "중앙승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본연구는중장년여성불자의자기자비가행복에미치는영향과우울의매개효과를검증하는것을목적으로하였다. 연구대상은서울소재능인선원에서신행활동에참여하는중장년여성불자218명이며, 자료는SPSS 25.0과Hayes의PROCESS Macro 4.2(Model 4)를활용하여분석하였다. 분석결과, 자기자비는우울에부적영향을, 행복에는정적영향을미치는것으로나타났다. 또한우울은행복에부적영향을미쳤으며, 자기자비와행복의관계를부분적으로매개하는것으로확인되었다. 본연구는자기자비가중장년여성불자의행복을증진시키는중요한심리적자원이며, 우울완화를통해행복에영향을미치는심리적기제임을확인하였다. 이러한결과는자기자비기반명상및상담프로그램개발을위한기초자료를제공한다.",
+      "abstract_en": "The purpose of this study was to examine the effect of self-compassion on happiness and the mediating effect of depression among middle-aged Buddhist women. The participants were 218 middle-aged Buddhist women who regularly participated in religious activities at Neungin Seon Center in Seoul. Data were analyzed using SPSS 25.0 and Hayes’ PROCESS Macro 4.2 (Model 4). The results showed that self-compassion was negatively associated with depression and positively associated with happiness. Depression was negatively associated with happiness and partially mediated the relationship between self-compassion and happiness. These findings suggest that self-compassion is an important psychological resource that enhances happiness among middle-aged Buddhist women and that it contributes to happiness by reducing depression. The results provide empirical evidence supporting the development of self-compassion-based meditation and counseling programs.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "37",
+      "issue": "",
+      "start_page": "75",
+      "end_page": "85",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=829c94945ea4c37ae9810257f7042666",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "중장년여성불자",
+        "자기자비",
+        "우울",
+        "행복",
+        "매개효과"
+      ],
+      "keywords_en": [
+        "middle-aged Buddhist women",
+        "self-compassion",
+        "depression",
+        "happiness",
+        "mediating effect"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "829c94945ea4c37ae9810257f7042666"
+    },
+    {
+      "article_id": "829c94945ea4c37a7f7a54760bb41745",
+      "title_kr": "대학 교양 음악교육에서 감상의 위상: '음악에 관한 지식'에서 '듣기의 교육'으로",
+      "title_en": "The place of listening in university liberal arts music education: From ‘knowledge about music’ to ‘the education of listening’",
+      "authors": [
+        {
+          "name": "김준희",
+          "affiliation": "인천대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "연구의목적: 감상에초점을둔교양강좌가대학교양교육에적합하다는방향을논리적으로구성하고, 그적합성이성립하는조건을밝히는데목적이있다. 연구대상: 한국대학의교양음악교육실태를조사한국내연구들, 한국교양기초교육원의『대학교양기초교육의표준모델』, 2022 개정음악과교육과정, 그리고톰슨(1939)에서키비(1991)와만(1999)으로이어지는감상교육비판의계보를주요분석대상으로삼는다. 연구방법: 문헌분석을통해먼저국내교양음악교육이실제로무엇을가르치는지를확인하고, 다음으로감상교과의적합성을인상이나당위가아니라명문화된교과목요건에비추어검토하며, 끝으로국가교육과정과감상안내를조작한소수의실증연구로부터내용체계와구현원리를도출한다. 연구결과: 전국40개교의교양음악이론강의118과목가운데음악사가65.25%를차지한반면, 기초이론과감상법을다루는개론은6.78%에그쳤다. 이에따라감상은강좌의명칭에는포함되어있지만교육과정의주요내용으로자리잡지못한것으로나타났다. 감상교과는보편적포괄성·학술적대표성·전인교육이라는세요건에서도배제될이유가없다. 다만표준모델은예술감상을체험소양교육에포함하고, 체험소양교육은비교과로운영할것을권고한다. 따라서감상을정서적체험에한정한다면정규교과로서의비중이줄어드는것은제도적으로설명할수있다. 그러나같은문서가정서적감응에미적지각및구성능력을요구하고있다는점에서, 이러한능력을체계적으로기르는감상교육은체험을넘어학예의성격을갖는다. 결국감상교과의교양교육적성격은감상자체보다이를어떻게안내하고구성하느냐에달려있다. 구조에대한분석, 맥락에대한이해, 들은것의언어화는이미국가교육과정의감상영역성취기준에제시되어있다. 따라서대학교양감상교과의내용체계를마련하는일은새로운내용을만드는것이아니라, 고등학교단계에서충분히이어지지못한교육내용을대학에서발전시키는작업이다. 본고는그내용체계로단계적배열, 학습자에따른출발점조정, 언어화의명시적배치, 확인가능한행동으로목표를제시하는방식을제안했다. 이를실제수업에적용하기위해안내·언어화·참여의세영역으로나누어, 청취와설명의순서를조정하고, 청취이후학생자신의언어로감상을표현하게하며, 개별적참여를높이는수업구조를제시했다. 다만, 본논문은문헌과이론에근거한논증적연구로서, 본고에서제안한내용체계와수업설계의효과는아직실증적으로검증되지않았다는한계가있다.",
+      "abstract_en": "Purpose: This study constructs a reasoned argument that liberal arts music courses centered on listening are appropriate for university general education, and identifies the condition on which that appropriateness rests. Object of study: Survey data on liberal arts music curricula in Korean universities, the Standard Model for General Education, the 2022 revised national music curriculum, and the critical lineage running from Thomson (1939) through Kivy (1991) to Mann (1999). Method: Documentary analysis establishes what these courses actually teach, tests the standing of appreciation against codified criteria rather than impression or advocacy, and derives a content framework from the national curriculum and from empirical research on listening guidance. Result: Music history accounts for 65.25% of theory-based liberal arts music courses at 40 Korean universities, while courses addressing listening method account for only 6.78%. Although the Standard Model classifies the appreciation of art under experiential literacy education, the same document requires that emotional response involve the capacity for aesthetic perception and construction, and education that systematically cultivates this capacity belongs to the liberal arts rather than to experience. The standing of appreciation therefore depends on the presence and design of guidance, and establishing a content framework at university level continues an unfinished project of the national curriculum rather than importing a foreign model.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "37",
+      "issue": "",
+      "start_page": "87",
+      "end_page": "99",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=829c94945ea4c37a7f7a54760bb41745",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "교양음악교육",
+        "음악감상",
+        "감상안내",
+        "능동적청취",
+        "교양기초교육"
+      ],
+      "keywords_en": [
+        "Liberal Arts Music Education",
+        "Music Appreciation",
+        "Listening Guidance",
+        "Active Listening",
+        "General Education"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "829c94945ea4c37a7f7a54760bb41745"
+    },
+    {
+      "article_id": "829c94945ea4c37ac85d2949c297615a",
+      "title_kr": "자애명상 중심 명상 전문 교사 양성 프로그램 개발을 위한 예비 연구: 교사 대상 시범 실시를 통한 요구 도출을 중심으로",
+      "title_en": "A preliminary study for developing a loving-kindness meditation (mettā bhāvanā)-based training program for meditation specialist teachers: Focusing on needs assessment through a pilot implementation with teachers",
+      "authors": [
+        {
+          "name": "전지미",
+          "affiliation": "문수사",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본예비연구는자애명상중심명상전문교사양성프로그램시안을개발하고, 본연구에앞서프로그램의실행가능성과잠정적효과경향을탐색적으로확인하는데목적이있다. 본연구의연구문제는첫째, 자애명상중심명상전문교사양성프로그램의구성요소는어떠한가?, 둘째, 자애명상중심명상전문교사양성프로그램은직무스트레스, 지각된스트레스, 교사효능감, 주관적삶의질에서어떠한변화경향을나타내는가?, 셋째. 자애명상중심명상전문교사양성프로그램을통해교사들은어떠한경험(프로그램직후및종료후)을하였는가?, 넷째. 자애명상중심명상전문교사양성프로그램에대한교사들의요구는어떠한가?였다. 이를위해자애명상을 중심으로한 10회기프로그램 시안을개발하여 교사6명에게시범 적용하고, 대응표본 t-검정과 두차례의 포커스그룹 인터뷰를병행하여잠정적효과경향과참여경험을탐색하였다. 그결과직무스트레스의직업적대우, 지각된스트레스의긍정적지각·부정적 지각 및 척도 전체, 교사효능감의 과제난이도에서 통계적으로 유의한 사전-사후 변화 경향이 나타났으나, 주관적 삶의 질에서는유의한변화가확인되지않았다. 포커스그룹인터뷰결과, 참여자들은심리적안정, 자기성찰, 타인에대한자애로운태도형성을경험하였고, 이러한변화는프로그램종료한달후에도일부유지되는경향을보였다. 아울러전용공간확보, 지도자전문성강화, 과학적근거제시, 탈종교적접근등이학교현장도입을위한요구로확인되었다. 본연구는소표본시범운영을목적으로한예비연구라는한계를지니지만, 자애명상중심명상전문교사양성프로그램의실행가능성을확인하고후속본연구의설계방향을제시하였다는데의의가있다.",
+      "abstract_en": "This preliminary study aimed to develop a draft loving-kindness meditation (mettā bhāvanā)-based training program for meditation specialist teachers and to explore its feasibility and potential effects prior to a full-scale study. The research questions were as follows: First, what components should be included in a loving-kindness meditation-based training program for meditation specialist teachers? Second, what patterns of change are observed in participants’ job stress, perceived stress, teacher efficacy, and subjective quality of life? Third, how do teachers experience the program immediately after its completion and one month later? Fourth, what needs do teachers identify regarding the program and its implementation? To address these questions, a 10-session draft program centered on loving-kindness meditation was developed and piloted with six school teachers. Paired-samples t-tests and two rounds of focus group interviews were used to examine preliminary changes in the outcome variables and participants’ experiences. The quantitative findings indicated statistically significant pre–post changes in professional treatment, a subscale of job stress; positive perception, negative perception, and the total perceived stress score; and task difficulty, a subscale of teacher efficacy. No statistically significant change was observed in subjective quality of life. The focus group findings showed that participants experienced greater psychological stability, enhanced self-reflection, and the development of a more loving-kindness-oriented attitude toward others. Some of these changes appeared to be maintained one month after the program ended. Participants also identified several needs for school-based implementation, including the provision of a dedicated space, enhanced facilitator expertise, the presentation of scientific evidence supporting the program, and the use of a secular, nonreligious approach. Despite the limitations associated with its small sample size and preliminary design, this study provides initial evidence of the feasibility of a loving-kindness meditation-based training program for meditation specialist teachers. It also offers practical implications for refining the program and designing a subsequent full-scale study.",
+      "journal_name": "명상심리상담",
+      "year": "2026",
+      "volume": "37",
+      "issue": "",
+      "start_page": "101",
+      "end_page": "120",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=829c94945ea4c37ac85d2949c297615a",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [
+        "자애명상",
+        "명상 전문 교사 양성",
+        "예비 연구",
+        "직무 스트레스",
+        "지각된 스트레스",
+        "교사효능감"
+      ],
+      "keywords_en": [
+        "loving-kindness meditation (mettā bhāvanā)",
+        "meditation specialist teacher training",
+        "preliminary study",
+        "job stress",
+        "perceived stress",
+        "teacher efficacy"
+      ],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "829c94945ea4c37ac85d2949c297615a"
     }
   ],
   "by_year": {
