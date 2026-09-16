@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.56,
     "control_no": "a7943149367c4574ffe0bdc3ef48d419",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-16"
   },
   "articles": [
     {
@@ -21050,6 +21050,34 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "719504b20e609e3e6aae8a972f9116fb"
+    },
+    {
+      "article_id": "e05209af8f018d727f7a54760bb41745",
+      "title_kr": "별을 찾아서: 라 발레 뿌쎙과 라모뜨 묘소 참배기",
+      "title_en": "In Search of Stars: A Pilgrimage to the Graves of Louis de La Vallée Poussin (1869~1938) and Étienne Lamotte (1903~1983)",
+      "authors": [
+        {
+          "name": "장규언",
+          "affiliation": "서강대학교 철학연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "불교연구",
+      "year": "2026",
+      "volume": "65",
+      "issue": "",
+      "start_page": "273",
+      "end_page": "311",
+      "doi": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e05209af8f018d727f7a54760bb41745",
+      "kci_url": "http://www.kci.go.kr",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "RISS",
+      "id": "e05209af8f018d727f7a54760bb41745"
     }
   ],
   "by_year": {
