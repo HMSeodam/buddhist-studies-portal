@@ -19,7 +19,10 @@ from bs4 import BeautifulSoup
 import json, time, re
 from pathlib import Path
 from datetime import datetime
-import argparse
+import argparse, os, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from update_log import record_update   # noqa: E402
 
 OUTPUT_DIR  = "../output"
 OUTPUT_FILE = "ibk_印度學佛教學研究.json"
@@ -341,6 +344,13 @@ def main(depth=2):
                     added += 1
                     time.sleep(DELAY)
             print(f"{added}편 신규")
+            if added:
+                try:
+                    record_update(OUTPUT_DIR, "印度學佛教學研究", added,
+                                  volume=iss.get("volume", ""), issue=iss.get("issue", ""),
+                                  year=infer_year(iss.get("volume", "")), source="J-Stage")
+                except Exception as e:
+                    print(f"  ⚠ 공지 기록 실패: {e}")
             total_new += added
             time.sleep(DELAY)
 

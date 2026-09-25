@@ -4,10 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#1A3A5C">
+<meta name="description" content="불교학·불교미술사학·불교사학 학술지 30종의 논문을 한 번에 검색하는 무료 학술 포털">
 <title>불교학논문 통합검색</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Noto+Sans+KR:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
 <style>
 :root {
   --navy:#1A3A5C; --navy-lt:#2E5A8A;
@@ -15,6 +16,7 @@
   --text:#1C1C2E; --text-s:#4A5568; --muted:#8896A5;
   --bg:#FFFFFF; --bg-s:#F7F9FC; --bg-m:#EEF2F7;
   --border:#DDE3EB; --accent:#E8F0F8;
+  --red:#C0392B;
   --sh-s:0 1px 4px rgba(26,58,92,.08);
   --sh-m:0 4px 20px rgba(26,58,92,.12);
   --sh-l:0 12px 48px rgba(26,58,92,.18);
@@ -24,153 +26,227 @@
   --display:'Playfair Display',serif;
   --tr:.2s cubic-bezier(.4,0,.2,1);
   --bot-nav:64px;
+  --hdr-h:56px;
+  --fbar-h:52px;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;padding-bottom:var(--bot-nav);line-height:1.6}
-::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;line-height:1.6;overflow-x:hidden}
+button,select,input{font-family:inherit}
+::-webkit-scrollbar{width:4px;height:4px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--gold-lt);outline-offset:2px}
 
 /* HEADER */
 .hdr{background:var(--navy);position:sticky;top:0;z-index:100;box-shadow:0 2px 16px rgba(26,58,92,.25)}
-.hdr-in{max-width:1100px;margin:0 auto;padding:0 1.25rem;height:56px;display:flex;align-items:center;justify-content:space-between}
-.logo{text-decoration:none;display:flex;flex-direction:column;gap:1px}
-.logo-m{font-family:var(--serif);font-size:1.1rem;font-weight:700;color:#fff;letter-spacing:.05em;line-height:1}
-.logo-s{font-size:.58rem;color:rgba(255,255,255,.4);letter-spacing:.2em;font-weight:300}
-.hdr-cnt{font-size:.7rem;color:rgba(255,255,255,.5);background:rgba(255,255,255,.08);padding:.3rem .7rem;border-radius:20px;border:1px solid rgba(255,255,255,.1)}
+.hdr-in{max-width:1100px;margin:0 auto;padding:0 1.25rem;height:var(--hdr-h);display:flex;align-items:center;justify-content:space-between;gap:.75rem}
+.logo{text-decoration:none;display:flex;flex-direction:column;gap:1px;min-width:0}
+.logo-m{font-family:var(--serif);font-size:1.1rem;font-weight:700;color:#fff;letter-spacing:.05em;line-height:1;white-space:nowrap}
+.logo-s{font-size:.58rem;color:rgba(255,255,255,.4);letter-spacing:.2em;font-weight:300;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hdr-r{display:flex;align-items:center;gap:.5rem;flex-shrink:0}
+.hdr-cnt{font-size:.7rem;color:rgba(255,255,255,.5);background:rgba(255,255,255,.08);padding:.3rem .7rem;border-radius:20px;border:1px solid rgba(255,255,255,.1);white-space:nowrap}
+
+/* NOTICE BUTTON + PANEL */
+.ntc-btn{position:relative;display:inline-flex;align-items:center;gap:.3rem;height:32px;padding:0 .7rem;border-radius:20px;border:1px solid rgba(212,160,23,.45);background:rgba(212,160,23,.12);color:#F3DFA2;font-size:.7rem;font-weight:600;cursor:pointer;transition:var(--tr);letter-spacing:.04em}
+.ntc-btn:hover,.ntc-btn[aria-expanded="true"]{background:rgba(212,160,23,.25);color:#fff}
+.ntc-dot{position:absolute;top:-2px;right:-2px;width:9px;height:9px;border-radius:50%;background:#E5533D;border:2px solid var(--navy)}
+.ntc-dot[hidden]{display:none}
+.ntc-pan{position:fixed;top:calc(var(--hdr-h) + 6px);right:max(12px,calc((100vw - 1100px)/2 + 1.25rem));width:min(380px,calc(100vw - 24px));max-height:min(70vh,560px);background:var(--bg);border:1px solid var(--border);border-radius:var(--r-m);box-shadow:var(--sh-l);z-index:320;display:flex;flex-direction:column;opacity:0;transform:translateY(-6px);pointer-events:none;transition:opacity .18s,transform .18s}
+.ntc-pan.open{opacity:1;transform:none;pointer-events:all}
+.ntc-hd{display:flex;align-items:center;gap:.5rem;padding:.8rem 1rem .6rem;border-bottom:1px solid var(--border)}
+.ntc-hd strong{font-family:var(--serif);font-size:.92rem;color:var(--text);white-space:nowrap}
+.ntc-sub{font-size:.66rem;color:var(--muted);min-width:0;line-height:1.4}
+.ntc-x{margin-left:auto;width:28px;height:28px;border-radius:50%;border:none;background:var(--bg-m);color:var(--text-s);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.ntc-list{list-style:none;overflow-y:auto;padding:.35rem 0;-webkit-overflow-scrolling:touch}
+.ntc-it{width:100%;display:grid;grid-template-columns:auto 1fr auto;gap:.15rem .6rem;align-items:baseline;text-align:left;padding:.55rem 1rem;background:none;border:none;cursor:pointer;color:var(--text);transition:background var(--tr)}
+.ntc-it:hover{background:var(--bg-s)}
+.ntc-it:disabled{cursor:default}
+.ntc-it:disabled:hover{background:none}
+.ntc-date{font-size:.68rem;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.ntc-tx{font-size:.8rem;line-height:1.5}
+.ntc-tx b{font-family:var(--serif);font-weight:600;color:var(--navy)}
+.ntc-go{font-size:.66rem;color:var(--navy-lt);white-space:nowrap}
+.ntc-new{display:inline-block;font-size:.55rem;font-weight:700;color:#fff;background:#E5533D;border-radius:4px;padding:0 .3rem;margin-left:.3rem;vertical-align:1px}
+.ntc-pin{background:rgba(184,134,11,.06)}
+.ntc-grp{font-size:.6rem;letter-spacing:.14em;color:var(--muted);padding:.55rem 1rem .2rem;font-weight:600}
+.ntc-empty{padding:1.2rem 1rem;font-size:.78rem;color:var(--muted);text-align:center}
 
 /* HERO */
-.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-lt) 100%);padding:2.5rem 1.25rem 2rem;text-align:center;position:relative;overflow:hidden}
+.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-lt) 100%);padding:2.5rem 1.25rem 1.6rem;text-align:center;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 40%,rgba(184,134,11,.15) 0%,transparent 60%);pointer-events:none}
+.hero>*{position:relative}
 .hero-ey{font-family:var(--display);font-style:italic;font-size:.78rem;color:var(--gold-lt);letter-spacing:.15em;margin-bottom:.5rem}
 .hero-ti{font-family:var(--serif);font-size:clamp(1.25rem,4vw,1.7rem);font-weight:700;color:#fff;letter-spacing:.04em;margin-bottom:.4rem;line-height:1.3}
-.hero-su{font-size:.73rem;color:rgba(255,255,255,.55);margin-bottom:1.75rem;letter-spacing:.08em}
-.srch-wr{max-width:600px;margin:0 auto 1rem;position:relative}
-.srch-in{width:100%;padding:.88rem 3.4rem .88rem 1.2rem;font-family:var(--sans);font-size:.98rem;border:2px solid rgba(255,255,255,.15);border-radius:50px;background:rgba(255,255,255,.97);color:var(--text);outline:none;transition:var(--tr);box-shadow:0 4px 24px rgba(0,0,0,.15);-webkit-appearance:none}
+.hero-su{font-size:.73rem;color:rgba(255,255,255,.55);margin-bottom:1.5rem;letter-spacing:.08em}
+.srch-wr{max-width:600px;margin:0 auto .8rem;position:relative}
+.srch-in{width:100%;padding:.88rem 5.6rem .88rem 1.2rem;font-size:1rem;border:2px solid rgba(255,255,255,.15);border-radius:50px;background:rgba(255,255,255,.97);color:var(--text);outline:none;transition:var(--tr);box-shadow:0 4px 24px rgba(0,0,0,.15);-webkit-appearance:none;appearance:none}
 .srch-in:focus{border-color:var(--gold-lt);box-shadow:0 4px 24px rgba(0,0,0,.2),0 0 0 3px rgba(212,160,23,.2)}
 .srch-in::placeholder{color:var(--muted)}
+.srch-in::-webkit-search-cancel-button{display:none}
 .srch-btn{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;background:var(--navy);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:var(--tr);color:#fff}
 .srch-btn:hover{background:var(--gold)}
+.srch-clr{position:absolute;right:50px;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;border:none;background:transparent;color:var(--muted);cursor:pointer;display:none;align-items:center;justify-content:center}
+.srch-clr.show{display:flex}
+.srch-clr:hover{background:var(--bg-m);color:var(--text)}
 .hints{display:flex;gap:.45rem;justify-content:center;flex-wrap:wrap}
-.hint{font-size:.7rem;padding:.28rem .75rem;border-radius:20px;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.68);background:rgba(255,255,255,.08);cursor:pointer;transition:var(--tr)}
+.hint{font-size:.72rem;padding:.3rem .8rem;border-radius:20px;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.72);background:rgba(255,255,255,.08);cursor:pointer;transition:var(--tr)}
 .hint:hover{background:rgba(255,255,255,.18);color:#fff}
+.help-tg{margin-top:.75rem;background:none;border:none;color:rgba(255,255,255,.55);font-size:.68rem;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.help-tg:hover{color:#fff}
+.help-box{display:none;max-width:600px;margin:.7rem auto 0;text-align:left;background:rgba(255,255,255,.96);border-radius:var(--r-m);padding:.9rem 1.1rem;font-size:.74rem;line-height:1.85;color:var(--text-s);box-shadow:var(--sh-m)}
+.help-box.open{display:block}
+.help-box code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.72rem;background:var(--bg-m);color:var(--navy);padding:.05rem .35rem;border-radius:4px}
+.help-box table{width:100%;border-collapse:collapse}
+.help-box td{padding:.18rem .3rem;vertical-align:top}
+.help-box td:first-child{white-space:nowrap;width:1%}
 
 /* FILTER BAR */
-.fbar{background:var(--bg);border-bottom:1px solid var(--border);position:sticky;top:56px;z-index:90;box-shadow:var(--sh-s)}
-.fbar-in{max-width:1100px;margin:0 auto;padding:.6rem 1.25rem;display:flex;gap:.45rem;align-items:center;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
-.fbar-in::-webkit-scrollbar{display:none}
+.fbar{background:var(--bg);border-bottom:1px solid var(--border);position:sticky;top:var(--hdr-h);z-index:90;box-shadow:var(--sh-s)}
+.fbar-in{max-width:1100px;margin:0 auto;padding:.55rem 1.25rem;display:flex;gap:.45rem;align-items:center;flex-wrap:wrap}
 .flbl{font-size:.66rem;color:var(--muted);letter-spacing:.1em;white-space:nowrap;font-weight:600}
-.fsel{font-family:var(--sans);font-size:.76rem;padding:.38rem 1.7rem .38rem .7rem;border:1.5px solid var(--border);border-radius:20px;background:var(--bg-s);color:var(--text);cursor:pointer;outline:none;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238896A5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .55rem center;white-space:nowrap;min-height:34px;transition:var(--tr)}
+.fsel{font-size:.76rem;padding:.38rem 1.7rem .38rem .7rem;border:1.5px solid var(--border);border-radius:20px;background-color:var(--bg-s);color:var(--text);cursor:pointer;outline:none;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238896A5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .55rem center;white-space:nowrap;min-height:34px;max-width:200px;text-overflow:ellipsis;transition:var(--tr)}
 .fsel:focus{border-color:var(--navy)}
-.fsel:disabled{opacity:.4;cursor:not-allowed;pointer-events:none}
-.rcnt{margin-left:auto;font-size:.68rem;color:var(--muted);white-space:nowrap;font-weight:500}
+.fsel.set{border-color:var(--navy-lt);background-color:var(--accent);color:var(--navy);font-weight:600}
+.fsel:disabled{opacity:.45;cursor:not-allowed}
+.rcnt{margin-left:auto;font-size:.7rem;color:var(--muted);white-space:nowrap;font-weight:500}
 .rcnt strong{color:var(--navy)}
 
 /* MAIN LAYOUT */
-.main{max-width:1100px;margin:0 auto;padding:1.5rem 1.25rem;display:grid;grid-template-columns:215px 1fr;gap:1.5rem;align-items:start}
+.main{max-width:1100px;margin:0 auto;padding:1.5rem 1.25rem;display:grid;grid-template-columns:225px minmax(0,1fr);gap:1.5rem;align-items:start}
 
 /* SIDEBAR */
-.sbar{position:sticky;top:108px;max-height:calc(100vh - 128px);overflow-y:auto;scrollbar-width:thin}
-.sbar-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:.7rem;padding-bottom:.45rem;border-bottom:1.5px solid var(--border)}
-.sbar-ti{font-size:.63rem;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;font-weight:600}
-
+.sbar{position:sticky;top:calc(var(--hdr-h) + var(--fbar-h) + 12px);max-height:calc(100vh - var(--hdr-h) - var(--fbar-h) - 24px);overflow-y:auto;scrollbar-width:thin;padding-right:4px}
+.sbar-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:.7rem;padding-bottom:.45rem;border-bottom:1.5px solid var(--border);gap:.4rem}
+.sbar-ti{font-size:.63rem;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;font-weight:600;white-space:nowrap}
 .cat-hdr{font-size:.58rem;letter-spacing:.12em;color:#fff;background:var(--navy);padding:.18rem .5rem;border-radius:4px;margin:.7rem 0 .25rem;display:inline-block;font-weight:600}
 .jlist{list-style:none}
 .jitem{border-bottom:1px solid rgba(221,227,235,.5)}
-.jbtn{width:100%;text-align:left;background:none;border:none;padding:.52rem .45rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;border-radius:var(--r-s);transition:var(--tr);gap:.35rem}
+.jbtn{width:100%;text-align:left;background:none;border:none;padding:.52rem .45rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;border-radius:var(--r-s);transition:var(--tr);gap:.35rem;color:inherit}
 .jbtn:hover{background:var(--bg-m)}
 .jbtn.active{background:var(--navy)}
+.jbtn.zero{opacity:.42}
 .jbtn-nm{font-family:var(--serif);font-size:.8rem;color:var(--text);font-weight:400;line-height:1.3}
 .jbtn-pub{font-size:.58rem;color:var(--muted);line-height:1.2}
 .jbtn.active .jbtn-nm{color:#fff}
 .jbtn.active .jbtn-pub{color:rgba(255,255,255,.6)}
+.jcnt{font-size:.6rem;font-weight:600;color:var(--navy);background:var(--accent);border-radius:10px;padding:.05rem .45rem;white-space:nowrap;font-variant-numeric:tabular-nums}
+.jbtn.active .jcnt{background:rgba(255,255,255,.18);color:#fff}
 
 /* RESULTS */
-.res{min-height:60vh}
-.st-msg{text-align:center;padding:4rem 2rem;color:var(--muted)}
+.res{min-height:60vh;min-width:0}
+.st-msg{text-align:center;padding:3.5rem 1.5rem;color:var(--muted)}
 .st-ic{display:block;margin-bottom:1rem;opacity:.25;color:var(--muted)}
 .st-msg p{font-size:.86rem;line-height:2;color:var(--text-s)}
+.ld-bar{width:min(280px,80%);height:4px;background:var(--bg-m);border-radius:2px;margin:1rem auto 0;overflow:hidden}
+.ld-bar i{display:block;height:100%;width:0;background:var(--navy-lt);transition:width .2s}
+.wl-recent{max-width:520px;margin:1.6rem auto 0;text-align:left;border:1px solid var(--border);border-radius:var(--r-m);overflow:hidden}
+.wl-recent h3{font-size:.66rem;letter-spacing:.14em;color:var(--muted);font-weight:600;padding:.6rem .9rem;background:var(--bg-s);border-bottom:1px solid var(--border)}
+.wl-recent .ntc-list{padding:.2rem 0}
+
+.res-hd{display:flex;align-items:center;flex-wrap:wrap;gap:.4rem;margin-bottom:.85rem}
+.res-sum{font-size:.78rem;color:var(--text-s);margin-right:.2rem}
+.res-sum strong{color:var(--navy);font-size:.9rem}
+.chip{display:inline-flex;align-items:center;gap:.25rem;font-size:.68rem;padding:.2rem .35rem .2rem .6rem;border-radius:20px;background:var(--accent);color:var(--navy);border:1px solid rgba(26,58,92,.15);max-width:100%}
+.chip span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chip button{border:none;background:rgba(26,58,92,.1);color:var(--navy);width:18px;height:18px;border-radius:50%;cursor:pointer;font-size:.7rem;line-height:1;flex-shrink:0}
+.chip button:hover{background:var(--navy);color:#fff}
+.chip-clr{font-size:.66rem;color:var(--muted);background:none;border:none;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.res-tools{margin-left:auto;display:flex;gap:.35rem}
+.tbtn{font-size:.68rem;padding:.3rem .7rem;border-radius:20px;border:1.5px solid var(--border);background:var(--bg);color:var(--text-s);cursor:pointer;display:inline-flex;align-items:center;gap:.3rem;white-space:nowrap;transition:var(--tr)}
+.tbtn:hover{border-color:var(--navy);color:var(--navy)}
+.fuzzy-note{font-size:.76rem;color:var(--text-s);background:rgba(184,134,11,.07);border-left:3px solid var(--gold);padding:.6rem .8rem;border-radius:var(--r-s);margin-bottom:.8rem;line-height:1.7}
 
 /* PAPER CARD */
 .card{background:var(--bg);border:1.5px solid var(--border);border-radius:var(--r-m);padding:1.2rem 1.35rem;margin-bottom:.75rem;cursor:pointer;transition:var(--tr);animation:fu .25s ease both;position:relative}
 .card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:transparent;border-radius:var(--r-m) 0 0 var(--r-m);transition:var(--tr)}
-.card:hover{border-color:var(--navy-lt);box-shadow:var(--sh-m);transform:translateY(-2px)}
-.card:hover::before{background:var(--navy)}
+@media(hover:hover){.card:hover{border-color:var(--navy-lt);box-shadow:var(--sh-m);transform:translateY(-2px)}.card:hover::before{background:var(--navy)}}
+.card:focus-visible::before{background:var(--navy)}
 @keyframes fu{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@media (prefers-reduced-motion:reduce){.card{animation:none}*{scroll-behavior:auto!important}}
 .pmeta{display:flex;align-items:center;gap:.38rem;margin-bottom:.5rem;flex-wrap:wrap}
-.bdg{font-size:.6rem;padding:.16rem .5rem;border-radius:20px;font-weight:600;letter-spacing:.02em}
+.bdg{font-size:.6rem;padding:.16rem .5rem;border-radius:20px;font-weight:600;letter-spacing:.02em;white-space:nowrap}
 .bdg-j{background:var(--accent);color:var(--navy);border:1px solid rgba(26,58,92,.15)}
 .bdg-y{background:rgba(184,134,11,.08);color:var(--gold);border:1px solid rgba(184,134,11,.2)}
 .bdg-i{background:var(--bg-m);color:var(--text-s);border:1px solid var(--border)}
-.ptit{font-family:var(--serif);font-size:.97rem;font-weight:700;line-height:1.55;color:var(--text);margin-bottom:.38rem}
-.ptit mark{background:rgba(212,160,23,.2);color:var(--gold);padding:0 1px;border-radius:2px}
-.pau{font-size:.76rem;color:var(--text-s);margin-bottom:.45rem}
-.aname{color:var(--navy-lt);font-weight:500;cursor:pointer;text-decoration:underline;text-decoration-color:transparent;transition:var(--tr)}
+.bdg-js{background:rgba(220,38,38,.07);color:#b91c1c;border:1px solid rgba(220,38,38,.2)}
+.bdg-k{background:rgba(22,101,52,.07);color:#166534;border:1px solid rgba(22,101,52,.2)}
+.ptit{font-family:var(--serif);font-size:.97rem;font-weight:700;line-height:1.55;color:var(--text);margin-bottom:.38rem;overflow-wrap:anywhere}
+mark{background:rgba(212,160,23,.24);color:inherit;padding:0 1px;border-radius:2px}
+.ptit mark{color:#8a6408}
+.pau{font-size:.76rem;color:var(--text-s);margin-bottom:.45rem;overflow-wrap:anywhere}
+.aname{color:var(--navy-lt);font-weight:500;cursor:pointer;text-decoration:underline;text-decoration-color:transparent;transition:var(--tr);background:none;border:none;font-size:inherit;padding:0}
 .aname:hover{text-decoration-color:var(--navy-lt)}
-.pabs{font-size:.76rem;color:var(--text-s);line-height:1.75;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:.65rem}
+.pabs{font-size:.76rem;color:var(--text-s);line-height:1.75;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:.65rem;overflow-wrap:anywhere}
 .pkws{display:flex;gap:.3rem;flex-wrap:wrap}
 .kw{font-size:.63rem;padding:.16rem .5rem;background:var(--bg-s);border:1px solid var(--border);border-radius:4px;color:var(--text-s)}
+button.kw{cursor:pointer}
+button.kw:hover{border-color:var(--navy-lt);color:var(--navy)}
 .kw.ai{background:rgba(184,134,11,.06);border-color:rgba(184,134,11,.2);color:var(--gold)}
 
 /* PAGINATION */
 .pag{display:flex;justify-content:center;gap:.3rem;padding:1.75rem 0;flex-wrap:wrap}
-.pgbtn{font-family:var(--sans);font-size:.76rem;min-width:34px;height:34px;padding:0 .45rem;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--border);background:var(--bg);border-radius:var(--r-s);cursor:pointer;transition:var(--tr);color:var(--text-s);font-weight:500}
+.pgbtn{font-size:.76rem;min-width:36px;height:36px;padding:0 .45rem;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--border);background:var(--bg);border-radius:var(--r-s);cursor:pointer;transition:var(--tr);color:var(--text-s);font-weight:500}
 .pgbtn:hover{border-color:var(--navy);color:var(--navy)}
 .pgbtn.active{background:var(--navy);border-color:var(--navy);color:#fff}
 
 /* MODAL */
 .mov{position:fixed;inset:0;background:rgba(26,58,92,.5);z-index:300;display:flex;align-items:flex-end;justify-content:center;opacity:0;pointer-events:none;transition:opacity .25s;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
 .mov.open{opacity:1;pointer-events:all}
-.mod{background:var(--bg);width:100%;max-width:680px;max-height:90vh;overflow-y:auto;border-radius:var(--r-l) var(--r-l) 0 0;box-shadow:var(--sh-l);transform:translateY(32px);transition:transform .3s cubic-bezier(.34,1.56,.64,1);-webkit-overflow-scrolling:touch}
+.mod{background:var(--bg);width:100%;max-width:700px;max-height:90vh;max-height:90dvh;overflow-y:auto;overscroll-behavior:contain;border-radius:var(--r-l) var(--r-l) 0 0;box-shadow:var(--sh-l);transform:translateY(32px);transition:transform .3s cubic-bezier(.34,1.56,.64,1);-webkit-overflow-scrolling:touch}
 .mov.open .mod{transform:translateY(0)}
 .mod-hdl{width:40px;height:4px;background:var(--border);border-radius:2px;margin:.7rem auto 0}
 .mod-hdr{padding:.7rem 1.4rem .9rem;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg);z-index:1}
-.mod-cls{position:absolute;top:.7rem;right:1rem;background:var(--bg-m);border:none;width:30px;height:30px;border-radius:50%;cursor:pointer;color:var(--text-s);font-size:.85rem;display:flex;align-items:center;justify-content:center;transition:var(--tr)}
+.mod-cls{position:absolute;top:.7rem;right:1rem;background:var(--bg-m);border:none;width:32px;height:32px;border-radius:50%;cursor:pointer;color:var(--text-s);display:flex;align-items:center;justify-content:center;transition:var(--tr)}
 .mod-cls:hover{background:var(--border)}
-.mod-ti{font-family:var(--serif);font-size:1rem;font-weight:700;line-height:1.5;margin-bottom:.3rem;padding-right:2.5rem;color:var(--text)}
-.mod-ten{font-size:.73rem;color:var(--muted);font-style:italic;margin-bottom:.55rem;padding-right:2.5rem}
+.mod-ti{font-family:var(--serif);font-size:1rem;font-weight:700;line-height:1.5;margin-bottom:.3rem;padding-right:2.5rem;color:var(--text);overflow-wrap:anywhere}
+.mod-ten{font-size:.73rem;color:var(--muted);font-style:italic;margin-bottom:.55rem;padding-right:2.5rem;overflow-wrap:anywhere}
 .mod-bdy{padding:1.1rem 1.4rem 2rem}
-.dgrd{display:grid;grid-template-columns:76px 1fr;gap:.35rem .7rem;margin-bottom:.35rem}
+.dgrd{display:grid;grid-template-columns:76px minmax(0,1fr);gap:.35rem .7rem;margin-bottom:.35rem}
 .dlbl{font-size:.66rem;color:var(--muted);letter-spacing:.05em;padding-top:2px;font-weight:600}
-.dval{font-size:.8rem;color:var(--text-s);line-height:1.6}
+.dval{font-size:.8rem;color:var(--text-s);line-height:1.6;overflow-wrap:anywhere}
+.dval a{color:var(--navy-lt)}
 .msec{font-size:.63rem;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;margin:1.2rem 0 .55rem;padding-bottom:.38rem;border-bottom:1px solid var(--border);font-weight:600}
-.mabs{font-size:.8rem;line-height:1.9;color:var(--text-s)}
-.mlks{display:flex;gap:.5rem;margin-top:1.4rem;flex-wrap:wrap}
-.mlk{display:inline-flex;align-items:center;gap:.35rem;padding:.55rem 1rem;font-family:var(--sans);font-size:.75rem;text-decoration:none;border-radius:50px;transition:var(--tr);font-weight:600;min-height:40px}
+.mabs{font-size:.8rem;line-height:1.9;color:var(--text-s);white-space:pre-line;overflow-wrap:anywhere}
+.mabs-en{margin-top:.6rem;font-size:.76rem;color:var(--muted)}
+.mlks{display:flex;gap:.5rem;margin-top:.4rem;flex-wrap:wrap}
+.mlk{display:inline-flex;align-items:center;gap:.35rem;padding:.55rem 1rem;font-size:.75rem;text-decoration:none;border-radius:50px;transition:var(--tr);font-weight:600;min-height:40px;border:none;cursor:pointer}
 .mlk.pri{background:var(--navy);color:#fff}
 .mlk.pri:hover{background:var(--navy-lt)}
 .mlk.sec{background:var(--bg-s);color:var(--navy);border:1.5px solid var(--border)}
 .mlk.sec:hover{border-color:var(--navy);background:var(--accent)}
 .mlk.home{background:var(--bg-s);color:var(--text-s);border:1.5px solid var(--border)}
 .mlk.home:hover{border-color:var(--muted);background:var(--bg-m)}
-/* 학술지 홈페이지 안내 */
+.cite-box{font-size:.76rem;line-height:1.75;color:var(--text-s);background:var(--bg-s);border:1px solid var(--border);border-radius:var(--r-s);padding:.6rem .8rem;margin-bottom:.55rem;overflow-wrap:anywhere}
 .journal-note{font-size:.68rem;color:var(--muted);margin-top:.6rem;padding:.5rem .75rem;background:var(--bg-s);border-radius:var(--r-s);border-left:3px solid var(--gold);line-height:1.7}
 
 /* BOTTOM NAV */
-.bnav{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-top:1px solid var(--border);z-index:200;height:var(--bot-nav);padding:0 1rem;padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -4px 20px rgba(26,58,92,.08)}
-.bnav-in{display:flex;justify-content:space-around;align-items:center;height:100%}
-.bnav-btn{display:flex;flex-direction:column;align-items:center;gap:3px;background:none;border:none;cursor:pointer;padding:.5rem 1.2rem;border-radius:var(--r-s);transition:var(--tr);color:var(--muted);min-height:44px;justify-content:center}
+.bnav{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-top:1px solid var(--border);z-index:200;height:calc(var(--bot-nav) + env(safe-area-inset-bottom));padding:0 1rem env(safe-area-inset-bottom);box-shadow:0 -4px 20px rgba(26,58,92,.08)}
+.bnav-in{display:flex;justify-content:space-around;align-items:center;height:var(--bot-nav)}
+.bnav-btn{position:relative;display:flex;flex-direction:column;align-items:center;gap:3px;background:none;border:none;cursor:pointer;padding:.5rem 1rem;border-radius:var(--r-s);transition:var(--tr);color:var(--muted);min-height:44px;min-width:56px;justify-content:center}
 .bnav-btn.on{color:var(--navy)}
 .bnav-ic{font-size:1.15rem;line-height:1}
-.bnav-lb{font-size:.58rem;font-weight:600;letter-spacing:.04em}
+.bnav-lb{font-size:.6rem;font-weight:600;letter-spacing:.04em}
 
 /* DRAWER */
 .drov{display:none;position:fixed;inset:0;background:rgba(26,58,92,.4);z-index:250;opacity:0;pointer-events:none;transition:opacity .25s;backdrop-filter:blur(2px)}
 .drov.open{opacity:1;pointer-events:all}
-.drw{position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-radius:var(--r-l) var(--r-l) 0 0;z-index:260;max-height:75vh;overflow-y:auto;transform:translateY(100%);transition:transform .3s cubic-bezier(.34,1.2,.64,1);padding-bottom:env(safe-area-inset-bottom)}
-.drw.open{transform:translateY(0)}
+.drw{position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-radius:var(--r-l) var(--r-l) 0 0;z-index:260;max-height:75vh;max-height:75dvh;overflow-y:auto;overscroll-behavior:contain;transform:translateY(100%);transition:transform .3s cubic-bezier(.34,1.2,.64,1);padding-bottom:env(safe-area-inset-bottom);visibility:hidden}
+.drw.open{transform:translateY(0);visibility:visible}
 .drw-hdl{width:40px;height:4px;background:var(--border);border-radius:2px;margin:.7rem auto 0}
-.drw-hdr{padding:.7rem 1.25rem .45rem;border-bottom:1px solid var(--border);font-family:var(--serif);font-size:.95rem;font-weight:700;color:var(--text)}
+.drw-hdr{padding:.7rem 1.25rem .45rem;border-bottom:1px solid var(--border);font-family:var(--serif);font-size:.95rem;font-weight:700;color:var(--text);position:sticky;top:0;background:var(--bg);z-index:1}
 .drw-cnt{padding:.45rem 1.25rem 1.5rem}
 
 /* UPDATE BANNER */
-.ubanner{background:var(--accent);border-bottom:1px solid rgba(26,58,92,.1);padding:.38rem 1.25rem;text-align:center;font-size:.68rem;color:var(--navy);font-weight:500;display:flex;align-items:center;justify-content:center;gap:.4rem}
+.ubanner{background:var(--accent);border:none;border-bottom:1px solid rgba(26,58,92,.1);padding:.38rem 1.25rem;width:100%;text-align:center;font-size:.68rem;color:var(--navy);font-weight:500;display:flex;align-items:center;justify-content:center;gap:.4rem;cursor:pointer}
+.ubanner:hover{background:#dde9f5}
+.ubanner[hidden]{display:none}
 
 /* TOAST */
-.toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%) translateY(2rem);background:var(--navy);color:#fff;padding:.6rem 1.2rem;border-radius:2rem;font-size:.78rem;font-weight:500;box-shadow:0 4px 16px rgba(0,0,0,.25);opacity:0;transition:opacity .3s,transform .3s;pointer-events:none;z-index:9999;white-space:nowrap}
+.toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%) translateY(2rem);background:var(--navy);color:#fff;padding:.6rem 1.2rem;border-radius:2rem;font-size:.78rem;font-weight:500;box-shadow:0 4px 16px rgba(0,0,0,.25);opacity:0;transition:opacity .3s,transform .3s;pointer-events:none;z-index:9999;max-width:calc(100vw - 32px);text-align:center}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
 /* SIDEBAR TABS */
-.sb-tab{font-family:var(--sans);font-size:.6rem;padding:.22rem .6rem;border-radius:20px;border:1.5px solid var(--border);background:var(--bg-s);color:var(--muted);cursor:pointer;transition:var(--tr);font-weight:600;white-space:nowrap;line-height:1}
+.sb-tab{font-size:.62rem;padding:.25rem .62rem;border-radius:20px;border:1.5px solid var(--border);background:var(--bg-s);color:var(--muted);cursor:pointer;transition:var(--tr);font-weight:600;white-space:nowrap;line-height:1}
 .sb-tab.on{background:var(--navy);border-color:var(--navy);color:#fff}
 .sb-tab:hover:not(.on){background:var(--bg-m)}
 
@@ -178,32 +254,72 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 .ftr{background:var(--navy);color:rgba(255,255,255,.4);text-align:center;padding:2rem 1.25rem;font-size:.7rem;line-height:2.2;margin-top:2rem}
 .ftr a{color:var(--gold-lt);text-decoration:none}
 
-/* RESPONSIVE */
+/* RESPONSIVE — 태블릿 가로(1024 이하): 사이드바 조금 좁게 */
+@media(max-width:1024px) and (min-width:769px){
+  .main{grid-template-columns:190px minmax(0,1fr);gap:1.1rem;padding:1.2rem 1rem}
+  .fbar-in,.hdr-in{padding-left:1rem;padding-right:1rem}
+  .fsel{max-width:170px}
+}
+/* 모바일·태블릿 세로 */
 @media(max-width:768px){
   body{padding-bottom:calc(var(--bot-nav) + env(safe-area-inset-bottom))}
   .bnav{display:flex}
   .drov{display:block}
+  .hdr-in{padding:0 1rem}
   .hdr-cnt{display:none}
-  .hero{padding:1.75rem 1rem 1.5rem}
+  .logo-s{letter-spacing:.1em}
+  .hero{padding:1.6rem 1rem 1.3rem}
   .hero-ti{font-size:1.18rem}
-  .hero-su{font-size:.68rem;margin-bottom:1.2rem}
-  .srch-in{font-size:.93rem;padding:.82rem 2.9rem .82rem 1.05rem}
-  .fbar-in{padding:.48rem 1rem}
+  .hero-su{font-size:.68rem;margin-bottom:1.1rem}
+  .srch-in{font-size:16px;padding:.8rem 5.2rem .8rem 1.05rem}   /* 16px 미만이면 iOS 가 입력 시 화면을 확대함 */
+  .fbar-in{padding:.48rem 1rem;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;mask-image:linear-gradient(90deg,#000 calc(100% - 24px),transparent)}
+  .fbar-in::-webkit-scrollbar{display:none}
+  .fsel{font-size:16px;min-height:38px;padding:.3rem 1.8rem .3rem .75rem;max-width:none}   /* iOS 확대 방지 */
+  .flbl{display:none}
+  .rcnt{padding-right:12px}
   .main{grid-template-columns:1fr;padding:.9rem 1rem;gap:0}
   .sbar{display:none}
   .card{padding:.95rem 1.05rem}
-  .ptit{font-size:.92rem}
-  .mod{max-height:92vh}
+  .ptit{font-size:.93rem}
+  .res-tools{margin-left:0}
   .mod-hdr{padding:.5rem 1.2rem .7rem}
-  .mod-ti{font-size:.92rem}
-  .mod-bdy{padding:.9rem 1.2rem 2rem}
-  .mlks{flex-direction:column}
+  .mod-ti{font-size:.94rem}
+  .mod-bdy{padding:.9rem 1.2rem calc(2rem + env(safe-area-inset-bottom))}
+  .mlks .mlk{flex:1 1 calc(50% - .5rem);justify-content:center}
+  .sb-tab{padding:.45rem .8rem;font-size:.7rem}
+  .jbtn{padding:.7rem .45rem}
+  .toast{bottom:calc(var(--bot-nav) + env(safe-area-inset-bottom) + 12px)}
   .ftr{font-size:.66rem;padding:1.4rem 1rem}
+  .ntc-pan{left:12px;right:12px;width:auto}
+}
+/* 터치 화면: 누르기 쉬운 크기 */
+@media(pointer:coarse){
+  .sb-tab{padding:.45rem .8rem;font-size:.68rem}
+  .chip button{width:26px;height:26px}
+  .help-tg{padding:.5rem .8rem}
+  .chip-clr{padding:.4rem .3rem}
+}
+/* 가로로 눕힌 휴대폰처럼 세로가 낮은 화면: 필터바 고정 해제 */
+@media(max-height:500px){
+  .fbar{position:static}
+  .sbar{top:calc(var(--hdr-h) + 12px);max-height:calc(100vh - var(--hdr-h) - 24px)}
+  .hero{padding-top:1.3rem;padding-bottom:1.1rem}
+}
+@media(max-width:400px){
+  .ntc-sub{display:none}
+  .ntc-lb{display:none}
+  .ntc-btn{padding:0;width:34px;justify-content:center}
+  .logo-m{font-size:1rem}
 }
 @media(min-width:769px){
   .mov{align-items:center;padding:1rem}
-  .mod{border-radius:var(--r-l);max-height:85vh}
+  .mod{border-radius:var(--r-l);max-height:85vh;max-height:85dvh}
   .mod-hdl{display:none}
+}
+@media print{
+  .hdr,.fbar,.bnav,.sbar,.hero,.ftr,.pag,.res-tools{display:none!important}
+  .main{display:block}
+  .card{break-inside:avoid;box-shadow:none;border-color:#999;animation:none}
 }
 </style>
 </head>
@@ -211,79 +327,123 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 
 <header class="hdr">
   <div class="hdr-in">
-    <a href="#" class="logo">
+    <a href="#" class="logo" onclick="event.preventDefault();doReset()" aria-label="처음 화면으로">
       <span class="logo-m">불교학논문 통합검색</span>
-      <span class="logo-s">Buddhist Studies Portal · RISS · J-Stage</span>
+      <span class="logo-s">Buddhist Studies Portal · RISS · KCI · J-Stage</span>
     </a>
-    <span class="hdr-cnt" id="headerMeta">로딩 중…</span>
+    <div class="hdr-r">
+      <span class="hdr-cnt" id="headerMeta">로딩 중…</span>
+      <button class="ntc-btn" id="ntcBtn" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="ntcPan" onclick="toggleNotice()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+        <span class="ntc-lb">공지</span>
+        <span class="ntc-dot" id="ntcDot" hidden></span>
+      </button>
+    </div>
   </div>
 </header>
 
-<div class="ubanner" id="updateBanner" style="display:none">
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> 최근 업데이트: <span id="lastUpdated"></span>
+<div class="ntc-pan" id="ntcPan" role="dialog" aria-label="공지사항 · 논문 업데이트 소식">
+  <div class="ntc-hd">
+    <strong>공지사항</strong><span class="ntc-sub">논문 업데이트 소식 · 누르면 해당 호로 이동</span>
+    <button class="ntc-x" type="button" onclick="toggleNotice(false)" aria-label="닫기"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+  </div>
+  <ul class="ntc-list" id="ntcList"><li class="ntc-empty">불러오는 중…</li></ul>
 </div>
-<div class="toast" id="toast"></div>
+
+<button class="ubanner" id="updateBanner" type="button" hidden onclick="toggleNotice(true)">
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> 최근 업데이트: <span id="lastUpdated"></span><span id="lastUpdatedTx"></span>
+</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <section class="hero">
   <div class="hero-ey">Buddhist Studies Research Portal</div>
   <h1 class="hero-ti">불교계 학술논문 통합 검색</h1>
-  <p class="hero-su">불교학술지 <span id="journalCount">…</span>종 · 논문명 / 저자명 / 키워드</p>
-  <div class="srch-wr">
-    <input type="text" id="searchInput" class="srch-in"
+  <p class="hero-su">불교학술지 <span id="journalCount">…</span>종 · 논문명 / 저자명 / 키워드 / 초록</p>
+  <form class="srch-wr" role="search" onsubmit="event.preventDefault();doSearch(true)">
+    <label for="searchInput" class="sr-only">검색어</label>
+    <input type="search" id="searchInput" class="srch-in"
            placeholder="논문명, 저자명, 키워드 입력…"
            autocomplete="off" spellcheck="false" enterkeyhint="search">
-    <button class="srch-btn" onclick="doSearch()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
-  </div>
+    <button type="button" class="srch-clr" id="srchClr" aria-label="검색어 지우기" onclick="clearQuery()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+    <button type="submit" class="srch-btn" aria-label="검색"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
+  </form>
   <div class="hints">
-    <button class="hint" onclick="setQuery('화엄경')">화엄경</button>
-    <button class="hint" onclick="setQuery('원효')">원효</button>
-    <button class="hint" onclick="setQuery('간화선')">간화선</button>
-    <button class="hint" onclick="setQuery('대승기신론')">대승기신론</button>
-    <button class="hint" onclick="setQuery('불교미술')">불교미술</button>
-    <button class="hint" onclick="setQuery('정토')">정토</button>
+    <button class="hint" type="button" onclick="setQuery('화엄경')">화엄경</button>
+    <button class="hint" type="button" onclick="setQuery('원효')">원효</button>
+    <button class="hint" type="button" onclick="setQuery('간화선')">간화선</button>
+    <button class="hint" type="button" onclick="setQuery('대승기신론')">대승기신론</button>
+    <button class="hint" type="button" onclick="setQuery('불교미술')">불교미술</button>
+    <button class="hint" type="button" onclick="setQuery('정토')">정토</button>
+  </div>
+  <button class="help-tg" type="button" aria-expanded="false" aria-controls="helpBox" onclick="toggleHelp(this)">검색 도움말</button>
+  <div class="help-box" id="helpBox">
+    <table>
+      <tr><td><code>원효 기신론</code></td><td>띄어 쓴 단어가 <b>모두</b> 들어간 논문 (AND)</td></tr>
+      <tr><td><code>"대승 기신론"</code></td><td>따옴표 안을 한 구절로 검색 (띄어쓰기 차이는 무시)</td></tr>
+      <tr><td><code>화엄 | 華嚴</code></td><td>둘 중 하나라도 (OR) — <code>OR</code>도 가능</td></tr>
+      <tr><td><code>선 -간화선</code></td><td>앞에 <code>-</code>를 붙인 단어는 제외 (NOT)</td></tr>
+      <tr><td><code>저자:김영미</code></td><td>필드 지정 — <code>제목:</code> <code>저자:</code> <code>키워드:</code> <code>초록:</code> <code>학술지:</code></td></tr>
+      <tr><td>한자·한글</td><td><code>기신론</code>↔<code>起信論</code>, <code>佛</code>↔<code>仏</code> 등 불교 용어·인명·이체자를 자동으로 함께 찾습니다</td></tr>
+    </table>
   </div>
 </section>
 
-<div class="fbar">
+<div class="fbar" id="fbar">
   <div class="fbar-in">
     <span class="flbl">필터</span>
-    <select class="fsel" id="filterCategory" onchange="applyFilters()">
+    <label class="sr-only" for="searchField">검색 범위</label>
+    <select class="fsel" id="searchField" onchange="applyFilters('field')" title="검색 범위">
+      <option value="">전체 필드</option>
+      <option value="title">제목</option>
+      <option value="author">저자</option>
+      <option value="kw">키워드</option>
+      <option value="abs">초록</option>
+      <option value="journal">학술지명</option>
+    </select>
+    <label class="sr-only" for="filterCategory">카테고리</label>
+    <select class="fsel" id="filterCategory" onchange="applyFilters('category')">
       <option value="">전체 카테고리</option>
       <option value="불교학">불교학</option>
       <option value="불교미술사학">불교미술사학</option>
       <option value="불교사학">불교사학</option>
     </select>
-    <select class="fsel" id="filterJournal" onchange="applyFilters()">
+    <label class="sr-only" for="filterJournal">학술지</label>
+    <select class="fsel" id="filterJournal" onchange="applyFilters('journal')">
       <option value="">전체 학술지</option>
     </select>
-    <select class="fsel" id="filterCountry" onchange="applyFilters()">
+    <label class="sr-only" for="filterCountry">국가</label>
+    <select class="fsel" id="filterCountry" onchange="applyFilters('country')">
       <option value="">전체 국가</option>
       <option value="Korea">한국</option>
       <option value="Japan">일본</option>
     </select>
-    <select class="fsel" id="filterYear" onchange="applyFilters()">
+    <label class="sr-only" for="filterYear">연도</label>
+    <select class="fsel" id="filterYear" onchange="applyFilters('year')">
       <option value="">전체 연도</option>
     </select>
-    <select class="fsel" id="filterIssue" onchange="applyFilters()" disabled>
+    <label class="sr-only" for="filterIssue">권호</label>
+    <select class="fsel" id="filterIssue" onchange="applyFilters('issue')" disabled>
       <option value="">학술지 선택 후 이용</option>
     </select>
-    <select class="fsel" id="sortSelect" onchange="applyFilters()">
+    <label class="sr-only" for="sortSelect">정렬</label>
+    <select class="fsel" id="sortSelect" onchange="applyFilters('sort')">
       <option value="relevance">관련도순</option>
       <option value="year_desc">최신순</option>
       <option value="year_asc">오래된순</option>
+      <option value="title">제목순</option>
     </select>
-    <span class="rcnt" id="resultCount"></span>
+    <span class="rcnt" id="resultCount" aria-live="polite"></span>
   </div>
 </div>
 
 <div class="main">
-  <aside class="sbar">
+  <aside class="sbar" aria-label="학술지별 탐색">
     <div class="sbar-hd">
       <span class="sbar-ti">학술지별 탐색</span>
-      <div style="display:flex;gap:3px">
-        <button id="sbTabAll" class="sb-tab on" onclick="setSbTab('')">전체</button>
-        <button id="sbTabKR"  class="sb-tab"    onclick="setSbTab('Korea')">한국</button>
-        <button id="sbTabJP"  class="sb-tab"    onclick="setSbTab('Japan')">일본</button>
+      <div style="display:flex;gap:3px" role="group" aria-label="국가">
+        <button type="button" id="sbTabAll" class="sb-tab on" onclick="setSbTab('')">전체</button>
+        <button type="button" id="sbTabKR"  class="sb-tab"    onclick="setSbTab('Korea')">한국</button>
+        <button type="button" id="sbTabJP"  class="sb-tab"    onclick="setSbTab('Japan')">일본</button>
       </div>
     </div>
     <ul class="jlist" id="journalList"></ul>
@@ -291,55 +451,55 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
   <main class="res" id="resultsArea">
     <div class="st-msg" id="welcomeMsg">
       <span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
-      <p>검색어를 입력하거나<br>학술지를 선택해 논문을 탐색하세요.<br><br>
-      불교학 학술 논문 통합 검색 서비스</p>
+      <p id="loadMsg">논문 데이터를 불러오는 중…</p>
+      <div class="ld-bar" id="ldBar"><i></i></div>
     </div>
   </main>
 </div>
 
 <footer class="ftr">
   <div>불교학논문 통합검색 · 불교학술지 <span id="journalCountFtr">…</span>종</div>
-  <div style="margin:.3rem 0">데이터: <a href="https://www.riss.kr" target="_blank">학술연구정보서비스(RISS)</a> &nbsp;·&nbsp; <a href="https://www.jstage.jst.go.jp/browse/-char/ja" target="_blank">科学技術情報発信・流通総合システム（J-STAGE）</a></div>
+  <div style="margin:.3rem 0">데이터: <a href="https://www.riss.kr" target="_blank" rel="noopener">학술연구정보서비스(RISS)</a> &nbsp;·&nbsp; <a href="https://www.kci.go.kr" target="_blank" rel="noopener">한국학술지인용색인(KCI)</a> &nbsp;·&nbsp; <a href="https://www.jstage.jst.go.jp/browse/-char/ja" target="_blank" rel="noopener">科学技術情報発信・流通総合システム（J-STAGE）</a></div>
   <div style="margin-top:.8rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.1);font-size:.65rem;color:rgba(255,255,255,.35);line-height:2">
     제작: 서담 한민수 · 동명대학교 (Tongmyong University)<br>
-    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" style="color:rgba(255,255,255,.4)">CC BY-NC-ND 4.0</a>
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.4)">CC BY-NC-ND 4.0</a>
     &nbsp;·&nbsp; 무단 복제 금지 &nbsp;·&nbsp; 변경 시 제작자 허가 필요
   </div>
 </footer>
 
-<nav class="bnav">
+<nav class="bnav" aria-label="하단 메뉴">
   <div class="bnav-in">
-    <button class="bnav-btn on" onclick="goSearch()">
+    <button class="bnav-btn on" type="button" onclick="goSearch()">
       <span class="bnav-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></span><span class="bnav-lb">검색</span>
     </button>
-    <button class="bnav-btn" onclick="openDrawer()">
+    <button class="bnav-btn" type="button" onclick="openDrawer()">
       <span class="bnav-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><span class="bnav-lb">학술지</span>
     </button>
-    <button class="bnav-btn" onclick="doReset()">
+    <button class="bnav-btn" type="button" onclick="doReset()">
       <span class="bnav-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg></span><span class="bnav-lb">초기화</span>
     </button>
   </div>
 </nav>
 
 <div class="drov" id="drov" onclick="closeDrawer()"></div>
-<div class="drw" id="drw">
+<div class="drw" id="drw" role="dialog" aria-label="학술지별 탐색">
   <div class="drw-hdl"></div>
   <div class="drw-hdr">
     학술지별 탐색
-    <div style="display:flex;gap:3px;margin-top:.35rem">
-      <button id="sbTabAllM" class="sb-tab on" onclick="setSbTab('',true)">전체</button>
-      <button id="sbTabKRM"  class="sb-tab"    onclick="setSbTab('Korea',true)">한국</button>
-      <button id="sbTabJPM"  class="sb-tab"    onclick="setSbTab('Japan',true)">일본</button>
+    <div style="display:flex;gap:4px;margin-top:.4rem" role="group" aria-label="국가">
+      <button type="button" id="sbTabAllM" class="sb-tab on" onclick="setSbTab('')">전체</button>
+      <button type="button" id="sbTabKRM"  class="sb-tab"    onclick="setSbTab('Korea')">한국</button>
+      <button type="button" id="sbTabJPM"  class="sb-tab"    onclick="setSbTab('Japan')">일본</button>
     </div>
   </div>
   <div class="drw-cnt"><ul class="jlist" id="journalListM"></ul></div>
 </div>
 
 <div class="mov" id="mov" onclick="closeMod(event)">
-  <div class="mod">
+  <div class="mod" role="dialog" aria-modal="true" aria-labelledby="modTi">
     <div class="mod-hdl"></div>
     <div class="mod-hdr">
-      <button class="mod-cls" onclick="closeModBtn()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      <button class="mod-cls" type="button" onclick="closeModBtn()" aria-label="닫기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
       <div class="mod-ti" id="modTi"></div>
       <div class="mod-ten" id="modTen"></div>
       <div class="mod-ten" id="modTja" style="font-style:normal;font-size:.72rem;color:var(--muted);margin-top:-.3rem"></div>
@@ -353,6 +513,9 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
       <div class="mabs" id="modAbs"></div>
       <div class="msec">키워드</div>
       <div class="pkws" id="modKw" style="margin-bottom:1rem"></div>
+      <div class="msec">인용 · 내보내기</div>
+      <div class="cite-box" id="modCite"></div>
+      <div class="mlks" id="modCiteBtns"></div>
       <div class="msec">원문 링크</div>
       <div class="mlks" id="modLks"></div>
       <div id="modNote"></div>
@@ -726,9 +889,49 @@ const JOURNAL_URLS = {
 };
 
 // ════════════════════════════════════════
+// 불교 용어·인명 한글 ↔ 한자 동의어 (검색어 자동 확장)
+// 한쪽을 입력하면 다른 쪽 표기도 함께 찾는다. 필요하면 자유롭게 추가.
+// ════════════════════════════════════════
+const TERM_ALIASES = [
+  // 경전·논서
+  ["대승기신론","大乘起信論"],["기신론","起信論"],["화엄경","華嚴經"],["법화경","法華經"],["열반경","涅槃經"],
+  ["반야심경","般若心經"],["금강경","金剛經"],["유마경","維摩經"],["능엄경","楞嚴經"],["원각경","圓覺經"],
+  ["능가경","楞伽經"],["승만경","勝鬘經"],["아미타경","阿彌陀經"],["무량수경","無量壽經"],["해심밀경","解深密經"],
+  ["범망경","梵網經"],["대지도론","大智度論"],["중론","中論"],["성유식론","成唯識論"],["유가사지론","瑜伽師地論"],
+  ["구사론","俱舍論"],["섭대승론","攝大乘論"],["십지경론","十地經論"],["금강삼매경","金剛三昧經"],["법계도","法界圖"],
+  ["육조단경","六祖壇經"],["단경","壇經"],["벽암록","碧巖錄"],["선문염송","禪門拈頌"],["삼국유사","三國遺事"],
+  ["해동고승전","海東高僧傳"],["대장경","大藏經"],["고려대장경","高麗大藏經"],["교장","敎藏"],
+  // 교학 개념
+  ["화엄","華嚴"],["법화","法華"],["천태","天台"],["유식","唯識"],["중관","中觀"],["여래장","如來藏"],["불성","佛性"],
+  ["일심","一心"],["본각","本覺"],["시각","始覺"],["아뢰야식","阿賴耶識"],["알라야식","阿賴耶識"],["진여","眞如"],
+  ["무명","無明"],["연기","緣起"],["성기","性起"],["법계","法界"],["이문","二門"],["삼매","三昧"],["지관","止觀"],
+  ["선종","禪宗"],["간화선","看話禪"],["묵조선","默照禪"],["돈오","頓悟"],["점수","漸修"],["정토","淨土"],
+  ["밀교","密敎"],["계율","戒律"],["열반","涅槃"],["반야","般若"],["보살","菩薩"],["여래","如來"],["공안","公案"],
+  ["화두","話頭"],["교판","敎判"],["화쟁","和諍"],["원융","圓融"],["무애","無礙"],["인명","因明"],
+  // 인물
+  ["원효","元曉"],["의상","義湘"],["법장","法藏"],["지엄","智儼"],["징관","澄觀"],["종밀","宗密"],["지눌","知訥"],
+  ["혜능","慧能"],["신회","神會"],["마조","馬祖"],["임제","臨濟"],["대혜","大慧"],["휴정","休靜"],["원측","圓測"],
+  ["균여","均如"],["의천","義天"],["태현","太賢"],["대현","大賢"],["경흥","憬興"],["길장","吉藏"],["지의","智顗"],
+  ["현장","玄奘"],["규기","窺基"],["구마라집","鳩摩羅什"],["승조","僧肇"],["도생","道生"],["세친","世親"],
+  ["무착","無著"],["용수","龍樹"],["혜초","慧超"],["자장","慈藏"],["원광","圓光"],["일연","一然"],["보우","普愚"],
+  ["나옹","懶翁"],["혜근","惠勤"],["기화","己和"],["경허","鏡虛"],["만해","萬海"],["한용운","韓龍雲"],["탄허","呑虛"],
+  ["성철","性徹"],["진표","眞表"],["도선","道詵"],["요세","了世"],["천책","天頙"],["혜심","慧諶"],
+  // 불보살·장소·시대
+  ["미륵","彌勒"],["관음","觀音"],["관세음","觀世音"],["지장","地藏"],["아미타","阿彌陀"],["비로자나","毘盧遮那"],
+  ["석가","釋迦"],["약사","藥師"],["문수","文殊"],["보현","普賢"],["석굴암","石窟庵"],["불국사","佛國寺"],
+  ["황룡사","皇龍寺"],["미륵사","彌勒寺"],["해인사","海印寺"],["송광사","松廣寺"],["통도사","通度寺"],
+  ["신라","新羅"],["고려","高麗"],["백제","百濟"],["고구려","高句麗"],["조선","朝鮮"],
+  ["사리","舍利"],["가람","伽藍"],["불상","佛像"],["불화","佛畵"],["석탑","石塔"],["범종","梵鐘"],["변상도","變相圖"],
+];
+
+// ════════════════════════════════════════
 // 상태
 // ════════════════════════════════════════
-const S={db:null,idx:[],fuse:null,q:"",fj:"",fc:"",fy:"",fi:"",fn:"",sort:"relevance",res:[],pg:1,pp:15};
+const S={
+  db:{journals:{},meta:{}}, idx:[], jmeta:{}, updates:{notices:[],updates:[]},
+  q:"", field:"", fc:"", fj:"", fn:"", fy:"", fi:"", sort:"relevance",
+  res:[], pg:1, pp:15, fuzzy:false, parsed:null, hlRx:null, facet:null, ready:false,
+};
 
 const JOURNAL_FILES = [
   "riss_IJBTC.json","riss_강좌미술사.json","riss_대각사상.json",
@@ -742,746 +945,893 @@ const JOURNAL_FILES = [
   "riss_한국불교학.json","riss_한마음연구.json","riss_원불교사상과 종교문화.json",
   "ibk_印度學佛教學研究.json"
 ];
-
-// ════════════════════════════════════════
-// 캐시 설정
-// ════════════════════════════════════════
 const CACHE_NAME = "buddhist-papers-v1";
+const $ = id => document.getElementById(id);
 
-function showToast(msg, duration=3500){
-  const t = document.getElementById("toast");
-  t.textContent = msg;
-  t.classList.add("show");
-  setTimeout(() => t.classList.remove("show"), duration);
+// ════════════════════════════════════════
+// 문자열 도구
+// ════════════════════════════════════════
+const ESC_MAP={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"};
+function h(s){ return String(s==null?"":s).replace(/[&<>"']/g,c=>ESC_MAP[c]); }
+function reEsc(s){ return s.replace(/[.*+?^${}()|[\]\\\/]/g,"\\$&"); }
+
+// 검색용 정규화: 유니코드 정규화 → 이체자 통일 → 소문자 → 공백·문장부호·사용자정의문자 제거
+// (띄어쓰기·『』·「」·가운뎃점 차이를 무시하고 찾기 위함)
+const STRIP_CHARS = "\\s\\u00B7\\u318D\\u30FB\\u3000\\u2027\\u2024,.:;'\"“”‘’`「」『』《》〈〉【】()\\[\\]{}<>\\-–—_/\\\\?!~*…";
+const STRIP_RE = new RegExp("["+STRIP_CHARS+"]|\\p{Co}","gu");
+const GAP = "(?:["+STRIP_CHARS+"]|\\p{Co})*";
+function nz(s){ return normalizeKanji(String(s||"")).toLowerCase().replace(STRIP_RE,""); }
+function hira(s){ return kata2hira(s); }
+
+// 이체자 역방향 표 (정규화된 글자 → 원래 가능한 글자들) — 하이라이트용
+const KANJI_INV = {};
+Object.entries(KANJI_MAP).forEach(([k,v])=>{ if(k!==v){ (KANJI_INV[v]=KANJI_INV[v]||[v]).push(k); } });
+
+// 동의어 표
+const ALIAS = new Map();
+function addAliasDir(a,b){   // a 를 검색하면 b 도 찾음 (한 방향)
+  const na=nz(a), nb=nz(b); if(!na||!nb||na===nb) return;
+  if(!ALIAS.has(na)) ALIAS.set(na,new Set()); ALIAS.get(na).add(nb);
+}
+function addAlias(a,b){ addAliasDir(a,b); addAliasDir(b,a); }
+TERM_ALIASES.forEach(([a,b])=>addAlias(a,b));
+// 학자명: 한글 독음·로마자 → 한자명(한 방향), 한자명 → 대표 한글 독음
+SCHOLAR_ALIASES.forEach(e=>{
+  [...(e.kr||[]),...(e.romaji||[])].forEach(x=>addAliasDir(x,e.kanji));
+  if(e.kr&&e.kr[0]) addAliasDir(e.kanji,e.kr[0]);
+});
+BUDDHIST_KANA.forEach(e=>(e.kana||[]).forEach(k=>addAliasDir(k,e.kanji)));
+
+function expandTerm(t){
+  const out=new Set([t]);
+  const hk = nz(hira(t));
+  [t,hk].forEach(x=>{ const s=ALIAS.get(x); if(s) s.forEach(v=>out.add(v)); });
+  // 부분 치환: '원효사상' → '元曉사상' 은 드물므로, 긴 용어가 통째로 포함된 경우만 1회 치환
+  if(t.length>=3){
+    for(const [k,vs] of ALIAS){ if(k.length>=2 && k!==t && t.includes(k)){ vs.forEach(v=>out.add(t.replace(k,v))); } }
+  }
+  return [...out].filter(Boolean);
 }
 
-// 논문 1건 → index 항목 변환 (loadDB / checkForUpdates 공용)
-function toIndexItem(art, jname, category, country){
-  const au   = (art.authors||[]).map(a=>a.name||"").join(" ");
-  const kws  = [...(art.keywords_kr||[]),...(art.keywords_en||[]),...(art.ai_keywords||[])];
-  const title = art.title_kr || art.title_ja || "";
-  const abs   = art.abstract_kr || art.abstract_ja || "";
-  const kwAll = [...(art.keywords_kr||[]),...(art.keywords_ja||[]),...(art.keywords_en||[]),...(art.ai_keywords||[])].join(" ");
-  // 저자명 alias: 한자명 → 한국어 독음/로마자 역방향 매핑 (일본 학자 한국어 검색 지원)
-  let authorAlias = "";
-  (art.authors||[]).forEach(a => {
-    const nm = a.name || "";
-    for (const entry of SCHOLAR_ALIASES) {
-      if (nm === entry.kanji || nm.includes(entry.kanji)) {
-        authorAlias += " " + (entry.kr||[]).join(" ") + " " + (entry.romaji||[]).join(" ");
+// ════════════════════════════════════════
+// 검색식 해석
+//   공백 = AND, "구절", A | B (또는 OR), -제외 (또는 NOT), 필드:값
+// ════════════════════════════════════════
+const FIELD_ALIASES = {
+  "제목":"title","title":"title","ti":"title","t":"title",
+  "저자":"author","author":"author","au":"author","a":"author",
+  "키워드":"kw","주제어":"kw","keyword":"kw","kw":"kw",
+  "초록":"abs","abstract":"abs","abs":"abs",
+  "학술지":"journal","journal":"journal","jo":"journal","so":"journal",
+};
+const FIELD_KEYS = {title:["_t"], author:["_a"], kw:["_k"], abs:["_b"], journal:["_j"]};
+const ALL_KEYS = ["_t","_a","_k","_j","_b"];
+const FIELD_W = {_t:10,_a:8,_k:6,_j:3,_b:2};
+const FIELD_LABEL = {title:"제목",author:"저자",kw:"키워드",abs:"초록",journal:"학술지"};
+
+function parseQuery(raw, defField){
+  const re = /(-)?(?:([^\s:"|()]+):)?(?:"([^"]*)"?|([^\s"]+))/g;
+  const toks=[]; let m;
+  while((m=re.exec(raw))){
+    if(!m[0]) { re.lastIndex++; continue; }
+    let neg=!!m[1], f=m[2]||"", quoted=m[3]!==undefined, text=quoted?m[3]:(m[4]||"");
+    if(f && !FIELD_ALIASES[f.toLowerCase()]) { text=f+":"+text; f=""; }
+    if(!quoted && (text==="|"||text==="OR")) { toks.push({op:"or"}); continue; }
+    if(!quoted && text==="AND") continue;
+    if(!quoted && text==="NOT") { toks.push({op:"not"}); continue; }
+    if(!quoted && text.startsWith("-") && text.length>1 && !neg){ neg=true; text=text.slice(1); }
+    // "원효|의상" 처럼 붙여 쓴 OR
+    const parts = quoted ? [text] : text.split("|").filter(Boolean);
+    parts.forEach((p,i)=>{ if(i>0) toks.push({op:"or"}); toks.push({neg,field:f?FIELD_ALIASES[f.toLowerCase()]:"",text:p,quoted}); });
+  }
+  const clauses=[]; let pendingOr=false, pendingNot=false;
+  for(const t of toks){
+    if(t.op==="or"){ pendingOr=true; continue; }
+    if(t.op==="not"){ pendingNot=true; continue; }
+    const n=nz(t.text); if(!n){ pendingOr=false; continue; }
+    const field=t.field||defField||"";
+    const term={raw:t.text,n,alts:t.quoted?[n]:expandTerm(n),field};   // "따옴표"는 동의어 확장 없이 그대로
+    const neg=t.neg||pendingNot; pendingNot=false;
+    if(pendingOr && clauses.length && !clauses[clauses.length-1].neg && !neg){
+      clauses[clauses.length-1].terms.push(term);
+    } else clauses.push({neg,terms:[term]});
+    pendingOr=false;
+  }
+  return clauses;
+}
+
+// 하이라이트 정규식: 글자 사이 공백·문장부호 허용, 이체자 허용
+function termRegexSrc(n){
+  return [...n].map(ch=>{
+    const vs=KANJI_INV[ch]; return vs? "["+vs.map(reEsc).join("")+"]" : reEsc(ch);
+  }).join(GAP);
+}
+function buildHlRx(clauses){
+  const srcs=[];
+  clauses.filter(c=>!c.neg).forEach(c=>c.terms.forEach(t=>t.alts.forEach(a=>srcs.push(a))));
+  if(!srcs.length) return null;
+  const uniq=[...new Set(srcs)].sort((a,b)=>b.length-a.length).slice(0,40);
+  try{ return new RegExp(uniq.map(termRegexSrc).join("|"),"giu"); }catch(e){ return null; }
+}
+function markText(raw, rx){
+  raw=String(raw||"");
+  if(!rx) return h(raw);
+  rx.lastIndex=0; let out="", last=0, m;
+  while((m=rx.exec(raw))){
+    if(!m[0]){ rx.lastIndex++; continue; }
+    out+=h(raw.slice(last,m.index))+"<mark>"+h(m[0])+"</mark>"; last=m.index+m[0].length;
+  }
+  return out+h(raw.slice(last));
+}
+// 초록에서 검색어 주변 문맥(KWIC) 뽑기
+function kwic(raw, rx, len=150){
+  raw=String(raw||""); if(!raw) return "";
+  if(rx){
+    rx.lastIndex=0; const m=rx.exec(raw);
+    if(m && m.index>40){
+      const st=Math.max(0,m.index-45); const seg=raw.slice(st, st+len);
+      return "…"+markText(seg,rx)+(st+len<raw.length?"…":"");
+    }
+  }
+  return markText(raw.slice(0,len),rx)+(raw.length>len?"…":"");
+}
+
+// ════════════════════════════════════════
+// 검색 실행
+// ════════════════════════════════════════
+function ensureAbs(it){ if(it._b===undefined) it._b=nz(it.abstract_kr+" "+it.abstract_en); return it._b; }
+
+function termScore(it, term){
+  const keys = term.field ? FIELD_KEYS[term.field] : ALL_KEYS;
+  let best=0;
+  for(const k of keys){
+    const hay = k==="_b" ? ensureAbs(it) : it[k];
+    for(const a of term.alts){
+      if(hay.includes(a)){
+        let s=FIELD_W[k];
+        if(k==="_t" && hay.startsWith(a)) s+=2;
+        if(k==="_a" && it._an.includes(a)) s+=4;          // 저자명 완전 일치
+        if(k==="_k" && it._kn.includes(a)) s+=3;          // 키워드 완전 일치
+        if(s>best) best=s;
         break;
       }
     }
+    if(best>=FIELD_W._t) break;
+  }
+  return best;
+}
+function runQuery(clauses, pool){
+  const pos=clauses.filter(c=>!c.neg), neg=clauses.filter(c=>c.neg);
+  const full = pos.length>1 ? pos.map(c=>c.terms[0].n).join("") : "";
+  const out=[];
+  for(const it of pool){
+    let s=0, ok=true;
+    for(const c of pos){
+      let cs=0; for(const t of c.terms){ const v=termScore(it,t); if(v>cs) cs=v; }
+      if(!cs){ ok=false; break; } s+=cs;
+    }
+    if(!ok) continue;
+    for(const c of neg){ if(c.terms.some(t=>termScore(it,t)>0)){ ok=false; break; } }
+    if(!ok) continue;
+    if(full && it._t.includes(full)) s+=10;                                   // 여러 단어가 제목에 붙어서 나옴
+    if(pos.length>1 && pos.every(c=>c.terms.some(t=>t.alts.some(a=>it._t.includes(a))))) s+=6; // 모두 제목에
+    out.push({it,s});
+  }
+  return out;
+}
+
+// 결과가 0건일 때: 제목 유사도 검색(Fuse)으로 '비슷한 제목' 제안
+let FUSE_T=null;
+function fuzzyTitles(q){
+  if(typeof Fuse==="undefined") return [];
+  if(!FUSE_T) FUSE_T=new Fuse(S.idx,{keys:["title_kr","title_en","author_names"],threshold:.35,ignoreLocation:true,minMatchCharLength:2,
+    getFn:(o,p)=>{const v=Fuse.config.getFn(o,p);return typeof v==="string"?normalizeKanji(v):v;}});
+  return FUSE_T.search(normalizeKanji(q),{limit:60}).map(r=>r.item);
+}
+
+// ════════════════════════════════════════
+// 데이터 적재
+// ════════════════════════════════════════
+function showToast(msg, duration=3500){
+  const t=$("toast"); t.textContent=msg; t.classList.add("show");
+  clearTimeout(showToast._t); showToast._t=setTimeout(()=>t.classList.remove("show"),duration);
+}
+function cleanAff(s){ s=String(s||"").replace(/\s+/g," ").trim().replace(/^[;,()\s]+|[;,()\s]+$/g,""); return s===";"?"":s; }
+
+// 논문 1건 → 검색 항목
+function toIndexItem(art, jname, category, country){
+  const authors=(art.authors||[]).map(a=>({name:(a.name||"").trim(),affiliation:cleanAff(a.affiliation)})).filter(a=>a.name);
+  const au=authors.map(a=>a.name).join(" ");
+  const title=art.title_kr||art.title_ja||"";
+  const kwKr=art.keywords_kr||art.keywords_ja||[];
+  const kwEn=art.keywords_en||[];
+  const kwAi=art.ai_keywords||[];
+  let authorAlias="";
+  authors.forEach(a=>{
+    for(const e of SCHOLAR_ALIASES){
+      if(a.name===e.kanji || a.name.replace(/\s+/g,"")===e.kanji){ authorAlias+=" "+(e.kr||[]).join(" ")+" "+(e.romaji||[]).join(" "); break; }
+    }
   });
-  // 통합 검색 텍스트: 한국어+일본어+한자+저자 alias 전부 합산
-  const search_text = normalizeKanji([title, art.title_ja||"", art.title_en||"", au, abs, kwAll, jname, authorAlias].join(" "));
-  // JOURNAL_URLS를 최우선 fallback으로 사용 — 크롤러 분류보다 포털 분류 기준 우선
-  const jurl = JOURNAL_URLS[jname] || {};
-  const resolvedCategory = jurl.category || category || "불교학";
-  const resolvedCountry  = country  || jurl.country  || "Korea";
+  const kws=[...kwKr,...kwEn,...kwAi];
   return {
     id:           art.article_id || art.id || ("R"+Math.random().toString(36).slice(2)),
-    journal_name: jname,
-    category:     resolvedCategory,
-    country:      resolvedCountry,
+    journal_name: jname, category, country,
     title_kr:     title,
-    title_ja:     art.title_ja || "",
-    title_en:     art.title_en || "",
+    title_ja:     art.title_ja||"",
+    title_en:     art.title_en||"",
     author_names: au,
-    authors:      art.authors || [],
-    search_text:  search_text,
-    year:         art.year || "",
-    volume:       art.volume || "",
-    issue:        art.issue || "",
-    start_page:   art.start_page || "",
-    abstract_kr:  art.abstract_kr || art.abstract_ja || "",
+    authors,
+    year:         String(art.year||""),
+    volume:       String(art.volume||""),
+    issue:        String(art.issue||""),
+    start_page:   art.start_page||"",
+    end_page:     art.end_page||"",
+    abstract_kr:  art.abstract_kr||art.abstract_ja||"",
+    abstract_en:  art.abstract_en||"",
     keywords:     kws,
-    keywords_kr:  art.keywords_kr || art.keywords_ja || [],
-    ai_keywords:  art.ai_keywords || [],
-    riss_url:     art.riss_url || "",
-    kci_url:      art.kci_url || "",
-    jstage_url:   art.jstage_url || "",
-    ndl_url:      art.ndl_url || "",
-    doi:          art.doi || "",
-    source:       art.source || "RISS",
+    keywords_kr:  kwKr, keywords_en: kwEn, ai_keywords: kwAi,
+    riss_url:     art.riss_url||"",
+    kci_url:      art.kci_url||"",
+    jstage_url:   art.jstage_url||"",
+    ndl_url:      art.ndl_url||"",
+    doi:          art.doi||"",
+    source:       art.source||"RISS",
+    // 검색용 정규화 필드
+    _t: nz(title+" "+(art.title_ja&&art.title_ja!==title?art.title_ja:"")+" "+(art.title_en||"")),
+    _a: nz(au+" "+authorAlias),
+    _an: authors.map(a=>nz(a.name)),
+    _k: nz(kws.join(" ")),
+    _kn: kws.map(nz),
+    _j: nz(jname),
+    _yn: parseInt(art.year)||0,
+    _vk: viSortKey(art.volume,art.issue),
   };
 }
 
-async function loadDB(){
-  const db = {meta:{total_articles:0,last_updated:"",journals:26}, journals:{}, index:[]};
-  document.getElementById("headerMeta").textContent = "데이터 로딩 중…";
-
-  // Cache API 열기 — 타임아웃 2초 (Edge 추적방지 등으로 hang될 수 있음)
-  let cache = null;
-  try{
-    const _open = caches.open(CACHE_NAME);
-    const _timeout = new Promise((_, r) => setTimeout(() => r(new Error("cache timeout")), 2000));
-    cache = await Promise.race([_open, _timeout]);
-  } catch(e){ cache = null; }
-
-  async function loadOne(fname){
-    const url = "./output/" + encodeURIComponent(fname);
-    try{
-      // 캐시 확인
-      if(cache){
-        const cached = await cache.match(url);
-        if(cached){
-          return { fname, data: await cached.json(), fromCache: true };
-        }
-      }
-      // 캐시 없음 → 네트워크 fetch
-      const r = await fetch(url);
-      if(!r.ok) return null;
-      // 응답을 캐시에 저장
-      if(cache) cache.put(url, r.clone()).catch(()=>{});
-      return { fname, data: await r.json(), fromCache: false };
-    } catch(e){
-      console.warn(fname, e);
-      return null;
+function ingest(fname, data){
+  const info=Array.isArray(data)?{}:(data.info||{});
+  const arts=Array.isArray(data)?data:(data.articles||[]);
+  const jname=info.name||(arts.length&&arts[0].journal_name)||fname.replace(/^(riss_|ibk_)/,"").replace(".json","");
+  const jurl=JOURNAL_URLS[jname]||{};
+  const category=jurl.category||info.category||"불교학";
+  const country=info.country||jurl.country||"Korea";
+  S.db.journals[jname]={info:{...info,name:jname,category,country}};
+  S.jmeta[jname]={category,country,publisher:info.publisher||"",last_updated:info.last_updated||""};
+  // 중복 레코드 병합 (같은 학술지·제목·연도·권호)
+  const seen=new Map(), items=[];
+  for(const art of arts){
+    const it=toIndexItem(art,jname,category,country);
+    const key=nz(it.title_kr).slice(0,80)+"|"+it.year+"|"+it.volume+"|"+it.issue;
+    const prev=seen.get(key);
+    if(prev){
+      ["riss_url","kci_url","doi","abstract_kr","abstract_en","title_en","start_page","end_page"].forEach(k=>{ if(!prev[k]&&it[k]) prev[k]=it[k]; });
+      if(!prev.authors.length && it.authors.length){ prev.authors=it.authors; prev.author_names=it.author_names; prev._a=it._a; prev._an=it._an; }
+      continue;
     }
+    seen.set(key,it); items.push(it);
   }
+  return {jname, items};
+}
 
-  // 병렬 로드 (캐시 or 네트워크)
-  const results = await Promise.all(JOURNAL_FILES.map(loadOne));
-  let loaded = 0, fromCache = 0;
+async function loadDB(){
+  $("headerMeta").textContent="데이터 로딩 중…";
+  let cache=null;
+  try{
+    const _open=caches.open(CACHE_NAME);
+    const _timeout=new Promise((_,r)=>setTimeout(()=>r(new Error("cache timeout")),2000));
+    cache=await Promise.race([_open,_timeout]);
+  }catch(e){ cache=null; }
 
+  let done=0;
+  const setProg=()=>{ const p=Math.round(done/JOURNAL_FILES.length*100); const b=$("ldBar"); if(b) b.firstElementChild.style.width=p+"%"; const m=$("loadMsg"); if(m) m.textContent=`논문 데이터를 불러오는 중… (${done}/${JOURNAL_FILES.length})`; };
+  async function loadOne(fname){
+    const url="./output/"+encodeURIComponent(fname);
+    try{
+      if(cache){
+        const cached=await cache.match(url);
+        if(cached){ const data=await cached.json(); done++; setProg(); return {fname,data,fromCache:true}; }
+      }
+      const r=await fetch(url);
+      if(!r.ok){ done++; setProg(); return null; }
+      if(cache) cache.put(url,r.clone()).catch(()=>{});
+      const data=await r.json(); done++; setProg();
+      return {fname,data,fromCache:false};
+    }catch(e){ console.warn(fname,e); done++; setProg(); return null; }
+  }
+  const notesP=loadNotices();
+  const results=await Promise.all(JOURNAL_FILES.map(loadOne));
+  let loaded=0, fromCache=0;
   for(const res of results){
     if(!res) continue;
-    const {fname, data} = res;
-    const info = data.info || {};
-    // 리스트 형식 파일은 info.name 없음 → 첫 article의 journal_name 사용
-    const arts = Array.isArray(data) ? data : (data.articles || []);
-    const jname = info.name
-      || (arts.length && arts[0].journal_name)
-      || fname.replace("riss_","").replace(".json","");
-    // JOURNAL_URLS에서 카테고리 보완
-    const jurl = JOURNAL_URLS[jname] || {};
-    // JOURNAL_URLS 카테고리 우선 (크롤러가 수집한 info.category보다 포털 분류 기준이 우선)
-    const category = jurl.category || info.category || "불교학";
-    const country  = info.country  || jurl.country  || "Korea";
-    // info에 category/country 반영 (IBK처럼 배열이 아닌 JSON 파일도 올바르게 분류)
-    const storedData = Array.isArray(data)
-      ? {info:{name:jname,category,country}, articles:data}
-      : {...data, info:{...(data.info||{}), name:jname, category, country}};
-    db.journals[jname] = storedData;
-    arts.forEach(art =>
-      db.index.push(toIndexItem(art, jname, category, country))
-    );
-    loaded++;
-    if(res.fromCache) fromCache++;
+    const {items}=ingest(res.fname,res.data);
+    S.idx.push(...items); loaded++; if(res.fromCache) fromCache++;
   }
-
-  // 로드 실패 시 안내
-  if(loaded === 0){
-    document.getElementById("headerMeta").textContent = "⚠ 데이터 로드 실패";
-    document.getElementById("resultsArea").innerHTML =
-      '<div class="st-msg"><p>논문 데이터를 불러올 수 없습니다.<br>' +
-      'index.html을 직접 열지 말고, 로컬 서버(<code>python3 -m http.server</code>)나 ' +
-      'GitHub Pages를 통해 접속해 주세요.</p></div>';
+  if(loaded===0){
+    $("headerMeta").textContent="⚠ 데이터 로드 실패";
+    $("resultsArea").innerHTML='<div class="st-msg"><p>논문 데이터를 불러올 수 없습니다.<br>index.html을 직접 열지 말고, 로컬 서버(<code>python3 -m http.server</code>)나 GitHub Pages를 통해 접속해 주세요.</p></div>';
     return;
   }
-
-  db.meta.total_articles = db.index.length;
-  db.meta.last_updated = new Date().toISOString().slice(0,10);
-  db.meta.journals = loaded;
-
-  S.db = db; S.idx = db.index;
+  S.db.meta.total_articles=S.idx.length;
+  await notesP;
   init();
-
-  // 캐시에서 로드한 파일이 있으면 백그라운드에서 업데이트 확인
-  if(cache && fromCache > 0){
-    setTimeout(() => checkForUpdates(cache), 1500);
-  }
+  if(cache && fromCache>0) setTimeout(()=>checkForUpdates(cache),1500);
 }
 
 // ════════════════════════════════════════
-// 백그라운드 업데이트 체크
+// 백그라운드 업데이트 체크 (캐시에 있던 파일이 서버에서 바뀌었는지)
 // ════════════════════════════════════════
 async function checkForUpdates(cache){
-  let newCount = 0;
-
+  let newCount=0, changed=false;
   for(const fname of JOURNAL_FILES){
-    const url = "./output/" + encodeURIComponent(fname);
-    const cached = await cache.match(url);
-    if(!cached) continue;
-
+    const url="./output/"+encodeURIComponent(fname);
+    const cached=await cache.match(url); if(!cached) continue;
     try{
-      // If-Modified-Since 헤더로 조건부 요청 → 변경 없으면 304, 변경 있으면 200
-      const lastMod = cached.headers.get("last-modified");
-      const r = await fetch(url, {
-        cache: "no-cache",
-        headers: lastMod ? {"If-Modified-Since": lastMod} : {}
-      });
-
-      if(r.status === 304 || !r.ok) continue; // 변경 없음
-
-      // 변경된 파일 → 캐시 갱신
-      const data = await r.json();
-      await cache.put(url, r.clone ? new Response(JSON.stringify(data), {
-        headers: {"Content-Type":"application/json",
-                  "Last-Modified": r.headers.get("last-modified") || new Date().toUTCString()}
-      }) : r);
-
-      // 이 학술지의 기존 항목 교체
-      const info = data.info || {};
-      const jname = info.name
-        || (data.articles && data.articles[0]?.journal_name)
-        || fname.replace("riss_","").replace("ibk_","").replace(".json","");
-      const jurl = JOURNAL_URLS[jname] || {};
-      const category = jurl.category || info.category || "불교학";
-      const country  = info.country  || jurl.country  || "Korea";
-      const before = S.idx.filter(a => a.journal_name === jname).length;
-      S.idx = S.idx.filter(a => a.journal_name !== jname);
-      (data.articles || []).forEach(art =>
-        S.idx.push(toIndexItem(art, jname, category, country))
-      );
-      const after = S.idx.filter(a => a.journal_name === jname).length;
-      newCount += Math.max(0, after - before);
-
-    } catch(e){ /* 오프라인 등 무시 */ }
+      const lastMod=cached.headers.get("last-modified");
+      const r=await fetch(url,{cache:"no-cache",headers:lastMod?{"If-Modified-Since":lastMod}:{}});
+      if(r.status===304||!r.ok) continue;
+      const data=await r.json();
+      await cache.put(url,new Response(JSON.stringify(data),{headers:{"Content-Type":"application/json","Last-Modified":r.headers.get("last-modified")||new Date().toUTCString()}}));
+      const {jname,items}=ingest(fname,data);
+      const before=S.idx.filter(a=>a.journal_name===jname).length;
+      S.idx=S.idx.filter(a=>a.journal_name!==jname).concat(items);
+      newCount+=Math.max(0,items.length-before); changed=true;
+    }catch(e){}
   }
-
-  if(newCount > 0){
-    // Fuse 재초기화 + 헤더 갱신
-    S.db.meta.total_articles = S.idx.length;
-    S.fuse = new Fuse(S.idx, {
-      keys:[
-        {name:"title_kr",     weight:3},
-        {name:"title_ja",     weight:3},
-        {name:"title_en",     weight:2},
-        {name:"author_names", weight:2},
-        {name:"keywords",     weight:2},
-        {name:"abstract_kr",  weight:1},
-        {name:"search_text",  weight:1},
-        {name:"journal_name", weight:1},
-      ],
-      // 이체자 정규화 적용 — 검색어·인덱스 모두 동일한 형태로 비교
-      getFn: (obj, path) => {
-        const val = Fuse.config.getFn(obj, path);
-        if (typeof val === 'string') return normalizeKanji(val);
-        if (Array.isArray(val)) return val.map(v => typeof v==='string'?normalizeKanji(v):v);
-        return val;
-      },
-      threshold:.35, includeScore:true, includeMatches:true, minMatchCharLength:2, ignoreLocation:true
-    });
-    document.getElementById("headerMeta").textContent =
-      `총 ${S.idx.length.toLocaleString()}편`;
-    showToast(`📄 새 논문 ${newCount}편이 추가되었습니다`);
+  if(changed){
+    FUSE_T=null; S.db.meta.total_articles=S.idx.length;
+    $("headerMeta").textContent=`총 ${S.idx.length.toLocaleString()}편`;
+    await loadNotices();
+    applyFilters("",{keepPage:true,silent:!hasActiveState()});
+    if(newCount>0) showToast(`📄 새 논문 ${newCount}편이 추가되었습니다`);
   }
 }
 
-function init(demo=false){
-  S.fuse=new Fuse(S.idx,{
-    keys:[
-      {name:"title_kr",     weight:3},
-      {name:"title_ja",     weight:3},
-      {name:"title_en",     weight:2},
-      {name:"author_names", weight:2},
-      {name:"keywords",     weight:2},
-      {name:"abstract_kr",  weight:1},
-      {name:"search_text",  weight:1},
-      {name:"journal_name", weight:1},
-    ],
-    getFn:(obj,path)=>{
-      const val=Fuse.config.getFn(obj,path);
-      if(typeof val==="string")return normalizeKanji(val);
-      if(Array.isArray(val))return val.map(v=>typeof v==="string"?normalizeKanji(v):v);
-      return val;
-    },
-    threshold:.35,includeScore:true,includeMatches:true,minMatchCharLength:2,ignoreLocation:true
+// ════════════════════════════════════════
+// 공지사항 (output/updates.json)
+// ════════════════════════════════════════
+async function loadNotices(){
+  try{
+    const r=await fetch("./output/updates.json",{cache:"no-cache"});
+    if(r.ok){ const d=await r.json(); S.updates={notices:d.notices||[],updates:d.updates||[]}; }
+  }catch(e){}
+  renderNotices();
+}
+function lsGet(k){ try{ return localStorage.getItem(k)||""; }catch(e){ return ""; } }
+function lsSet(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+function updLabel(u){
+  const vi=fmtVI(u.volume,u.issue);
+  return `<b>${h(u.journal)}</b> ${h(vi||(u.year?u.year+"년":""))} ${h(u.count)}편 업데이트`;
+}
+function noticeItemsHTML(limit){
+  const seen=lsGet("ntcSeen");
+  const {notices,updates}=S.updates;
+  let html="";
+  notices.filter(n=>n.pinned).forEach(n=>{
+    html+=`<li><button class="ntc-it ntc-pin" type="button" ${n.link?`data-link="${h(n.link)}"`:"disabled"}><span class="ntc-date">${h(n.date||"")}</span><span class="ntc-tx">📌 ${h(n.text)}</span><span></span></button></li>`;
   });
-  const m=S.db.meta||{};
-  document.getElementById("headerMeta").textContent=`총 ${(m.total_articles||S.idx.length).toLocaleString()}편`+(demo?" (샘플)":"");
-  if(m.last_updated){document.getElementById("lastUpdated").textContent=m.last_updated;document.getElementById("updateBanner").style.display="block";}
-  // 학술지 수·논문 편수 동적 업데이트
-  const jCount = Object.keys(S.db.journals||{}).length || JOURNAL_FILES.length;
-  const aCount = S.idx.length;
-  ["journalCount","journalCountFtr"].forEach(id=>{
-    const el=document.getElementById(id);if(el)el.textContent=jCount;
+  const merged=[...notices.filter(n=>!n.pinned).map(n=>({...n,_n:1})),...updates].sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+  merged.slice(0,limit||merged.length).forEach(u=>{
+    const isNew=seen && (u.date||"")>seen;
+    if(u._n){
+      html+=`<li><button class="ntc-it" type="button" ${u.link?`data-link="${h(u.link)}"`:"disabled"}><span class="ntc-date">${h(u.date||"")}</span><span class="ntc-tx">${h(u.text)}${isNew?'<span class="ntc-new">NEW</span>':""}</span><span></span></button></li>`;
+      return;
+    }
+    const idx=S.updates.updates.indexOf(u);
+    const src=u.source&&u.source!=="RISS"?` <span style="color:var(--muted);font-size:.66rem">(${h(u.source)})</span>`:"";
+    html+=`<li><button class="ntc-it" type="button" data-upd="${idx}"><span class="ntc-date">${h(u.date||"")}</span><span class="ntc-tx">${updLabel(u)}${src}${isNew?'<span class="ntc-new">NEW</span>':""}</span><span class="ntc-go">보기 ›</span></button></li>`;
   });
-  const acEl=document.getElementById("articleCount");if(acEl)acEl.textContent=aCount.toLocaleString();
-  buildFJ("","");buildFY("","","");buildFI();buildSidebar();
-  const inp=document.getElementById("searchInput");
-  inp.addEventListener("input",deb(doSearch,280));
-  inp.addEventListener("keydown",e=>{if(e.key==="Enter")doSearch();});
+  return html;
+}
+function renderNotices(){
+  const all=[...S.updates.notices,...S.updates.updates];
+  $("ntcList").innerHTML = all.length ? noticeItemsHTML() : '<li class="ntc-empty">아직 공지가 없습니다.</li>';
+  const newest=all.map(u=>u.date||"").sort().pop()||"";
+  const seen=lsGet("ntcSeen");
+  $("ntcDot").hidden = !(newest && newest>seen);
+  // 최근 업데이트 배너: 실제 데이터 갱신일 (브라우저 날짜가 아니라)
+  const u=S.updates.updates[0];
+  const lastData=[u?u.date:"",...Object.values(S.jmeta).map(m=>m.last_updated||"")].sort().pop();
+  if(lastData){
+    $("lastUpdated").textContent=lastData;
+    $("lastUpdatedTx").textContent=u&&u.date===lastData?` · ${u.journal} ${fmtVI(u.volume,u.issue)} ${u.count}편`:"";
+    $("updateBanner").hidden=false;
+  }
+}
+function toggleNotice(force){
+  const pan=$("ntcPan"), btn=$("ntcBtn");
+  const open = force===undefined ? !pan.classList.contains("open") : force;
+  pan.classList.toggle("open",open); btn.setAttribute("aria-expanded",open);
+  if(open){
+    const all=[...S.updates.notices,...S.updates.updates];
+    const newest=all.map(u=>u.date||"").sort().pop()||"";
+    setTimeout(()=>{ if(newest) lsSet("ntcSeen",newest); $("ntcDot").hidden=true; },1200);
+    closeDrawer();
+  }
+}
+function onNoticeClick(e){
+  const b=e.target.closest(".ntc-it"); if(!b||b.disabled) return;
+  if(b.dataset.link){ location.href=b.dataset.link; toggleNotice(false); return; }
+  const u=S.updates.updates[+b.dataset.upd]; if(!u) return;
+  toggleNotice(false);
+  goIssue(u.journal,u.volume,u.issue,u.year);
+}
+// 특정 학술지·호수로 바로 이동
+function normNum(x){ const m=String(x||"").match(/\d+/); return m?String(parseInt(m[0])):""; }
+function goIssue(journal, vol, iss, year){
+  if(!S.jmeta[journal]){ showToast(`'${journal}' 학술지를 찾을 수 없습니다`); return; }
+  const nv=normNum(vol), ni=normNum(iss);
+  const pool=S.idx.filter(a=>a.journal_name===journal);
+  let hit=pool.find(a=>normNum(a.volume)===nv && normNum(a.issue)===ni);
+  if(!hit && (nv||ni)) hit=pool.find(a=>(nv&&normNum(a.volume)===nv&&!ni)||(ni&&normNum(a.issue)===ni&&!nv)||(nv&&!normNum(a.issue)&&normNum(a.volume)===nv)||(ni&&!normNum(a.volume)&&normNum(a.issue)===ni));
+  $("searchInput").value=""; S.q=""; $("srchClr").classList.remove("show");
+  applyFilters("goto",{set:{field:"",fj:journal,fy:(!hit&&year)?String(year):"",fi:hit?(hit.volume+"|"+hit.issue):"",sort:"relevance"}});
+  if(!hit) showToast("해당 호를 찾지 못해 학술지 전체를 보여드립니다");
+  scrollToResults();
+}
+function scrollToResults(){
+  const y=$("resultsArea").getBoundingClientRect().top+window.scrollY-(parseInt(getComputedStyle(document.documentElement).getPropertyValue("--hdr-h"))||56)-($("fbar").offsetHeight||52)-8;
+  window.scrollTo({top:Math.max(0,y),behavior:"smooth"});
 }
 
-function buildFJ(category="", country=""){
-  let pool = S.idx;
-  if(country)  pool = pool.filter(a=>a.country===country);
-  if(category) pool = pool.filter(a=>a.category===category);
-  const js=[...new Set(pool.map(a=>a.journal_name))].sort((a,b)=>a.localeCompare(b,"ko"));
-  const sel=document.getElementById("filterJournal");
-  const prev=sel.value;
-  sel.innerHTML='<option value="">전체 학술지</option>';
-  js.forEach(j=>{const o=document.createElement("option");o.value=o.textContent=j;sel.appendChild(o);});
-  if([...sel.options].some(o=>o.value===prev)) sel.value=prev;
-  else { sel.value=""; S.fj=""; }
+// ════════════════════════════════════════
+// 초기화 · 필터 구성
+// ════════════════════════════════════════
+function init(){
+  const jCount=Object.keys(S.jmeta).length||JOURNAL_FILES.length;
+  $("headerMeta").textContent=`총 ${S.idx.length.toLocaleString()}편`;
+  ["journalCount","journalCountFtr"].forEach(id=>{const el=$(id);if(el)el.textContent=jCount;});
+  const inp=$("searchInput");
+  inp.addEventListener("input",()=>{ $("srchClr").classList.toggle("show",!!inp.value); debSearch(); });
+  S.ready=true;
+  // 초록 정규화는 유휴 시간에 미리 (첫 검색을 빠르게)
+  let i=0; const step=()=>{ const end=performance.now()+12; while(i<S.idx.length && performance.now()<end){ ensureAbs(S.idx[i++]); } if(i<S.idx.length) setTimeout(step,16); };
+  setTimeout(step,300);
+  if(!restoreFromURL()) { buildAll(); showWelcome(); }
 }
-function buildFY(journal="", category="", country=""){
-  let pool = S.idx;
-  if(country)  pool = pool.filter(a=>a.country===country);
-  if(journal)  pool = pool.filter(a=>a.journal_name===journal);
-  else if(category) pool = pool.filter(a=>a.category===category);
+const debSearch=deb(()=>doSearch(false),250);
+
+function yearMatch(y, f){
+  if(!f) return true;
+  const n=parseInt(y)||0, cy=new Date().getFullYear();
+  if(f==="r3") return n>=cy-2;
+  if(f==="r5") return n>=cy-4;
+  if(f==="r10") return n>=cy-9;
+  if(/^d\d{4}$/.test(f)){ const d=+f.slice(1); return n>=d && n<d+10; }
+  if(f==="old") return n>0 && n<1990;
+  return String(y)===f;
+}
+const YEAR_RANGES=[["r3","최근 3년"],["r5","최근 5년"],["r10","최근 10년"],["d2020","2020년대"],["d2010","2010년대"],["d2000","2000년대"],["d1990","1990년대"],["old","1989년 이전"]];
+
+function fillSelect(sel, opts, value){
+  sel.innerHTML=opts.map(o=>o.group!==undefined?`<optgroup label="${h(o.group)}">`+o.items.map(x=>`<option value="${h(x[0])}">${h(x[1])}</option>`).join("")+"</optgroup>":`<option value="${h(o[0])}">${h(o[1])}</option>`).join("");
+  sel.value=value; if(sel.value!==value) sel.value="";
+  return sel.value;
+}
+function buildFJ(){
+  let js=Object.keys(S.jmeta);
+  if(S.fn) js=js.filter(j=>S.jmeta[j].country===S.fn);
+  if(S.fc) js=js.filter(j=>S.jmeta[j].category===S.fc);
+  js.sort((a,b)=>a.localeCompare(b,"ko"));
+  S.fj=fillSelect($("filterJournal"),[["","전체 학술지"],...js.map(j=>[j,j])],S.fj);
+}
+function buildFY(){
+  let pool=S.idx;
+  if(S.fj) pool=pool.filter(a=>a.journal_name===S.fj);
+  else { if(S.fn) pool=pool.filter(a=>a.country===S.fn); if(S.fc) pool=pool.filter(a=>a.category===S.fc); }
   const ys=[...new Set(pool.map(a=>a.year).filter(Boolean))].sort((a,b)=>b-a);
-  const sel=document.getElementById("filterYear");
-  const prev=sel.value;
-  sel.innerHTML='<option value="">전체 연도</option>';
-  ys.forEach(y=>{const o=document.createElement("option");o.value=y;o.textContent=y+"년";sel.appendChild(o);});
-  if([...sel.options].some(o=>o.value===prev)) sel.value=prev;
-  else { sel.value=""; S.fy=""; }
+  S.fy=fillSelect($("filterYear"),[["","전체 연도"],{group:"기간",items:YEAR_RANGES},{group:"연도",items:ys.map(y=>[y,y+"년"])}],S.fy);
 }
 // 권/호 표시 레이블 생성
 function fmtVI(volume, issue){
-  const v=(volume||"").trim(), i=(issue||"").trim();
-  const hasV = v && v!=="0";
-  if(hasV && i) return v+"권 "+i+"호";
-  if(hasV)      return v+"권";
-  if(i)         return i+"호";
+  const v=String(volume||"").trim(), i=String(issue||"").trim();
+  const hasV=v && v!=="0", hasI=i && i!=="0";
+  if(hasV && hasI) return v+"권 "+i+"호";
+  if(hasV) return v+"권";
+  if(hasI) return i+"호";
   return "";
 }
 // 권/호 정렬용 숫자 키 (권 우선, 호 보조)
 function viSortKey(volume, issue){
   const v=parseInt(volume)||0, i=parseInt(issue)||0;
-  // 권이 있으면 권이 주, 없으면 호가 주 / 보조는 호 (권 있을 때만)
-  const primary   = v > 0 ? v : i;
-  const secondary = v > 0 ? i : 0;
-  return primary * 10000 + secondary;
+  const primary=v>0?v:i, secondary=v>0?i:0;
+  return primary*10000+secondary;
+}
+function buildFI(){
+  const sel=$("filterIssue");
+  if(!S.fj){ fillSelect(sel,[["","학술지 선택 후 이용"]],""); sel.disabled=true; S.fi=""; return; }
+  sel.disabled=false;
+  const pool=S.idx.filter(a=>a.journal_name===S.fj && yearMatch(a.year,S.fy));
+  const seen=new Map();
+  pool.forEach(a=>{ const key=a.volume+"|"+a.issue; if(!seen.has(key)) seen.set(key,{volume:a.volume,issue:a.issue,year:a.year,n:0}); seen.get(key).n++; });
+  const sorted=[...seen.entries()].filter(([k,x])=>fmtVI(x.volume,x.issue)).sort((a,b)=>(parseInt(b[1].year)||0)-(parseInt(a[1].year)||0)||viSortKey(b[1].volume,b[1].issue)-viSortKey(a[1].volume,a[1].issue));
+  S.fi=fillSelect(sel,[["","전체 호수"],...sorted.map(([k,x])=>[k,`${fmtVI(x.volume,x.issue)}${x.year?" ("+x.year+")":""} · ${x.n}편`])],S.fi);
+}
+function buildAll(){ buildFJ(); buildFY(); buildFI(); syncDom(); buildSidebar(); }
+
+function syncDom(){
+  $("filterCategory").value=S.fc; $("filterCountry").value=S.fn; $("filterJournal").value=S.fj;
+  $("filterYear").value=S.fy; $("filterIssue").value=S.fi; $("sortSelect").value=S.sort; $("searchField").value=S.field;
+  ["searchField","filterCategory","filterJournal","filterCountry","filterYear","filterIssue"].forEach(id=>$(id).classList.toggle("set",!!$(id).value));
+  [["sbTabAll",""],["sbTabKR","Korea"],["sbTabJP","Japan"],["sbTabAllM",""],["sbTabKRM","Korea"],["sbTabJPM","Japan"]]
+    .forEach(([id,v])=>{const el=$(id);if(el){el.classList.toggle("on",v===S.fn);el.setAttribute("aria-pressed",v===S.fn);}});
 }
 
-function buildFI(journal="", year=""){
-  const sel=document.getElementById("filterIssue");
-  const prev=sel.value;
+// ─── 사이드바 ────────────────────────────────────────────────────────────────
+function setSbTab(country){ $("filterCountry").value=country; applyFilters("country"); }
+function buildSidebar(){
+  const cats={"불교미술사학":[],"불교사학":[],"불교학":[]};
+  Object.entries(S.jmeta).forEach(([n,m])=>{
+    if(S.fn && m.country!==S.fn) return;
+    (cats[m.category]||cats["불교학"]).push(n);
+  });
+  const facet=S.facet;
+  const html=Object.entries(cats).filter(([c,items])=>items.length).map(([cat,items])=>
+    `<li><div class="cat-hdr">${h(cat)}</div></li>`+
+    items.sort((a,b)=>a.localeCompare(b,"ko")).map(n=>{
+      const m=S.jmeta[n], cnt=facet?(facet[n]||0):null;
+      return `<li class="jitem"><button type="button" class="jbtn${S.fj===n?" active":""}${cnt===0?" zero":""}" data-j="${h(n)}" aria-pressed="${S.fj===n}">
+        <span><span class="jbtn-nm" style="display:block">${h(n)}</span><span class="jbtn-pub" style="display:block">${h(m.publisher||n)}</span></span>
+        ${cnt!==null?`<span class="jcnt" title="현재 조건 결과 수">${cnt.toLocaleString()}</span>`:""}
+      </button></li>`;
+    }).join("")
+  ).join("");
+  $("journalList").innerHTML=html; $("journalListM").innerHTML=html;
+}
+function onJournalClick(e){
+  const b=e.target.closest(".jbtn"); if(!b) return;
+  const n=b.dataset.j;
+  $("filterJournal").value = (S.fj===n) ? "" : n;   // 다시 누르면 선택 해제
+  if(S.fj!==n){ $("filterCategory").value=S.jmeta[n].category; $("filterCountry").value=S.jmeta[n].country; }
+  applyFilters("journal");
+  if(b.closest("#journalListM")) closeDrawer();
+  if(window.innerWidth<=768) scrollToResults();
+}
 
-  // 학술지 미선택 → 비활성화
-  if(!journal){
-    sel.innerHTML='<option value="">학술지 선택 후 이용</option>';
-    sel.disabled=true;
-    S.fi="";
+// ════════════════════════════════════════
+// 필터 적용 — 어떤 컨트롤이 바뀌었는지(src)에 따라 서로 맞춰 줌
+// ════════════════════════════════════════
+function hasActiveState(){ return !!(S.q||S.fj||S.fc||S.fn||S.fy||S.fi); }
+function applyFilters(src="", opts={}){
+  if(!S.ready) return;
+  const prevFj=S.fj;
+  S.field=$("searchField").value; S.fc=$("filterCategory").value; S.fn=$("filterCountry").value;
+  S.fj=$("filterJournal").value; S.fy=$("filterYear").value; S.fi=$("filterIssue").value; S.sort=$("sortSelect").value;
+  if(opts.set) Object.assign(S,opts.set);          // 공지·주소(URL)에서 온 값은 그대로 적용
+  // 1) 학술지를 고르면 → 그 학술지의 카테고리·국가로 맞춤
+  if((src==="journal"||src==="goto"||src==="url") && S.fj && S.jmeta[S.fj]){ S.fc=S.jmeta[S.fj].category; S.fn=S.jmeta[S.fj].country; }
+  // 2) 카테고리·국가를 바꿨는데 선택된 학술지와 안 맞으면 → 학술지 해제
+  if((src==="category"||src==="country") && S.fj && S.jmeta[S.fj] &&
+     ((S.fc && S.jmeta[S.fj].category!==S.fc) || (S.fn && S.jmeta[S.fj].country!==S.fn))){ S.fj=""; S.fi=""; }
+  // 3) 학술지가 바뀌면 권호 초기화 (연도는 새 학술지에 있으면 유지)
+  if(src==="journal" && S.fj!==prevFj) S.fi="";
+  // 4) 드롭다운 목록을 위에서부터 다시 구성 (유효하지 않은 값은 자동 해제)
+  buildFJ(); buildFY(); buildFI();
+  syncDom();
+  if(!opts.keepPage) S.pg=1;
+
+  // 5) 검색
+  const t0=performance.now();
+  S.fuzzy=false;
+  let base=S.idx;
+  if(S.fn) base=base.filter(a=>a.country===S.fn);
+  if(S.fc) base=base.filter(a=>a.category===S.fc);
+  if(S.fy) base=base.filter(a=>yearMatch(a.year,S.fy));
+  let scored;
+  S.parsed=S.q?parseQuery(S.q,S.field):null;
+  if(S.parsed && S.parsed.length){
+    scored=runQuery(S.parsed,base);
+    if(!scored.length && !S.parsed.some(c=>c.neg) && S.parsed.length<=3){
+      const fz=new Set(fuzzyTitles(S.q));
+      const fzBase=base.filter(a=>fz.has(a));
+      if(fzBase.length){ scored=fzBase.map((it,i)=>({it,s:1000-i})); S.fuzzy=true; }
+    }
+  } else scored=base.map(it=>({it,s:0}));
+  // 학술지별 결과 수 (사이드바 배지) — 검색·연도 등 조건이 있을 때만
+  S.facet=null;
+  if(S.q||S.fy){ S.facet={}; for(const x of scored){ S.facet[x.it.journal_name]=(S.facet[x.it.journal_name]||0)+1; } }
+  let res=scored;
+  if(S.fj) res=res.filter(x=>x.it.journal_name===S.fj);
+  if(S.fi){ const[fv,fi]=S.fi.split("|"); res=res.filter(x=>x.it.volume===fv && x.it.issue===fi); }
+  // 6) 정렬
+  const byNew=(a,b)=>(b.it._yn-a.it._yn)||(a.it.journal_name===b.it.journal_name?(b.it._vk-a.it._vk):a.it.journal_name.localeCompare(b.it.journal_name,"ko"))||((parseInt(a.it.start_page)||0)-(parseInt(b.it.start_page)||0));
+  const byOld=(a,b)=>(a.it._yn-b.it._yn)||(a.it.journal_name===b.it.journal_name?(a.it._vk-b.it._vk):a.it.journal_name.localeCompare(b.it.journal_name,"ko"))||((parseInt(a.it.start_page)||0)-(parseInt(b.it.start_page)||0));
+  if(S.sort==="year_desc") res.sort(byNew);
+  else if(S.sort==="year_asc") res.sort(byOld);
+  else if(S.sort==="title") res.sort((a,b)=>a.it.title_kr.localeCompare(b.it.title_kr,"ko"));
+  else if(S.q) res.sort((a,b)=>(b.s-a.s)||byNew(a,b));
+  else if(S.fi) res.sort((a,b)=>((parseInt(a.it.start_page)||0)-(parseInt(b.it.start_page)||0))||byNew(a,b));  // 한 호 안에서는 수록 순서
+  else res.sort(byNew);
+  S.res=res.map(x=>x.it);
+  S.hlRx=S.parsed?buildHlRx(S.parsed):null;
+  S.lastMs=Math.round(performance.now()-t0);
+  buildSidebar();
+  if(!hasActiveState() && !opts.forceList){ showWelcome(); syncURL(); return; }
+  render();
+  syncURL();
+}
+
+// ════════════════════════════════════════
+// 검색 입력
+// ════════════════════════════════════════
+function doSearch(fromSubmit){
+  if(!S.ready) return;
+  S.q=$("searchInput").value.trim();
+  applyFilters("q");
+  if(fromSubmit){ $("searchInput").blur(); if($("resultsArea").getBoundingClientRect().top>window.innerHeight*.55) scrollToResults(); }
+}
+function setQuery(q){ $("searchInput").value=q; $("srchClr").classList.add("show"); S.q=q; applyFilters("q"); if($("resultsArea").getBoundingClientRect().top>window.innerHeight*.55) scrollToResults(); }
+function clearQuery(){ $("searchInput").value=""; $("srchClr").classList.remove("show"); S.q=""; applyFilters("q"); $("searchInput").focus(); }
+function srchAu(n){
+  $("searchInput").value=n; $("srchClr").classList.add("show"); S.q=n;
+  $("searchField").value="author"; $("filterJournal").value=""; $("filterYear").value=""; $("filterIssue").value="";
+  $("filterCategory").value=""; $("filterCountry").value="";
+  closeModBtn(); applyFilters("q"); scrollToResults();
+}
+function srchKw(k){ $("searchInput").value=k; $("srchClr").classList.add("show"); S.q=k; $("searchField").value="kw"; closeModBtn(); applyFilters("q"); scrollToResults(); }
+function doReset(){
+  S.q=S.fj=S.fc=S.fy=S.fi=S.fn=S.field=""; S.sort="relevance"; S.pg=1;
+  $("searchInput").value=""; $("srchClr").classList.remove("show");
+  buildAll(); S.facet=null; buildSidebar(); showWelcome(); syncURL();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+function removeFilter(k){
+  if(k==="q"){ clearQuery(); return; }
+  const map={field:"searchField",fc:"filterCategory",fn:"filterCountry",fj:"filterJournal",fy:"filterYear",fi:"filterIssue"};
+  $(map[k]).value="";
+  applyFilters({fc:"category",fn:"country",fj:"journal",fy:"year",fi:"issue",field:"field"}[k]);
+}
+
+// ════════════════════════════════════════
+// 화면 그리기
+// ════════════════════════════════════════
+function showWelcome(){
+  $("resultCount").innerHTML="";
+  const ups=S.updates.updates.slice(0,6);
+  $("resultsArea").innerHTML=`<div class="st-msg"><span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+    <p>검색어를 입력하거나<br>학술지를 선택해 논문을 탐색하세요.</p>
+    ${ups.length?`<div class="wl-recent"><h3>최근 업데이트된 호</h3><ul class="ntc-list" id="wlList">${ups.map(u=>`<li><button class="ntc-it" type="button" data-upd="${S.updates.updates.indexOf(u)}"><span class="ntc-date">${h(u.date)}</span><span class="ntc-tx">${updLabel(u)}</span><span class="ntc-go">보기 ›</span></button></li>`).join("")}</ul></div>`:""}
+  </div>`;
+}
+function chipsHTML(){
+  const c=[];
+  if(S.q) c.push(["q",`검색: ${S.q}`]);
+  if(S.field) c.push(["field",`범위: ${FIELD_LABEL[S.field]}`]);
+  if(S.fn) c.push(["fn",S.fn==="Korea"?"한국":"일본"]);
+  if(S.fc) c.push(["fc",S.fc]);
+  if(S.fj) c.push(["fj",S.fj]);
+  if(S.fy){ const r=YEAR_RANGES.find(x=>x[0]===S.fy); c.push(["fy",r?r[1]:S.fy+"년"]); }
+  if(S.fi){ const [v,i]=S.fi.split("|"); c.push(["fi",fmtVI(v,i)]); }
+  return c.map(([k,l])=>`<span class="chip"><span>${h(l)}</span><button type="button" data-rm="${k}" aria-label="${h(l)} 해제">×</button></span>`).join("")
+    + (c.length>1?`<button type="button" class="chip-clr" onclick="doReset()">모두 해제</button>`:"");
+}
+function render(){
+  const area=$("resultsArea");
+  const {res,pp}=S; const tot=res.length; const tp=Math.max(1,Math.ceil(tot/pp));
+  if(S.pg>tp) S.pg=tp;
+  const pg=S.pg; const sl=res.slice((pg-1)*pp,pg*pp);
+  $("resultCount").innerHTML=tot?`<strong>${tot.toLocaleString()}</strong>편`:"결과 없음";
+  const sortLbl={relevance:S.q?"관련도순":(S.fi?"수록순":"최신순"),year_desc:"최신순",year_asc:"오래된순",title:"제목순"}[S.sort];
+  let hdr=`<div class="res-hd"><span class="res-sum"><strong>${tot.toLocaleString()}</strong>편 · ${sortLbl}</span>${chipsHTML()}
+    ${tot?`<span class="res-tools"><button type="button" class="tbtn" onclick="exportCSV()" title="현재 결과를 엑셀용 CSV로 저장"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>CSV</button><button type="button" class="tbtn" onclick="copyLink()" title="이 검색 결과 링크 복사"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>링크</button></span>`:""}</div>`;
+  if(S.fuzzy) hdr+=`<div class="fuzzy-note">‘${h(S.q)}’와 정확히 일치하는 논문이 없어 <b>제목이 비슷한 논문</b>을 보여드립니다. 오타·띄어쓰기·한자 표기를 확인해 보세요.</div>`;
+  if(!tot){
+    area.innerHTML=hdr+'<div class="st-msg"><span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6"/></svg></span><p>검색 결과가 없습니다.<br>필터를 해제하거나 다른 검색어·한자 표기를 시도해 보세요.</p></div>';
     return;
   }
-  sel.disabled=false;
-
-  // 학술지 (+ 연도) 기준으로 pool 구성
-  let pool=S.idx.filter(a=>a.journal_name===journal);
-  if(year) pool=pool.filter(a=>a.year===year);
-
-  // 권+호 복합 키로 중복 제거
-  const seen=new Map();
-  pool.forEach(a=>{
-    const key=(a.volume||"")+"|"+(a.issue||"");
-    if(!seen.has(key)) seen.set(key,{volume:a.volume||"",issue:a.issue||""});
-  });
-
-  const sorted=[...seen.values()]
-    .filter(x=>fmtVI(x.volume,x.issue))
-    .sort((a,b)=>viSortKey(b.volume,b.issue)-viSortKey(a.volume,a.issue));
-
-  sel.innerHTML='<option value="">전체 호수</option>';
-  sorted.forEach(x=>{
-    const o=document.createElement("option");
-    o.value=(x.volume||"")+"|"+(x.issue||"");
-    o.textContent=fmtVI(x.volume,x.issue);
-    sel.appendChild(o);
-  });
-
-  // 이전 선택값이 새 목록에 있으면 유지, 없으면 초기화
-  if([...sel.options].some(o=>o.value===prev)) sel.value=prev;
-  else { sel.value=""; S.fi=""; }
-}
-
-// 학술지 발행기관 맵 (데이터에서 추출)
-function getPublisher(jname, jdata){
-  return jdata?.info?.publisher || jdata?.info?.name || jname;
-}
-
-// 학술지 최신 연도
-function getLatestYear(jdata){
-  const arts = jdata?.articles || [];
-  if(!arts.length) return "";
-  const yrs = arts.map(a=>a.year||"").filter(Boolean).sort();
-  return yrs[yrs.length-1]||"";
-}
-
-// ─── 사이드바 탭 ──────────────────────────────────────────────────────────────
-function setSbTab(country, isMob=false){
-  // 탭 on 표시
-  const pairs = isMob
-    ? [["sbTabAllM",""],["sbTabKRM","Korea"],["sbTabJPM","Japan"]]
-    : [["sbTabAll",""],["sbTabKR","Korea"],["sbTabJP","Japan"]];
-  pairs.forEach(([id,val])=>{
-    const el=document.getElementById(id);
-    if(el) el.classList.toggle("on", val===country);
-  });
-  // 반대쪽 탭(데스크탑↔모바일)도 동기화
-  const mirror = isMob
-    ? [["sbTabAll",""],["sbTabKR","Korea"],["sbTabJP","Japan"]]
-    : [["sbTabAllM",""],["sbTabKRM","Korea"],["sbTabJPM","Japan"]];
-  mirror.forEach(([id,val])=>{
-    const el=document.getElementById(id);
-    if(el) el.classList.toggle("on", val===country);
-  });
-  // 국가 필터 DOM 동기화
-  S.fn=country;
-  const cnEl=document.getElementById("filterCountry");
-  if(cnEl) cnEl.value=country;
-  // 학술지·연도 드롭다운 재구성
-  if(S.fj){
-    const jCountry=S.idx.find(a=>a.journal_name===S.fj)?.country||"";
-    if(country && jCountry!==country){
-      S.fj=""; document.getElementById("filterJournal").value="";
-      S.fc=""; document.getElementById("filterCategory").value="";
-    }
-  }
-  buildFJ(S.fc, country);
-  buildFY(S.fj, S.fc, country);
-  buildFI(S.fj, S.fy);
-  buildSidebar(country);
-  // 탭 변경 시 결과도 즉시 갱신
-  if(!S.q && !S.fj){
-    // 검색어·학술지 없을 때: 국가 필터만 적용해서 결과 표시
-    let res=[...S.idx];
-    if(country) res=res.filter(a=>a.country===country);
-    if(S.fc)    res=res.filter(a=>a.category===S.fc);
-    S.res=res; render();
-  } else {
-    applyFilters();
-  }
-}
-
-function buildSidebar(countryFilter=""){
-  const js=S.db.journals||{};
-
-  const cats={"불교미술사학":[],"불교사학":[],"불교학":[]};
-  Object.entries(js).forEach(([n,d])=>{
-    const c=d.info?.category||"불교학";
-    const jCountry=S.idx.find(a=>a.journal_name===n)?.country||"Korea";
-    if(countryFilter && jCountry!==countryFilter) return;
-    (cats[c]||cats["불교학"]).push({n,d});
-  });
-  const covered=new Set(Object.keys(js));
-  [...new Set(S.idx.map(a=>a.journal_name))].forEach(n=>{
-    if(covered.has(n)) return;
-    const sample=S.idx.find(a=>a.journal_name===n);
-    const c=sample?.category||"불교학";
-    const jCountry=sample?.country||"Korea";
-    if(countryFilter && jCountry!==countryFilter) return;
-    (cats[c]||cats["불교학"]).push({n,d:{info:{name:n,category:c}}});
-  });
-
-  ["journalList","journalListM"].forEach(lid=>{
-    const el=document.getElementById(lid);if(!el)return;
-    el.innerHTML="";
-    const isMob=lid==="journalListM";
-
-    Object.entries(cats).forEach(([cat,items])=>{
-      if(!items.length)return;
-      const h=document.createElement("li");
-      h.innerHTML=`<div class="cat-hdr">${cat}</div>`;
-      el.appendChild(h);
-
-      const sorted=[...items].sort((a,b)=>a.n.localeCompare(b.n,"ko"));
-      sorted.forEach(({n,d})=>{
-        const li=document.createElement("li");li.className="jitem";
-        const pub=getPublisher(n,d);
-        const isActive=S.fj===n;
-        li.innerHTML=`<button class="jbtn${isActive?" active":""}" onclick="selJ('${n.replace(/'/g,"\\'")}',this,${isMob})">
-          <span>
-            <div class="jbtn-nm">${n}</div>
-            <div class="jbtn-pub">${pub}</div>
-          </span>
-        </button>`;
-        el.appendChild(li);
-      });
-    });
-  });
-}
-
-function doSearch(){
-  const raw=document.getElementById("searchInput").value.trim();
-  // 순서: 학자명 alias → 가나→한자 → 한자 정규화
-  const expanded = expandKanaQuery(expandScholarQuery(raw));
-  S.q=normalizeKanji(expanded);
-  S.pg=1;applyFilters();
-}
-function setQuery(q){document.getElementById("searchInput").value=q;S.q=normalizeKanji(expandKanaQuery(expandScholarQuery(q)));S.pg=1;applyFilters();goSearch();}
-function selJ(n,btn,mob=false){
-  document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");
-  const found=S.idx.find(a=>a.journal_name===n);
-  const jCat    =found?.category||"";
-  const jCountry=found?.country||"";
-  // 국가·카테고리·학술지 필터 설정
-  S.fn=jCountry;
-  const cnEl=document.getElementById("filterCountry");if(cnEl)cnEl.value=jCountry;
-  if(jCat){S.fc=jCat;document.getElementById("filterCategory").value=jCat;}
-  // 사이드바 탭 국가와 동기화
-  [["sbTabAll",""],["sbTabKR","Korea"],["sbTabJP","Japan"],
-   ["sbTabAllM",""],["sbTabKRM","Korea"],["sbTabJPM","Japan"]].forEach(([id,val])=>{
-    const el=document.getElementById(id);if(el)el.classList.toggle("on",val===jCountry);
-  });
-  buildFJ(jCat, jCountry);
-  document.getElementById("filterJournal").value=n;
-  S.fj=n;S.pg=1;
-  applyFilters();
-  if(mob)closeDrawer();
-}
-function doReset(){
-  S.q=S.fj=S.fc=S.fy=S.fi=S.fn="";S.pg=1;
-  document.getElementById("searchInput").value="";
-  document.getElementById("filterJournal").value="";
-  document.getElementById("filterCategory").value="";
-  document.getElementById("filterYear").value="";
-  document.getElementById("filterIssue").value="";
-  const cnEl=document.getElementById("filterCountry");if(cnEl)cnEl.value="";
-  buildFJ("","");buildFY("","","");buildFI();
-  // 사이드바 탭 초기화 (전체)
-  ["sbTabAll","sbTabKR","sbTabJP","sbTabAllM","sbTabKRM","sbTabJPM"].forEach(id=>{
-    const el=document.getElementById(id);
-    if(el)el.classList.toggle("on",id==="sbTabAll"||id==="sbTabAllM");
-  });
-  buildSidebar("");
-  document.querySelectorAll(".jbtn").forEach(b=>b.classList.remove("active"));
-  document.getElementById("resultsArea").innerHTML='<div class="st-msg"><span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><p>검색어를 입력하거나 학술지를 선택하세요.</p></div>';
-  document.getElementById("resultCount").innerHTML="";
-}
-function applyFilters(){
-  // 변경 전 값 저장
-  const prevFc=S.fc, prevFj=S.fj, prevFy=S.fy, prevFn=S.fn;
-  // DOM에서 새 값 읽기
-  S.fc=document.getElementById("filterCategory").value;
-  S.fj=document.getElementById("filterJournal").value;
-  S.fy=document.getElementById("filterYear").value;
-  S.fn=document.getElementById("filterCountry")?.value||"";
-  S.sort=document.getElementById("sortSelect").value;
-
-  // 국가 변경 → 학술지·연도·권호 하위 필터 초기화 및 재구성
-  if(S.fn!==prevFn){
-    // 현재 선택된 학술지가 이 국가에 속하지 않으면 초기화
-    if(S.fj){
-      const jCountry=S.idx.find(a=>a.journal_name===S.fj)?.country||"";
-      if(S.fn && jCountry!==S.fn){
-        S.fj=""; document.getElementById("filterJournal").value="";
-        S.fc=""; document.getElementById("filterCategory").value="";
-      }
-    }
-    // 학술지 드롭다운 국가 기준으로 재구성
-    buildFJ(S.fc, S.fn);
-    S.fy=""; document.getElementById("filterYear").value="";
-    S.fi=""; document.getElementById("filterIssue").value="";
-    buildFY(S.fj, S.fc, S.fn);
-    buildFI("","");
-  }
-
-  // 학술지 선택 → 카테고리·국가 자동 고정
-  if(S.fj && S.fj!==prevFj){
-    const jCat    = S.idx.find(a=>a.journal_name===S.fj)?.category||"";
-    const jCountry= S.idx.find(a=>a.journal_name===S.fj)?.country||"";
-    if(jCat && jCat!==S.fc){
-      S.fc=jCat; document.getElementById("filterCategory").value=jCat;
-    }
-    if(jCountry && jCountry!==S.fn){
-      S.fn=jCountry; document.getElementById("filterCountry").value=jCountry;
-    }
-  }
-
-  // 카테고리 변경 → 학술지 목록 재구성
-  if(S.fc!==prevFc){
-    buildFJ(S.fc, S.fn);
-    const validJ=[...document.getElementById("filterJournal").options].map(o=>o.value);
-    if(S.fj && !validJ.includes(S.fj)){
-      S.fj=""; document.getElementById("filterJournal").value="";
-    }
-    if(!S.fj){
-      S.fy=""; document.getElementById("filterYear").value="";
-      S.fi=""; document.getElementById("filterIssue").value="";
-      buildFY("", S.fc, S.fn);
-      buildFI("", "");
-    }
-  }
-
-  // 학술지·연도 바뀌면 하위 필터 초기화
-  if(S.fj && S.fj!==prevFj){
-    S.fy=""; document.getElementById("filterYear").value="";
-    S.fi=""; document.getElementById("filterIssue").value="";
-    buildFY(S.fj);
-  } else if(S.fy!==prevFy){
-    S.fi=""; document.getElementById("filterIssue").value="";
-  }
-  buildFI(S.fj, S.fy);
-  S.fi=document.getElementById("filterIssue").value;
-  let res=S.q?S.fuse.search(S.q).map(r=>({...r.item,_s:r.score})):[...S.idx];
-  if(S.fn)res=res.filter(a=>a.country===S.fn);
-  if(S.fc)res=res.filter(a=>a.category===S.fc);
-  if(S.fj)res=res.filter(a=>a.journal_name===S.fj);
-  if(S.fy)res=res.filter(a=>a.year===S.fy);
-  if(S.fi){
-    const[fv,fi]=S.fi.split("|");
-    res=res.filter(a=>(a.volume||"")===(fv||"") && (a.issue||"")===(fi||""));
-  }
-  if(S.sort==="year_desc")res.sort((a,b)=>{
-    const yd=(b.year||0)-(a.year||0);
-    if(yd!==0)return yd;
-    if(a.journal_name===b.journal_name)
-      return viSortKey(b.volume,b.issue)-viSortKey(a.volume,a.issue);
-    return 0;
-  });
-  else if(S.sort==="year_asc")res.sort((a,b)=>{
-    const yd=(a.year||0)-(b.year||0);
-    if(yd!==0)return yd;
-    if(a.journal_name===b.journal_name)
-      return viSortKey(a.volume,a.issue)-viSortKey(b.volume,b.issue);
-    return 0;
-  });
-  S.res=res;render();
-}
-
-function render(){
-  const area=document.getElementById("resultsArea");
-  document.getElementById("welcomeMsg")?.remove();
-  const{res,pg,pp}=S;const tot=res.length;const sl=res.slice((pg-1)*pp,pg*pp);
-  document.getElementById("resultCount").innerHTML=tot?`<strong>${tot.toLocaleString()}</strong>편`:"결과 없음";
-  if(!tot){area.innerHTML='<div class="st-msg"><span class="st-ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6M11 8v6"/></svg></span><p>검색 결과가 없습니다.<br>다른 검색어나 한자 표기를 시도해보세요.</p></div>';return;}
-  let h="";
+  const rx=S.fuzzy?null:S.hlRx;
+  let hh="";
   sl.forEach((a,i)=>{
-    const au=fmtAu(a.authors||[]);
+    const au=fmtAu(a.authors||[],rx);
     const kw=bldKw(a);
-    const ab=a.abstract_kr?a.abstract_kr.slice(0,110)+"…":"";
-    const hl=S.q?hlTx(a.title_kr||"",S.q):(a.title_kr||"");
+    const ab=kwic(a.abstract_kr||a.abstract_en,rx);
     const viLabel=fmtVI(a.volume,a.issue);
-    const srcBdg=a.source==="J-Stage"
-      ?`<span class="bdg" style="background:rgba(220,38,38,.07);color:#b91c1c;border:1px solid rgba(220,38,38,.2);font-size:.55rem">J-Stage</span>`:"";
-    h+=`<article class="card" onclick="openMod('${esc(a.id)}')" style="animation-delay:${i*.04}s">
+    const src=a.source==="J-Stage"?`<span class="bdg bdg-js">J-Stage</span>`:(a.source==="KCI"?`<span class="bdg bdg-k">KCI</span>`:"");
+    hh+=`<article class="card" data-id="${h(a.id)}" tabindex="0" role="button" aria-label="${h(a.title_kr)} 상세 보기" style="animation-delay:${Math.min(i,10)*.035}s">
       <div class="pmeta">
-        <span class="bdg bdg-j">${a.journal_name||""}</span>
-        ${a.year?`<span class="bdg bdg-y">${a.year}</span>`:""}
-        ${viLabel?`<span class="bdg bdg-i">${viLabel}</span>`:""}
-        ${srcBdg}
+        <span class="bdg bdg-j">${h(a.journal_name)}</span>
+        ${a.year?`<span class="bdg bdg-y">${h(a.year)}</span>`:""}
+        ${viLabel?`<span class="bdg bdg-i">${h(viLabel)}</span>`:""}
+        ${src}
       </div>
-      <div class="ptit">${hl}</div>
-      <div class="pau">${au}</div>
+      <div class="ptit">${markText(a.title_kr,rx)}</div>
+      ${au?`<div class="pau">${au}</div>`:""}
       ${ab?`<div class="pabs">${ab}</div>`:""}
-      <div class="pkws">${kw}</div>
+      ${kw?`<div class="pkws">${kw}</div>`:""}
     </article>`;
   });
-  const tp=Math.ceil(tot/pp);
   if(tp>1){
-    h+='<div class="pag">';
+    hh+='<nav class="pag" aria-label="페이지">';
+    if(pg>1) hh+=`<button type="button" class="pgbtn" data-pg="${pg-1}" aria-label="이전">‹</button>`;
     for(let i=1;i<=tp;i++){
-      if(i===1||i===tp||Math.abs(i-pg)<=2)h+=`<button class="pgbtn${i===pg?" active":""}" onclick="goPg(${i})">${i}</button>`;
-      else if(Math.abs(i-pg)===3)h+=`<span style="align-self:center;color:var(--muted);padding:0 .2rem">…</span>`;
+      if(i===1||i===tp||Math.abs(i-pg)<=2) hh+=`<button type="button" class="pgbtn${i===pg?" active":""}" data-pg="${i}"${i===pg?' aria-current="page"':""}>${i}</button>`;
+      else if(Math.abs(i-pg)===3) hh+=`<span style="align-self:center;color:var(--muted);padding:0 .2rem">…</span>`;
     }
-    h+='</div>';
+    if(pg<tp) hh+=`<button type="button" class="pgbtn" data-pg="${pg+1}" aria-label="다음">›</button>`;
+    hh+='</nav>';
   }
-  area.innerHTML=h;
+  area.innerHTML=hdr+hh;
 }
-function goPg(p){S.pg=p;render();window.scrollTo({top:0,behavior:"smooth"});}
+function goPg(p){ S.pg=p; render(); syncURL(); scrollToResults(); }
 
-function openMod(id){
-  const a=S.idx.find(x=>x.id===id);if(!a)return;
+function fmtAu(au,rx){
+  if(!au.length) return "";
+  return au.slice(0,5).map(a=>`<button type="button" class="aname" data-au="${h(a.name)}" title="${h(a.name)}의 논문 모두 보기">${markText(a.name,rx)}</button>${a.affiliation?` <small style="color:var(--muted)">(${h(a.affiliation)})</small>`:""}`).join(" · ")+(au.length>5?` 외 ${au.length-5}인`:"");
+}
+function bldKw(a){
+  return (a.keywords_kr||[]).slice(0,4).map(k=>`<span class="kw">${h(k)}</span>`).join("")+(a.ai_keywords||[]).slice(0,2).map(k=>`<span class="kw ai">${h(k)}</span>`).join("");
+}
+
+// ════════════════════════════════════════
+// 상세 보기 모달
+// ════════════════════════════════════════
+let CUR=null;
+function openMod(id, noURL){
+  const a=S.idx.find(x=>x.id===id); if(!a) return;
+  CUR=a;
   const isIBK=(a.journal_name==="印度學佛教學研究");
-
-  // ── 헤더 ──────────────────────────────────────────────────────────────────
-  document.getElementById("modTi").textContent=a.title_kr||"";
-  document.getElementById("modTen").textContent=a.title_en||"";
-  // IBK: 원어(일본어) 제목이 title_kr과 다를 때만 별도 표시
-  const modTja=document.getElementById("modTja");
-  if(modTja) modTja.textContent=(isIBK&&a.title_ja&&a.title_ja!==a.title_kr)?"原題: "+a.title_ja:"";
-
-  // ── 메타 뱃지 ─────────────────────────────────────────────────────────────
+  const rx=S.fuzzy?null:S.hlRx;
+  $("modTi").innerHTML=markText(a.title_kr,rx);
+  $("modTen").textContent=a.title_en||"";
+  $("modTja").textContent=(isIBK&&a.title_ja&&a.title_ja!==a.title_kr)?"原題: "+a.title_ja:"";
   const viLabel=fmtVI(a.volume,a.issue);
-  document.getElementById("modMeta").innerHTML=
-    `<span class="bdg bdg-j">${a.journal_name||""}</span>`+
-    (a.year?`<span class="bdg bdg-y">${a.year}년</span>`:"")+
-    (viLabel?`<span class="bdg bdg-i">${viLabel}</span>`:"")+
-    (isIBK?`<span class="bdg" style="background:rgba(220,38,38,.07);color:#b91c1c;border:1px solid rgba(220,38,38,.2)">J-Stage</span>`:"");
-
-  // ── 저자 ──────────────────────────────────────────────────────────────────
-  const auH=(a.authors||[]).map(x=>
-    `<span style="margin-right:1rem;font-size:.83rem"><strong style="font-family:var(--serif)">${x.name}</strong>${x.affiliation?` <small style="color:var(--muted)">(${x.affiliation})</small>`:""}</span>`
-  ).join("");
-  document.getElementById("modAu").innerHTML=auH?`<div style="margin-bottom:1rem;line-height:2.2">${auH}</div>`:"";
-
-  // ── 서지 ──────────────────────────────────────────────────────────────────
-  document.getElementById("modBib").innerHTML=`<div class="dgrd">
-    <span class="dlbl">학술지</span><span class="dval">${a.journal_name||"-"}</span>
-    <span class="dlbl">발행연도</span><span class="dval">${a.year||"-"}년</span>
-    <span class="dlbl">권·호</span><span class="dval">${viLabel||"-"}</span>
-    <span class="dlbl">페이지</span><span class="dval">${a.start_page?(a.start_page+(a.end_page?"–"+a.end_page:""))+"p":"-"}</span>
-    ${a.doi?`<span class="dlbl">DOI</span><span class="dval"><a href="https://doi.org/${a.doi}" target="_blank" style="color:var(--navy-lt)">${a.doi}</a></span>`:""}
+  $("modMeta").innerHTML=`<span class="bdg bdg-j">${h(a.journal_name)}</span>`+(a.year?`<span class="bdg bdg-y">${h(a.year)}년</span>`:"")+(viLabel?`<span class="bdg bdg-i">${h(viLabel)}</span>`:"")+(isIBK?`<span class="bdg bdg-js">J-Stage</span>`:"");
+  const auH=(a.authors||[]).map(x=>`<span style="margin-right:1rem;font-size:.83rem;display:inline-block"><button type="button" class="aname" data-au="${h(x.name)}" style="font-family:var(--serif);font-weight:700;font-size:.85rem">${h(x.name)}</button>${x.affiliation?` <small style="color:var(--muted)">(${h(x.affiliation)})</small>`:""}</span>`).join("");
+  $("modAu").innerHTML=auH?`<div style="margin-bottom:1rem;line-height:2.2">${auH}</div>`:"";
+  $("modBib").innerHTML=`<div class="dgrd">
+    <span class="dlbl">학술지</span><span class="dval">${h(a.journal_name||"-")}${S.jmeta[a.journal_name]?.publisher?` <small style="color:var(--muted)">· ${h(S.jmeta[a.journal_name].publisher)}</small>`:""}</span>
+    <span class="dlbl">발행연도</span><span class="dval">${a.year?h(a.year)+"년":"-"}</span>
+    <span class="dlbl">권·호</span><span class="dval">${h(viLabel||"-")}${viLabel?` &nbsp;<button type="button" class="kw" style="cursor:pointer" onclick="goIssueOf()">이 호의 논문 모두 보기 ›</button>`:""}</span>
+    <span class="dlbl">페이지</span><span class="dval">${a.start_page?h(a.start_page+(a.end_page?"–"+a.end_page:""))+"p":"-"}</span>
+    ${a.doi?`<span class="dlbl">DOI</span><span class="dval"><a href="https://doi.org/${encodeURI(a.doi)}" target="_blank" rel="noopener">${h(a.doi)}</a></span>`:""}
   </div>`;
-
-  // ── 초록 ──────────────────────────────────────────────────────────────────
-  document.getElementById("modAbs").textContent=a.abstract_kr||"초록 정보 없음";
-
-  // ── 키워드 ────────────────────────────────────────────────────────────────
-  document.getElementById("modKw").innerHTML=
-    [...(a.keywords_kr||[]).map(k=>`<span class="kw">${k}</span>`),
-     ...(a.keywords_en||[]).map(k=>`<span class="kw">${k}</span>`),
-     ...(a.ai_keywords||[]).map(k=>`<span class="kw ai">${k}</span>`)].join("")
-    ||`<span style="color:var(--muted);font-size:.78rem">없음</span>`;
-
-  // ── 링크 ──────────────────────────────────────────────────────────────────
+  $("modAbs").innerHTML=(a.abstract_kr?markText(a.abstract_kr,rx):"")+(a.abstract_en&&a.abstract_en!==a.abstract_kr?`<div class="mabs-en">${markText(a.abstract_en,rx)}</div>`:"")||"초록 정보 없음";
+  $("modKw").innerHTML=[...(a.keywords_kr||[]).map(k=>`<button type="button" class="kw" data-kw="${h(k)}">${h(k)}</button>`),
+     ...(a.keywords_en||[]).map(k=>`<button type="button" class="kw" data-kw="${h(k)}">${h(k)}</button>`),
+     ...(a.ai_keywords||[]).map(k=>`<span class="kw ai">${h(k)}</span>`)].join("")||`<span style="color:var(--muted);font-size:.78rem">없음</span>`;
+  $("modCite").textContent=citeKo(a);
+  $("modCiteBtns").innerHTML=`<button type="button" class="mlk sec" onclick="copyText(citeKo(CUR),'인용문을 복사했습니다')">인용 복사</button><button type="button" class="mlk sec" onclick="copyText(citeBib(CUR),'BibTeX를 복사했습니다')">BibTeX</button><button type="button" class="mlk sec" onclick="dlRIS(CUR)" title="Zotero·EndNote로 가져오기">RIS 저장</button><button type="button" class="mlk sec" onclick="copyLink(CUR.id)">링크 복사</button>`;
   let lks="";
   const jinfo=JOURNAL_URLS[a.journal_name];
   const icoHome=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>`;
   const icoLink=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`;
   const icoDoc=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>`;
+  const L=(href,cls,label)=>`<a href="${h(href)}" target="_blank" rel="noopener" class="mlk ${cls}">${label}</a>`;
   if(isIBK){
-    if(a.jstage_url) lks+=`<a href="${a.jstage_url}" target="_blank" class="mlk pri">${icoLink} J-Stage 원문</a>`;
-    // NDL Search: 직접 링크 우선, 없으면 DOI 검색
-    if(a.ndl_url){
-      lks+=`<a href="${a.ndl_url}" target="_blank" class="mlk sec">NDL Search</a>`;
-    } else if(a.doi){
-      const ndlUrl="https://ndlsearch.ndl.go.jp/search?cs=bib&q="+encodeURIComponent(a.doi);
-      lks+=`<a href="${ndlUrl}" target="_blank" class="mlk sec">NDL Search</a>`;
-    } else if(a.title_ja){
-      const ndlUrl="https://ndlsearch.ndl.go.jp/search?cs=bib&q="+encodeURIComponent(a.title_ja)+"&f-dn=article";
-      lks+=`<a href="${ndlUrl}" target="_blank" class="mlk sec">NDL Search</a>`;
-    }
-    lks+=`<a href="https://www.inbuds.net/kor/" target="_blank" class="mlk home">${icoHome} INBUDS 검색</a>`;
+    if(a.jstage_url) lks+=L(a.jstage_url,"pri",icoLink+" J-Stage 원문");
+    if(a.ndl_url) lks+=L(a.ndl_url,"sec","NDL Search");
+    else if(a.doi) lks+=L("https://ndlsearch.ndl.go.jp/search?cs=bib&q="+encodeURIComponent(a.doi),"sec","NDL Search");
+    else if(a.title_ja) lks+=L("https://ndlsearch.ndl.go.jp/search?cs=bib&q="+encodeURIComponent(a.title_ja)+"&f-dn=article","sec","NDL Search");
+    lks+=L("https://www.inbuds.net/kor/","home",icoHome+" INBUDS 검색");
   } else {
-    if(a.riss_url) lks+=`<a href="${a.riss_url}" target="_blank" class="mlk pri">${icoDoc} RISS 원문</a>`;
-    if(a.kci_url)  lks+=`<a href="${a.kci_url}"  target="_blank" class="mlk sec">${icoLink} KCI 보기</a>`;
-    if(a.doi)      lks+=`<a href="https://doi.org/${a.doi}" target="_blank" class="mlk sec">DOI</a>`;
-    if(jinfo?.url) lks+=`<a href="${jinfo.url}" target="_blank" class="mlk home">${icoHome} 학술지 홈페이지</a>`;
+    if(a.riss_url) lks+=L(a.riss_url,"pri",icoDoc+" RISS 원문");
+    if(a.kci_url)  lks+=L(a.kci_url,a.riss_url?"sec":"pri",icoLink+" KCI 보기");
+    if(a.doi)      lks+=L("https://doi.org/"+a.doi,"sec","DOI");
+    if(jinfo?.url) lks+=L(jinfo.url,"home",icoHome+" 학술지 홈페이지");
+    lks+=L("https://scholar.google.com/scholar?q="+encodeURIComponent('"'+a.title_kr+'"'),"home","Google Scholar");
   }
-  // ── 공통 DOM 업데이트 (if/else 밖) ───────────────────────────────────────
-  document.getElementById("modLks").innerHTML=lks||`<span style="color:var(--muted);font-size:.78rem">원문 링크 없음</span>`;
-  document.getElementById("modNote").innerHTML=(jinfo?.note&&!isIBK)?`<div class="journal-note">${jinfo.note}</div>`:"";
-
-  document.getElementById("mov").classList.add("open");
-  document.body.style.overflow="hidden";
+  $("modLks").innerHTML=lks||`<span style="color:var(--muted);font-size:.78rem">원문 링크 없음</span>`;
+  $("modNote").innerHTML=(jinfo?.note&&!isIBK)?`<div class="journal-note">${h(jinfo.note)}</div>`:"";
+  $("mov").classList.add("open"); document.body.style.overflow="hidden";
+  $("mov").querySelector(".mod").scrollTop=0;
+  setTimeout(()=>$("mov").querySelector(".mod-cls").focus({preventScroll:true}),50);
+  if(!noURL) syncURL(a.id);
 }
-function closeMod(e){if(e.target===document.getElementById("mov"))closeModBtn();}
-function closeModBtn(){document.getElementById("mov").classList.remove("open");document.body.style.overflow="";}
-document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeModBtn();closeDrawer();}});
-
-function openDrawer(){document.getElementById("drw").classList.add("open");document.getElementById("drov").classList.add("open");document.body.style.overflow="hidden";}
-function closeDrawer(){document.getElementById("drw").classList.remove("open");document.getElementById("drov").classList.remove("open");document.body.style.overflow="";}
-function goSearch(){document.getElementById("searchInput").scrollIntoView({behavior:"smooth",block:"center"});setTimeout(()=>document.getElementById("searchInput").focus(),400);}
-
-function fmtAu(au){
-  if(!au.length)return"";
-  return au.slice(0,5).map(a=>`<span class="aname" onclick="event.stopPropagation();srchAu('${a.name}')">${a.name}</span>${a.affiliation?` <small style="color:var(--muted)">(${a.affiliation})</small>`:""}`).join(" · ")+(au.length>5?` 외 ${au.length-5}인`:"");
+function goIssueOf(){ const a=CUR; if(!a) return; closeModBtn(); goIssue(a.journal_name,a.volume,a.issue,a.year); }
+function closeMod(e){ if(e.target===$("mov")) closeModBtn(); }
+function closeModBtn(){
+  if(!$("mov").classList.contains("open")) return;
+  $("mov").classList.remove("open"); document.body.style.overflow="";
+  syncURL();
+  if(CUR){ const c=document.querySelector(`.card[data-id="${CSS.escape(CUR.id)}"]`); if(c) c.focus({preventScroll:true}); }
 }
-function srchAu(n){document.getElementById("searchInput").value=n;S.q=n;S.fj="";document.getElementById("filterJournal").value="";S.pg=1;applyFilters();window.scrollTo({top:0,behavior:"smooth"});}
-function bldKw(a){return(a.keywords_kr||[]).slice(0,4).map(k=>`<span class="kw">${k}</span>`).join("")+(a.ai_keywords||[]).slice(0,2).map(k=>`<span class="kw ai">${k}</span>`).join("");}
-function hlTx(t,q){if(!q)return t;const e=q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");return t.replace(new RegExp(`(${e})`,"gi"),"<mark>$1</mark>");}
-function esc(s){return(s||"").replace(/'/g,"\\'");}
-function deb(fn,d){let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>fn(...a),d);};}
 
-// 샘플 데이터
-const SAMP={
-  meta:{total_articles:4,journals:2,last_updated:"2025-04-10",version:"1.0-sample"},
-  journals:{
-    "선학":{info:{name:"선학",category:"불교학",publisher:"한국선학회"},articles:[]},
-    "불교학보":{info:{name:"불교학보",category:"불교학",publisher:"동국대 불교문화연구원"},articles:[]},
-  },
-  index:[
-    {id:"s001",journal_name:"선학",category:"불교학",title_kr:"대승기신론의 一心 개념과 선정 수행의 관계 연구",title_en:"",authors:[{name:"한민수",affiliation:"동명대학교",order:"1"}],year:"2025",volume:"",issue:"72",start_page:"5",end_page:"36",abstract_kr:"본 연구는 대승기신론에서 논의되는 일심(一心) 개념을 중심으로 선정 수행과의 관계를 고찰한다.",keywords_kr:["대승기신론","일심","선정","지관"],ai_keywords:[],riss_url:"https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f62ae70224b1b0e67ecd42904f0c5d65",kci_url:"",doi:"",source:"RISS"},
-    {id:"s002",journal_name:"불교학보",category:"불교학",title_kr:"원효의 화쟁(和諍) 사상과 현대 불교 철학적 의의",title_en:"",authors:[{name:"정도일",affiliation:"동국대학교",order:"1"}],year:"2022",volume:"",issue:"101",start_page:"43",end_page:"82",abstract_kr:"원효(元曉)의 화쟁(和諍) 사상은 신라 불교 철학의 정수로 평가된다.",keywords_kr:["원효","화쟁","불교철학"],ai_keywords:[],riss_url:"",kci_url:"https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002800004",doi:"",source:"KCI"},
-  ]
-};
+// ── 인용 형식 ──
+function pages(a){ return a.start_page?(a.start_page+(a.end_page?"-"+a.end_page:"")):""; }
+function citeKo(a){
+  const au=(a.authors||[]).map(x=>x.name).join("·")||"저자 미상";
+  const isJa=a.journal_name==="印度學佛教學研究";
+  const vi=fmtVI(a.volume,a.issue);
+  const p=pages(a);
+  return isJa
+    ? `${au}, 「${a.title_ja||a.title_kr}」, 『${a.journal_name}』 ${a.volume}(${a.issue}), ${a.year}${p?", "+p+"쪽":""}.`
+    : `${au}, 「${a.title_kr}」, 『${a.journal_name}』 ${vi}${S.jmeta[a.journal_name]?.publisher?", "+S.jmeta[a.journal_name].publisher:""}, ${a.year}${p?", "+p+"쪽":""}.`.replace(/\s+,/g,",");
+}
+function bibKey(a){ const au=(a.authors?.[0]?.name||"anon").replace(/\s+/g,""); return (au+a.year+(a.title_en||a.id).replace(/[^A-Za-z]/g,"").slice(0,12)).replace(/[{}]/g,""); }
+function citeBib(a){
+  const f=(k,v)=>v?`  ${k} = {${String(v).replace(/[{}]/g,"")}},\n`:"";
+  return `@article{${bibKey(a)},\n`+f("author",(a.authors||[]).map(x=>x.name).join(" and "))+f("title",a.title_kr)+f("journal",a.journal_name)+f("year",a.year)+f("volume",a.volume&&a.volume!=="0"?a.volume:"")+f("number",a.issue)+f("pages",pages(a).replace("-","--"))+f("doi",a.doi)+f("url",a.riss_url||a.kci_url||a.jstage_url)+`}`;
+}
+function risOf(a){
+  const L=[["TY","JOUR"]];
+  (a.authors||[]).forEach(x=>L.push(["AU",x.name]));
+  L.push(["TI",a.title_kr]); if(a.title_en) L.push(["TT",a.title_en]);
+  L.push(["JO",a.journal_name],["PY",a.year]);
+  if(a.volume&&a.volume!=="0") L.push(["VL",a.volume]); if(a.issue) L.push(["IS",a.issue]);
+  if(a.start_page) L.push(["SP",a.start_page]); if(a.end_page) L.push(["EP",a.end_page]);
+  if(a.doi) L.push(["DO",a.doi]); const u=a.riss_url||a.kci_url||a.jstage_url; if(u) L.push(["UR",u]);
+  (a.keywords_kr||[]).concat(a.keywords_en||[]).forEach(k=>L.push(["KW",k]));
+  if(a.abstract_kr) L.push(["AB",a.abstract_kr.replace(/\s+/g," ")]);
+  L.push(["ER",""]);
+  return L.map(([k,v])=>`${k}  - ${v}`).join("\r\n")+"\r\n";
+}
+function download(name, text, type){
+  const blob=new Blob([text],{type}); const url=URL.createObjectURL(blob);
+  const a=document.createElement("a"); a.href=url; a.download=name; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),2000);
+}
+function dlRIS(a){ download(`${(a.authors?.[0]?.name||"paper")}_${a.year}.ris`,risOf(a),"application/x-research-info-systems"); }
+function exportCSV(){
+  const cols=[["학술지","journal_name"],["연도","year"],["권","volume"],["호","issue"],["제목","title_kr"],["영문 제목","title_en"],["저자",a=>(a.authors||[]).map(x=>x.name).join("; ")],["소속",a=>(a.authors||[]).map(x=>x.affiliation).join("; ")],["쪽",a=>pages(a)],["키워드",a=>(a.keywords_kr||[]).join("; ")],["DOI","doi"],["RISS","riss_url"],["KCI","kci_url"],["J-Stage","jstage_url"]];
+  const q=v=>'"'+String(v==null?"":v).replace(/"/g,'""')+'"';
+  const rows=[cols.map(c=>q(c[0])).join(",")].concat(S.res.map(a=>cols.map(c=>q(typeof c[1]==="function"?c[1](a):a[c[1]])).join(",")));
+  const d=new Date(); const ds=`${d.getFullYear()}${String(d.getMonth()+1).padStart(2,"0")}${String(d.getDate()).padStart(2,"0")}`;
+  download(`불교학논문_검색결과_${ds}.csv`,"﻿"+rows.join("\r\n"),"text/csv;charset=utf-8");
+  showToast(`${S.res.length.toLocaleString()}편을 CSV로 저장했습니다`);
+}
+async function copyText(t,msg){
+  try{ await navigator.clipboard.writeText(t); }
+  catch(e){ const ta=document.createElement("textarea"); ta.value=t; ta.style.position="fixed"; ta.style.opacity="0"; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy");}catch(_){} ta.remove(); }
+  showToast(msg||"복사했습니다");
+}
+function copyLink(id){ syncURL(id); copyText(location.href, id?"논문 링크를 복사했습니다":"검색 결과 링크를 복사했습니다"); }
+
+// ════════════════════════════════════════
+// 주소(URL)에 검색 상태 저장 → 링크 공유·뒤로 가기·새로고침 유지
+// ════════════════════════════════════════
+function stateParams(openId){
+  const p=new URLSearchParams();
+  if(S.q) p.set("q",S.q); if(S.field) p.set("f",S.field); if(S.fc) p.set("c",S.fc); if(S.fn) p.set("n",S.fn);
+  if(S.fj) p.set("j",S.fj); if(S.fy) p.set("y",S.fy); if(S.fi) p.set("i",S.fi);
+  if(S.sort!=="relevance") p.set("s",S.sort); if(S.pg>1) p.set("p",S.pg);
+  if(openId) p.set("id",openId);
+  return p.toString();
+}
+let lastHash="";
+function syncURL(openId){
+  const s=stateParams(openId===undefined && $("mov").classList.contains("open") && CUR ? CUR.id : openId);
+  const hash=s?"#"+s:"";
+  if(hash===lastHash) return; lastHash=hash;
+  try{ history.replaceState(null,"",location.pathname+location.search+hash); }catch(e){}
+}
+function restoreFromURL(){
+  const raw=location.hash.replace(/^#/,""); if(!raw) return false;
+  const p=new URLSearchParams(raw); lastHash="#"+raw;
+  S.q=p.get("q")||"";
+  $("searchInput").value=S.q; $("srchClr").classList.toggle("show",!!S.q);
+  S.pg=parseInt(p.get("p"))||1;
+  applyFilters("url",{keepPage:true,forceList:!!p.get("id"),set:{field:p.get("f")||"",fc:p.get("c")||"",fn:p.get("n")||"",
+    fj:p.get("j")||"",fy:p.get("y")||"",fi:p.get("i")||"",sort:p.get("s")||"relevance"}});
+  const id=p.get("id"); if(id) openMod(id,true);
+  return true;
+}
+window.addEventListener("hashchange",()=>{ if("#"+location.hash.replace(/^#/,"")!==lastHash && S.ready){ if(!location.hash){ doReset(); } else restoreFromURL(); } });
+
+// ════════════════════════════════════════
+// 이벤트 연결
+// ════════════════════════════════════════
+document.addEventListener("click",e=>{
+  const rm=e.target.closest("[data-rm]"); if(rm){ removeFilter(rm.dataset.rm); return; }
+  const au=e.target.closest("[data-au]"); if(au){ e.stopPropagation(); srchAu(au.dataset.au); return; }
+  const kw=e.target.closest("[data-kw]"); if(kw){ srchKw(kw.dataset.kw); return; }
+  const pg=e.target.closest("[data-pg]"); if(pg){ goPg(+pg.dataset.pg); return; }
+  const card=e.target.closest(".card[data-id]"); if(card){ openMod(card.dataset.id); return; }
+  if(e.target.closest(".ntc-it")){ onNoticeClick(e); return; }
+  if(e.target.closest(".jbtn")){ onJournalClick(e); return; }
+  if($("ntcPan").classList.contains("open") && !e.target.closest("#ntcPan") && !e.target.closest("#ntcBtn") && !e.target.closest("#updateBanner")) toggleNotice(false);
+});
+document.addEventListener("keydown",e=>{
+  if(e.key==="Escape"){ closeModBtn(); closeDrawer(); toggleNotice(false); return; }
+  if((e.key==="Enter"||e.key===" ") && e.target.classList?.contains("card")){ e.preventDefault(); openMod(e.target.dataset.id); return; }
+  if(e.key==="/" && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)){ e.preventDefault(); $("searchInput").focus(); }
+});
+function toggleHelp(btn){ const b=$("helpBox"); const o=!b.classList.contains("open"); b.classList.toggle("open",o); btn.setAttribute("aria-expanded",o); }
+function openDrawer(){ $("drw").classList.add("open"); $("drov").classList.add("open"); document.body.style.overflow="hidden"; toggleNotice(false); }
+function closeDrawer(){ if(!$("drw").classList.contains("open")) return; $("drw").classList.remove("open"); $("drov").classList.remove("open"); if(!$("mov").classList.contains("open")) document.body.style.overflow=""; }
+function goSearch(){ window.scrollTo({top:0,behavior:"smooth"}); setTimeout(()=>$("searchInput").focus(),350); }
+function deb(fn,d){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a),d); }; }
+// 필터바 높이가 바뀌면(줄바꿈 등) 사이드바 고정 위치도 맞춤
+if(window.ResizeObserver){ new ResizeObserver(()=>document.documentElement.style.setProperty("--fbar-h",$("fbar").offsetHeight+"px")).observe($("fbar")); }
+
 loadDB();
 </script>
 </body>

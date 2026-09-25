@@ -1,0 +1,416 @@
+{
+  "notices": [
+    {
+      "date": "2026-09-26",
+      "text": "공지사항 기능이 추가되었습니다. 항목을 누르면 해당 학술지·호수로 바로 이동합니다.",
+      "pinned": false
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-09-24",
+      "journal": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "76",
+      "count": 20,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-09-17",
+      "journal": "불교연구",
+      "year": "2026",
+      "volume": "65",
+      "issue": "",
+      "count": 1,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-09-14",
+      "journal": "선학",
+      "year": "2026",
+      "volume": "",
+      "issue": "74",
+      "count": 10,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-09-11",
+      "journal": "명상심리상담",
+      "year": "2026",
+      "volume": "37",
+      "issue": "",
+      "count": 8,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-09-11",
+      "journal": "인도철학",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "count": 3,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-09-11",
+      "journal": "한국교수불자연합학회지",
+      "year": "2026",
+      "volume": "32",
+      "issue": "2",
+      "count": 11,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-09-10",
+      "journal": "불교연구",
+      "year": "2026",
+      "volume": "65",
+      "issue": "",
+      "count": 7,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-09-07",
+      "journal": "한국불교학",
+      "year": "2026",
+      "volume": "119",
+      "issue": "",
+      "count": 10,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-09-05",
+      "journal": "한마음연구",
+      "year": "2026",
+      "volume": "17",
+      "issue": "",
+      "count": 12,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-08-23",
+      "journal": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "count": 1,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-08-23",
+      "journal": "정토학연구",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "count": 1,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-08-19",
+      "journal": "보조사상",
+      "year": "2026",
+      "volume": "75",
+      "issue": "",
+      "count": 9,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-08-14",
+      "journal": "한국불교사연구",
+      "year": "2026",
+      "volume": "29",
+      "issue": "",
+      "count": 1,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-08-09",
+      "journal": "동악미술사학",
+      "year": "2026",
+      "volume": "",
+      "issue": "39",
+      "count": 10,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-08-04",
+      "journal": "불교학보",
+      "year": "2026",
+      "volume": "",
+      "issue": "111",
+      "count": 3,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-26",
+      "journal": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "75",
+      "count": 15,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-26",
+      "journal": "불교와 사회",
+      "year": "2026",
+      "volume": "18",
+      "issue": "1",
+      "count": 6,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-26",
+      "journal": "한국불교사연구",
+      "year": "2026",
+      "volume": "29",
+      "issue": "",
+      "count": 11,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-25",
+      "journal": "원불교사상과 종교문화",
+      "year": "2026",
+      "volume": "108",
+      "issue": "",
+      "count": 4,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-16",
+      "journal": "불교학밀교학연구",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "count": 13,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-14",
+      "journal": "정토학연구",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "count": 9,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-12",
+      "journal": "대각사상",
+      "year": "2026",
+      "volume": "45",
+      "issue": "",
+      "count": 10,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-12",
+      "journal": "불교학연구",
+      "year": "2026",
+      "volume": "87",
+      "issue": "",
+      "count": 12,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-12",
+      "journal": "선문화연구",
+      "year": "2026",
+      "volume": "40",
+      "issue": "",
+      "count": 7,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-11",
+      "journal": "IJBTC",
+      "year": "2026",
+      "volume": "36",
+      "issue": "1",
+      "count": 8,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-11",
+      "journal": "종학연구",
+      "year": "2026",
+      "volume": "16",
+      "issue": "",
+      "count": 4,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-07-07",
+      "journal": "불교문예연구",
+      "year": "2026",
+      "volume": "27",
+      "issue": "",
+      "count": 12,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-06-28",
+      "journal": "불교학보",
+      "year": "2025",
+      "volume": "",
+      "issue": "64",
+      "count": 1,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-06-28",
+      "journal": "불교학보",
+      "year": "2025",
+      "volume": "",
+      "issue": "52",
+      "count": 1,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-06-28",
+      "journal": "불교학연구",
+      "year": "2026",
+      "volume": "59",
+      "issue": "1",
+      "count": 1,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-06-28",
+      "journal": "한국불교학",
+      "year": "2025",
+      "volume": "67",
+      "issue": "",
+      "count": 1,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-06-23",
+      "journal": "강좌미술사",
+      "year": "2026",
+      "volume": "66",
+      "issue": "",
+      "count": 12,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-06-07",
+      "journal": "한국불교학",
+      "year": "2026",
+      "volume": "118",
+      "issue": "",
+      "count": 12,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-22",
+      "journal": "무형문화연구",
+      "year": "2026",
+      "volume": "",
+      "issue": "18",
+      "count": 6,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-22",
+      "journal": "불교철학",
+      "year": "2026",
+      "volume": "18",
+      "issue": "",
+      "count": 6,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-18",
+      "journal": "불교학리뷰",
+      "year": "2026",
+      "volume": "39",
+      "issue": "",
+      "count": 5,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-13",
+      "journal": "선학",
+      "year": "2026",
+      "volume": "",
+      "issue": "73",
+      "count": 8,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-13",
+      "journal": "인도철학",
+      "year": "2026",
+      "volume": "",
+      "issue": "76",
+      "count": 5,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-10",
+      "journal": "보조사상",
+      "year": "2026",
+      "volume": "74",
+      "issue": "",
+      "count": 10,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-10",
+      "journal": "불교미술사학",
+      "year": "2026",
+      "volume": "41",
+      "issue": "",
+      "count": 7,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-10",
+      "journal": "불교학연구",
+      "year": "2026",
+      "volume": "86",
+      "issue": "",
+      "count": 1,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-10",
+      "journal": "불교학연구",
+      "year": "2025",
+      "volume": "85",
+      "issue": "",
+      "count": 1,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-10",
+      "journal": "세화불학",
+      "year": "2026",
+      "volume": "8",
+      "issue": "",
+      "count": 8,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-10",
+      "journal": "원불교사상과 종교문화",
+      "year": "2026",
+      "volume": "107",
+      "issue": "",
+      "count": 10,
+      "source": "RISS"
+    },
+    {
+      "date": "2026-05-10",
+      "journal": "한국교수불자연합학회지",
+      "year": "2026",
+      "volume": "32",
+      "issue": "1",
+      "count": 10,
+      "source": "RISS"
+    }
+  ]
+}
