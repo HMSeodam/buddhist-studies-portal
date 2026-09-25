@@ -1,5 +1,20 @@
 name: 논문 데이터 업데이트 (요일별 분산)
 
+# ── 시간 설계 (2026-09 개정) ────────────────────────────────────────────
+# GitHub 호스티드 러너의 작업(job) 최대 시간은 360분이며 그 이상은 늘릴 수 없다.
+# 기존 워크플로는 timeout 을 지정하지 않아 기본값 360분이었고, 9월 들어
+# 실행이 4~5시간대까지 길어져 360분 강제 종료 위험이 커졌다.
+# 강제 종료되면 커밋 단계가 실행되지 않아 그날 수집한 데이터가 전부 사라진다.
+#
+# 그래서 시간을 이렇게 나눈다 (합계 355분 이내):
+#   준비(체크아웃·크롬·패키지)          ~5분
+#   KCI OAI 수집 (선택, 무인증 API)     최대 20분
+#   RISS 수집 + 재시도(휴식 포함)       최대 300분  ← 수집기가 스스로 시간 예산 안에서 멈춤
+#   IBK (매월 1일)                      최대 20분
+#   커밋·푸시                           ~3분  ← always(): 앞 단계가 실패·시간초과여도 반드시 실행
+#
+# 못 끝낸 학술지는 collector/state/riss_pending.json 에 남아 다음 실행이 이어받는다.
+
 on:
   schedule:
     - cron: "0 13 * * 1"   # 월요일 22:00 KST
@@ -13,23 +28,36 @@ on:
   workflow_dispatch:
     inputs:
       day:
-        description: "요일 지정 (mon/tue/wed/thu/fri/sat/sun/all)"
+        description: "요일 지정 (mon/tue/wed/thu/fri/sat/sun/all, 빈칸=오늘)"
         required: false
         default: ""
       target:
-        description: "실행 대상 (riss/ibk/all)"
+        description: "실행 대상 (riss/ibk/kci/all)"
         required: false
         default: "riss"
       depth:
         description: "RISS 확인할 최신 호수 개수 (1 또는 2, 기본: 요일 설정 따름)"
         required: false
         default: ""
+      budget:
+        description: "RISS 전체 시간 예산(분, 기본 290 · 최대 295)"
+        required: false
+        default: ""
+
+# 같은 시각에 두 번 겹쳐 돌지 않도록 (매월 1일 + 요일 스케줄 등) — 앞 작업이 끝날 때까지 대기
+concurrency:
+  group: paper-data-update
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 355          # 러너 한도(360분)보다 조금 짧게 — 커밋 시간을 확보
     permissions:
       contents: write
+    env:
+      TZ: Asia/Seoul              # 로그·요일 판별·날짜를 한국 시간으로
+      PYTHONUNBUFFERED: "1"       # 로그가 실시간으로 보이게
 
     steps:
       - name: 저장소 체크아웃
@@ -39,6 +67,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: collector/requirements.txt
 
       - name: Chrome 설치
         uses: browser-actions/setup-chrome@v1
@@ -54,40 +84,85 @@ jobs:
           if [ -n "$DAY_INPUT" ]; then
             DAY="$DAY_INPUT"
           else
-            # 스케줄 트리거: 오늘 요일 자동 판별
-            DOW=$(date +'%u')   # 1=월 ... 7=일
+            DOW=$(date +'%u')   # 1=월 ... 7=일 (TZ=Asia/Seoul)
             case $DOW in
-              1) DAY="mon" ;;
-              2) DAY="tue" ;;
-              3) DAY="wed" ;;
-              4) DAY="thu" ;;
-              5) DAY="fri" ;;
-              6) DAY="sat" ;;
-              7) DAY="sun" ;;
+              1) DAY="mon" ;; 2) DAY="tue" ;; 3) DAY="wed" ;; 4) DAY="thu" ;;
+              5) DAY="fri" ;; 6) DAY="sat" ;; 7) DAY="sun" ;;
             esac
           fi
           echo "day=$DAY" >> $GITHUB_OUTPUT
           echo "▶ 실행 요일: $DAY"
+          if [ -f collector/state/riss_pending.json ]; then
+            echo "▶ 지난 실행에서 이월된 학술지:"; cat collector/state/riss_pending.json
+          fi
 
-      # ── RISS 업데이트 ─────────────────────────────────────────
+      # ── KCI OAI-PMH (인증키 불필요) ──────────────────────────
+      # 저장소 Settings → Secrets and variables → Actions → Variables 에
+      # KCI_ENABLED = true 를 추가하면 매 실행 때 먼저 돈다. (수동 실행은 target=kci/all)
+      # KCI 에서 먼저 받은 논문은 RISS 가 상세 페이지를 다시 열지 않으므로 RISS 부담이 줄어든다.
+      - name: KCI 신규 논문 수집 (OAI-PMH)
+        if: >
+          vars.KCI_ENABLED == 'true' ||
+          github.event.inputs.target == 'kci' ||
+          github.event.inputs.target == 'all'
+        continue-on-error: true
+        timeout-minutes: 20
+        run: cd collector && python kci_oai_updater.py --deadline-min 18
+        env:
+          KCI_API_KEY: ${{ secrets.KCI_API_KEY }}
+
+      # ── RISS 업데이트 (시간 예산 + 차단 시 휴식 후 재시도) ───────
       - name: RISS 요일별 업데이트
         if: >
           github.event.inputs.target == '' ||
           github.event.inputs.target == 'riss' ||
           github.event.inputs.target == 'all'
-        run: |
-          DEPTH="${{ github.event.inputs.depth }}"
-          if [ -n "$DEPTH" ]; then
-            cd collector && python riss_updater.py --day "${{ steps.day.outputs.day }}" --depth "$DEPTH"
-          else
-            cd collector && python riss_updater.py --day "${{ steps.day.outputs.day }}"
-          fi
+        continue-on-error: true   # 실패·시간초과여도 아래 커밋 단계는 실행
+        timeout-minutes: 300
         env:
           DISPLAY: ""
+        run: |
+          set +e
+          cd collector
+          START=$(date +%s)
+          BUDGET="${{ github.event.inputs.budget }}"
+          BUDGET=${BUDGET:-290}
+          [ "$BUDGET" -gt 295 ] && BUDGET=295
+          DEPTH_ARG=""
+          [ -n "${{ github.event.inputs.depth }}" ] && DEPTH_ARG="--depth ${{ github.event.inputs.depth }}"
+
+          # 1차 시도 → 차단으로 미완료(종료코드 75)면 20분, 다시 40분 쉬었다가 '못 끝낸 학술지만' 재시도
+          WAITS=(0 20 40)
+          CODE=0
+          for i in 0 1 2; do
+            W=${WAITS[$i]}
+            ELAPSED=$(( ($(date +%s) - START) / 60 ))
+            REMAIN=$(( BUDGET - ELAPSED - W ))
+            EXTRA=""
+            if [ $i -gt 0 ]; then
+              if [ $REMAIN -lt 30 ]; then
+                echo "⏹ 남은 예산 ${REMAIN}분 — 재시도 생략 (다음 실행이 이어받음)"
+                break
+              fi
+              echo "⏳ ${W}분 휴식 후 재시도 ($((i+1))/3) — RISS 제한이 풀리기를 기다립니다"
+              sleep $(( W * 60 ))
+              EXTRA="--pending-only"
+            fi
+            echo "▶ 시도 $((i+1)) · 시간 예산 ${REMAIN}분"
+            python riss_updater.py --day "${{ steps.day.outputs.day }}" $DEPTH_ARG \
+                   --deadline-min "$REMAIN" $EXTRA
+            CODE=$?
+            [ $CODE -ne 75 ] && break
+          done
+          echo "RISS 종료 코드: $CODE"
+          # 75(미완료)는 실패로 보지 않음 — 이월 목록이 다음 실행에서 이어받음
+          if [ $CODE -ne 0 ] && [ $CODE -ne 75 ]; then exit $CODE; fi
+          exit 0
 
       # ── IBK 업데이트 (매월 1일 또는 수동) ────────────────────
       - name: 매월 1일 여부 확인
         id: ibk_check
+        if: always()
         run: |
           DAY=$(date +'%d')
           TARGET="${{ github.event.inputs.target }}"
@@ -98,38 +173,50 @@ jobs:
           fi
 
       - name: IBK 업데이트
-        if: steps.ibk_check.outputs.run == 'true'
+        if: always() && steps.ibk_check.outputs.run == 'true'
+        continue-on-error: true
+        timeout-minutes: 20
         run: |
           cd collector
           python ibk_updater.py --depth 2
         env:
           DISPLAY: ""
 
-      # ── 변경 감지 & 커밋 ─────────────────────────────────────
+      # ── 변경 감지 & 커밋 (앞 단계가 실패·시간초과여도 반드시 실행) ──
       - name: 변경된 파일 확인
         id: changes
+        if: always()
         run: |
-          CHANGED=$(git diff --name-only output/ | wc -l)
+          # 깨진 JSON 이 커밋되지 않도록 먼저 검사
+          for f in output/*.json; do
+            python -c "import json,sys; json.load(open(sys.argv[1], encoding='utf-8'))" "$f" \
+              || { echo "✗ JSON 손상: $f → 되돌림"; git checkout -- "$f" 2>/dev/null || rm -f "$f"; }
+          done
+          # 새 파일(updates.json, 이월 목록 등)도 잡히도록 status 사용
+          CHANGED=$(git status --porcelain -- output/ collector/state/ | wc -l)
           echo "changed=$CHANGED" >> $GITHUB_OUTPUT
           if [ "$CHANGED" -gt "0" ]; then
-            echo "변경된 파일:"
-            git diff --name-only output/
+            echo "변경된 파일:"; git status --porcelain -- output/ collector/state/
           else
             echo "변경 없음"
           fi
 
       - name: 커밋 & 푸시
-        if: steps.changes.outputs.changed != '0'
+        if: always() && steps.changes.outputs.changed != '0'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/
+          git add -A output/ collector/state/
           DAY="${{ steps.day.outputs.day }}"
           DATE=$(date +'%Y-%m-%d')
-          git commit -m "data: RISS 업데이트 [$DAY] $DATE"
-          git pull --rebase origin main
-          git push
+          git commit -m "data: RISS 업데이트 [$DAY] $DATE" || exit 0
+          # 다른 커밋과 겹칠 때를 대비해 최대 3번 재시도
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "푸시 재시도 $i/3"; sleep $(( i * 15 ))
+          done
+          exit 1
 
       - name: 업데이트 없음 안내
-        if: steps.changes.outputs.changed == '0'
+        if: always() && steps.changes.outputs.changed == '0'
         run: echo "새 논문 없음 — 커밋 건너뜀"
