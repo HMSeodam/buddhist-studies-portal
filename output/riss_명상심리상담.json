@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.48,
     "control_no": "2158cb1ffaedc442ffe0bdc3ef48d419",
-    "last_updated": "2026-09-10"
+    "last_updated": "2026-09-26"
   },
   "articles": [
     {
@@ -7629,9 +7629,9 @@
       "issue": "",
       "start_page": "1",
       "end_page": "15",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.35.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=528b0fecc4b3571bb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003298548",
       "keywords_kr": [
         "중장년",
         "타인자비 증진 명상 프로그램",
@@ -7647,7 +7647,8 @@
         "helping behavior"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003298548"
     },
     {
       "article_id": "528b0fecc4b3571be9810257f7042666",
@@ -7668,9 +7669,9 @@
       "issue": "",
       "start_page": "17",
       "end_page": "30",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.35.2",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=528b0fecc4b3571be9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003298551",
       "keywords_kr": [
         "유아교사",
         "호흡명상",
@@ -7684,7 +7685,8 @@
         "Mindfulness"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003298551"
     },
     {
       "article_id": "528b0fecc4b3571b4884a65323211ff0",
@@ -7792,9 +7794,9 @@
       "issue": "",
       "start_page": "63",
       "end_page": "81",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.35.5",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=528b0fecc4b3571bd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003298558",
       "keywords_kr": [
         "감정형 영상관법",
         "우울정서",
@@ -7809,7 +7811,8 @@
         "single-case study"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003298558"
     },
     {
       "article_id": "528b0fecc4b3571b7f7a54760bb41745",
@@ -7867,9 +7870,9 @@
       "issue": "",
       "start_page": "99",
       "end_page": "111",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.35.7",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=528b0fecc4b3571b6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003298565",
       "keywords_kr": [
         "불자",
         "불교 신행 생활",
@@ -7885,7 +7888,8 @@
         "consensual qualitative research method"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003298565"
     },
     {
       "article_id": "528b0fecc4b3571b47de9c1710b0298d",
@@ -7982,9 +7986,9 @@
       "issue": "",
       "start_page": "137",
       "end_page": "147",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.35.10",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=528b0fecc4b3571b7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003298569",
       "keywords_kr": [
         "기도참여자",
         "감사성향",
@@ -8000,7 +8004,8 @@
         "moderating effect"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003298569"
     },
     {
       "article_id": "01dcc6086a8334436aae8a972f9116fb",

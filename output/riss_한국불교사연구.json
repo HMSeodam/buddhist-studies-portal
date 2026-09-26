@@ -4,7 +4,7 @@
     "category": "불교사학",
     "impact_factor": 0.33,
     "control_no": "864d8da7fde953e0ffe0bdc3ef48d419",
-    "last_updated": "2026-08-14"
+    "last_updated": "2026-09-26"
   },
   "articles": [
     {
@@ -9733,6 +9733,35 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "b9cbcf4b80af76f747de9c1710b0298d"
+    },
+    {
+      "article_id": "ART003293645",
+      "id": "ART003293645",
+      "kci_id": "ART003293645",
+      "title_kr": "출간 100년의 󰡔『님의 침묵』  독자 확산 양상 연구",
+      "title_en": "A Study on the Spread of Readers in 100 Years of  Publication of “The Silence of Nim”",
+      "authors": [
+        {
+          "name": "백원근",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "한국 문학사에서 불멸의 국민 시집인 <<님의 침묵>>이 출간 1세기를맞이하였다. 󰡔<<님의 침묵>>의 현재적 위상을 객관적으로 살피고자 출판 역사와 현황, 문인들의 작품에 대한 인식, 중고등학교 교과서 게재연혁, 해외 출간 현황에 대해 조사하였다.\n<<님의 침묵>>은 1926년 첫 출간 이후 시집 152종 등 모두 179종의관련서가 발행되었으며, 1980년대 이후에도 총 78종의 도서가 유통되었다. 󰡔님의 침묵󰡕은 한 세기의 시간을 뛰어넘어 생명력이 긴 스테디셀러로서 오늘의 독자들과 만나고 있다. 또한 󰡔님의 침묵󰡕은 문인들이 추천한 ‘21세기에 남을 한국의 고전’에서 시 부문 최고 추천작(1999년)으로 선정되고, 문인들이 뽑은 ‘역대 최고의 작품’(2018년) 중최상위권의 시 작품으로 꼽히는 등 높은 평가를 받았다. 반면, 국정교과서 시대 이후 검인정 교과서 시대에는 중고등 국어 교과서에 수록된 작품 종수가 대폭 줄었고, 외국어 번역 시집이 10개 언어로발행되는 데 그친 상황으로 파악되었다. 향후 󰡔님의 침묵󰡕이 미래세대 및 세계의 독자들과 만날 수 있도록 국내외 출판 활동의 촉진과교과서 수록 증대 활동 등이 긴요하다.",
+      "abstract_en": "“The Silence of Nim” an immortal national collection of poems in the history of Korean literature, marks the century of publication. In order to objectively examine the present status of “The Silence of Nim,” we investigated the history and current status of publication, the perception of the works of writers, the history of publication of middle and high school textbooks, and the current status of overseas publication. Since its first publication in 1926, a total of 179 kinds of related books, including 152 kinds of poetry collections, have been published, and 78 kinds of books have been distributed since the 1980s. “The Silence of Nim” is a steady seller who has a long life span over a century and is meeting with today's readers. In addition, “The Silence of Nim” was selected as the best recommended work in the poetry category in the “Korean Classics for the 21st Century” (1999) recommended by writers and was considered the top-ranked poetry work among the “Best Works of All Time” (2018) selected by writers. On the other hand, since the era of state-run textbooks, the number of works included in middle and high school Korean textbooks has decreased significantly, and only 10 languages of translated poetry are published, making efforts to include textbooks and publish foreign translated poems.",
+      "journal_name": "한국불교사연구",
+      "year": "2025",
+      "volume": "",
+      "issue": "28",
+      "start_page": "135",
+      "end_page": "162",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003293645",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI"
     }
   ],
   "by_year": {
