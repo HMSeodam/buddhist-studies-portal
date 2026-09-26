@@ -86,3 +86,18 @@ def record_update(output_dir: str, journal: str, count: int, *, volume="", issue
     ups.sort(key=lambda u: u.get("date", ""), reverse=True)
     log["updates"] = ups[:MAX_UPDATES]
     atomic_write_json(_path(output_dir), log)
+
+
+def retract_update(output_dir: str, journal: str, count: int, *, volume="", issue="", source="KCI"):
+    """잘못 기록된 공지 편수를 되돌림 (0이 되면 항목 삭제). 가장 최근 항목부터 찾는다."""
+    log = load_log(output_dir)
+    ups = log["updates"]
+    for u in ups:
+        if (u.get("journal") == journal and source in (u.get("source") or "")
+                and str(u.get("volume") or "") == str(volume or "") and str(u.get("issue") or "") == str(issue or "")):
+            u["count"] = int(u.get("count", 0)) - int(count)
+            break
+    else:
+        return
+    log["updates"] = [u for u in ups if int(u.get("count", 0)) > 0]
+    atomic_write_json(_path(output_dir), log)

@@ -45,6 +45,7 @@ from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from update_log import record_update, atomic_write_json, today_kst   # noqa: E402
+from match_util import find_same   # noqa: E402
 
 OUTPUT_DIR = "../output"
 STATE_FILE = "state/riss_pending.json"     # collector/state/ — 이월 목록 (워크플로가 함께 커밋)
@@ -704,6 +705,11 @@ def get_articles_by_issue(sess: RissSession, issue: dict, control_no: str,
         full_url = RISS_BASE + href if href.startswith("/") else href
         # 같은 제목의 기존 레코드(KCI 수집분 등)가 있으면 링크만 연결
         ex = title_index.get(norm_title(title))
+        if ex is None or ex.get("riss_url"):
+            # 제목 표기가 조금 다른 KCI 수집분(번역 제목 병기·각주 표시 등)도 같은 논문으로 인식
+            pool = [a for a in title_index.values() if not a.get("riss_url")]
+            ex = find_same({"title_kr": title, "year": issue.get("year", ""),
+                            "volume": issue.get("volume", ""), "issue": issue.get("issue", "")}, pool)
         if ex is not None and not ex.get("riss_url"):
             ex["riss_url"] = full_url
             ex["riss_id"] = art_id

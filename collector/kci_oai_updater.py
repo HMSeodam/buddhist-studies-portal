@@ -34,7 +34,8 @@ from pathlib import Path
 import requests
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from update_log import record_update, atomic_write_json, today_kst   # noqa: E402
+from update_log import record_update, retract_update, atomic_write_json, today_kst   # noqa: E402
+from match_util import find_same, clean_title   # noqa: E402
 
 OUTPUT_DIR = "../output"
 STATE_FILE = "state/kci_state.json"
@@ -272,7 +273,8 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
             if r["kci_id"] in seen:
                 continue
             seen.add(r["kci_id"]); fresh += 1; stats["total"] += 1
-            ours = KCI_NAME_MAP.get(_norm(r["journal"]))
+            ours = (KCI_NAME_MAP.get(_norm(r["journal"]))
+                    or KCI_NAME_MAP.get(_norm(re.sub(r"[\(（\[].*?[\)）\]]", "", r["journal"]))))
             if ours:
                 r["journal_ours"] = ours
                 matched.append(r)
@@ -362,7 +364,7 @@ def to_article(r: dict) -> dict:
     orig_is_en = bool(re.match(r"^[\x00-\x7F]+$", r["title_orig"] or "")) and r["language"] in ("영어", "English")
     return {
         "article_id": r["kci_id"], "id": r["kci_id"], "kci_id": r["kci_id"],
-        "title_kr": r["title_orig"],
+        "title_kr": clean_title(r["title_orig"]),
         "title_en": r["title_en"] if not orig_is_en else "",
         "authors": r["authors"],
         "abstract_kr": r["abstract_orig"] if not orig_is_en else "",
@@ -379,43 +381,84 @@ def to_article(r: dict) -> dict:
 
 FILL_FIELDS = ["title_en", "abstract_kr", "abstract_en", "doi", "start_page", "end_page", "kci_url", "kci_id", "year"]
 
+def _absorb(ex: dict, new: dict) -> bool:
+    """기존 레코드(ex)의 빈 칸만 새 정보로 채움. 바뀌면 True."""
+    changed = False
+    for k in FILL_FIELDS:
+        if new.get(k) and not ex.get(k):
+            ex[k] = new[k]; changed = True
+    kmap = {x.get("name"): x.get("affiliation", "") for x in (new.get("authors") or [])}
+    for au in ex.get("authors", []) or []:
+        if not au.get("affiliation") and kmap.get(au.get("name")):
+            au["affiliation"] = kmap[au["name"]]; changed = True
+    if not ex.get("authors") and new.get("authors"):
+        ex["authors"] = new["authors"]; changed = True
+    for k in ("keywords_kr", "keywords_en"):
+        if new.get(k) and not ex.get(k):
+            ex[k] = new[k]; changed = True
+    return changed
+
+
+def dedupe_kci_added(jname: str, arts: list, dry: bool) -> int:
+    """
+    예전 실행에서 KCI 로 '새 논문'으로 들어갔지만 실은 RISS 에 이미 있던 레코드를 찾아
+    RISS 레코드에 정보를 합치고 지운다. 잘못 올라간 공지 편수도 함께 되돌린다.
+    """
+    others = [a for a in arts if a.get("source") != "KCI"]
+    removed = []
+    for a in [x for x in arts if x.get("source") == "KCI"]:
+        ex = find_same(a, others)
+        if ex is None:
+            continue
+        _absorb(ex, a)
+        if a.get("kci_url") and not ex.get("kci_url"): ex["kci_url"] = a["kci_url"]
+        if a.get("kci_id"): ex["kci_id"] = a["kci_id"]
+        removed.append(a)
+    if removed:
+        ids = {id(a) for a in removed}
+        arts[:] = [a for a in arts if id(a) not in ids]
+        print(f"  [{jname}] 이전 실행의 KCI 중복 {len(removed)}건 정리 (RISS 레코드에 합침)")
+        if not dry:
+            for a in removed:
+                retract_update(OUTPUT_DIR, jname, 1, volume=a.get("volume", ""), issue=a.get("issue", ""), source="KCI")
+    return len(removed)
+
+
 def merge(records: list, dry: bool, api_key: str) -> dict:
     by_journal = {}
     for r in records:
         by_journal.setdefault(r["journal_ours"], []).append(r)
+    # 새로 받은 게 없어도, 이전 실행의 중복은 정리
+    for p in Path(OUTPUT_DIR).glob("riss_*.json"):
+        jn = p.stem[5:]
+        if jn not in by_journal:
+            by_journal[jn] = []
     summary = {}
     for jname, recs in by_journal.items():
         path = Path(OUTPUT_DIR) / f"riss_{jname}.json"
+        if not recs and not path.exists():
+            continue
         data = json.load(open(path, encoding="utf-8")) if path.exists() else {"info": {"name": jname}, "articles": []}
         if isinstance(data, list):
             data = {"info": {"name": jname}, "articles": data}
         arts = data["articles"]
-        idx_id, idx_doi, idx_title = {}, {}, {}
+        cleaned = dedupe_kci_added(jname, arts, dry)
+        idx_id, idx_doi = {}, {}
         for a in arts:
             if a.get("kci_id"): idx_id[a["kci_id"]] = a
             m = re.search(r"ART\d+", a.get("kci_url", "") or "")
             if m: idx_id.setdefault(m.group(), a)
             if a.get("doi"): idx_doi[a["doi"].lower()] = a
-            nt = norm_title(a.get("title_kr", ""))
-            if nt: idx_title.setdefault(nt, a)
         added, filled = [], 0
         for r in recs:
             new = to_article(r)
             ex = (idx_id.get(r["kci_id"]) or (idx_doi.get(r["doi"].lower()) if r["doi"] else None)
-                  or idx_title.get(norm_title(r["title_orig"])))
+                  or find_same(new, arts))
             if ex is not None:
-                changed = False
-                for k in FILL_FIELDS:
-                    if new.get(k) and not ex.get(k):
-                        ex[k] = new[k]; changed = True
-                # 저자는 있고 소속만 비어 있으면 이름이 같은 경우에 소속만 채움
-                kmap = {x["name"]: x.get("affiliation", "") for x in new["authors"]}
-                for au in ex.get("authors", []) or []:
-                    if not au.get("affiliation") and kmap.get(au.get("name")):
-                        au["affiliation"] = kmap[au["name"]]; changed = True
-                if not ex.get("authors") and new["authors"]:
-                    ex["authors"] = new["authors"]; changed = True
-                filled += changed
+                ch = _absorb(ex, new)
+                if not ex.get("kci_id"): ex["kci_id"] = r["kci_id"]; ch = True
+                filled += ch
+                idx_id[r["kci_id"]] = ex
                 continue
             if api_key:
                 kws = fetch_keywords(r["kci_id"], api_key)
@@ -425,12 +468,13 @@ def merge(records: list, dry: bool, api_key: str) -> dict:
                 time.sleep(THROTTLE)
             arts.append(new); added.append(new)
             idx_id[r["kci_id"]] = new
-            idx_title[norm_title(new["title_kr"])] = new
-        summary[jname] = (len(added), filled)
-        print(f"  [{jname}] 새 논문 {len(added)}편 · 기존 레코드 보완 {filled}건")
-        if dry or (not added and not filled):
+        if recs or cleaned:
+            summary[jname] = (len(added), filled)
+            print(f"  [{jname}] 새 논문 {len(added)}편 · 기존 레코드 보완 {filled}건")
+        if dry or (not added and not filled and not cleaned):
             continue
-        data.setdefault("info", {"name": jname})["last_updated"] = today_kst()
+        if added or filled:
+            data.setdefault("info", {"name": jname})["last_updated"] = today_kst()
         atomic_write_json(path, data)
         groups = {}
         for a in added:
