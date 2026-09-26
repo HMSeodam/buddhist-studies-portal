@@ -44,7 +44,7 @@ from pathlib import Path
 from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from update_log import record_update, atomic_write_json, today_kst   # noqa: E402
+from update_log import record_update, retract_update, atomic_write_json, today_kst   # noqa: E402
 from match_util import find_same   # noqa: E402
 
 OUTPUT_DIR = "../output"
@@ -693,6 +693,9 @@ def get_articles_by_issue(sess: RissSession, issue: dict, control_no: str,
     new_arts, linked = [], 0
     for lk in soup.find_all("a", href=lambda h: h and "p_mat_type=1a0202" in str(h)):
         href   = lk.get("href", "")
+        # RISS 가 목록 옆에 띄우는 '함께 본 논문' 추천(recommender/click.do)은 다른 학술지 논문 → 제외
+        if "recommender" in href or "click.do" in href or "DetailView" not in href:
+            continue
         m      = re.search(r"control_no=([a-f0-9]+)", href)
         if not m:
             continue
@@ -1010,10 +1013,40 @@ def process_journal(sess, journal, depth, existing_ids) -> tuple:
     return len(added), complete
 
 
+def purge_recommended() -> int:
+    """
+    예전 수집기가 '함께 본 논문' 추천 링크까지 긁어 와 다른 학술지 논문이 섞여 들어간 것을 정리.
+    (riss_url 이 recommender/click.do 인 레코드) 관련 공지 편수도 되돌린다.
+    """
+    removed = 0
+    for path in sorted(Path(OUTPUT_DIR).glob("riss_*.json")):
+        try:
+            data = json.load(open(path, encoding="utf-8"))
+        except Exception:
+            continue
+        arts = data.get("articles", data) if isinstance(data, dict) else data
+        bad = [a for a in arts if "/recommender/" in (a.get("riss_url") or "") and a.get("source", "RISS") == "RISS"]
+        if not bad:
+            continue
+        keep = [a for a in arts if a not in bad]
+        if isinstance(data, dict):
+            data["articles"] = keep
+        else:
+            data = keep
+        atomic_write_json(path, data)
+        name = path.stem[5:]
+        for a in bad:
+            retract_update(OUTPUT_DIR, name, 1, volume=a.get("volume", ""), issue=a.get("issue", ""), source="RISS")
+        print(f"  🧹 [{name}] 다른 학술지 논문(추천 링크) {len(bad)}편 삭제: " + " / ".join(a.get("title_kr", "")[:20] for a in bad[:3]))
+        removed += len(bad)
+    return removed
+
+
 def run(day_key: str, depth_override: int = None, deadline_min: float = 300,
         only: list = None, pending_only: bool = False) -> int:
     Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
     Path(STATE_FILE).parent.mkdir(parents=True, exist_ok=True)
+    purged = purge_recommended()
     existing_ids = load_all_existing_ids()
     guard = Guard(deadline_min)
 

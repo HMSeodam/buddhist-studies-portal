@@ -1274,7 +1274,9 @@ function ingest(fname, data){
   S.db.journals[jname]={info:{...info,name:jname,category,country}};
   S.jmeta[jname]={category,country,publisher:info.publisher||"",last_updated:info.last_updated||""};
   // 중복 레코드 병합: 같은 연도끼리만 비교 (RISS 원본 레코드를 우선, KCI 는 링크·DOI 만 보탬)
-  const all=arts.map(art=>{ const it=toIndexItem(art,jname,category,country); it._mt=mNt(it.title_kr); return it; });
+  // RISS '함께 본 논문' 추천 링크로 잘못 섞여 들어온 다른 학술지 논문은 제외
+  const all=arts.filter(art=>!/\/recommender\//.test(art.riss_url||""))
+    .map(art=>{ const it=toIndexItem(art,jname,category,country); it._mt=mNt(it.title_kr); return it; });
   all.sort((x,y)=>(x.source==="KCI")-(y.source==="KCI"));
   const byYear=new Map(), items=[];
   for(const it of all){
@@ -1329,6 +1331,7 @@ async function loadDB(){
   }
   S.db.meta.total_articles=S.idx.length;
   await notesP;
+  filterNotices(); renderNotices();
   init();
   if(cache && fromCache>0) setTimeout(()=>checkForUpdates(cache),1500);
 }
@@ -1368,9 +1371,17 @@ async function checkForUpdates(cache){
 async function loadNotices(){
   try{
     const r=await fetch("./output/updates.json",{cache:"no-cache"});
-    if(r.ok){ const d=await r.json(); S.updates={notices:d.notices||[],updates:d.updates||[]}; }
+    if(r.ok){ const d=await r.json(); S.updates={notices:d.notices||[],updates:d.updates||[],raw:d.updates||[]}; }
   }catch(e){}
+  filterNotices();
   renderNotices();
+}
+// 공지에 적힌 호의 논문이 실제로 있을 때만 보여 줌 (잘못 기록된 공지 숨김)
+function filterNotices(){
+  if(!S.idx.length||!S.updates.raw) return;
+  const numSet=(v,i)=>[normNum(v),normNum(i)].filter(x=>x&&x!=="0").sort().join(",");
+  const have=new Set(S.idx.map(a=>a.journal_name+"|"+a.year+"|"+numSet(a.volume,a.issue)));
+  S.updates.updates=S.updates.raw.filter(u=>!S.jmeta[u.journal]||have.has(u.journal+"|"+u.year+"|"+numSet(u.volume,u.issue)));
 }
 function lsGet(k){ try{ return localStorage.getItem(k)||""; }catch(e){ return ""; } }
 function lsSet(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
