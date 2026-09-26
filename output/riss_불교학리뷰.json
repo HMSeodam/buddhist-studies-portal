@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.61,
     "control_no": "b4d6ff724148c295ffe0bdc3ef48d419",
-    "last_updated": "2026-09-26"
+    "last_updated": "2026-09-27"
   },
   "articles": [
     {
@@ -6440,7 +6440,7 @@
     {
       "article_id": "60f8177358eb25cfd18150b21a227875",
       "title_kr": "Reframing Bhāviveka",
-      "title_en": "",
+      "title_en": "Reframing Bhāviveka",
       "authors": [
         {
           "name": "Jundo Nagashima",
@@ -6456,9 +6456,9 @@
       "issue": "",
       "start_page": "13",
       "end_page": "48",
-      "doi": "",
+      "doi": "10.29213/crbs..20.201612.13",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=60f8177358eb25cfd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002178313",
       "keywords_kr": [
         "자립논증파(Svātantrika)",
         "귀류논증파(Prāsaṅgika)",
@@ -6476,7 +6476,8 @@
         "Atiśa"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002178313"
     },
     {
       "article_id": "f3fb6d6ad91b8809d18150b21a227875",
@@ -6538,9 +6539,9 @@
       "issue": "",
       "start_page": "49",
       "end_page": "94",
-      "doi": "",
+      "doi": "10.29213/crbs..20.201612.49",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=60f8177358eb25cf6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002178348",
       "keywords_kr": [
         "중관파",
         "티벳학파",
@@ -6554,7 +6555,8 @@
         "Svātantrika"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002178348"
     },
     {
       "article_id": "f3fb6d6ad91b8809e9810257f7042666",
@@ -6607,9 +6609,9 @@
       "issue": "",
       "start_page": "95",
       "end_page": "138",
-      "doi": "",
+      "doi": "10.29213/crbs..20.201612.95",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=166cf130cfb0bffa7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002178378",
       "keywords_kr": [
         "부정대상"
       ],
@@ -6625,7 +6627,8 @@
         "Geluk Tradition (dge lugs pa)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002178378"
     },
     {
       "article_id": "f3fb6d6ad91b88096aae8a972f9116fb",
@@ -6671,7 +6674,7 @@
     {
       "article_id": "166cf130cfb0bffab36097776a77e665",
       "title_kr": "“If Apprehending Occurs, It is not the View” — Sakya Thinkers on the Madhyamaka View of Freedom from Proliferations",
-      "title_en": "",
+      "title_en": "“If Apprehending Occurs, It is not the View” — Sakya Thinkers on the Madhyamaka View of Freedom from Proliferations",
       "authors": [
         {
           "name": "Yaroslav Komarovski",
@@ -6687,9 +6690,9 @@
       "issue": "",
       "start_page": "139",
       "end_page": "170",
-      "doi": "",
+      "doi": "10.29213/crbs..20.201612.139",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=166cf130cfb0bffab36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002178424",
       "keywords_kr": [
         "싸꺄학파(Sakya)",
         "중관파",
@@ -6703,7 +6706,8 @@
         "Tibetan Buddhism"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002178424"
     },
     {
       "article_id": "fbcb55996e34ff0c7ecd42904f0c5d65",
@@ -6761,9 +6765,9 @@
       "issue": "",
       "start_page": "171",
       "end_page": "197",
-      "doi": "",
+      "doi": "10.29213/crbs..20.201612.171",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=166cf130cfb0bffa4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002178443",
       "keywords_kr": [
         "중관학파",
         "유가행파",
@@ -6779,7 +6783,8 @@
         "inconceivable"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002178443"
     },
     {
       "article_id": "fbcb55996e34ff0cb36097776a77e665",
@@ -6823,7 +6828,7 @@
     {
       "article_id": "166cf130cfb0bffab7998d826d417196",
       "title_kr": "‘사위성 신변’과 대승불교미술의 기원-연구사와 전망",
-      "title_en": "",
+      "title_en": "“The Miracle at Sravasti and the Origin of Mahayana Buddhist Art - History and Perspect\" by Miyaji Akira",
       "authors": [
         {
           "name": "이선이(태경)",
@@ -6839,18 +6844,19 @@
       "issue": "",
       "start_page": "201",
       "end_page": "251",
-      "doi": "",
+      "doi": "10.29213/crbs..20.201612.201",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=166cf130cfb0bffab7998d826d417196",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002178467"
     },
     {
       "article_id": "166cf130cfb0bffac85d2949c297615a",
       "title_kr": "상캬 전통의 계보와 교의서의 요건 : 『육띠디삐까』(Yuktidīpikā) 역주 (1)",
-      "title_en": "",
+      "title_en": "The Four Books of the Sāṃkhyas and the Sāṃkhyakārikā’s Conditions for being an Independent Tantra: An Annotated Translation of the Yuktidīpikā (I)",
       "authors": [
         {
           "name": "강형철",
@@ -6871,18 +6877,19 @@
       "issue": "",
       "start_page": "255",
       "end_page": "293",
-      "doi": "",
+      "doi": "10.29213/crbs..20.201612.255",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=166cf130cfb0bffac85d2949c297615a",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002178489"
     },
     {
       "article_id": "acccc2bc6f191cc04884a65323211ff0",
       "title_kr": "Once Again on “Dhātu-vāda”",
-      "title_en": "",
+      "title_en": "Once Again on “Dhātu-vāda”",
       "authors": [
         {
           "name": "Nobuyoshi Yamabe",
@@ -6898,9 +6905,9 @@
       "issue": "",
       "start_page": "9",
       "end_page": "43",
-      "doi": "",
+      "doi": "10.29213/crbs..21.201706.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=acccc2bc6f191cc04884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002234428",
       "keywords_kr": [
         "기체",
         "본성주종성",
@@ -6915,7 +6922,8 @@
         "Walpola Rahula"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002234428"
     },
     {
       "article_id": "f22ea0027674d3e56aae8a972f9116fb",
@@ -6958,7 +6966,7 @@
     {
       "article_id": "acccc2bc6f191cc0b7998d826d417196",
       "title_kr": "Some Citations and Similes Common in the Ratnagotravibhāga and the Yogācāra Texts",
-      "title_en": "",
+      "title_en": "Some Citations and Similes Common in the Ratnagotravibhāga and the Yogācāra Texts",
       "authors": [
         {
           "name": "Sungdoo Ahn",
@@ -6974,9 +6982,9 @@
       "issue": "",
       "start_page": "45",
       "end_page": "84",
-      "doi": "",
+      "doi": "10.29213/crbs..21.201706.45",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=acccc2bc6f191cc0b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002234465",
       "keywords_kr": [
         "유식과 여래장 사상",
         "허공의 비유",
@@ -6995,7 +7003,8 @@
         "Natural purity"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002234465"
     },
     {
       "article_id": "46a78827732aa5267ecd42904f0c5d65",
@@ -7042,7 +7051,7 @@
     {
       "article_id": "acccc2bc6f191cc0c85d2949c297615a",
       "title_kr": "Rong-zom-pa’s Ontological Abyss : Where the Positivistic Ontology of the Tathāgatagarbha School and the Negativistic Ontology of the Sarvadharmāpratiṣṭhānavāda School Meet",
-      "title_en": "",
+      "title_en": "Rong-zom-pa’s Ontological Abyss: Where the Positivistic Ontology of the Tathāgatagarbha School and the Negativistic Ontology of the Sarvadharmāpratiṣṭhānavāda School Meet",
       "authors": [
         {
           "name": "Dorji Wangchuk",
@@ -7058,9 +7067,9 @@
       "issue": "",
       "start_page": "85",
       "end_page": "107",
-      "doi": "",
+      "doi": "10.29213/crbs..21.201706.85",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=acccc2bc6f191cc0c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002234504",
       "keywords_kr": [
         "롱솜빠",
         "여래장",
@@ -7080,7 +7089,8 @@
         "substratum- less-ness"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002234504"
     },
     {
       "article_id": "34c6c7ee6aaaade5c85d2949c297615a",
@@ -7144,9 +7154,9 @@
       "issue": "",
       "start_page": "109",
       "end_page": "136",
-      "doi": "",
+      "doi": "10.29213/crbs..21.201706.109",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=acccc2bc6f191cc047de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002234532",
       "keywords_kr": [
         "불성",
         "유식",
@@ -7164,7 +7174,8 @@
         "self-awareness"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002234532"
     },
     {
       "article_id": "34c6c7ee6aaaade5b7998d826d417196",
@@ -7210,7 +7221,7 @@
     {
       "article_id": "acccc2bc6f191cc07f7a54760bb41745",
       "title_kr": "리처드 곰브리치의 How Buddhism Began",
-      "title_en": "",
+      "title_en": "How Buddhism Began by Richard F. Gombrich",
       "authors": [
         {
           "name": "김현구",
@@ -7218,21 +7229,22 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "불교학리뷰",
       "year": "2017",
       "volume": "21",
       "issue": "",
       "start_page": "137",
       "end_page": "149",
-      "doi": "",
+      "doi": "10.29213/crbs..21.201706.139",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=acccc2bc6f191cc07f7a54760bb41745",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002234540"
     },
     {
       "article_id": "706b53606bd33304b7998d826d417196",
@@ -7253,7 +7265,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "61",
-      "doi": "",
+      "doi": "10.29213/crbs..22.201712.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=706b53606bd33304b7998d826d417196",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -7269,7 +7281,8 @@
         "stūpa"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002298728"
     },
     {
       "article_id": "fa9af8aa81b5bfb64884a65323211ff0",
@@ -7320,14 +7333,14 @@
         }
       ],
       "abstract_kr": "Among the positions within the post-classical Tibetan tathāgatagarbha debates, the Eighth Karmapa Mi bskyod rdo rje’s pointedly stands out by reason of his categorical denial that the mind-stream of sentient beings contains a buddha nature, not even one in the sense of subtle seeds of buddha qualities. The entire repertoire of one’s psycho-physical aggregates consists of nothing but adventitious stains. What is covered up by them is an all-pervading but ontologically separate buddha. Consequently the ‘profane’ and ‘sacred’ also have different foundations, the ‘all-ground consciousness’ (kun gzhi rnam shes) and ‘all-ground wisdom’ (kun gzhi ye shes), two categories that are typical of the Jonangpas. In the introduction to his Madhyamakāvatāra, Mi bskyod rdo rje also criticizes the popular interpretation of the Mahāmudrā teaching that thoughts appear as the dharmakāya and excludes the possibility that the two are one in essence.In the present paper I will seek to further our understanding of Mi bskyod rdo rje’s position on buddha nature by looking at how he describes it in relation to adventitious stains in comparison to ‘Gos Lo tsā ba gZhon nu dpal (1392-1481) and Dol po pa Shes rab rgyal mtshan (1292-1361). The main focus will be his commentaries on the Madhyamakāvatāra (introduction), the Abhisamayālaṃkāra (introduction), the sKu gsum ngo sprod rnam bshad, the Phyag rgya chen po’i sgros ‘bum and Mi bskyod rdo rje’s independent work on gzhan stong, the dBu ma gzhan stong smra ba’i srol legs par phye ba’i sgron me. Of particular interest will be also Mi bskyod rdo rje’s review of ’Gos Lo tsā ba gZhon nu dpal’s Kālacakra commentary rGyud gsum gsang ba, on the basis of which Mi bskyod rdo rje’s denial of a buddha nature in the sense of an individual nature of mind that differs from a Buddha is most forcefully made.",
-      "abstract_en": "",
+      "abstract_en": "Among the positions within the post-classical Tibetan tathāgatagarbha debates, the Eighth Karmapa Mi bskyod rdo rje’s pointedly stands out by reason of his categorical denial that the mind-stream of sentient beings contains a buddha nature, not even one in the sense of subtle seeds of buddha qualities. The entire repertoire of one’s psycho-physical aggregates consists of nothing but adventitious stains. What is covered up by them is an all-pervading but ontologically separate buddha. Consequently the ‘profane’ and ‘sacred’ also have different foundations, the ‘all-ground consciousness’ (kun gzhi rnam shes) and ‘all-ground wisdom’ (kun gzhi ye shes), two categories that are typical of the Jonangpas. In the introduction to his Madhyamakāvatāra, Mi bskyod rdo rje also criticizes the popular interpretation of the Mahāmudrā teaching that thoughts appear as the dharmakāya and excludes the possibility that the two are one in essence.\nIn the present paper I will seek to further our understanding of Mi bskyod rdo rje’s position on buddha nature by looking at how he describes it in relation to adventitious stains in comparison to ‘Gos Lo tsā ba gZhon nu dpal (1392-1481) and Dol po pa Shes rab rgyal mtshan (1292-1361). The main focus will be his commentaries on the Madhyamakāvatāra (introduction), the Abhisamayālaṃkāra (introduction), the sKu gsum ngo sprod rnam bshad, the Phyag rgya chen po’i sgros ‘bum and Mi bskyod rdo rje’s independent work on gzhan stong, the dBu ma gzhan stong smra ba’i srol legs par phye ba’i sgron me. Of particular interest will be also Mi bskyod rdo rje’s review of ’Gos Lo tsā ba gZhon nu dpal’s Kālacakra commentary rGyud gsum gsang ba, on the basis of which Mi bskyod rdo rje’s denial of a buddha nature in the sense of an individual nature of mind that differs from a Buddha is most forcefully made.",
       "journal_name": "불교학리뷰",
       "year": "2017",
       "volume": "22",
       "issue": "",
       "start_page": "63",
       "end_page": "104",
-      "doi": "",
+      "doi": "10.29213/crbs..22.201712.63",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=706b53606bd333047f7a54760bb41745",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -7347,7 +7360,8 @@
         "Dol po pa Shes rab rgyal mtshan"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002298753"
     },
     {
       "article_id": "fa9af8aa81b5bfb6b7998d826d417196",
@@ -7402,14 +7416,14 @@
         }
       ],
       "abstract_kr": "This article begins with a reflection on why medieval Chinese Buddhist thought has not been more conspicuous in recent comparative work on Buddhism and Western philosophy. The Japanese proponents of “Critical Buddhism” (hihan bukkyō 批判仏教), Matsumoto Shirō 松本史朗 and Hakamaya Noriaki 袴谷憲昭, would see this neglect as merited since, in their view, East Asian Buddhism in general, and Chinese Chan in particular, is philosophically crippled owing to its embrace of tathāgatagarbha and buddha-nature thought. Indeed, Matsumoto singles out Shenhui 荷澤神會 (670-762), one of the architects of the Southern School of Chan, as an example of the early Chan advocacy of buddha-nature doctrine.This article is not concerned with whether buddha-nature and tathāgatagarbha thought is actually deleterious to critical philosophical work. Rather, the concern is to demonstrate that, far from embracing buddha-nature doctrine, the eighth-century founders of Southern Chan had serious concerns with it. Evidence for this is found in: (1) the writings of Shenhui, notably in his opposition to the doctrine of the “buddha-nature of insentient objects” (wuqing foxing 無情佛性); and (2) the Platform Scripture of the Sixth Patriarch (Liuzu tanjing 六祖壇經), particularly in the variant versions of Huineng’s famous “enlightenment verse.” Thus the Southern School may be viewed as a forerunner of the Critical Buddhist anti-dhātuvāda polemics. The article closes with comments on the ongoing problems Chinese Buddhist exegetes had in marrying the metaphysical monism of Yogācāra and tathāgatagarbha teachings with the anti-foundationalist thrust of Madhyamaka and Prajñāpāramitā literature.",
-      "abstract_en": "",
+      "abstract_en": "This article begins with a reflection on why medieval Chinese Buddhist thought has not been more conspicuous in recent comparative work on Buddhism and Western philosophy. The Japanese proponents of “Critical Buddhism” (hihan bukkyō 批判仏教), Matsumoto Shirō 松本史朗 and Hakamaya Noriaki 袴谷憲昭, would see this neglect as merited since, in their view, East Asian Buddhism in general, and Chinese Chan in particular, is philosophically crippled owing to its embrace of tathāgatagarbha and buddha-nature thought. Indeed, Matsumoto singles out Shenhui 荷澤神會 (670-762), one of the architects of the Southern School of Chan, as an example of the early Chan advocacy of buddha-nature doctrine.\nThis article is not concerned with whether buddha-nature and tathāgatagarbha thought is actually deleterious to critical philosophical work. Rather, the concern is to demonstrate that, far from embracing buddha-nature doctrine, the eighth-century founders of Southern Chan had serious concerns with it. Evidence for this is found in: (1) the writings of Shenhui, notably in his opposition to the doctrine of the “buddha-nature of insentient objects” (wuqing foxing 無情佛性); and (2) the Platform Scripture of the Sixth Patriarch (Liuzu tanjing 六祖壇經), particularly in the variant versions of Huineng’s famous “enlightenment verse.” Thus the Southern School may be viewed as a forerunner of the Critical Buddhist anti-dhātuvāda polemics. The article closes with comments on the ongoing problems Chinese Buddhist exegetes had in marrying the metaphysical monism of Yogācāra and tathāgatagarbha teachings with the anti-foundationalist thrust of Madhyamaka and Prajñāpāramitā literature.",
       "journal_name": "불교학리뷰",
       "year": "2017",
       "volume": "22",
       "issue": "",
       "start_page": "105",
       "end_page": "150",
-      "doi": "",
+      "doi": "10.29213/crbs..22.201712.105",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=706b53606bd33304b36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -7428,7 +7442,8 @@
         "Critical Buddhism"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002298796"
     },
     {
       "article_id": "fa9af8aa81b5bfb6c85d2949c297615a",
@@ -7473,7 +7488,7 @@
     {
       "article_id": "706b53606bd3330447de9c1710b0298d",
       "title_kr": "The “Mahāyāna” in the Awakening of Faith in Mahāyāna: Its Meaning and Use, and the Confusion thereof",
-      "title_en": "",
+      "title_en": "The “Mahāyāna” in the Awakening of Faith in Mahāyāna: Its Meaning and Use, and the Confusion thereof",
       "authors": [
         {
           "name": "타오 진",
@@ -7482,14 +7497,14 @@
         }
       ],
       "abstract_kr": "This paper is focused on the reading of the word “mahāyāna” in the Awakening of Faith in Mahāyāna (or Qixinlun in its popular Chinese abbreviation), particularly in its synoptic chapter, namely, the Liyi fen (立義 分). To many modern scholars, it refers not to the “Mahāyāna” or “Great Vehicle” Buddhism (as opposed to the “Hīnayāna” or “Lesser Vehicle” Buddhism) as it is popularly understood, but to the so-called “One Mind” (yixin 一心), a mind that exists simultaneously as Suchness and Phenomena and constitutes in that sense a dual-natured Absolute in both its quiescence and dynamicity. It is for this presentation of the “One Mind”, labelled “Mahāyāna” by some, that the treatise claims itself to be the teaching of the “Mahāyāna” Buddhism. This paper proposes to dispute this “Absolute” reading of “mahāyāna”. It argues that the word “mahāyāna” in Qixinlun refers consistently and exclusively to (and in that sense means) the “Mahāyāna” Buddhism or its teaching; that the word is used in the synoptic chapter of the Liyi to respectively characterize and metaphorize the Absolute as “great” (i.e., “mahā”) and “vehicle” (i.e., “yāna”) and, in doing so, to praise and glorify “Mahāyāna” Buddhism as a “great vehicle” and thus a superior teaching; and that the confusion of the meaning and the use of the word results in the modern reading of “mahāyāna” as the Absolute.",
-      "abstract_en": "",
+      "abstract_en": "This paper is focused on the reading of the word “mahāyāna” in the Awakening of Faith in Mahāyāna (or Qixinlun in its popular Chinese abbreviation), particularly in its synoptic chapter, namely, the Liyi fen (立義 分). To many modern scholars, it refers not to the “Mahāyāna” or “Great Vehicle” Buddhism (as opposed to the “Hīnayāna” or “Lesser Vehicle” Buddhism) as it is popularly understood, but to the so-called “One Mind” (yixin 一心), a mind that exists simultaneously as Suchness and Phenomena and constitutes in that sense a dual-natured Absolute in both its quiescence and dynamicity. It is for this presentation of the “One Mind”, labelled “Mahāyāna” by some, that the treatise claims itself to be the teaching of the “Mahāyāna” Buddhism. This paper proposes to dispute this “Absolute” reading of “mahāyāna”. It argues that the word “mahāyāna” in Qixinlun refers consistently and exclusively to (and in that sense means) the “Mahāyāna” Buddhism or its teaching; that the word is used in the synoptic chapter of the Liyi to respectively characterize and metaphorize the Absolute as “great” (i.e., “mahā”) and “vehicle” (i.e., “yāna”) and, in doing so, to praise and glorify “Mahāyāna” Buddhism as a “great vehicle” and thus a superior teaching; and that the confusion of the meaning and the use of the word results in the modern reading of “mahāyāna” as the Absolute.",
       "journal_name": "불교학리뷰",
       "year": "2017",
       "volume": "22",
       "issue": "",
       "start_page": "151",
       "end_page": "190",
-      "doi": "",
+      "doi": "10.29213/crbs..22.201712.151",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=706b53606bd3330447de9c1710b0298d",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -7511,7 +7526,8 @@
         "Yoshito Hakeda"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002298825"
     },
     {
       "article_id": "fa9af8aa81b5bfb647de9c1710b0298d",
@@ -7575,7 +7591,7 @@
       "issue": "",
       "start_page": "191",
       "end_page": "220",
-      "doi": "",
+      "doi": "10.29213/crbs..22.201712.191",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=706b53606bd33304c85d2949c297615a",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -7594,7 +7610,8 @@
         "yuanjuejingtashu"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002298920"
     },
     {
       "article_id": "706b53606bd333044884a65323211ff0",
@@ -7615,7 +7632,7 @@
       "issue": "",
       "start_page": "221",
       "end_page": "256",
-      "doi": "",
+      "doi": "10.29213/crbs..22.201712.221",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=706b53606bd333044884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -7635,12 +7652,13 @@
         "一義性(Univocité)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002298928"
     },
     {
       "article_id": "fa9af8aa81b5bfb6d18150b21a227875",
       "title_kr": "身延山と東アジア仏教の至宝",
-      "title_en": "",
+      "title_en": "The Great Treasures of East Asian Buddhism and Minobusan",
       "authors": [
         {
           "name": "木村中一",
@@ -7656,9 +7674,9 @@
       "issue": "",
       "start_page": "259",
       "end_page": "280",
-      "doi": "",
+      "doi": "10.29213/crbs..22.201712.259",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fa9af8aa81b5bfb6d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002298937",
       "keywords_kr": [
         "미노부산(身延山)",
         "구온지(久遠寺)",
@@ -7674,7 +7692,8 @@
         "East Asian Buddhism"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002298937"
     },
     {
       "article_id": "ef6717faf4bd2f23b7998d826d417196",
@@ -7718,7 +7737,7 @@
     {
       "article_id": "fa9af8aa81b5bfb66aae8a972f9116fb",
       "title_kr": "[힌두] 탄트라 전통들 (Tantric Traditions)",
-      "title_en": "",
+      "title_en": "Tantric Traditions",
       "authors": [
         {
           "name": "도미닉 구달",
@@ -7732,7 +7751,7 @@
         },
         {
           "name": "방정란",
-          "affiliation": "",
+          "affiliation": "함부르크대학",
           "order": "3"
         }
       ],
@@ -7744,13 +7763,14 @@
       "issue": "",
       "start_page": "283",
       "end_page": "332",
-      "doi": "",
+      "doi": "10.29213/crbs..22.201712.283",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fa9af8aa81b5bfb66aae8a972f9116fb",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002298943"
     },
     {
       "article_id": "9583ab7a06336e016aae8a972f9116fb",
@@ -7794,7 +7814,7 @@
     {
       "article_id": "bef427af4b97f0a3d18150b21a227875",
       "title_kr": "Ratnākaraśānti as Philosophical Opponents with attention to Yuktiṣaṣṭikā, verse 34.pdf",
-      "title_en": "",
+      "title_en": "Ratnākaraśānti as Philosophical Opponents with attention to Yuktiṣaṣṭikā, verse 34.pdf",
       "authors": [
         {
           "name": "James B. Apple",
@@ -7803,14 +7823,14 @@
         }
       ],
       "abstract_kr": "This article examines philosophical differences between Atiśa Dīpaṃkaraśrījñāna (982-1054 CE) and Ratnākaraśānti (ca. 970-1030 CE) based on evidence from newly published Tibetan manuscripts. Traditional Tibetan historians describe Atiśa as Ratnākaraśānti’s student in the study of Mahāyāna works at Vikramaśīla. Ratnākaraśānti is also recorded in these sources as being a tantric master in a number of lineages upheld by Atiśa. Yet, as this paper demonstrates, these two important Indian Buddhist scholars had significant differences in their philosophical views. The paper compares doctrines found in the works of Ratnākaraśā nti and Atiśa to clearly demonstrate how they differed on a number of points of thought and exegesis. Although both Atiśa and Ratnākaraśā nti claimed to follow the Middle Way (madhyamā pratipat) of Nāgārjuna, Atiśa’s thought was influenced by Candrakīrti, while Ratnākaraśā nti expounded his system based on Yogācāra sources. As a specific example to illustrate the differences between these two scholars, the article draws attention to Nāgārjuna’s Yuktiṣaṣṭikā (verse 34), where Atiśa interprets the verse in terms of mere appearances that dependently arise while Ratnākaraśānti framed his interpretation on mental qualities whose ultimate nature consists of the “mere luminosity of non-duality” (advayaprakāśamātra). The paper concludes that these differences between Atiśa and Ratnākaraśānti impacted their relationship at Vikramaśīla monastery in eleventh century India.",
-      "abstract_en": "",
+      "abstract_en": "This article examines philosophical differences between Atiśa Dīpaṃkaraśrījñāna (982-1054 CE) and Ratnākaraśānti (ca. 970-1030 CE) based on evidence from newly published Tibetan manuscripts. Traditional Tibetan historians describe Atiśa as Ratnākaraśānti’s student in the study of Mahāyāna works at Vikramaśīla. Ratnākaraśānti is also recorded in these sources as being a tantric master in a number of lineages upheld by Atiśa. Yet, as this paper demonstrates, these two important Indian Buddhist scholars had significant differences in their philosophical views. The paper compares doctrines found in the works of Ratnākaraśā nti and Atiśa to clearly demonstrate how they differed on a number of points of thought and exegesis. Although both Atiśa and Ratnākaraśā nti claimed to follow the Middle Way (madhyamā pratipat) of Nāgārjuna, Atiśa’s thought was influenced by Candrakīrti, while Ratnākaraśā nti expounded his system based on Yogācāra sources. As a specific example to illustrate the differences between these two scholars, the article draws attention to Nāgārjuna’s Yuktiṣaṣṭikā (verse 34), where Atiśa interprets the verse in terms of mere appearances that dependently arise while Ratnākaraśānti framed his interpretation on mental qualities whose ultimate nature consists of the “mere luminosity of non-duality” (advayaprakāśamātra). The paper concludes that these differences between Atiśa and Ratnākaraśānti impacted their relationship at Vikramaśīla monastery in eleventh century India.",
       "journal_name": "불교학리뷰",
       "year": "2018",
       "volume": "23",
       "issue": "",
       "start_page": "9",
       "end_page": "38",
-      "doi": "",
+      "doi": "10.29213/crbs..23.201806.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bef427af4b97f0a3d18150b21a227875",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -7828,12 +7848,13 @@
         "Yogācāra"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002359743"
     },
     {
       "article_id": "8a1ff7eb29eee1ca7ecd42904f0c5d65",
       "title_kr": "세친의 종자설 再考",
-      "title_en": "",
+      "title_en": "The bīja Theory of Vasubandhu Revisited",
       "authors": [
         {
           "name": "권오민",
@@ -7849,7 +7870,7 @@
       "issue": "",
       "start_page": "39",
       "end_page": "66",
-      "doi": "",
+      "doi": "10.29213/crbs..23.201806.39",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8a1ff7eb29eee1ca7ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -7867,12 +7888,13 @@
         "Sthavira Śrīlāta"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002359751"
     },
     {
       "article_id": "8a1ff7eb29eee1cab36097776a77e665",
       "title_kr": "『묘승정경』 연구사",
-      "title_en": "",
+      "title_en": "A Study of the Zui Miao Sheng Ding Jing",
       "authors": [
         {
           "name": "서정원",
@@ -7888,7 +7910,7 @@
       "issue": "",
       "start_page": "67",
       "end_page": "89",
-      "doi": "",
+      "doi": "10.29213/crbs..23.201806.67",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8a1ff7eb29eee1cab36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -7910,12 +7932,13 @@
         "Northern and Southern dynasties"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002359764"
     },
     {
       "article_id": "8a1ff7eb29eee1ca4884a65323211ff0",
       "title_kr": "고전 산스끄리뜨의 아리야(Āryā) 운율 ― 라뜨나까라샨띠(Ratnākaraśānti)의 『찬도라뜨나까라』(Chandoratnākara)를 중심으로",
-      "title_en": "",
+      "title_en": "A Study on the Āryā in the Classical Sanskrit Metre",
       "authors": [
         {
           "name": "박영길",
@@ -7931,7 +7954,7 @@
       "issue": "",
       "start_page": "91",
       "end_page": "128",
-      "doi": "",
+      "doi": "10.29213/crbs..23.201806.91",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8a1ff7eb29eee1ca4884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -7957,12 +7980,13 @@
         "Upagīti"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002359769"
     },
     {
       "article_id": "8a1ff7eb29eee1cab7998d826d417196",
       "title_kr": "태국 마히돈 대학 주최 2018 라뜨나까라 강독회(Ratnākara Reading) 참관기",
-      "title_en": "",
+      "title_en": "2018 Ratnākara Reading at Mahidol University",
       "authors": [
         {
           "name": "박효진",
@@ -7981,25 +8005,26 @@
         }
       ],
       "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_en": ".",
       "journal_name": "불교학리뷰",
       "year": "2018",
       "volume": "23",
       "issue": "",
       "start_page": "131",
       "end_page": "138",
-      "doi": "",
+      "doi": "10.29213/crbs..23.201806.131",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8a1ff7eb29eee1cab7998d826d417196",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002359777"
     },
     {
       "article_id": "8a1ff7eb29eee1cac85d2949c297615a",
       "title_kr": "空海의 『卽身成佛義』 譯註",
-      "title_en": "",
+      "title_en": "Annotated Korean Translation of the Sokushinjōbutsugi ≪卽身成佛義≫ by Kūkai",
       "authors": [
         {
           "name": "이석환",
@@ -8008,20 +8033,21 @@
         }
       ],
       "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_en": ".",
       "journal_name": "불교학리뷰",
       "year": "2018",
       "volume": "23",
       "issue": "",
       "start_page": "141",
       "end_page": "165",
-      "doi": "",
+      "doi": "10.29213/crbs..23.201806.141",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8a1ff7eb29eee1cac85d2949c297615a",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002359783"
     },
     {
       "article_id": "ea34d5adcc3285abc85d2949c297615a",
@@ -8042,7 +8068,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "36",
-      "doi": "",
+      "doi": "10.29213/crbs..24.201812.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ea34d5adcc3285abc85d2949c297615a",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8064,7 +8090,8 @@
         "Bodhisattva-mighty will"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002421052"
     },
     {
       "article_id": "ea34d5adcc3285ab47de9c1710b0298d",
@@ -8085,7 +8112,7 @@
       "issue": "",
       "start_page": "37",
       "end_page": "65",
-      "doi": "",
+      "doi": "10.29213/crbs..24.201812.37",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ea34d5adcc3285ab47de9c1710b0298d",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8105,7 +8132,8 @@
         "Siízhu-piposha-Lun"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002421175"
     },
     {
       "article_id": "ea34d5adcc3285ab7f7a54760bb41745",
@@ -8126,7 +8154,7 @@
       "issue": "",
       "start_page": "67",
       "end_page": "104",
-      "doi": "",
+      "doi": "10.29213/crbs..24.201812.67",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ea34d5adcc3285ab7f7a54760bb41745",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8148,12 +8176,13 @@
         "Manuscript"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002421225"
     },
     {
       "article_id": "45e96696eff42267d18150b21a227875",
       "title_kr": "지혜란 무엇인가? 문화 간 그리고 학문 간 융합",
-      "title_en": "",
+      "title_en": "What Is Wisdom? Cross-Cultural and Cross-Disciplinary Syntheses",
       "authors": [
         {
           "name": "롸저 월쉬",
@@ -8174,18 +8203,19 @@
       "issue": "",
       "start_page": "107",
       "end_page": "162",
-      "doi": "",
+      "doi": "10.29213/crbs..24.201812.107",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=45e96696eff42267d18150b21a227875",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002421301"
     },
     {
       "article_id": "4131ffb7be1f71794884a65323211ff0",
       "title_kr": "Scribal Technique and Birch Bark Folio Repair Utilized in the Production of the Mūlasarvāstivāda Dīrghāgama Manuscript by a Scriptorium in Gilgit Around the 8th Century CE",
-      "title_en": "",
+      "title_en": "Scribal Technique and Birch Bark Folio Repair Utilized in the Production of the Mūlasarvāstivāda Dīrghāgama Manuscript by a Scriptorium in Gilgit Around the 8th Century CE",
       "authors": [
         {
           "name": "Charles DiSimone",
@@ -8194,14 +8224,14 @@
         }
       ],
       "abstract_kr": "This article examines aspects of the production of the Mūlasarvāstivāda Dīrghāgama (Collection of Long Discourses) manuscript produced in or around the area of Gilgit in Pakistan that was discovered in last decade of the 20th century. The manuscript was the product of a long copying tradition and the only extant witness was copied by a scriptorium consisting of several scribes. The techniques used by a pair of scribes referred to as Scribe C and Scribe D are discussed demonstrating their unique collaboration to copy this manuscript. Interlinear marks left by these scribes on birch bark folios will be discussed with the hope that in pointing out such marks, which appear to be relatively unique to a particular scribe, we will be able to identify the work of certain scribes across manuscripts. The second portion of the article discusses the phenomenon of repair made to the birch bark folios of the Dīrghāgama manuscript as well as pointing out similar instances of repair in other manuscripts from the Gilgit area. These repairs to manuscripts raise questions concerning the production of birch bark folios and how they were selected and used by Buddhist manuscript traditions in Gilgit in the first millennium of the Common Era.",
-      "abstract_en": "",
+      "abstract_en": "This article examines aspects of the production of the Mūlasarvāstivāda Dīrghāgama (Collection of Long Discourses) manuscript produced in or around the area of Gilgit in Pakistan that was discovered in last decade of the 20th century. The manuscript was the product of a long copying tradition and the only extant witness was copied by a scriptorium consisting of several scribes. The techniques used by a pair of scribes referred to as Scribe C and Scribe D are discussed demonstrating their unique collaboration to copy this manuscript. Interlinear marks left by these scribes on birch bark folios will be discussed with the hope that in pointing out such marks, which appear to be relatively unique to a particular scribe, we will be able to identify the work of certain scribes across manuscripts. The second portion of the article discusses the phenomenon of repair made to the birch bark folios of the Dīrghāgama manuscript as well as pointing out similar instances of repair in other manuscripts from the Gilgit area. These repairs to manuscripts raise questions concerning the production of birch bark folios and how they were selected and used by Buddhist manuscript traditions in Gilgit in the first millennium of the Common Era.",
       "journal_name": "불교학리뷰",
       "year": "2019",
       "volume": "25",
       "issue": "",
       "start_page": "9",
       "end_page": "45",
-      "doi": "",
+      "doi": "10.29213/crbs..25.201904.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4131ffb7be1f71794884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8225,12 +8255,13 @@
         "Mūlasarvāstivāda"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002460798"
     },
     {
       "article_id": "4131ffb7be1f7179b7998d826d417196",
       "title_kr": "The Avadānaśataka and the Kalpadrumāvadānamālā: What should we be doing now?",
-      "title_en": "",
+      "title_en": "The Avadānaśataka and the Kalpadrumāvadānamālā: What should we be doing now?",
       "authors": [
         {
           "name": "David V. Fiordalis",
@@ -8239,14 +8270,14 @@
         }
       ],
       "abstract_kr": "The study of the Avadānaśataka was placed upon a firm philological foundation in the late 19th and early 20th centuries, but more manuscripts have since become available, prompting questions about the history of this Buddhist narrative collection. The present article mainly considers what new light one such manuscript, Nepal German Manuscript Preservation Project (NGMPP) MS E-1554/24, may shed upon this history and other issues related to the study of this work. It argues that evidence remains inconclusive for establishing the hypothesis that NGMPP E-1554/24 is the direct source for Cambridge University Library (CUL) MS Add 1611, the primary witness for the principal modern edition of the work, but the essay also engages a series of broader questions about how we use manuscripts, what questions those manuscripts can answer, and how scholars interested in Buddhist narrative literature could best spend their time. It calls for scholars to direct efforts toward making works of Buddhist narrative literature like the Avadānaśataka and the Kalpadrumāvadānamālā more widely accessible, and establishing the intertextual relationships between them and other works of Buddhist narrative literature. This will require a compete new translation of the former, an edition and translation of the latter, and indeed a reconceptualization of the task at hand.",
-      "abstract_en": "",
+      "abstract_en": "The study of the Avadānaśataka was placed upon a firm philological foundation in the late 19th and early 20th centuries, but more manuscripts have since become available, prompting questions about the history of this Buddhist narrative collection. The present article mainly considers what new light one such manuscript, Nepal German Manuscript Preservation Project (NGMPP) MS E-1554/24, may shed upon this history and other issues related to the study of this work. It argues that evidence remains inconclusive for establishing the hypothesis that NGMPP E-1554/24 is the direct source for Cambridge University Library (CUL) MS Add 1611, the primary witness for the principal modern edition of the work, but the essay also engages a series of broader questions about how we use manuscripts, what questions those manuscripts can answer, and how scholars interested in Buddhist narrative literature could best spend their time. It calls for scholars to direct efforts toward making works of Buddhist narrative literature like the Avadānaśataka and the Kalpadrumāvadānamālā more widely accessible, and establishing the intertextual relationships between them and other works of Buddhist narrative literature. This will require a compete new translation of the former, an edition and translation of the latter, and indeed a reconceptualization of the task at hand.",
       "journal_name": "불교학리뷰",
       "year": "2019",
       "volume": "25",
       "issue": "",
       "start_page": "47",
       "end_page": "77",
-      "doi": "",
+      "doi": "10.29213/crbs..25.201904.47",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4131ffb7be1f7179b7998d826d417196",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8264,7 +8295,8 @@
         "Kalpadrumāvadānamālā"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002460807"
     },
     {
       "article_id": "4131ffb7be1f7179b36097776a77e665",
@@ -8285,7 +8317,7 @@
       "issue": "",
       "start_page": "79",
       "end_page": "103",
-      "doi": "",
+      "doi": "10.29213/crbs..25.201904.79",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4131ffb7be1f7179b36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8303,7 +8335,8 @@
         "W. D. Whitney"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002460833"
     },
     {
       "article_id": "4131ffb7be1f71797ecd42904f0c5d65",
@@ -8324,7 +8357,7 @@
       "issue": "",
       "start_page": "105",
       "end_page": "141",
-      "doi": "",
+      "doi": "10.29213/crbs..25.201904.105",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4131ffb7be1f71797ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8342,12 +8375,13 @@
         "Transformation"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002460884"
     },
     {
       "article_id": "3a7af2c0e84387434884a65323211ff0",
       "title_kr": "제2결집기사(第二結集記事)에 있어서 『마하승기율(摩訶僧祇律)』의 특수성 ─ 왜 십사(十事)가 나오지 않는가? ─",
-      "title_en": "",
+      "title_en": "The Distinguishing Characteristics of the Mahāsāṃghika vinaya in its Account of the Second Council: Why do the Ten Points not Appear?",
       "authors": [
         {
           "name": "사사키 시즈카",
@@ -8368,13 +8402,14 @@
       "issue": "",
       "start_page": "145",
       "end_page": "183",
-      "doi": "",
+      "doi": "10.29213/crbs..25.201904.145",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3a7af2c0e84387434884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002460892"
     },
     {
       "article_id": "62a51e29d0dc9fa97ecd42904f0c5d65",
@@ -8395,7 +8430,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "52",
-      "doi": "",
+      "doi": "10.29213/crbs..26.201910.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=62a51e29d0dc9fa97ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8417,7 +8452,8 @@
         "Larger Sukhāvativyūha"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002517987"
     },
     {
       "article_id": "2d60a46fa68e60dc7f7a54760bb41745",
@@ -8438,7 +8474,7 @@
       "issue": "",
       "start_page": "53",
       "end_page": "77",
-      "doi": "",
+      "doi": "10.29213/crbs..26.201910.53",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d60a46fa68e60dc7f7a54760bb41745",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8456,7 +8492,8 @@
         "『청정도론(Visuddhimagga)』"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002517989"
     },
     {
       "article_id": "2d60a46fa68e60dc6aae8a972f9116fb",
@@ -8477,7 +8514,7 @@
       "issue": "",
       "start_page": "79",
       "end_page": "102",
-      "doi": "",
+      "doi": "10.29213/crbs..26.201910.79",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d60a46fa68e60dc6aae8a972f9116fb",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8495,7 +8532,8 @@
         "빠릿따(paritta)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002517997"
     },
     {
       "article_id": "2d60a46fa68e60dc47de9c1710b0298d",
@@ -8516,7 +8554,7 @@
       "issue": "",
       "start_page": "103",
       "end_page": "129",
-      "doi": "",
+      "doi": "10.29213/crbs..26.201910.103",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d60a46fa68e60dc47de9c1710b0298d",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8534,7 +8572,8 @@
         "Debate on Anātman."
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002518009"
     },
     {
       "article_id": "62a51e29d0dc9fa9b36097776a77e665",
@@ -8555,13 +8594,14 @@
       "issue": "",
       "start_page": "131",
       "end_page": "157",
-      "doi": "",
+      "doi": "10.29213/crbs..26.201910.131",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=62a51e29d0dc9fa9b36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002518044"
     },
     {
       "article_id": "2d60a46fa68e60dce9810257f7042666",
@@ -8582,7 +8622,7 @@
       "issue": "",
       "start_page": "159",
       "end_page": "183",
-      "doi": "",
+      "doi": "10.29213/crbs..26.201910.159",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d60a46fa68e60dce9810257f7042666",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8604,7 +8644,8 @@
         "The Theory of the Two Kinds of Seeds."
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002518049"
     },
     {
       "article_id": "2d60a46fa68e60dcd18150b21a227875",
@@ -8625,7 +8666,7 @@
       "issue": "",
       "start_page": "185",
       "end_page": "205",
-      "doi": "",
+      "doi": "10.29213/crbs..26.201910.185",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d60a46fa68e60dcd18150b21a227875",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8647,7 +8688,8 @@
         "self-emptiness"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002518061"
     },
     {
       "article_id": "0f0a353da9f6e7dcb36097776a77e665",
@@ -8700,18 +8742,19 @@
       "issue": "",
       "start_page": "209",
       "end_page": "267",
-      "doi": "",
+      "doi": "10.29213/crbs..26.201910.209",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d9323e85961a1bc0d18150b21a227875",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002518072"
     },
     {
       "article_id": "da40c7f68b3d38a0b7998d826d417196",
       "title_kr": "“Buddhas in the Ten Directions”: Its Origins in the Early Buddhist Texts and Metamorphosis",
-      "title_en": "",
+      "title_en": "“Buddhas in the Ten Directions”: Its Origins in the Early Buddhist Texts and Metamorphosis",
       "authors": [
         {
           "name": "Juyan Zhang",
@@ -8727,7 +8770,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "37",
-      "doi": "",
+      "doi": "10.29213/crbs..27.202004.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=da40c7f68b3d38a0b7998d826d417196",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8747,12 +8790,13 @@
         "Amitābha"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002582463"
     },
     {
       "article_id": "da40c7f68b3d38a07ecd42904f0c5d65",
       "title_kr": "The Ineffable Reality of the World and the Turning of the Dharma Wheel: An Exploration of Pedagogical Strategies in the Prajñāpāramitā-sūtras",
-      "title_en": "",
+      "title_en": "The Ineffable Reality of the World and the Turning of the Dharma Wheel: An Exploration of Pedagogical Strategies in the Prajñāpāramitā-sūtras",
       "authors": [
         {
           "name": "Yao-ming Tsai",
@@ -8761,14 +8805,14 @@
         }
       ],
       "abstract_kr": "This paper mainly focuses on the issue of the reality of the world and the way in which the reality of the world is demonstrated. The usage of languages is never confined within the sphere of everyday life or phenomenal world. Buddhist teachings, especially the Prajñāpāramitā-sūtras, use whatever language to demonstrate and elucidate the ineffable reality of the world. For example, space is invariably declared as empty and such technical terms with negative prefixes as not-arising (an-utpāda) and not-ceasing (a-nirodha) are adopted to express the meaning of space. Whatever terminology may be used to point to the reality, but the reality cannot be identified as or contained in conventional construction. Concerning the gap revealed by the ineffability of the reality, i.e., what is left by the insufficiency and inadequacy of discourses, meditative practices and insightful wisdom may take over to fill up.",
-      "abstract_en": "",
+      "abstract_en": "This paper mainly focuses on the issue of the reality of the world and the way in which the reality of the world is demonstrated. The usage of languages is never confined within the sphere of everyday life or phenomenal world. Buddhist teachings, especially the Prajñāpāramitā-sūtras, use whatever language to demonstrate and elucidate the ineffable reality of the world. For example, space is invariably declared as empty and such technical terms with negative prefixes as not-arising (an-utpāda) and not-ceasing (a-nirodha) are adopted to express the meaning of space. Whatever terminology may be used to point to the reality, but the reality cannot be identified as or contained in conventional construction. Concerning the gap revealed by the ineffability of the reality, i.e., what is left by the insufficiency and inadequacy of discourses, meditative practices and insightful wisdom may take over to fill up.",
       "journal_name": "불교학리뷰",
       "year": "2020",
       "volume": "27",
       "issue": "",
       "start_page": "39",
       "end_page": "60",
-      "doi": "",
+      "doi": "10.29213/crbs..27.202004.39",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=da40c7f68b3d38a07ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8789,7 +8833,8 @@
         "Prajñāpāramitā-sūtras"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002582468"
     },
     {
       "article_id": "da40c7f68b3d38a0b36097776a77e665",
@@ -8810,7 +8855,7 @@
       "issue": "",
       "start_page": "61",
       "end_page": "88",
-      "doi": "",
+      "doi": "10.29213/crbs..27.202004.61",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=da40c7f68b3d38a0b36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8832,7 +8877,8 @@
         "Form Dharma"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002582477"
     },
     {
       "article_id": "3f65edf9f33742cb47de9c1710b0298d",
@@ -8896,13 +8942,14 @@
       "issue": "",
       "start_page": "91",
       "end_page": "111",
-      "doi": "",
+      "doi": "10.29213/crbs..27.202004.91",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=da40c7f68b3d38a04884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002582484"
     },
     {
       "article_id": "c13ad0c121ef6aa86aae8a972f9116fb",
@@ -8916,14 +8963,14 @@
         }
       ],
       "abstract_kr": "Mindfulness meditation is a way to steady the mind from the ground up and maintain awareness of the actual activities of one’s body, feelings, mind, and related factors. Nowadays, more and more people emphasize present-moment awareness as a key feature of mindfulness exercises and consequently regard mindfulness as the art of being in the present moment. However, from a temporal perspective, the present is constantly fluctuating. To what extent is mindfulness about present moment awareness and what role do the past and future play in that awareness? This paper seeks to address this issue by exploring the Satipaṭṭhānasutta (The Discourse on the Ways of Attending to Mindfulness) and other Buddhist texts on meditative practices. If mindfulness is to be developed to its maximum capacity, including meditative absorption (Pāli, jhāna), meditative concentration (Pāli, samādhi) and nibbāna, then just focusing on the present momentz and non-judgmentally observing our experiences will not be enough, both theoretically and practically, to achieve many of the stated goals of the Satipaṭṭhāna-sutta. This paper proposes that, theoretically, a philosophy of time and temporality is required to answer the difficult question of how mindfulness and meditative absorption are possible while the present is non-abiding, and practically, a more comprehensive strategy to deal with the past, future and present is also essential in overcoming the overall suffering of existence.",
-      "abstract_en": "",
+      "abstract_en": "Mindfulness meditation is a way to steady the mind from the ground up and maintain awareness of the actual activities of one’s body, feelings, mind, and related factors. Nowadays, more and more people emphasize present-moment awareness as a key feature of mindfulness exercises and consequently regard mindfulness as the art of being in the present moment. However, from a temporal perspective, the present is constantly fluctuating. To what extent is mindfulness about present moment awareness and what role do the past and future play in that awareness? This paper seeks to address this issue by exploring the Satipaṭṭhānasutta (The Discourse on the Ways of Attending to Mindfulness) and other Buddhist texts on meditative practices. If mindfulness is to be developed to its maximum capacity, including meditative absorption (Pāli, jhāna), meditative concentration (Pāli, samādhi) and nibbāna, then just focusing on the present momentz and non-judgmentally observing our experiences will not be enough, both theoretically and practically, to achieve many of the stated goals of the Satipaṭṭhāna-sutta. This paper proposes that, theoretically, a philosophy of time and temporality is required to answer the difficult question of how mindfulness and meditative absorption are possible while the present is non-abiding, and practically, a more comprehensive strategy to deal with the past, future and present is also essential in overcoming the overall suffering of existence.",
       "journal_name": "불교학리뷰",
       "year": "2020",
       "volume": "28",
       "issue": "",
       "start_page": "9",
       "end_page": "31",
-      "doi": "",
+      "doi": "10.29213/crbs..28.202010.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c13ad0c121ef6aa86aae8a972f9116fb",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -8941,7 +8988,8 @@
         "Satipaṭṭhāna-sutta."
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002639534"
     },
     {
       "article_id": "bc121a09253c064b4884a65323211ff0",
@@ -8962,7 +9010,7 @@
       "issue": "",
       "start_page": "33",
       "end_page": "65",
-      "doi": "",
+      "doi": "10.29213/crbs..28.202010.33",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bc121a09253c064b4884a65323211ff0",
       "kci_url": "https://www.kci.go.kr/kciportal/po/citationindex/explanation.kci",
       "keywords_kr": [
@@ -8986,7 +9034,8 @@
         "Xuanzang"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002639541"
     },
     {
       "article_id": "91d4b9fa428f9b867ecd42904f0c5d65",
@@ -9007,18 +9056,19 @@
       "issue": "",
       "start_page": "69",
       "end_page": "91",
-      "doi": "",
+      "doi": "10.29213/crbs..28.202010.69",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=91d4b9fa428f9b867ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002639569"
     },
     {
       "article_id": "3bec43083acb2f2e47de9c1710b0298d",
       "title_kr": "A Buddhist Critique of the So-called “Dignity of Life” and “Death with Dignity” from the Perspective of Temporality",
-      "title_en": "",
+      "title_en": "A Buddhist Critique of the So-called “Dignity of Life” and “Death with Dignity” from the Perspective of Temporality",
       "authors": [
         {
           "name": "Yao-ming TSAI",
@@ -9034,7 +9084,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "30",
-      "doi": "",
+      "doi": "10.29213/crbs..29.202104.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3bec43083acb2f2e47de9c1710b0298d",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9053,12 +9103,13 @@
         "thanatology"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002711320"
     },
     {
       "article_id": "3bec43083acb2f2e7f7a54760bb41745",
       "title_kr": "뿌드갈라 비판과 존재론적 은유 : 『입중론』 인무아 논증을 중심으로",
-      "title_en": "",
+      "title_en": "The Criticism of Pudgala and Ontological Metaphor in The Madhyamakāvatāra",
       "authors": [
         {
           "name": "김현구",
@@ -9074,7 +9125,7 @@
       "issue": "",
       "start_page": "31",
       "end_page": "55",
-      "doi": "",
+      "doi": "10.29213/crbs..29.202104.31",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3bec43083acb2f2e7f7a54760bb41745",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9096,12 +9147,13 @@
         "Pudgala"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002711364"
     },
     {
       "article_id": "3bec43083acb2f2ee9810257f7042666",
       "title_kr": "디그나가의 Ālambanaparīkṣāvṛtti 역주 - 현장 역과 티벳 역을 중심으로 -",
-      "title_en": "",
+      "title_en": "Korean Translation and Annotations of Dignāga’s Ālambanaparīkṣāvṛtti - Focusing on the Xuanzang and Tibetan Text -",
       "authors": [
         {
           "name": "유리",
@@ -9117,13 +9169,14 @@
       "issue": "",
       "start_page": "59",
       "end_page": "92",
-      "doi": "",
+      "doi": "10.29213/crbs..29.202104.59",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3bec43083acb2f2ee9810257f7042666",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002711386"
     },
     {
       "article_id": "3bec43083acb2f2ed18150b21a227875",
@@ -9155,7 +9208,7 @@
     {
       "article_id": "84201d55a1c978726aae8a972f9116fb",
       "title_kr": "『법구경』의 성립과 전승과정의 복잡성",
-      "title_en": "",
+      "title_en": "The Complexity of Establishment and Transmission in the Faju jing (法句經)",
       "authors": [
         {
           "name": "김성옥",
@@ -9171,7 +9224,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "30",
-      "doi": "",
+      "doi": "10.29213/crbs..30.202110.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=84201d55a1c978726aae8a972f9116fb",
       "kci_url": "https://www.kci.go.kr/kciportal/po/citationindex/explanation.kci",
       "keywords_kr": [
@@ -9189,12 +9242,13 @@
         "Buddhavacana"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002769525"
     },
     {
       "article_id": "83ef49243e7704297ecd42904f0c5d65",
       "title_kr": "『능가경』의 여래장설",
-      "title_en": "",
+      "title_en": "The Tathāgatagarbha Theory of the Laṅkāvatārasūtra",
       "authors": [
         {
           "name": "김준우",
@@ -9210,7 +9264,7 @@
       "issue": "",
       "start_page": "31",
       "end_page": "55",
-      "doi": "",
+      "doi": "10.29213/crbs..30.202110.31",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=83ef49243e7704297ecd42904f0c5d65",
       "kci_url": "https://www.kci.go.kr/kciportal/po/citationindex/explanation.kci",
       "keywords_kr": [
@@ -9228,12 +9282,13 @@
         "agent of saṃsāra."
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002769526"
     },
     {
       "article_id": "83ef49243e770429b36097776a77e665",
       "title_kr": "상좌 슈리라타의 연기관 : 연기 法說의 두 정형구 ‘此有故彼有 此起故彼起’의 해석과 관련하여",
-      "title_en": "",
+      "title_en": "Sthavira Śrīlāta’s View of Dependent Origination (Pratītyasaṃutpāda) -In regard to the interpretation of the two formula of Dependent Origination, if X exists, then Y exists (asmin satidam bhavati) etc.-",
       "authors": [
         {
           "name": "권오민",
@@ -9249,7 +9304,7 @@
       "issue": "",
       "start_page": "57",
       "end_page": "89",
-      "doi": "",
+      "doi": "10.29213/crbs..30.202110.57",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=83ef49243e770429b36097776a77e665",
       "kci_url": "https://www.kci.go.kr/kciportal/po/citationindex/explanation.kci",
       "keywords_kr": [
@@ -9267,12 +9322,13 @@
         "sequential causation"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002769527"
     },
     {
       "article_id": "83ef49243e7704294884a65323211ff0",
       "title_kr": "디그나가의 니야야학파 지각론 비판",
-      "title_en": "",
+      "title_en": "Dignāga’s criticism on the Theory of the Naiyāyika",
       "authors": [
         {
           "name": "박대용(동광)",
@@ -9288,9 +9344,9 @@
       "issue": "",
       "start_page": "91",
       "end_page": "113",
-      "doi": "",
+      "doi": "10.29213/crbs..30.202110.91",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=83ef49243e7704294884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002769528",
       "keywords_kr": [
         "디그나가",
         "밧챠야나",
@@ -9310,12 +9366,13 @@
         "saṃyoga"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002769528"
     },
     {
       "article_id": "83ef49243e770429b7998d826d417196",
       "title_kr": "구인(救仁)의 의미 연구",
-      "title_en": "",
+      "title_en": "A Study on the Meaning of Guin (救仁)",
       "authors": [
         {
           "name": "신동호",
@@ -9331,7 +9388,7 @@
       "issue": "",
       "start_page": "115",
       "end_page": "129",
-      "doi": "",
+      "doi": "10.29213/crbs..30.202110.115",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=83ef49243e770429b7998d826d417196",
       "kci_url": "https://www.kci.go.kr/kciportal/po/citationindex/explanation.kci",
       "keywords_kr": [
@@ -9350,7 +9407,8 @@
         "Desire. Benevolence"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002769529"
     },
     {
       "article_id": "fba384fe685b4f3847de9c1710b0298d",
@@ -9364,14 +9422,14 @@
         }
       ],
       "abstract_kr": "4중이제설은 길장이 삼론종의 전통적인 3중이제설을 토대로 창조한 이제설로서, 삼론종에서 가장 잘 알려진 이론 가운데 하나다. 4중이제설과 관련된 선행연구 대부분은 『대승현론』에 소개된 4중이제설을 중심으로 길장의 타 문헌에 언급된 4중이제설을 통합적으로 연구했다. 그런데 『대승현론』은 길장이나 길장의 제자의 편찬이 아닌, 후대에 가탁된 문헌으로 길장의 사상을 여러 측면에서 왜곡시키고 있고, 4중이제설은 그 대표적인 예라고 할 수 있다.기실, 4중이제설에 관한 기존 해석 가운데는 재검토되어야 할 부분들이 많다. 이 논문은 그중에서 4중이제설의 교화대상에 초점을 맞추어, 길장이 과연 그 당시 다른 학파들을 겨냥하여 4중이제설을 전개했는지 살펴보았다. 대다수 연구에서 길장의 4중이제설을 당시 중국의 비담사, 성실론사, 지론사, 섭론사의 이제설을 대치하기 위해 3중이제설에서 한 단계를 더해 발전시킨 학설로 간주했다. 그러나 이 주장의 근거가 된 『대승현론』은 길장의 4중이제설을 오해하고 있으며, 4중이제설의 출현은 당시 지론종이나 섭론종과 같은 유식학파와 무관하다. 4중이제설의 교화대상은 초기 3중이제설과 마찬가지로 범부, 이승, 보살이다. 그리고 『대승현론』에서 언급한 비담사, 성실사, 대승사(지론사 및 섭론사)를 이 세 대상에 대응시켜 해석하는 방식은 길장의 의도와 거리가 멀다.길장의 4중이제설은 결코 전통적인 3중이제설의 맥락에서 벗어난 별개의 학설이 아니라, 3중이제설과 연속적인 맥락 속에서 그것을 더욱 체계적으로 발전시킨 중층적 이제설이다. 4중이제설의 각 단계가 겨냥한 교화대상을 규정하는 것은 앞으로 4중이제설의 전체 논리 구조와 사상적 특징을 밝히기 위한 토대 작업이다.",
-      "abstract_en": "",
+      "abstract_en": "The theory of the four-level two truths (四重二諦說) created by Jizang (吉藏), was based on the Sanlun school’s traditional theory of the three-level two truths (三重二諦說), and is one of the most renowned teachings of the Sanlun school (三論宗). Most of the preceding studies related to the theory of the four- level two truths were the result of integrating the theory mentioned in other literature of Jizang, focusing on the theory introduced in Dasheng xuanlun 大乘玄論. However, the extant Dasheng xuanlun is neither a work of Jizang nor a compilation by his disciples. Instead, it is a document that was later attributed to Jizang, distorting many of his thoughts, including the theory of the four-level two truths.\nTherefore, many issues need to be addressed in the previous studies on the theory of the four-level two truths. This paper focuses on the intended audience of each level of the two truths and examines whether Jizang developed the theory in reaction to other schools of his day. Generally, Jizang’s theory of the four-level two truths is considered to have developed one step further from the theory of the three-level two truths to criticize the two truths of the Abhidharma, Chengshi, Dilun, and Shelun schools in China. However, Dasheng xuanlun, which has been the basis for this argument, misinterpreted the four-level two truths theory since it has nothing to do with the emergence of Yogācāra schools which occurred at the time as the Dilun and Shelun schools. The intended audience of each stage is ordinary people, the two vehicles, and Bodhisattvas, the same as in the early theory of the three-level two truths. It is far from the original intention of Jizang to claim that those three recipients correlate with the masters of the Abhidharma, Chengshi, and Mahāyāna (e.g., Dilun and Shelun) schools, mentioned in Dasheng xuanlun.\nJizang’s theory of the four-level two truths is not a separate theory that deviates from the context of the traditional theory of the three-level two truths but is a multi-layered theory developed more systematically in a continuous context with the theory of the three-level two truths. By focusing on the intended audience at each stage, this paper lays the groundwork for further research on the logical structure and characteristics of the four-level two truths theory.",
       "journal_name": "불교학리뷰",
       "year": "2022",
       "volume": "31",
       "issue": "",
       "start_page": "9",
       "end_page": "36",
-      "doi": "",
+      "doi": "10.29213/crbs..31.202204.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fba384fe685b4f3847de9c1710b0298d",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9393,7 +9451,8 @@
         "Shelun Master (攝論師)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002836133"
     },
     {
       "article_id": "fba384fe685b4f387f7a54760bb41745",
@@ -9414,7 +9473,7 @@
       "issue": "",
       "start_page": "37",
       "end_page": "58",
-      "doi": "",
+      "doi": "10.29213/crbs..31.202204.37",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fba384fe685b4f387f7a54760bb41745",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9437,7 +9496,8 @@
         "tathatā"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002836166"
     },
     {
       "article_id": "fba384fe685b4f38e9810257f7042666",
@@ -9451,14 +9511,14 @@
         }
       ],
       "abstract_kr": "오시이마모루 감독의 1995년작 <공각기동대 : Ghost in the Shell>는 인간이 방대한 정보를 저장할 수 있는 전자두뇌[소위 전뇌(電腦)]를 탑재할 수 있고, 이를 통해 네트워크에 접속해 시공간의 제약 없이 정보의 이동이 가능한 시대를 배경으로 한다. 이러한 전뇌가 해킹되어 정신활동의 대표적 기능 중 하나인 기억이 조 작된다면 자아의 정체성은 어떻게 담보될 수 있을까? 작품에서는 전산 프로그램으로 개발된 인형사(人形師, Puppet Master)가 등장하는데 그는 방대한 정보를 획 득한 어느 시점에서 자아를 자각하게 된다. 그리고 자신은 생명체임을 주장한다. 이렇게 기술의 발달로 기억이라는 정보의 이동이 한계를 벗어날 때 개별 존재는 어떻게 정의 내릴 수 있을까? 감독은 이와 더불어 생명체의 필수요건 중 하나인 종족 번식의 의미에까지 질문을 던진다. 이에 대해 작품은 존재의 정체성을 고스트(Ghost)로 표현한 뒤, 개체의 특성을 물려주는 종족 번식은 고스트의 융합으로 제시한다.이러한 융합을 통한 새로운 존재의 탄생은 불교를 포함한 인도철학의 중요 이론인 윤회론과 강한 접점을 갖는다. 따라서 본 연구는 작품 속 고스트의 의미를 분석하여 고스트가 어떻게 윤회론으로 해석될 수 있는지 고찰한다. 그 결과 고스트는 불멸의 영혼(ātman)보다 불교가 제시한 심적 작용에 가까워 보이는데, 특히 전생의 식(識), 혹은 중유(中有)의 작용과 유사성이 있음을 분석한다. 또한 고스트 간의 융합으로 발생한 존재는 융합 이전의 상태를 기억할 수 없다는 점 등을 통해 본 작품이 윤회론을 통해 해석될 수 있음을 결론으로 제시한다.",
-      "abstract_en": "",
+      "abstract_en": "Mamoru Oshii’s ‘Ghost in the Shell’, presents an era in which information can be moved without any restrictions because it can be freely distributed via a network that is like an Electronic Brain. In this time, how can the identity of the self be guaranteed if the Electronic Brain is hacked and memory, one of the representative functions of mental activity, is manipulated? In the work, a puppet master, in the form of a computer program, becomes aware of itself at some point when it acquires vast amounts of information. And it insists that (s)he is a live creature.\nHow can individual beings be defined when the movement of information (or memory) goes beyond their boundaries due to developing technology? The work also asks questions about the regulation of species reproduction. The director pportrays beings as Ghosts. And then presents the procreation of races that passes on the characteristics of individuals, as a merging of Ghosts. The birth of a new existent being through this convergence resembles reincarnation, an important theory of Indian philosophy, including Buddhism. Therefore, this study first analyzes Ghost as an entity and examines how Ghosts can be interpreted within reincarnation theory.\nResults Findings show that Ghosts seem to be closer to the perceptual faculty suggested by Buddhism than the immortal soul (ātman), and it is deduced that there is a similarity to the action of the consciousness of the past life or the action of the antarābhava (中有).\nIn addition, it is suggested that this work can be interpreted as a type of reincarnation theory based on the fact that the existing, which arises from the mergence between Ghosts, cannot remember its state before the mergence.",
       "journal_name": "불교학리뷰",
       "year": "2022",
       "volume": "31",
       "issue": "",
       "start_page": "59",
       "end_page": "78",
-      "doi": "",
+      "doi": "10.29213/crbs..31.202204.59",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fba384fe685b4f38e9810257f7042666",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9476,7 +9536,8 @@
         "mergence"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002836178"
     },
     {
       "article_id": "fba384fe685b4f38d18150b21a227875",
@@ -9490,14 +9551,14 @@
         }
       ],
       "abstract_kr": "This is a study of the inscriptions on various types of Buddhist images and stelae made by the common people during the Northern dynasties and Sui and Tang dynasties from the fourth to the ninth century. These inscriptions demonstrate that many common people dedicated their merits of making Buddhist images to emperors, ministers and the state apart from their present parents and parents of past seven generations. Hou Xudong thinks that this is a recognition of the state, the Northern Wei, by the common people. Satō Chisui thinks that it is the emperor worship amongst the common people as instructed by their society’s monastic teachers. But he is still not sure about the reasons why the Buddhist monks and nuns also had the mentality of emperor worship. Ishimatsu Hinako thinks that it is due to Emperor Taiwu’s persecution of Buddhism; Chinese Buddhists were afraid that such tragedy might happen again so that their faith in Buddhism became stronger and they wished that the emperor could protect Buddhism. I argue that it was the Buddhist way to pay their debt of gratitude to the Chinese emperors for their protection of Buddhism because Buddhism had faced many challenges and criticisms from Chinese people since its introduction to China in the Han dynasty and it even underwent severe persecutions. Emperor Tai Wudi of the Northern Wei, for instance, persecuted Buddhism so the monastics had a vivid memory of such events.",
-      "abstract_en": "",
+      "abstract_en": "This is a study of the inscriptions on various types of Buddhist images and stelae made by the common people during the Northern dynasties and Sui and Tang dynasties from the fourth to the ninth century. These inscriptions demonstrate that many common people dedicated their merits of making Buddhist images to emperors, ministers and the state apart from their present parents and parents of past seven generations. Hou Xudong thinks that this is a recognition of the state, the Northern Wei, by the common people. Satō Chisui thinks that it is the emperor worship amongst the common people as instructed by their society’s monastic teachers. But he is still not sure about the reasons why the Buddhist monks and nuns also had the mentality of emperor worship. Ishimatsu Hinako thinks that it is due to Emperor Taiwu’s persecution of Buddhism; Chinese Buddhists were afraid that such tragedy might happen again so that their faith in Buddhism became stronger and they wished that the emperor could protect Buddhism. I argue that it was the Buddhist way to pay their debt of gratitude to the Chinese emperors for their protection of Buddhism because Buddhism had faced many challenges and criticisms from Chinese people since its introduction to China in the Han dynasty and it even underwent severe persecutions. Emperor Tai Wudi of the Northern Wei, for instance, persecuted Buddhism so the monastics had a vivid memory of such events.",
       "journal_name": "불교학리뷰",
       "year": "2022",
       "volume": "31",
       "issue": "",
       "start_page": "81",
       "end_page": "104",
-      "doi": "",
+      "doi": "10.29213/crbs..31.202204.81",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fba384fe685b4f38d18150b21a227875",
       "kci_url": "https://www.kci.go.kr/kciportal/po/citationindex/explanation.kci",
       "keywords_kr": [],
@@ -9508,7 +9569,8 @@
         "common people"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002836182"
     },
     {
       "article_id": "fba384fe685b4f386aae8a972f9116fb",
@@ -9522,14 +9584,14 @@
         }
       ],
       "abstract_kr": "Various types of patriotic Buddhism emerged at different levels of acceptance of Buddhism. This study divided patriotic Buddhism into five types. The types are as follows : receptive, recognized as state religion, autocratic, preservation-intended, human-oriented.Characteristics of patriotic Buddhism in Joseon manifested as ‘preservation-intended’ and ‘human-oriented’ Buddhism. Preservation-intended is to preserve it against anti-Buddhism, pro-Confucianism policies, and Human-oriented is to help and protect people from national crises.During the Joseon Dynasty, Buddhists carried out various activities for the very existence of Buddhism and for national defense to overcome national crises. The conduct of rituals for royal stability and establishment of temples guarding royal tombs seem to be an inevitable choice to preserve Buddhism, and forming monastic army during war times can be seen as patriotic activities to defend the state.Patriotic Buddhism during the Joseon Dynasty manifested as provision of political advise, formation of monastic soldiers to protect people and the state, publication of scriptures to disseminate Buddhist teachings and enlighten people, and social work to help people in need.In a modern, multi-faith society, patriotic Buddhism needs to explore ways to expand the common-good-promoting aspects of Buddhism, and help people ease their psychological agony.",
-      "abstract_en": "",
+      "abstract_en": "Various types of patriotic Buddhism emerged at different levels of acceptance of Buddhism. This study divided patriotic Buddhism into five types. The types are as follows : receptive, recognized as state religion, autocratic, preservation-intended, human-oriented.\nCharacteristics of patriotic Buddhism in Joseon manifested as ‘preservation-intended’ and ‘human-oriented’ Buddhism. Preservation-intended is to preserve it against anti-Buddhism, pro-Confucianism policies, and Human-oriented is to help and protect people from national crises.\nDuring the Joseon Dynasty, Buddhists carried out various activities for the very existence of Buddhism and for national defense to overcome national crises. The conduct of rituals for royal stability and establishment of temples guarding royal tombs seem to be an inevitable choice to preserve Buddhism, and forming monastic army during war times can be seen as patriotic activities to defend the state.\nPatriotic Buddhism during the Joseon Dynasty manifested as provision of political advise, formation of monastic soldiers to protect people and the state, publication of scriptures to disseminate Buddhist teachings and enlighten people, and social work to help people in need.\nIn a modern, multi-faith society, patriotic Buddhism needs to explore ways to expand the common-good-promoting aspects of Buddhism, and help people ease their psychological agony.",
       "journal_name": "불교학리뷰",
       "year": "2022",
       "volume": "31",
       "issue": "",
       "start_page": "105",
       "end_page": "140",
-      "doi": "",
+      "doi": "10.29213/crbs..31.202204.105",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fba384fe685b4f386aae8a972f9116fb",
       "kci_url": "https://www.kci.go.kr/kciportal/po/citationindex/explanation.kci",
       "keywords_kr": [],
@@ -9541,7 +9603,8 @@
         "Monk army"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002836194"
     },
     {
       "article_id": "361981b7c969b5d17ecd42904f0c5d65",
@@ -9562,7 +9625,7 @@
       "issue": "",
       "start_page": "141",
       "end_page": "160",
-      "doi": "",
+      "doi": "10.29213/crbs..31.202204.141",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=361981b7c969b5d17ecd42904f0c5d65",
       "kci_url": "https://www.kci.go.kr/kciportal/po/citationindex/explanation.kci",
       "keywords_kr": [
@@ -9582,7 +9645,8 @@
         "Buddha’s Land"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002836222"
     },
     {
       "article_id": "361981b7c969b5d1b36097776a77e665",
@@ -9596,14 +9660,14 @@
         }
       ],
       "abstract_kr": "What is the significance of studying the Buddhist way of practice? Recently, the term “Siddhartha Intent” has been heard among Tibetan Buddhists. It means that we should be aware of the purpose of the Buddha’s renouncing the worldly life, which was to transcend the suffering of affliction. The way that makes this possible was practice, or the method of observation called satipaṭṭhāna. The practice of satipaṭṭhāna was later called “cessation and observation.” I will consider the historical development of this cessation and observation that first appeared in India, then developed in China and was renovated to Chan (Jpn. Zen) Buddhism.",
-      "abstract_en": "",
+      "abstract_en": "What is the significance of studying the Buddhist way of practice? Recently, the term “Siddhartha Intent” has been heard among Tibetan Buddhists. It means that we should be aware of the purpose of the Buddha’s renouncing the worldly life, which was to transcend the suffering of affliction. The way that makes this possible was practice, or the method of observation called satipaṭṭhāna. The practice of satipaṭṭhāna was later called “cessation and observation.” I will consider the historical development of this cessation and observation that first appeared in India, then developed in China and was renovated to Chan (Jpn. Zen) Buddhism.",
       "journal_name": "불교학리뷰",
       "year": "2022",
       "volume": "31",
       "issue": "",
       "start_page": "161",
       "end_page": "184",
-      "doi": "",
+      "doi": "10.29213/crbs..31.202204.161",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=361981b7c969b5d1b36097776a77e665",
       "kci_url": "https://www.kci.go.kr/kciportal/po/citationindex/explanation.kci",
       "keywords_kr": [],
@@ -9615,7 +9679,8 @@
         "Chan"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002836224"
     },
     {
       "article_id": "361981b7c969b5d14884a65323211ff0",
@@ -9636,13 +9701,14 @@
       "issue": "",
       "start_page": "187",
       "end_page": "216",
-      "doi": "",
+      "doi": "10.29213/crbs..31.202204.187",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=361981b7c969b5d14884a65323211ff0",
       "kci_url": "https://www.kci.go.kr/kciportal/po/citationindex/explanation.kci",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002836228"
     },
     {
       "article_id": "a1720b55257ce0be4884a65323211ff0",
@@ -9663,7 +9729,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "31",
-      "doi": "",
+      "doi": "10.29213/crbs..32.202210.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a1720b55257ce0be4884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9683,7 +9749,8 @@
         "Preacher"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002889959"
     },
     {
       "article_id": "a1720b55257ce0beb7998d826d417196",
@@ -9704,7 +9771,7 @@
       "issue": "",
       "start_page": "33",
       "end_page": "59",
-      "doi": "",
+      "doi": "10.29213/crbs..32.202210.33",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a1720b55257ce0beb7998d826d417196",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9722,7 +9789,8 @@
         "ottappa"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002889962"
     },
     {
       "article_id": "f071000c9803d4387ecd42904f0c5d65",
@@ -9743,13 +9811,14 @@
       "issue": "",
       "start_page": "63",
       "end_page": "99",
-      "doi": "",
+      "doi": "10.29213/crbs..32.202210.63",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f071000c9803d4387ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002889964"
     },
     {
       "article_id": "ba4b2c13534f79907ecd42904f0c5d65",
@@ -9770,7 +9839,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "30",
-      "doi": "",
+      "doi": "10.29213/crbs..33.202304.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ba4b2c13534f79907ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9789,7 +9858,8 @@
         "Social reality"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002954706"
     },
     {
       "article_id": "ba4b2c13534f7990b36097776a77e665",
@@ -9803,14 +9873,14 @@
         }
       ],
       "abstract_kr": "Buddhism was introduced in China around the Han Dynasty. In the early days, it was mainly known to the imperial family and the public through the theory of Huang-Lao and the Fairy and Divination, which both were traditional Chinese ideologies. However, at the end of the Three Kingdoms social ideology was affected both directly and indirectly by the political turmoil, and emerged a new landscape. The moral concepts created based on Confucianism, which was originally the mainstream of ideology, began to waver, and other ideologies that existed in the past such as Taoism and Legalism revived. For the same reason, Buddhism also entered its own new turning point by emphasizing the similarity with Taoism rather than Huang-Lao and the Fairy and Divination. The image of Buddhism depicted in Ｍouzi was Buddhism at this time. In the text of Ｍouzi, a Chinese man named “Mouzi” was proficient in Confucianism, Taoism, and the theory of Fairy and Divination. From his young age, as during the Three Kingdoms’turmoil period, he began to believe and study Buddhism. He interpreted Buddhism with the concept of Taoism, and disprove Confucianism with the context of The Four Books and The Five Classics, the very own books of Confucianism’s. Last but not least, he took the initiative by criticizing the Fairy and Divination to advocated Buddhism. All above served as the foundation for Buddhism to become the mainstream of Chinese ideology. The image of Buddhism during the transition period depicted in Ｍouzi was a complex face of Buddhism representing that era.",
-      "abstract_en": "",
+      "abstract_en": "Buddhism was introduced in China around the Han Dynasty. In the early days, it was mainly known to the imperial family and the public through the theory of Huang-Lao and the Fairy and Divination, which both were traditional Chinese ideologies. However, at the end of the Three Kingdoms social ideology was affected both directly and indirectly by the political turmoil, and emerged a new landscape. The moral concepts created based on Confucianism, which was originally the mainstream of ideology, began to waver, and other ideologies that existed in the past such as Taoism and Legalism revived. For the same reason, Buddhism also entered its own new turning point by emphasizing the similarity with Taoism rather than Huang-Lao and the Fairy and Divination. The image of Buddhism depicted in Ｍouzi was Buddhism at this time. In the text of Ｍouzi, a Chinese man named “Mouzi” was proficient in Confucianism, Taoism, and the theory of Fairy and Divination. From his young age, as during the Three Kingdoms’turmoil period, he began to believe and study Buddhism. He interpreted Buddhism with the concept of Taoism, and disprove Confucianism with the context of The Four Books and The Five Classics, the very own books of Confucianism’s. Last but not least, he took the initiative by criticizing the Fairy and Divination to advocated Buddhism. All above served as the foundation for Buddhism to become the mainstream of Chinese ideology. The image of Buddhism during the transition period depicted in Ｍouzi was a complex face of Buddhism representing that era.",
       "journal_name": "불교학리뷰",
       "year": "2023",
       "volume": "33",
       "issue": "",
       "start_page": "33",
       "end_page": "49",
-      "doi": "",
+      "doi": "10.29213/crbs..33.202304.33",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ba4b2c13534f7990b36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9828,7 +9898,8 @@
         "The Fairy and Divination"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002954725"
     },
     {
       "article_id": "ba4b2c13534f79904884a65323211ff0",
@@ -9849,7 +9920,7 @@
       "issue": "",
       "start_page": "53",
       "end_page": "76",
-      "doi": "",
+      "doi": "10.29213/crbs..33.202304.53",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ba4b2c13534f79904884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9869,7 +9940,8 @@
         "the Belief of the Mountain Spirits"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002954730"
     },
     {
       "article_id": "ba4b2c13534f7990b7998d826d417196",
@@ -9890,7 +9962,7 @@
       "issue": "",
       "start_page": "77",
       "end_page": "98",
-      "doi": "",
+      "doi": "10.29213/crbs..33.202304.77",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ba4b2c13534f7990b7998d826d417196",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9914,12 +9986,13 @@
         "Girō Senoo (妹尾義郞)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002954738"
     },
     {
       "article_id": "ba4b2c13534f7990c85d2949c297615a",
       "title_kr": "Venerable Shengyan’s Self-Representation in Relation to His Formulation of Chan Buddhism",
-      "title_en": "",
+      "title_en": "Venerable Shengyan’s Self-Representation in Relation to His Formulation of Chan Buddhism",
       "authors": [
         {
           "name": "Jimmy Yu",
@@ -9928,20 +10001,21 @@
         }
       ],
       "abstract_kr": "This paper takes a narrative approach, looking at Chan master Shengyan’s (1931-2009) autobiographies, and historicizing his response to life and the circumstances of Chinese Chan Buddhism in the zeitgeist of the twentieth century. The time-honored Chan Buddhist tradition, in the tumultuous sociopolitical transition, struggled for a space in the age of reason and rationality; this perceived struggle on the larger religious and sociological scale was encapsulated in Shengyan’s own narration of his life, forming his personal and religious identities. My basic argument is that his Chan teachings were contingent on both his personal crisis and his perceived global crisis of a war-torn China. Against the backdrop of his individual struggles, the sociopolitical transformations of twentieth century China, the internal crisis of orthodoxy, and the external threat of non-Chinese forms of Buddhism in Taiwan, Shengyan envisioned Chan Buddhism as the doctrinal culmination and experiential fulfillment of the whole of Buddhism, manifested through creating the Dharma Drum Lineage.",
-      "abstract_en": "",
+      "abstract_en": "This paper takes a narrative approach, looking at Chan master Shengyan’s (1931-2009) autobiographies, and historicizing his response to life and the circumstances of Chinese Chan Buddhism in the zeitgeist of the twentieth century. The time-honored Chan Buddhist tradition, in the tumultuous sociopolitical transition, struggled for a space in the age of reason and rationality; this perceived struggle on the larger religious and sociological scale was encapsulated in Shengyan’s own narration of his life, forming his personal and religious identities. My basic argument is that his Chan teachings were contingent on both his personal crisis and his perceived global crisis of a war-torn China. Against the backdrop of his individual struggles, the sociopolitical transformations of twentieth century China, the internal crisis of orthodoxy, and the external threat of non-Chinese forms of Buddhism in Taiwan, Shengyan envisioned Chan Buddhism as the doctrinal culmination and experiential fulfillment of the whole of Buddhism, manifested through creating the Dharma Drum Lineage.",
       "journal_name": "불교학리뷰",
       "year": "2023",
       "volume": "33",
       "issue": "",
       "start_page": "99",
       "end_page": "120",
-      "doi": "",
+      "doi": "10.29213/crbs..33.202304.99",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ba4b2c13534f7990c85d2949c297615a",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002954750"
     },
     {
       "article_id": "ba4b2c13534f799047de9c1710b0298d",
@@ -9962,7 +10036,7 @@
       "issue": "",
       "start_page": "121",
       "end_page": "148",
-      "doi": "",
+      "doi": "10.29213/crbs..33.202304.121",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ba4b2c13534f799047de9c1710b0298d",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -9979,7 +10053,8 @@
         "Emperor Wu of the Liang Dynasty"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002954761"
     },
     {
       "article_id": "ba4b2c13534f79907f7a54760bb41745",
@@ -10000,7 +10075,7 @@
       "issue": "",
       "start_page": "151",
       "end_page": "187",
-      "doi": "",
+      "doi": "10.29213/crbs..33.202304.151",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ba4b2c13534f79907f7a54760bb41745",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -10015,7 +10090,8 @@
         "vicāra)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART002954768"
     },
     {
       "article_id": "2f020d609e06eb8ce9810257f7042666",
@@ -10036,7 +10112,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "50",
-      "doi": "",
+      "doi": "10.29213/crbs..34.202310.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2f020d609e06eb8ce9810257f7042666",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -10058,7 +10134,8 @@
         "Depiction of Sukhāvatī"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003011867"
     },
     {
       "article_id": "2f020d609e06eb8c47de9c1710b0298d",
@@ -10079,7 +10156,7 @@
       "issue": "",
       "start_page": "51",
       "end_page": "72",
-      "doi": "",
+      "doi": "10.29213/crbs..34.202310.51",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2f020d609e06eb8c47de9c1710b0298d",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -10097,7 +10174,8 @@
         "Esoteric"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003011877"
     },
     {
       "article_id": "2f020d609e06eb8c7f7a54760bb41745",
@@ -10118,13 +10196,14 @@
       "issue": "",
       "start_page": "75",
       "end_page": "96",
-      "doi": "",
+      "doi": "10.29213/crbs..34.202310.75",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2f020d609e06eb8c7f7a54760bb41745",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003011896"
     },
     {
       "article_id": "2f020d609e06eb8cc85d2949c297615a",
@@ -10145,13 +10224,14 @@
       "issue": "",
       "start_page": "99",
       "end_page": "134",
-      "doi": "",
+      "doi": "10.29213/crbs..34.202310.99",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2f020d609e06eb8cc85d2949c297615a",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003011908"
     },
     {
       "article_id": "09314ef033b1ac334884a65323211ff0",
@@ -10172,7 +10252,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "31",
-      "doi": "",
+      "doi": "10.29213/crbs..35.202404.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=09314ef033b1ac334884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -10190,7 +10270,8 @@
         "dual·triple ·quintuplet types of the middle way"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003076737"
     },
     {
       "article_id": "53665915c56369f4e9810257f7042666",
@@ -10211,7 +10292,7 @@
       "issue": "",
       "start_page": "35",
       "end_page": "56",
-      "doi": "",
+      "doi": "10.29213/crbs..35.202404.35",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=53665915c56369f4e9810257f7042666",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -10233,7 +10314,8 @@
         "Patriotic Buddhism."
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003076743"
     },
     {
       "article_id": "53665915c56369f46aae8a972f9116fb",
@@ -10254,7 +10336,7 @@
       "issue": "",
       "start_page": "57",
       "end_page": "80",
-      "doi": "",
+      "doi": "10.29213/crbs..35.202404.57",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=53665915c56369f46aae8a972f9116fb",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -10271,12 +10353,13 @@
         "Seon Buddhism"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003076747"
     },
     {
       "article_id": "09314ef033b1ac337ecd42904f0c5d65",
       "title_kr": "Buddhism in a “Secular” Age: An East Asian View",
-      "title_en": "",
+      "title_en": "Buddhism in a “Secular” Age: An East Asian View",
       "authors": [
         {
           "name": "Albert WELTER",
@@ -10285,14 +10368,14 @@
         }
       ],
       "abstract_kr": "This paper explores the notion of “secularism” in the premodern East Asian, specifically Chinese, context with a focus on Buddhism. The first question entertained is the notion of premodern Chinese “secularism.” Does premodern Confucianism qualify as such? Here one runs into the problem of applying modern concepts with premodern practices, not to mention the Western bias in the definition of categories like “religion” and “secularism.” Although the secular orientations of Confucianism are well-known, I maintain that Confucianism maintains stronger religious inclinations than often acknowledged, via its commitment to ritual (li 禮), whereby one carries the reverence of religious ceremony into all aspects of life. The Confucian ritual program is based in a belief in a moral order pervading the universe and a world sympathetic to human goodness exhibited through moral behavior. A belief in the notion of “sympathetic resonance” (ganying 感應), a belief in a force that infuses the cosmos susceptible to human influence, provides an underlying basis through which each of China’s three premodern traditions are contributing partners in maintaining the natural and social order. The Buddhist contributions and amelioration to the Chinese “secular” order are examined through the specific writings of Zanning 贊寧 (919-1001), the leading Buddhist at the early Song dynasty court. His proposals offer a window of possibility into how Buddhism adapted to the Chinese “secular” milieux, became domesticated, and incorporated into the bureaucratic structure as an essential component of an overarching Chinese tradition. Ultimately, Zanning  advocates for a tradition of Buddhist Ru 儒 and a program for Buddhist junzi 法門君子 as the pinnacle of Buddhist involvement in the Chinese secular context.",
-      "abstract_en": "",
+      "abstract_en": "This paper explores the notion of “secularism” in the premodern East Asian, specifically Chinese, context with a focus on Buddhism. The first question entertained is the notion of premodern Chinese “secularism.” Does premodern Confucianism qualify as such? Here one runs into the problem of applying modern concepts with premodern practices, not to mention the Western bias in the definition of categories like “religion” and “secularism.” Although the secular orientations of Confucianism are well-known, I maintain that Confucianism maintains stronger religious inclinations than often acknowledged, via its commitment to ritual (li 禮), whereby one carries the reverence of religious ceremony into all aspects of life. The Confucian ritual program is based in a belief in a moral order pervading the universe and a world sympathetic to human goodness exhibited through moral behavior. A belief in the notion of “sympathetic resonance” (ganying 感應), a belief in a force that infuses the cosmos susceptible to human influence, provides an underlying basis through which each of China’s three premodern traditions are contributing partners in maintaining the natural and social order. The Buddhist contributions and amelioration to the Chinese “secular” order are examined through the specific writings of Zanning 贊寧 (919-1001), the leading Buddhist at the early Song dynasty court. His proposals offer a window of possibility into how Buddhism adapted to the Chinese “secular” milieux, became domesticated, and incorporated into the bureaucratic structure as an essential component of an overarching Chinese tradition. Ultimately, Zanning advocates for a tradition of Buddhist Ru 儒 and a program for Buddhist junzi 法門君子 as the pinnacle of Buddhist involvement in the Chinese secular context.",
       "journal_name": "불교학리뷰",
       "year": "2024",
       "volume": "35",
       "issue": "",
       "start_page": "81",
       "end_page": "107",
-      "doi": "",
+      "doi": "10.29213/crbs..35.202404.81",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=09314ef033b1ac337ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
@@ -10305,12 +10388,13 @@
         "Buddhist Junzi"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003076751"
     },
     {
       "article_id": "09314ef033b1ac33b36097776a77e665",
       "title_kr": "The Lotus Sutra’s One Vehicle and Rissho Kosei-kai’s Understanding of Interfaith Relations: The Ambivalence of Religious Inclusivism and Prospects for Embracing Religious Pluralism for the 21st Century",
-      "title_en": "",
+      "title_en": "The Lotus Sutra’s One Vehicle and Rissho Kosei-kai’s Understanding of Interfaith Relations: The Ambivalence of Religious Inclusivism and Prospects for Embracing Religious Pluralism for the 21st Century",
       "authors": [
         {
           "name": "Dominick Scarangello",
@@ -10319,14 +10403,14 @@
         }
       ],
       "abstract_kr": "This presentation will explore the Lotus Sutra-based understanding of the diversity of religions that underpins the Japanese Buddhist religious group Rissho Kosei-kai’s approach to interfaith cooperation and dialogue. I will examine how Rissho Kosei-kai creatively reinterpreted prewar Nichirenism’s stance toward the diversity of religions to support an inclusivist embrace of other religions and enter dialogue with them. However, I determine that those innovations have an ambiguous contemporary legacy, as aspects of Rissho Kosei-kai’s inclusivist notion of the “oneness” of religions cannot transcend reductive inclusivism to provide a coherent account of religious pluralism.In the conclusion of this presentation, I will reflect on the potential for establishing a practical framework for understanding religious pluralism for Rissho Kosei-kai and consider the prospects for embracing a thoroughgoing pluralism from the standpoint of the Lotus Sutra tradition.",
-      "abstract_en": "",
+      "abstract_en": "This presentation will explore the Lotus Sutra-based understanding of the diversity of religions that underpins the Japanese Buddhist religious group Rissho Kosei-kai’s approach to interfaith cooperation and dialogue. I will examine how Rissho Kosei-kai creatively reinterpreted prewar Nichirenism’s stance toward the diversity of religions to support an inclusivist embrace of other religions and enter dialogue with them. However, I determine that those innovations have an ambiguous contemporary legacy, as aspects of Rissho Kosei-kai’s inclusivist notion of the “oneness” of religions cannot transcend reductive inclusivism to provide a coherent account of religious pluralism.In the conclusion of this presentation, I will reflect on the potential for establishing a practical framework for understanding religious pluralism for Rissho Kosei-kai and consider the prospects for embracing a thoroughgoing pluralism from the standpoint of the Lotus Sutra tradition.",
       "journal_name": "불교학리뷰",
       "year": "2024",
       "volume": "35",
       "issue": "",
       "start_page": "109",
       "end_page": "144",
-      "doi": "",
+      "doi": "10.29213/crbs..35.202404.109",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=09314ef033b1ac33b36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
@@ -10339,7 +10423,8 @@
         "religious pluralism"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003076758"
     },
     {
       "article_id": "53665915c56369f4d18150b21a227875",
@@ -10348,7 +10433,7 @@
       "authors": [
         {
           "name": "김제란",
-          "affiliation": "",
+          "affiliation": "성균관대학교 한국철학문화연구소",
           "order": "1"
         }
       ],
@@ -10360,13 +10445,14 @@
       "issue": "",
       "start_page": "147",
       "end_page": "159",
-      "doi": "",
+      "doi": "10.29213/crbs..35.202404.147",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=53665915c56369f4d18150b21a227875",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003076763"
     },
     {
       "article_id": "c019844c4e2bf6f14884a65323211ff0",
@@ -10387,7 +10473,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "33",
-      "doi": "",
+      "doi": "10.29213/crbs..36.202410.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c019844c4e2bf6f14884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -10409,7 +10495,8 @@
         "na."
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003133556"
     },
     {
       "article_id": "c019844c4e2bf6f17ecd42904f0c5d65",
@@ -10430,13 +10517,14 @@
       "issue": "",
       "start_page": "37",
       "end_page": "60",
-      "doi": "",
+      "doi": "10.29213/crbs..36.202410.37",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c019844c4e2bf6f17ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003133563"
     },
     {
       "article_id": "c019844c4e2bf6f1b36097776a77e665",
@@ -10457,13 +10545,14 @@
       "issue": "",
       "start_page": "63",
       "end_page": "73",
-      "doi": "",
+      "doi": "10.29213/crbs..36.202410.63",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c019844c4e2bf6f1b36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003133567"
     },
     {
       "article_id": "14dd1c3a4255d5e06aae8a972f9116fb",
@@ -10484,7 +10573,7 @@
       "issue": "",
       "start_page": "9",
       "end_page": "32",
-      "doi": "",
+      "doi": "10.29213/crbs..37.202504.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=14dd1c3a4255d5e06aae8a972f9116fb",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -10503,7 +10592,8 @@
         "free will"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003199234"
     },
     {
       "article_id": "6aa22cc456c2db907f7a54760bb41745",
@@ -10524,13 +10614,14 @@
       "issue": "",
       "start_page": "35",
       "end_page": "61",
-      "doi": "",
+      "doi": "10.29213/crbs..37.202504.35",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6aa22cc456c2db907f7a54760bb41745",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003199260"
     },
     {
       "article_id": "6aa22cc456c2db9047de9c1710b0298d",
@@ -10543,7 +10634,7 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
+      "abstract_kr": "본 논문은 크게 두 부분으로 구성된다. 첫 부분에서는 인도 대승불교 전성기 유가행--유식학파를 대표하는 주석가이자 논사인 스티라마티(安慧, Sthiramati)1)를 소개하고, 더 긴 두 번째 부분에서는 알라야식 개념에 대한 그의 견해를 살펴본다.\n스티라마티의 유가행파 저작 중 두 편은 이미 오래전부터 산스크리트 원전으로전해져 왔다. 최근 몇 년간 그의 것으로 추정되는 다른 저작들의 산스크리트 사본이 새롭게 발견되어, 현재는 알라야식 개념과 유가행파의 주요 교리를 상세히 다룬 스티라마티의 세 가지 원전을 확인할 수 있게 되었다. 이는 귀중한 자료들로서더욱 면밀한 연구가 필요하다. 동시에 스티라마티의 정체성, 그에게 확실히 귀속할 수 있는 저작들, 그리고 그의 주석 방식에 관한 미해결 문제들도 다뤄져야 한다. 논문의 두 번째 부분은 현존하는 세 산스크리트 텍스트, 즉 두 주석서인 『유식삼십송석(Triṃśikābhāṣya)』과 『대승오온론석(Pañcaskandhakavibhāṣā)』, 그리고 복주인 『중변분별론석소(Madhyāntavibhāgaṭīkā)』를 바탕으로 알라야식 개념에 대한그의 견해를 다룬다. 이 부분은 세 문헌의 관련 내용을 비교하는 기초적인 연구로 구성되었다. 따라서 이 연구에서는 관련 문제를 이해하기 쉽게 설명하고, 기존 연구 성과들을 참조하여 정리하며, 특히 중요한 용어적·교리적 쟁점들을 논의한다.\n예컨대 알라야식과 또 다른 마음과의 관계, 알라야식의 잠재적 성격과 그 인식 대상, 그리고 알라야식과 유식철학의 결합 문제 등이 여기에 포함된다.",
       "abstract_en": "",
       "journal_name": "불교학리뷰",
       "year": "2025",
@@ -10551,13 +10642,14 @@
       "issue": "",
       "start_page": "65",
       "end_page": "89",
-      "doi": "",
+      "doi": "10.29213/crbs..37.202504.65",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6aa22cc456c2db9047de9c1710b0298d",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003199267"
     },
     {
       "article_id": "6aa22cc456c2db90c85d2949c297615a",
@@ -10578,13 +10670,14 @@
       "issue": "",
       "start_page": "93",
       "end_page": "99",
-      "doi": "",
+      "doi": "10.29213/crbs..37.202504.93",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6aa22cc456c2db90c85d2949c297615a",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003199275"
     },
     {
       "article_id": "1ae47e05e2ea2dd4b7998d826d417196",
@@ -11282,6 +11375,35 @@
       "doi": "10.29213/crbs..19.201606.209",
       "riss_url": "",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002116423",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI"
+    },
+    {
+      "article_id": "ART002711392",
+      "id": "ART002711392",
+      "kci_id": "ART002711392",
+      "title_kr": "서평: 근대일본과 불교",
+      "title_en": "Review of Humihiko Sueki’s Modern Japan and Buddhism",
+      "authors": [
+        {
+          "name": "김제란",
+          "affiliation": "동국대학교 불교학술원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "불교학리뷰",
+      "year": "2021",
+      "volume": "",
+      "issue": "29",
+      "start_page": "95",
+      "end_page": "104",
+      "doi": "10.29213/crbs..29.202104.95",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002711392",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],

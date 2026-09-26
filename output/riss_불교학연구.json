@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.88,
     "control_no": "74eb06313eaadb56ffe0bdc3ef48d419",
-    "last_updated": "2026-09-26"
+    "last_updated": "2026-09-27"
   },
   "articles": [
     {
@@ -36802,7 +36802,7 @@
       "authors": [
         {
           "name": "김귀옥",
-          "affiliation": "",
+          "affiliation": "전남대학교",
           "order": "1"
         }
       ],
@@ -36814,7 +36814,7 @@
       "issue": "",
       "start_page": "133",
       "end_page": "166",
-      "doi": "",
+      "doi": "10.21482/jbs.83..202506.133",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e29655cc9a6aa4f347de9c1710b0298d",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -36838,7 +36838,8 @@
         "then the Four Noble Truths and the Buddha’s teaching are undermined. Nāgārjuna refutes this by arguing that such a view results from a nihilistic misunderstanding of emptiness."
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003217973"
     },
     {
       "article_id": "e29655cc9a6aa4f3e9810257f7042666",
