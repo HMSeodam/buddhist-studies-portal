@@ -110,12 +110,16 @@ jobs:
           github.event.inputs.target == 'kci' ||
           github.event.inputs.target == 'all'
         continue-on-error: true
-        timeout-minutes: 45
+        # KCI 만 따로 실행할 때(target=kci)는 RISS 가 돌지 않으므로 시간을 넉넉히(최대 300분)
+        timeout-minutes: ${{ github.event.inputs.target == 'kci' && 300 || 45 }}
         run: |
           cd collector
           FROM="${{ github.event.inputs.kci_from }}"
-          if [ -n "$FROM" ]; then
-            python kci_oai_updater.py --from "$FROM" --deadline-min 40   # 긴 기간 점검·초기 적재
+          TARGET="${{ github.event.inputs.target }}"
+          if [ -n "$FROM" ] && [ "$TARGET" = "kci" ]; then
+            python kci_oai_updater.py --from "$FROM" --deadline-min 290   # 긴 기간 점검·초기 적재 (KCI 단독)
+          elif [ -n "$FROM" ]; then
+            python kci_oai_updater.py --from "$FROM" --deadline-min 40
           else
             python kci_oai_updater.py --deadline-min 18
           fi
