@@ -235,46 +235,43 @@ def http_get(session, url, params, tries=4, stats=None):
     return None
 
 
-def harvest(date_from: str, date_until: str, deadline: float, discover: bool = True):
-    """반환: (대상 학술지 레코드, 이름이 안 맞은 불교 관련 학술지, 끝까지 받았는지, 통계)"""
-    s = requests.Session()
-    s.headers.update({"User-Agent": UA, "Accept": "text/xml,application/xml;q=0.9,*/*;q=0.8",
-                      "Accept-Language": "ko-KR,ko;q=0.9"})
-    stats = {"pages": 0, "total": 0, "format": "oai_kci", "http_errors": [], "error": "", "per_journal": {}}
-    matched, seen, unmatched = [], set(), {}
-    fmt, parser = "oai_kci", parse_oai_kci
+def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, unmatched, discover, fmt_state):
+    """한 기간(보통 7일)을 끝까지 수확. 반환: (완료 여부, 사유)"""
+    fmt = fmt_state["fmt"]
+    parser = parse_oai_kci if fmt == "oai_kci" else parse_oai_dc
     params = {"verb": "ListRecords", "set": "ARTI", "metadataPrefix": fmt, "from": date_from, "until": date_until}
+    page_in_win = 0
     while True:
         if time.time() > deadline:
-            stats["error"] = "시간 예산 소진"; print("  ⏹ 시간 예산 소진 — 여기까지만 처리")
-            return matched, unmatched, False, stats
+            return False, "시간 예산 소진"
         text = http_get(s, OAI_URL, params, stats=stats)
         if text is None and fmt == "oai_kci" and stats["pages"] == 0:
             print("  ↪ 상세 형식(oai_kci) 응답 실패 → 간략 형식(oai_dc)으로 다시 시도")
-            fmt, parser = "oai_dc", parse_oai_dc; stats["format"] = fmt
+            fmt = fmt_state["fmt"] = stats["format"] = "oai_dc"; parser = parse_oai_dc
             params = {"verb": "ListRecords", "set": "ARTI", "metadataPrefix": fmt, "from": date_from, "until": date_until}
             continue
         if text is None:
-            stats["error"] = "KCI 서버 응답 없음"; print("  ✗ KCI 응답 없음 — 중단")
-            return matched, unmatched, False, stats
+            return False, "KCI 서버 응답 없음"
         try:
             recs, token, err = parser(text)
         except ET.ParseError:
-            stats["error"] = "XML 아님(차단 안내 페이지일 수 있음): " + re.sub(r"\s+", " ", text[:150])
-            print("  ✗ " + stats["error"])
-            return matched, unmatched, False, stats
+            return False, "XML 아님(차단 안내 페이지일 수 있음): " + re.sub(r"\s+", " ", text[:150])
         if err == "noRecordsMatch":
-            print("  (이 기간에 KCI 에서 새로 등록·수정된 논문이 없음)")
-            break
+            return True, ""
         if err:
-            stats["error"] = f"OAI 오류 {err}"; print(f"  ✗ OAI 오류: {err}")
-            return matched, unmatched, False, stats
-        stats["pages"] += 1
-        fresh = False
+            # 토큰과 함께 보낸 추가 인자를 거부하면(badArgument) 표준 방식으로 전환
+            if err == "badArgument" and "resumptionToken" in params and fmt_state["page_style"] == "kci":
+                fmt_state["page_style"] = "std"
+                params = {"verb": "ListRecords", "resumptionToken": params["resumptionToken"]}
+                stats["notes"].append("다음 쪽 요청 방식: 표준(토큰만)으로 전환")
+                continue
+            return False, f"OAI 오류 {err}"
+        stats["pages"] += 1; page_in_win += 1
+        fresh = 0
         for r in recs:
             if r["kci_id"] in seen:
                 continue
-            seen.add(r["kci_id"]); fresh = True; stats["total"] += 1
+            seen.add(r["kci_id"]); fresh += 1; stats["total"] += 1
             ours = KCI_NAME_MAP.get(_norm(r["journal"]))
             if ours:
                 r["journal_ours"] = ours
@@ -282,14 +279,63 @@ def harvest(date_from: str, date_until: str, deadline: float, discover: bool = T
                 stats["per_journal"][ours] = stats["per_journal"].get(ours, 0) + 1
             elif discover and any(h.lower() in r["journal"].lower() for h in DISCOVER_HINTS):
                 unmatched[r["journal"]] = unmatched.get(r["journal"], 0) + 1
-        if stats["pages"] % 10 == 0:
-            print(f"  … {stats['pages']}쪽 / {stats['total']}건 확인, 대상 학술지 {len(matched)}건")
-        if not token or not fresh:
-            break
-        params = {"verb": "ListRecords", "resumptionToken": token}
+        if stats["pages"] <= 3:
+            print(f"    쪽{stats['pages']}: 레코드 {len(recs)}건(새 {fresh}) · 다음 토큰 {token!r}")
+        if stats["pages"] % 20 == 0:
+            print(f"  … {stats['pages']}쪽 / {stats['total']:,}건 확인, 대상 학술지 {len(matched)}건")
+        if not token:
+            return True, ""
+        if not fresh and page_in_win > 1:
+            # 같은 목록이 되풀이됨 → 다른 방식으로 다음 쪽 요청 시도
+            if fmt_state["page_style"] == "kci":
+                fmt_state["page_style"] = "std"
+                stats["notes"].append("같은 쪽이 반복되어 다음 쪽 요청 방식을 표준(토큰만)으로 전환")
+            elif fmt_state["page_style"] == "std":
+                fmt_state["page_style"] = "full"
+                stats["notes"].append("같은 쪽이 반복되어 다음 쪽 요청에 set 까지 포함")
+            else:
+                return False, "다음 쪽으로 넘어가지 않음(같은 목록 반복)"
+        style = fmt_state["page_style"]
+        if style == "kci":    # KCI 자체 링크 방식: 토큰 + metadataPrefix
+            params = {"verb": "ListRecords", "metadataPrefix": fmt, "resumptionToken": token}
+        elif style == "std":  # OAI-PMH 표준: 토큰만
+            params = {"verb": "ListRecords", "resumptionToken": token}
+        else:
+            params = {"verb": "ListRecords", "metadataPrefix": fmt, "set": "ARTI", "resumptionToken": token}
         time.sleep(THROTTLE)
-    print(f"  수확 완료({fmt}): {stats['pages']}쪽 · KCI 레코드 {stats['total']}건 중 대상 학술지 {len(matched)}건")
-    return matched, unmatched, True, stats
+
+
+def harvest(date_from: str, date_until: str, deadline: float, discover: bool = True, on_window_done=None):
+    """
+    기간을 7일 단위로 나눠 수확 (긴 기간도 중간까지 저장·이어받기 가능).
+    반환: (대상 레코드, 이름이 안 맞은 불교 관련 학술지, 끝까지 받았는지, 통계, 완료된 마지막 날짜)
+    """
+    s = requests.Session()
+    s.headers.update({"User-Agent": UA, "Accept": "text/xml,application/xml;q=0.9,*/*;q=0.8",
+                      "Accept-Language": "ko-KR,ko;q=0.9"})
+    stats = {"pages": 0, "total": 0, "format": "oai_kci", "http_errors": [], "error": "",
+             "per_journal": {}, "notes": [], "windows": 0}
+    matched, seen, unmatched = [], set(), {}
+    fmt_state = {"fmt": "oai_kci", "page_style": "kci"}
+    d0 = datetime.strptime(date_from, "%Y-%m-%d"); dend = datetime.strptime(date_until, "%Y-%m-%d")
+    done_until = ""
+    while d0 <= dend:
+        d1 = min(d0 + timedelta(days=6), dend)
+        a, b = d0.strftime("%Y-%m-%d"), d1.strftime("%Y-%m-%d")
+        before = stats["total"]
+        ok, why = _harvest_window(s, a, b, deadline, stats, matched, seen, unmatched, discover, fmt_state)
+        if not ok:
+            stats["error"] = f"{a}~{b}: {why}"
+            print(f"  ✗ {stats['error']}")
+            return matched, unmatched, False, stats, done_until
+        stats["windows"] += 1
+        done_until = b
+        print(f"  ✓ {a}~{b}: KCI 레코드 {stats['total']-before:,}건 (누적 {stats['total']:,}건, 대상 {len(matched)}건)")
+        if on_window_done:
+            on_window_done(b)
+        d0 = d1 + timedelta(days=1)
+    print(f"  수확 완료({stats['format']}): {stats['pages']}쪽 · KCI 레코드 {stats['total']:,}건 중 대상 학술지 {len(matched)}건")
+    return matched, unmatched, True, stats, done_until
 
 
 # ════════════════════════════════════════
@@ -410,7 +456,12 @@ def main():
         try: state = json.load(open(STATE_FILE, encoding="utf-8"))
         except Exception: state = {}
     today = datetime.strptime(today_kst(), "%Y-%m-%d")
-    if args.date_from:
+    bf = state.get("backfill") or {}
+    if args.date_from and bf.get("from") == args.date_from and bf.get("done_until"):
+        # 같은 시작일로 다시 실행하면 지난번에 끝낸 날짜 다음부터 이어받기
+        dfrom = (datetime.strptime(bf["done_until"], "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")
+        print(f"  (지난 {args.date_from} 부터의 점검을 {dfrom} 부터 이어받습니다)")
+    elif args.date_from:
         dfrom = args.date_from
     elif state.get("last_until"):
         dfrom = (datetime.strptime(state["last_until"], "%Y-%m-%d") - timedelta(days=OVERLAP_DAYS)).strftime("%Y-%m-%d")
@@ -419,15 +470,23 @@ def main():
     duntil = args.date_until or today.strftime("%Y-%m-%d")
     print(f"▶ KCI OAI-PMH 수확: {dfrom} ~ {duntil} (시간 예산 {args.deadline_min:.0f}분)")
 
-    matched, unmatched, complete, stats = harvest(dfrom, duntil, deadline, True)
+    if dfrom > duntil:
+        print("  이미 끝까지 받았습니다."); dfrom = duntil
+    matched, unmatched, complete, stats, done_until = harvest(dfrom, duntil, deadline, True)
     summary = merge(matched, args.dry_run, os.environ.get("KCI_API_KEY", ""))
+    # 진행 상황 저장 (병합이 끝난 뒤에만 — 받은 논문이 저장되기 전에 날짜만 앞서가지 않도록)
+    if not args.dry_run and done_until:
+        Path(STATE_FILE).parent.mkdir(parents=True, exist_ok=True)
+        if args.date_from:
+            state["backfill"] = {"from": args.date_from, "done_until": done_until, "updated": today_kst()}
+        else:
+            state["last_until"] = done_until
+        state["updated"] = today_kst()
+        atomic_write_json(Path(STATE_FILE), state)
     if unmatched:
         print("\n  🔎 이름이 맞지 않아 건너뛴 불교 관련 학술지 (KCI_JOURNALS 별칭 후보):")
         for n, c in sorted(unmatched.items(), key=lambda x: -x[1])[:40]:
             print(f"     {c:4}건  {n}")
-    if complete and not args.dry_run and not args.date_from:
-        Path(STATE_FILE).parent.mkdir(parents=True, exist_ok=True)
-        atomic_write_json(Path(STATE_FILE), {"last_until": duntil, "updated": today_kst()})
     total_new = sum(v[0] for v in summary.values())
     print(f"\n✅ KCI 완료: 새 논문 {total_new}편 · 보완 {sum(v[1] for v in summary.values())}건"
           + ("" if complete else " (일부만 처리 — 다음 실행에서 같은 기간 재시도)"))
@@ -435,7 +494,8 @@ def main():
     if summ:
         filled = sum(v[1] for v in summary.values())
         L = [f"### KCI OAI {dfrom}~{duntil}: 새 논문 {total_new}편 · 기존 보완 {filled}건",
-             f"- 확인한 KCI 레코드: **{stats['total']:,}건** ({stats['pages']}쪽, 형식 {stats['format']})",
+             f"- 확인한 KCI 레코드: **{stats['total']:,}건** ({stats['pages']}쪽, 형식 {stats['format']}, "
+             f"완료 구간 {stats['windows']}주{', ~'+done_until+' 까지' if done_until else ''})",
              f"- 우리 학술지로 연결된 레코드: **{len(matched)}건**"]
         if stats["per_journal"]:
             L.append("- 학술지별: " + ", ".join(f"{k} {v}건(새 {summary.get(k,(0,0))[0]}·보완 {summary.get(k,(0,0))[1]})"
@@ -445,8 +505,12 @@ def main():
                      sorted(unmatched.items(), key=lambda x: -x[1])[:15]))
         if stats["http_errors"]:
             L.append(f"- HTTP 오류: {stats['http_errors'][:10]}")
+        for n in stats["notes"]:
+            L.append(f"- 참고: {n}")
         if stats["error"] or not complete:
-            L.append(f"- ⚠ 미완료: {stats['error'] or '중단'} → 다음 실행에서 같은 기간을 다시 받습니다")
+            L.append(f"- ⚠ 미완료: {stats['error'] or '중단'} → "
+                     + (f"같은 시작일({args.date_from})로 다시 실행하면 {done_until or dfrom} 이후부터 이어받습니다" if args.date_from
+                        else "다음 실행에서 이어받습니다"))
         with open(summ, "a", encoding="utf-8") as f:
             f.write("\n".join(L) + "\n")
 
