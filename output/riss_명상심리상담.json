@@ -7102,9 +7102,9 @@
       "issue": "",
       "start_page": "29",
       "end_page": "38",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.33.3",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=702259f8ad0316a7c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203427",
       "keywords_kr": [
         "사띠",
         "카타르시스",
@@ -7120,7 +7120,8 @@
         "compassion"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003203427"
     },
     {
       "article_id": "702259f8ad0316a747de9c1710b0298d",
@@ -7146,9 +7147,9 @@
       "issue": "",
       "start_page": "39",
       "end_page": "49",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.33.4",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=702259f8ad0316a747de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203430",
       "keywords_kr": [
         "다차원적 완벽주의",
         "개인기준 완벽주의",
@@ -7164,7 +7165,8 @@
         "Cluster analysis."
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003203430"
     },
     {
       "article_id": "702259f8ad0316a77f7a54760bb41745",
@@ -7173,7 +7175,7 @@
       "authors": [
         {
           "name": "김희수",
-          "affiliation": "",
+          "affiliation": "단국대학교",
           "order": "1"
         }
       ],
@@ -7185,9 +7187,9 @@
       "issue": "",
       "start_page": "51",
       "end_page": "62",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.33.5",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=702259f8ad0316a77f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203434",
       "keywords_kr": [
         "구조 방정식 모형",
         "주택 가격 형성 요인",
@@ -7202,7 +7204,8 @@
         "Mediating Effect"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003203434"
     },
     {
       "article_id": "614d3513fafd634847de9c1710b0298d",
@@ -7223,9 +7226,9 @@
       "issue": "",
       "start_page": "63",
       "end_page": "75",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.33.6",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=614d3513fafd634847de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003201403",
       "keywords_kr": [
         "워킹맘",
         "직장맘",
@@ -7242,7 +7245,8 @@
         "healing"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003201403"
     },
     {
       "article_id": "702259f8ad0316a7e9810257f7042666",
@@ -7263,9 +7267,9 @@
       "issue": "",
       "start_page": "77",
       "end_page": "87",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.33.7",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=702259f8ad0316a7e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203437",
       "keywords_kr": [
         "월정사",
         "금강경 봉찬 기도",
@@ -7279,7 +7283,8 @@
         "Buddhist practice"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003203437"
     },
     {
       "article_id": "702259f8ad0316a7d18150b21a227875",
@@ -7300,9 +7305,9 @@
       "issue": "",
       "start_page": "89",
       "end_page": "102",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.33.8",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=702259f8ad0316a7d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203441",
       "keywords_kr": [
         "몸느낌 관찰명상",
         "성공적 노화",
@@ -7318,7 +7323,8 @@
         "Middle-aged Women"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003203441"
     },
     {
       "article_id": "702259f8ad0316a76aae8a972f9116fb",
@@ -7339,9 +7345,9 @@
       "issue": "",
       "start_page": "103",
       "end_page": "116",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.33.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=702259f8ad0316a76aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203446",
       "keywords_kr": [
         "종교활동 참여",
         "죽음불안",
@@ -7357,7 +7363,8 @@
         "Characteristics of Religious Participation"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003203446"
     },
     {
       "article_id": "c20321c0b6ffe3e87ecd42904f0c5d65",
@@ -7383,9 +7390,9 @@
       "issue": "",
       "start_page": "1",
       "end_page": "11",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.34.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c20321c0b6ffe3e87ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244485",
       "keywords_kr": [
         "대학생",
         "진로 스트레스",
@@ -7402,7 +7409,8 @@
         "Personal standards perfectionism"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003244485"
     },
     {
       "article_id": "c20321c0b6ffe3e8c85d2949c297615a",
@@ -7428,9 +7436,9 @@
       "issue": "",
       "start_page": "13",
       "end_page": "25",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.34.2",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c20321c0b6ffe3e8c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244486",
       "keywords_kr": [
         "경험회피(AAQ-II)",
         "자아존중감",
@@ -7446,7 +7454,8 @@
         "depression"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003244486"
     },
     {
       "article_id": "c20321c0b6ffe3e84884a65323211ff0",
@@ -7500,16 +7509,16 @@
         }
       ],
       "abstract_kr": "This study explores the potential of reading Buddhist scriptures as both a contemplative practice and a form of psychological healing by examining the literary characteristics and meditative value of the Lotus Sutra. Buddhist scriptures employ metaphors, symbols, poetic language, and narrative structures to appeal deeply to the reader’s emotions. These literary devices function as mechanisms for emotional arousal, affective awareness, self-reflection, and existential insight. The paper argues that reading scriptures parallels the structural features of mindfulness practice, enabling practitioners to focus on the present moment and accept internal emotions, thereby promoting mental and physical well-being. Scriptural reading encompasses both concentrative and insight meditation, incorporating psychological mechanisms that facilitate emotional healing, self-regulation, and the cultivation of compassion. Based on this perspective, the study proposes that scriptural reading may serve as a meaningful contemplative practice applicable in various domains of modern life, including education, counseling, and personal development. However, as the research primarily focuses on theoretical exploration, future studies should include empirical validation and comparative analysis across different reader groups. Despite these limitations, this study aims to propose a new interpretation of Buddhist scriptures by examining them through an integrated perspective of literary expression and meditative practice, thereby suggesting the potential expansion of Applied Buddhism into the fields of mental health and spiritual education.",
-      "abstract_en": "",
+      "abstract_en": "This study explores the potential of reading Buddhist scriptures as both a contemplative practice and a form of psychological healing by examining the literary characteristics and meditative value of the Lotus Sutra. Buddhist scriptures employ metaphors, symbols, poetic language, and narrative structures to appeal deeply to the reader’s emotions. These literary devices function as mechanisms for emotional arousal, affective awareness, self-reflection, and existential insight. The paper argues that reading scriptures parallels the structural features of mindfulness practice, enabling practitioners to focus on the present moment and accept internal emotions, thereby promoting mental and physical well-being. Scriptural reading encompasses both concentrative and insight meditation, incorporating psychological mechanisms that facilitate emotional healing, self-regulation, and the cultivation of compassion. Based on this perspective, the study proposes that scriptural reading may serve as a meaningful contemplative practice applicable in various domains of modern life, including education, counseling, and personal development. However, as the research primarily focuses on theoretical exploration, future studies should include empirical validation and comparative analysis across different reader groups. Despite these limitations, this study aims to propose a new interpretation of Buddhist scriptures by examining them through an integrated perspective of literary expression and meditative practice, thereby suggesting the potential expansion of Applied Buddhism into the fields of mental health and spiritual education.",
       "journal_name": "명상심리상담",
       "year": "2025",
       "volume": "34",
       "issue": "",
       "start_page": "45",
       "end_page": "58",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.34.4",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c20321c0b6ffe3e847de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244488",
       "keywords_kr": [
         "경전읽기",
         "문학성",
@@ -7525,7 +7534,8 @@
         "the Lotus Sutra"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003244488"
     },
     {
       "article_id": "c20321c0b6ffe3e8b7998d826d417196",
@@ -7546,9 +7556,9 @@
       "issue": "",
       "start_page": "59",
       "end_page": "70",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.34.5",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c20321c0b6ffe3e8b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244489",
       "keywords_kr": [
         "삼보사찰",
         "순례",
@@ -7564,7 +7574,8 @@
         "press articles"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003244489"
     },
     {
       "article_id": "c20321c0b6ffe3e8b36097776a77e665",
@@ -7590,9 +7601,9 @@
       "issue": "",
       "start_page": "71",
       "end_page": "85",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.34.6",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c20321c0b6ffe3e8b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244491",
       "keywords_kr": [
         "심리상담법제화",
         "마음건강",
@@ -7608,7 +7619,8 @@
         "Meditation-based Psychological Counseling"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003244491"
     },
     {
       "article_id": "528b0fecc4b3571bb36097776a77e665",
@@ -7707,9 +7719,9 @@
       "issue": "",
       "start_page": "31",
       "end_page": "46",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.35.3",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=528b0fecc4b3571b4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003298553",
       "keywords_kr": [
         "명상 중재",
         "마음챙김",
@@ -7727,7 +7739,8 @@
         "Paradigm Shift"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003298553"
     },
     {
       "article_id": "528b0fecc4b3571bc85d2949c297615a",
@@ -7753,9 +7766,9 @@
       "issue": "",
       "start_page": "47",
       "end_page": "61",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.35.4",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=528b0fecc4b3571bc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003298555",
       "keywords_kr": [
         "중년기",
         "초심상담사",
@@ -7773,7 +7786,8 @@
         "Self-Reflection"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003298555"
     },
     {
       "article_id": "528b0fecc4b3571bd18150b21a227875",
@@ -7833,9 +7847,9 @@
       "issue": "",
       "start_page": "83",
       "end_page": "98",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.35.6",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=528b0fecc4b3571b7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003298563",
       "keywords_kr": [
         "배우자사별노인",
         "지장기도",
@@ -7849,7 +7863,8 @@
         "Perception of death"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003298563"
     },
     {
       "article_id": "528b0fecc4b3571b6aae8a972f9116fb",
@@ -7910,9 +7925,9 @@
       "issue": "",
       "start_page": "113",
       "end_page": "125",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.35.8",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=528b0fecc4b3571b47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003298566",
       "keywords_kr": [
         "인도 성지순례",
         "불교수행자",
@@ -7926,7 +7941,8 @@
         "Consensual Qualitative Research Method"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003298566"
     },
     {
       "article_id": "528b0fecc4b3571bb7998d826d417196",
@@ -7947,9 +7963,9 @@
       "issue": "",
       "start_page": "127",
       "end_page": "136",
-      "doi": "",
+      "doi": "10.12972/mpca.2025.35.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=528b0fecc4b3571bb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003298568",
       "keywords_kr": [
         "대학생",
         "진로준비행동",
@@ -7965,7 +7981,8 @@
         "resilience"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003298568"
     },
     {
       "article_id": "528b0fecc4b3571b7ecd42904f0c5d65",

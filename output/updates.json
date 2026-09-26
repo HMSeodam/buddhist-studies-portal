@@ -9,21 +9,12 @@
   "updates": [
     {
       "date": "2026-09-26",
-      "journal": "한국불교사연구",
-      "year": "2025",
-      "volume": "",
-      "issue": "28",
-      "count": 1,
-      "source": "KCI"
-    },
-    {
-      "date": "2026-09-26",
-      "journal": "불교문예연구",
-      "year": "2025",
-      "volume": "26",
-      "issue": "",
-      "count": 5,
-      "source": "KCI"
+      "journal": "무형문화연구",
+      "year": "2026",
+      "volume": "0",
+      "issue": "19",
+      "count": 6,
+      "source": "RISS"
     },
     {
       "date": "2026-09-24",
@@ -266,42 +257,6 @@
       "volume": "27",
       "issue": "",
       "count": 12,
-      "source": "RISS"
-    },
-    {
-      "date": "2026-06-28",
-      "journal": "불교학보",
-      "year": "2025",
-      "volume": "",
-      "issue": "64",
-      "count": 1,
-      "source": "RISS"
-    },
-    {
-      "date": "2026-06-28",
-      "journal": "불교학보",
-      "year": "2025",
-      "volume": "",
-      "issue": "52",
-      "count": 1,
-      "source": "RISS"
-    },
-    {
-      "date": "2026-06-28",
-      "journal": "불교학연구",
-      "year": "2026",
-      "volume": "59",
-      "issue": "1",
-      "count": 1,
-      "source": "RISS"
-    },
-    {
-      "date": "2026-06-28",
-      "journal": "한국불교학",
-      "year": "2025",
-      "volume": "67",
-      "issue": "",
-      "count": 1,
       "source": "RISS"
     },
     {

@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.56,
     "control_no": "a7943149367c4574ffe0bdc3ef48d419",
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-26"
   },
   "articles": [
     {
@@ -6902,38 +6902,6 @@
         "자기반성(self-reflection)",
         "업과 식(karma and consciousness)",
         "도덕적 군자(a moral gentleman)"
-      ],
-      "ai_keywords": [],
-      "source": "RISS"
-    },
-    {
-      "article_id": "d0dc648d7f671dd047de9c1710b0298d",
-      "title_kr": "상호작용적 언어학습을 위한 개인 교수형 멀티미디어 게임의 개발 방향",
-      "title_en": "A model development of interactive self-tutorial multimedia game for primary English education",
-      "authors": [
-        {
-          "name": "이병천(Lee Byeong Cheon)",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "The purpose of this study is to present a self-tutorial language learning multimedia game model that can motivate elementary school students through its interactive effects. The characteristics and elements in computer games that are believed to draw language learners' interests and motivation were scrutinized through previous studies as effective language learning tool especially in EFL context. Language learning theories such as dual coding theory, interactionism, and constructivism are analyzed in relation to a multimedia game use. In this model, overall games were designed with the focus on the interactive activities between game users and computers through both voice and text, and the contents of this game were organized for elementary level language learners to relate their real world background knowledge and interests to language forms and communication skills. This game model integrates sound, text, voice, illustration, animation, and graphic into interactive voice recognition program so that language learners can communicate with characters and helpers in the game. The study may provide language educators and researchers who are interested in multimedia or computer assisted language learning with the direction of developing more effective multimedia game of the future for realizing more authentic communication as a language tool.",
-      "abstract_en": "",
-      "journal_name": "불교연구",
-      "year": "2006",
-      "volume": "7",
-      "issue": "1",
-      "start_page": "143",
-      "end_page": "165",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/recommender/click.do?db=3&link_type=sdMeNonUser&p_mat_type=1a0202e37d52c72d&control_no=d0dc648d7f671dd047de9c1710b0298d",
-      "kci_url": "http://www.kci.go.kr",
-      "keywords_kr": [],
-      "keywords_en": [
-        "computer assisted language learning",
-        "multimedia game",
-        "ESL/EFL",
-        "MALL(multimedia assisted language learning)"
       ],
       "ai_keywords": [],
       "source": "RISS"
@@ -20218,13 +20186,14 @@
       "issue": "",
       "start_page": "9",
       "end_page": "38",
-      "doi": "",
+      "doi": "10.34275/kibs.2025.62.009",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5debd6ef609b2e546aae8a972f9116fb",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003176892"
     },
     {
       "article_id": "11b46347e8662f027ecd42904f0c5d65",
@@ -20238,14 +20207,14 @@
         }
       ],
       "abstract_kr": "Some scholars and thinkers have argued that the attainment of nirvāṇa involves the transcendence of socio-ethics. One of the key factors for the formation of that idea is the image of transcendence relevant to the Buddhist concept of nirvāṇa. This image often appears as a metaphor of crossing a stream on a raft or boat in the Early Buddhist texts. In the usual metaphor of crossing the flood, near shore symbolizes the saṃsāric world and far shore nirvāṇa. This image gives the impression that once nirvāṇa is attained, socio-ethics must also be ultimately transcended. It is for this reason that the parable of the raft in the Alagaddūpama-sutta and its Chinese parallel has been often misunderstood. The world (loka) in Early Buddhism is the empirical world composed of the five aggregates (pañcakkhandhā), that is the six internal bases (cha-ajjhattikāyatanāni) and the six external bases (cha-bāhirāyatanāni). In the same light, an arhat is one who has fully realized non-self (anattā) by not clinging to the empirical world as self or mine. Therefore, the image of transcendence relevant to nirvāṇa is not go beyond socio-ethics but the realization of non-self. In a number of discourse, the Buddha states that the near shore is the wrong path, and the far shore is the Noble Eightfold Path, a set of practical guidelines designed to enhance ethical and mental development. From this perspective, we can safely conclude that the Buddha's statement in the parable of the raft to abandon the dharma cannot be interpreted as going beyond ethics, and that the claim by some that an Arahant goes beyond ethics is not valid.",
-      "abstract_en": "",
+      "abstract_en": "Some scholars and thinkers have argued that the attainment of nirvāṇa involves the transcendence of socio-ethics. One of the key factors for the formation of that idea is the image of transcendence relevant to the Buddhist concept of nirvāṇa. This image often appears as a metaphor of crossing a stream on a raft or boat in the Early Buddhist texts. In the usual metaphor of crossing the flood, near shore symbolizes the saṃsāric world and far shore nirvāṇa. This image gives the impression that once nirvāṇa is attained, socio-ethics must also be ultimately transcended. It is for this reason that the parable of the raft in the Alagaddūpama-sutta and its Chinese parallel has been often misunderstood. The world (loka) in Early Buddhism is the empirical world composed of the five aggregates (pañcakkhandhā), that is the six internal bases (cha-ajjhattikāyatanāni) and the six external bases (cha-bāhirāyatanāni). In the same light, an arhat is one who has fully realized non-self (anattā) by not clinging to the empirical world as self or mine. Therefore, the image of transcendence relevant to nirvāṇa is not go beyond socio-ethics but the realization of non-self. In a number of discourse, the Buddha states that the near shore is the wrong path, and the far shore is the Noble Eightfold Path, a set of practical guidelines designed to enhance ethical and mental development. From this perspective, we can safely conclude that the Buddha's statement in the parable of the raft to abandon the dharma cannot be interpreted as going beyond ethics, and that the claim by some that an Arahant goes beyond ethics is not valid.",
       "journal_name": "불교연구",
       "year": "2025",
       "volume": "62",
       "issue": "",
       "start_page": "39",
       "end_page": "64",
-      "doi": "",
+      "doi": "10.34275/kibs.2025.62.039",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=11b46347e8662f027ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -20270,7 +20239,8 @@
         "Non-self (anattā)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003176911"
     },
     {
       "article_id": "11b46347e8662f02b36097776a77e665",
@@ -20284,14 +20254,14 @@
         }
       ],
       "abstract_kr": "This paper examines the concept of itivṛtta in the ancient Indian treatise on dramaturgy, the Nāṭyaśāstra (NŚ), focusing on its meaning, components, and application in actual dramatic works. Itivṛtta, a theory that addresses the narrative of a play through the modes of action and psychological changes of characters, encompasses not only the constituent elements of the plot used by playwrights to effectively convey the theme of the play, but also the organic relationships that connect these elements.Related theories to itivṛtta include avasthā, which demonstrates the developmental stages of a main character's psychological changes and actions, artha-prakṛti, which refers to the structural development elements of the plot, and sandhi, which deals with the connection of each stage or narrative. As a preliminary study on the plot theory of Sanskrit drama, this paper primarily focuses on avasthā and artha-prakṛti, which serve as the central axes of the overall narrative progression.In Chapter II, the concepts of the constituent elements of the theory are explored. Subsequently, in Chapter III, an analysis is conducted using the 7th-century Sanskrit drama Nāgānanda (Nāg) to understand how these theoretical elements are applied in actual dramatic works. This analysis reveals that the development of the narrative is intertwined with the characteristics of the drama. For instance, in Nāg, the male protagonist's core actions towards the fruition of the play are unfolded in Acts 1, 4, and 5, whereas Acts 2 and 3 feature completed episodes and auxiliary events among the constituent elements for the play's development, displaying a relatively disconnected aspect from the other acts, thereby highlighting the complex characteristics of Nāg.",
-      "abstract_en": "",
+      "abstract_en": "This paper examines the concept of itivṛtta in the ancient Indian treatise on dramaturgy, the Nāṭyaśāstra (NŚ), focusing on its meaning, components, and application in actual dramatic works. Itivṛtta, a theory that addresses the narrative of a play through the modes of action and psychological changes of characters, encompasses not only the constituent elements of the plot used by playwrights to effectively convey the theme of the play, but also the organic relationships that connect these elements.\nRelated theories to itivṛtta include avasthā, which demonstrates the developmental stages of a main character's psychological changes and actions, artha-prakṛti, which refers to the structural development elements of the plot, and sandhi, which deals with the connection of each stage or narrative. As a preliminary study on the plot theory of Sanskrit drama, this paper primarily focuses on avasthā and artha-prakṛti, which serve as the central axes of the overall narrative progression.\nIn Chapter II, the concepts of the constituent elements of the theory are explored. Subsequently, in Chapter III, an analysis is conducted using the 7th-century Sanskrit drama Nāgānanda (Nāg) to understand how these theoretical elements are applied in actual dramatic works. This analysis reveals that the development of the narrative is intertwined with the characteristics of the drama. For instance, in Nāg, the male protagonist's core actions towards the fruition of the play are unfolded in Acts 1, 4, and 5, whereas Acts 2 and 3 feature completed episodes and auxiliary events among the constituent elements for the play's development, displaying a relatively disconnected aspect from the other acts, thereby highlighting the complex characteristics of Nāg.",
       "journal_name": "불교연구",
       "year": "2025",
       "volume": "62",
       "issue": "",
       "start_page": "65",
       "end_page": "92",
-      "doi": "",
+      "doi": "10.34275/kibs.2025.62.065",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=11b46347e8662f02b36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -20313,7 +20283,8 @@
         "Nāgānanda"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003176942"
     },
     {
       "article_id": "5debd6ef609b2e54d18150b21a227875",
@@ -20327,14 +20298,14 @@
         }
       ],
       "abstract_kr": "Amanasikāra, the opposite of manasikāra (mentation, attention), is a significant concept in the history of the development of Buddhist practices. This paper primarily focuses on a concise work titled Amanasikārādhāra (the locus of non-mentation) composed by Advayavajra (also known as Matreyanātha or Maitrīpa in Tibet), who flourished in the 11th century. This text offers valuable insights into the understanding of amanasikāra during his time, presenting intriguing arguments on its interpretation. As a preliminary study of the Amanasikāra tradition, this paper examines how the Indian Vajrayāna tradition interprets the Sanskrit term amanasikāra based on Advayavajra’s Amanasikārādhāra.Before delving into the details of this text, this paper provides an overview of how amanasikāra was understood in Mahāyāna Buddhist literature (i.e., the pre-Vajrayāna tradition) and how this concept developed in connection with various contemplative contexts. This overview helps to understand the doctrinal foundations and background that made the unique Vajrayāna interpretations possible. Therefore, in the main body of this paper, the specific discussions and issues of the Amanasikārādhāra are introduced and analyzed through a complete Korean translation with annotations. Footnotes include an edited text based on previous editions and a Nepalese palm-leaf manuscript, addressing the philological questions that arose during this process.In the text, Advayavajra endeavors to demonstrate that the privative particle \"a-\" in amanasikāra can be interpreted through both types of negation: prasajya-pratiṣedha and paryudāsa-pratiṣedha. This section particularly highlights how he integrates doctrines from both Buddhist tantric and non-Buddhist tantric traditions. Subsequently, the text concludes with various Buddhist tantric interpretations of the syllable \"A\" and culminates in the assertion that amanasikāra practices can induce Buddhist tantric states, namely prabhāsvara and svādhiṣṭhāna.In summary, this paper, based on the Amanasikārādhāra, examines the characteristics of Indian Vajrayāna contemplative theory and its commentary as the seed of the amanasikāra practice that further developed across India and Tibet.",
-      "abstract_en": "",
+      "abstract_en": "Amanasikāra, the opposite of manasikāra (mentation, attention), is a significant concept in the history of the development of Buddhist practices. This paper primarily focuses on a concise work titled Amanasikārādhāra (the locus of non-mentation) composed by Advayavajra (also known as Matreyanātha or Maitrīpa in Tibet), who flourished in the 11th century. This text offers valuable insights into the understanding of amanasikāra during his time, presenting intriguing arguments on its interpretation. As a preliminary study of the Amanasikāra tradition, this paper examines how the Indian Vajrayāna tradition interprets the Sanskrit term amanasikāra based on Advayavajra’s Amanasikārādhāra.\nBefore delving into the details of this text, this paper provides an overview of how amanasikāra was understood in Mahāyāna Buddhist literature (i.e., the pre-Vajrayāna tradition) and how this concept developed in connection with various contemplative contexts. This overview helps to understand the doctrinal foundations and background that made the unique Vajrayāna interpretations possible. Therefore, in the main body of this paper, the specific discussions and issues of the Amanasikārādhāra are introduced and analyzed through a complete Korean translation with annotations. Footnotes include an edited text based on previous editions and a Nepalese palm-leaf manuscript, addressing the philological questions that arose during this process.\nIn the text, Advayavajra endeavors to demonstrate that the privative particle \"a-\" in amanasikāra can be interpreted through both types of negation: prasajya-pratiṣedha and paryudāsa-pratiṣedha. This section particularly highlights how he integrates doctrines from both Buddhist tantric and non-Buddhist tantric traditions. Subsequently, the text concludes with various Buddhist tantric interpretations of the syllable \"A\" and culminates in the assertion that amanasikāra practices can induce Buddhist tantric states, namely prabhāsvara and svādhiṣṭhāna.\nIn summary, this paper, based on the Amanasikārādhāra, examines the characteristics of Indian Vajrayāna contemplative theory and its commentary as the seed of the amanasikāra practice that further developed across India and Tibet.",
       "journal_name": "불교연구",
       "year": "2025",
       "volume": "62",
       "issue": "",
       "start_page": "93",
       "end_page": "120",
-      "doi": "",
+      "doi": "10.34275/kibs.2025.62.093",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5debd6ef609b2e54d18150b21a227875",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -20355,7 +20326,8 @@
         "Vajrayāna"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003176970"
     },
     {
       "article_id": "5debd6ef609b2e54e9810257f7042666",
@@ -20369,14 +20341,14 @@
         }
       ],
       "abstract_kr": "As 21st-century science and technology drive societal change, the role of applied Buddhist studies in engaging with society and exploring practical solutions has become increasingly important. Applied Buddhist studies is an academic discipline that interprets various fields through the lens of Buddhist thought and worldview while proposing practical alternatives.Although the term \"applied Buddhism\" is relatively recent, Buddhism has historically adapted to different contexts, evolving in response to regional and temporal shifts. The transformation from early Buddhism to sectarian Buddhism, the emergence of Mahayana and Zen traditions, and Buddhism's integration into diverse cultural settings illustrate its continuous adaptation.The application of Buddhism is not merely an option but an inherent doctrinal necessity. Therefore, assessing the direction and practical implementation of applied Buddhism in modern society is crucial for shaping its future.Today, the rapid advancement of science and technology—manifesting in climate crises, artificial intelligence, and biological weapons—has ushered human civilization into a new era. To guide scientific and technological progress toward the public good, a fundamental understanding of science and an interdisciplinary approach are essential.In South Korea, applied Buddhist studies has primarily focused on integration with the social sciences, with relatively limited engagement with the natural sciences. Science and technology offer critical tools for connecting natural sciences with Buddhist thought, enabling solutions to contemporary societal challenges.For applied Buddhist studies to establish itself as a profound and specialized discipline, it must foster interdisciplinary research that integrates Buddhism and natural sciences. This approach should extend beyond the present to provide universal values and life models that address future societal needs. To achieve this, long-term planning, sustained investment, and interdisciplinary collaboration are necessary. Through such efforts, applied Buddhist studies can transcend the framework of traditional Buddhist scholarship and evolve into a significant academic discipline that aligns with the age of scientific civilization.",
-      "abstract_en": "",
+      "abstract_en": "As 21st-century science and technology drive societal change, the role of applied Buddhist studies in engaging with society and exploring practical solutions has become increasingly important. Applied Buddhist studies is an academic discipline that interprets various fields through the lens of Buddhist thought and worldview while proposing practical alternatives.\nAlthough the term \"applied Buddhism\" is relatively recent, Buddhism has historically adapted to different contexts, evolving in response to regional and temporal shifts. The transformation from early Buddhism to sectarian Buddhism, the emergence of Mahayana and Zen traditions, and Buddhism's integration into diverse cultural settings illustrate its continuous adaptation.\nThe application of Buddhism is not merely an option but an inherent doctrinal necessity. Therefore, assessing the direction and practical implementation of applied Buddhism in modern society is crucial for shaping its future.\nToday, the rapid advancement of science and technology—manifesting in climate crises, artificial intelligence, and biological weapons—has ushered human civilization into a new era. To guide scientific and technological progress toward the public good, a fundamental understanding of science and an interdisciplinary approach are essential.\nIn South Korea, applied Buddhist studies has primarily focused on integration with the social sciences, with relatively limited engagement with the natural sciences. Science and technology offer critical tools for connecting natural sciences with Buddhist thought, enabling solutions to contemporary societal challenges.\nFor applied Buddhist studies to establish itself as a profound and specialized discipline, it must foster interdisciplinary research that integrates Buddhism and natural sciences. This approach should extend beyond the present to provide universal values and life models that address future societal needs. To achieve this, long-term planning, sustained investment, and interdisciplinary collaboration are necessary. Through such efforts, applied Buddhist studies can transcend the framework of traditional Buddhist scholarship and evolve into a significant academic discipline that aligns with the age of scientific civilization.",
       "journal_name": "불교연구",
       "year": "2025",
       "volume": "62",
       "issue": "",
       "start_page": "121",
       "end_page": "151",
-      "doi": "",
+      "doi": "10.34275/kibs.2025.62.121",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5debd6ef609b2e54e9810257f7042666",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -20394,7 +20366,8 @@
         "Buddhism and Future Perspectives"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003176983"
     },
     {
       "article_id": "453dfc7c017f0e4ad18150b21a227875",
@@ -20413,14 +20386,14 @@
         }
       ],
       "abstract_kr": "This paper aims to provide a preliminary discussion on the study of Pāli commentarial literature with a comparative analysis of the use and interpretation of anassuṃ, a word rarely encountered across the Pāli Tipiṭaka. It is found only in the Abhayarājakumāra Sutta of the Majjhima Nikāya and in the Saṃyojana Sutta of the Aṅguttara Nikāya. While their commentaries altogether suggest third person plural aorist of √naś (to be lost), a closer examination indicates that an alternative reading is required for anassuṃ in the Abhayarājakumāra Sutta. This paper puts forward this alternative reading by highlighting the narrative context of the sutta and two possible grammatical formations of the word. Moreover, this paper uncovers the programmatic nature of exegetical methods and hermeneutical inclinations employed in the Pāli commentaries, which likely had resulted in the standardization of their interpretation of certain vocabulary and concepts.",
-      "abstract_en": "",
+      "abstract_en": "This paper aims to provide a preliminary discussion on the study of Pāli commentarial literature with a comparative analysis of the use and interpretation of anassuṃ, a word rarely encountered across the Pāli Tipiṭaka. It is found only in the Abhayarājakumāra Sutta of the Majjhima Nikāya and in the Saṃyojana Sutta of the Aṅguttara Nikāya. While their commentaries altogether suggest third person plural aorist of √naś (to be lost), a closer examination indicates that an alternative reading is required for anassuṃ in the Abhayarājakumāra Sutta. This paper puts forward this alternative reading by highlighting the narrative context of the sutta and two possible grammatical formations of the word. Moreover, this paper uncovers the programmatic nature of exegetical methods and hermeneutical inclinations employed in the Pāli commentaries, which likely had resulted in the standardization of their interpretation of certain vocabulary and concepts.",
       "journal_name": "불교연구",
       "year": "2025",
       "volume": "63",
       "issue": "",
       "start_page": "5",
       "end_page": "28",
-      "doi": "",
+      "doi": "10.34275/kibs.2025.63.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=453dfc7c017f0e4ad18150b21a227875",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -20438,7 +20411,8 @@
         "Abhayarājakumāra Sutta"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003235922"
     },
     {
       "article_id": "e90298b113177db7b36097776a77e665",
@@ -20452,14 +20426,14 @@
         }
       ],
       "abstract_kr": "Tanyan's 曇延 (516–588) Dacheng qixinlun yishu 大乘起信論義疏 (the Commentary on the Awakening of Faith in the Mahāyāna, hereafter referred to as the \"Tanyan Commentary\") is an annotated work on the Dacheng qixinlun 大乘起信論 (the Awakening of Faith in the Mahāyāna, hereafter referred to as the Awakening of Faith), traditionally attributed to Paramārtha (499–569) as well as one of the oldest surviving commentary on the Awakening of Faith. This paper aims to lay the groundwork for further research on the Tanyan Commentary by examining textual issues within its extant versions.Currently, the only widely accessible version of the Tanyan Commentary is the one included in the Dainihon Zokuzōkyō 大日本續藏經, published in 1909 at Japan (hereafter referred to as the \"Zokuzōkyō Version\"). However, this printed text is riddled with numerous issues.Previous studies on the textual issues of the Tanyan Commentary, such as those by MOCHIZUKI Shinkō 望月信亨 (1922) and TAKASAKI Jikidō 高崎直道 (2009 [1997]), reference only three manuscript versions of the commentary.Building on these prior works, this paper examines the textual issues of the Tanyan Commentary using thirteen manuscript versions that the author has identified to date. Particular attention will be given to the formation process of the Zokuzōkyō Version, the sole printed edition, to shed light on the textual problems of the Tanyan Commentary.The research conclusions are as follows: 1. Thirteen manuscript versions of Tanyan Commentary are extant in Japan.2. These manuscript versions can be divided into three groups from A to C.3. The texts of Group A embodies the best quality. Group B comes next, Group C embodies the worst.4. Zokuzōkyō Version belongs to Group C.5. The texts of group C has been inherited in the following order: the second manuscript belonging to Ryūkoku (龍谷) University → the third manuscript belonging to Ryūkoku University → the manuscript belonging to Kyoto (京都) University → Zokuzōkyō Version.6. The latter three frequently altered the original texts without any comment.",
-      "abstract_en": "",
+      "abstract_en": "Tanyan's 曇延 (516–588) Dacheng qixinlun yishu 大乘起信論義疏 (the Commentary on the Awakening of Faith in the Mahāyāna, hereafter referred to as the \"Tanyan Commentary\") is an annotated work on the Dacheng qixinlun 大乘起信論 (the Awakening of Faith in the Mahāyāna, hereafter referred to as the Awakening of Faith), traditionally attributed to Paramārtha (499–569) as well as one of the oldest surviving commentary on the Awakening of Faith. This paper aims to lay the groundwork for further research on the Tanyan Commentary by examining textual issues within its extant versions.\nCurrently, the only widely accessible version of the Tanyan Commentary is the one included in the Dainihon Zokuzōkyō 大日本續藏經, published in 1909 at Japan (hereafter referred to as the \"Zokuzōkyō Version\"). However, this printed text is riddled with numerous issues.\nPrevious studies on the textual issues of the Tanyan Commentary, such as those by MOCHIZUKI Shinkō 望月信亨 (1922) and TAKASAKI Jikidō 高崎直道 (2009 [1997]), reference only three manuscript versions of the commentary.\nBuilding on these prior works, this paper examines the textual issues of the Tanyan Commentary using thirteen manuscript versions that the author has identified to date. Particular attention will be given to the formation process of the Zokuzōkyō Version, the sole printed edition, to shed light on the textual problems of the Tanyan Commentary.\nThe research conclusions are as follows: 1. Thirteen manuscript versions of Tanyan Commentary are extant in Japan.\n2. These manuscript versions can be divided into three groups from A to C.\n3. The texts of Group A embodies the best quality. Group B comes next, Group C embodies the worst.\n4. Zokuzōkyō Version belongs to Group C.\n5. The texts of group C has been inherited in the following order: the second manuscript belonging to Ryūkoku (龍谷) University → the third manuscript belonging to Ryūkoku University → the manuscript belonging to Kyoto (京都) University → Zokuzōkyō Version.\n6. The latter three frequently altered the original texts without any comment.",
       "journal_name": "불교연구",
       "year": "2025",
       "volume": "63",
       "issue": "",
       "start_page": "29",
       "end_page": "79",
-      "doi": "",
+      "doi": "10.34275/kibs.2025.63.029",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e90298b113177db7b36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -20479,7 +20453,8 @@
         "TAKASAKI Jikidō"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003235928"
     },
     {
       "article_id": "e90298b113177db74884a65323211ff0",
@@ -20493,14 +20468,14 @@
         }
       ],
       "abstract_kr": "This article aims to re-consider the historical meaning of Jin-eok(津億)’s Sujeong Kyolsa(水精結社, Crystal Fraternity) re-evaluating veteran scholar’s viewpoints. There are two lines of understanding on Sujeong Kyolsa. Some scholars consider Sujeong Kyolsa as a pratical society of Yogacara(瑜伽宗) inrelation to Jeomchal Dharma Mass(占察法會), another scholars think that it is a devotional fraternity for going Amitabha’s Pure Land(Sukhāvatī).I agree with the latter. In order to build the viewpoint in which Sujeng Kyolsa is a Kyolsa of Pureland Buddhism, there is a problem to solve. It is the problem of the status of Jeomchal Dharma Mass. If we consider it as a central practice of Sujeong Kyolsa, it is a practical society of Beopsanjong in Koryo Period. But I can’t agree it. Because Jeomchal Dharma Mass has been practised twice a month, I think that it have been considered as not a practice but a ritual for holding precepts and repentance as Posal(布薩, uposatha).Next, I re-evaluated whether Sujeong Kyolsa belong to Yogacara or Pureland Buddhism. I said that I agree with the scholars who considered Sujeong Kyolsa as a devotional group for wishing Amitabha’s Pure Land. Extracting from the key words or concepts from ‘Sujengsaki’(水精社記, Records on Sujeng Kyolsa), I ’d like to prove its character is not Yogacara-like but Pureland-like. Nevertheless, I can’t agree that Sujeong Kyolsa is not only Fraternit for Pure Land but also Fraternity for reciting ‘Namo Amitabha’. Becuase Jin-eok, the founder of Sujeong Kyolsa, didn’t choose ‘Namo Amitabha’ one and only pratical method. He embraced many different pratices in his community, and recommand his members to practise a method preferable for their ability.So I think that Sujeong Kyolsa can be the Fraternity for Amitabha’s Pureland, but can’t be the Fraternity for reciting Amitabha’s Name.",
-      "abstract_en": "",
+      "abstract_en": "This article aims to re-consider the historical meaning of Jin-eok(津億)’s Sujeong Kyolsa(水精結社, Crystal Fraternity) re-evaluating veteran scholar’s viewpoints. There are two lines of understanding on Sujeong Kyolsa. Some scholars consider Sujeong Kyolsa as a pratical society of Yogacara(瑜伽宗) inrelation to Jeomchal Dharma Mass(占察法會), another scholars think that it is a devotional fraternity for going Amitabha’s Pure Land(Sukhāvatī).\nI agree with the latter. In order to build the viewpoint in which Sujeng Kyolsa is a Kyolsa of Pureland Buddhism, there is a problem to solve. It is the problem of the status of Jeomchal Dharma Mass. If we consider it as a central practice of Sujeong Kyolsa, it is a practical society of Beopsanjong in Koryo Period. But I can’t agree it. Because Jeomchal Dharma Mass has been practised twice a month, I think that it have been considered as not a practice but a ritual for holding precepts and repentance as Posal(布薩, uposatha).\nNext, I re-evaluated whether Sujeong Kyolsa belong to Yogacara or Pureland Buddhism. I said that I agree with the scholars who considered Sujeong Kyolsa as a devotional group for wishing Amitabha’s Pure Land. Extracting from the key words or concepts from ‘Sujengsaki’(水精社記, Records on Sujeng Kyolsa), I ’d like to prove its character is not Yogacara-like but Pureland-like. Nevertheless, I can’t agree that Sujeong Kyolsa is not only Fraternit for Pure Land but also Fraternity for reciting ‘Namo Amitabha’. Becuase Jin-eok, the founder of Sujeong Kyolsa, didn’t choose ‘Namo Amitabha’ one and only pratical method. He embraced many different pratices in his community, and recommand his members to practise a method preferable for their ability.\nSo I think that Sujeong Kyolsa can be the Fraternity for Amitabha’s Pureland, but can’t be the Fraternity for reciting Amitabha’s Name.",
       "journal_name": "불교연구",
       "year": "2025",
       "volume": "63",
       "issue": "",
       "start_page": "81",
       "end_page": "110",
-      "doi": "",
+      "doi": "10.34275/kibs.2025.63.081",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e90298b113177db74884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -20521,7 +20496,8 @@
         "Jeomchal Dharma Mass"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003235934"
     },
     {
       "article_id": "e90298b113177db7b7998d826d417196",
@@ -20535,14 +20511,14 @@
         }
       ],
       "abstract_kr": "This study analyzes the regulations on monastic attire and the significance of the policy of bestowing gasa(monastic robes) during the Goryeo Dynasty. While Goryeo generally prohibited monks from wearing clothes made of luxurious fabrics like neung(綾), ra(羅), geum(錦), and su(繡), high-ranking monks who received monastic titles and positions were permitted to wear attire befitting their status. This served as a visual representation of the institutional hierarchy within the Goryeo Buddhist community.The bestowal of gasa was conducted as a reward for national events or as a gesture of respect toward specific eminent monks. Records show that in the early Goryeo period, the bestowed robes were mainly manap gasa(磨衲袈裟) and cheop gasa(貼袈裟). In the later period, however, there was an increase in cases of mansu gasa(滿繡袈裟) and geumnan gasa(金襴袈裟) being granted. This suggests that the gasa transcended its original meaning as a tool for ascetic practice and took on the character of a secular gift linked to power.Ultimately, the bestowing of the gasa became a mechanism that created a material disparity between high-ranking monks and ordinary monks. This phenomenon, far removed from the fundamental egalitarianism of a monk who has left the secular world for spiritual practice, indicates that the Goryeo king, in addition to the institutionalized Buddhist hierarchy, gave special material treatment to eminent monks.",
-      "abstract_en": "",
+      "abstract_en": "This study analyzes the regulations on monastic attire and the significance of the policy of bestowing gasa(monastic robes) during the Goryeo Dynasty. While Goryeo generally prohibited monks from wearing clothes made of luxurious fabrics like neung(綾), ra(羅), geum(錦), and su(繡), high-ranking monks who received monastic titles and positions were permitted to wear attire befitting their status. This served as a visual representation of the institutional hierarchy within the Goryeo Buddhist community.\nThe bestowal of gasa was conducted as a reward for national events or as a gesture of respect toward specific eminent monks. Records show that in the early Goryeo period, the bestowed robes were mainly manap gasa(磨衲袈裟) and cheop gasa(貼袈裟). In the later period, however, there was an increase in cases of mansu gasa(滿繡袈裟) and geumnan gasa(金襴袈裟) being granted. This suggests that the gasa transcended its original meaning as a tool for ascetic practice and took on the character of a secular gift linked to power.\nUltimately, the bestowing of the gasa became a mechanism that created a material disparity between high-ranking monks and ordinary monks. This phenomenon, far removed from the fundamental egalitarianism of a monk who has left the secular world for spiritual practice, indicates that the Goryeo king, in addition to the institutionalized Buddhist hierarchy, gave special material treatment to eminent monks.",
       "journal_name": "불교연구",
       "year": "2025",
       "volume": "63",
       "issue": "",
       "start_page": "111",
       "end_page": "140",
-      "doi": "",
+      "doi": "10.34275/kibs.2025.63.111",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e90298b113177db7b7998d826d417196",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -20560,7 +20536,8 @@
         "High-ranking Monk"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003235942"
     },
     {
       "article_id": "e90298b113177db77ecd42904f0c5d65",
@@ -20574,14 +20551,14 @@
         }
       ],
       "abstract_kr": "인테러뱅은 ‘‽’으로 표기되며 우리말로는 ‘물음느낌표’로 불린다. 이 부호에는 물음표(?)와 느낌표(!)가 공존한다. 이는 간화선 수행의 화두와 광고의 카피와 같은 구조로 설명할 수 있다. 화두는 “이 뭣고?”를 참구하여 그 질문을 타파해서 깨달음으로 안내하며, 카피는 광고를 보면서 “뭐지?”라는 호기심을 주지만 영상이 끝나면 궁금증이 풀린다. 이 둘의 공통점은 이야기의 제목이며 이야기 한가운데에 있다는 점이다. 또한 선어록의 각칙(各則)에 나타난 대화 시간은 방송 광고의 시간과 같은 6″, 15″, 30″, 60″(秒, second) 등이다. 찰스 샌더스 퍼스(Charles Sanders Peirce, 1839∼1914)는 기호를 설명하면서 기호, 대상, 해석소를 제시한다. 해석소는 전달자가 수용자에게 대상을 기호로 사용하면서 해석할 수 있게 하는 요소이다. 이는 화두와 카피에서도 적용된다. 선지식은 수행자에게 ‘활구(活句)’를 제시하여 깨달음에 이르게 해야 하며, 수행자가 화두의 본질을 통찰하지 못하고 문자에 집착할 경우 ‘사구(死句)’에 빠지게 된다. 이처럼 메시지의 본질을 제대로 전달하려는 노력은 광고 카피가 소비자에게 상품의 가치를 효과적으로 전달하려는 것과 같은 맥락이다. 퍼스가 제시한 기호의 3요소의 중요성은 르네 마그리트(René François Ghislain Magritte, 1898∼1967)의 작품인 “이것은 파이프가 아니다(Ceci n'est pas une pipe)”에서도 확인할 수 있다. 이미지는 실체가 아니라 실체를 전달하는 도구이다. 화두와 카피가 제시하는 문구를 제대로 이해할 때, 이들의 목적을 이룰 수 있으며 이것은 인테러뱅이 가진 기능을 잘 활용하는 것이다.",
-      "abstract_en": "",
+      "abstract_en": "The interrobang, written as ‘‽,’ combines a question mark(?) and an exclamation mark(!). This structure is similar to that of a Hua-tou(話頭) in Ganhua-Zen(看話禪) practice and advertising copy. A Hua-tou guides a practitioner to enlightenment by posing a question like, “What is this?” Similarly, an advertising copy sparks curiosity with a question such as, “What is it?” which is then resolved by the ad’s message. Their commonality lies in the fact that they both serve as the title or opening of a story, appearing in the middle of a narrative to break the flow and prompt thought. To find the answer to a question, one must first accurately grasp its meaning. This principle aligns with Charles Sanders Peirce(1839∼1914)’s semiotic theory, which consists of three key components: a sign, an object, and an interpretant. The interpretant is the element that allows the recipient to understand the object through the sign provided by the sender. This concept applies to both a Hua-tou and an advertising copy. A Zen master must offer a practitioner a living word(活句) to guide them toward enlightenment. If a practitioner gets caught up in the words rather than the essence of a Hua-tou, they fall into a dead word(死句). A Zen master’s effort to properly convey the essence of a message is similar to how advertising copy aims to effectively communicate a product’s value to consumers. The importance of Peirce’s three elements of a sign is also evident in René Magritte(1898∼1967)’s work, Ceci n'est pas une pipe. The image itself is not reality but a tool to convey it. When you properly understand the phrases presented by a Hua-tou or an advertising copy, you can achieve their intended purpose. In doing so, you are effectively utilizing the core function of the interrobang.",
       "journal_name": "불교연구",
       "year": "2025",
       "volume": "63",
       "issue": "",
       "start_page": "141",
       "end_page": "168",
-      "doi": "",
+      "doi": "10.34275/kibs.2025.63.141",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e90298b113177db77ecd42904f0c5d65",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -20599,7 +20576,8 @@
         "Copy"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003235999"
     },
     {
       "article_id": "453dfc7c017f0e4a6aae8a972f9116fb",
@@ -20631,7 +20609,8 @@
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003236003"
     },
     {
       "article_id": "fab39491ccaef2ed4884a65323211ff0",
@@ -20672,7 +20651,8 @@
         "repackaging the Dharma"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003311145"
     },
     {
       "article_id": "b8b15f1e1bfd231bd18150b21a227875",
@@ -20691,7 +20671,7 @@
         }
       ],
       "abstract_kr": "This paper aims to scrutinize and display the complexity of the concept sacca (satya) in the narrative of the Jayaddisa Jātaka and its commentary. Based on narrative analysis, three distinctive fields of meaning are identified. Firstly, sacca as a promise is represented by the formula sacca-anurakkhī. This usage has sandhi and patiññā as its synonyms and should be differentiated from saṅgara, by which a transactional agreement is suggested. Secondly sacca in the truth-act (saccakiriya) of the family members of the endangered prince Alīnasattu is best interpreted as a credible fact which has taken place in the past. This fact is related in each saccakiriya based on the deep-rooted belief that a wish should be manifested by the power of employing a reliable past event in one’s speech. Thirdly, the phrase sacca-vādin at the latter part of the story combines together sacca and dhiti (‘resolution’), of which the perfection of the truth (sacca pāramitā) consist in the narrative of the Jayaddisa Jātaka and its commentary.",
-      "abstract_en": "",
+      "abstract_en": "This paper aims to scrutinize and display the complexity of the concept sacca (satya) in the narrative of the Jayaddisa Jātaka and its commentary. Based on narrative analysis, three distinctive fields of meaning are identified. Firstly, sacca as a promise is represented by the formula sacca-anurakkhī. This usage has sandhi and patiññā as its synonyms and should be differentiated from saṅgara, by which a transactional agreement is suggested. Secondly sacca in the truth-act (saccakiriya) of the family members of the endangered prince Alīnasattu is best interpreted as a credible fact which has taken place in the past. This fact is related in each saccakiriya based on the deep-rooted belief that a wish should be manifested by the power of employing a reliable past event in one’s speech. Thirdly, the phrase sacca-vādin at the latter part of the story combines together sacca and dhiti (‘resolution’), of which the perfection of the truth (sacca pāramitā) consist in the narrative of the Jayaddisa Jātaka and its commentary.",
       "journal_name": "불교연구",
       "year": "2026",
       "volume": "64",
@@ -20716,7 +20696,8 @@
         "Jayaddisajātakavaṇṇanā"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003308732"
     },
     {
       "article_id": "b8b15f1e1bfd231b6aae8a972f9116fb",
@@ -20730,7 +20711,7 @@
         }
       ],
       "abstract_kr": "The aspect of the Lotus Sutra that is highlighted in this study is the descriptive feature of repeatedly mentioning the Lotus Sutra itself, that is, the ‘self-referential’ expression. Such self-referential expressions are logically contradictory. Previous studies have argued that this is ‘inserted by the editor(s) of the Lotus Sutra.’ However, the fact that even the oldest-level of the sutra classified by previous studies include self-referential expressions is problematic. Therefore, this discussion examined this issue through a literary critical approach. According to Genette’s theory, the Lotus Sutra is also a hypertext. This is because it seems that the Lotus Sutra contained content referring to itself from the very beginning. If so, self-referential expressions can be recognized as unique characteristics of this text that determined the direction of the Lotus Sutra itself, rather than being inserted arbitrarily at a specific point in time. In addition, the Lotus Sutra consists of more than one level of narrative and can be divided into the ‘outer Lotus Sutra’ and the ‘inner Lotus Sutra.’ The content conveyed in the form of quotations through the speaker’s mouth is the ‘inner Lotus Sutra.’ However, there are inner stories in the inner stories, and when we trace the innermost stories, we find that the ‘Lotus Sutra’ itself is the referent object, not a specific doctrine or proposition. In other words, what the Lotus Sutra is trying to convey is the ‘Lotus Sutra’ itself. These narrative levels of the Lotus Sutra show the process in which the object of faith is replaced from the content of the doctrine to the sutra itself, and further, to a single word, the name of the sutra. The Lotus Sutra seems to have been formed as a hypertext from the very beginning, and to have achieved its purpose of being disseminated to a larger audience through a strategy of multiple narrative levels. Viewing the Lotus Sutra with concepts of narratology is an exploration that recalls the nature of the Lotus Sutra as a text. This discussion presents an alternative perspective on how to view religious language.",
-      "abstract_en": "",
+      "abstract_en": "The aspect of the Lotus Sutra that is highlighted in this study is the descriptive feature of repeatedly mentioning the Lotus Sutra itself, that is, the ‘self-referential’ expression. Such self-referential expressions are logically contradictory. Previous studies have argued that this is ‘inserted by the editor(s) of the Lotus Sutra.’ However, the fact that even the oldest-level of the sutra classified by previous studies include self-referential expressions is problematic. Therefore, this discussion examined this issue through a literary critical approach. According to Genette’s theory, the Lotus Sutra is also a hypertext. This is because it seems that the Lotus Sutra contained content referring to itself from the very beginning. If so, self-referential expressions can be recognized as unique characteristics of this text that determined the direction of the Lotus Sutra itself, rather than being inserted arbitrarily at a specific point in time. In addition, the Lotus Sutra consists of more than one level of narrative and can be divided into the ‘outer Lotus Sutra’ and the ‘inner Lotus Sutra.’ The content conveyed in the form of quotations through the speaker’s mouth is the ‘inner Lotus Sutra.’ However, there are inner stories in the inner stories, and when we trace the innermost stories, we find that the ‘Lotus Sutra’ itself is the referent object, not a specific doctrine or proposition. In other words, what the Lotus Sutra is trying to convey is the ‘Lotus Sutra’ itself. These narrative levels of the Lotus Sutra show the process in which the object of faith is replaced from the content of the doctrine to the sutra itself, and further, to a single word, the name of the sutra. The Lotus Sutra seems to have been formed as a hypertext from the very beginning, and to have achieved its purpose of being disseminated to a larger audience through a strategy of multiple narrative levels. Viewing the Lotus Sutra with concepts of narratology is an exploration that recalls the nature of the Lotus Sutra as a text. This discussion presents an alternative perspective on how to view religious language.",
       "journal_name": "불교연구",
       "year": "2026",
       "volume": "64",
@@ -20757,7 +20738,8 @@
         "Narrative level"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003308740"
     },
     {
       "article_id": "719504b20e609e3e47de9c1710b0298d",
