@@ -4,10 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#1A3A5C">
+<script>if(/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1)){document.querySelector('meta[name=viewport]').setAttribute("content","width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover");}</script>
 <meta name="description" content="불교학·불교미술사학·불교사학 학술지 30종의 논문을 한 번에 검색하는 무료 학술 포털">
 <title>불교학논문 통합검색</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Noto+Sans+KR:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Noto+Sans+KR:wght@300;400;500;600&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
 <style>
 :root {
@@ -21,8 +22,8 @@
   --sh-m:0 4px 20px rgba(26,58,92,.12);
   --sh-l:0 12px 48px rgba(26,58,92,.18);
   --r-s:6px; --r-m:12px; --r-l:20px;
-  --serif:'Noto Serif KR',serif;
-  --sans:'Noto Sans KR',sans-serif;
+  --serif:'Noto Serif KR','Noto Serif JP','Noto Serif CJK KR','AppleMyungjo','Batang',serif;
+  --sans:'Noto Sans KR','Noto Sans JP','Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif;
   --display:'Playfair Display',serif;
   --tr:.2s cubic-bezier(.4,0,.2,1);
   --bot-nav:64px;
@@ -31,7 +32,7 @@
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;line-height:1.6;overflow-x:hidden}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;line-height:1.6;overflow-x:hidden;word-break:keep-all;overflow-wrap:break-word;-webkit-font-smoothing:antialiased;text-size-adjust:100%}
 button,select,input{font-family:inherit}
 ::-webkit-scrollbar{width:4px;height:4px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
@@ -63,7 +64,8 @@ button,select,input{font-family:inherit}
 .ntc-it:disabled{cursor:default}
 .ntc-it:disabled:hover{background:none}
 .ntc-date{font-size:.68rem;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
-.ntc-tx{font-size:.8rem;line-height:1.5}
+.ntc-tx{font-size:.8rem;line-height:1.5;min-width:0}
+.ntc-tx b{white-space:nowrap}
 .ntc-tx b{font-family:var(--serif);font-weight:600;color:var(--navy)}
 .ntc-go{font-size:.66rem;color:var(--navy-lt);white-space:nowrap}
 .ntc-new{display:inline-block;font-size:.55rem;font-weight:700;color:#fff;background:#E5533D;border-radius:4px;padding:0 .3rem;margin-left:.3rem;vertical-align:1px}
@@ -178,7 +180,7 @@ mark{background:rgba(212,160,23,.24);color:inherit;padding:0 1px;border-radius:2
 .aname:hover{text-decoration-color:var(--navy-lt)}
 .pabs{font-size:.76rem;color:var(--text-s);line-height:1.75;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:.65rem;overflow-wrap:anywhere}
 .pkws{display:flex;gap:.3rem;flex-wrap:wrap}
-.kw{font-size:.63rem;padding:.16rem .5rem;background:var(--bg-s);border:1px solid var(--border);border-radius:4px;color:var(--text-s)}
+.kw{font-size:.63rem;padding:.16rem .5rem;background:var(--bg-s);border:1px solid var(--border);border-radius:4px;color:var(--text-s);white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis;line-height:1.6}
 button.kw{cursor:pointer}
 button.kw:hover{border-color:var(--navy-lt);color:var(--navy)}
 .kw.ai{background:rgba(184,134,11,.06);border-color:rgba(184,134,11,.2);color:var(--gold)}
@@ -253,6 +255,7 @@ button.kw:hover{border-color:var(--navy-lt);color:var(--navy)}
 /* FOOTER */
 .ftr{background:var(--navy);color:rgba(255,255,255,.4);text-align:center;padding:2rem 1.25rem;font-size:.7rem;line-height:2.2;margin-top:2rem}
 .ftr a{color:var(--gold-lt);text-decoration:none}
+.ftr .nw{display:inline-block;white-space:nowrap}
 
 /* RESPONSIVE — 태블릿 가로(1024 이하): 사이드바 조금 좁게 */
 @media(max-width:1024px) and (min-width:769px){
@@ -274,7 +277,8 @@ button.kw:hover{border-color:var(--navy-lt);color:var(--navy)}
   .srch-in{font-size:16px;padding:.8rem 5.2rem .8rem 1.05rem}   /* 16px 미만이면 iOS 가 입력 시 화면을 확대함 */
   .fbar-in{padding:.48rem 1rem;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;mask-image:linear-gradient(90deg,#000 calc(100% - 24px),transparent)}
   .fbar-in::-webkit-scrollbar{display:none}
-  .fsel{font-size:16px;min-height:38px;padding:.3rem 1.8rem .3rem .75rem;max-width:none}   /* iOS 확대 방지 */
+  .fbar-in>*{flex-shrink:0}   /* 가로 스크롤 영역에서 버튼이 찌그러지지 않게 */
+  .fsel{font-size:13px;min-height:34px;padding:.28rem 1.6rem .28rem .7rem;max-width:none;background-position:right .5rem center}
   .flbl{display:none}
   .rcnt{padding-right:12px}
   .main{grid-template-columns:1fr;padding:.9rem 1rem;gap:0}
@@ -459,11 +463,11 @@ button.kw:hover{border-color:var(--navy-lt);color:var(--navy)}
 
 <footer class="ftr">
   <div>불교학논문 통합검색 · 불교학술지 <span id="journalCountFtr">…</span>종</div>
-  <div style="margin:.3rem 0">데이터: <a href="https://www.riss.kr" target="_blank" rel="noopener">학술연구정보서비스(RISS)</a> &nbsp;·&nbsp; <a href="https://www.kci.go.kr" target="_blank" rel="noopener">한국학술지인용색인(KCI)</a> &nbsp;·&nbsp; <a href="https://www.jstage.jst.go.jp/browse/-char/ja" target="_blank" rel="noopener">科学技術情報発信・流通総合システム（J-STAGE）</a></div>
+  <div style="margin:.3rem 0"><span class="nw">데이터:</span> <span class="nw"><a href="https://www.riss.kr" target="_blank" rel="noopener">학술연구정보서비스(RISS)</a></span> <span class="nw">· <a href="https://www.kci.go.kr" target="_blank" rel="noopener">한국학술지인용색인(KCI)</a></span> <span class="nw">· <a href="https://www.jstage.jst.go.jp/browse/-char/ja" target="_blank" rel="noopener" lang="ja">J-STAGE(科学技術情報発信・流通総合システム)</a></span></div>
   <div style="margin-top:.8rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.1);font-size:.65rem;color:rgba(255,255,255,.35);line-height:2">
-    제작: 서담 한민수 · 동명대학교 (Tongmyong University)<br>
-    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.4)">CC BY-NC-ND 4.0</a>
-    &nbsp;·&nbsp; 무단 복제 금지 &nbsp;·&nbsp; 변경 시 제작자 허가 필요
+    <span class="nw">제작: 서담 한민수</span> <span class="nw">· 동명대학교 (Tongmyong University)</span><br>
+    <span class="nw"><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.4)">CC BY-NC-ND 4.0</a></span>
+    <span class="nw">· 무단 복제 금지</span> <span class="nw">· 변경 시 제작자 허가 필요</span>
   </div>
 </footer>
 
@@ -1064,6 +1068,8 @@ function markText(raw, rx){
   return out+h(raw.slice(last));
 }
 // 초록에서 검색어 주변 문맥(KWIC) 뽑기
+// 제목 끝의 " -" 가 혼자 다음 줄로 떨어지지 않게
+function tidyTitle(t){ return String(t||"").replace(/\s+([-–—])\s*$/,"\u00A0$1"); }
 function kwic(raw, rx, len=150){
   raw=String(raw||""); if(!raw) return "";
   if(rx){
@@ -1448,12 +1454,28 @@ function buildFI(){
 }
 function buildAll(){ buildFJ(); buildFY(); buildFI(); syncDom(); buildSidebar(); }
 
+// 필터 버튼 너비를 '지금 보이는 글자' 길이에 맞춤 — 폰에서 '전체 ···' 처럼 잘리던 문제 방지
+const _mc=document.createElement("canvas").getContext("2d");
+function fitSelects(){
+  const cap=window.innerWidth<=768?260:240;
+  document.querySelectorAll(".fsel").forEach(sel=>{
+    const cs=getComputedStyle(sel);
+    _mc.font=`${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`;
+    const txt=(sel.options[sel.selectedIndex]||{}).text||"";
+    const w=Math.ceil(_mc.measureText(txt).width*1.04)+parseFloat(cs.paddingLeft)+parseFloat(cs.paddingRight)+parseFloat(cs.borderLeftWidth)+parseFloat(cs.borderRightWidth)+6;
+    sel.style.width=Math.min(w,cap)+"px";
+  });
+}
+if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fitSelects);
+if(document.fonts) document.fonts.addEventListener?.("loadingdone",fitSelects);
+window.addEventListener("resize",deb(fitSelects,150));
 function syncDom(){
   $("filterCategory").value=S.fc; $("filterCountry").value=S.fn; $("filterJournal").value=S.fj;
   $("filterYear").value=S.fy; $("filterIssue").value=S.fi; $("sortSelect").value=S.sort; $("searchField").value=S.field;
   ["searchField","filterCategory","filterJournal","filterCountry","filterYear","filterIssue"].forEach(id=>$(id).classList.toggle("set",!!$(id).value));
   [["sbTabAll",""],["sbTabKR","Korea"],["sbTabJP","Japan"],["sbTabAllM",""],["sbTabKRM","Korea"],["sbTabJPM","Japan"]]
     .forEach(([id,v])=>{const el=$(id);if(el){el.classList.toggle("on",v===S.fn);el.setAttribute("aria-pressed",v===S.fn);}});
+  fitSelects();
 }
 
 // ─── 사이드바 ────────────────────────────────────────────────────────────────
@@ -1633,7 +1655,7 @@ function render(){
         ${viLabel?`<span class="bdg bdg-i">${h(viLabel)}</span>`:""}
         ${src}
       </div>
-      <div class="ptit">${markText(a.title_kr,rx)}</div>
+      <div class="ptit">${markText(tidyTitle(a.title_kr),rx)}</div>
       ${au?`<div class="pau">${au}</div>`:""}
       ${ab?`<div class="pabs">${ab}</div>`:""}
       ${kw?`<div class="pkws">${kw}</div>`:""}
@@ -1670,7 +1692,7 @@ function openMod(id, noURL){
   CUR=a;
   const isIBK=(a.journal_name==="印度學佛教學研究");
   const rx=S.fuzzy?null:S.hlRx;
-  $("modTi").innerHTML=markText(a.title_kr,rx);
+  $("modTi").innerHTML=markText(tidyTitle(a.title_kr),rx);
   $("modTen").textContent=a.title_en||"";
   $("modTja").textContent=(isIBK&&a.title_ja&&a.title_ja!==a.title_kr)?"原題: "+a.title_ja:"";
   const viLabel=fmtVI(a.volume,a.issue);
