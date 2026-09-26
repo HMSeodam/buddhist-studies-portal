@@ -171,60 +171,125 @@ def parse_oai_kci(xml_text: str):
     return recs, (_text(tok) if tok is not None else ""), ""
 
 
-def http_get(session, url, params, tries=4):
+def parse_oai_dc(xml_text: str):
+    """ListRecords(oai_dc) 응답 → parse_oai_kci 와 같은 형태. (oai_kci 가 막힐 때 대체용)"""
+    root = ET.fromstring(xml_text.encode("utf-8") if isinstance(xml_text, str) else xml_text)
+    err = _find(root, "error")
+    if err is not None:
+        return [], "", err.get("code", "error")
+    recs = []
+    for rec in _findall(root, "record"):
+        header = _find(rec, "header")
+        if header is not None and header.get("status") == "deleted":
+            continue
+        md = _find(rec, "metadata")
+        if md is None:
+            continue
+        titles = {t.get("lang", "original"): _text(t) for t in _findall(md, "title")}
+        descs = {d.get("lang", "original"): _text(d) for d in _findall(md, "description")}
+        ids = {}
+        for i in _findall(md, "identifier"):
+            ids.setdefault(i.get("type", ""), _text(i))
+        # "대중서사연구, 21(1), 34, pp.227-260"
+        ji = ids.get("journalInfo", "")
+        parts = [x.strip() for x in ji.split(",")]
+        journal = parts[0] if parts else ""
+        vol = iss = fp = lp = ""
+        for x in parts[1:]:
+            m = re.match(r"^(\d+)?\s*\((\d+)\)$", x)
+            if m: vol, iss = m.group(1) or "", m.group(2)
+            elif re.match(r"^\d+$", x) and not vol: vol = x
+            m2 = re.search(r"pp?\.\s*(\d+)\s*-\s*(\d+)", x)
+            if m2: fp, lp = m2.group(1), m2.group(2)
+        authors = []
+        for c in _findall(md, "creator"):
+            raw = _text(c); m = re.match(r"^(.*?)\((.*)\)\s*$", raw)
+            nm, aff = (m.group(1).strip(), m.group(2).strip()) if m else (raw, "")
+            if nm: authors.append({"name": nm, "affiliation": aff, "order": str(len(authors) + 1)})
+        date = _text(_find(md, "date"))
+        recs.append({
+            "kci_id": ids.get("artiId", ""), "journal": journal,
+            "publisher": _text(_find(md, "publisher")), "year": date[:4],
+            "volume": vol, "issue": iss,
+            "title_orig": titles.get("original", ""), "title_en": titles.get("english", ""),
+            "abstract_orig": descs.get("original", ""), "abstract_en": descs.get("english", ""),
+            "authors": authors, "fpage": fp, "lpage": lp,
+            "doi": re.sub(r"^https?://(dx\.)?doi\.org/", "", ids.get("doi", "")),
+            "url": _text(_find(md, "url")), "language": _text(_find(md, "language")),
+        })
+    tok = _find(root, "resumptionToken")
+    return recs, (_text(tok) if tok is not None else ""), ""
+
+
+def http_get(session, url, params, tries=4, stats=None):
     for i in range(tries):
         try:
             r = session.get(url, params=params, timeout=60)
             if r.status_code == 200:
                 return r.text
-            print(f"  ⚠ HTTP {r.status_code} (시도 {i+1}/{tries})")
+            print(f"  ⚠ HTTP {r.status_code} (시도 {i+1}/{tries}) {r.text[:120]!r}")
+            if stats is not None: stats["http_errors"].append(r.status_code)
         except requests.RequestException as e:
             print(f"  ⚠ 네트워크 오류 (시도 {i+1}/{tries}): {type(e).__name__}")
         time.sleep(5 * (2 ** i))
     return None
 
 
-def harvest(date_from: str, date_until: str, deadline: float, discover: bool):
+def harvest(date_from: str, date_until: str, deadline: float, discover: bool = True):
+    """반환: (대상 학술지 레코드, 이름이 안 맞은 불교 관련 학술지, 끝까지 받았는지, 통계)"""
     s = requests.Session()
-    s.headers["User-Agent"] = UA
-    params = {"verb": "ListRecords", "set": "ARTI", "metadataPrefix": "oai_kci",
-              "from": date_from, "until": date_until}
+    s.headers.update({"User-Agent": UA, "Accept": "text/xml,application/xml;q=0.9,*/*;q=0.8",
+                      "Accept-Language": "ko-KR,ko;q=0.9"})
+    stats = {"pages": 0, "total": 0, "format": "oai_kci", "http_errors": [], "error": "", "per_journal": {}}
     matched, seen, unmatched = [], set(), {}
-    pages = total = 0
+    fmt, parser = "oai_kci", parse_oai_kci
+    params = {"verb": "ListRecords", "set": "ARTI", "metadataPrefix": fmt, "from": date_from, "until": date_until}
     while True:
         if time.time() > deadline:
-            print("  ⏹ 시간 예산 소진 — 여기까지만 처리")
-            return matched, unmatched, False
-        text = http_get(s, OAI_URL, params)
+            stats["error"] = "시간 예산 소진"; print("  ⏹ 시간 예산 소진 — 여기까지만 처리")
+            return matched, unmatched, False, stats
+        text = http_get(s, OAI_URL, params, stats=stats)
+        if text is None and fmt == "oai_kci" and stats["pages"] == 0:
+            print("  ↪ 상세 형식(oai_kci) 응답 실패 → 간략 형식(oai_dc)으로 다시 시도")
+            fmt, parser = "oai_dc", parse_oai_dc; stats["format"] = fmt
+            params = {"verb": "ListRecords", "set": "ARTI", "metadataPrefix": fmt, "from": date_from, "until": date_until}
+            continue
         if text is None:
-            print("  ✗ KCI 응답 없음 — 중단")
-            return matched, unmatched, False
-        recs, token, err = parse_oai_kci(text)
+            stats["error"] = "KCI 서버 응답 없음"; print("  ✗ KCI 응답 없음 — 중단")
+            return matched, unmatched, False, stats
+        try:
+            recs, token, err = parser(text)
+        except ET.ParseError:
+            stats["error"] = "XML 아님(차단 안내 페이지일 수 있음): " + re.sub(r"\s+", " ", text[:150])
+            print("  ✗ " + stats["error"])
+            return matched, unmatched, False, stats
         if err == "noRecordsMatch":
+            print("  (이 기간에 KCI 에서 새로 등록·수정된 논문이 없음)")
             break
         if err:
-            print(f"  ✗ OAI 오류: {err}")
-            return matched, unmatched, False
-        pages += 1
+            stats["error"] = f"OAI 오류 {err}"; print(f"  ✗ OAI 오류: {err}")
+            return matched, unmatched, False, stats
+        stats["pages"] += 1
         fresh = False
         for r in recs:
             if r["kci_id"] in seen:
                 continue
-            seen.add(r["kci_id"]); fresh = True; total += 1
+            seen.add(r["kci_id"]); fresh = True; stats["total"] += 1
             ours = KCI_NAME_MAP.get(_norm(r["journal"]))
             if ours:
                 r["journal_ours"] = ours
                 matched.append(r)
+                stats["per_journal"][ours] = stats["per_journal"].get(ours, 0) + 1
             elif discover and any(h.lower() in r["journal"].lower() for h in DISCOVER_HINTS):
                 unmatched[r["journal"]] = unmatched.get(r["journal"], 0) + 1
-        if pages % 10 == 0:
-            print(f"  … {pages}쪽 / {total}건 확인, 대상 학술지 {len(matched)}건")
+        if stats["pages"] % 10 == 0:
+            print(f"  … {stats['pages']}쪽 / {stats['total']}건 확인, 대상 학술지 {len(matched)}건")
         if not token or not fresh:
             break
         params = {"verb": "ListRecords", "resumptionToken": token}
         time.sleep(THROTTLE)
-    print(f"  수확 완료: {pages}쪽 · {total}건 중 대상 학술지 {len(matched)}건")
-    return matched, unmatched, True
+    print(f"  수확 완료({fmt}): {stats['pages']}쪽 · KCI 레코드 {stats['total']}건 중 대상 학술지 {len(matched)}건")
+    return matched, unmatched, True, stats
 
 
 # ════════════════════════════════════════
@@ -336,7 +401,7 @@ def main():
     ap.add_argument("--until", dest="date_until", default="")
     ap.add_argument("--deadline-min", type=float, default=18)
     ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--discover", action="store_true")
+    ap.add_argument("--discover", action="store_true", help="(항상 켜져 있음, 호환용)")
     args = ap.parse_args()
 
     deadline = time.time() + args.deadline_min * 60
@@ -354,9 +419,9 @@ def main():
     duntil = args.date_until or today.strftime("%Y-%m-%d")
     print(f"▶ KCI OAI-PMH 수확: {dfrom} ~ {duntil} (시간 예산 {args.deadline_min:.0f}분)")
 
-    matched, unmatched, complete = harvest(dfrom, duntil, deadline, args.discover)
+    matched, unmatched, complete, stats = harvest(dfrom, duntil, deadline, True)
     summary = merge(matched, args.dry_run, os.environ.get("KCI_API_KEY", ""))
-    if args.discover and unmatched:
+    if unmatched:
         print("\n  🔎 이름이 맞지 않아 건너뛴 불교 관련 학술지 (KCI_JOURNALS 별칭 후보):")
         for n, c in sorted(unmatched.items(), key=lambda x: -x[1])[:40]:
             print(f"     {c:4}건  {n}")
@@ -368,8 +433,22 @@ def main():
           + ("" if complete else " (일부만 처리 — 다음 실행에서 같은 기간 재시도)"))
     summ = os.environ.get("GITHUB_STEP_SUMMARY")
     if summ:
+        filled = sum(v[1] for v in summary.values())
+        L = [f"### KCI OAI {dfrom}~{duntil}: 새 논문 {total_new}편 · 기존 보완 {filled}건",
+             f"- 확인한 KCI 레코드: **{stats['total']:,}건** ({stats['pages']}쪽, 형식 {stats['format']})",
+             f"- 우리 학술지로 연결된 레코드: **{len(matched)}건**"]
+        if stats["per_journal"]:
+            L.append("- 학술지별: " + ", ".join(f"{k} {v}건(새 {summary.get(k,(0,0))[0]}·보완 {summary.get(k,(0,0))[1]})"
+                                              for k, v in sorted(stats["per_journal"].items(), key=lambda x: -x[1])))
+        if unmatched:
+            L.append("- 이름이 안 맞아 건너뛴 불교 관련 학술지: " + ", ".join(f"{n}({c})" for n, c in
+                     sorted(unmatched.items(), key=lambda x: -x[1])[:15]))
+        if stats["http_errors"]:
+            L.append(f"- HTTP 오류: {stats['http_errors'][:10]}")
+        if stats["error"] or not complete:
+            L.append(f"- ⚠ 미완료: {stats['error'] or '중단'} → 다음 실행에서 같은 기간을 다시 받습니다")
         with open(summ, "a", encoding="utf-8") as f:
-            f.write(f"### KCI OAI {dfrom}~{duntil}: 새 논문 {total_new}편\n")
+            f.write("\n".join(L) + "\n")
 
 
 if __name__ == "__main__":
