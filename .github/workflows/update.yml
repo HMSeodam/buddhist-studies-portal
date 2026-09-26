@@ -43,6 +43,10 @@ on:
         description: "RISS 전체 시간 예산(분, 기본 290 · 최대 295)"
         required: false
         default: ""
+      kci_from:
+        description: "KCI 수확 시작일 YYYY-MM-DD (비우면 지난 실행 이후만)"
+        required: false
+        default: ""
 
 # 같은 시각에 두 번 겹쳐 돌지 않도록 (매월 1일 + 요일 스케줄 등) — 앞 작업이 끝날 때까지 대기
 concurrency:
@@ -106,8 +110,15 @@ jobs:
           github.event.inputs.target == 'kci' ||
           github.event.inputs.target == 'all'
         continue-on-error: true
-        timeout-minutes: 20
-        run: cd collector && python kci_oai_updater.py --deadline-min 18
+        timeout-minutes: 45
+        run: |
+          cd collector
+          FROM="${{ github.event.inputs.kci_from }}"
+          if [ -n "$FROM" ]; then
+            python kci_oai_updater.py --from "$FROM" --deadline-min 40   # 긴 기간 점검·초기 적재
+          else
+            python kci_oai_updater.py --deadline-min 18
+          fi
         env:
           KCI_API_KEY: ${{ secrets.KCI_API_KEY }}
 
@@ -206,7 +217,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A output/ collector/state/
+          git add -A output/
+          # 이월 목록 폴더가 비어 있으면 add 가 실패하므로 오류는 무시
+          git add -A collector/state/ 2>/dev/null || true
           DAY="${{ steps.day.outputs.day }}"
           DATE=$(date +'%Y-%m-%d')
           git commit -m "data: RISS 업데이트 [$DAY] $DATE" || exit 0
