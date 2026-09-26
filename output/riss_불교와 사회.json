@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.43,
     "control_no": "ac622b8ba4ebe87affe0bdc3ef48d419",
-    "last_updated": "2026-07-26"
+    "last_updated": "2026-09-26"
   },
   "articles": [
     {
@@ -6282,16 +6282,16 @@
         }
       ],
       "abstract_kr": "his paper investigates the limits of artificial intelligence (AI) with respect to semantic understanding and moral agency by bringing Buddhist philosophy and Wittgenstein’s philosophy of language into a comparative framework. Contemporary deep-learning systems learn by optimizing large parameter spaces through supervised learning, backpropagation, and gradient descent. Although such systems generate highly fluent outputs, their operations remain at the level of syntactic pattern processing rather than genuine semantic understanding. Searle’s “Chinese Room” argument makes this gap explicit: rule-based symbol manipulation, however sophisticated, does not amount to understanding. This finding resonates with Wittgenstein’s later view that meaning is not an intrinsic property of signs but arises from use, practice, and forms of life.Buddhist thought, particularly the doctrines of dependent origination (pratītyasamutpāda) and emptiness (śūnyatā), deepens this analysis. According to Madhyamaka philosophy, all phenomena—including linguistic meanings—are empty of intrinsic nature and arise only in relational networks of conditions. From this perspective, AI outputs do not possess meaning in themselves; rather, their meaning originates in a contingent nexus of training data, model architecture, human interpreters, and socio-linguistic contexts. The paper then examines the “responsibility gap” in AI decision-making through Buddhist ethics, arguing that intentionality (cetanā) is the basis of moral responsibility. Because current AI systems lack consciousness and intention, they cannot be moral agents; responsibility must be ascribed to the humans and institutions that design, deploy, and regulate these systems.In conclusion, the study briefly considers, as a purely speculative horizon, whether a future “Robo-Dasein” equipped with embodiment, second-person relationality, and self-reflection could transform these assessments. Overall, the paper proposes a relational, cross-cultural framework for rethinking meaning, agency, and responsibility in the age of AI, integrating insights from analytic philosophy, Buddhist thought, and the philosophy of technology.",
-      "abstract_en": "",
+      "abstract_en": "his paper investigates the limits of artificial intelligence (AI) with respect to semantic understanding and moral agency by bringing Buddhist philosophy and Wittgenstein’s philosophy of language into a comparative framework. Contemporary deep-learning systems learn by optimizing large parameter spaces through supervised learning, backpropagation, and gradient descent. Although such systems generate highly fluent outputs, their operations remain at the level of syntactic pattern processing rather than genuine semantic understanding. Searle’s “Chinese Room” argument makes this gap explicit: rule-based symbol manipulation, however sophisticated, does not amount to understanding. This finding resonates with Wittgenstein’s later view that meaning is not an intrinsic property of signs but arises from use, practice, and forms of life.\nBuddhist thought, particularly the doctrines of dependent origination (pratītyasamutpāda) and emptiness (śūnyatā), deepens this analysis. According to Madhyamaka philosophy, all phenomena—including linguistic meanings—are empty of intrinsic nature and arise only in relational networks of conditions. From this perspective, AI outputs do not possess meaning in themselves; rather, their meaning originates in a contingent nexus of training data, model architecture, human interpreters, and socio-linguistic contexts. The paper then examines the “responsibility gap” in AI decision-making through Buddhist ethics, arguing that intentionality (cetanā) is the basis of moral responsibility. Because current AI systems lack consciousness and intention, they cannot be moral agents; responsibility must be ascribed to the humans and institutions that design, deploy, and regulate these systems.\nIn conclusion, the study briefly considers, as a purely speculative horizon, whether a future “Robo-Dasein” equipped with embodiment, second-person relationality, and self-reflection could transform these assessments. Overall, the paper proposes a relational, cross-cultural framework for rethinking meaning, agency, and responsibility in the age of AI, integrating insights from analytic philosophy, Buddhist thought, and the philosophy of technology.",
       "journal_name": "불교와 사회",
       "year": "2025",
       "volume": "17",
       "issue": "2",
       "start_page": "1",
       "end_page": "48",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.2.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=367ebaa59f95ab1a7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296618",
       "keywords_kr": [
         "인공지능",
         "의미 공백",
@@ -6307,7 +6307,8 @@
         "Emptiness"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003296618"
     },
     {
       "article_id": "3ce08215da1f32f7b36097776a77e665",
@@ -6328,9 +6329,9 @@
       "issue": "1",
       "start_page": "1",
       "end_page": "35",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.1.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3ce08215da1f32f7b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226712",
       "keywords_kr": [
         "구사론",
         "부파불교",
@@ -6346,7 +6347,8 @@
         "Kośa-School"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003226712"
     },
     {
       "article_id": "57b75b4ef0adfc3347de9c1710b0298d",
@@ -6404,16 +6406,16 @@
         }
       ],
       "abstract_kr": "본 논문의 목적은 한국 근현대 불교사에서 교육자, 불교 지도자, 경전 번역가이자 독립운동가로 활동한 운허 용하(耘虛龍夏, 1892∼1980)의 저술 활동을 종합적으로 고찰하고, 그 저술의 목적과 내용, 특징, 유통 양상 및 사회적 효과를 분석하는 것이다. 연구 대상은 현재까지 확인된 운허의 저술인 󰡔불교독본󰡕, 󰡔불교독본초󰡕, 󰡔불교의 깨묵󰡕, 󰡔한국독립운동사󰡕, 󰡔조계종요강󰡕, 󰡔불교통사󰡕, 󰡔해인사지󰡕, 󰡔불교사전󰡕이다. 본 연구는 탁상일기, 역경간행일람, 자초연보 등 1차 사료와 실물 도서 조사를 바탕으로 자료 수집 과정을 정리하고, 각 저술의 집필 배경과 목적, 구성과 서술 방식, 사상적 특징을 비교․분석하였다. 운허의 저술에 대한 분석 결과, 운허의 저술은 세 가지 방향성을 지닌다. 첫째, 운허의 저술은 승가 교육을 위한 교재 편찬을 위한 것이다. 둘째, 운허의 저술은 불교 교리의 대중화와 포교․전법을 위한 것이다. 셋째, 운허의 저술은 민족 현실에 대한 응답과 애국적 실천을 위한 것이다. 특히 그의 저술은 중도 사상과 불성에 대한 확신, 보살행의 실천을 핵심 사상을 담고 있다. 또한 운허의 저술 목적은 한문 중심의 불교 담론에서 벗어나 우리말 구어체를 적극 활용함으로써 불교 교학의 대중적 전달을 실현함이었다. 󰡔조계종요강󰡕과 󰡔불교통사󰡕는 해방 이후 교단 정체성 확립과 포교 인력 양성에 기여하였다. 󰡔한국독립운동사󰡕는 불교인의 민족운동 참여를 기술하고 있다. 본 논문은 기존 연구가 주로 역경 사업과 출판기록에 집중해 온 한계를 보완하여, 운허 저술의 전모를 체계적으로 조명함으로써 그의 저술이 한국 근현대 불교 교육․포교․사회 참여에 미친 학술적 의의를 밝히고자 한다.",
-      "abstract_en": "",
+      "abstract_en": "The purpose of this study is to undertake a comprehensive examination of the literary activities of Ven. Unheo Yongha (耘虛龍夏, 1892-1980), who served as an educator, Buddhist leader, translator of scriptures, and independence activist in the context of modern and contemporary Korean Buddhist history. Specifically, the paper aims to analyze the objectives, content, characteristics, modes of circulation, and social impact of his writings. Unheo's writings consist of eight works, 『An Introductory Text on Buddhism (佛敎讀本)』, 『Basics of An Introductory Text on Buddhism(佛敎讀本抄)』, 『Defatted sesame residueon Buddhism (불교의 깨묵)』, 『Record of Haeinsa Temple (海印寺誌)』, 『Dictionary of Buddhism (佛敎事典)』, 『Jogye Order Essentials (曹溪宗要綱)』, 『History of Buddhism (佛敎通史)』, 『History of the Korean Independence Movement (韓國獨立運動史)』 This study organizes the process of data collection based on primary sources such as the Taksang Diary (卓上日記), Catalogue of Translated Buddhist Scriptures (譯經刊行一覽), and the Chronological Biography of Jacho (自抄年譜), as well as investigations of extant publications. Furthermore, the research undertakes a comparative analysis of the background and objectives of each work, their structural composition and narrative style, as well as their distinctive ideological characteristics. The analysis of Unheo's writings reveals three principal orientations. First, his works were composed for the compilation of instructional materials intended for monastic education. Second, they were directed toward the popularization of Buddhist doctrine and the promotion of missionary activities. Third, his writings served as a response to the realities of the nation and as an expression of patriotic practice. In particular, his writings embody core ideas such as the philosophy of the Middle Way (中道), a firm conviction in the Buddha-nature, and the practice of Bodhisattva conduct. Moreover, the purpose of Unheo's literary endeavors was to depart from the classical Chinese-centered Buddhist discourse and to actively employ the vernacular Korean language, thereby realizing the popular dissemination of Buddhist scholastic teachings. 『Jogye Order Essentials (曹溪宗要綱)』 and 『History of Buddhism (佛敎通史)』 contributed significantly, in the post-liberation period, to the consolidation of the identity of the Buddhist order and to the cultivation of personnel for missionary activities. 『History of the Korean Independence Movement (韓國獨立運動史)』 records the participation of Buddhists in the national liberation struggle. This study seeks to complement the limitations of previous studies, which have primarily focused on publication records of translation projects, by systematically illuminating the entirety of Unheo's literary works. In doing so, it aims to clarify the scholarly significance of his writings in relation to modern and contemporary Korean Buddhism, particularly in the domains of education, propagation, and social engagement.",
       "journal_name": "불교와 사회",
       "year": "2025",
       "volume": "17",
       "issue": "2",
       "start_page": "49",
       "end_page": "95",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.2.49",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5c86c07e2bd8c0a86aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296620",
       "keywords_kr": [
         "운허",
         "저술",
@@ -6432,7 +6434,8 @@
         "Dharma Transmission"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003296620"
     },
     {
       "article_id": "367ebaa59f95ab1ab36097776a77e665",
@@ -6446,16 +6449,16 @@
         }
       ],
       "abstract_kr": "1인 가족은 오늘날 한국 사회의 보편적 모습이다. 급속한 개인화와 가족 해체, 고령화의 진행 속에서 한국은 점차 ‘무연사회(無緣社會)’로 변모하고 있다. SNS, 즉 사회관계망서비스가 유독 발달된 한국 사회에서 개인의 관계가 오히려 ‘연결’보다는 ‘고립’과 ‘단절’을 향해 치닿는 현상은 어떻게 이해해야 할 것인가. 1인 가족은 잠재적 독거 노인이며, 고독사(孤獨死)하거나 무연고(無緣故) 사망자가 될 가능성을 품고 있다.인간이 서로 ‘관계’ 속에서 존재한다는 사실을 망각한 채, 단절과 고립이 일상화된 사회에서 ‘무연고 사망자’는 그 극단적인 사회현상으로 자리잡았다. 이들은 살아 있을 때도 사회적 관계망에서 배제되고, 죽음 이후에도 기억되지 못한 채 사라지는 존재들이다. 이러한 현상은 단순한 사회 제도나 복지 차원의 문제를 넘어, 인간 존재의 본질적 문제 즉, 이 시대라 앓고 있는 ‘관계의 상실’을 여실히 드러낸다.본 연구는 불교의 핵심 사상인 ‘연기(緣起)’와 ‘자비(慈悲)’의 관점에서 이 시대 무연사회(無緣社會)의 문제를 재조명하고자 한다. 연기의 가르침은 모든 존재가 서로 의존하여 성립함을 밝히고 있다. 자비(慈悲)는 그 인연의 끈을 회복시키는 실천적 힘으로 작용한다. 그런 관점에서 본다면 무연사회는 무연사회를 이루는 어떤 ‘조건’이 우리 사회에 조성되어졌고, 그것을 유연(有緣)사회로 변모시키기 위해서는 그에 상응하는 조건들을 우리가 다시 제안하고 실천해야 한다는 결론을 얻을 수 있다. 따라서 본 논문은 무연사회와 무연고 사망자 문제를 단순히 ‘어쩔 수 없는’ 사회 현상이 아니라, 현대 불교가 새롭게 응답해야 할 수행적․사회적 과제로 보고, 불교적 관계 회복의 방향을 탐색해 보고자 한다.불교에서 강조하는 연기(緣起)와 자비(慈悲)를 삶의 현장에서 어떻게 ‘실천’할 것인가에 대해 경전과 자료들을 근간으로 대안을 모색해 보았다. 그런 관점에서 연기와 자비가 개개인들에게 체험되는 장(場)을 능동적으로 만드는 것이 현대 불교가 앞장서야 할 일일 것이다.",
-      "abstract_en": "",
+      "abstract_en": "Single-person households have become a prevalent feature of contemporary Korean society. Amid rapid individualization, family disintegration, and an aging population, Korea is gradually transforming into a “disconnected society” (無緣社會). In a society where social networking services (SNS) are highly developed, personal relationships often trend toward isolation and disconnection rather than genuine connection. Single-person households are potential solitary elderly and may face the possibility of dying alone or as unclaimed deceased.\nIn a society where humans have forgotten their fundamental existence within relationships and where disconnection and isolation have become normalized, the phenomenon of unclaimed deceased has emerged as an extreme social issue. These individuals are excluded from social networks during life and disappear without being remembered after death. This issue extends beyond social welfare or institutional concerns and highlights a fundamental problem of human existence—the profound “loss of relationships” characteristic of contemporary society.\nThis study examines the challenges of a disconnected society from the perspective of two core Buddhist concepts: dependent origination (緣起) and compassion (慈悲). Dependent origination illustrates that all beings exist interdependently, while compassion serves as a practical force to restore the bonds of connection. From this perspective, a disconnected society results from specific conditions within contemporary society, and transforming it into a connected society requires identifying, proposing, and actively implementing conditions that foster relational ties. Accordingly, this paper regards the phenomenon of a disconnected society and unclaimed deceased not as inevitable social outcomes but as practical and social challenges that contemporary Buddhism should address, exploring directions for relational restoration through Buddhist practice.\nDrawing upon Buddhist scriptures and related resources, this study explores practical approaches for enacting dependent origination and compassion in everyday life. Creating spaces in which individuals can actively experience these principles represents a key responsibility for contemporary Buddhism.",
       "journal_name": "불교와 사회",
       "year": "2025",
       "volume": "17",
       "issue": "2",
       "start_page": "96",
       "end_page": "121",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.2.96",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=367ebaa59f95ab1ab36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296622",
       "keywords_kr": [
         "무연사회",
         "무연고사망자",
@@ -6471,7 +6474,8 @@
         "Compassion (慈悲)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003296622"
     },
     {
       "article_id": "57b75b4ef0adfc337f7a54760bb41745",
@@ -6492,9 +6496,9 @@
       "issue": "1",
       "start_page": "102",
       "end_page": "127",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.1.102",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57b75b4ef0adfc337f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226716",
       "keywords_kr": [
         "죽음",
         "연명의료",
@@ -6512,7 +6516,8 @@
         "Śamatha-Vipaśanā Practice(止觀)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003226716"
     },
     {
       "article_id": "5c86c07e2bd8c0a8d18150b21a227875",
@@ -6526,16 +6531,16 @@
         }
       ],
       "abstract_kr": "본 논문은 현대사회에서 전통적인 음력 중심의 포교 방식에 대한 한계를 점검하고, 양력 중심의 정기법회 포교 방법에 대한 방안 연구이다. 그동안 한국 불교는 음력 중심으로 4월 초파일을 비롯한 출가․성도․열반의 4대 주요 명절과 관음․지장․미타․약사 등의 재일 법회, 그리고 초하루, 보름, 백중, 칠석, 동지 등의 절기 법회를 전승하여 왔다. 하지만 약 1,600여 년의 지속성을 유지해 왔던 음력 중심의 전통적인 법회 문화는 현대 사회의 포교 활성화의 측면에서 분명한 한계성을 갖게 한다. 이는 한국 사회가 양력을 표준으로 삼고 있기 때문이다. 음력 법회는 불자들에게 법회 일을 확인하기에 어려움이 있고, 더욱이 직장에 다니는 불자들에게는 법회 참여의 기회조차 박탈 당하게 된다. 또한 도시 중심의 젊은 세대들은 비록 불교에 대한 관심이 있을지라도 음력법회의 참여도를 기대해 보기가 쉽지 않다. 이처럼 포교 활성화를 위해서는 양력 중심의 법회가 필수불가결한 조건이 되었다.양력 정기법회 활성화 방안은 주말 법회와 주중 법회로 구분된다. 우선 가족법회 및 명상법회 중심의 주말 법회와 초기불교의 5력 수행, 대승불교 7바라밀 수행 등과 관련한 주중 수행 법회를 제안하고자 한다. 그리고 양력 법회 중심의 생활 법회에 절기나 재일 중심의 음력 법회를 보완한다면 양측을 살리는 중도적 방안이 된다. 나아가 법회 활성화를 위한 오프라인 또는 온라인 방식의 포교 마케팅 전략이 요구된다. 특히 시간, 장소, 거리, 계층과 무관한 비대면 환경의 발전은 현대 불교의 디지털 포교가 적극적으로 대응하고 발전시켜야 할 과제이다.",
-      "abstract_en": "",
+      "abstract_en": "This study examines the limitations of the traditional lunar calendar- based propagation methods in contemporary society and explores strategies for promoting regular Dharma assemblies centered on the solar calendar. For centuries, Korean Buddhism has preserved the lunar calendar tradition, holding major celebrations such as Buddha’s Birthday, the anniversaries of the Buddha’s renunciation, enlightenment, and nirvana, as well as regular Dharma assemblies dedicated to Avalokiteśvara, Kṣitigarbha, Amitābha, and Bhaiṣajyaguru. Other ceremonies following seasonal or calendrical cycles—such as those on the first and fifteenth days of each lunar month, the Ullambana Festival, Chilseok, and the Winter Solstice—have likewise been maintained.\nHowever, this long-standing lunar-based Dharma culture, sustained for over 1,600 years, now faces clear limitations in effectively spreading the Dharma in modern society. The primary reason lies in the fact that Korean society follows the solar calendar as its standard. For contemporary Buddhists, lunar-based Dharma events are difficult to track, and those employed in secular workplaces are often deprived of opportunities to attend. Moreover, urban youth—even if interested in Buddhism—find participation in lunar calendar assemblies inconvenient and impractical. Thus, for effective propagation, a solar calendar–based Dharma assembly system has become an indispensable condition.\nThe proposed strategies for revitalizing solar-based regular Dharma assemblies are divided into weekend and weekday gatherings. Weekend assemblies are envisioned to focus on family-oriented and meditation- centered practices, while weekday assemblies would emphasize group practice integrating the “Five Powers” of Early Buddhism or the “Seven Pāramitās” in Mahāyāna Buddhism. By complementing these solar- based, lifestyle-oriented assemblies with traditional lunar-based observances tied to specific festivals and memorial days, a balanced “Middle Way” approach can be established. Furthermore, proactive propagation and marketing strategies—both offline and online—are essential for sustaining Dharma activities. In particular, the rise of non-face-to-face communication environments transcending time, place, distance, and social class presents a crucial challenge and opportunity for contemporary Buddhist digital propagation.",
       "journal_name": "불교와 사회",
       "year": "2025",
       "volume": "17",
       "issue": "2",
       "start_page": "122",
       "end_page": "159",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.2.122",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5c86c07e2bd8c0a8d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296624",
       "keywords_kr": [
         "불교 법회",
         "음력",
@@ -6551,7 +6556,8 @@
         "Marketing"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003296624"
     },
     {
       "article_id": "57b75b4ef0adfc33d18150b21a227875",
@@ -6572,9 +6578,9 @@
       "issue": "1",
       "start_page": "128",
       "end_page": "163",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.1.128",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57b75b4ef0adfc33d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226719",
       "keywords_kr": [
         "소외",
         "고(苦)",
@@ -6592,7 +6598,8 @@
         "Dependent Co-Arising"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003226719"
     },
     {
       "article_id": "367ebaa59f95ab1a4884a65323211ff0",
@@ -6606,16 +6613,16 @@
         }
       ],
       "abstract_kr": "This study reinterprets the formation of the Mandang (卍黨) and the independence activism of the Buddhist intellectual Kim Beoprin against the backdrop of the shock of modernity experienced in colonial Korea, approaching them as forms of social-movement practice. Korea’s modernization was not a simple imitation of a single Western trajectory; rather, under the involuntary condition of colonial rule, it unfolded as a configuration of multiple modernities in which oppression, resistance, and the reinterpretation of tradition were layered and intertwined. However, previous scholarship has tended to explain Kim Beoprin’s activities primarily in terms of national duty, the moral practice of patriotic or nationalist Buddhism, or his personal intellectual characteristics. As a result, it has largely remained at the level of describing “what he did,” without sufficiently addressing the structural question of “why such practices became unavoidable.” By treating colonial conditions merely as historical background, it has also been limited in elucidating the social pressures and tasks through which Buddhist intellectuals were formed and their practices organized.Accordingly, this study confines “colonial (dependent) modernity” not to a grand explanatory theory but to a minimal analytical reference for capturing the structural conditions under which Kim Beoprin’s practices took shape. It likewise defines “Buddhist intellectuals” not as a status category of monastic or lay identity, but as a type of actor who interprets and raises public problems, legitimizes meanings, organizes through associations, education, publishing, and networks, and links outward- oriented social practice with inward reconfiguration of Buddhism. Through this framework, the study seeks to demonstrate that the Mandang’s formation, independence activism, and Kim’s educational and scholarly work constituted a trajectory of response through which Buddhism attempted to reconstitute its social voice and practical capacities under the conditions of colonial modernity. The significance of this study lies in offering a perspective that analyzes modern and contemporary Buddhist social movements within the interaction of structure, agency, and meaning—rather than reducing them to nationalism or individual morality—thereby opening an analytic horizon that can be extended to other Buddhist intellectuals and to Buddhist social movements in subsequent periods.",
-      "abstract_en": "",
+      "abstract_en": "This study reinterprets the formation of the Mandang (卍黨) and the independence activism of the Buddhist intellectual Kim Beoprin against the backdrop of the shock of modernity experienced in colonial Korea, approaching them as forms of social-movement practice. Korea’s modernization was not a simple imitation of a single Western trajectory; rather, under the involuntary condition of colonial rule, it unfolded as a configuration of multiple modernities in which oppression, resistance, and the reinterpretation of tradition were layered and intertwined. However, previous scholarship has tended to explain Kim Beoprin’s activities primarily in terms of national duty, the moral practice of patriotic or nationalist Buddhism, or his personal intellectual characteristics. As a result, it has largely remained at the level of describing “what he did,” without sufficiently addressing the structural question of “why such practices became unavoidable.” By treating colonial conditions merely as historical background, it has also been limited in elucidating the social pressures and tasks through which Buddhist intellectuals were formed and their practices organized.\nAccordingly, this study confines “colonial (dependent) modernity” not to a grand explanatory theory but to a minimal analytical reference for capturing the structural conditions under which Kim Beoprin’s practices took shape. It likewise defines “Buddhist intellectuals” not as a status category of monastic or lay identity, but as a type of actor who interprets and raises public problems, legitimizes meanings, organizes through associations, education, publishing, and networks, and links outward- oriented social practice with inward reconfiguration of Buddhism. Through this framework, the study seeks to demonstrate that the Mandang’s formation, independence activism, and Kim’s educational and scholarly work constituted a trajectory of response through which Buddhism attempted to reconstitute its social voice and practical capacities under the conditions of colonial modernity. The significance of this study lies in offering a perspective that analyzes modern and contemporary Buddhist social movements within the interaction of structure, agency, and meaning—rather than reducing them to nationalism or individual morality—thereby opening an analytic horizon that can be extended to other Buddhist intellectuals and to Buddhist social movements in subsequent periods.",
       "journal_name": "불교와 사회",
       "year": "2025",
       "volume": "17",
       "issue": "2",
       "start_page": "160",
       "end_page": "194",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.2.160",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=367ebaa59f95ab1a4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296626",
       "keywords_kr": [
         "근대화",
         "다중적 근대성",
@@ -6631,7 +6638,8 @@
         "Mandang (卍黨)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003296626"
     },
     {
       "article_id": "3ce08215da1f32f77ecd42904f0c5d65",
@@ -6652,9 +6660,9 @@
       "issue": "1",
       "start_page": "164",
       "end_page": "198",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.1.164",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3ce08215da1f32f77ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226721",
       "keywords_kr": [
         "법정",
         "박성직",
@@ -6672,7 +6680,8 @@
         "Letters"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003226721"
     },
     {
       "article_id": "57b75b4ef0adfc33b7998d826d417196",
@@ -6693,9 +6702,9 @@
       "issue": "1",
       "start_page": "199",
       "end_page": "232",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.1.199",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57b75b4ef0adfc33b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226725",
       "keywords_kr": [
         "대한불교관음종",
         "불입종",
@@ -6711,7 +6720,8 @@
         "Administrative Head(總務院長)"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003226725"
     },
     {
       "article_id": "57b75b4ef0adfc33e9810257f7042666",
@@ -6732,9 +6742,9 @@
       "issue": "1",
       "start_page": "233",
       "end_page": "263",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.1.233",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57b75b4ef0adfc33e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226729",
       "keywords_kr": [
         "대흥사",
         "호국대전",
@@ -6754,7 +6764,8 @@
         "Cultural Memory"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003226729"
     },
     {
       "article_id": "57b75b4ef0adfc33c85d2949c297615a",
@@ -6775,9 +6786,9 @@
       "issue": "1",
       "start_page": "264",
       "end_page": "290",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.1.264",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57b75b4ef0adfc33c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226730",
       "keywords_kr": [
         "불교신도",
         "행복",
@@ -6793,7 +6804,8 @@
         "Mental Health"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003226730"
     },
     {
       "article_id": "57b75b4ef0adfc336aae8a972f9116fb",
@@ -6819,9 +6831,9 @@
       "issue": "1",
       "start_page": "291",
       "end_page": "330",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.1.291",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57b75b4ef0adfc336aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226733",
       "keywords_kr": [
         "모태신앙",
         "숙세인연",
@@ -6841,7 +6853,8 @@
         "Buddhist Family"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003226733"
     },
     {
       "article_id": "8df25eedfa70d7cb7ecd42904f0c5d65",
@@ -7092,6 +7105,35 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "8260ffdb614e585eb7998d826d417196"
+    },
+    {
+      "article_id": "ART003226714",
+      "id": "ART003226714",
+      "kci_id": "ART003226714",
+      "title_kr": "Harmony Unveiled: Exploring the Convergence of Buddhism and Scientific Thought",
+      "title_en": "",
+      "authors": [
+        {
+          "name": "비비크",
+          "affiliation": "한림대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "The relationship between Buddhist traditions and modern scientific thought has captured widespread interest, often framed through narratives emphasizing inherent compatibility and harmony. However, such portrayals frequently overlook significant philosophical, methodological, and historical complexities, particularly points of divergence, tension, and conflict. This paper addresses these complexities by undertaking a methodologically grounded comparative analysis. It moves beyond simplistic claims of convergence to critically examine both areas of productive dialogue and fundamental differences between specific Buddhist concepts and relevant scientific frameworks. Adopting a methodology informed by Comparative Philosophy, this analysis explicitly defines its comparative framework and acknowledges the historical influence of \"Buddhist Modernism\"—a narrative that has often privileged compatibility while marginalizing points of friction. The paper systematically explores areas of apparent resonance, including epistemological parallels and conceptual echoes like interdependence, subjecting them to critical scrutiny. Crucially, it then delves into significant points of divergence and conflict, focusing on metaphysical divides concerning consciousness and materialism, the challenges posed by scientific perspectives to doctrines like rebirth and karma, differing interpretations of 'no-self' (anattā), and fundamental differences in ultimate aims and values. By synthesizing these findings, the paper argues for a more complex, multi-layered understanding of the Buddhism-science relationship, acknowledging both resonance and irreducible difference. The objective is not to adjudicate between the traditions but to foster a more nuanced, historically sensitive, and methodologically self-aware dialogue that appreciates the intricate and often challenging nature of their interaction.",
+      "journal_name": "불교와 사회",
+      "year": "2025",
+      "volume": "17",
+      "issue": "1",
+      "start_page": "36",
+      "end_page": "101",
+      "doi": "10.33521/jbs.2025.17.1.36",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226714",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI"
     }
   ],
   "by_year": {

@@ -8564,9 +8564,9 @@
       "issue": "",
       "start_page": "225",
       "end_page": "249",
-      "doi": "",
+      "doi": "10.23167/JSKBH2025.06.30.07",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fa2dec97613ccb306aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003224943",
       "keywords_kr": [
         "｢가락국기｣ 가야 건국 기사의 역사성",
         "구지가",
@@ -8583,7 +8583,8 @@
         "“像敎” in the Geumgwanseong Pasa Stone Pagoda section"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003224943"
     },
     {
       "article_id": "fa2dec97613ccb30e9810257f7042666",

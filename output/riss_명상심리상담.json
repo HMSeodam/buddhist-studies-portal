@@ -8043,9 +8043,9 @@
       "issue": "",
       "start_page": "1",
       "end_page": "13",
-      "doi": "",
+      "doi": "10.12972/mpca.2026.36.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=01dcc6086a8334436aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337721",
       "keywords_kr": [
         "일상",
         "수행",
@@ -8062,7 +8062,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "01dcc6086a8334436aae8a972f9116fb"
+      "id": "01dcc6086a8334436aae8a972f9116fb",
+      "kci_id": "ART003337721"
     },
     {
       "article_id": "01dcc6086a833443e9810257f7042666",
@@ -8083,9 +8084,9 @@
       "issue": "",
       "start_page": "15",
       "end_page": "29",
-      "doi": "",
+      "doi": "10.12972/mpca.2026.36.2",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=01dcc6086a833443e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337722",
       "keywords_kr": [
         "불교 명상",
         "프로그램 효과성",
@@ -8103,7 +8104,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "01dcc6086a833443e9810257f7042666"
+      "id": "01dcc6086a833443e9810257f7042666",
+      "kci_id": "ART003337722"
     },
     {
       "article_id": "01dcc6086a8334437f7a54760bb41745",
@@ -8129,9 +8131,9 @@
       "issue": "",
       "start_page": "31",
       "end_page": "44",
-      "doi": "",
+      "doi": "10.12972/mpca.2026.36.3",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=01dcc6086a8334437f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337723",
       "keywords_kr": [
         "인공지능(AI)",
         "확장현실(XR)",
@@ -8148,7 +8150,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "01dcc6086a8334437f7a54760bb41745"
+      "id": "01dcc6086a8334437f7a54760bb41745",
+      "kci_id": "ART003337723"
     },
     {
       "article_id": "01dcc6086a833443d18150b21a227875",
@@ -8169,9 +8172,9 @@
       "issue": "",
       "start_page": "45",
       "end_page": "59",
-      "doi": "",
+      "doi": "10.12972/mpca.2026.36.4",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=01dcc6086a833443d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337724",
       "keywords_kr": [
         "앙굿따라니까야",
         "자발성",
@@ -8190,7 +8193,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "01dcc6086a833443d18150b21a227875"
+      "id": "01dcc6086a833443d18150b21a227875",
+      "kci_id": "ART003337724"
     },
     {
       "article_id": "85f53da0c77b71c47ecd42904f0c5d65",
@@ -8211,9 +8215,9 @@
       "issue": "",
       "start_page": "61",
       "end_page": "74",
-      "doi": "",
+      "doi": "10.12972/mpca.2026.36.5",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=85f53da0c77b71c47ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337725",
       "keywords_kr": [
         "suññā",
         "명상 부작용",
@@ -8230,7 +8234,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "85f53da0c77b71c47ecd42904f0c5d65"
+      "id": "85f53da0c77b71c47ecd42904f0c5d65",
+      "kci_id": "ART003337725"
     },
     {
       "article_id": "85f53da0c77b71c4b36097776a77e665",
@@ -8253,7 +8258,7 @@
       "end_page": "92",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=85f53da0c77b71c4b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337731",
       "keywords_kr": [
         "오공(五共) 사상",
         "생성형 AI",
@@ -8270,7 +8275,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "85f53da0c77b71c4b36097776a77e665"
+      "id": "85f53da0c77b71c4b36097776a77e665",
+      "kci_id": "ART003337731"
     },
     {
       "article_id": "85f53da0c77b71c44884a65323211ff0",
@@ -8301,9 +8307,9 @@
       "issue": "",
       "start_page": "93",
       "end_page": "105",
-      "doi": "",
+      "doi": "10.12972/mpca.2026.36.7",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=85f53da0c77b71c44884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337732",
       "keywords_kr": [
         "자비 증진 프로그램",
         "동향분석",
@@ -8320,7 +8326,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "85f53da0c77b71c44884a65323211ff0"
+      "id": "85f53da0c77b71c44884a65323211ff0",
+      "kci_id": "ART003337732"
     },
     {
       "article_id": "8bcd1ab500a8b26eb36097776a77e665",
@@ -8341,9 +8348,9 @@
       "issue": "",
       "start_page": "107",
       "end_page": "117",
-      "doi": "",
+      "doi": "10.12972/mpca.2026.36.8",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8bcd1ab500a8b26eb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337733",
       "keywords_kr": [
         "캠퍼스 산책 경험",
         "심리적 회복",
@@ -8363,7 +8370,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "8bcd1ab500a8b26eb36097776a77e665"
+      "id": "8bcd1ab500a8b26eb36097776a77e665",
+      "kci_id": "ART003337733"
     },
     {
       "article_id": "8bcd1ab500a8b26e7ecd42904f0c5d65",
@@ -8389,9 +8397,9 @@
       "issue": "",
       "start_page": "119",
       "end_page": "138",
-      "doi": "",
+      "doi": "10.12972/mpca.2026.36.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8bcd1ab500a8b26e7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337734",
       "keywords_kr": [
         "RHS 모델",
         "명상기반 심리상담",
@@ -8408,7 +8416,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "8bcd1ab500a8b26e7ecd42904f0c5d65"
+      "id": "8bcd1ab500a8b26e7ecd42904f0c5d65",
+      "kci_id": "ART003337734"
     },
     {
       "article_id": "36f9ae2a41ab23727f7a54760bb41745",
@@ -8429,9 +8438,9 @@
       "issue": "",
       "start_page": "139",
       "end_page": "150",
-      "doi": "",
+      "doi": "10.12972/mpca.2026.36.10",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=36f9ae2a41ab23727f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337735",
       "keywords_kr": [
         "사회부과적 완벽주의",
         "학업소진",
@@ -8448,7 +8457,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "36f9ae2a41ab23727f7a54760bb41745"
+      "id": "36f9ae2a41ab23727f7a54760bb41745",
+      "kci_id": "ART003337735"
     },
     {
       "article_id": "829c94945ea4c37a47de9c1710b0298d",

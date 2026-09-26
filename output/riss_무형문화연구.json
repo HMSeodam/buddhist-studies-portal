@@ -524,7 +524,7 @@
       "issue": "16",
       "start_page": "1",
       "end_page": "28",
-      "doi": "",
+      "doi": "10.23058/brcr.2025..16.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8ffe5def1a50f386b7998d826d417196",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -554,7 +554,8 @@
         "The spirit of expedient means"
       ],
       "ai_keywords": [],
-      "source": "RISS"
+      "source": "RISS",
+      "kci_id": "ART003244840"
     },
     {
       "article_id": "8ffe5def1a50f386c85d2949c297615a",
@@ -4801,7 +4802,7 @@
       "issue": "18",
       "start_page": "1",
       "end_page": "27",
-      "doi": "",
+      "doi": "10.23058/brcr.2026..18.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c4af601e9193d59dc85d2949c297615a",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -4823,7 +4824,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "c4af601e9193d59dc85d2949c297615a"
+      "id": "c4af601e9193d59dc85d2949c297615a",
+      "kci_id": "ART003335973"
     },
     {
       "article_id": "fabb59c89dc54ff04884a65323211ff0",
@@ -4844,7 +4846,7 @@
       "issue": "18",
       "start_page": "29",
       "end_page": "68",
-      "doi": "",
+      "doi": "10.23058/brcr.2026..18.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fabb59c89dc54ff04884a65323211ff0",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -4870,7 +4872,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "fabb59c89dc54ff04884a65323211ff0"
+      "id": "fabb59c89dc54ff04884a65323211ff0",
+      "kci_id": "ART003335975"
     },
     {
       "article_id": "c4af601e9193d59d47de9c1710b0298d",
@@ -4891,7 +4894,7 @@
       "issue": "18",
       "start_page": "69",
       "end_page": "91",
-      "doi": "",
+      "doi": "10.23058/brcr.2026..18.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c4af601e9193d59d47de9c1710b0298d",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -4919,7 +4922,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "c4af601e9193d59d47de9c1710b0298d"
+      "id": "c4af601e9193d59d47de9c1710b0298d",
+      "kci_id": "ART003335981"
     },
     {
       "article_id": "c4af601e9193d59d7f7a54760bb41745",
@@ -4940,7 +4944,7 @@
       "issue": "18",
       "start_page": "93",
       "end_page": "113",
-      "doi": "",
+      "doi": "10.23058/brcr.2026..18.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c4af601e9193d59d7f7a54760bb41745",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -4959,7 +4963,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "c4af601e9193d59d7f7a54760bb41745"
+      "id": "c4af601e9193d59d7f7a54760bb41745",
+      "kci_id": "ART003335984"
     },
     {
       "article_id": "c4af601e9193d59de9810257f7042666",
@@ -4980,7 +4985,7 @@
       "issue": "18",
       "start_page": "115",
       "end_page": "140",
-      "doi": "",
+      "doi": "10.23058/brcr.2026..18.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c4af601e9193d59de9810257f7042666",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -5003,7 +5008,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "c4af601e9193d59de9810257f7042666"
+      "id": "c4af601e9193d59de9810257f7042666",
+      "kci_id": "ART003335853"
     },
     {
       "article_id": "fabb59c89dc54ff0b36097776a77e665",
@@ -5022,14 +5028,14 @@
         }
       ],
       "abstract_kr": "Since the nineteenth century, the transmission of Buddhism to Europe has evolved from an elite intellectual interest into a complex and pluralistic religious field. This paper argues that the traditional sociological distinction between “convert” and “ethnic” Buddhism is no longer sufficient to explain the contemporary European Buddhist landscape. Using a historical-sociological approach, the study proposes a tripartite analytical framework consisting of Convert Buddhism, Diaspora Buddhism, and Lineage Buddhism. Convert Buddhism is characterized by individualized spiritual practice and philosophical engagement; Diaspora Buddhism emphasizes cultural continuity and communal identity among Asian immigrant communities; while Lineage Buddhism refers to transnational institutional networks that maintain direct doctrinal and organizational authority from Asian monastic centers.The paper examines the internal dynamics of these three forms and highlights the paradox that convert communities often dominate public visibility despite the demographic predominance of diaspora traditions. It also analyzes the influence of secularization and commodification, particularly through the rise of “secular mindfulness” practices detached from traditional Buddhist ethical frameworks. The study concludes that the future development of Buddhism in Europe will depend on the ongoing negotiation between local cultural adaptation and the preservation of transnational lineage authority.",
-      "abstract_en": "",
+      "abstract_en": "Since the nineteenth century, the transmission of Buddhism to Europe has evolved from an elite intellectual interest into a complex and pluralistic religious field. This paper argues that the traditional sociological distinction between “convert” and “ethnic” Buddhism is no longer sufficient to explain the contemporary European Buddhist landscape. Using a historical-sociological approach, the study proposes a tripartite analytical framework consisting of Convert Buddhism, Diaspora Buddhism, and Lineage Buddhism. Convert Buddhism is characterized by individualized spiritual practice and philosophical engagement; Diaspora Buddhism emphasizes cultural continuity and communal identity among Asian immigrant communities; while Lineage Buddhism refers to transnational institutional networks that maintain direct doctrinal and organizational authority from Asian monastic centers.\nThe paper examines the internal dynamics of these three forms and highlights the paradox that convert communities often dominate public visibility despite the demographic predominance of diaspora traditions. It also analyzes the influence of secularization and commodification, particularly through the rise of “secular mindfulness” practices detached from traditional Buddhist ethical frameworks. The study concludes that the future development of Buddhism in Europe will depend on the ongoing negotiation between local cultural adaptation and the preservation of transnational lineage authority.",
       "journal_name": "무형문화연구",
       "year": "2026",
       "volume": "0",
       "issue": "18",
       "start_page": "141",
       "end_page": "174",
-      "doi": "",
+      "doi": "10.23058/brcr.2026..18.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fabb59c89dc54ff0b36097776a77e665",
       "kci_url": "http://www.kci.go.kr",
       "keywords_kr": [
@@ -5056,7 +5062,8 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "id": "fabb59c89dc54ff0b36097776a77e665"
+      "id": "fabb59c89dc54ff0b36097776a77e665",
+      "kci_id": "ART003335854"
     },
     {
       "article_id": "c2acccce2701b546c85d2949c297615a",
