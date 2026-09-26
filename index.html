@@ -1142,13 +1142,23 @@ function showToast(msg, duration=3500){
   const t=$("toast"); t.textContent=msg; t.classList.add("show");
   clearTimeout(showToast._t); showToast._t=setTimeout(()=>t.classList.remove("show"),duration);
 }
+// 한글(HWP)에서 복사된 사용자정의 문자 → 표준 괄호 (브라우저에서 □ 로 보이던 문제)
+const PUA_MAP={"\u{F0854}":"『","\u{F0855}":"』","\u{10BEB7}":"『","\u{10BEB8}":"』","\u{F0850}":"「","\u{F0851}":"」","\u{F0848}":"→"};
+function fixPUA(s){
+  if(!s||!/\p{Co}/u.test(s)) return s||"";
+  s=s.replace(/[\u{F0854}\u{F0855}\u{10BEB7}\u{10BEB8}\u{F0850}\u{F0851}\u{F0848}]/gu,c=>PUA_MAP[c]);
+  // 짝으로 쓰인 정체불명 문자(\uF000, \uF085 등)는 『 』 로, 나머지는 제거
+  let open=true;
+  s=s.replace(/[\uF000\uF085]/g,()=>{ const r=open?"『":"』"; open=!open; return r; });
+  return s.replace(/\p{Co}/gu,"");
+}
 function cleanAff(s){ s=String(s||"").replace(/\s+/g," ").trim().replace(/^[;,()\s]+|[;,()\s]+$/g,""); return s===";"?"":s; }
 
 // 논문 1건 → 검색 항목
 function toIndexItem(art, jname, category, country){
   const authors=(art.authors||[]).map(a=>({name:(a.name||"").trim(),affiliation:cleanAff(a.affiliation)})).filter(a=>a.name);
   const au=authors.map(a=>a.name).join(" ");
-  const title=art.title_kr||art.title_ja||"";
+  const title=fixPUA(art.title_kr||art.title_ja||"");
   const kwKr=art.keywords_kr||art.keywords_ja||[];
   const kwEn=art.keywords_en||[];
   const kwAi=art.ai_keywords||[];
@@ -1163,7 +1173,7 @@ function toIndexItem(art, jname, category, country){
     id:           art.article_id || art.id || ("R"+Math.random().toString(36).slice(2)),
     journal_name: jname, category, country,
     title_kr:     title,
-    title_ja:     art.title_ja||"",
+    title_ja:     fixPUA(art.title_ja||""),
     title_en:     art.title_en||"",
     author_names: au,
     authors,
@@ -1172,8 +1182,8 @@ function toIndexItem(art, jname, category, country){
     issue:        String(art.issue||""),
     start_page:   art.start_page||"",
     end_page:     art.end_page||"",
-    abstract_kr:  art.abstract_kr||art.abstract_ja||"",
-    abstract_en:  art.abstract_en||"",
+    abstract_kr:  fixPUA(art.abstract_kr||art.abstract_ja||""),
+    abstract_en:  fixPUA(art.abstract_en||""),
     keywords:     kws,
     keywords_kr:  kwKr, keywords_en: kwEn, ai_keywords: kwAi,
     riss_url:     art.riss_url||"",
@@ -1194,6 +1204,66 @@ function toIndexItem(art, jname, category, country){
   };
 }
 
+// ════════════════════════════════════════
+// 같은 논문 판정 — collector/match_util.py 와 같은 규칙
+// (RISS·KCI 에서 제목이 조금 다르게 적힌 같은 논문을 한 건으로 보여 줌)
+// ════════════════════════════════════════
+const M_REVIEW=["논평","토론","서평","비평","반론","답변","답론","comment","review","response","reply"];
+const M_PART=/(Ⅰ|Ⅱ|Ⅲ|Ⅳ|Ⅴ|Ⅵ|⑴|⑵|⑶|⑷|\(\s*(?:I{1,3}|IV|V|VI|\d{1,2}|上|中|下|상|중|하)\s*\)|\b(?:I{1,3}|IV|VI?)\s*$|[上中下]\s*$|\d+\s*$)/g;
+const M_SEP=new Set([..."-—―－–:：(（[「『<〈《~～·,/|"]);
+const isHg=c=>c>="\uac00"&&c<="\ud7a3";
+function mNt(t){
+  t=String(t||"").normalize("NFKC").toLowerCase().replace(/[^\p{L}\p{N}]+/gu,"");
+  const n=t.length; if(n>=8&&n%2===0&&t.slice(0,n/2)===t.slice(n/2)) t=t.slice(0,n/2);
+  return t;
+}
+function mParts(t){ const out=new Set(); String(t||"").normalize("NFKC").replace(M_PART,m=>{out.add(m.replace(/[\s()]/g,"").toLowerCase());return m;}); return [...out].sort().join("|"); }
+function mAfter(orig,n){
+  const t=String(orig||"").normalize("NFKC"); let cnt=0;
+  for(let i=0;i<t.length;i++){ if(cnt>=n) return t.slice(i).trimStart().charAt(0); if(/[\p{L}\p{N}]/u.test(t[i])) cnt++; }
+  return "";
+}
+function lev(a,b){ const m=a.length,n=b.length; let p=new Array(n+1),c=new Array(n+1); for(let j=0;j<=n;j++)p[j]=j;
+  for(let i=1;i<=m;i++){ c[0]=i; for(let j=1;j<=n;j++){ c[j]=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1)); } [p,c]=[c,p]; } return p[n]; }
+function sameTitle(t1,t2,a,b){
+  const p1=mParts(t1),p2=mParts(t2);
+  if(p1&&p2&&p1!==p2) return false;
+  if(!a||!b) return false;
+  if(a===b) return true;
+  const [sh,lg]=a.length<=b.length?[a,b]:[b,a];
+  if(sh.length>=8 && lg.startsWith(sh)){
+    const rest=lg.slice(sh.length);
+    if(M_REVIEW.some(w=>rest.includes(w))) return false;
+    if(p1!==p2) return false;
+    const nxt=mAfter(a.length>b.length?t1:t2, sh.length);
+    if(M_SEP.has(nxt)) return true;
+    const cjk=[...sh].filter(c=>!isHg(c)).length>=sh.length*.6;
+    return cjk && isHg(nxt);
+  }
+  if(sh.length>=8 && lg.includes(sh)) return false;
+  if(sh.length/lg.length<.85) return false;
+  if(a.slice(0,4)!==b.slice(0,4)||a.slice(-2)!==b.slice(-2)) return false;
+  if(M_REVIEW.some(w=>a.includes(w)!==b.includes(w))) return false;
+  const hg=x=>[...x].filter(isHg).join(""), dg=x=>(x.match(/\d+/g)||[]).join(",");
+  if(hg(a)!==hg(b)||dg(a)!==dg(b)) return false;
+  return 1-lev(a,b)/Math.max(a.length,b.length)>=.85;
+}
+function viNums(it){ const s=new Set(); [it.volume,it.issue].forEach(v=>(String(v||"").match(/\d+/g)||[]).forEach(x=>{ if(+x>0) s.add(+x); })); return s; }
+function sameArticle(x,y){
+  if(x.year&&y.year&&x.year!==y.year) return false;
+  const nx=viNums(x), ny=viNums(y);
+  if(nx.size&&ny.size&&![...nx].some(v=>ny.has(v))) return false;
+  return sameTitle(x.title_kr,y.title_kr,x._mt,y._mt);
+}
+// 두 레코드를 하나로: RISS 쪽 레코드를 기준으로 하고 빈 칸만 채움
+function absorb(keep,other){
+  ["riss_url","kci_url","jstage_url","doi","abstract_kr","abstract_en","title_en","start_page","end_page"].forEach(k=>{ if(!keep[k]&&other[k]) keep[k]=other[k]; });
+  if(!keep.authors.length && other.authors.length){ keep.authors=other.authors; keep.author_names=other.author_names; keep._a=other._a; keep._an=other._an; }
+  else keep.authors.forEach(a=>{ if(!a.affiliation){ const o=other.authors.find(b=>b.name===a.name); if(o&&o.affiliation) a.affiliation=o.affiliation; } });
+  if(!keep.keywords_kr.length && other.keywords_kr.length){ keep.keywords_kr=other.keywords_kr; keep.keywords=[...keep.keywords,...other.keywords_kr]; keep._k=nz(keep.keywords.join(" ")); keep._kn=keep.keywords.map(nz); }
+  if(other.source==="KCI"||other.kci_url) keep._kci=true;
+}
+
 function ingest(fname, data){
   const info=Array.isArray(data)?{}:(data.info||{});
   const arts=Array.isArray(data)?data:(data.articles||[]);
@@ -1203,19 +1273,19 @@ function ingest(fname, data){
   const country=info.country||jurl.country||"Korea";
   S.db.journals[jname]={info:{...info,name:jname,category,country}};
   S.jmeta[jname]={category,country,publisher:info.publisher||"",last_updated:info.last_updated||""};
-  // 중복 레코드 병합 (같은 학술지·제목·연도·권호)
-  const seen=new Map(), items=[];
-  for(const art of arts){
-    const it=toIndexItem(art,jname,category,country);
-    const key=nz(it.title_kr).slice(0,80)+"|"+it.year+"|"+it.volume+"|"+it.issue;
-    const prev=seen.get(key);
-    if(prev){
-      ["riss_url","kci_url","doi","abstract_kr","abstract_en","title_en","start_page","end_page"].forEach(k=>{ if(!prev[k]&&it[k]) prev[k]=it[k]; });
-      if(!prev.authors.length && it.authors.length){ prev.authors=it.authors; prev.author_names=it.author_names; prev._a=it._a; prev._an=it._an; }
-      continue;
-    }
-    seen.set(key,it); items.push(it);
+  // 중복 레코드 병합: 같은 연도끼리만 비교 (RISS 원본 레코드를 우선, KCI 는 링크·DOI 만 보탬)
+  const all=arts.map(art=>{ const it=toIndexItem(art,jname,category,country); it._mt=mNt(it.title_kr); return it; });
+  all.sort((x,y)=>(x.source==="KCI")-(y.source==="KCI"));
+  const byYear=new Map(), items=[];
+  for(const it of all){
+    // 같은 논문은 제목 첫 두 글자가 반드시 같으므로(규칙상) 연도+첫 두 글자로 묶어 비교량을 줄임
+    const key=(it.year||"?")+"|"+it._mt.slice(0,2);
+    const grp=byYear.get(key)||[]; byYear.set(key,grp);
+    const prev=grp.find(p=>sameArticle(p,it));
+    if(prev){ absorb(prev,it); continue; }
+    grp.push(it); items.push(it);
   }
+  items.forEach(it=>{ delete it._mt; });
   return {jname, items};
 }
 
