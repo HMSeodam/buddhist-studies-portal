@@ -100,6 +100,12 @@ jobs:
             echo "▶ 지난 실행에서 이월된 학술지:"; cat collector/state/riss_pending.json
           fi
 
+      # ── 출처별 원본 준비 (구조 개편 후 첫 실행 때만 기존 output 을 나눔) ──
+      - name: 출처별 원본 준비
+        run: |
+          cd collector
+          python -c "import build_output as b, pathlib; (not pathlib.Path('../data/riss').exists()) and b.migrate()"
+
       # ── KCI OAI-PMH (인증키 불필요) ──────────────────────────
       # 저장소 Settings → Secrets and variables → Actions → Variables 에
       # KCI_ENABLED = true 를 추가하면 매 실행 때 먼저 돈다. (수동 실행은 target=kci/all)
@@ -197,21 +203,29 @@ jobs:
         env:
           DISPLAY: ""
 
+      # ── 출력 빌드: RISS·KCI 원본을 대조해 앱이 읽는 output/ 을 새로 만듦 ──
+      # (중복 판정·권호 표기 통일·공지 기록을 모두 여기서 한 번에 — 수집 순서와 무관하게 같은 결과)
+      - name: 출력 빌드 (RISS·KCI 병합)
+        if: always()
+        timeout-minutes: 20
+        run: cd collector && python build_output.py
+
       # ── 변경 감지 & 커밋 (앞 단계가 실패·시간초과여도 반드시 실행) ──
       - name: 변경된 파일 확인
         id: changes
         if: always()
         run: |
           # 깨진 JSON 이 커밋되지 않도록 먼저 검사
-          for f in output/*.json; do
+          for f in output/*.json data/*/*.json; do
+            [ -f "$f" ] || continue
             python -c "import json,sys; json.load(open(sys.argv[1], encoding='utf-8'))" "$f" \
               || { echo "✗ JSON 손상: $f → 되돌림"; git checkout -- "$f" 2>/dev/null || rm -f "$f"; }
           done
           # 새 파일(updates.json, 이월 목록 등)도 잡히도록 status 사용
-          CHANGED=$(git status --porcelain -- output/ collector/state/ | wc -l)
+          CHANGED=$(git status --porcelain -- output/ data/ collector/state/ | wc -l)
           echo "changed=$CHANGED" >> $GITHUB_OUTPUT
           if [ "$CHANGED" -gt "0" ]; then
-            echo "변경된 파일:"; git status --porcelain -- output/ collector/state/
+            echo "변경된 파일:"; git status --porcelain -- output/ data/ collector/state/ | head -50
           else
             echo "변경 없음"
           fi
@@ -222,6 +236,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A output/
+          git add -A data/ 2>/dev/null || true
           # 이월 목록 폴더가 비어 있으면 add 가 실패하므로 오류는 무시
           git add -A collector/state/ 2>/dev/null || true
           DAY="${{ steps.day.outputs.day }}"
