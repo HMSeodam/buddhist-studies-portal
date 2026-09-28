@@ -26,7 +26,7 @@
 #
 # 참고: KCI 방화벽은 User-Agent 로 걸러낸다(curl 기본 UA 차단). requests + 브라우저형 UA 사용.
 
-import argparse, json, os, re, sys, time
+import argparse, json, os, re, sys, time, unicodedata
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -45,6 +45,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 THROTTLE   = 1.0           # 요청 간 간격(초) — 공공 API 에 대한 예의
 DEFAULT_LOOKBACK_DAYS = 21
 OVERLAP_DAYS = 3           # 지난 수확일과 겹치게 조금 앞에서 시작 (누락 방지)
+OVERLAP_PAGE_CAP = 20      # 이미 받은 날(겹침 구간)은 이 쪽수까지만 다시 봄 — 대량 갱신일에 매일 시간을 다 쓰지 않도록
 
 # 포털 학술지명 → KCI 에서 쓰일 수 있는 학술지명(별칭). 비교는 공백·기호 제거 후 '완전 일치'.
 # 첫 실행 뒤 --discover 결과를 보고 필요한 별칭을 추가하면 된다.
@@ -52,8 +53,8 @@ KCI_JOURNALS = {
     "불교미술사학":   ["불교미술사학"],
     "동악미술사학":   ["동악미술사학"],
     "강좌미술사":     ["강좌미술사", "강좌 미술사"],
-    "정토학연구":     ["정토학연구"],
-    "선문화연구":     ["선문화연구"],
+    "정토학연구":     ["정토학연구", "정토학연구(淨土學研究)", "淨土學研究"],
+    "선문화연구":     ["선문화연구", "禪文化研究"],
     "불교문예연구":   ["불교문예연구"],
     "불교학보":       ["불교학보"],
     "불교학연구":     ["불교학연구"],
@@ -74,11 +75,17 @@ KCI_JOURNALS = {
     "한마음연구":     ["한마음연구"],
     "IJBTC":          ["International Journal of Buddhist Thought & Culture",
                        "International Journal of Buddhist Thought and Culture", "IJBTC"],
-    "종학연구":       ["종학연구"],
+    "종학연구":       ["종학연구", "宗學研究"],
     "무형문화연구":   ["무형문화연구"],
     "세화불학":       ["세계불학", "세화불학"],
     "전자불전":       ["전자불전"],
     "원불교사상과 종교문화": ["원불교사상과 종교문화", "원불교사상과종교문화"],
+}
+# KCI 학술지 번호(sereId) — 2026-09 저자 확인. OAI 레코드에는 이 번호가 실리지 않아 대조에는 이름을 쓰고,
+# 이 표는 점검용(https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=<번호>)으로 남겨 둔다.
+KCI_SERE_IDS = {
+    "IJBTC": "002022", "대각사상": "002063", "불교철학": "SER000005133", "불교학밀교학연구": "SER000006189",
+    "선문화연구": "SER000001486", "전자불전": "SER000014016", "정토학연구": "SER000009872", "종학연구": "SER000005709",
 }
 # --discover 때 '혹시 우리 학술지인데 이름이 달라서 놓친 것'을 찾는 단서
 DISCOVER_HINTS = ["불교", "불학", "선학", "禪", "佛", "Buddh", "정토", "미술사", "원불교", "명상", "인도철학", "대각", "보조"]
@@ -86,8 +93,11 @@ DISCOVER_HINTS = ["불교", "불학", "선학", "禪", "佛", "Buddh", "정토",
 DISCOVER_EXCLUDE = ["건선", "조선학회", "방사선", "보조기", "의학", "간호", "치의", "약학", "공학", "건축학회"]
 
 
+_VARIANT = str.maketrans({"硏": "研", "學": "学", "佛": "仏", "禪": "禅", "敎": "教", "硏": "研"})
+
 def _norm(s: str) -> str:
-    return re.sub(r"[\s\-_:·ㆍ&,.()（）\[\]]", "", (s or "")).lower().replace("and", "")
+    s = unicodedata.normalize("NFKC", s or "").translate(_VARIANT)
+    return re.sub(r"[\s\-_:·ㆍ&,.()（）\[\]]", "", s).lower().replace("and", "")
 
 KCI_NAME_MAP = {_norm(alias): ours for ours, aliases in KCI_JOURNALS.items() for alias in aliases}
 
@@ -237,12 +247,27 @@ def http_get(session, url, params, tries=4, stats=None):
     return None
 
 
-def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, unmatched, discover, fmt_state):
-    """한 기간(보통 7일)을 끝까지 수확. 반환: (완료 여부, 사유)"""
+def _next_params(fmt, token, style):
+    if style == "kci":    # KCI 자체 링크 방식: 토큰 + metadataPrefix
+        return {"verb": "ListRecords", "metadataPrefix": fmt, "resumptionToken": token}
+    if style == "std":    # OAI-PMH 표준: 토큰만
+        return {"verb": "ListRecords", "resumptionToken": token}
+    return {"verb": "ListRecords", "metadataPrefix": fmt, "set": "ARTI", "resumptionToken": token}
+
+
+def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, unmatched, discover, fmt_state,
+                    start_token="", page_cap=0):
+    """한 기간(1일)을 끝까지 수확. 반환: (완료 여부, 사유)
+    stats["resume"] 에 '어디까지 받았는지(토큰)'를 계속 적어 두어, 시간이 다 돼 멈춰도 다음 실행이 그 지점부터 이어받는다."""
     fmt = fmt_state["fmt"]
     parser = parse_oai_kci if fmt == "oai_kci" else parse_oai_dc
     params = {"verb": "ListRecords", "set": "ARTI", "metadataPrefix": fmt, "from": date_from, "until": date_until}
-    page_in_win = 0
+    if start_token:
+        params = _next_params(fmt, start_token, fmt_state["page_style"])
+        # 첫 요청 전에 시간이 끝나도 위치를 잃지 않도록 미리 기록
+        stats["resume"] = {"window": date_from, "token": start_token, "fmt": fmt, "page_style": fmt_state["page_style"]}
+        print(f"  ↪ {date_from} 을 지난번 위치(토큰 {start_token})부터 이어받음")
+    page_in_win = 1 if start_token else 0
     while True:
         if time.time() > deadline:
             return False, "시간 예산 소진"
@@ -259,9 +284,17 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
         except ET.ParseError:
             return False, "XML 아님(차단 안내 페이지일 수 있음): " + re.sub(r"\s+", " ", text[:150])
         if err == "noRecordsMatch":
+            stats.pop("resume", None)
             return True, ""
         if err:
             # 토큰과 함께 보낸 추가 인자를 거부하면(badArgument) 표준 방식으로 전환
+            if err == "badResumptionToken" and start_token:
+                # 저장해 둔 위치가 만료됨 → 그 날을 처음부터
+                print("  ↪ 저장된 이어받기 위치가 만료되어 그 날을 처음부터 받습니다")
+                start_token = ""; page_in_win = 0
+                stats.pop("resume", None)
+                params = {"verb": "ListRecords", "set": "ARTI", "metadataPrefix": fmt, "from": date_from, "until": date_until}
+                continue
             if err == "badArgument" and "resumptionToken" in params and fmt_state["page_style"] == "kci":
                 fmt_state["page_style"] = "std"
                 params = {"verb": "ListRecords", "resumptionToken": params["resumptionToken"]}
@@ -269,6 +302,9 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
                 continue
             return False, f"OAI 오류 {err}"
         stats["pages"] += 1; page_in_win += 1
+        msz = re.search(r'completeListSize="(\d+)"', text)
+        if msz and page_in_win == 1:
+            print(f"  · {date_from}: 전체 {int(msz.group(1)):,}건")
         fresh = 0
         for r in recs:
             if r["kci_id"] in seen:
@@ -289,7 +325,16 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
         if stats["pages"] % 20 == 0:
             print(f"  … {stats['pages']}쪽 / {stats['total']:,}건 확인, 대상 학술지 {len(matched)}건")
         if not token:
+            stats.pop("resume", None)
             return True, ""
+        if page_cap and page_in_win >= page_cap:
+            stats.pop("resume", None)
+            stats["notes"].append(f"{date_from}: 이미 받은 날이라 {page_cap}쪽까지만 다시 확인")
+            return True, ""
+        # 이어받기 위치 기록 (다음 쪽을 요청하기 직전의 토큰)
+        stats["resume"] = {"window": date_from, "token": token, "fmt": fmt, "page_style": fmt_state["page_style"]}
+        if msz:
+            stats["resume"]["size"] = int(msz.group(1))
         if not fresh and page_in_win > 1:
             # 같은 목록이 되풀이됨 → 다른 방식으로 다음 쪽 요청 시도
             if fmt_state["page_style"] == "kci":
@@ -300,19 +345,15 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
                 stats["notes"].append("같은 쪽이 반복되어 다음 쪽 요청에 set 까지 포함")
             else:
                 return False, "다음 쪽으로 넘어가지 않음(같은 목록 반복)"
-        style = fmt_state["page_style"]
-        if style == "kci":    # KCI 자체 링크 방식: 토큰 + metadataPrefix
-            params = {"verb": "ListRecords", "metadataPrefix": fmt, "resumptionToken": token}
-        elif style == "std":  # OAI-PMH 표준: 토큰만
-            params = {"verb": "ListRecords", "resumptionToken": token}
-        else:
-            params = {"verb": "ListRecords", "metadataPrefix": fmt, "set": "ARTI", "resumptionToken": token}
+        params = _next_params(fmt, token, fmt_state["page_style"])
+        stats["resume"]["page_style"] = fmt_state["page_style"]
         time.sleep(THROTTLE)
 
 
-def harvest(date_from: str, date_until: str, deadline: float, discover: bool = True, on_window_done=None):
+def harvest(date_from: str, date_until: str, deadline: float, discover: bool = True, on_window_done=None,
+            resume: dict = None, seen_until: str = ""):
     """
-    기간을 7일 단위로 나눠 수확 (긴 기간도 중간까지 저장·이어받기 가능).
+    기간을 1일 단위로 나눠 수확. 하루치가 많아 도중에 멈추면 그 날의 토큰(쪽 위치)을 남겨 다음 실행이 이어받는다.
     반환: (대상 레코드, 이름이 안 맞은 불교 관련 학술지, 끝까지 받았는지, 통계, 완료된 마지막 날짜)
     """
     s = requests.Session()
@@ -322,6 +363,9 @@ def harvest(date_from: str, date_until: str, deadline: float, discover: bool = T
              "per_journal": {}, "notes": [], "windows": 0}
     matched, seen, unmatched = [], set(), {}
     fmt_state = {"fmt": "oai_kci", "page_style": "kci"}
+    if resume and resume.get("fmt"):
+        fmt_state.update(fmt=resume["fmt"], page_style=resume.get("page_style", "kci"))
+        stats["format"] = resume["fmt"]
     d0 = datetime.strptime(date_from, "%Y-%m-%d"); dend = datetime.strptime(date_until, "%Y-%m-%d")
     # 저장소가 알려 주는 가장 이른 날짜 이전 구간은 건너뜀 (빈 주를 하나하나 묻지 않게)
     try:
@@ -333,21 +377,35 @@ def harvest(date_from: str, date_until: str, deadline: float, discover: bool = T
     except Exception:
         pass
     done_until = ""
+    # 처음 보는 날을 먼저(날짜순), 이미 받은 겹침 날은 맨 뒤에 — 겹침 구간 때문에 진행이 막히지 않게
+    days = []
     while d0 <= dend:
-        d1 = min(d0 + timedelta(days=6), dend)
-        a, b = d0.strftime("%Y-%m-%d"), d1.strftime("%Y-%m-%d")
+        days.append(d0.strftime("%Y-%m-%d")); d0 += timedelta(days=1)
+    new_days = [d for d in days if not seen_until or d > seen_until]
+    old_days = [d for d in days if seen_until and d <= seen_until]
+    for a in new_days + old_days:
+        b = a            # 하루 단위 (진행 기록을 촘촘히)
+        overlap = a in old_days
         before = stats["total"]
-        ok, why = _harvest_window(s, a, b, deadline, stats, matched, seen, unmatched, discover, fmt_state)
+        tok = resume.get("token", "") if resume and resume.get("window") == a else ""
+        cap = OVERLAP_PAGE_CAP if overlap else 0
+        ok, why = _harvest_window(s, a, b, deadline, stats, matched, seen, unmatched, discover, fmt_state, tok, cap)
         if not ok:
+            if overlap:      # 새 날짜는 다 받았고 겹침 재확인만 못 끝냄 → 진행에는 지장 없음
+                stats.pop("resume", None)
+                stats["notes"].append(f"겹침 구간 재확인 {a} 에서 멈춤({why}) — 새 날짜는 모두 받음")
+                print(f"  · 겹침 재확인 {a} 중단: {why}")
+                break
             stats["error"] = f"{a}~{b}: {why}"
             print(f"  ✗ {stats['error']}")
             return matched, unmatched, False, stats, done_until
         stats["windows"] += 1
-        done_until = b
-        print(f"  ✓ {a}~{b}: KCI 레코드 {stats['total']-before:,}건 (누적 {stats['total']:,}건, 대상 {len(matched)}건)")
-        if on_window_done:
+        if not overlap:
+            done_until = b
+        print(f"  ✓ {a}{' (겹침 재확인)' if overlap else ''}: KCI 레코드 {stats['total']-before:,}건 "
+              f"(누적 {stats['total']:,}건, 대상 {len(matched)}건)")
+        if on_window_done and not overlap:
             on_window_done(b)
-        d0 = d1 + timedelta(days=1)
     print(f"  수확 완료({stats['format']}): {stats['pages']}쪽 · KCI 레코드 {stats['total']:,}건 중 대상 학술지 {len(matched)}건")
     return matched, unmatched, True, stats, done_until
 
@@ -488,15 +546,35 @@ def main():
 
     if dfrom > duntil:
         print("  이미 끝까지 받았습니다."); dfrom = duntil
-    matched, unmatched, complete, stats, done_until = harvest(dfrom, duntil, deadline, True)
+    # 하루치가 너무 많아 한 번에 못 끝낸 날은 저장해 둔 토큰(쪽 위치)부터 이어받음
+    if args.date_from:
+        resume = bf.get("resume") if bf.get("from") == args.date_from else None
+    else:
+        resume = state.get("resume_daily")
+    if resume and resume.get("window"):
+        print(f"  (지난 실행이 {resume['window']} 의 중간에서 멈춤 → 그 위치부터 이어받습니다)")
+        if resume["window"] > dfrom:
+            dfrom = resume["window"]      # 앞의 겹침 구간은 이미 받았으므로 건너뜀 (시간을 이어받기에 씀)
+    matched, unmatched, complete, stats, done_until = harvest(dfrom, duntil, deadline, True, resume=resume,
+                                                              seen_until="" if args.date_from else state.get("last_until", ""))
     summary = store_raw(matched, stats.get("cands", {}), args.dry_run, os.environ.get("KCI_API_KEY", ""))
-    # 진행 상황 저장 (병합이 끝난 뒤에만 — 받은 논문이 저장되기 전에 날짜만 앞서가지 않도록)
-    if not args.dry_run and done_until:
+    # 진행 상황 저장 (병합이 끝난 뒤에만 — 받은 논문이 저장되기 전에 날짜·위치만 앞서가지 않도록)
+    new_resume = None if complete else stats.get("resume")
+    if not args.dry_run and (done_until or new_resume or resume):
         Path(STATE_FILE).parent.mkdir(parents=True, exist_ok=True)
         if args.date_from:
-            state["backfill"] = {"from": args.date_from, "done_until": done_until, "updated": today_kst()}
+            prev_done = bf.get("done_until", "") if bf.get("from") == args.date_from else ""
+            nb = {"from": args.date_from, "done_until": max(done_until, prev_done), "updated": today_kst()}
+            if new_resume:
+                nb["resume"] = new_resume
+            state["backfill"] = nb
         else:
-            state["last_until"] = done_until
+            if done_until > state.get("last_until", ""):      # 뒤로 물러나지 않게
+                state["last_until"] = done_until
+            if new_resume and new_resume.get("window", "") > state.get("last_until", ""):
+                state["resume_daily"] = new_resume
+            else:
+                state.pop("resume_daily", None)
         state["updated"] = today_kst()
         atomic_write_json(Path(STATE_FILE), state)
     if unmatched:
@@ -512,7 +590,7 @@ def main():
         L = [f"### KCI OAI {dfrom}~{duntil}: KCI 원본 새로 저장 {total_new}건 · 갱신 {filled}건",
              "- (RISS 와 겹치는지는 아래 '출력 빌드'에서 판정합니다)",
              f"- 확인한 KCI 레코드: **{stats['total']:,}건** ({stats['pages']}쪽, 형식 {stats['format']}, "
-             f"완료 구간 {stats['windows']}주{', ~'+done_until+' 까지' if done_until else ''})",
+             f"끝까지 받은 날 {stats['windows']}일{', ~'+done_until+' 까지' if done_until else ''})",
              f"- 우리 학술지로 연결된 레코드: **{len(matched)}건**"]
         if stats["per_journal"]:
             L.append("- 학술지별: " + ", ".join(f"{k} {v}건(새 {summary.get(k,(0,0))[0]}·갱신 {summary.get(k,(0,0))[1]})"
@@ -525,9 +603,17 @@ def main():
         for n in stats["notes"]:
             L.append(f"- 참고: {n}")
         if stats["error"] or not complete:
+            where = ""
+            if new_resume:
+                cur = re.findall(r"\d+", new_resume.get("token", ""))
+                size = f"(그 날 전체 {new_resume['size']:,}건)" if new_resume.get("size") else ""
+                where = (f"{new_resume['window']} 의 앞 {int(cur[-1]):,}건{size} 다음" if cur else new_resume["window"]) + "부터"
+            else:
+                nxt = done_until or (bf.get("done_until", "") if args.date_from else "")
+                where = (f"{nxt} 다음 날부터" if nxt else f"{dfrom} 부터")
             L.append(f"- ⚠ 미완료: {stats['error'] or '중단'} → "
-                     + (f"같은 시작일({args.date_from})로 다시 실행하면 {done_until or dfrom} 이후부터 이어받습니다" if args.date_from
-                        else "다음 실행에서 이어받습니다"))
+                     + (f"같은 시작일({args.date_from})로 다시 실행하면 {where} 이어받습니다" if args.date_from
+                        else f"다음 실행에서 {where} 이어받습니다"))
         with open(summ, "a", encoding="utf-8") as f:
             f.write("\n".join(L) + "\n")
 
