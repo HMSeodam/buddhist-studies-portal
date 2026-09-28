@@ -1823,8 +1823,10 @@ function openMod(id, noURL){
     lks+=L("https://www.inbuds.net/kor/","home",icoHome+" INBUDS 검색");
   } else {
     if(a.riss_url) lks+=L(a.riss_url,"pri",icoDoc+" RISS 원문");
-    // KCI 논문번호가 있을 때만 해당 논문 페이지로 (KCI 첫 화면으로 보내지 않음)
-    if(a.kci_id)   lks+=L(kciArticleUrl(a.kci_id),a.riss_url?"sec":"pri",icoLink+" KCI 논문 보기");
+    // KCI 논문번호가 있으면 그 논문의 KCI 상세 페이지로 바로
+    if(a.kci_id)   lks+=L(kciArticleUrl(a.kci_id),"pri",icoDoc+" KCI 원문");
+    // KCI 번호가 없는 논문(KCI 미수록 또는 아직 연결 전)은 KCI 첫 화면으로
+    else lks+=L("https://www.kci.go.kr/","home",icoHome+" KCI 홈페이지");
     if(a.doi)      lks+=L("https://doi.org/"+a.doi,"sec","DOI");
     if(jinfo?.url) lks+=L(jinfo.url,"home",icoHome+" 학술지 홈페이지");
     lks+=L("https://scholar.google.com/scholar?q="+encodeURIComponent('"'+a.title_kr+'"'),"home","Google Scholar");

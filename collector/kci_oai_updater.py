@@ -351,7 +351,7 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
 
 
 def harvest(date_from: str, date_until: str, deadline: float, discover: bool = True, on_window_done=None,
-            resume: dict = None, seen_until: str = ""):
+            resume: dict = None, seen_until: str = "", window_days: int = 1):
     """
     기간을 1일 단위로 나눠 수확. 하루치가 많아 도중에 멈추면 그 날의 토큰(쪽 위치)을 남겨 다음 실행이 이어받는다.
     반환: (대상 레코드, 이름이 안 맞은 불교 관련 학술지, 끝까지 받았는지, 통계, 완료된 마지막 날짜)
@@ -383,8 +383,12 @@ def harvest(date_from: str, date_until: str, deadline: float, discover: bool = T
         days.append(d0.strftime("%Y-%m-%d")); d0 += timedelta(days=1)
     new_days = [d for d in days if not seen_until or d > seen_until]
     old_days = [d for d in days if seen_until and d <= seen_until]
-    for a in new_days + old_days:
-        b = a            # 하루 단위 (진행 기록을 촘촘히)
+    # 긴 기간(초기 적재)은 여러 날을 한 구간으로 묶어 빈 날마다 묻지 않게 한다.
+    # 구간 도중에 멈춰도 토큰으로 이어받으므로 구간이 길어도 진행을 잃지 않는다.
+    wins = [(new_days[i], new_days[min(i + window_days, len(new_days)) - 1])
+            for i in range(0, len(new_days), max(1, window_days))]
+    wins += [(d, d) for d in old_days]
+    for a, b in wins:
         overlap = a in old_days
         before = stats["total"]
         tok = resume.get("token", "") if resume and resume.get("window") == a else ""
@@ -402,7 +406,7 @@ def harvest(date_from: str, date_until: str, deadline: float, discover: bool = T
         stats["windows"] += 1
         if not overlap:
             done_until = b
-        print(f"  ✓ {a}{' (겹침 재확인)' if overlap else ''}: KCI 레코드 {stats['total']-before:,}건 "
+        print(f"  ✓ {a}{'~'+b if b != a else ''}{' (겹침 재확인)' if overlap else ''}: KCI 레코드 {stats['total']-before:,}건 "
               f"(누적 {stats['total']:,}건, 대상 {len(matched)}건)")
         if on_window_done and not overlap:
             on_window_done(b)
@@ -556,6 +560,7 @@ def main():
         if resume["window"] > dfrom:
             dfrom = resume["window"]      # 앞의 겹침 구간은 이미 받았으므로 건너뜀 (시간을 이어받기에 씀)
     matched, unmatched, complete, stats, done_until = harvest(dfrom, duntil, deadline, True, resume=resume,
+                                                              window_days=30 if args.date_from else 1,
                                                               seen_until="" if args.date_from else state.get("last_until", ""))
     summary = store_raw(matched, stats.get("cands", {}), args.dry_run, os.environ.get("KCI_API_KEY", ""))
     # 진행 상황 저장 (병합이 끝난 뒤에만 — 받은 논문이 저장되기 전에 날짜·위치만 앞서가지 않도록)
