@@ -34,10 +34,9 @@ from pathlib import Path
 import requests
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from update_log import record_update, retract_update, atomic_write_json, today_kst   # noqa: E402
-from match_util import find_same, clean_title   # noqa: E402
+from update_log import atomic_write_json, today_kst   # noqa: E402
+from match_util import clean_title   # noqa: E402
 
-OUTPUT_DIR = "../output"
 STATE_FILE = "state/kci_state.json"
 OAI_URL    = "https://open.kci.go.kr/oai/request"
 REST_URL   = "https://open.kci.go.kr/po/openapi/openApiSearch.kci"
@@ -83,6 +82,8 @@ KCI_JOURNALS = {
 }
 # --discover 때 '혹시 우리 학술지인데 이름이 달라서 놓친 것'을 찾는 단서
 DISCOVER_HINTS = ["불교", "불학", "선학", "禪", "佛", "Buddh", "정토", "미술사", "원불교", "명상", "인도철학", "대각", "보조"]
+# 이름에 힌트 글자가 우연히 들어간 무관한 학술지 (예: 대한건'선학'회지, 대한조'선학'회)
+DISCOVER_EXCLUDE = ["건선", "조선학회", "방사선", "보조기", "의학", "간호", "치의", "약학", "공학", "건축학회"]
 
 
 def _norm(s: str) -> str:
@@ -279,8 +280,10 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
                 r["journal_ours"] = ours
                 matched.append(r)
                 stats["per_journal"][ours] = stats["per_journal"].get(ours, 0) + 1
-            elif discover and any(h.lower() in r["journal"].lower() for h in DISCOVER_HINTS):
+            elif discover and any(h.lower() in r["journal"].lower() for h in DISCOVER_HINTS) \
+                    and not any(x in r["journal"] for x in DISCOVER_EXCLUDE):
                 unmatched[r["journal"]] = unmatched.get(r["journal"], 0) + 1
+                stats.setdefault("cands", {}).setdefault(r["journal"], []).append(r)   # 제목 대조 검증용 후보
         if stats["pages"] <= 3:
             print(f"    쪽{stats['pages']}: 레코드 {len(recs)}건(새 {fresh}) · 다음 토큰 {token!r}")
         if stats["pages"] % 20 == 0:
@@ -320,6 +323,15 @@ def harvest(date_from: str, date_until: str, deadline: float, discover: bool = T
     matched, seen, unmatched = [], set(), {}
     fmt_state = {"fmt": "oai_kci", "page_style": "kci"}
     d0 = datetime.strptime(date_from, "%Y-%m-%d"); dend = datetime.strptime(date_until, "%Y-%m-%d")
+    # 저장소가 알려 주는 가장 이른 날짜 이전 구간은 건너뜀 (빈 주를 하나하나 묻지 않게)
+    try:
+        t = http_get(s, OAI_URL, {"verb": "Identify"}, tries=2, stats=stats)
+        m = re.search(r"<earliestDatestamp>(\d{4}-\d{2}-\d{2})", t or "")
+        if m and datetime.strptime(m.group(1), "%Y-%m-%d") > d0:
+            print(f"  (KCI 가장 이른 기록일 {m.group(1)} — 그 이전 구간은 건너뜀)")
+            d0 = datetime.strptime(m.group(1), "%Y-%m-%d")
+    except Exception:
+        pass
     done_until = ""
     while d0 <= dend:
         d1 = min(d0 + timedelta(days=6), dend)
@@ -381,107 +393,64 @@ def to_article(r: dict) -> dict:
 
 FILL_FIELDS = ["title_en", "abstract_kr", "abstract_en", "doi", "start_page", "end_page", "kci_url", "kci_id", "year"]
 
-def _absorb(ex: dict, new: dict) -> bool:
-    """기존 레코드(ex)의 빈 칸만 새 정보로 채움. 바뀌면 True."""
-    changed = False
-    for k in FILL_FIELDS:
-        if new.get(k) and not ex.get(k):
-            ex[k] = new[k]; changed = True
-    kmap = {x.get("name"): x.get("affiliation", "") for x in (new.get("authors") or [])}
-    for au in ex.get("authors", []) or []:
-        if not au.get("affiliation") and kmap.get(au.get("name")):
-            au["affiliation"] = kmap[au["name"]]; changed = True
-    if not ex.get("authors") and new.get("authors"):
-        ex["authors"] = new["authors"]; changed = True
-    for k in ("keywords_kr", "keywords_en"):
-        if new.get(k) and not ex.get(k):
-            ex[k] = new[k]; changed = True
-    return changed
+KCI_DIR = Path("../data/kci")
+CAND_FILE = KCI_DIR / "_candidates.json"
+CAND_MAX = 600
 
 
-def dedupe_kci_added(jname: str, arts: list, dry: bool) -> int:
+def store_raw(records: list, cands: dict, dry: bool, api_key: str) -> dict:
     """
-    예전 실행에서 KCI 로 '새 논문'으로 들어갔지만 실은 RISS 에 이미 있던 레코드를 찾아
-    RISS 레코드에 정보를 합치고 지운다. 잘못 올라간 공지 편수도 함께 되돌린다.
+    (2026-09 구조 개편) KCI 수집분은 KCI 원본(data/kci/kci_<학술지>.json)에만 저장한다.
+    같은 KCI 논문번호는 덮어써서 갱신, RISS 와의 합치기는 build_output.py 가 한다.
+    반환: {학술지: (새로 저장, 갱신)}
     """
-    others = [a for a in arts if a.get("source") != "KCI"]
-    removed = []
-    for a in [x for x in arts if x.get("source") == "KCI"]:
-        ex = find_same(a, others)
-        if ex is None:
-            continue
-        _absorb(ex, a)
-        if a.get("kci_url") and not ex.get("kci_url"): ex["kci_url"] = a["kci_url"]
-        if a.get("kci_id"): ex["kci_id"] = a["kci_id"]
-        removed.append(a)
-    if removed:
-        ids = {id(a) for a in removed}
-        arts[:] = [a for a in arts if id(a) not in ids]
-        print(f"  [{jname}] 이전 실행의 KCI 중복 {len(removed)}건 정리 (RISS 레코드에 합침)")
-        if not dry:
-            for a in removed:
-                retract_update(OUTPUT_DIR, jname, 1, volume=a.get("volume", ""), issue=a.get("issue", ""), source="KCI")
-    return len(removed)
-
-
-def merge(records: list, dry: bool, api_key: str) -> dict:
+    KCI_DIR.mkdir(parents=True, exist_ok=True)
     by_journal = {}
     for r in records:
         by_journal.setdefault(r["journal_ours"], []).append(r)
-    # 새로 받은 게 없어도, 이전 실행의 중복은 정리
-    for p in Path(OUTPUT_DIR).glob("riss_*.json"):
-        jn = p.stem[5:]
-        if jn not in by_journal:
-            by_journal[jn] = []
     summary = {}
     for jname, recs in by_journal.items():
-        path = Path(OUTPUT_DIR) / f"riss_{jname}.json"
-        if not recs and not path.exists():
-            continue
-        data = json.load(open(path, encoding="utf-8")) if path.exists() else {"info": {"name": jname}, "articles": []}
-        if isinstance(data, list):
-            data = {"info": {"name": jname}, "articles": data}
-        arts = data["articles"]
-        cleaned = dedupe_kci_added(jname, arts, dry)
-        idx_id, idx_doi = {}, {}
-        for a in arts:
-            if a.get("kci_id"): idx_id[a["kci_id"]] = a
-            m = re.search(r"ART\d+", a.get("kci_url", "") or "")
-            if m: idx_id.setdefault(m.group(), a)
-            if a.get("doi"): idx_doi[a["doi"].lower()] = a
-        added, filled = [], 0
+        path = KCI_DIR / f"kci_{jname}.json"
+        data = json.load(open(path, encoding="utf-8")) if path.exists() else {"articles": []}
+        arts = data.get("articles", [])
+        idx = {a.get("kci_id"): a for a in arts if a.get("kci_id")}
+        new_n = upd_n = 0
         for r in recs:
-            new = to_article(r)
-            ex = (idx_id.get(r["kci_id"]) or (idx_doi.get(r["doi"].lower()) if r["doi"] else None)
-                  or find_same(new, arts))
-            if ex is not None:
-                ch = _absorb(ex, new)
-                if not ex.get("kci_id"): ex["kci_id"] = r["kci_id"]; ch = True
-                filled += ch
-                idx_id[r["kci_id"]] = ex
+            art = to_article(r)
+            art["publisher"] = r.get("publisher", "")
+            art["kci_year"], art["kci_volume"], art["kci_issue"] = r["year"], r["volume"], r["issue"]
+            old = idx.get(art["kci_id"])
+            if old is not None:
+                keep = {k: old[k] for k in ("riss_hint",) if old.get(k)}
+                for k in ("keywords_kr", "keywords_en"):
+                    if old.get(k) and not art.get(k):
+                        keep[k] = old[k]
+                old.clear(); old.update(art); old.update(keep)
+                upd_n += 1
                 continue
             if api_key:
                 kws = fetch_keywords(r["kci_id"], api_key)
-                ko = [k for k in kws if not re.match(r"^[\x00-\x7F]+$", k)]
-                en = [k for k in kws if re.match(r"^[\x00-\x7F]+$", k)]
-                new["keywords_kr"], new["keywords_en"] = ko, en
+                art["keywords_kr"] = [k for k in kws if not re.match(r"^[\x00-\x7F]+$", k)]
+                art["keywords_en"] = [k for k in kws if re.match(r"^[\x00-\x7F]+$", k)]
                 time.sleep(THROTTLE)
-            arts.append(new); added.append(new)
-            idx_id[r["kci_id"]] = new
-        if recs or cleaned:
-            summary[jname] = (len(added), filled)
-            print(f"  [{jname}] 새 논문 {len(added)}편 · 기존 레코드 보완 {filled}건")
-        if dry or (not added and not filled and not cleaned):
-            continue
-        if added or filled:
-            data.setdefault("info", {"name": jname})["last_updated"] = today_kst()
-        atomic_write_json(path, data)
-        groups = {}
-        for a in added:
-            k = (a["year"], a["volume"], a["issue"])
-            groups[k] = groups.get(k, 0) + 1
-        for (y, v, i), n in groups.items():
-            record_update(OUTPUT_DIR, jname, n, volume=v, issue=i, year=y, source="KCI")
+            arts.append(art); idx[art["kci_id"]] = art
+            new_n += 1
+        summary[jname] = (new_n, upd_n)
+        print(f"  [{jname}] KCI 원본: 새 {new_n}건 · 갱신 {upd_n}건")
+        if not dry:
+            atomic_write_json(path, {"articles": arts})
+    # 이름이 다른 불교 관련 학술지 후보 — build_output.py 가 우리 학술지와 제목을 대조해 검증
+    if cands and not dry:
+        store = json.load(open(CAND_FILE, encoding="utf-8")) if CAND_FILE.exists() else {}
+        for name, recs in cands.items():
+            lst = store.setdefault(name, [])
+            have = {a.get("kci_id") for a in lst}
+            for r in recs:
+                r = dict(r, journal_ours=name)
+                a = to_article(r); a["publisher"] = r.get("publisher", "")
+                if a["kci_id"] not in have and len(lst) < CAND_MAX:
+                    lst.append(a); have.add(a["kci_id"])
+        atomic_write_json(CAND_FILE, store)
     return summary
 
 
@@ -495,6 +464,9 @@ def main():
     args = ap.parse_args()
 
     deadline = time.time() + args.deadline_min * 60
+    if not Path("../data/riss").exists():
+        import build_output          # 구조 개편 후 첫 실행: 기존 output 을 출처별 원본으로 나눠 둠
+        build_output.migrate()
     state = {}
     if Path(STATE_FILE).exists():
         try: state = json.load(open(STATE_FILE, encoding="utf-8"))
@@ -517,7 +489,7 @@ def main():
     if dfrom > duntil:
         print("  이미 끝까지 받았습니다."); dfrom = duntil
     matched, unmatched, complete, stats, done_until = harvest(dfrom, duntil, deadline, True)
-    summary = merge(matched, args.dry_run, os.environ.get("KCI_API_KEY", ""))
+    summary = store_raw(matched, stats.get("cands", {}), args.dry_run, os.environ.get("KCI_API_KEY", ""))
     # 진행 상황 저장 (병합이 끝난 뒤에만 — 받은 논문이 저장되기 전에 날짜만 앞서가지 않도록)
     if not args.dry_run and done_until:
         Path(STATE_FILE).parent.mkdir(parents=True, exist_ok=True)
@@ -532,20 +504,21 @@ def main():
         for n, c in sorted(unmatched.items(), key=lambda x: -x[1])[:40]:
             print(f"     {c:4}건  {n}")
     total_new = sum(v[0] for v in summary.values())
-    print(f"\n✅ KCI 완료: 새 논문 {total_new}편 · 보완 {sum(v[1] for v in summary.values())}건"
+    print(f"\n✅ KCI 완료: 원본에 새로 저장 {total_new}건 · 갱신 {sum(v[1] for v in summary.values())}건 (실제 새 논문 수는 출력 빌드 단계에서)"
           + ("" if complete else " (일부만 처리 — 다음 실행에서 같은 기간 재시도)"))
     summ = os.environ.get("GITHUB_STEP_SUMMARY")
     if summ:
         filled = sum(v[1] for v in summary.values())
-        L = [f"### KCI OAI {dfrom}~{duntil}: 새 논문 {total_new}편 · 기존 보완 {filled}건",
+        L = [f"### KCI OAI {dfrom}~{duntil}: KCI 원본 새로 저장 {total_new}건 · 갱신 {filled}건",
+             "- (RISS 와 겹치는지는 아래 '출력 빌드'에서 판정합니다)",
              f"- 확인한 KCI 레코드: **{stats['total']:,}건** ({stats['pages']}쪽, 형식 {stats['format']}, "
              f"완료 구간 {stats['windows']}주{', ~'+done_until+' 까지' if done_until else ''})",
              f"- 우리 학술지로 연결된 레코드: **{len(matched)}건**"]
         if stats["per_journal"]:
-            L.append("- 학술지별: " + ", ".join(f"{k} {v}건(새 {summary.get(k,(0,0))[0]}·보완 {summary.get(k,(0,0))[1]})"
+            L.append("- 학술지별: " + ", ".join(f"{k} {v}건(새 {summary.get(k,(0,0))[0]}·갱신 {summary.get(k,(0,0))[1]})"
                                               for k, v in sorted(stats["per_journal"].items(), key=lambda x: -x[1])))
         if unmatched:
-            L.append("- 이름이 안 맞아 건너뛴 불교 관련 학술지: " + ", ".join(f"{n}({c})" for n, c in
+            L.append("- 이름이 안 맞은 불교 관련 학술지(후보로 보관 → 출력 빌드에서 제목 대조): " + ", ".join(f"{n}({c})" for n, c in
                      sorted(unmatched.items(), key=lambda x: -x[1])[:15]))
         if stats["http_errors"]:
             L.append(f"- HTTP 오류: {stats['http_errors'][:10]}")

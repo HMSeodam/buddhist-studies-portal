@@ -1188,6 +1188,8 @@ function toIndexItem(art, jname, category, country){
     keywords_kr:  kwKr, keywords_en: kwEn, ai_keywords: kwAi,
     riss_url:     art.riss_url||"",
     kci_url:      art.kci_url||"",
+    kci_id:       art.kci_id||(((art.kci_url||"").match(/ART\d{6,}/)||[])[0])||"",
+    riss_id:      art.riss_id||"",
     jstage_url:   art.jstage_url||"",
     ndl_url:      art.ndl_url||"",
     doi:          art.doi||"",
@@ -1776,8 +1778,14 @@ function bldKw(a){
 // 상세 보기 모달
 // ════════════════════════════════════════
 let CUR=null;
+// KCI 개별 논문 페이지 (기기에 맞춰 모바일/PC 주소)
+function kciArticleUrl(kid){
+  const mobile=window.matchMedia("(max-width: 768px)").matches||/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
+  return `https://www.kci.go.kr/kciportal/${mobile?"mobile/":""}ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=${encodeURIComponent(kid)}`;
+}
 function openMod(id, noURL){
-  const a=S.idx.find(x=>x.id===id); if(!a) return;
+  // 예전에 공유된 링크가 RISS·KCI 어느 번호여도 찾아 줌
+  const a=S.idx.find(x=>x.id===id)||S.idx.find(x=>x.kci_id===id||x.riss_id===id); if(!a) return;
   CUR=a;
   const isIBK=(a.journal_name==="印度學佛教學研究");
   const rx=S.fuzzy?null:S.hlRx;
@@ -1815,7 +1823,8 @@ function openMod(id, noURL){
     lks+=L("https://www.inbuds.net/kor/","home",icoHome+" INBUDS 검색");
   } else {
     if(a.riss_url) lks+=L(a.riss_url,"pri",icoDoc+" RISS 원문");
-    if(a.kci_url)  lks+=L(a.kci_url,a.riss_url?"sec":"pri",icoLink+" KCI 보기");
+    // KCI 논문번호가 있을 때만 해당 논문 페이지로 (KCI 첫 화면으로 보내지 않음)
+    if(a.kci_id)   lks+=L(kciArticleUrl(a.kci_id),a.riss_url?"sec":"pri",icoLink+" KCI 논문 보기");
     if(a.doi)      lks+=L("https://doi.org/"+a.doi,"sec","DOI");
     if(jinfo?.url) lks+=L(jinfo.url,"home",icoHome+" 학술지 홈페이지");
     lks+=L("https://scholar.google.com/scholar?q="+encodeURIComponent('"'+a.title_kr+'"'),"home","Google Scholar");

@@ -44,10 +44,13 @@ from pathlib import Path
 from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from update_log import record_update, retract_update, atomic_write_json, today_kst   # noqa: E402
-from match_util import find_same   # noqa: E402
+from update_log import atomic_write_json, today_kst   # noqa: E402
+from paper_match import find_in_issue                  # noqa: E402
 
-OUTPUT_DIR = "../output"
+# 2026-09 구조 개편: RISS 수집기는 자기 원본(data/riss)에만 쓴다.
+# 앱이 읽는 output/ 은 build_output.py 가 RISS·KCI 원본을 합쳐 매번 새로 만든다.
+RAW_DIR    = "../data/riss"
+KCI_DIR    = "../data/kci"
 STATE_FILE = "state/riss_pending.json"     # collector/state/ — 이월 목록 (워크플로가 함께 커밋)
 RISS_BASE  = "https://www.riss.kr"
 
@@ -492,7 +495,7 @@ class RissSession:
 # ════════════════════════════════════════
 
 def journal_path(name: str) -> Path:
-    return Path(OUTPUT_DIR) / f"riss_{name}.json"
+    return Path(RAW_DIR) / f"riss_{name}.json"
 
 def load_journal(name: str) -> dict:
     path = journal_path(name)
@@ -513,7 +516,7 @@ def save_journal(name: str, data: dict):
 
 def load_all_existing_ids() -> set:
     ids = set()
-    for path in Path(OUTPUT_DIR).glob("riss_*.json"):
+    for path in Path(RAW_DIR).glob("riss_*.json"):
         try:
             with open(path, encoding="utf-8") as f:
                 data = json.load(f)
@@ -674,10 +677,10 @@ def _issue_page_ok(soup) -> bool:
 
 
 def get_articles_by_issue(sess: RissSession, issue: dict, control_no: str,
-                          journal_name: str, existing_ids: set, title_index: dict):
+                          journal_name: str, existing_ids: set, kci_pool: list):
     """
     반환: (새 논문 목록, 제목으로 기존 레코드에 RISS 링크만 붙인 건수, 목록이 비어 의심스러운지)
-    title_index: {정규화 제목: 기존 레코드} — KCI 등 다른 경로로 이미 들어온 논문은
+    kci_pool: 같은 학술지의 KCI 원본 — 같은 호의 같은 논문이 이미 있으면 상세 페이지를 열지 않고
                  상세 페이지를 다시 열지 않고 RISS 링크만 붙인다 (RISS 요청 수 절감).
     """
     base_url = (f"{RISS_BASE}/search/detail/DetailView.do"
@@ -706,19 +709,11 @@ def get_articles_by_issue(sess: RissSession, issue: dict, control_no: str,
         if not title or len(title) < 2:
             continue
         full_url = RISS_BASE + href if href.startswith("/") else href
-        # 같은 제목의 기존 레코드(KCI 수집분 등)가 있으면 링크만 연결
-        ex = title_index.get(norm_title(title))
-        if ex is None or ex.get("riss_url"):
-            # 제목 표기가 조금 다른 KCI 수집분(번역 제목 병기·각주 표시 등)도 같은 논문으로 인식
-            pool = [a for a in title_index.values() if not a.get("riss_url")]
-            ex = find_same({"title_kr": title, "year": issue.get("year", ""),
-                            "volume": issue.get("volume", ""), "issue": issue.get("issue", "")}, pool)
-        if ex is not None and not ex.get("riss_url"):
-            ex["riss_url"] = full_url
-            ex["riss_id"] = art_id
-            existing_ids.add(art_id)
+        # KCI 가 이미 같은 호의 같은 논문을 받아 두었으면 상세 페이지를 열지 않는다
+        # (RISS 요청 수 절감 · 차단 위험 감소). 합치기는 build_output.py 가 한다.
+        kmatch = find_in_issue(title, issue, kci_pool) if kci_pool else None
+        if kmatch is not None:
             linked += 1
-            continue
         new_arts.append({
             "article_id":  art_id,
             "title_kr":    title,
@@ -739,6 +734,7 @@ def get_articles_by_issue(sess: RissSession, issue: dict, control_no: str,
             "keywords_en": [],
             "ai_keywords": [],
             "source":      "RISS",
+            **({"detail": "kci", "kci_hint": kmatch.get("kci_id", "")} if kmatch is not None else {}),
         })
     return new_arts, linked, False
 
@@ -935,7 +931,7 @@ def log_added(name: str, added: list):
         k = (a.get("year", ""), a.get("volume", ""), a.get("issue", ""))
         groups[k] = groups.get(k, 0) + 1
     for (y, v, i), n in groups.items():
-        record_update(OUTPUT_DIR, name, n, volume=v, issue=i, year=y, source="RISS")
+        pass  # (구조 개편) 공지는 build_output.py 가 병합 결과를 보고 기록
 
 
 # ════════════════════════════════════════
@@ -961,8 +957,14 @@ def process_journal(sess, journal, depth, existing_ids) -> tuple:
     print(f"\n[{name}] 최신 {depth}호수 확인 중... (남은 시간 {g.minutes_left():.0f}분)")
 
     data = load_journal(name)
-    title_index = {norm_title(a.get("title_kr", "")): a
-                   for a in data.get("articles", []) if a.get("title_kr")}
+    kci_path = Path(KCI_DIR) / f"kci_{name}.json"
+    kci_pool = []
+    if kci_path.exists():
+        try:
+            kd = json.load(open(kci_path, encoding="utf-8"))
+            kci_pool = kd.get("articles", []) if isinstance(kd, dict) else kd
+        except Exception:
+            kci_pool = []
 
     issues = get_recent_issues(sess, control_no, depth)
     if not issues:
@@ -976,20 +978,25 @@ def process_journal(sess, journal, depth, existing_ids) -> tuple:
             label = (f"Vol.{iss['volume']} No.{iss['issue']}"
                      if iss.get("volume") else iss.get("label", "?"))
             arts, linked, suspicious = get_articles_by_issue(
-                sess, iss, control_no, name, existing_ids, title_index)
+                sess, iss, control_no, name, existing_ids, kci_pool)
             linked_total += linked
             if suspicious:
                 print(f"  [{label}] ⚠ 논문 목록을 읽지 못함 (차단 의심 → 이월)")
                 complete = False
                 continue
-            if linked:
-                print(f"  [{label}] 기존 레코드에 RISS 링크 {linked}건 연결")
             if not arts:
                 print(f"  [{label}] 새 논문 없음")
                 continue
+            if linked:
+                print(f"  [{label}] 이 중 {linked}편은 KCI 에 이미 있어 상세 페이지 생략")
 
             print(f"  [{label}] 새 논문 {len(arts)}편 발견 → 상세 수집 중...")
             for n, art in enumerate(arts, 1):
+                if art.get("detail") == "kci":
+                    journal_new.append(art)
+                    existing_ids.add(art["article_id"])
+                    print(f"    ({n}/{len(arts)}) ✓(KCI) {art.get('title_kr','')[:36]}")
+                    continue
                 d = fetch_detail(sess, art, name)
                 if d is None:
                     complete = False          # 일부 보류 → 다음 실행에서 이어받기
@@ -1004,11 +1011,10 @@ def process_journal(sess, journal, depth, existing_ids) -> tuple:
             g.sleep(DETAIL_DELAY)
     finally:
         # 시간 초과·차단으로 중단되더라도 지금까지 검증된 논문은 저장
-        added = merge_and_save_journal(name, data, journal_new, existing_ids, linked_total)
+        added = merge_and_save_journal(name, data, journal_new, existing_ids, 0)
         if added:
-            log_added(name, added)
-            print(f"  → {name}: {len(added)}편 추가")
-        elif not linked_total:
+            print(f"  → {name}: {len(added)}편 원본에 추가 (공지는 출력 빌드 단계에서)")
+        else:
             print("  → 새 논문 없음")
     return len(added), complete
 
@@ -1019,7 +1025,7 @@ def purge_recommended() -> int:
     (riss_url 이 recommender/click.do 인 레코드) 관련 공지 편수도 되돌린다.
     """
     removed = 0
-    for path in sorted(Path(OUTPUT_DIR).glob("riss_*.json")):
+    for path in sorted(Path(RAW_DIR).glob("riss_*.json")):
         try:
             data = json.load(open(path, encoding="utf-8"))
         except Exception:
@@ -1035,8 +1041,6 @@ def purge_recommended() -> int:
             data = keep
         atomic_write_json(path, data)
         name = path.stem[5:]
-        for a in bad:
-            retract_update(OUTPUT_DIR, name, 1, volume=a.get("volume", ""), issue=a.get("issue", ""), source="RISS")
         print(f"  🧹 [{name}] 다른 학술지 논문(추천 링크) {len(bad)}편 삭제: " + " / ".join(a.get("title_kr", "")[:20] for a in bad[:3]))
         removed += len(bad)
     return removed
@@ -1044,7 +1048,11 @@ def purge_recommended() -> int:
 
 def run(day_key: str, depth_override: int = None, deadline_min: float = 300,
         only: list = None, pending_only: bool = False) -> int:
-    Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+    if not Path(RAW_DIR).exists():
+        # 구조 개편 후 첫 실행: 기존 output 을 출처별 원본으로 나눠 둔다
+        import build_output
+        build_output.migrate()
+    Path(RAW_DIR).mkdir(parents=True, exist_ok=True)
     Path(STATE_FILE).parent.mkdir(parents=True, exist_ok=True)
     purged = purge_recommended()
     existing_ids = load_all_existing_ids()
