@@ -582,6 +582,12 @@ def main():
                 state.pop("resume_daily", None)
         state["updated"] = today_kst()
         atomic_write_json(Path(STATE_FILE), state)
+    # Actions 자동 반복용: 끝까지 받았는지 / 이번에 조금이라도 나아갔는지
+    gh_out = os.environ.get("GITHUB_OUTPUT")
+    if gh_out:
+        progressed = bool(done_until) or bool(new_resume and new_resume != resume)
+        with open(gh_out, "a", encoding="utf-8") as f:
+            f.write(f"complete={'true' if complete else 'false'}\nprogress={'true' if progressed else 'false'}\n")
     if unmatched:
         print("\n  🔎 이름이 맞지 않아 건너뛴 불교 관련 학술지 (KCI_JOURNALS 별칭 후보):")
         for n, c in sorted(unmatched.items(), key=lambda x: -x[1])[:40]:
