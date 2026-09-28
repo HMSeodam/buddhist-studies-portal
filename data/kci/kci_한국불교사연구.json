@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "kci_id": "ART003224943",
+      "riss_hint": "fa2dec97613ccb306aae8a972f9116fb",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "27",
+      "issue": ""
+    },
+    {
+      "kci_id": "ART003293645",
+      "riss_hint": "1b6f94967fb5f6fcc85d2949c297615a",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "28",
+      "issue": ""
+    }
+  ]
+}

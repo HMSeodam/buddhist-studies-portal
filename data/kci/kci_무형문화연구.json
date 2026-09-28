@@ -1,0 +1,265 @@
+{
+  "articles": [
+    {
+      "kci_id": "ART003292436",
+      "riss_hint": "fe0019ce8969f5a14884a65323211ff0",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003292440",
+      "riss_hint": "51b7d328963fea466aae8a972f9116fb",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003292476",
+      "riss_hint": "fe0019ce8969f5a17ecd42904f0c5d65",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003292472",
+      "riss_hint": "d624b897e5c8f560d18150b21a227875",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003292504",
+      "riss_hint": "fe0019ce8969f5a1b36097776a77e665",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003292479",
+      "riss_hint": "d624b897e5c8f560e9810257f7042666",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003292499",
+      "riss_hint": "cde9e595ebec32cc7ecd42904f0c5d65",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003293702",
+      "riss_hint": "cde9e595ebec32ccb36097776a77e665",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003293737",
+      "riss_hint": "cde9e595ebec32cc4884a65323211ff0",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003293718",
+      "riss_hint": "d624b897e5c8f5606aae8a972f9116fb",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003293723",
+      "riss_hint": "cde9e595ebec32ccb7998d826d417196",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "17"
+    },
+    {
+      "kci_id": "ART003244840",
+      "riss_hint": "8ffe5def1a50f386b7998d826d417196",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "16"
+    },
+    {
+      "kci_id": "ART003244841",
+      "riss_hint": "8ffe5def1a50f386c85d2949c297615a",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "16"
+    },
+    {
+      "kci_id": "ART003244842",
+      "riss_hint": "8ffe5def1a50f38647de9c1710b0298d",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "16"
+    },
+    {
+      "kci_id": "ART003244843",
+      "riss_hint": "8ffe5def1a50f3867f7a54760bb41745",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "16"
+    },
+    {
+      "kci_id": "ART003244844",
+      "riss_hint": "8ffe5def1a50f386e9810257f7042666",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "16"
+    },
+    {
+      "kci_id": "ART003244845",
+      "riss_hint": "bf9fd8a732d603684884a65323211ff0",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "16"
+    },
+    {
+      "kci_id": "ART003245352",
+      "riss_hint": "8ffe5def1a50f386d18150b21a227875",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "16"
+    },
+    {
+      "kci_id": "ART003203189",
+      "riss_hint": "cebfe29899c04bfc7ecd42904f0c5d65",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "15"
+    },
+    {
+      "kci_id": "ART003203156",
+      "riss_hint": "cebfe29899c04bfcb36097776a77e665",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "15"
+    },
+    {
+      "kci_id": "ART003203160",
+      "riss_hint": "3a8b8825070e2a176aae8a972f9116fb",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "15"
+    },
+    {
+      "kci_id": "ART003203159",
+      "riss_hint": "3a8b8825070e2a17d18150b21a227875",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "15"
+    },
+    {
+      "kci_id": "ART003203521",
+      "riss_hint": "ec0f7237eda1d690c85d2949c297615a",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2025",
+      "volume": "0",
+      "issue": "15"
+    },
+    {
+      "kci_id": "ART003335973",
+      "riss_hint": "c4af601e9193d59dc85d2949c297615a",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2026",
+      "volume": "0",
+      "issue": "18"
+    },
+    {
+      "kci_id": "ART003335975",
+      "riss_hint": "fabb59c89dc54ff04884a65323211ff0",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2026",
+      "volume": "0",
+      "issue": "18"
+    },
+    {
+      "kci_id": "ART003335981",
+      "riss_hint": "c4af601e9193d59d47de9c1710b0298d",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2026",
+      "volume": "0",
+      "issue": "18"
+    },
+    {
+      "kci_id": "ART003335984",
+      "riss_hint": "c4af601e9193d59d7f7a54760bb41745",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2026",
+      "volume": "0",
+      "issue": "18"
+    },
+    {
+      "kci_id": "ART003335853",
+      "riss_hint": "c4af601e9193d59de9810257f7042666",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2026",
+      "volume": "0",
+      "issue": "18"
+    },
+    {
+      "kci_id": "ART003335854",
+      "riss_hint": "fabb59c89dc54ff0b36097776a77e665",
+      "link_only": true,
+      "source": "KCI",
+      "year": "2026",
+      "volume": "0",
+      "issue": "18"
+    }
+  ]
+}
