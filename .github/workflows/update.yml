@@ -76,6 +76,10 @@ jobs:
     steps:
       - name: 저장소 체크아웃
         uses: actions/checkout@v4
+        with:
+          # 대기(Pending)하다 시작된 실행도 '예약 당시'가 아니라 '지금' 최신 상태에서 시작하도록 브랜치 끝을 받는다.
+          # (예약 당시 커밋을 받으면 앞 실행이 저장한 진행 위치를 모른 채 시작하고, 저장 때 충돌이 난다)
+          ref: ${{ github.ref_name }}
 
       - name: Python 설정
         uses: actions/setup-python@v5
@@ -270,6 +274,7 @@ jobs:
           fi
 
       - name: 커밋 & 푸시
+        id: commit
         if: always() && steps.changes.outputs.changed != '0'
         run: |
           git config user.name  "github-actions[bot]"
@@ -283,7 +288,16 @@ jobs:
           git commit -m "data: RISS 업데이트 [$DAY] $DATE" || exit 0
           # 다른 커밋과 겹칠 때를 대비해 최대 3번 재시도
           for i in 1 2 3; do
-            git pull --rebase origin main && git push && exit 0
+            if git pull --rebase origin main; then
+              git push && exit 0
+            else
+              # 같은 파일(진행 기록 등)을 다른 실행이 먼저 고쳤으면: 이번 실행의 결과를 우선해 합침
+              # (이 실행은 최신 상태에서 시작했으므로 이번 결과가 더 새 것)
+              git rebase --abort 2>/dev/null || true
+              echo "↪ 충돌 — 이번 실행의 결과를 우선해 다시 합칩니다"
+              git pull --rebase -X theirs origin main && git push && exit 0
+              git rebase --abort 2>/dev/null || true
+            fi
             echo "푸시 재시도 $i/3"; sleep $(( i * 15 ))
           done
           exit 1
@@ -295,7 +309,7 @@ jobs:
       # ── KCI 전체 수확 자동 반복 ─────────────────────────────
       # target=kci + 시작일로 실행했는데 아직 끝나지 않았으면, 방금 저장한 위치에서 이어 가도록
       # 같은 설정으로 다음 회차를 스스로 예약한다. (커밋이 끝난 뒤라 다음 회차는 최신 진행 위치에서 시작)
-      # 멈추는 조건: 끝까지 받음 · 이번 회차에 전혀 나아가지 못함(서버 장애 등) · 40회차 도달 · repeat=no
+      # 멈추는 조건: 끝까지 받음 · 이번 회차에 전혀 나아가지 못함(서버 장애 등) · 저장(푸시) 실패 · 40회차 도달 · repeat=no
       # 도중에 그만두려면 Actions 에서 대기(Pending) 중인 다음 회차를 Cancel 하면 된다.
       - name: KCI 전체 수확 — 다음 회차 자동 예약
         if: >
@@ -305,7 +319,8 @@ jobs:
           github.event.inputs.kci_from != '' &&
           github.event.inputs.repeat != 'no' &&
           steps.kci.outputs.complete == 'false' &&
-          steps.kci.outputs.progress == 'true'
+          steps.kci.outputs.progress == 'true' &&
+          steps.commit.outcome != 'failure'
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
