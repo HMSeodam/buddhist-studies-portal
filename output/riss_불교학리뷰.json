@@ -12380,7 +12380,7 @@
     {
       "article_id": "1ae47e05e2ea2dd4b7998d826d417196",
       "title_kr": "Sovereign Women: Mahāyāna Buddhism and Female Kingship in Nara Japan",
-      "title_en": "",
+      "title_en": "Sovereign Women: Mahāyāna Buddhism and Female Kingship in Nara Japan",
       "authors": [
         {
           "name": "Yuyu Zhang",
@@ -12389,16 +12389,16 @@
         }
       ],
       "abstract_kr": "This article examines the intersection of Mahāyāna Buddhist doctrines and female sovereignty in eighth-century Japan, focusing on the reigns of Emperor Shōmu and Emperor Kōken/Shōtoku. While scholars have emphasized indigenous ideas of gender complementarity as a counterbalance to the patriarchal ritsuryō system, this study argues that Mahāyāna teachings offered equally crucial doctrinal resources affirming women’s capacity for authority. I refer to this body of ideas as the “Mahāyāna discourse on female capacity,” encompassing doctrines such as the universality of Buddha-nature, the possibility of female Buddhahood, and the nonduality of gender distinctions. Texts such as the Lotus Sūtra, the Vimalakīrti Sūtra, and the Golden Light Sūtra affirmed women’s potential for Buddhahood and were actively promoted at the Nara court. The concept of chishiki further reinforced women’s religious authority by presenting female figures as indispensable teachers, a vision that shaped both courtly and popular practices, including sūtra lectures, sūtra copying, and temple construction. Together, the “Mahāyāna discourse on female capacity” and women’s active participation in Buddhist practices helped foster an environment supportive of female rulership in Nara, Japan. Placed in a wider East Asian context--including Wu Zetian in Tang China and Queen Seondeok in Silla Korea--this study suggests that the flourishing of female monarchs in the seventh and eighth centuries coincided with the regional ascendancy of Mahāyāna Buddhism. This convergence invites renewed attention to the interplay between Buddhist thought and the political legitimation of women in East Asian history.",
-      "abstract_en": "",
+      "abstract_en": "This article examines the intersection of Mahāyāna Buddhist doctrines and female sovereignty in eighth-century Japan, focusing on the reigns of Emperor Shōmu and Emperor Kōken/Shōtoku. While scholars have emphasized indigenous ideas of gender complementarity as a counterbalance to the patriarchal ritsuryō system, this study argues that Mahāyāna teachings offered equally crucial doctrinal resources affirming women’s capacity for authority. I refer to this body of ideas as the “Mahāyāna discourse on female capacity,” encompassing doctrines such as the universality of Buddha-nature, the possibility of female Buddhahood, and the nonduality of gender distinctions. Texts such as the Lotus Sūtra, the Vimalakīrti Sūtra, and the Golden Light Sūtra affirmed women’s potential for Buddhahood and were actively promoted at the Nara court. The concept of chishiki further reinforced women’s religious authority by presenting female figures as indispensable teachers, a vision that shaped both courtly and popular practices, including sūtra lectures, sūtra copying, and temple construction. Together, the “Mahāyāna discourse on female capacity” and women’s active participation in Buddhist practices helped foster an environment supportive of female rulership in Nara, Japan. Placed in a wider East Asian context--including Wu Zetian in Tang China and Queen Seondeok in Silla Korea--this study suggests that the flourishing of female monarchs in the seventh and eighth centuries coincided with the regional ascendancy of Mahāyāna Buddhism. This convergence invites renewed attention to the interplay between Buddhist thought and the political legitimation of women in East Asian history.",
       "journal_name": "불교학리뷰",
       "year": "2025",
       "volume": "38",
       "issue": "",
       "start_page": "9",
       "end_page": "39",
-      "doi": "",
+      "doi": "10.29213/crbs..38.202510.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1ae47e05e2ea2dd4b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003258920",
       "keywords_kr": [
         "대승불교",
         "여성 군주제",
@@ -12421,8 +12421,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003258920",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1ae47e05e2ea2dd4b7998d826d417196",
       "id": "1ae47e05e2ea2dd4b7998d826d417196"
@@ -12446,9 +12448,9 @@
       "issue": "",
       "start_page": "41",
       "end_page": "63",
-      "doi": "",
+      "doi": "10.29213/crbs..38.202510.41",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1ae47e05e2ea2dd47f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003258947",
       "keywords_kr": [
         "학·무학(學·無學)",
         "삼주설법(三周設法)",
@@ -12465,8 +12467,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003258947",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1ae47e05e2ea2dd47f7a54760bb41745",
       "id": "1ae47e05e2ea2dd47f7a54760bb41745"
@@ -12490,9 +12494,9 @@
       "issue": "",
       "start_page": "65",
       "end_page": "88",
-      "doi": "",
+      "doi": "10.29213/crbs..38.202510.65",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1ae47e05e2ea2dd4c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003258961",
       "keywords_kr": [
         "법장",
         "종밀",
@@ -12511,8 +12515,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003258961",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1ae47e05e2ea2dd4c85d2949c297615a",
       "id": "1ae47e05e2ea2dd4c85d2949c297615a"
@@ -12536,9 +12542,9 @@
       "issue": "",
       "start_page": "89",
       "end_page": "115",
-      "doi": "",
+      "doi": "10.29213/crbs..38.202510.89",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1ae47e05e2ea2dd447de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003258964",
       "keywords_kr": [
         "Śrīmālādevīsiṃhanāda-sūtra",
         "지의",
@@ -12559,8 +12565,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003258964",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1ae47e05e2ea2dd447de9c1710b0298d",
       "id": "1ae47e05e2ea2dd447de9c1710b0298d"
@@ -12589,9 +12597,9 @@
       "issue": "",
       "start_page": "9",
       "end_page": "34",
-      "doi": "",
+      "doi": "10.29213/crbs..39.202604.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2faf023f067baf3ed18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003332297",
       "keywords_kr": [
         "경어 복수형",
         "빠알리어 문법",
@@ -12611,8 +12619,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "2faf023f067baf3ed18150b21a227875",
+      "kci_id": "ART003332297",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2faf023f067baf3ed18150b21a227875"
     },
@@ -12635,9 +12645,9 @@
       "issue": "",
       "start_page": "35",
       "end_page": "60",
-      "doi": "",
+      "doi": "10.29213/crbs..39.202604.35",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec9dabd70d5dba5d7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003332313",
       "keywords_kr": [
         "비동일시",
         "절단점",
@@ -12659,8 +12669,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "ec9dabd70d5dba5d7f7a54760bb41745",
+      "kci_id": "ART003332313",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ec9dabd70d5dba5d7f7a54760bb41745"
     },
@@ -12683,9 +12695,9 @@
       "issue": "",
       "start_page": "61",
       "end_page": "94",
-      "doi": "",
+      "doi": "10.29213/crbs..39.202604.61",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2faf023f067baf3e6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003332332",
       "keywords_kr": [
         "대애도비구니경",
         "팔경법",
@@ -12703,8 +12715,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "2faf023f067baf3e6aae8a972f9116fb",
+      "kci_id": "ART003332332",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2faf023f067baf3e6aae8a972f9116fb"
     },
@@ -12727,9 +12741,9 @@
       "issue": "",
       "start_page": "95",
       "end_page": "118",
-      "doi": "",
+      "doi": "10.29213/crbs..39.202604.95",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c1af522a1a6ce25a7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003332350",
       "keywords_kr": [
         "찰나멸론",
         "사만타바드라",
@@ -12747,8 +12761,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "c1af522a1a6ce25a7ecd42904f0c5d65",
+      "kci_id": "ART003332350",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c1af522a1a6ce25a7ecd42904f0c5d65"
     },
@@ -12771,16 +12787,18 @@
       "issue": "",
       "start_page": "121",
       "end_page": "155",
-      "doi": "",
+      "doi": "10.29213/crbs..39.202604.121",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec9dabd70d5dba5de9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003332358",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
       "id": "ec9dabd70d5dba5de9810257f7042666",
+      "kci_id": "ART003332358",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ec9dabd70d5dba5de9810257f7042666"
     }

@@ -5779,9 +5779,9 @@
       "issue": "",
       "start_page": "451",
       "end_page": "489",
-      "doi": "",
+      "doi": "10.23168/JSBP.2025.10.31.14",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1f14f02a0b7effbee9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003263587",
       "keywords_kr": [
         "선가의범",
         "청호학밀",
@@ -5802,8 +5802,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003263587",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1f14f02a0b7effbee9810257f7042666",
       "id": "1f14f02a0b7effbee9810257f7042666"
@@ -5859,9 +5861,9 @@
       "issue": "",
       "start_page": "5",
       "end_page": "38",
-      "doi": "",
+      "doi": "10.23168/JSBP.2026.04.30.01",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=23488a1353e994b247de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003336554",
       "keywords_kr": [
         "원효",
         "법화종요",
@@ -5885,8 +5887,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "23488a1353e994b247de9c1710b0298d",
+      "kci_id": "ART003336554",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "23488a1353e994b247de9c1710b0298d"
     },
@@ -5909,9 +5913,9 @@
       "issue": "",
       "start_page": "39",
       "end_page": "74",
-      "doi": "",
+      "doi": "10.23168/JSBP.2026.04.30.02",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a617b20ed4da06ecb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003336551",
       "keywords_kr": [
         "원효",
         "본업경소",
@@ -5929,8 +5933,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "a617b20ed4da06ecb36097776a77e665",
+      "kci_id": "ART003336551",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a617b20ed4da06ecb36097776a77e665"
     },
@@ -5953,9 +5959,9 @@
       "issue": "",
       "start_page": "75",
       "end_page": "98",
-      "doi": "",
+      "doi": "10.23168/JSBP.2026.04.30.03",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3b7d11cccf7d6a3c6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003336556",
       "keywords_kr": [
         "원효",
         "해심밀경소",
@@ -5977,8 +5983,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "3b7d11cccf7d6a3c6aae8a972f9116fb",
+      "kci_id": "ART003336556",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3b7d11cccf7d6a3c6aae8a972f9116fb"
     },
@@ -6001,9 +6009,9 @@
       "issue": "",
       "start_page": "99",
       "end_page": "141",
-      "doi": "",
+      "doi": "10.23168/JSBP.2026.04.30.04",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=23488a1353e994b27f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003336552",
       "keywords_kr": [
         "분황 원효",
         "금강삼매경론",
@@ -6023,8 +6031,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "23488a1353e994b27f7a54760bb41745",
+      "kci_id": "ART003336552",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "23488a1353e994b27f7a54760bb41745"
     },
@@ -6047,9 +6057,9 @@
       "issue": "",
       "start_page": "143",
       "end_page": "172",
-      "doi": "",
+      "doi": "10.23168/JSBP.2026.04.30.05",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a617b20ed4da06ec7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003336555",
       "keywords_kr": [
         "ālayavijñāna (阿梨耶識)",
         "원효",
@@ -6077,8 +6087,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "a617b20ed4da06ec7ecd42904f0c5d65",
+      "kci_id": "ART003336555",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a617b20ed4da06ec7ecd42904f0c5d65"
     },
@@ -6101,9 +6113,9 @@
       "issue": "",
       "start_page": "173",
       "end_page": "204",
-      "doi": "",
+      "doi": "10.23168/JSBP.2026.04.30.06",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a617b20ed4da06ec4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003336553",
       "keywords_kr": [
         "원각경",
         "대승기신론",
@@ -6121,8 +6133,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "a617b20ed4da06ec4884a65323211ff0",
+      "kci_id": "ART003336553",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a617b20ed4da06ec4884a65323211ff0"
     }

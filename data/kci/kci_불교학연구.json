@@ -82,13 +82,38 @@
       "issue": ""
     },
     {
+      "article_id": "ART003217973",
+      "id": "ART003217973",
       "kci_id": "ART003217973",
-      "riss_hint": "e29655cc9a6aa4f347de9c1710b0298d",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "『중론송』의 「관사제품」 분석 －공성·연기·중도를 천착하여－",
+      "title_en": "An Analysis of the Mūlamadhyamakakārikā’s Chapter on the Four Noble Truths: A Philosophical Inquiry into Emptiness, Dependent Origination, and the Middle Way",
+      "authors": [
+        {
+          "name": "김귀옥",
+          "affiliation": "전남대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 글의 목적은 용수(Nāgārjuna)의 『중론』 제24장 ｢관사제품(觀四諦品)｣을 중심으로, ‘공(空)’ 개념을 통해 사성제(四聖諦)와 불교 교설 전반이 어떻게 철학적으로 재정립되는지를 분석한다. 붓다는 우리가 살아가면서 겪는 고통이 고정적이고 불변하는 실체가 존재한다는 믿음과 그 믿음을 기반으로 사용되는 언어 사용에서 비롯된다고 보았다. 붓다는 이러한 견해는 세계에 대한 무지 때문이라고 하며 연기론(緣起論)을 설파했다. 그러나 아비달마 불교는 연기(緣起)를 고정된 구조적 실재론으로 해석하면서, 자성을 전제한 법(dharma) 개념을 도입함으로써 붓다의 연기론과 무아 사상을 왜곡하였다.\n용수는 『중론』을 통해 이러한 실체론적 견해에 맞서 연기를 새롭게 해석하여 ‘공’으로 재천명한다. ｢관사제품｣에 등장하는 대론자는, ‘만일 모든 것이 공하다면’ 사성제를 비롯한 불법(佛法) 전체가 성립할 수 없다고 비판하지만, 이는 공을 허무주의나 단순한 무(無)로 오해한 결과이다. 이에 대해 용수는 공성(空性), 공의(空義), 공용(空用)이라는 세 층위와, 세속제와 승의제라고 하는 이제(二諦) 개념을 통해 논리적으로 반박한다. 그는 자성에 대한 집착이 오히려 사성제를 무너뜨리는 주된 원인임을 지적한다. 특히 24-18 게송에서 선언하고 있는 “연기=공, 공=가명, 공=중도”라는 구절은, 연기적 세계관과 언어, 수행, 철학이 통합된 구조임을 보여주고 있다. 이를 통해 용수는 존재와 언어, 진리와 실천이 모두 자성을 갖지 않는 연기적 상호 의존관계에 그 기반이 있음을 밝히며, 불교 교설을 공에 의해 재구성한 ｢관사제품｣의 철학적 의의를 명료하게 드러낸다.",
+      "abstract_en": "The purpose of this study is to analyze how the Four Noble Truths and Buddhist doctrinal discourse are philosophically restructured through the concept of emptiness (śūnyatā) in Chapter 24, “Examination of the Four Noble Truths,” of Nāgārjuna’s Mūlamadhyamakakārikā. The Buddha taught that suffering arises from belief in fixed and unchanging substances, as well as from linguistic structures shaped by that belief. He regarded such views as rooted in ignorance about the nature of reality and presented dependent origination (pratītyasamutpāda) as the correct response.\nHowever, Abhidharma Buddhism reinterpreted dependent origination in terms of structural realism, developing a dharma theory based on inherent existence (svabhāva) and thus distorting the Buddha’s original insights into non-self and conditionality.\nIn response, Nāgārjuna reasserts dependent origination as emptiness, challenging all substance-based views. In Chapter 24, an opponent objects that if all phenomena are empty, then the Four Noble Truths and the Buddha’s teaching are undermined.\nNāgārjuna refutes this by arguing that such a view results from a nihilistic misunderstanding of emptiness.\nHe counters with a threefold analysis of emptiness—its nature, meaning, and function—as well as the doctrine of the two truths: conventional and ultimate. He contends that it is attachment to essence, not emptiness itself, that undermines the truths. Verse 24.18—“dependent origination is emptiness, emptiness is designation, and emptiness is the middle way”—demonstrates how ontology, language, practice, and philosophy are unified within an interdependent, non-essentialist framework.",
+      "journal_name": "불교학연구",
       "year": "2025",
       "volume": "83",
-      "issue": ""
+      "issue": "",
+      "start_page": "133",
+      "end_page": "166",
+      "doi": "10.21482/jbs.83..202506.133",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003217973",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2025",
+      "kci_volume": "83",
+      "kci_issue": "",
+      "riss_hint": "e29655cc9a6aa4f347de9c1710b0298d"
     },
     {
       "kci_id": "ART003218018",
