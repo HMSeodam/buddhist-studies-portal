@@ -48,6 +48,14 @@ on:
         description: "KCI 수확 시작일 YYYY-MM-DD (비우면 지난 실행 이후만)"
         required: false
         default: ""
+      repeat:
+        description: "KCI 수확이 끝날 때까지 자동으로 이어 실행 (yes/no, target=kci 이고 시작일이 있을 때)"
+        required: false
+        default: "yes"
+      round:
+        description: "자동 반복 회차 (직접 고칠 필요 없음)"
+        required: false
+        default: "1"
 
 # 같은 시각에 두 번 겹쳐 돌지 않도록 (매월 1일 + 요일 스케줄 등) — 앞 작업이 끝날 때까지 대기
 concurrency:
@@ -60,6 +68,7 @@ jobs:
     timeout-minutes: 355          # 러너 한도(360분)보다 조금 짧게 — 커밋 시간을 확보
     permissions:
       contents: write
+      actions: write              # KCI 전체 수확 자동 반복(다음 회차 예약)용
     env:
       TZ: Asia/Seoul              # 로그·요일 판별·날짜를 한국 시간으로
       PYTHONUNBUFFERED: "1"       # 로그가 실시간으로 보이게
@@ -133,6 +142,7 @@ jobs:
       # KCI_ENABLED = true 를 추가하면 매 실행 때 먼저 돈다. (수동 실행은 target=kci/all)
       # KCI 에서 먼저 받은 논문은 RISS 가 상세 페이지를 다시 열지 않으므로 RISS 부담이 줄어든다.
       - name: KCI 신규 논문 수집 (OAI-PMH)
+        id: kci
         if: >
           vars.KCI_ENABLED == 'true' ||
           github.event.inputs.target == 'kci' ||
@@ -281,3 +291,31 @@ jobs:
       - name: 업데이트 없음 안내
         if: always() && steps.changes.outputs.changed == '0'
         run: echo "새 논문 없음 — 커밋 건너뜀"
+
+      # ── KCI 전체 수확 자동 반복 ─────────────────────────────
+      # target=kci + 시작일로 실행했는데 아직 끝나지 않았으면, 방금 저장한 위치에서 이어 가도록
+      # 같은 설정으로 다음 회차를 스스로 예약한다. (커밋이 끝난 뒤라 다음 회차는 최신 진행 위치에서 시작)
+      # 멈추는 조건: 끝까지 받음 · 이번 회차에 전혀 나아가지 못함(서버 장애 등) · 40회차 도달 · repeat=no
+      # 도중에 그만두려면 Actions 에서 대기(Pending) 중인 다음 회차를 Cancel 하면 된다.
+      - name: KCI 전체 수확 — 다음 회차 자동 예약
+        if: >
+          always() &&
+          github.event_name == 'workflow_dispatch' &&
+          github.event.inputs.target == 'kci' &&
+          github.event.inputs.kci_from != '' &&
+          github.event.inputs.repeat != 'no' &&
+          steps.kci.outputs.complete == 'false' &&
+          steps.kci.outputs.progress == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          ROUND="${{ github.event.inputs.round }}"; ROUND=${ROUND:-1}
+          if [ "$ROUND" -ge 40 ]; then
+            echo "⏹ 자동 반복 40회차 도달 — 멈춤 (필요하면 다시 수동 실행)" | tee -a $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+          NEXT=$((ROUND + 1))
+          gh workflow run update.yml --ref "${{ github.ref_name }}" \
+            -f target=kci -f kci_from="${{ github.event.inputs.kci_from }}" -f repeat=yes -f round=$NEXT
+          echo "🔁 KCI 전체 수확 미완료 → ${NEXT}회차를 자동 예약했습니다 (그만두려면 대기 중인 실행을 Cancel)" | tee -a $GITHUB_STEP_SUMMARY
