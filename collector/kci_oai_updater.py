@@ -268,11 +268,19 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
         stats["resume"] = {"window": date_from, "token": start_token, "fmt": fmt, "page_style": fmt_state["page_style"]}
         print(f"  ↪ {date_from} 을 지난번 위치(토큰 {start_token})부터 이어받음")
     page_in_win = 1 if start_token else 0
+    cooldowns = [120, 300, 600]      # 서버 오류(500 등)가 이어질 때 쉬는 시간(초) — 그래도 안 되면 다음 실행으로
     while True:
         if time.time() > deadline:
             return False, "시간 예산 소진"
         text = http_get(s, OAI_URL, params, stats=stats)
-        if text is None and fmt == "oai_kci" and stats["pages"] == 0:
+        if text is None and cooldowns and (stats["pages"] > 0 or fmt != "oai_kci" or start_token) \
+                and time.time() + cooldowns[0] + 120 < deadline:
+            w = cooldowns.pop(0)
+            print(f"  ⏸ KCI 서버 오류가 이어져 {w // 60}분 쉬었다가 같은 쪽을 다시 요청합니다")
+            stats["notes"].append(f"{date_from}: 서버 오류로 {w // 60}분 휴식 후 재시도")
+            time.sleep(w)
+            continue
+        if text is None and fmt == "oai_kci" and stats["pages"] == 0 and not start_token:
             print("  ↪ 상세 형식(oai_kci) 응답 실패 → 간략 형식(oai_dc)으로 다시 시도")
             fmt = fmt_state["fmt"] = stats["format"] = "oai_dc"; parser = parse_oai_dc
             params = {"verb": "ListRecords", "set": "ARTI", "metadataPrefix": fmt, "from": date_from, "until": date_until}
@@ -302,6 +310,7 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
                 continue
             return False, f"OAI 오류 {err}"
         stats["pages"] += 1; page_in_win += 1
+        cooldowns = [120, 300, 600]
         msz = re.search(r'completeListSize="(\d+)"', text)
         if msz and page_in_win == 1:
             print(f"  · {date_from}: 전체 {int(msz.group(1)):,}건")
