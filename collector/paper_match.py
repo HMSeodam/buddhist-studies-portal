@@ -133,7 +133,9 @@ def _en_sims(r: dict, k: dict) -> float:
     """영문 제목끼리/한쪽 원제가 영문인 경우 비교.
     예) RISS '조화의 발견: …'(영문 제목 'Harmony Unveiled: …') ↔ KCI 원제 'Harmony Unveiled: …'"""
     best = 0.0
-    rk, re_, kk, ke = r.get("title_kr", ""), r.get("title_en", ""), k.get("title_kr", ""), k.get("title_en", "")
+    ph = lambda t: "" if re.fullmatch(r"\s*(no\s+english\s+title|none|n/?a|없음|-)?\s*", t or "", re.I) else t
+    rk, re_, kk, ke = (ph(r.get("title_kr", "")), ph(r.get("title_en", "")),
+                       ph(k.get("title_kr", "")), ph(k.get("title_en", "")))
     for a, b in ((re_, kk), (rk, ke), (re_, ke)):
         if a and b and len(mtitle(a)) >= 12 and len(mtitle(b)) >= 12:
             best = max(best, title_sim(a, b))
@@ -165,6 +167,11 @@ def match_issue(riss_recs: list, kci_recs: list):
         for j, k in enumerate(kci_recs):
             sim, bonus = _pair_score(r, k, mr[i], mk[j])
             ok = sim >= 0.62 or (sim >= 0.38 and bonus >= 0.15)
+            if not ok and bonus >= 0.25 and mr[i] and mk[j]:
+                # 같은 쪽에서 시작하고 짧은 제목이 긴 제목 안에 그대로 들어 있음: '자료' ↔ '보조사상의 전승(자료)'
+                a_, b_ = sorted((mr[i], mk[j]), key=len)
+                if len(a_) >= 2 and a_ in b_:
+                    ok, sim = True, max(sim, 0.62)
             if ok:
                 cands.append((sim + bonus, i, j))
     cands.sort(reverse=True)
@@ -209,6 +216,11 @@ def match_journal(riss_recs: list, kci_recs: list):
         if not key:
             leftover.extend(ks); continue
         rs = [r for r in groups_r.get(key, []) if id(r) not in taken]
+        if not rs:
+            # 한쪽에만 번호가 하나 더 붙은 경우: KCI '5권 6호' ↔ RISS '5권' (숫자 집합이 포함 관계)
+            for rkey, rlist in groups_r.items():
+                if rkey and rkey != key and (rkey < key or key < rkey):
+                    rs.extend(r for r in rlist if id(r) not in taken)
         if not rs:
             leftover.extend(ks); continue
         # 연도별로 나눠 ±1 허용

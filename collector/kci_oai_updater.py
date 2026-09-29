@@ -91,6 +91,8 @@ KCI_SERE_IDS = {
 DISCOVER_HINTS = ["불교", "불학", "선학", "禪", "佛", "Buddh", "정토", "미술사", "원불교", "명상", "인도철학", "대각", "보조"]
 # 이름에 힌트 글자가 우연히 들어간 무관한 학술지 (예: 대한건'선학'회지, 대한조'선학'회)
 DISCOVER_EXCLUDE = ["건선", "조선학회", "방사선", "보조기", "의학", "간호", "치의", "약학", "공학", "건축학회"]
+# 제목 대조로 '우리 학술지가 아님'이 확인된 KCI 학술지 (후보로 쌓지 않음)
+DISCOVER_EXCLUDE_EXACT = {"미술사연구", "미술사와 시각문화", "현대미술사연구", "미술사학보", "미술사학", "동양미술사학"}
 
 
 _VARIANT = str.maketrans({"硏": "研", "學": "学", "佛": "仏", "禪": "禅", "敎": "教", "硏": "研"})
@@ -359,7 +361,8 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
                 matched.append(r)
                 stats["per_journal"][ours] = stats["per_journal"].get(ours, 0) + 1
             elif discover and any(h.lower() in r["journal"].lower() for h in DISCOVER_HINTS) \
-                    and not any(x in r["journal"] for x in DISCOVER_EXCLUDE):
+                    and not any(x in r["journal"] for x in DISCOVER_EXCLUDE) \
+                    and r["journal"].strip() not in DISCOVER_EXCLUDE_EXACT:
                 unmatched[r["journal"]] = unmatched.get(r["journal"], 0) + 1
                 stats.setdefault("cands", {}).setdefault(r["journal"], []).append(r)   # 제목 대조 검증용 후보
         if stats["pages"] <= 3:
@@ -393,7 +396,7 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
 
 
 def harvest(date_from: str, date_until: str, deadline: float, discover: bool = True, on_window_done=None,
-            resume: dict = None, seen_until: str = "", window_days: int = 1):
+            resume: dict = None, seen_until: str = "", window_days: int = 1, skip_ranges=()):
     """
     기간을 1일 단위로 나눠 수확. 하루치가 많아 도중에 멈추면 그 날의 토큰(쪽 위치)을 남겨 다음 실행이 이어받는다.
     반환: (대상 레코드, 이름이 안 맞은 불교 관련 학술지, 끝까지 받았는지, 통계, 완료된 마지막 날짜)
@@ -423,12 +426,24 @@ def harvest(date_from: str, date_until: str, deadline: float, discover: bool = T
     days = []
     while d0 <= dend:
         days.append(d0.strftime("%Y-%m-%d")); d0 += timedelta(days=1)
+    # 예전 실행에서 이미 끝까지 받은 기간은 건너뜀 (그 사이 바뀐 기록은 더 뒤 날짜로 다시 나타나므로 빠지지 않음)
+    skipped_days = [d for d in days if any(a <= d <= b for a, b in skip_ranges)]
+    if skipped_days:
+        print(f"  (이미 받은 기간 {len(skipped_days)}일은 건너뜀: "
+              + ", ".join(f"{a}~{b}" for a, b in skip_ranges) + ")")
+    days = [d for d in days if d not in set(skipped_days)]
     new_days = [d for d in days if not seen_until or d > seen_until]
     old_days = [d for d in days if seen_until and d <= seen_until]
-    # 긴 기간(초기 적재)은 여러 날을 한 구간으로 묶어 빈 날마다 묻지 않게 한다.
+    # 긴 기간(초기 적재)은 여러 날을 한 구간으로 묶어 빈 날마다 묻지 않게 한다. (건너뛴 기간을 사이에 두지 않도록 연속된 날끼리만)
     # 구간 도중에 멈춰도 토큰으로 이어받으므로 구간이 길어도 진행을 잃지 않는다.
-    wins = [(new_days[i], new_days[min(i + window_days, len(new_days)) - 1])
-            for i in range(0, len(new_days), max(1, window_days))]
+    wins, cur = [], []
+    for d in new_days:
+        if cur and (len(cur) >= max(1, window_days) or
+                    datetime.strptime(d, "%Y-%m-%d") - datetime.strptime(cur[-1], "%Y-%m-%d") > timedelta(days=1)):
+            wins.append((cur[0], cur[-1])); cur = []
+        cur.append(d)
+    if cur:
+        wins.append((cur[0], cur[-1]))
     wins += [(d, d) for d in old_days]
     for a, b in wins:
         overlap = a in old_days
@@ -601,7 +616,12 @@ def main():
         print(f"  (지난 실행이 {resume['window']} 의 중간에서 멈춤 → 그 위치부터 이어받습니다)")
         if resume["window"] > dfrom:
             dfrom = resume["window"]      # 앞의 겹침 구간은 이미 받았으므로 건너뜀 (시간을 이어받기에 씀)
+    # 이미 끝까지 받은 기간 (2026-09 첫 적재 때 따로 받은 구간 — 전체 수확이 다시 받지 않도록)
+    if "done_ranges" not in state:
+        state["done_ranges"] = [["2026-01-01", "2026-06-16"], ["2026-09-05", state.get("last_until", "2026-09-28")]]
+    skip = [tuple(x) for x in state["done_ranges"]] if args.date_from else []
     matched, unmatched, complete, stats, done_until = harvest(dfrom, duntil, deadline, True, resume=resume,
+                                                              skip_ranges=skip,
                                                               window_days=30 if args.date_from else 1,
                                                               seen_until="" if args.date_from else state.get("last_until", ""))
     summary = store_raw(matched, stats.get("cands", {}), args.dry_run, os.environ.get("KCI_API_KEY", ""))

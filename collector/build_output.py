@@ -263,20 +263,27 @@ def sort_key(a):
 
 
 def verify_candidates(riss_by_journal):
-    """이름이 다른 KCI 학술지 후보를 우리 학술지들과 제목 대조 → 같은 학술지면 자동 연결."""
+    """이름이 다른 KCI 학술지 후보를 우리 학술지들과 제목 대조 → 같은 학술지면 자동 연결.
+    (빠른 1차 대조: 정규화 제목이 그대로 같은 논문 수 → 비율이 30% 이상인 학술지만 정밀 대조)"""
     if not CAND_FILE.exists():
         return {}, []
+    from paper_match import mtitle
     cands = json.load(open(CAND_FILE, encoding="utf-8"))
+    titles = {j: {mtitle(r.get("title_kr", "")) for r in riss} for j, riss in riss_by_journal.items()}
     accepted, report = {}, []
     for cname, recs in cands.items():
         if len(recs) < 3:
             continue
-        best, rate, cnt = None, 0.0, 0
-        for j, riss in riss_by_journal.items():
-            m = match_journal(riss, recs)
-            r = len(m) / len(recs)
-            if r > rate:
-                best, rate, cnt = j, r, len(m)
+        mts = [mtitle(r.get("title_kr", "")) for r in recs]
+        best, qrate = None, 0.0
+        for j, ts in titles.items():
+            hit = sum(1 for t in mts if t and t in ts)
+            if hit / len(recs) > qrate:
+                best, qrate = j, hit / len(recs)
+        rate, cnt = qrate, int(qrate * len(recs))
+        if best and qrate >= 0.3:
+            m = match_journal(riss_by_journal[best], recs)
+            cnt = len(m); rate = cnt / len(recs)
         ok = best is not None and len(recs) >= 5 and rate >= 0.6
         report.append({"kci_name": cname, "records": len(recs), "best": best, "matched": cnt,
                        "rate": round(rate, 2), "accepted": ok})
@@ -310,10 +317,16 @@ def build(check=False):
         _, kci = load_arts(KCI_DIR / f"kci_{j}.json")
         out, st = build_journal(j, riss, kci, accepted.get(j, []))
         # 대표 번호(id) 유지: 이전에 쓰던 번호가 있으면 그대로 (공유된 링크가 깨지지 않게)
-        new_recs = []
-        for rec in out:
+        new_recs, used = [], set()
+        for rec in out:            # RISS 레코드가 먼저 오므로 RISS 쪽 번호가 우선
             ids = [x for x in (rec.get("riss_id"), rec.get("kci_id")) if x]
-            prim = next((prev_primary[x] for x in ids if x in prev_primary), None) or (ids[0] if ids else rec.get("id"))
+            if rec.get("riss_id"):
+                prim = prev_primary.get(rec["riss_id"]) or rec["riss_id"]
+            else:
+                prim = next((prev_primary[x] for x in ids if x in prev_primary), None) or (ids[0] if ids else rec.get("id"))
+            if prim in used:       # 짝이 바뀌어 예전 번호를 다른 논문이 이미 쓰는 경우 — 겹치지 않게 자기 번호로
+                prim = ids[-1] if ids else rec.get("id")
+            used.add(prim)
             rec["id"] = rec["article_id"] = prim
             if not any(x in prev_ids for x in ids):
                 new_recs.append(rec)
