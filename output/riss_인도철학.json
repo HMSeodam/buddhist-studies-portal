@@ -27255,9 +27255,9 @@
       "issue": "55",
       "start_page": "83",
       "end_page": "113",
-      "doi": "",
+      "doi": "10.32761/kjip.2019..55.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8e963e2942945efc4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002461229",
       "keywords_kr": [
         "보살십지",
         "菩薩十地",
@@ -27278,8 +27278,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002461229",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8e963e2942945efc4884a65323211ff0",
       "id": "8e963e2942945efc4884a65323211ff0"
@@ -28016,9 +28018,9 @@
       "issue": "57",
       "start_page": "5",
       "end_page": "51",
-      "doi": "",
+      "doi": "10.32761/kjip.2019..57.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=64a75fe71d0f4496b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002540984",
       "keywords_kr": [
         "제식",
         "정화",
@@ -28034,8 +28036,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002540984",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "64a75fe71d0f4496b7998d826d417196",
       "id": "64a75fe71d0f4496b7998d826d417196"
@@ -28600,9 +28604,9 @@
       "issue": "58",
       "start_page": "41",
       "end_page": "66",
-      "doi": "",
+      "doi": "10.32761/kjip.2020..58.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1e30c85b6e99a04a4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002582658",
       "keywords_kr": [
         "반야경",
         "공성",
@@ -28626,8 +28630,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002582658",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1e30c85b6e99a04a4884a65323211ff0",
       "id": "1e30c85b6e99a04a4884a65323211ff0"
@@ -28982,7 +28988,7 @@
       "end_page": "37",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f3fa1330e49fdfb7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002618545",
       "keywords_kr": [
         "바마하",
         "카비야알람카라",
@@ -29001,8 +29007,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002618545",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f3fa1330e49fdfb7ecd42904f0c5d65",
       "id": "5f3fa1330e49fdfb7ecd42904f0c5d65"
@@ -29033,7 +29041,7 @@
       "end_page": "73",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f3fa1330e49fdfbb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002618586",
       "keywords_kr": [
         "안반수의경",
         "삼매",
@@ -29054,8 +29062,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002618586",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f3fa1330e49fdfbb36097776a77e665",
       "id": "5f3fa1330e49fdfbb36097776a77e665"
@@ -29081,7 +29091,7 @@
       "end_page": "108",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f3fa1330e49fdfb4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002618629",
       "keywords_kr": [
         "샹까라",
         "범아일여",
@@ -29100,8 +29110,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002618629",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f3fa1330e49fdfb4884a65323211ff0",
       "id": "5f3fa1330e49fdfb4884a65323211ff0"
@@ -29125,9 +29137,9 @@
       "issue": "59",
       "start_page": "109",
       "end_page": "133",
-      "doi": "",
+      "doi": "10.32761/kjip.2020..59.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f3fa1330e49fdfbb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002618744",
       "keywords_kr": [
         "쫑카파",
         "찬드라키르티",
@@ -29144,8 +29156,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002618744",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f3fa1330e49fdfbb7998d826d417196",
       "id": "5f3fa1330e49fdfbb7998d826d417196"
@@ -29171,7 +29185,7 @@
       "end_page": "174",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f3fa1330e49fdfbc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002618759",
       "keywords_kr": [
         "마다바",
         "사르바다르샤나상그라하",
@@ -29188,8 +29202,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002618759",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f3fa1330e49fdfbc85d2949c297615a",
       "id": "5f3fa1330e49fdfbc85d2949c297615a"
@@ -29215,7 +29231,7 @@
       "end_page": "34",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ae0b3985b6c8e1c7c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002665314",
       "keywords_kr": [
         "비드야카라",
         "수바시타라트나코샤",
@@ -29235,8 +29251,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002665314",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ae0b3985b6c8e1c7c85d2949c297615a",
       "id": "ae0b3985b6c8e1c7c85d2949c297615a"
@@ -29262,7 +29280,7 @@
       "end_page": "57",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ae0b3985b6c8e1c747de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002665373",
       "keywords_kr": [
         "카마",
         "성욕",
@@ -29283,8 +29301,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002665373",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ae0b3985b6c8e1c747de9c1710b0298d",
       "id": "ae0b3985b6c8e1c747de9c1710b0298d"
@@ -29310,7 +29330,7 @@
       "end_page": "96",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ae0b3985b6c8e1c77f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002665410",
       "keywords_kr": [
         "무량수경",
         "무량수경종요",
@@ -29328,8 +29348,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002665410",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ae0b3985b6c8e1c77f7a54760bb41745",
       "id": "ae0b3985b6c8e1c77f7a54760bb41745"
@@ -29355,7 +29377,7 @@
       "end_page": "125",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ae0b3985b6c8e1c7e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002665444",
       "keywords_kr": [
         "반야경",
         "이제",
@@ -29378,8 +29400,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002665444",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ae0b3985b6c8e1c7e9810257f7042666",
       "id": "ae0b3985b6c8e1c7e9810257f7042666"
@@ -29405,7 +29429,7 @@
       "end_page": "165",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ae0b3985b6c8e1c7d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002665471",
       "keywords_kr": [
         "알람카라",
         "수사법",
@@ -29422,8 +29446,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002665471",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ae0b3985b6c8e1c7d18150b21a227875",
       "id": "ae0b3985b6c8e1c7d18150b21a227875"

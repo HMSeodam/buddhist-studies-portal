@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 1.04,
     "control_no": "20c4186b3804871f",
-    "last_updated": "2026-08-23"
+    "last_updated": "2026-09-30"
   },
   "articles": [
     {
@@ -16203,7 +16203,7 @@
     {
       "article_id": "17c01af73456394dd18150b21a227875",
       "title_kr": "義天大覺國師의 慈愍三藏 『淨土慈悲集』 간행에 관한 연구",
-      "title_en": "",
+      "title_en": "A Study of Uichon’s publication of the Collection on Compassion of the Pure Land (Jeongto jabei jeb, 淨土慈悲集)",
       "authors": [
         {
           "name": "한태식(보광)",
@@ -16219,9 +16219,9 @@
       "issue": "",
       "start_page": "9",
       "end_page": "32",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..33.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=17c01af73456394dd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002602114",
       "keywords_kr": [
         "義天大覺國師",
         "慈愍三藏",
@@ -16247,8 +16247,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002602114",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "17c01af73456394dd18150b21a227875",
       "id": "17c01af73456394dd18150b21a227875"
@@ -16272,9 +16274,9 @@
       "issue": "",
       "start_page": "35",
       "end_page": "68",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..33.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d74744a00eb6bcff47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002602250",
       "keywords_kr": [
         "산젠인 시아귀회",
         "오하라류 쇼묘",
@@ -16294,8 +16296,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002602250",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d74744a00eb6bcff47de9c1710b0298d",
       "id": "d74744a00eb6bcff47de9c1710b0298d"
@@ -16319,9 +16323,9 @@
       "issue": "",
       "start_page": "69",
       "end_page": "104",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..33.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d11bdf6013bdb5de4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002602315",
       "keywords_kr": [
         "각배재",
         "상주권공",
@@ -16345,8 +16349,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002602315",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d11bdf6013bdb5de4884a65323211ff0",
       "id": "d11bdf6013bdb5de4884a65323211ff0"
@@ -16354,7 +16360,7 @@
     {
       "article_id": "9da426fc59b7db49b36097776a77e665",
       "title_kr": "조선의 승과, 선시(選試)에 대한 고찰",
-      "title_en": "",
+      "title_en": "A Study on the Triennial Examination for Buddhist Monks in the Joseon Period",
       "authors": [
         {
           "name": "문상련(정각)",
@@ -16370,9 +16376,9 @@
       "issue": "",
       "start_page": "105",
       "end_page": "141",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..33.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9da426fc59b7db49b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002602324",
       "keywords_kr": [
         "僧科",
         "選試",
@@ -16390,8 +16396,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002602324",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9da426fc59b7db49b36097776a77e665",
       "id": "9da426fc59b7db49b36097776a77e665"
@@ -16415,9 +16423,9 @@
       "issue": "",
       "start_page": "143",
       "end_page": "175",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..33.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d393cb8e1277b7e27f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002602325",
       "keywords_kr": [
         "옥천사",
         "청련암",
@@ -16441,8 +16449,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002602325",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d393cb8e1277b7e27f7a54760bb41745",
       "id": "d393cb8e1277b7e27f7a54760bb41745"
@@ -16466,9 +16476,9 @@
       "issue": "",
       "start_page": "177",
       "end_page": "214",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..33.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1ea3580e82cd74394884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002602326",
       "keywords_kr": [
         "경봉",
         "통도사",
@@ -16486,8 +16496,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002602326",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1ea3580e82cd74394884a65323211ff0",
       "id": "1ea3580e82cd74394884a65323211ff0"
@@ -16511,9 +16523,9 @@
       "issue": "",
       "start_page": "215",
       "end_page": "241",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..33.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=22549ce1bac1dc384884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002602327",
       "keywords_kr": [
         "정토경관요문",
         "호계회칙",
@@ -16533,8 +16545,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002602327",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "22549ce1bac1dc384884a65323211ff0",
       "id": "22549ce1bac1dc384884a65323211ff0"
@@ -16542,7 +16556,7 @@
     {
       "article_id": "5ce82a70c0712629d18150b21a227875",
       "title_kr": "『화엄사사적(華嚴寺事蹟)』 창건기록의 타당성 분석 - 황룡사를 통한 자장(慈藏)의 영향 가능성을 중심으로",
-      "title_en": "",
+      "title_en": "Veracity Analysis of the Founding Records in  󰡔Hwaeomsa Sajeok(華嚴寺事蹟)󰡕 - Focusing on the possibility of the Jajang(慈藏)’s influence  through Hwangnyeongsa Temple -",
       "authors": [
         {
           "name": "염중섭(자현)",
@@ -16558,9 +16572,9 @@
       "issue": "",
       "start_page": "9",
       "end_page": "46",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..34.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5ce82a70c0712629d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002669931",
       "keywords_kr": [
         "中觀海眼",
         "緣起",
@@ -16581,8 +16595,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002669931",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5ce82a70c0712629d18150b21a227875",
       "id": "5ce82a70c0712629d18150b21a227875"
@@ -16590,7 +16606,7 @@
     {
       "article_id": "5ce82a70c07126296aae8a972f9116fb",
       "title_kr": "화엄사 사사자삼층석탑의 공양인물상 검토 – 8세기 중·후반 화엄종의 호남지역 세력 확대와 관련해서 -",
-      "title_en": "",
+      "title_en": "A study on the Four lions Three-story stone pagoda  and Human shape stone statue in Hwaeomsa Temple",
       "authors": [
         {
           "name": "황태성(무진)",
@@ -16606,9 +16622,9 @@
       "issue": "",
       "start_page": "47",
       "end_page": "87",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..34.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5ce82a70c07126296aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002669933",
       "keywords_kr": [
         "사사자삼층석탑",
         "공양인물상",
@@ -16628,8 +16644,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002669933",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5ce82a70c07126296aae8a972f9116fb",
       "id": "5ce82a70c07126296aae8a972f9116fb"
@@ -16637,7 +16655,7 @@
     {
       "article_id": "e6ce61116330eab37ecd42904f0c5d65",
       "title_kr": "구례 지역과 화엄사의 차 문화에 관한 문헌 고찰",
-      "title_en": "",
+      "title_en": "A Study of Literature on Tea Culture in Gurye Area and Hwaeomsa",
       "authors": [
         {
           "name": "박동춘",
@@ -16658,9 +16676,9 @@
       "issue": "",
       "start_page": "89",
       "end_page": "116",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..34.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6ce61116330eab37ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002669935",
       "keywords_kr": [
         "차 시배지",
         "구례",
@@ -16677,8 +16695,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002669935",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6ce61116330eab37ecd42904f0c5d65",
       "id": "e6ce61116330eab37ecd42904f0c5d65"
@@ -16686,7 +16706,7 @@
     {
       "article_id": "e6ce61116330eab3b36097776a77e665",
       "title_kr": "지리산지역의 구례 야생 차나무 분포현황과 생태적 특성",
-      "title_en": "",
+      "title_en": "The Distribution Status and Ecological Characteristics of the Gurye Wild Tea Tree in Mt. Jiri Area",
       "authors": [
         {
           "name": "문승옥",
@@ -16702,9 +16722,9 @@
       "issue": "",
       "start_page": "117",
       "end_page": "148",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..34.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6ce61116330eab3b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002669936",
       "keywords_kr": [
         "지리산",
         "구례",
@@ -16731,8 +16751,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002669936",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6ce61116330eab3b36097776a77e665",
       "id": "e6ce61116330eab3b36097776a77e665"
@@ -16740,7 +16762,7 @@
     {
       "article_id": "e6ce61116330eab34884a65323211ff0",
       "title_kr": "세친의 『정토론』이 원효의 『아미타경소』에 미친 영향 - 『정토론』인용구절을 중심으로",
-      "title_en": "",
+      "title_en": "The Influence of Vasubandhu’s 󰡔Sukhāvatīvyūhasūtropadeśa󰡕 on Wonhyo’s  󰡔Commentary on the Amitâbha Sūtra Spoken by the Buddha󰡕",
       "authors": [
         {
           "name": "김문선(미탄)",
@@ -16756,9 +16778,9 @@
       "issue": "",
       "start_page": "165",
       "end_page": "199",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..34.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6ce61116330eab34884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002669958",
       "keywords_kr": [
         "『아미타경소』",
         "『정토론』",
@@ -16777,8 +16799,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002669958",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6ce61116330eab34884a65323211ff0",
       "id": "e6ce61116330eab34884a65323211ff0"
@@ -16786,7 +16810,7 @@
     {
       "article_id": "e6ce61116330eab3b7998d826d417196",
       "title_kr": "중국불교 전적에 나타난 염불선의 계승과 발전 - 정중무상을 중심으로",
-      "title_en": "",
+      "title_en": "The succession and development of yeombulson in the history of Chinese Buddhism  -Focusing on Jeongjoongmusang-",
       "authors": [
         {
           "name": "정광균(법상)",
@@ -16802,9 +16826,9 @@
       "issue": "",
       "start_page": "201",
       "end_page": "249",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..34.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6ce61116330eab3b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002669960",
       "keywords_kr": [
         "염불선",
         "淨衆無相",
@@ -16824,8 +16848,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002669960",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6ce61116330eab3b7998d826d417196",
       "id": "e6ce61116330eab3b7998d826d417196"
@@ -16879,7 +16905,7 @@
     {
       "article_id": "e6ce61116330eab347de9c1710b0298d",
       "title_kr": "원광의 思想과 그 眞影 복원을 위한 一考",
-      "title_en": "",
+      "title_en": "A Study on Venerable Dharma Wonkwang 圓光's Thought and Consideration for His Portrait Restoration",
       "authors": [
         {
           "name": "홍나연",
@@ -16895,9 +16921,9 @@
       "issue": "",
       "start_page": "297",
       "end_page": "329",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..34.008",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6ce61116330eab347de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002675438",
       "keywords_kr": [
         "원광법사",
         "세속오계",
@@ -16915,8 +16941,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002675438",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6ce61116330eab347de9c1710b0298d",
       "id": "e6ce61116330eab347de9c1710b0298d"
@@ -16924,7 +16952,7 @@
     {
       "article_id": "e6ce61116330eab37f7a54760bb41745",
       "title_kr": "법조(法照)의 수행 감응과 오회염불(五會念佛)",
-      "title_en": "",
+      "title_en": "The Spiritual inductionof Fazhao and Mountain Wutai’s Manjusri Belief",
       "authors": [
         {
           "name": "곽뢰",
@@ -16940,9 +16968,9 @@
       "issue": "",
       "start_page": "331",
       "end_page": "359",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..34.009",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6ce61116330eab37f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002675796",
       "keywords_kr": [
         "법조",
         "수행감응",
@@ -16961,8 +16989,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002675796",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6ce61116330eab37f7a54760bb41745",
       "id": "e6ce61116330eab37f7a54760bb41745"
@@ -16970,7 +17000,7 @@
     {
       "article_id": "e6ce61116330eab3d18150b21a227875",
       "title_kr": "삼척 안정사 땅설법의 구비경전과 무형유산적 가치",
-      "title_en": "",
+      "title_en": "Contents of the Ttangseolbeop of Anjeongsa Temple in Samcheok and Value as an Intangible Heritage",
       "authors": [
         {
           "name": "김형근",
@@ -16986,9 +17016,9 @@
       "issue": "",
       "start_page": "361",
       "end_page": "400",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..34.010",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6ce61116330eab3d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002677035",
       "keywords_kr": [
         "안정사",
         "땅설법",
@@ -17015,8 +17045,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002677035",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6ce61116330eab3d18150b21a227875",
       "id": "e6ce61116330eab3d18150b21a227875"
@@ -17024,7 +17056,7 @@
     {
       "article_id": "e6ce61116330eab36aae8a972f9116fb",
       "title_kr": "생전예수재 상징성의 인도적 연원",
-      "title_en": "",
+      "title_en": "Indian Origin of Symbolism on Advance Funeral Ceremony",
       "authors": [
         {
           "name": "성청환",
@@ -17040,9 +17072,9 @@
       "issue": "",
       "start_page": "401",
       "end_page": "431",
-      "doi": "",
+      "doi": "10.35299/jungto.2020..34.011",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6ce61116330eab36aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002675799",
       "keywords_kr": [
         "생전예수재(生前豫修齋)",
         "금은전(金銀錢)",
@@ -17061,11 +17093,50 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002675799",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6ce61116330eab36aae8a972f9116fb",
       "id": "e6ce61116330eab36aae8a972f9116fb"
+    },
+    {
+      "article_id": "ART002675804",
+      "id": "ART002675804",
+      "kci_id": "ART002675804",
+      "title_kr": "생전예수재의 삼단 설행과 『금강경』 독경",
+      "title_en": "On Reading the Diamond Sutra and the Three Stages of Yesujae (預修齋)",
+      "authors": [
+        {
+          "name": "신규탁",
+          "affiliation": "연세대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "최근, 한국에서 생전예수재에 관한 연구는 여러 방면에서 진행되었다. 문헌적 측면, 음악적 측면, 무용적 측면, 무대설치의 측면, 그리고 민속적 측면이 바로 그런 연구 방면의 사례이다. 본 논문의 집필 의도는 이런 기존의 연구를 수용하면서, 불교의 재(齎) 의례 문헌자료에 들어 있는 불교의 수행적 측면을 복원하려는 것이다. ‘생전예수재(生前豫修齋)’는 이 용어가 보여주듯이, 살아생전 당사자가 자신의 업장을 스스로 소멸시킨다는 뜻이다. 그 용어에는 ‘수행’의 의미가 핵심을 이룬다. 그리고 실제의 진행도 그렇다. 수행의 방법으로는 기본적으로 두 축으로 이루어져 있다. 한 축은 불･보살 내지는 지옥 재판관에게 공양을 올리는 것이다. 다른 한 축은 『금강경』을 독송하는 것이다. 이 중에서 『금강경』을 독송하는 이유는, 그 경에 담긴 내용대로 보살행을 실천하겠다는 자기 결심이다. 본 논문에서 나는 『금강경』 자체를 3단원으로 나누어서 독송할 것을 제안했고, 그 근거를 서술적으로 제시했는데, 그 과정에서 나는 인도의 세친과 중국의 종밀의 전통을 선택적으로 수용했다.",
+      "abstract_en": "Recent studies on Yesujae in Korea presented various perspectives on it. For example, its philological, musical, performative, scenographical and folkloric aspects have been investigated. In line with these studies, this essay illuminates the essence of Buddhist practice reflected in the literature on Buddhist rituals. Yesujae (預修齋) literally means a ritual in one’s lifetime to dissolve one’s own karmic obstacles, in which the significance of ‘practice’ is implied. The process of the ritual also suggests the importance of practice. The method of practice is basically two-fold. One is presenting an offering to the Buddha, Bodhisattvas or the Kings of Hell. The other is reading the Diamond Sutra. While reading the Diamond Sutra makes a resolution to fulfill the Bodhisattva-practice as illustrated in it. This essay suggests a way to read the Diamond Sutra in three parts. The grounds for this method of reading are partly based on the theoretical traditions of Vasubandhu (世親; 316-396) and Guifeng Zongmi (圭峰宗密; 780-841).",
+      "journal_name": "정토학연구",
+      "year": "2020",
+      "volume": "34",
+      "issue": "",
+      "start_page": "433",
+      "end_page": "466",
+      "doi": "10.35299/jungto.2020..34.012",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002675804",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "한국정토학회",
+      "kci_year": "2020",
+      "kci_volume": "",
+      "kci_issue": "34",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
     },
     {
       "article_id": "cb2ca9090fe7cc7dc85d2949c297615a",
