@@ -70,21 +70,6 @@ output/updates.json            공지
 | 출력 빌드 | RISS·KCI 원본을 대조해 output 과 공지를 새로 만듦 |
 | 커밋 | 앞 단계가 실패하거나 시간을 초과해도 수집된 만큼은 반드시 저장 |
 
-### RISS 차단 대응 (2026-09)
-
-- 차단 문구, 경고창, 팝업, 빈 응답, 시간 초과를 감지하면 3 → 7 → 15 → 25분 동안 쉬고 브라우저 세션을 새로 엽니다
-- 서버가 느려지면 모든 대기 시간을 자동으로 늘립니다 (최대 4배)
-- 상세 페이지의 제목·학술지명·연도·호수를 목록과 대조합니다. 어긋나는 **허위 응답**은 저장하지 않고, 다음 실행 때 다시 수집합니다
-- 시간 예산(기본 290분) 안에서 스스로 멈춘 뒤 저장합니다. 끝내지 못한 학술지는 `collector/state/riss_pending.json`에 남아 다음 실행이 이어받습니다
-- 차단으로 미완료되면 같은 실행 안에서 20분, 40분을 쉬었다가 남은 학술지만 다시 시도합니다
-
-### KCI 연동 켜기
-
-1. 저장소 **Settings → Secrets and variables → Actions → Variables**에 `KCI_ENABLED` = `true`를 추가합니다
-2. (선택) KCI Open API 키를 발급받아 **Secrets**에 `KCI_API_KEY`로 넣으면 키워드까지 받아옵니다
-3. 첫 실행 전에 **Actions → Run workflow**에서 target을 `kci`로 두고 한 번 실행한 뒤, 로그에서 학술지명이 맞게 연결되는지 확인하세요
-   - 로컬에서는 `python kci_oai_updater.py --discover --dry-run`으로 이름이 다른 학술지를 찾을 수 있습니다
-
 ### 공지 직접 쓰기
 
 `output/updates.json`의 `notices`에 한 줄을 추가하면 됩니다.
