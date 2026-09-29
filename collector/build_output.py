@@ -378,8 +378,11 @@ def build(check=False):
             if no_kci:
                 f.write(f"\nℹ KCI 에서 아직 못 받은 학술지: {', '.join(no_kci)}\n")
             for c in cand_report:
-                f.write(f"\n🔎 KCI '{c['kci_name']}' {c['records']}건 → {c['best']} {c['rate']*100:.0f}% 일치"
-                        + (" (자동 연결)" if c["accepted"] else "") + "\n")
+                if c["accepted"]:
+                    f.write(f"\n🔎 KCI '{c['kci_name']}' {c['records']}건 → 우리 '{c['best']}'와 제목 {c['rate']*100:.0f}% 일치 → 자동 연결\n")
+                else:
+                    f.write(f"\n🔎 KCI '{c['kci_name']}' {c['records']}건 → 우리 학술지와 제목이 맞지 않아 연결하지 않음"
+                            f" (이름만 비슷한 다른 학술지)\n")
     print(f"\n✅ 빌드 완료: 새 논문 {new_total}편")
 
 
