@@ -171,6 +171,10 @@ def is_front_matter(k, name):
     t = (k.get("title_kr") or "").strip()
     if not t or _FRONT.match(t):
         return True
+    # KCI 쪽 시험용 레코드 (예: IJBTC 'The essence' — 저자 'asdf')
+    names = {(a.get("name") or "").strip().lower() for a in (k.get("authors") or [])}
+    if names & {"asdf", "test", "테스트", "qwer", "aaa"} or t.lower() in ("test", "테스트"):
+        return True
     from paper_match import mtitle as _mt
     strip = lambda x: re.sub(r"(?:제|vol|no)?\d+(?:집|호|권)?", "", _mt(x))
     core = strip(t)
@@ -189,6 +193,9 @@ def build_journal(name, riss, kci, extra_kci=()):
     out = []
     for r in riss:
         rec = dict(r)
+        for f in ("title_kr", "title_en"):          # RISS 제목 안의 줄바꿈·탭 정리 ('Double Tragedy\n\t\t : …')
+            if rec.get(f):
+                rec[f] = re.sub(r"\s+", " ", rec[f]).replace(" :", ":").strip()
         ks = by_r.get(id(r), [])
         for k in sorted(ks, key=lambda x: bool(x.get("link_only"))):
             rec = merge_pair(rec, k)
