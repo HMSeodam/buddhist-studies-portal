@@ -162,6 +162,21 @@ def merge_pair(r, k):
     return rec
 
 
+_FRONT = re.compile(r"^(?:목차|차례|目次|편집후기|編輯後記|간행사|발간사|권두언|卷頭言|투고규정|논문투고|연구윤리|학회소식|회칙|"
+                    r"편집위원|편집규정|표지|판권|contents|editorial)", re.I)
+
+
+def is_front_matter(k, name):
+    """논문이 아닌 KCI 레코드(목차·편집후기, '佛敎硏究26' 처럼 학술지 이름+호수만 있는 것)."""
+    t = (k.get("title_kr") or "").strip()
+    if not t or _FRONT.match(t):
+        return True
+    from paper_match import mtitle as _mt
+    strip = lambda x: re.sub(r"(?:제|vol|no)?\d+(?:집|호|권)?", "", _mt(x))
+    core = strip(t)
+    return bool(core) and core == strip(name)
+
+
 def build_journal(name, riss, kci, extra_kci=()):
     riss = [a for a in riss if not is_recommended(a)]
     kci_all = [k for k in list(kci) + list(extra_kci)]
@@ -204,6 +219,8 @@ def build_journal(name, riss, kci, extra_kci=()):
     kci_only = held = 0
     for k in kci_all:
         if id(k) in pairs_map or k.get("link_only"):
+            continue
+        if is_front_matter(k, name):
             continue
         if not trusted or (k.get("publisher") or "?") in bad_pubs:
             held += 1           # 검증될 때까지 보류 (원본에는 남아 있음)

@@ -247,6 +247,15 @@ def http_get(session, url, params, tries=4, stats=None):
     return None
 
 
+def _bump_token(token: str) -> str:
+    """'시작:끝:100:501079' → '시작:끝:100:501179' (KCI 토큰의 마지막 수는 내부 논문 일련번호 위치)."""
+    p = token.split(":")
+    if len(p) >= 2 and p[-1].isdigit() and p[-2].isdigit():
+        p[-1] = str(int(p[-1]) + int(p[-2]))
+        return ":".join(p)
+    return ""
+
+
 def _next_params(fmt, token, style):
     if style == "kci":    # KCI 자체 링크 방식: 토큰 + metadataPrefix
         return {"verb": "ListRecords", "metadataPrefix": fmt, "resumptionToken": token}
@@ -269,10 +278,21 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
         print(f"  ↪ {date_from} 을 지난번 위치(토큰 {start_token})부터 이어받음")
     page_in_win = 1 if start_token else 0
     cooldowns = [120, 300, 600]      # 서버 오류(500 등)가 이어질 때 쉬는 시간(초) — 그래도 안 되면 다음 실행으로
+    skipped = False
     while True:
         if time.time() > deadline:
             return False, "시간 예산 소진"
         text = http_get(s, OAI_URL, params, stats=stats)
+        page_parser = parser
+        tok_now = params.get("resumptionToken", "")
+        if text is None and tok_now and fmt == "oai_kci":
+            # 2019-04 적재분처럼 특정 쪽만 상세 형식(oai_kci)에서 서버 오류가 나는 경우가 있다 → 그 쪽만 간략 형식으로
+            t2 = http_get(s, OAI_URL, {"verb": "ListRecords", "metadataPrefix": "oai_dc", "resumptionToken": tok_now},
+                          tries=2, stats=stats)
+            if t2 and "<record" in t2:
+                text, page_parser = t2, parse_oai_dc
+                print(f"  ↪ 상세 형식 오류 쪽을 간략 형식으로 받음 (위치 {tok_now.split(':')[-1]})")
+                stats["notes"].append(f"{date_from}: 위치 {tok_now.split(':')[-1]} 쪽은 간략 형식으로 받음")
         if text is None and cooldowns and (stats["pages"] > 0 or fmt != "oai_kci" or start_token) \
                 and time.time() + cooldowns[0] + 120 < deadline:
             w = cooldowns.pop(0)
@@ -285,10 +305,20 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
             fmt = fmt_state["fmt"] = stats["format"] = "oai_dc"; parser = parse_oai_dc
             params = {"verb": "ListRecords", "set": "ARTI", "metadataPrefix": fmt, "from": date_from, "until": date_until}
             continue
+        if text is None and tok_now and not skipped and _bump_token(tok_now):
+            # 쉬어도 이 쪽만 계속 실패 → 이 쪽(100건)을 건너뛰고 다음 쪽이 되는지 본다 (다음 쪽도 안 되면 서버 장애로 보고 멈춤)
+            nt = _bump_token(tok_now)
+            print(f"  ⤼ 위치 {tok_now.split(':')[-1]} 쪽을 받을 수 없어 건너뜀 → {nt.split(':')[-1]}")
+            stats["notes"].append(f"{date_from}: 위치 {tok_now.split(':')[-1]} 쪽(100건) 건너뜀 — KCI 서버 오류")
+            stats.setdefault("skipped", []).append(tok_now)
+            skipped = True
+            params = _next_params(fmt, nt, fmt_state["page_style"])
+            stats["resume"] = {"window": date_from, "token": nt, "fmt": fmt, "page_style": fmt_state["page_style"]}
+            continue
         if text is None:
             return False, "KCI 서버 응답 없음"
         try:
-            recs, token, err = parser(text)
+            recs, token, err = page_parser(text)
         except ET.ParseError:
             return False, "XML 아님(차단 안내 페이지일 수 있음): " + re.sub(r"\s+", " ", text[:150])
         if err == "noRecordsMatch":
@@ -311,6 +341,9 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
             return False, f"OAI 오류 {err}"
         stats["pages"] += 1; page_in_win += 1
         cooldowns = [120, 300, 600]
+        skipped = False
+        if page_parser is not parser and token and token == tok_now:
+            token = _bump_token(tok_now)          # 간략 형식 응답이 같은 토큰을 돌려주면 직접 다음 위치로
         msz = re.search(r'completeListSize="(\d+)"', text)
         if msz and page_in_win == 1:
             print(f"  · {date_from}: 전체 {int(msz.group(1)):,}건")
@@ -626,8 +659,8 @@ def main():
             where = ""
             if new_resume:
                 cur = re.findall(r"\d+", new_resume.get("token", ""))
-                size = f"(그 날 전체 {new_resume['size']:,}건)" if new_resume.get("size") else ""
-                where = (f"{new_resume['window']} 의 앞 {int(cur[-1]):,}건{size} 다음" if cur else new_resume["window"]) + "부터"
+                size = f"(구간 전체 {new_resume['size']:,}건)" if new_resume.get("size") else ""
+                where = (f"{new_resume['window']} 구간의 이어받기 위치(일련번호 {int(cur[-1]):,}){size}" if cur else new_resume["window"]) + "부터"
             else:
                 nxt = done_until or (bf.get("done_until", "") if args.date_from else "")
                 where = (f"{nxt} 다음 날부터" if nxt else f"{dfrom} 부터")

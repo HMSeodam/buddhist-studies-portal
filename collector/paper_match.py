@@ -34,6 +34,7 @@ _PREFIX_RE = re.compile(
     r"^\s*(?:[<〈《\[【][^>〉》\]】]{0,40}[>〉》\]】]\s*)+"          # <특집논문1> [기획] 등
     r"|^\s*(?:일반|특집|기획|연구|투고|발표|초청|학술|번역|자료)?\s*논문\s*\d*\s*[:：]\s*"   # 일반논문 :
     r"|^\s*특집\s*\d*\s*[:：]\s*"
+    r"|^\s*(?:서평|書評|북\s*리뷰|Book\s*Review)\s*[:：]\s*"          # 서평: 책이름 ↔ 책이름
 )
 _ROMAN = {"ⅰ": 1, "ⅱ": 2, "ⅲ": 3, "ⅳ": 4, "ⅴ": 5, "ⅵ": 6, "i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6}
 _PART_RE = re.compile(r"(?:\(\s*|⑴|⑵|⑶|⑷|⑸)?\b(ⅰ|ⅱ|ⅲ|ⅳ|ⅴ|ⅵ|i{1,3}|iv|vi?|\d{1,2}|上|中|下|상|하)\s*\)?\s*$")
@@ -128,8 +129,21 @@ def _tail(t: str) -> str:
     return parts[-1] if len(parts) > 1 else ""
 
 
+def _en_sims(r: dict, k: dict) -> float:
+    """영문 제목끼리/한쪽 원제가 영문인 경우 비교.
+    예) RISS '조화의 발견: …'(영문 제목 'Harmony Unveiled: …') ↔ KCI 원제 'Harmony Unveiled: …'"""
+    best = 0.0
+    rk, re_, kk, ke = r.get("title_kr", ""), r.get("title_en", ""), k.get("title_kr", ""), k.get("title_en", "")
+    for a, b in ((re_, kk), (rk, ke), (re_, ke)):
+        if a and b and len(mtitle(a)) >= 12 and len(mtitle(b)) >= 12:
+            best = max(best, title_sim(a, b))
+    return best
+
+
 def _pair_score(r: dict, k: dict, mr: str, mk: str):
     sim = title_sim(r.get("title_kr", ""), k.get("title_kr", ""), mr, mk)
+    # 영문 제목 대조는 보조: 한글 원제끼리 맞는 레코드가 있으면 그쪽을 우선 (RISS 에 같은 논문이 영문 제목으로 한 번 더 실린 경우 대비)
+    sim = max(sim, _en_sims(r, k) * 0.75)
     for tr, tk in ((_tail(r.get("title_kr", "")), k.get("title_kr", "")),
                    (r.get("title_kr", ""), _tail(k.get("title_kr", "")))):
         if tr and tk and len(mtitle(tr)) >= 6 and len(mtitle(tk)) >= 6:
@@ -218,7 +232,7 @@ def match_journal(riss_recs: list, kci_recs: list):
                     continue
                 if year_of(k) and year_of(r) and abs(year_of(k) - year_of(r)) > 1:
                     continue
-                s = title_sim(k.get("title_kr", ""), r.get("title_kr", ""), mk, mr)
+                s = max(title_sim(k.get("title_kr", ""), r.get("title_kr", ""), mk, mr), _en_sims(r, k) * 0.95)
                 if s > bs:
                     best, bs = r, s
             if best is not None and bs >= 0.9:
