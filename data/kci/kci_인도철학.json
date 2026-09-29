@@ -12844,6 +12844,72 @@
       "kci_year": "2019",
       "kci_volume": "",
       "kci_issue": "57"
+    },
+    {
+      "article_id": "ART002065665",
+      "id": "ART002065665",
+      "kci_id": "ART002065665",
+      "title_kr": "꿈꾸는 자와 요가 수행자 - 불교와 쉬바파의 관념론적 상관성",
+      "title_en": "The Dreamer and the Yogin: On the relationship between Buddhist and Śaiva idealisms",
+      "authors": [
+        {
+          "name": "정승석",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "카슈미르의 철학자인 Utpaladeva와 Abhinavagupta가 10～11세기에 대성시킨 것이 재인식(Pratyabhijñā)설이며, 이것은 Śaiva(쉬바파)의 불이론(不二論)적 성전들에 포함되어 있는 형이상학적 원리들이 이성적으로 정당하다는 사실을 제시한다. 그러나 우리의 기대치와는 반대로, Utpaladeva와 Abhinavagupta가 자신들의 관념론을 옹호할 때 의존하는 많은 주장들의 전거가 Śaiva라기보다는 불교에 속해 있다. 이러한 관점에서 본론은 불교의 인식논리학파가 재인식설에 미친 심원한 영향을 검토한다. 그러나 여기서는 또한 Utpaladeva와 Abhinavagupta가 자신들의 논적인 불교의 영향을 알아채지 못하거나 무심결에 받은 것은 아니라는 사실을 증명할 것이다. 즉, 그들은 이 영향을 체계적으로 역설하고 있으므로, 논적들의 개념을 전용한 책임은 전적으로 그들 자신에게 있다. 더욱이 그들은, 의식이 겉으로 보기에는 외적이고 가지각색의 세계로 현현하는 방식에 관해, 가장 현저하게는 식론자(Vijñānavādin)들의 전통적인 비유를 대체하는 것으로 자신들의 주장이 근본적으로 다르다는 것을 강조한다. Śaiva에 따르면, 지각된 대상들은 꿈속의 대상이 아니라 요가 수행자의 산물들로 비유되어야 한다.",
+      "abstract_en": "The Pratyabhijñā system, elaborated in the tenth and eleventh centuries by the Kashmiri philosophers Utpaladeva and Abhinavagupta, presents a rational justification of the metaphysical principles contained in the Śaiva nondualistic scriptures. However, contrary to what one might expect, many arguments to which Utpaladeva and Abhinavagupta resort when defending their idealism belong to Buddhist rather than Śaiva sources. This article examines the profound influence, in this respect, of the Buddhist “logico-epistemological school” on the Pratyabhijñā system. But it also shows that Utpaladeva and Abhinavagupta are not unknowingly or unwittingly influenced by their Buddhist opponents: they systematically emphasize this influence, thus taking full responsibility for appropriating their rivals’ concepts. Moreover, they highlight their fundamental divergence regarding the way consciousness manifests a seemingly external and diverse universe, most notably by replacing the Vijñānavādins’ traditional analogy: according to the Śaivas, perceived objects should not be compared to dreamt objects, but to yogins’ creations.",
+      "journal_name": "인도철학",
+      "year": "2015",
+      "volume": "",
+      "issue": "45",
+      "start_page": "193",
+      "end_page": "273",
+      "doi": "10.32761/kjip.2015..45.007",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002065665",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2015",
+      "kci_volume": "",
+      "kci_issue": "45"
+    },
+    {
+      "article_id": "ART001911157",
+      "id": "ART001911157",
+      "kci_id": "ART001911157",
+      "title_kr": "불성( 佛性 )과 영성( 靈性 )",
+      "title_en": "Spirituality and Buddha Nature",
+      "authors": [
+        {
+          "name": "마츠모토 시로",
+          "affiliation": "고마자와대학",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 인도철학회와 금강대 불교문화연구소에서 주최한 공동학술대회(2014년 3월 28일, 금강대학교 본관 사이버 강의실), “불성은 영성인가?”에서 주제 발표를 해 주신 마쯔모토 시로(松本史郞) 교수의 초고를한국어로 번역하여, 내용상 서론, 본론, 결론의 논문 형식으로 편집한것이다. 선생의 발표 초고문 중에서 본문에 실린 출처 등을 각주로 처리하였다. 또한 일본어 원문과 일치하는 선생의 영어 번역 부분도 각주로 옮겼다. 따라서 번역문의 각주 번호는 부록에 있는 일본어 원문과다르다.",
+      "abstract_en": "",
+      "journal_name": "인도철학",
+      "year": "2014",
+      "volume": "",
+      "issue": "41",
+      "start_page": "5",
+      "end_page": "33",
+      "doi": "10.32761/kjip.2014..41.001",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001911157",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2014",
+      "kci_volume": "",
+      "kci_issue": "41"
     }
   ]
 }

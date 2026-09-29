@@ -8489,6 +8489,39 @@
       "kci_year": "2011",
       "kci_volume": "",
       "kci_issue": "34"
+    },
+    {
+      "article_id": "ART001638748",
+      "id": "ART001638748",
+      "kci_id": "ART001638748",
+      "title_kr": "Reflections on the life and work of Professor Yi Ki-young",
+      "title_en": "",
+      "authors": [
+        {
+          "name": "Lewis Lancaster",
+          "affiliation": "University of California",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "불교연구",
+      "year": "2012",
+      "volume": "",
+      "issue": "36",
+      "start_page": "245",
+      "end_page": "254",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001638748",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "한국불교연구원",
+      "kci_year": "2012",
+      "kci_volume": "",
+      "kci_issue": "36"
     }
   ]
 }

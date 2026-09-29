@@ -445,7 +445,7 @@
     },
     {
       "article_id": "4587d2b350a521dfffe0bdc3ef48d419",
-      "title_kr": "宏智正覺의 修証觀  -- 坐禪과 默照와 離徵의 관계를 중심으로 --",
+      "title_kr": "宏智正覺의 修証觀 -- 坐禪과 默照와 離徵의 관계를 중심으로 --",
       "title_en": "",
       "authors": [
         {
@@ -1149,7 +1149,7 @@
     },
     {
       "article_id": "b33242d4e59d6c80ffe0bdc3ef48d419",
-      "title_kr": "『유가사지론』「성문지」산스크리트어 원전연구 : śīlasaṃvara (戒律儀)",
+      "title_kr": "『유가사지론』「성문지」산스크리트어 원전연구: śīlasaṃvara (戒律儀)",
       "title_en": "",
       "authors": [
         {
@@ -1181,7 +1181,7 @@
     },
     {
       "article_id": "295f6176d717f40affe0bdc3ef48d419",
-      "title_kr": "元曉 傳記의 재구성 : 신화적 해석의 극복",
+      "title_kr": "元曉 傳記의 재구성: 신화적 해석의 극복",
       "title_en": "",
       "authors": [
         {
@@ -1450,7 +1450,7 @@
     },
     {
       "article_id": "50786bca61b0491fffe0bdc3ef48d419",
-      "title_kr": "Jñānaśrībhadra and Jñānavajra : Their Biographical Approaches",
+      "title_kr": "Jñānaśrībhadra and Jñānavajra: Their Biographical Approaches",
       "title_en": "",
       "authors": [
         {
@@ -4450,13 +4450,15 @@
       "end_page": "15",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=368abe4fd22a3857ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300682",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300682",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "368abe4fd22a3857ffe0bdc3ef48d419",
       "id": "368abe4fd22a3857ffe0bdc3ef48d419"
@@ -4464,7 +4466,7 @@
     {
       "article_id": "93472e91b053bf53ffe0bdc3ef48d419",
       "title_kr": "懶翁慧勤의 불교계 行蹟과 遺物ㆍ遺蹟 - 諸 紀錄 및 자료의 검토 試攷 -",
-      "title_en": "",
+      "title_en": "The Buddhism Activities and the Traces of Buddhist Monk NAong(懶翁)",
       "authors": [
         {
           "name": "황인규",
@@ -4482,7 +4484,7 @@
       "end_page": "70",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=93472e91b053bf53ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300696",
       "keywords_kr": [
         "지공",
         "나옹",
@@ -4501,8 +4503,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300696",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "93472e91b053bf53ffe0bdc3ef48d419",
       "id": "93472e91b053bf53ffe0bdc3ef48d419"
@@ -4510,7 +4514,7 @@
     {
       "article_id": "d0c7d7f3498724cfffe0bdc3ef48d419",
       "title_kr": "나옹혜근의 선사상에 대한 철학적 분석",
-      "title_en": "",
+      "title_en": "The philosophical analysis about Na-ong(懶翁)'s Zen",
       "authors": [
         {
           "name": "신규탁",
@@ -4528,7 +4532,7 @@
       "end_page": "98",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d0c7d7f3498724cfffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300716",
       "keywords_kr": [
         "나옹혜근",
         "불성",
@@ -4545,8 +4549,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300716",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d0c7d7f3498724cfffe0bdc3ef48d419",
       "id": "d0c7d7f3498724cfffe0bdc3ef48d419"
@@ -4554,7 +4560,7 @@
     {
       "article_id": "9dc37c9f229c7483ffe0bdc3ef48d419",
       "title_kr": "나옹왕사의 정토사상이 한국불교신앙에 미친 영향",
-      "title_en": "",
+      "title_en": "The Influence of the Pure-Land Idea of Na-Wong Master on Faith of Korean Buddhism.",
       "authors": [
         {
           "name": "한태식(보광)",
@@ -4572,7 +4578,7 @@
       "end_page": "164",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9dc37c9f229c7483ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300725",
       "keywords_kr": [
         "노는 입에 염불하라",
         "懶翁惠勤",
@@ -4607,8 +4613,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300725",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9dc37c9f229c7483ffe0bdc3ef48d419",
       "id": "9dc37c9f229c7483ffe0bdc3ef48d419"
@@ -4616,7 +4624,7 @@
     {
       "article_id": "58d6032ab185838cffe0bdc3ef48d419",
       "title_kr": "나옹왕사의 생애를 통한 지역문화콘텐츠 개발방안",
-      "title_en": "",
+      "title_en": "A Study on the Development of Local Cultural Contents through the Life of Naongwangsa",
       "authors": [
         {
           "name": "이재수",
@@ -4634,7 +4642,7 @@
       "end_page": "206",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=58d6032ab185838cffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300733",
       "keywords_kr": [
         "나옹",
         "나옹왕사",
@@ -4659,8 +4667,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300733",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "58d6032ab185838cffe0bdc3ef48d419",
       "id": "58d6032ab185838cffe0bdc3ef48d419"
@@ -4668,7 +4678,7 @@
     {
       "article_id": "eb62ee0f49bae485ffe0bdc3ef48d419",
       "title_kr": "백용성스님의 大覺證得과 點檢에 관한 연구",
-      "title_en": "",
+      "title_en": "A Study of Baek Yong-Sung Sunim's Great Enlightenment(大覺證得) and Continuous Zen Practice (點檢)",
       "authors": [
         {
           "name": "한태식(보광)",
@@ -4686,7 +4696,7 @@
       "end_page": "246",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=eb62ee0f49bae485ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300745",
       "keywords_kr": [
         "용성",
         "수월",
@@ -4715,8 +4725,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300745",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "eb62ee0f49bae485ffe0bdc3ef48d419",
       "id": "eb62ee0f49bae485ffe0bdc3ef48d419"
@@ -4724,7 +4736,7 @@
     {
       "article_id": "4b38b8e3fb27c893ffe0bdc3ef48d419",
       "title_kr": "『각해일륜』분석 - 동북아사아불교의 전통과 관련하여 -",
-      "title_en": "",
+      "title_en": "The analysis of The Kak-hie-il-ryun; 覺海日輪 ; focus on the East-Asian traditional Buddhism",
       "authors": [
         {
           "name": "신규탁",
@@ -4742,7 +4754,7 @@
       "end_page": "282",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4b38b8e3fb27c893ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300786",
       "keywords_kr": [
         "覺海日輪",
         "白龍城",
@@ -4765,8 +4777,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300786",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4b38b8e3fb27c893ffe0bdc3ef48d419",
       "id": "4b38b8e3fb27c893ffe0bdc3ef48d419"
@@ -4774,7 +4788,7 @@
     {
       "article_id": "7ad3405970424387ffe0bdc3ef48d419",
       "title_kr": "소태산의 깨달음과 법신불신앙운동",
-      "title_en": "",
+      "title_en": "So-tae-san's Enlightenment and the Movement of Belief in Dharma-kāya Buddha",
       "authors": [
         {
           "name": "노권용",
@@ -4792,7 +4806,7 @@
       "end_page": "322",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7ad3405970424387ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300803",
       "keywords_kr": [
         "소태산",
         "깨달음",
@@ -4819,8 +4833,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300803",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7ad3405970424387ffe0bdc3ef48d419",
       "id": "7ad3405970424387ffe0bdc3ef48d419"
@@ -4828,7 +4844,7 @@
     {
       "article_id": "c7a5c5e3ad793cfeffe0bdc3ef48d419",
       "title_kr": "진각종조 회당대종사의 깨달음",
-      "title_en": "",
+      "title_en": "Enlightenment of Hoedang, Founder of Jingak Order",
       "authors": [
         {
           "name": "권기현",
@@ -4846,7 +4862,7 @@
       "end_page": "357",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c7a5c5e3ad793cfeffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300814",
       "keywords_kr": [
         "회당",
         "손규상",
@@ -4872,8 +4888,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300814",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c7a5c5e3ad793cfeffe0bdc3ef48d419",
       "id": "c7a5c5e3ad793cfeffe0bdc3ef48d419"
@@ -4881,7 +4899,7 @@
     {
       "article_id": "f0d755412888c419ffe0bdc3ef48d419",
       "title_kr": "깨달음에 대한 몇 가지 오해, 그리고 진실",
-      "title_en": "",
+      "title_en": "Misunderstandings of Enlightenment, and the Truth",
       "authors": [
         {
           "name": "홍사성",
@@ -4899,7 +4917,7 @@
       "end_page": "393",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f0d755412888c419ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300834",
       "keywords_kr": [
         "깨달음(해탈ㆍ열반)",
         "연기법칙",
@@ -4924,8 +4942,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300834",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f0d755412888c419ffe0bdc3ef48d419",
       "id": "f0d755412888c419ffe0bdc3ef48d419"
@@ -4933,7 +4953,7 @@
     {
       "article_id": "3413f8a45d97084dffe0bdc3ef48d419",
       "title_kr": "한용운의 불교 근대화 기획과 승려결혼 자유론",
-      "title_en": "",
+      "title_en": "Han Yong Woon's Advocacy of the Buddhist Modernization and Clerical Marriage of Buddhist Monks",
       "authors": [
         {
           "name": "김광식",
@@ -4951,7 +4971,7 @@
       "end_page": "438",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3413f8a45d97084dffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300862",
       "keywords_kr": [
         "한용운",
         "승려결혼",
@@ -4967,8 +4987,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300862",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3413f8a45d97084dffe0bdc3ef48d419",
       "id": "3413f8a45d97084dffe0bdc3ef48d419"
@@ -4976,7 +4998,7 @@
     {
       "article_id": "fcc26b44f1f9c66affe0bdc3ef48d419",
       "title_kr": "道義國師의 生涯와 行跡",
-      "title_en": "",
+      "title_en": "Life and Achievements of Dowui National Teacher of Buddhism",
       "authors": [
         {
           "name": "김양정",
@@ -4994,7 +5016,7 @@
       "end_page": "468",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fcc26b44f1f9c66affe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001300871",
       "keywords_kr": [
         "도의국사",
         "남종선",
@@ -5011,8 +5033,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001300871",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fcc26b44f1f9c66affe0bdc3ef48d419",
       "id": "fcc26b44f1f9c66affe0bdc3ef48d419"
@@ -5065,7 +5089,7 @@
     {
       "article_id": "0b9e8a84a4eacbc2ffe0bdc3ef48d419",
       "title_kr": "파주 普光寺의 역사와 위상",
-      "title_en": "",
+      "title_en": "History and Status of Bokwang-temple in Paju City",
       "authors": [
         {
           "name": "황인규",
@@ -5074,7 +5098,7 @@
         }
       ],
       "abstract_kr": "The study analyzes documents concerning the Bokwang-temple in Paju city to define its history and status. Basic collection of the history of Bokwang-temple was accomplished by collecting related documents and finding new documents about the temple. Bokwang-temple was founded by a master monk, Doseon to pray for the prosperity of the country and the temple was called the Goryoung-temple. Later, it was renamed Bokwang-temple. It was found that the function of the temple was to manage the royal tomb and pray peace for Sookbin-Choi, the mother of King Youngjo, in the Choseon Dynasty. King Jeongjo constructed Hwaseong Fortress and Yongju-temple to pray for the happiness of his parents. It was inspired by Bokwang-temple, the royal tomb temple of Soryongwon built by his grandfather, King Youngjo. Bokwang-temple had an appearance similar to royal family temple for King Gojong as well as King Youngjo. One of the disciples of Cheongheo-Hyujeong who restored Buddhism in the  mid-Choseon Dynasty, Pyeonyang-Eongee served as a head monk at Bokwang-temple. Later, his disciple, Poonggye-Myoungchal reformed Bokwang-temple, while serving as a head monk at the temple. The temple was destroyed by the Japanese Invasion in 1592. However, it was highly respected as a royal tomb temple by King Youngjo and became one of most important temples in the late-Choseon Dynasty, when Buddhist monks were secluded in mountains thanks to the efforts from the highest monks such as Poonggye-Myoungchal. Additionally, at the end of the Choseon Dynasty, Hwangong-Chijo, along with Bokwang-geosa Yuoon, started the Jeongwon-Gyulsa Movement at Bokwang-temple. After that, they held Buddhist service of Amitabha for the two decades after 1896, and a leader of modern Buddhism, Yongseong-Jinjong practiced at the Dosolam, one of the building at Bokwang-temple. Hence, the Bokwang -temple became a base of the Daegaggyo Movement, a enlightenment movement.",
-      "abstract_en": "",
+      "abstract_en": "The study analyzes documents concerning the Bokwang-temple in Paju city to define its history and status. Basic collection of the history of Bokwang-temple was accomplished by collecting related documents and finding new documents about the temple.\n\tBokwang-temple was founded by a master monk, Doseon to pray for the prosperity of the country and the temple was called the Goryoung-temple. Later, it was renamed Bokwang-temple. It was found that the function of the temple was to manage the royal tomb and pray peace for Sookbin-Choi, the mother of King Youngjo, in the Choseon Dynasty. King Jeongjo constructed Hwaseong Fortress and Yongju-temple to pray for the happiness of his parents. It was inspired by Bokwang-temple, the royal tomb temple of Soryongwon built by his grandfather, King Youngjo. Bokwang-temple had an appearance similar to royal family temple for King Gojong as well as King Youngjo. \n\tOne of the disciples of Cheongheo-Hyujeong who restored Buddhism in the mid-Choseon Dynasty, Pyeonyang-Eongee served as a head monk at Bokwang-temple. Later, his disciple, Poonggye-Myoungchal reformed Bokwang-temple, while serving as a head monk at the temple. The temple was destroyed by the Japanese Invasion in 1592. However, it was highly respected as a royal tomb temple by King Youngjo and became one of most important temples in the late-Choseon Dynasty, when Buddhist monks were secluded in mountains thanks to the efforts from the highest monks such as Poonggye-Myoungchal. \n\tAdditionally, at the end of the Choseon Dynasty, Hwangong-Chijo, along with Bokwang-geosa Yuoon, started the Jeongwon-Gyulsa Movement at Bokwang-temple. After that, they held Buddhist service of Amitabha for the two decades after 1896, and a leader of modern Buddhism, Yongseong-Jinjong practiced at the Dosolam, one of the building at Bokwang-temple. Hence, the Bokwang -temple became a base of the Daegaggyo Movement, a enlightenment movement.",
       "journal_name": "대각사상",
       "year": "2009",
       "volume": "12",
@@ -5083,7 +5107,7 @@
       "end_page": "65",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0b9e8a84a4eacbc2ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001401019",
       "keywords_kr": [
         "보광사",
         "고령사",
@@ -5113,8 +5137,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001401019",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0b9e8a84a4eacbc2ffe0bdc3ef48d419",
       "id": "0b9e8a84a4eacbc2ffe0bdc3ef48d419"
@@ -5122,7 +5148,7 @@
     {
       "article_id": "4eb8ab54adfa23d3ffe0bdc3ef48d419",
       "title_kr": "백용성스님의 초기수행과 보광사ㆍ도솔암의 인연",
-      "title_en": "",
+      "title_en": "An early practice of Bae Yong-Seong sunim and his connection with Bogwangsa and Dosolam",
       "authors": [
         {
           "name": "한태식(보광)",
@@ -5140,7 +5166,7 @@
       "end_page": "121",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4eb8ab54adfa23d3ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001401028",
       "keywords_kr": [
         "보광사",
         "도솔암",
@@ -5169,8 +5195,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001401028",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4eb8ab54adfa23d3ffe0bdc3ef48d419",
       "id": "4eb8ab54adfa23d3ffe0bdc3ef48d419"
@@ -5178,7 +5206,7 @@
     {
       "article_id": "0b286e5db956a005ffe0bdc3ef48d419",
       "title_kr": "육자대명왕진언⋅천수다라니 수행과 깨달음 - 龍城禪師의 眞言持誦을 중심으로 -",
-      "title_en": "",
+      "title_en": "Enlightenment and Practices with Two Mantras of One Thousand-hands and Six-syllabus",
       "authors": [
         {
           "name": "김영덕",
@@ -5196,7 +5224,7 @@
       "end_page": "159",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0b286e5db956a005ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001401041",
       "keywords_kr": [
         "진언",
         "다라니",
@@ -5223,8 +5251,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001401041",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0b286e5db956a005ffe0bdc3ef48d419",
       "id": "0b286e5db956a005ffe0bdc3ef48d419"
@@ -5232,7 +5262,7 @@
     {
       "article_id": "10978fec29fd87f9ffe0bdc3ef48d419",
       "title_kr": "『六祖壇經』과 龍城禪師",
-      "title_en": "",
+      "title_en": "Platform of The Sixth Patriarch(六祖壇經) and Bek, yiong-sung(白龍城)",
       "authors": [
         {
           "name": "신규탁",
@@ -5250,7 +5280,7 @@
       "end_page": "202",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=10978fec29fd87f9ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001401053",
       "keywords_kr": [
         "白龍城",
         "『千手呪』",
@@ -5266,8 +5296,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001401053",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "10978fec29fd87f9ffe0bdc3ef48d419",
       "id": "10978fec29fd87f9ffe0bdc3ef48d419"
@@ -5275,7 +5307,7 @@
     {
       "article_id": "4770a40763eebcbbffe0bdc3ef48d419",
       "title_kr": "백용성의 유적지 복원과 도솔암의 미래",
-      "title_en": "",
+      "title_en": "A Study on Restoration of Baek Yong-sung's Heritage Sites and Future of Bogwang Temple",
       "authors": [
         {
           "name": "김광식",
@@ -5293,7 +5325,7 @@
       "end_page": "236",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4770a40763eebcbbffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001401070",
       "keywords_kr": [
         "백용성",
         "백용성 유적지",
@@ -5320,15 +5352,17 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001401070",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4770a40763eebcbbffe0bdc3ef48d419",
       "id": "4770a40763eebcbbffe0bdc3ef48d419"
     },
     {
       "article_id": "a0a1835a71029d3db36097776a77e665",
-      "title_kr": "윤고암(1899-1988)과 평화 만들기 : 이론과 실제",
+      "title_kr": "윤고암(1899-1988)과 평화 만들기: 이론과 실제",
       "title_en": "Yun Goam (1899-1988) and Peacemaking: Theory and Practice",
       "authors": [
         {
@@ -5347,7 +5381,7 @@
       "end_page": "293",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a0a1835a71029d3db36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001401105",
       "keywords_kr": [
         "평화만들기",
         "평화학",
@@ -5383,15 +5417,17 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001401105",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a0a1835a71029d3db36097776a77e665",
       "id": "a0a1835a71029d3db36097776a77e665"
     },
     {
       "article_id": "572d6dd144c46d1fffe0bdc3ef48d419",
-      "title_kr": "Yun Goam(1899-1988) and Peacemaking : Theory and Practice",
+      "title_kr": "Yun Goam(1899-1988) and Peacemaking: Theory and Practice",
       "title_en": "",
       "authors": [
         {
@@ -5445,7 +5481,7 @@
     {
       "article_id": "c10278f9ce13cbe5ffe0bdc3ef48d419",
       "title_kr": "法眼宗의 成立背景과 文益의 禪敎觀",
-      "title_en": "",
+      "title_en": "The Study of Beopan School`s establishment and SeonGyoGwan",
       "authors": [
         {
           "name": "정광균(법상)",
@@ -5463,7 +5499,7 @@
       "end_page": "337",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c10278f9ce13cbe5ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001401115",
       "keywords_kr": [
         "法眼宗",
         "法眼文益",
@@ -5478,8 +5514,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001401115",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c10278f9ce13cbe5ffe0bdc3ef48d419",
       "id": "c10278f9ce13cbe5ffe0bdc3ef48d419"
@@ -5487,7 +5525,7 @@
     {
       "article_id": "49aafb043ac35fa6ffe0bdc3ef48d419",
       "title_kr": "1918년 제주도 법정사항일운동 관련 『형사사건부』분석",
-      "title_en": "",
+      "title_en": "Analysis of the \"Criminal Case Documents\" related to Jeju Beobjeong Temple Anti-Japan Movemnet in 1918",
       "authors": [
         {
           "name": "한금순",
@@ -5505,7 +5543,7 @@
       "end_page": "376",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=49aafb043ac35fa6ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001401126",
       "keywords_kr": [
         "법정사 항일운동",
         "형사사건부",
@@ -5534,8 +5572,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001401126",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "49aafb043ac35fa6ffe0bdc3ef48d419",
       "id": "49aafb043ac35fa6ffe0bdc3ef48d419"
@@ -5543,7 +5583,7 @@
     {
       "article_id": "a12ca203b6006a94ffe0bdc3ef48d419",
       "title_kr": "식민지(1910~1945)시대의 불교와 국가권력",
-      "title_en": "",
+      "title_en": "Buddhism and State Power in Colony Times(1910-1945)",
       "authors": [
         {
           "name": "김광식",
@@ -5561,7 +5601,7 @@
       "end_page": "47",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a12ca203b6006a94ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001460998",
       "keywords_kr": [
         "국가권력",
         "일본불교",
@@ -5582,8 +5622,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001460998",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a12ca203b6006a94ffe0bdc3ef48d419",
       "id": "a12ca203b6006a94ffe0bdc3ef48d419"
@@ -5591,7 +5633,7 @@
     {
       "article_id": "50b5cd9f423a7e81ffe0bdc3ef48d419",
       "title_kr": "禪修行의 대중화에 대한 一考 - 龍城선사를 중심으로 -",
-      "title_en": "",
+      "title_en": "A Study on Popularization of Seon(zen) Practice - Focus on Seon Master Yongseong -",
       "authors": [
         {
           "name": "문선희(정수)",
@@ -5609,7 +5651,7 @@
       "end_page": "85",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=50b5cd9f423a7e81ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001461012",
       "keywords_kr": [
         "용성",
         "禪수행",
@@ -5626,8 +5668,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001461012",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "50b5cd9f423a7e81ffe0bdc3ef48d419",
       "id": "50b5cd9f423a7e81ffe0bdc3ef48d419"
@@ -5635,7 +5679,7 @@
     {
       "article_id": "93946c24b47ece92ffe0bdc3ef48d419",
       "title_kr": "성준선사의 생애와 사상",
-      "title_en": "",
+      "title_en": "Life and Philosophy of a Zen Master, Seong-Jun",
       "authors": [
         {
           "name": "정재일(적멸)",
@@ -5653,7 +5697,7 @@
       "end_page": "137",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=93946c24b47ece92ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001461023",
       "keywords_kr": [
         "성준",
         "성각",
@@ -5679,8 +5723,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001461023",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "93946c24b47ece92ffe0bdc3ef48d419",
       "id": "93946c24b47ece92ffe0bdc3ef48d419"
@@ -5688,7 +5734,7 @@
     {
       "article_id": "370cfad652f735a2ffe0bdc3ef48d419",
       "title_kr": "일제강점기 신상완(申尙玩)의 독립운동",
-      "title_en": "",
+      "title_en": "Shin Sang-wan’s Independence Movement During The Japanese Colonial Period",
       "authors": [
         {
           "name": "한동민",
@@ -5706,7 +5752,7 @@
       "end_page": "185",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=370cfad652f735a2ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001461061",
       "keywords_kr": [
         "신상완",
         "이종욱",
@@ -5728,8 +5774,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001461061",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "370cfad652f735a2ffe0bdc3ef48d419",
       "id": "370cfad652f735a2ffe0bdc3ef48d419"
@@ -5737,7 +5785,7 @@
     {
       "article_id": "ed6cb5a825886dfdffe0bdc3ef48d419",
       "title_kr": "범해각안의 茶詩 연구",
-      "title_en": "",
+      "title_en": "Research on Bumhae Gakan's Tea Songs",
       "authors": [
         {
           "name": "박동춘",
@@ -5755,7 +5803,7 @@
       "end_page": "219",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ed6cb5a825886dfdffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001461068",
       "keywords_kr": [
         "범해 각안",
         "草衣茶",
@@ -5776,8 +5824,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001461068",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ed6cb5a825886dfdffe0bdc3ef48d419",
       "id": "ed6cb5a825886dfdffe0bdc3ef48d419"
@@ -5879,7 +5929,7 @@
     {
       "article_id": "603d5b81e6300d01ffe0bdc3ef48d419",
       "title_kr": "佛家의 食生活과 修行의 연관성",
-      "title_en": "",
+      "title_en": "The Study of Relationship between Dietary and Ascetic practices in Buddhist",
       "authors": [
         {
           "name": "김민희",
@@ -5897,7 +5947,7 @@
       "end_page": "309",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=603d5b81e6300d01ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001461084",
       "keywords_kr": [
         "문화",
         "식생활",
@@ -5920,8 +5970,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001461084",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "603d5b81e6300d01ffe0bdc3ef48d419",
       "id": "603d5b81e6300d01ffe0bdc3ef48d419"
@@ -5929,7 +5981,7 @@
     {
       "article_id": "ec0229f34523bcc3ffe0bdc3ef48d419",
       "title_kr": "緣起와 五蘊명상 수행을 통해 주의력과 수용 공감 능력 항상 연구 - 40명 학생들과 명상 실습 사례 -",
-      "title_en": "",
+      "title_en": "A Study of attention and acceptance, empathy with the Paccayas(conditions) and pañca Skandhas(heap) meditation - A Case Study of 40 Student Meditators -",
       "authors": [
         {
           "name": "김말환",
@@ -5947,7 +5999,7 @@
       "end_page": "362",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec0229f34523bcc3ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001461089",
       "keywords_kr": [
         "연기",
         "오온",
@@ -5969,8 +6021,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001461089",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ec0229f34523bcc3ffe0bdc3ef48d419",
       "id": "ec0229f34523bcc3ffe0bdc3ef48d419"
@@ -6048,7 +6102,7 @@
     {
       "article_id": "6b55521b01b53f06ffe0bdc3ef48d419",
       "title_kr": "백용성스님의 민족운동",
-      "title_en": "",
+      "title_en": "National movement for independence by Master Baek, Yong-seong",
       "authors": [
         {
           "name": "한보광(태식)",
@@ -6057,7 +6111,7 @@
         }
       ],
       "abstract_kr": "Master Baek, Yong-seong(1864-1940) has been studied mainly in Buddhism. This paper expanded the view to the national movement under Japanese imperialism. Followings are some of the essential facts. First, he played a main role in the national movement for independence. He started it by writing 『Guiwong-jungjong 歸源正宗』. He criticized the prevalence of Christianity as invading Korean traditional religion. Next, he was against Won Order, which attempted to merge Korean Buddhism with Japanese Buddhism, and participated in the propaganda section as a president. Furthermore, he was one of 33 representatives in 3.1 Independence Movement. As a result, he had suffered in the prison for a long time, but never surrendered, and continued the movement. Second, Master exerted developing the national spirit. The Japanese government tried to make Korean Buddhism like that of Japan. It declared the temple law nationwide, and formed the structure of 31 main temples. Japan deleted the requirement that monks had to be remained single, making Korean monks got married. Master submitted a white paper warning twice. which became the origin of  Jogye Order of Korean Buddhism after emancipation. Third, Master conducted a movement for propagation of Korean Language (Hangeul). During the prohibited period of Hangeul, he translated sutras into Hangeul and propagated them widely. His translation of sutras was not limited in Buddhism, but also was a national independence movement. Last, Master Baek, Yong-seong exerted himself to national economic independence movement. He participated in the minor business, while managing farm in order to practice Seon(Zen)-agriculture Buddhism. Temples' economic independence and farm production were a part of independence movement. Therefore, all of his activities were evaluated that they were not limited to Buddhism, but also were the process of national independence movement.",
-      "abstract_en": "",
+      "abstract_en": "Master Baek, Yong-seong(1864-1940) has been studied mainly in Buddhism. This paper expanded the view to the national movement under Japanese imperialism. Followings are some of the essential facts.\nFirst, he played a main role in the national movement for independence. He started it by writing 『Guiwong-jungjong 歸源正宗』. He criticized the prevalence of Christianity as invading Korean traditional religion. Next, he was against Won Order, which attempted to merge Korean Buddhism with Japanese Buddhism, and participated in the propaganda section as a president. Furthermore, he was one of 33 representatives in 3.1 Independence Movement. As a result, he had suffered in the prison for a long time, but never surrendered, and continued the movement.\nSecond, Master exerted developing the national spirit. The Japanese government tried to make Korean Buddhism like that of Japan. It declared the temple law nationwide, and formed the structure of 31 main temples. Japan deleted the requirement that monks had to be remained single, making Korean monks got married. Master submitted a white paper warning twice. which became the origin of Jogye Order of Korean Buddhism after emancipation.\nThird, Master conducted a movement for propagation of Korean Language (Hangeul). During the prohibited period of Hangeul, he translated sutras into Hangeul and propagated them widely. His translation of sutras was not limited in Buddhism, but also was a national independence movement.\nLast, Master Baek, Yong-seong exerted himself to national economic independence movement. He participated in the minor business, while managing farm in order to practice Seon(Zen)-agriculture Buddhism. Temples' economic independence and farm production were a part of independence movement. Therefore, all of his activities were evaluated that they were not limited to Buddhism, but also were the process of national independence movement.",
       "journal_name": "대각사상",
       "year": "2010",
       "volume": "14",
@@ -6066,7 +6120,7 @@
       "end_page": "40",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6b55521b01b53f06ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001505622",
       "keywords_kr": [],
       "keywords_en": [
         "Master Baek",
@@ -6084,8 +6138,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001505622",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6b55521b01b53f06ffe0bdc3ef48d419",
       "id": "6b55521b01b53f06ffe0bdc3ef48d419"
@@ -6093,7 +6149,7 @@
     {
       "article_id": "4bd02570769e2d16ffe0bdc3ef48d419",
       "title_kr": "범어사 3.1운동의 재조명",
-      "title_en": "",
+      "title_en": "Reconsideration of 3.1 movement in Beomeosa temple",
       "authors": [
         {
           "name": "강대민",
@@ -6116,7 +6172,7 @@
       "end_page": "90",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4bd02570769e2d16ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001505646",
       "keywords_kr": [
         "범어사",
         "조선",
@@ -6143,8 +6199,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001505646",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4bd02570769e2d16ffe0bdc3ef48d419",
       "id": "4bd02570769e2d16ffe0bdc3ef48d419"
@@ -6152,7 +6210,7 @@
     {
       "article_id": "39c6a2a6d4b62b7fffe0bdc3ef48d419",
       "title_kr": "오성월의 삶에 투영된 禪과 民族意識",
-      "title_en": "",
+      "title_en": "Seon and National Consciousness Reflecting on Master Oh Sung-wol's Life",
       "authors": [
         {
           "name": "김광식",
@@ -6175,7 +6233,7 @@
       "end_page": "136",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=39c6a2a6d4b62b7fffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001505683",
       "keywords_kr": [
         "오성월",
         "범어사",
@@ -6194,8 +6252,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001505683",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "39c6a2a6d4b62b7fffe0bdc3ef48d419",
       "id": "39c6a2a6d4b62b7fffe0bdc3ef48d419"
@@ -6203,7 +6263,7 @@
     {
       "article_id": "2871aeaf9d58417effe0bdc3ef48d419",
       "title_kr": "1920~30년대 허영호의 현실인식과 근대불교학",
-      "title_en": "",
+      "title_en": "Heo, Yeong-Ho‘s Perception of Reality and Modern Buddhism in the 1920s-30s",
       "authors": [
         {
           "name": "조명제",
@@ -6221,7 +6281,7 @@
       "end_page": "170",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2871aeaf9d58417effe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001505698",
       "keywords_kr": [
         "『평범』",
         "동래청년연맹",
@@ -6236,8 +6296,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001505698",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2871aeaf9d58417effe0bdc3ef48d419",
       "id": "2871aeaf9d58417effe0bdc3ef48d419"
@@ -6245,7 +6307,7 @@
     {
       "article_id": "dc1e311dc68befc2ffe0bdc3ef48d419",
       "title_kr": "김법린의 민족운동과 대중불교운동",
-      "title_en": "",
+      "title_en": "National Movement & Popular Buddhism Movement of Kim Bup Rin",
       "authors": [
         {
           "name": "강미자",
@@ -6268,7 +6330,7 @@
       "end_page": "211",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=dc1e311dc68befc2ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001505714",
       "keywords_kr": [
         "근대불교",
         "독립운동가",
@@ -6294,15 +6356,17 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001505714",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "dc1e311dc68befc2ffe0bdc3ef48d419",
       "id": "dc1e311dc68befc2ffe0bdc3ef48d419"
     },
     {
       "article_id": "325810e4c88d328747de9c1710b0298d",
-      "title_kr": "The Concept of Donation : A Comparison between the Vedic and the Buddhist Traditions",
+      "title_kr": "The Concept of Donation: A Comparison between the Vedic and the Buddhist Traditions",
       "title_en": "",
       "authors": [
         {
@@ -6366,7 +6430,7 @@
     },
     {
       "article_id": "f544bc7c8bba4ed5ffe0bdc3ef48d419",
-      "title_kr": "The Concept of Donation : A Comparison between the Vedic and the Buddhist Traditions",
+      "title_kr": "The Concept of Donation: A Comparison between the Vedic and the Buddhist Traditions",
       "title_en": "",
       "authors": [
         {
@@ -6385,7 +6449,7 @@
       "end_page": "248",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f544bc7c8bba4ed5ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001505756",
       "keywords_kr": [
         "다나(보시)",
         "닥시나(기부)",
@@ -6412,16 +6476,18 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001505756",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f544bc7c8bba4ed5ffe0bdc3ef48d419",
       "id": "f544bc7c8bba4ed5ffe0bdc3ef48d419"
     },
     {
       "article_id": "feb76e85be46c34dffe0bdc3ef48d419",
-      "title_kr": "정화불교운동(1954-1962) : 통합주의와 종파주의의 교차로",
-      "title_en": "",
+      "title_kr": "정화불교운동(1954-1962): 통합주의와 종파주의의 교차로",
+      "title_en": "Purification Buddhist Movement, 1954-1962: Interconnecting Ecumenism and Sectarianism",
       "authors": [
         {
           "name": "문찬주(성원)",
@@ -6439,7 +6505,7 @@
       "end_page": "290",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=feb76e85be46c34dffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001505769",
       "keywords_kr": [
         "정화불교운동",
         "정통실천",
@@ -6466,8 +6532,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001505769",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "feb76e85be46c34dffe0bdc3ef48d419",
       "id": "feb76e85be46c34dffe0bdc3ef48d419"
@@ -6475,7 +6543,7 @@
     {
       "article_id": "2786fdf55cb315efffe0bdc3ef48d419",
       "title_kr": "유교법회(遺敎法會)와 조계종의 오늘",
-      "title_en": "",
+      "title_en": "Current Status of the Buddhist ceremony and the Jogye order",
       "authors": [
         {
           "name": "월암",
@@ -6493,7 +6561,7 @@
       "end_page": "336",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2786fdf55cb315efffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001505787",
       "keywords_kr": [
         "유교법회",
         "조계종",
@@ -6507,8 +6575,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001505787",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2786fdf55cb315efffe0bdc3ef48d419",
       "id": "2786fdf55cb315efffe0bdc3ef48d419"
@@ -6516,7 +6586,7 @@
     {
       "article_id": "bef5d5dc40c8f9d7ffe0bdc3ef48d419",
       "title_kr": "일제강점기 통도사 주지 김구하와 독립운동 자금 지원",
-      "title_en": "",
+      "title_en": "Independence Movement Fund Support of Kim, Gu-Ha who was the Abbot of Tongdosa(Temple) During Japanese Ruling Era",
       "authors": [
         {
           "name": "한동민",
@@ -6534,7 +6604,7 @@
       "end_page": "63",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bef5d5dc40c8f9d7ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001561976",
       "keywords_kr": [
         "김구하",
         "통도사",
@@ -6559,8 +6629,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001561976",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "bef5d5dc40c8f9d7ffe0bdc3ef48d419",
       "id": "bef5d5dc40c8f9d7ffe0bdc3ef48d419"
@@ -6568,7 +6640,7 @@
     {
       "article_id": "f6822419525806e2ffe0bdc3ef48d419",
       "title_kr": "경봉의 수행ㆍ교화ㆍ불법수호의 원융상",
-      "title_en": "",
+      "title_en": "A Study on the idea of 'Wonyung' or 'One Harmony in Universe' Kyungbong pursues according to asceticism, moralization and Buddhist tenets",
       "authors": [
         {
           "name": "김광식",
@@ -6586,7 +6658,7 @@
       "end_page": "107",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f6822419525806e2ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001561980",
       "keywords_kr": [
         "경봉",
         "원융수행",
@@ -6602,8 +6674,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001561980",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f6822419525806e2ffe0bdc3ef48d419",
       "id": "f6822419525806e2ffe0bdc3ef48d419"
@@ -6611,7 +6685,7 @@
     {
       "article_id": "a939610f74e40b78ffe0bdc3ef48d419",
       "title_kr": "尹月下(1915~2003)의 종단정화운동과 개혁활동",
-      "title_en": "",
+      "title_en": "The Buddhist Purification Movement and Buddhist Reformation activities of Yun, Wolha",
       "authors": [
         {
           "name": "이경순",
@@ -6629,7 +6703,7 @@
       "end_page": "142",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a939610f74e40b78ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001561988",
       "keywords_kr": [
         "윤월하",
         "조계종단",
@@ -6651,8 +6725,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001561988",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a939610f74e40b78ffe0bdc3ef48d419",
       "id": "a939610f74e40b78ffe0bdc3ef48d419"
@@ -6660,7 +6736,7 @@
     {
       "article_id": "08a102dc33acae36ffe0bdc3ef48d419",
       "title_kr": "법인당 벽안 대종사의 생애와 종단관",
-      "title_en": "",
+      "title_en": "A Study on the life of Beopindang Beokyan Daijongsa and his viewpoints on religious order",
       "authors": [
         {
           "name": "박부영",
@@ -6678,7 +6754,7 @@
       "end_page": "193",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=08a102dc33acae36ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001561995",
       "keywords_kr": [
         "불교",
         "조계종",
@@ -6709,8 +6785,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001561995",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "08a102dc33acae36ffe0bdc3ef48d419",
       "id": "08a102dc33acae36ffe0bdc3ef48d419"
@@ -6718,7 +6796,7 @@
     {
       "article_id": "d7738892ddd3d6f0ffe0bdc3ef48d419",
       "title_kr": "통도사 승가대학의 역사와 문화",
-      "title_en": "",
+      "title_en": "A Study on the History and Culture of Tongdosa Buddhist Monk University",
       "authors": [
         {
           "name": "양관스님",
@@ -6736,7 +6814,7 @@
       "end_page": "255",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d7738892ddd3d6f0ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001562003",
       "keywords_kr": [
         "통도사",
         "통도사승가대",
@@ -6751,8 +6829,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001562003",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d7738892ddd3d6f0ffe0bdc3ef48d419",
       "id": "d7738892ddd3d6f0ffe0bdc3ef48d419"
@@ -6760,7 +6840,7 @@
     {
       "article_id": "cb1cc4e375b89e2fffe0bdc3ef48d419",
       "title_kr": "敦煌本『六祖坛经』的作者、主要思想初探",
-      "title_en": "",
+      "title_en": "A Study on the author and the principle thought of 『The platform sutra of the sixth patriarch』",
       "authors": [
         {
           "name": "赵炳活",
@@ -6778,7 +6858,7 @@
       "end_page": "277",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1cc4e375b89e2fffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001562109",
       "keywords_kr": [
         "불성(佛性)",
         "삼무사상(三無思想)"
@@ -6791,8 +6871,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001562109",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1cc4e375b89e2fffe0bdc3ef48d419",
       "id": "cb1cc4e375b89e2fffe0bdc3ef48d419"
@@ -6800,7 +6882,7 @@
     {
       "article_id": "93f3548523afda38ffe0bdc3ef48d419",
       "title_kr": "黙照禪의 본질과 그 수행의 원리",
-      "title_en": "",
+      "title_en": "The essence of Silent-Penetration Seon ＆ principles of the practice",
       "authors": [
         {
           "name": "김호귀",
@@ -6818,7 +6900,7 @@
       "end_page": "315",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=93f3548523afda38ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001562128",
       "keywords_kr": [
         "黙照禪",
         "本證自覺",
@@ -6842,8 +6924,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001562128",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "93f3548523afda38ffe0bdc3ef48d419",
       "id": "93f3548523afda38ffe0bdc3ef48d419"
@@ -6851,7 +6935,7 @@
     {
       "article_id": "571008b345f68e5dffe0bdc3ef48d419",
       "title_kr": "운허(耘虛) 스님, 교육의 큰 발자취 - 운허스님과 광동중 고등학교 -",
-      "title_en": "",
+      "title_en": "A Study on the Great Educational Achievements that Buddhist Monk Woonhyo made - Focused on Buddhist Monk Woonhyo Monk and Kwangdong Middle and High Schools -",
       "authors": [
         {
           "name": "신용철",
@@ -6869,7 +6953,7 @@
       "end_page": "374",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=571008b345f68e5dffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001562140",
       "keywords_kr": [
         "운허(耘虛)스님",
         "이학수(李學洙)",
@@ -6887,8 +6971,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001562140",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "571008b345f68e5dffe0bdc3ef48d419",
       "id": "571008b345f68e5dffe0bdc3ef48d419"
@@ -6896,7 +6982,7 @@
     {
       "article_id": "1b2fdbeb862fd214ffe0bdc3ef48d419",
       "title_kr": "동남아시아 불교의 전통윤리와 그 근대적 적응 - 캄보디아 불교를 중심으로 -",
-      "title_en": "",
+      "title_en": "Traditional Ethics in the Southeast Asia and It's Modern Adaptation Focused in Cambodia Buddhism",
       "authors": [
         {
           "name": "배상환",
@@ -6914,7 +7000,7 @@
       "end_page": "401",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1b2fdbeb862fd214ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001562149",
       "keywords_kr": [
         "경전근본주의",
         "탐마윳운동",
@@ -6931,8 +7017,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001562149",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1b2fdbeb862fd214ffe0bdc3ef48d419",
       "id": "1b2fdbeb862fd214ffe0bdc3ef48d419"
@@ -6940,7 +7028,7 @@
     {
       "article_id": "70245b8fd0beff74ffe0bdc3ef48d419",
       "title_kr": "연변불교문화에 대한 역사적 성찰",
-      "title_en": "",
+      "title_en": "Reflect on the Buddhist Culture in Yanbian Region",
       "authors": [
         {
           "name": "허명철",
@@ -6958,7 +7046,7 @@
       "end_page": "29",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=70245b8fd0beff74ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614646",
       "keywords_kr": [
         "연변",
         "불교문화",
@@ -6973,8 +7061,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614646",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "70245b8fd0beff74ffe0bdc3ef48d419",
       "id": "70245b8fd0beff74ffe0bdc3ef48d419"
@@ -6982,7 +7072,7 @@
     {
       "article_id": "87a6c562cb1bba42ffe0bdc3ef48d419",
       "title_kr": "백용성 연구의 회고와 전망",
-      "title_en": "",
+      "title_en": "A Study on Remembrance and Prospect of Research of Baekyongsung",
       "authors": [
         {
           "name": "김광식",
@@ -7000,7 +7090,7 @@
       "end_page": "57",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=87a6c562cb1bba42ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614657",
       "keywords_kr": [
         "백용성",
         "대각교",
@@ -7019,8 +7109,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614657",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "87a6c562cb1bba42ffe0bdc3ef48d419",
       "id": "87a6c562cb1bba42ffe0bdc3ef48d419"
@@ -7028,7 +7120,7 @@
     {
       "article_id": "7ef6f683827ff0f9ffe0bdc3ef48d419",
       "title_kr": "백용성스님과 연변 대각교당에 관한 연구",
-      "title_en": "",
+      "title_en": "A Study on the Buddhist Priest, Yongseong Baek, and Yanbian Daegakgyo Temple",
       "authors": [
         {
           "name": "한태식(보광)",
@@ -7046,7 +7138,7 @@
       "end_page": "106",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7ef6f683827ff0f9ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614672",
       "keywords_kr": [
         "용정",
         "연길",
@@ -7078,8 +7170,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614672",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7ef6f683827ff0f9ffe0bdc3ef48d419",
       "id": "7ef6f683827ff0f9ffe0bdc3ef48d419"
@@ -7087,7 +7181,7 @@
     {
       "article_id": "8fa9a8cb44c738b2ffe0bdc3ef48d419",
       "title_kr": "연변지역 불교의 발전과 대각교회 연구",
-      "title_en": "",
+      "title_en": "Research on Da Jue church and Buddhism’s development in Yanbian area",
       "authors": [
         {
           "name": "김석주",
@@ -7105,7 +7199,7 @@
       "end_page": "148",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8fa9a8cb44c738b2ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614682",
       "keywords_kr": [
         "연변",
         "불교",
@@ -7124,8 +7218,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614682",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8fa9a8cb44c738b2ffe0bdc3ef48d419",
       "id": "8fa9a8cb44c738b2ffe0bdc3ef48d419"
@@ -7133,7 +7229,7 @@
     {
       "article_id": "c9ae6f90c97a2522ffe0bdc3ef48d419",
       "title_kr": "『잡보장경』과 중한 민간이야기 관련 양상 연구",
-      "title_en": "",
+      "title_en": "A Probe into the Links between Sino-Korean Folktales and Zabaozhangjing",
       "authors": [
         {
           "name": "이관복",
@@ -7151,7 +7247,7 @@
       "end_page": "180",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c9ae6f90c97a2522ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614713",
       "keywords_kr": [
         "불경",
         "『고려대장경』",
@@ -7178,8 +7274,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614713",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c9ae6f90c97a2522ffe0bdc3ef48d419",
       "id": "c9ae6f90c97a2522ffe0bdc3ef48d419"
@@ -7187,7 +7285,7 @@
     {
       "article_id": "73d1a9a8e1da515affe0bdc3ef48d419",
       "title_kr": "김성숙 연구의 성과와 과제",
-      "title_en": "",
+      "title_en": "The achievement and problems of the studies on Kim Seong-Sook",
       "authors": [
         {
           "name": "신운용",
@@ -7205,7 +7303,7 @@
       "end_page": "222",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=73d1a9a8e1da515affe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614725",
       "keywords_kr": [
         "김성숙",
         "재연조선불교유학생회",
@@ -7230,8 +7328,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614725",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "73d1a9a8e1da515affe0bdc3ef48d419",
       "id": "73d1a9a8e1da515affe0bdc3ef48d419"
@@ -7239,7 +7339,7 @@
     {
       "article_id": "f885337e31b0c691ffe0bdc3ef48d419",
       "title_kr": "김성숙의 생애와 독립운동",
-      "title_en": "",
+      "title_en": "The life of Kim Seong Suk and his independence activities",
       "authors": [
         {
           "name": "이동언",
@@ -7257,7 +7357,7 @@
       "end_page": "263",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f885337e31b0c691ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614735",
       "keywords_kr": [
         "김성숙",
         "북경불교유학생회",
@@ -7289,8 +7389,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614735",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f885337e31b0c691ffe0bdc3ef48d419",
       "id": "f885337e31b0c691ffe0bdc3ef48d419"
@@ -7298,7 +7400,7 @@
     {
       "article_id": "353404bb9c2ab9c3ffe0bdc3ef48d419",
       "title_kr": "김성숙의 정치이념과 민족불교",
-      "title_en": "",
+      "title_en": "A Study on Kim Seong-Sook's Political Belief & National Buddhism",
       "authors": [
         {
           "name": "김광식",
@@ -7316,7 +7418,7 @@
       "end_page": "302",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=353404bb9c2ab9c3ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614745",
       "keywords_kr": [
         "김성숙",
         "민족불교",
@@ -7331,8 +7433,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614745",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "353404bb9c2ab9c3ffe0bdc3ef48d419",
       "id": "353404bb9c2ab9c3ffe0bdc3ef48d419"
@@ -7340,7 +7444,7 @@
     {
       "article_id": "dcf22f8aa988bfd9ffe0bdc3ef48d419",
       "title_kr": "이념 사상가로서 김성숙이 지니는 현대적 의의",
-      "title_en": "",
+      "title_en": "The Contemporary Significance of Kim-Sung-Suk(金星淑) As A Great Thinker",
       "authors": [
         {
           "name": "신규탁",
@@ -7358,7 +7462,7 @@
       "end_page": "334",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=dcf22f8aa988bfd9ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614755",
       "keywords_kr": [
         "김성숙(金星淑)",
         "김산(金山)",
@@ -7377,8 +7481,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614755",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "dcf22f8aa988bfd9ffe0bdc3ef48d419",
       "id": "dcf22f8aa988bfd9ffe0bdc3ef48d419"
@@ -7386,7 +7492,7 @@
     {
       "article_id": "fc57a760f8e299eeffe0bdc3ef48d419",
       "title_kr": "김성숙의 불교사상과 그 變容",
-      "title_en": "",
+      "title_en": "Kim-seong suk of Buddhist thought and its metamorphosis",
       "authors": [
         {
           "name": "차차석",
@@ -7404,7 +7510,7 @@
       "end_page": "363",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fc57a760f8e299eeffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614784",
       "keywords_kr": [
         "김성숙",
         "불교사상",
@@ -7421,8 +7527,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614784",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fc57a760f8e299eeffe0bdc3ef48d419",
       "id": "fc57a760f8e299eeffe0bdc3ef48d419"
@@ -7430,7 +7538,7 @@
     {
       "article_id": "913ff8ca0c4573e2ffe0bdc3ef48d419",
       "title_kr": "제주도 존자암 고(考)",
-      "title_en": "",
+      "title_en": "The Study on Jon-Ja-Am in Je-ju-do",
       "authors": [
         {
           "name": "한금순",
@@ -7448,7 +7556,7 @@
       "end_page": "401",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=913ff8ca0c4573e2ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001614791",
       "keywords_kr": [
         "국성재",
         "제주도의 비보사찰",
@@ -7469,8 +7577,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001614791",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "913ff8ca0c4573e2ffe0bdc3ef48d419",
       "id": "913ff8ca0c4573e2ffe0bdc3ef48d419"
@@ -7478,7 +7588,7 @@
     {
       "article_id": "c17a79650671cefaffe0bdc3ef48d419",
       "title_kr": "경전 상에 나타난 호국불교의 검토",
-      "title_en": "",
+      "title_en": "Critical Review of Defender of the Nation as a Major Buddhist Concept in Buddhist Texts",
       "authors": [
         {
           "name": "조준호",
@@ -7496,7 +7606,7 @@
       "end_page": "41",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c17a79650671cefaffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001673968",
       "keywords_kr": [
         "왕권",
         "호법",
@@ -7511,8 +7621,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001673968",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c17a79650671cefaffe0bdc3ef48d419",
       "id": "c17a79650671cefaffe0bdc3ef48d419"
@@ -7520,7 +7632,7 @@
     {
       "article_id": "d4f2d584d8789375ffe0bdc3ef48d419",
       "title_kr": "한국불교사의 호국 사례와 호국불교 인식",
-      "title_en": "",
+      "title_en": "\"Buddhism's Guarding the Country\" in the History of Korean Buddhism, and the Korean People's Perception of such 'Buddhist Role in Protecting and Saving the Country'",
       "authors": [
         {
           "name": "김용태",
@@ -7538,7 +7650,7 @@
       "end_page": "73",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d4f2d584d8789375ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001673977",
       "keywords_kr": [
         "호국",
         "호국불교",
@@ -7555,8 +7667,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001673977",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d4f2d584d8789375ffe0bdc3ef48d419",
       "id": "d4f2d584d8789375ffe0bdc3ef48d419"
@@ -7564,7 +7678,7 @@
     {
       "article_id": "43da270e600d98a2ffe0bdc3ef48d419",
       "title_kr": "한국 근현대사에서 호국불교의 재검토 - 역사적 사례와 이론 -",
-      "title_en": "",
+      "title_en": "Reconsideration of the Patriotic Buddhism in the Korea modern history - Historic example and theory -",
       "authors": [
         {
           "name": "김순석",
@@ -7582,7 +7696,7 @@
       "end_page": "102",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=43da270e600d98a2ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001673988",
       "keywords_kr": [
         "호국불교",
         "호법불교",
@@ -7600,8 +7714,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001673988",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "43da270e600d98a2ffe0bdc3ef48d419",
       "id": "43da270e600d98a2ffe0bdc3ef48d419"
@@ -7609,7 +7725,7 @@
     {
       "article_id": "2dae245dfbaf704bffe0bdc3ef48d419",
       "title_kr": "신라 忠義관념의 형성과 불교의 世俗五戒",
-      "title_en": "",
+      "title_en": "The formation of conception for Loyalty and Sesok-Ogye in Silla-dynasty",
       "authors": [
         {
           "name": "김호귀",
@@ -7627,7 +7743,7 @@
       "end_page": "131",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2dae245dfbaf704bffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001673992",
       "keywords_kr": [
         "국가",
         "충의",
@@ -7656,8 +7772,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001673992",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2dae245dfbaf704bffe0bdc3ef48d419",
       "id": "2dae245dfbaf704bffe0bdc3ef48d419"
@@ -7665,7 +7783,7 @@
     {
       "article_id": "e92cde5c78649646ffe0bdc3ef48d419",
       "title_kr": "북한지역 사찰의 불교사적 의의",
-      "title_en": "",
+      "title_en": "Buddhist temples in North Korea and its significance to Buddhism",
       "authors": [
         {
           "name": "황인규",
@@ -7683,7 +7801,7 @@
       "end_page": "168",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e92cde5c78649646ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001673996",
       "keywords_kr": [
         "永明寺",
         "定陵寺",
@@ -7707,8 +7825,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001673996",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e92cde5c78649646ffe0bdc3ef48d419",
       "id": "e92cde5c78649646ffe0bdc3ef48d419"
@@ -7716,7 +7836,7 @@
     {
       "article_id": "91179bee17f720ddffe0bdc3ef48d419",
       "title_kr": "민주화 운동기(1980∼1994)의 불교와 국가권력",
-      "title_en": "",
+      "title_en": "Buddhism in Democratization Period(1980∼1994) and National Power",
       "authors": [
         {
           "name": "김광식",
@@ -7734,7 +7854,7 @@
       "end_page": "207",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=91179bee17f720ddffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001673999",
       "keywords_kr": [
         "10ㆍ27법난",
         "민중불교",
@@ -7753,8 +7873,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001673999",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "91179bee17f720ddffe0bdc3ef48d419",
       "id": "91179bee17f720ddffe0bdc3ef48d419"
@@ -7762,7 +7884,7 @@
     {
       "article_id": "0fe1e5c3b86771c5ffe0bdc3ef48d419",
       "title_kr": "대한불교조계종의 출가자 현황과 출가 제도의 개선방안",
-      "title_en": "",
+      "title_en": "Current state of entering the Buddhist priesthood in Korean Buddhist Jogye Order and improvement suggestion for entering the Buddhist priesthood system",
       "authors": [
         {
           "name": "한태식(보광)",
@@ -7780,7 +7902,7 @@
       "end_page": "243",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0fe1e5c3b86771c5ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001674007",
       "keywords_kr": [
         "출가자",
         "대한불교조계종",
@@ -7813,8 +7935,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001674007",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0fe1e5c3b86771c5ffe0bdc3ef48d419",
       "id": "0fe1e5c3b86771c5ffe0bdc3ef48d419"
@@ -7822,7 +7946,7 @@
     {
       "article_id": "0ef0b5d2fc48c37affe0bdc3ef48d419",
       "title_kr": "람림(Lam rim)에 나타난 계율관 고찰 - 신통, 보리심과의 관련성을 중심으로 -",
-      "title_en": "",
+      "title_en": "A Study on Buddhist Precepts of Lam rim - Focused on the Relationships with Miraculous Power and Bodhicitta",
       "authors": [
         {
           "name": "양정연",
@@ -7840,7 +7964,7 @@
       "end_page": "274",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0ef0b5d2fc48c37affe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001674014",
       "keywords_kr": [
         "보리도차제",
         "쫑카빠",
@@ -7869,8 +7993,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001674014",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0ef0b5d2fc48c37affe0bdc3ef48d419",
       "id": "0ef0b5d2fc48c37affe0bdc3ef48d419"
@@ -7878,7 +8004,7 @@
     {
       "article_id": "04dcf2efab39a50fffe0bdc3ef48d419",
       "title_kr": "붓다와 크리슈나무르티(Krishnamurti)의 철학적 공통기반",
-      "title_en": "",
+      "title_en": "Philosophical common ground for both Krishnamurti's and the Buddha's teachings.",
       "authors": [
         {
           "name": "안양규",
@@ -7896,7 +8022,7 @@
       "end_page": "305",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=04dcf2efab39a50fffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001674024",
       "keywords_kr": [
         "붓다",
         "크리슈나무르티",
@@ -7913,8 +8039,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001674024",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "04dcf2efab39a50fffe0bdc3ef48d419",
       "id": "04dcf2efab39a50fffe0bdc3ef48d419"
@@ -7922,7 +8050,7 @@
     {
       "article_id": "7be6f3ca76182cafffe0bdc3ef48d419",
       "title_kr": "화엄 사상 (1) - 법신사상 -",
-      "title_en": "",
+      "title_en": "Huyen Thought (1): Dharmakaya Thought",
       "authors": [
         {
           "name": "이행구(도업)",
@@ -7940,7 +8068,7 @@
       "end_page": "54",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7be6f3ca76182cafffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001733988",
       "keywords_kr": [
         "법신불",
         "비로자나불",
@@ -7967,8 +8095,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001733988",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7be6f3ca76182cafffe0bdc3ef48d419",
       "id": "7be6f3ca76182cafffe0bdc3ef48d419"
@@ -7976,7 +8106,7 @@
     {
       "article_id": "230260fb0ab36013ffe0bdc3ef48d419",
       "title_kr": "백용성스님 국역 『조선글 화엄경』 연구",
-      "title_en": "",
+      "title_en": "Study on Baek Yongsung's Joseongeul Hwaum-gyeong",
       "authors": [
         {
           "name": "한태식(보광)",
@@ -7994,7 +8124,7 @@
       "end_page": "102",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=230260fb0ab36013ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001733992",
       "keywords_kr": [
         "『조선글 화엄경』",
         "백용성",
@@ -8022,8 +8152,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001733992",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "230260fb0ab36013ffe0bdc3ef48d419",
       "id": "230260fb0ab36013ffe0bdc3ef48d419"
@@ -8031,7 +8163,7 @@
     {
       "article_id": "c680e7732cbbe95dffe0bdc3ef48d419",
       "title_kr": "한국불교에서 『화엄경』의 위상과 한글 번역 - 백용성과 이운허의 번역 중 ｢이세간품｣을 중심으로 -",
-      "title_en": "",
+      "title_en": "The Position and Hangul Translation of Gaṇḍavyūha-sūtra(『華嚴經』) in Korean Buddhism - Focused on the Li-Shi-Jian-Pin(「離世間品」) translated by Yong-sung Bek(白龍城) and Won-her Lee(李耘虛) -",
       "authors": [
         {
           "name": "신규탁",
@@ -8049,7 +8181,7 @@
       "end_page": "139",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c680e7732cbbe95dffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001733997",
       "keywords_kr": [
         "『화엄경』의 한국어 번역",
         "『화엄경』의 문단 나누기",
@@ -8067,8 +8199,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001733997",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c680e7732cbbe95dffe0bdc3ef48d419",
       "id": "c680e7732cbbe95dffe0bdc3ef48d419"
@@ -8076,7 +8210,7 @@
     {
       "article_id": "77dfed365e5e1904ffe0bdc3ef48d419",
       "title_kr": "근현대 화엄사의 사격과 진진응ㆍ이동헌",
-      "title_en": "",
+      "title_en": "Temple status of post modern Hwaeumsa temple, Jin Jin Eung and Lee Dong Heon",
       "authors": [
         {
           "name": "김광식",
@@ -8094,7 +8228,7 @@
       "end_page": "188",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=77dfed365e5e1904ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001734001",
       "keywords_kr": [
         "화엄사",
         "사격",
@@ -8113,8 +8247,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001734001",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "77dfed365e5e1904ffe0bdc3ef48d419",
       "id": "77dfed365e5e1904ffe0bdc3ef48d419"
@@ -8122,7 +8258,7 @@
     {
       "article_id": "f8ff1cde215bbdc1ffe0bdc3ef48d419",
       "title_kr": "求道者, 導光스님 硏究 - 그의 菩薩行과 求道行脚 -",
-      "title_en": "",
+      "title_en": "A study on the life of the truth-seeker, Dogwang(導光)",
       "authors": [
         {
           "name": "전종석",
@@ -8140,7 +8276,7 @@
       "end_page": "253",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f8ff1cde215bbdc1ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001734008",
       "keywords_kr": [
         "도광",
         "구도자",
@@ -8162,8 +8298,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001734008",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f8ff1cde215bbdc1ffe0bdc3ef48d419",
       "id": "f8ff1cde215bbdc1ffe0bdc3ef48d419"
@@ -8171,7 +8309,7 @@
     {
       "article_id": "4877213cc4fd381fffe0bdc3ef48d419",
       "title_kr": "불교계 고승과 국도 천도 - 고려 및 조선의 국도를 중심으로 -",
-      "title_en": "",
+      "title_en": "Prominent Buddhist Priests and the Moving of the National Capital City - Focusing on the capital cities of Goryeo and Joseon Dynasties -",
       "authors": [
         {
           "name": "황인규",
@@ -8189,7 +8327,7 @@
       "end_page": "281",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4877213cc4fd381fffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001734010",
       "keywords_kr": [
         "도선",
         "의천",
@@ -8208,8 +8346,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001734010",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4877213cc4fd381fffe0bdc3ef48d419",
       "id": "4877213cc4fd381fffe0bdc3ef48d419"
@@ -8217,7 +8357,7 @@
     {
       "article_id": "dd8bffce3b88c8aeffe0bdc3ef48d419",
       "title_kr": "경허의 삼수갑산과 償債",
-      "title_en": "",
+      "title_en": "Kyeong heo’s walk of life to samsu kabsan and The Repayment Thought",
       "authors": [
         {
           "name": "홍현지",
@@ -8235,7 +8375,7 @@
       "end_page": "328",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=dd8bffce3b88c8aeffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001734012",
       "keywords_kr": [
         "경허",
         "삼수갑산",
@@ -8257,8 +8397,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001734012",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "dd8bffce3b88c8aeffe0bdc3ef48d419",
       "id": "dd8bffce3b88c8aeffe0bdc3ef48d419"
@@ -8266,7 +8408,7 @@
     {
       "article_id": "93adb5a695e3c6b0ffe0bdc3ef48d419",
       "title_kr": "1920~30년대 불교계의 사회주의에 대한 인식",
-      "title_en": "",
+      "title_en": "How Socialism Was Understood by Korean Buddhists in 1920s-1930s",
       "authors": [
         {
           "name": "김종인",
@@ -8284,7 +8426,7 @@
       "end_page": "357",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=93adb5a695e3c6b0ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001734015",
       "keywords_kr": [
         "불교",
         "사회주의",
@@ -8311,8 +8453,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001734015",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "93adb5a695e3c6b0ffe0bdc3ef48d419",
       "id": "93adb5a695e3c6b0ffe0bdc3ef48d419"
@@ -8371,7 +8515,7 @@
     {
       "article_id": "70986e4cfb4c24daffe0bdc3ef48d419",
       "title_kr": "Kim Ilta’s (1929~99) systemization of the current Jogye Order’s orthopraxy",
-      "title_en": "",
+      "title_en": "Kim Ilta’s (1929-99) systemization of the current Jogye Order’s orthopraxy",
       "authors": [
         {
           "name": "Chanju Mun",
@@ -8389,7 +8533,7 @@
       "end_page": "396",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=70986e4cfb4c24daffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001734037",
       "keywords_kr": [
         "조계종",
         "정통실천",
@@ -8413,8 +8557,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001734037",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "70986e4cfb4c24daffe0bdc3ef48d419",
       "id": "70986e4cfb4c24daffe0bdc3ef48d419"
@@ -8422,7 +8568,7 @@
     {
       "article_id": "bf7d6e709b81da03ffe0bdc3ef48d419",
       "title_kr": "啓請의 構成과 飜譯에 關한 硏究 - 『千手經』을 중심으로 -",
-      "title_en": "",
+      "title_en": "The study on the composition and translation of Gyecheong -focusing on Cheonsugyeong-",
       "authors": [
         {
           "name": "심상현",
@@ -8440,7 +8586,7 @@
       "end_page": "426",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bf7d6e709b81da03ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001734038",
       "keywords_kr": [
         "의천수",
         "원천수",
@@ -8467,8 +8613,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001734038",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "bf7d6e709b81da03ffe0bdc3ef48d419",
       "id": "bf7d6e709b81da03ffe0bdc3ef48d419"
@@ -8476,7 +8624,7 @@
     {
       "article_id": "d2ef5373ef881459ffe0bdc3ef48d419",
       "title_kr": "태극기문화재 활용방안 - 진관사 소장 태극기를 중심으로 -",
-      "title_en": "",
+      "title_en": "Utilization of Taegeukgi Cultural Heritage - Focus on Jingwansa Taegeukgi -",
       "authors": [
         {
           "name": "송명호",
@@ -8485,7 +8633,7 @@
         }
       ],
       "abstract_kr": "우리나라 국기는 태극기이다. 태극기가 처음 사용된 시기는 1882년 9월 박영효가 고종 임금의 국서를 받들고 일본에 사신으로 갔을 때, 항해 중 선박 안에서 국기를 만들어 사용했다. 이러한 기록은 박영효가 일본 체류 중 기록한 자신의 일기 사화기략과 일본 동경 발행 시사신보 기사에 남아있다. 태극기는 실로 우리 민족의 애국정신과 함께 시대별 애환까지 담고 있어서 사료적 가치가 매우 크다. 문화재청은 2008년 대한민국 정부수립 60돌을 맞아 태극기 18점을 문화재로 등록시켜 역사적․사료적 가치를 부여하였다. 그러나 국민들이 알고자 하는 태극기 문화재들이 독립기념관과 박물관 등 접근하는데 어려움이 많다. 본 논문에서는 태극기문화재 등록에 관한 과정과 의미를 살펴보고, 서울의 진관사소장 태극기를 중심으로 활용 방안을 피력했다. 전제로 태극기가 발견된 진관사의 역사적 배경, 진관사 대웅전 계단에 새겨진 태극문양의 의미, 태극기를 만든 것으로 추정된 백초월 스님과 항일운동 행적을 살펴보았다. 활용방안으로는 태극기의 상징과 의미가 규정되지 않은 현행 대한민국 국기법 개정을 비롯해서 국민 누구나 한 장소에서 관람할 수 있는 태극기문화재 공원 만들기, 스토리텔링과 콘텐츠 개발, 태극기문화재 보존 및 전시관 건립 등을 제시하였다. 등록문화재 영역에서 태극기가 문화재로 등록된 지는 불과 수년에 지나지 않지만 태극기의 역사성이나 우리 민족의 사상적 상징에 비추어 볼 때 단지 태극기를 문화재로 등록하는데 의미를 갖기 보다는 활용에 더 큰 비중을 두어야 할 것이다. 아울러 흩어져 보존 중인 태극기문화재를 국민 생활 가까이서 쉽게 관람하고 역사 교육의 현장이 될 수 있도록 정책적 방안도 강구되기를 기대했다.",
-      "abstract_en": "",
+      "abstract_en": "Korean national flag is Taegeukgi. Taegeukgi was first used in a ship when Park Young-ho was dispatched to Japan as an envoy to carry King Gojong's credential in September, 1882. This fact is recorded in the newspaper ‘Sisashinbo’ published in Tokyo and the literature ‘Sawhagiryak’ written by Park Young-ho during his stay in Japan. Since Taegeukgi contains not only patriotic spirit of Korean people but also the joys and sorrows of each epoch, its value as a historical material is very high.\nThe Cultural Heritage Administration gave a historical value as historical material to 18 cultural properties by registering them as cultural properties in 2008 at the 60th anniversary of the establishment of Korean government. However, there have been a lot of difficulty for the public to access Taegeukgi cultural heritages because they were kept in located in Independence Hall and museums.\nThis paper explored the process of registration of Taegeukgi as cultural heritage and its meaning, and suggested a method of utilization focussing on the Taegeukgi that Jingwansa in Seoul owned.\nAs a premise of the proposal, this paper addressed the historical meaning of finding Taegeukgi in Jingwansa and the historical value related to the anti-Japanese movement of Monk Baek Chowol who is presumed to make this Taegeukgi.\nThe method of utilization is constructing a Taegeukgi cultural heritage park where all the people can appreciate various Tageukgi's in one place, developing story-telling and contents, reserving Taegeukgi cultural heritage and constructing an exhibition hall. In addition, this paper suggested a proposal to amend the law by adding the explanation on the symbols of Taegeukgi which is omitted in the Act on the Flag of the Republic of Korea.\nIn this way, people can easily appreciate Taegeukgi's, which used to be preserved all over the country, in one place and it is anticipated to be a place of historical education.",
       "journal_name": "대각사상",
       "year": "2012",
       "volume": "18",
@@ -8494,7 +8642,7 @@
       "end_page": "459",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d2ef5373ef881459ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001734042",
       "keywords_kr": [
         "태극기",
         "박영효",
@@ -8519,8 +8667,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001734042",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d2ef5373ef881459ffe0bdc3ef48d419",
       "id": "d2ef5373ef881459ffe0bdc3ef48d419"
@@ -8528,7 +8678,7 @@
     {
       "article_id": "1d2b7cccb3ad35dbffe0bdc3ef48d419",
       "title_kr": "스마트 미디어 시대의 불교기록문화유산 아카이브의 방향",
-      "title_en": "",
+      "title_en": "The Direction in Archives of Buddhist Culture in Smart Media Era",
       "authors": [
         {
           "name": "이재수",
@@ -8546,7 +8696,7 @@
       "end_page": "493",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1d2b7cccb3ad35dbffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001734043",
       "keywords_kr": [
         "전자불전",
         "대장경",
@@ -8567,8 +8717,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001734043",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1d2b7cccb3ad35dbffe0bdc3ef48d419",
       "id": "1d2b7cccb3ad35dbffe0bdc3ef48d419"
@@ -8576,7 +8728,7 @@
     {
       "article_id": "18169516096debd4ffe0bdc3ef48d419",
       "title_kr": "율장의 근본이념에 입각한 조계종 청규제정의 방향 - 제계십리(制戒十利)를 중심으로 -",
-      "title_en": "",
+      "title_en": "A New Direction of Establishing the Pure Rule of the Jogye Order Based on the Basic Principle of Vinaya-piṭaka(Precept Collection) - Focusing on the Ten Purposes of Establishing Vinaya -",
       "authors": [
         {
           "name": "이자랑",
@@ -8594,7 +8746,7 @@
       "end_page": "42",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=18169516096debd4ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001783537",
       "keywords_kr": [
         "제계십리",
         "조계종",
@@ -8616,8 +8768,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001783537",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "18169516096debd4ffe0bdc3ef48d419",
       "id": "18169516096debd4ffe0bdc3ef48d419"
@@ -8625,7 +8779,7 @@
     {
       "article_id": "a8c7e928bfee0a82ffe0bdc3ef48d419",
       "title_kr": "율장의 징계갈마와 호계원법",
-      "title_en": "",
+      "title_en": "The Disciplinary karma of Vinaya Pitaka and the Law of Hogyewon",
       "authors": [
         {
           "name": "손성우(덕문)",
@@ -8643,7 +8797,7 @@
       "end_page": "77",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a8c7e928bfee0a82ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001783540",
       "keywords_kr": [
         "징계갈마",
         "궐석징계",
@@ -8670,8 +8824,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001783540",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a8c7e928bfee0a82ffe0bdc3ef48d419",
       "id": "a8c7e928bfee0a82ffe0bdc3ef48d419"
@@ -8679,7 +8835,7 @@
     {
       "article_id": "18a673b79133a426ffe0bdc3ef48d419",
       "title_kr": "붓다의 화합정신 강조와 그 현대적 의의 - 율 제정의 의미와 정신을 중심으로 -",
-      "title_en": "",
+      "title_en": "Buddha's Emphasis on Concord Spirit and its Modern Significance - Focusing on Meaning and Spirit of Vinaya Establishment -",
       "authors": [
         {
           "name": "염중섭(자현)",
@@ -8697,7 +8853,7 @@
       "end_page": "123",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=18a673b79133a426ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001783541",
       "keywords_kr": [
         "佛敎의 君主論",
         "律藏",
@@ -8720,8 +8876,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001783541",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "18a673b79133a426ffe0bdc3ef48d419",
       "id": "18a673b79133a426ffe0bdc3ef48d419"
@@ -8729,7 +8887,7 @@
     {
       "article_id": "cdf81716b6e24f0dffe0bdc3ef48d419",
       "title_kr": "조계종단 宗正의 歷史像",
-      "title_en": "",
+      "title_en": "The Historicity of Chief Priest in Jogye Order",
       "authors": [
         {
           "name": "김광식",
@@ -8747,7 +8905,7 @@
       "end_page": "176",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cdf81716b6e24f0dffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001783542",
       "keywords_kr": [
         "조계종",
         "종정",
@@ -8767,8 +8925,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001783542",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cdf81716b6e24f0dffe0bdc3ef48d419",
       "id": "cdf81716b6e24f0dffe0bdc3ef48d419"
@@ -8776,7 +8936,7 @@
     {
       "article_id": "33e28ecacce615e5ffe0bdc3ef48d419",
       "title_kr": "한국사회의 양극화 해소를 위한 불교교단의 역할 - 대한불교조계종의 불교사회복지를 중심으로 -",
-      "title_en": "",
+      "title_en": "The Role of Buddhist Community in Resolving Korean Society's Bi-polarization - Focusing on Buddhist Social Welfare in Jogye Order of Korean Buddhism -",
       "authors": [
         {
           "name": "조기룡",
@@ -8794,7 +8954,7 @@
       "end_page": "206",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=33e28ecacce615e5ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001783543",
       "keywords_kr": [
         "양극화",
         "사회복지",
@@ -8811,8 +8971,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001783543",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "33e28ecacce615e5ffe0bdc3ef48d419",
       "id": "33e28ecacce615e5ffe0bdc3ef48d419"
@@ -8820,7 +8982,7 @@
     {
       "article_id": "01fddab042d06b62ffe0bdc3ef48d419",
       "title_kr": "龍城禪師의 ‘大圓覺性’ 이해",
-      "title_en": "",
+      "title_en": "A Study on Zen master Yongseong‘s ’Daewongakseong’",
       "authors": [
         {
           "name": "胡静",
@@ -8838,7 +9000,7 @@
       "end_page": "240",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=01fddab042d06b62ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001783544",
       "keywords_kr": [
         "용성선사",
         "교학사상",
@@ -8866,8 +9028,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001783544",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "01fddab042d06b62ffe0bdc3ef48d419",
       "id": "01fddab042d06b62ffe0bdc3ef48d419"
@@ -8875,7 +9039,7 @@
     {
       "article_id": "0f3b691d4142842fffe0bdc3ef48d419",
       "title_kr": "曼庵宗憲의 생애와 활동 - 1927년까지의 활동을 중심으로 -",
-      "title_en": "",
+      "title_en": "Manam Jongheon’s Life and Activity",
       "authors": [
         {
           "name": "김상영",
@@ -8893,7 +9057,7 @@
       "end_page": "281",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0f3b691d4142842fffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001783545",
       "keywords_kr": [
         "만암 종헌",
         "광성의숙",
@@ -8912,8 +9076,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001783545",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0f3b691d4142842fffe0bdc3ef48d419",
       "id": "0f3b691d4142842fffe0bdc3ef48d419"
@@ -8921,7 +9087,7 @@
     {
       "article_id": "28547c214a35002affe0bdc3ef48d419",
       "title_kr": "승려 김석윤을 통해 보는 근대 제주인의 사상적 섭렵",
-      "title_en": "",
+      "title_en": "Review on Ideological Adversity and Practice of Intellectuals in the modern era of Jeju with the case of Kim Seok-Yoon, Buddhist Monk",
       "authors": [
         {
           "name": "한금순",
@@ -8939,7 +9105,7 @@
       "end_page": "323",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=28547c214a35002affe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001783546",
       "keywords_kr": [
         "제주 의병항쟁",
         "제주 의병항쟁 격문과 통고사",
@@ -8956,8 +9122,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001783546",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "28547c214a35002affe0bdc3ef48d419",
       "id": "28547c214a35002affe0bdc3ef48d419"
@@ -8965,7 +9133,7 @@
     {
       "article_id": "8dd7200e79af6d87ffe0bdc3ef48d419",
       "title_kr": "근대 화계사의 역사와 위상",
-      "title_en": "",
+      "title_en": "History and Prestige of Hwagyesa Temple in Modern Times",
       "authors": [
         {
           "name": "한상길",
@@ -8983,7 +9151,7 @@
       "end_page": "357",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8dd7200e79af6d87ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001783548",
       "keywords_kr": [
         "화계사",
         "개화사상",
@@ -9014,8 +9182,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001783548",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8dd7200e79af6d87ffe0bdc3ef48d419",
       "id": "8dd7200e79af6d87ffe0bdc3ef48d419"
@@ -9023,7 +9193,7 @@
     {
       "article_id": "76ee24a25eac9f9e6aae8a972f9116fb",
       "title_kr": "백용성스님의 해인사 및 고암스님과의 인연",
-      "title_en": "",
+      "title_en": "Yongseong Baek's Haeinsa, affinity with Goam Sunim",
       "authors": [
         {
           "name": "한태식(보광)",
@@ -9041,7 +9211,7 @@
       "end_page": "62",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=76ee24a25eac9f9e6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001840093",
       "keywords_kr": [
         "해인사",
         "백용성",
@@ -9074,8 +9244,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001840093",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "76ee24a25eac9f9e6aae8a972f9116fb",
       "id": "76ee24a25eac9f9e6aae8a972f9116fb"
@@ -9083,7 +9255,7 @@
     {
       "article_id": "29b873ea7f4bcd1d7ecd42904f0c5d65",
       "title_kr": "대각교의 조선불교 선종총림으로의 전환 과정 고찰",
-      "title_en": "",
+      "title_en": "The switch to Seonjong chonglim of Joseon Buddhism from Daegakgyo",
       "authors": [
         {
           "name": "김광식",
@@ -9101,7 +9273,7 @@
       "end_page": "98",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=29b873ea7f4bcd1d7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001840107",
       "keywords_kr": [
         "백용성",
         "대각교",
@@ -9120,8 +9292,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001840107",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "29b873ea7f4bcd1d7ecd42904f0c5d65",
       "id": "29b873ea7f4bcd1d7ecd42904f0c5d65"
@@ -9129,7 +9303,7 @@
     {
       "article_id": "29b873ea7f4bcd1db36097776a77e665",
       "title_kr": "고암 대종사의 생애와 행적의 불교사적 의의",
-      "title_en": "",
+      "title_en": "The Historical Significance of the Most Venerable Master Goam's Life and Achievement",
       "authors": [
         {
           "name": "이영호(진월)",
@@ -9147,7 +9321,7 @@
       "end_page": "138",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=29b873ea7f4bcd1db36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001840113",
       "keywords_kr": [
         "고암상언",
         "생애",
@@ -9174,8 +9348,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001840113",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "29b873ea7f4bcd1db36097776a77e665",
       "id": "29b873ea7f4bcd1db36097776a77e665"
@@ -9183,7 +9359,7 @@
     {
       "article_id": "29b873ea7f4bcd1d4884a65323211ff0",
       "title_kr": "고암의 간화선 사상에 대한 일고찰",
-      "title_en": "",
+      "title_en": "A study on the Ganhwaseon idea of Goam",
       "authors": [
         {
           "name": "이덕진",
@@ -9201,7 +9377,7 @@
       "end_page": "185",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=29b873ea7f4bcd1d4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001840125",
       "keywords_kr": [
         "화두",
         "발심",
@@ -9228,8 +9404,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001840125",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "29b873ea7f4bcd1d4884a65323211ff0",
       "id": "29b873ea7f4bcd1d4884a65323211ff0"
@@ -9237,7 +9415,7 @@
     {
       "article_id": "29b873ea7f4bcd1db7998d826d417196",
       "title_kr": "고암스님의 율맥, 계율사상과 계율의 응용",
-      "title_en": "",
+      "title_en": "Master Goam's (1899-1988) linage, thought and application of precepts and vinaya",
       "authors": [
         {
           "name": "문찬주(성원)",
@@ -9255,7 +9433,7 @@
       "end_page": "223",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=29b873ea7f4bcd1db7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001840134",
       "keywords_kr": [
         "고암스님",
         "계율",
@@ -9280,8 +9458,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001840134",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "29b873ea7f4bcd1db7998d826d417196",
       "id": "29b873ea7f4bcd1db7998d826d417196"
@@ -9289,7 +9469,7 @@
     {
       "article_id": "29b873ea7f4bcd1dc85d2949c297615a",
       "title_kr": "백파긍선 『육조대사법보단경요해』의 구조와 그 특징",
-      "title_en": "",
+      "title_en": "The Structure and Character of the Yukjodaesa-Beobbodankhyung-Yohae",
       "authors": [
         {
           "name": "김제성(인해)",
@@ -9307,7 +9487,7 @@
       "end_page": "252",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=29b873ea7f4bcd1dc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001840146",
       "keywords_kr": [
         "육조혜능",
         "돈황본",
@@ -9335,8 +9515,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001840146",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "29b873ea7f4bcd1dc85d2949c297615a",
       "id": "29b873ea7f4bcd1dc85d2949c297615a"
@@ -9344,7 +9526,7 @@
     {
       "article_id": "29b873ea7f4bcd1d47de9c1710b0298d",
       "title_kr": "전근대 봉녕사의 역사 검토와 화령전 원찰",
-      "title_en": "",
+      "title_en": "Historical Review on the Bongnyeongsa and the Memorial Temple in Hwaryeongjeon in the Premodern Era",
       "authors": [
         {
           "name": "황인규",
@@ -9362,7 +9544,7 @@
       "end_page": "289",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=29b873ea7f4bcd1d47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001840156",
       "keywords_kr": [
         "봉녕사",
         "봉덕사",
@@ -9381,8 +9563,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001840156",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "29b873ea7f4bcd1d47de9c1710b0298d",
       "id": "29b873ea7f4bcd1d47de9c1710b0298d"
@@ -9390,7 +9574,7 @@
     {
       "article_id": "29b873ea7f4bcd1d7f7a54760bb41745",
       "title_kr": "봉녕사의 근현대 역사와 寺格",
-      "title_en": "",
+      "title_en": "A History and Shape of Bongnyeongsa Temple In Modern and Contemporary Period",
       "authors": [
         {
           "name": "김상영",
@@ -9408,7 +9592,7 @@
       "end_page": "326",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=29b873ea7f4bcd1d7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001840164",
       "keywords_kr": [
         "봉녕사",
         "봉녕사승가대학",
@@ -9428,8 +9612,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001840164",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "29b873ea7f4bcd1d7f7a54760bb41745",
       "id": "29b873ea7f4bcd1d7f7a54760bb41745"
@@ -9437,7 +9623,7 @@
     {
       "article_id": "76ee24a25eac9f9ee9810257f7042666",
       "title_kr": "1994년 대한불교조계종 개혁종단의 성립과 의의",
-      "title_en": "",
+      "title_en": "Establishiment of Reformative Order within Korean Buddhist Jogey Order in 1994 and Its Meaning",
       "authors": [
         {
           "name": "김순석",
@@ -9455,7 +9641,7 @@
       "end_page": "359",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=76ee24a25eac9f9ee9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001840178",
       "keywords_kr": [
         "대한불교조계종",
         "총무원장",
@@ -9482,8 +9668,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001840178",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "76ee24a25eac9f9ee9810257f7042666",
       "id": "76ee24a25eac9f9ee9810257f7042666"
@@ -9491,7 +9679,7 @@
     {
       "article_id": "76ee24a25eac9f9ed18150b21a227875",
       "title_kr": "종교인 과세에 대한 불교적 관점",
-      "title_en": "",
+      "title_en": "A Buddhist Viewpoint on Imposing Taxation on Clergy",
       "authors": [
         {
           "name": "박경준",
@@ -9509,7 +9697,7 @@
       "end_page": "383",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=76ee24a25eac9f9ed18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001840192",
       "keywords_kr": [
         "주교회의",
         "근로소득세",
@@ -9535,8 +9723,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001840192",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "76ee24a25eac9f9ed18150b21a227875",
       "id": "76ee24a25eac9f9ed18150b21a227875"
@@ -9544,7 +9734,7 @@
     {
       "article_id": "69bc17baf96204ffb7998d826d417196",
       "title_kr": "운허 사상의 구조적 이해",
-      "title_en": "",
+      "title_en": "A Structural Study on Unheo’s Thought",
       "authors": [
         {
           "name": "이병욱",
@@ -9562,7 +9752,7 @@
       "end_page": "36",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=69bc17baf96204ffb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894141",
       "keywords_kr": [
         "집착",
         "원력(願力)",
@@ -9588,8 +9778,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001894141",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "69bc17baf96204ffb7998d826d417196",
       "id": "69bc17baf96204ffb7998d826d417196"
@@ -9597,7 +9789,7 @@
     {
       "article_id": "69bc17baf96204ffc85d2949c297615a",
       "title_kr": "운허의 『금강경』한글 번역에 대하여",
-      "title_en": "",
+      "title_en": "On Un-hea's the korean translation of the Diamond Sutra",
       "authors": [
         {
           "name": "김치온",
@@ -9615,7 +9807,7 @@
       "end_page": "68",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=69bc17baf96204ffc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894154",
       "keywords_kr": [
         "금강경 한글역",
         "용성",
@@ -9642,8 +9834,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001894154",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "69bc17baf96204ffc85d2949c297615a",
       "id": "69bc17baf96204ffc85d2949c297615a"
@@ -9651,7 +9845,7 @@
     {
       "article_id": "69bc17baf96204ff47de9c1710b0298d",
       "title_kr": "운허의 『법화경』번역과 그 입장",
-      "title_en": "",
+      "title_en": "Ven. Un-heo's Translation of The Lotus Sutra and his Perspective",
       "authors": [
         {
           "name": "차차석",
@@ -9669,7 +9863,7 @@
       "end_page": "99",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=69bc17baf96204ff47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894159",
       "keywords_kr": [
         "운허",
         "법화경",
@@ -9688,8 +9882,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001894159",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "69bc17baf96204ff47de9c1710b0298d",
       "id": "69bc17baf96204ff47de9c1710b0298d"
@@ -9697,7 +9893,7 @@
     {
       "article_id": "69bc17baf96204ff7f7a54760bb41745",
       "title_kr": "운허의 탁상일기를 통해 본 역경사업",
-      "title_en": "",
+      "title_en": "Through this adversity, tabletop unheo business diary",
       "authors": [
         {
           "name": "김동혁(지환)",
@@ -9715,7 +9911,7 @@
       "end_page": "141",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=69bc17baf96204ff7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894168",
       "keywords_kr": [
         "역경사업",
         "탁상일기",
@@ -9732,8 +9928,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001894168",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "69bc17baf96204ff7f7a54760bb41745",
       "id": "69bc17baf96204ff7f7a54760bb41745"
@@ -9741,7 +9939,7 @@
     {
       "article_id": "69bc17baf96204ffe9810257f7042666",
       "title_kr": "동산법문(東山法門)ㆍ북종(北宗)과 『단경(壇經)』의 수증관(修證觀) 비교",
-      "title_en": "",
+      "title_en": "The comparison of Sujeunggwan(修證觀. the view of cultivation and realization of enlightenment) of Dongsan-Beopmun(東山法門)·Bukjong(北宗) and that of Yukjodangyoung(六祖壇經)",
       "authors": [
         {
           "name": "이창안(철우)",
@@ -9759,7 +9957,7 @@
       "end_page": "173",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=69bc17baf96204ffe9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894180",
       "keywords_kr": [
         "동산법문(東山法門)",
         "오문선요(五門禪要)",
@@ -9782,8 +9980,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001894180",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "69bc17baf96204ffe9810257f7042666",
       "id": "69bc17baf96204ffe9810257f7042666"
@@ -9791,7 +9991,7 @@
     {
       "article_id": "69bc17baf96204ffd18150b21a227875",
       "title_kr": "当代中国佛教界的中流砥柱 - 净慧大和尚",
-      "title_en": "",
+      "title_en": "The mainstay of contemporary Chinese Buddhist community - The old monk Jinghui",
       "authors": [
         {
           "name": "朴永煥",
@@ -9809,7 +10009,7 @@
       "end_page": "189",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=69bc17baf96204ffd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894203",
       "keywords_kr": [
         "정혜선사",
         "생활선",
@@ -9831,8 +10031,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001894203",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "69bc17baf96204ffd18150b21a227875",
       "id": "69bc17baf96204ffd18150b21a227875"
@@ -9840,7 +10042,7 @@
     {
       "article_id": "69bc17baf96204ff6aae8a972f9116fb",
       "title_kr": "『금강삼매경』과 무언 및 침묵의 선리 고찰",
-      "title_en": "",
+      "title_en": "The view of seon - theory about taciturnity ＆ silence in 'JinGangSanMei-Jing'",
       "authors": [
         {
           "name": "김호귀",
@@ -9858,7 +10060,7 @@
       "end_page": "216",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=69bc17baf96204ff6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894209",
       "keywords_kr": [
         "금강삼매경",
         "금강삼매경론",
@@ -9882,8 +10084,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001894209",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "69bc17baf96204ff6aae8a972f9116fb",
       "id": "69bc17baf96204ff6aae8a972f9116fb"
@@ -9945,7 +10149,7 @@
     {
       "article_id": "691357abc64b03ce7ecd42904f0c5d65",
       "title_kr": "불교정화운동 연구, 회고와 전망",
-      "title_en": "",
+      "title_en": "A Research for the Purification Campaign of Korean Buddhism, Reminiscence and Outlook",
       "authors": [
         {
           "name": "김광식",
@@ -9963,7 +10167,7 @@
       "end_page": "283",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=691357abc64b03ce7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894219",
       "keywords_kr": [
         "불교정화",
         "정화운동",
@@ -9986,8 +10190,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001894219",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "691357abc64b03ce7ecd42904f0c5d65",
       "id": "691357abc64b03ce7ecd42904f0c5d65"
@@ -9995,7 +10201,7 @@
     {
       "article_id": "312ae91222d069fe4884a65323211ff0",
       "title_kr": "동암 선사의 생애와 사상",
-      "title_en": "",
+      "title_en": "Life and Thought of Dongam Sunim",
       "authors": [
         {
           "name": "이성수",
@@ -10013,7 +10219,7 @@
       "end_page": "42",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=312ae91222d069fe4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001938676",
       "keywords_kr": [
         "동암선사",
         "용성조사",
@@ -10039,8 +10245,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001938676",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "312ae91222d069fe4884a65323211ff0",
       "id": "312ae91222d069fe4884a65323211ff0"
@@ -10048,7 +10256,7 @@
     {
       "article_id": "312ae91222d069feb7998d826d417196",
       "title_kr": "東軒完奎스님의 생애에 대한 고찰",
-      "title_en": "",
+      "title_en": "Study on the Life of the Buddhist Monk, Dongheonwangyu(東軒完奎)",
       "authors": [
         {
           "name": "한태식(보광)",
@@ -10066,7 +10274,7 @@
       "end_page": "89",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=312ae91222d069feb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001938684",
       "keywords_kr": [
         "용성",
         "재단법인 대각회",
@@ -10093,8 +10301,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001938684",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "312ae91222d069feb7998d826d417196",
       "id": "312ae91222d069feb7998d826d417196"
@@ -10102,7 +10312,7 @@
     {
       "article_id": "312ae91222d069fec85d2949c297615a",
       "title_kr": "東侊의 생애에 대한 一考",
-      "title_en": "",
+      "title_en": "A consideration of Donggwang’s life",
       "authors": [
         {
           "name": "김광식",
@@ -10120,7 +10330,7 @@
       "end_page": "120",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=312ae91222d069fec85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001938690",
       "keywords_kr": [
         "백용성",
         "동광선사",
@@ -10139,8 +10349,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001938690",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "312ae91222d069fec85d2949c297615a",
       "id": "312ae91222d069fec85d2949c297615a"
@@ -10148,7 +10360,7 @@
     {
       "article_id": "312ae91222d069fe47de9c1710b0298d",
       "title_kr": "峰庵 邊月周의 生涯와 思想",
-      "title_en": "",
+      "title_en": "Bongam Byeon Wol-ju's Life and Thought",
       "authors": [
         {
           "name": "이수창(마성)",
@@ -10166,7 +10378,7 @@
       "end_page": "169",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=312ae91222d069fe47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001938695",
       "keywords_kr": [
         "광주학생독립운동",
         "光州高普",
@@ -10193,8 +10405,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001938695",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "312ae91222d069fe47de9c1710b0298d",
       "id": "312ae91222d069fe47de9c1710b0298d"
@@ -10202,7 +10416,7 @@
     {
       "article_id": "312ae91222d069fe7f7a54760bb41745",
       "title_kr": "오봉산 석굴암의 문화재 고찰",
-      "title_en": "",
+      "title_en": "A Study on the Cultural Assets at Seokgulam in Mt. Obong",
       "authors": [
         {
           "name": "김창균",
@@ -10220,7 +10434,7 @@
       "end_page": "198",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=312ae91222d069fe7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001938698",
       "keywords_kr": [
         "단종(端宗)",
         "정순왕후(定順王后)",
@@ -10247,8 +10461,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001938698",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "312ae91222d069fe7f7a54760bb41745",
       "id": "312ae91222d069fe7f7a54760bb41745"
@@ -10256,7 +10472,7 @@
     {
       "article_id": "312ae91222d069fee9810257f7042666",
       "title_kr": "근⋅현대기 한⋅일 비구니의 존재양상에 대한 시론적 고찰 - 종제의 변천을 중심으로 -",
-      "title_en": "",
+      "title_en": "A Consideration of the Changes of the Korean and Japanese Buddhist Order System during Modern and Contemporary Period and the Modes of Bhikkuni’s Existence",
       "authors": [
         {
           "name": "강문선(혜원)",
@@ -10274,7 +10490,7 @@
       "end_page": "240",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=312ae91222d069fee9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001938709",
       "keywords_kr": [
         "비구니",
         "대한불교조계종",
@@ -10297,8 +10513,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001938709",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "312ae91222d069fee9810257f7042666",
       "id": "312ae91222d069fee9810257f7042666"
@@ -10306,7 +10524,7 @@
     {
       "article_id": "312ae91222d069fed18150b21a227875",
       "title_kr": "식민지 조선과 불교 - 근대기 대처승(帶妻僧) 문제를 둘러싼 한일 불교계의 동향 -",
-      "title_en": "",
+      "title_en": "The Colonial Joseon and Buddhism - Trends among Korean and Japanese Buddhists around the Issue of Married Monk in Modern Era -",
       "authors": [
         {
           "name": "제점숙",
@@ -10324,7 +10542,7 @@
       "end_page": "278",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=312ae91222d069fed18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001938716",
       "keywords_kr": [
         "식민지 조선",
         "조선불교",
@@ -10351,8 +10569,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001938716",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "312ae91222d069fed18150b21a227875",
       "id": "312ae91222d069fed18150b21a227875"
@@ -10360,7 +10580,7 @@
     {
       "article_id": "312ae91222d069fe6aae8a972f9116fb",
       "title_kr": "이승만 대통령의 유시와 불교정화 운동의 전개",
-      "title_en": "",
+      "title_en": "President Seung‐man Lee’s Instructions and the Development of the Buddhist Purification Movement",
       "authors": [
         {
           "name": "이재헌",
@@ -10378,7 +10598,7 @@
       "end_page": "333",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=312ae91222d069fe6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001938732",
       "keywords_kr": [
         "이승만대통령",
         "유시",
@@ -10405,8 +10625,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001938732",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "312ae91222d069fe6aae8a972f9116fb",
       "id": "312ae91222d069fe6aae8a972f9116fb"
@@ -10414,7 +10636,7 @@
     {
       "article_id": "37eaead66e32041f7ecd42904f0c5d65",
       "title_kr": "혜암 선사(慧菴禪師)의 수행 리더십 형성과 하화중생(下化衆生) - 신조류(新潮流) 리더십 이론과 Max Weber의 카리스마 이론을 중심으로 -",
-      "title_en": "",
+      "title_en": "Zen Master Hyeam(慧菴)'s Formation of Ascetic Practice Leadership and Enlightenment of People - Focused on new-trend leadership theory and Max Weber's charisma theory -",
       "authors": [
         {
           "name": "조기룡",
@@ -10432,7 +10654,7 @@
       "end_page": "363",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=37eaead66e32041f7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001938736",
       "keywords_kr": [
         "혜암(慧菴)",
         "간화선",
@@ -10460,8 +10682,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001938736",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "37eaead66e32041f7ecd42904f0c5d65",
       "id": "37eaead66e32041f7ecd42904f0c5d65"
@@ -10469,7 +10693,7 @@
     {
       "article_id": "37eaead66e32041fb36097776a77e665",
       "title_kr": "傳燈史書로서 『통록촬요』의 구조와 그 의의 고찰",
-      "title_en": "",
+      "title_en": "A view of frame & significance about Tongrokcharlyo",
       "authors": [
         {
           "name": "김호귀",
@@ -10487,7 +10711,7 @@
       "end_page": "387",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=37eaead66e32041fb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001938742",
       "keywords_kr": [
         "대장일람",
         "통록촬요",
@@ -10513,8 +10737,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001938742",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "37eaead66e32041fb36097776a77e665",
       "id": "37eaead66e32041fb36097776a77e665"
@@ -10522,7 +10748,7 @@
     {
       "article_id": "9c09f03ec995e695d18150b21a227875",
       "title_kr": "용성과 한암의 행적에 나타난 정체성",
-      "title_en": "",
+      "title_en": "The identity view shown in the history of Yongseong and Hanam",
       "authors": [
         {
           "name": "김광식",
@@ -10540,7 +10766,7 @@
       "end_page": "35",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9c09f03ec995e695d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002002943",
       "keywords_kr": [
         "용성",
         "한암",
@@ -10563,8 +10789,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002002943",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9c09f03ec995e695d18150b21a227875",
       "id": "9c09f03ec995e695d18150b21a227875"
@@ -10572,7 +10800,7 @@
     {
       "article_id": "f32d4740479eb7767ecd42904f0c5d65",
       "title_kr": "『용성선사어록』의 구성 및 선사상사적 의의",
-      "title_en": "",
+      "title_en": "The constituent and significance about Yongsung-seonsa aurok",
       "authors": [
         {
           "name": "김호귀",
@@ -10590,7 +10818,7 @@
       "end_page": "64",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f32d4740479eb7767ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002002957",
       "keywords_kr": [
         "선어록",
         "용성선사어록",
@@ -10611,8 +10839,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002002957",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f32d4740479eb7767ecd42904f0c5d65",
       "id": "f32d4740479eb7767ecd42904f0c5d65"
@@ -10620,7 +10850,7 @@
     {
       "article_id": "f32d4740479eb776b36097776a77e665",
       "title_kr": "白龍城의 禪農佛敎에 대한 再照明 - 교단사적 측면을 중심으로 -",
-      "title_en": "",
+      "title_en": "A Reillumination on Baek Yong-seong’s Seon-Nong(Zen-Agriculture) Buddhism - with a Focus on the History of Buddhist Orders -",
       "authors": [
         {
           "name": "이수창(마성)",
@@ -10638,7 +10868,7 @@
       "end_page": "94",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f32d4740479eb776b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002003049",
       "keywords_kr": [
         "禪農佛敎",
         "四依法",
@@ -10659,8 +10889,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002003049",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f32d4740479eb776b36097776a77e665",
       "id": "f32d4740479eb776b36097776a77e665"
@@ -10668,7 +10900,7 @@
     {
       "article_id": "f32d4740479eb7764884a65323211ff0",
       "title_kr": "백용성 율맥(律脈)의 성격 및 전개",
-      "title_en": "",
+      "title_en": "The Characteristics and Development of the lineage of the transmission of the precepts of Yongseong Baek (白龍城)",
       "authors": [
         {
           "name": "이자랑",
@@ -10686,7 +10918,7 @@
       "end_page": "124",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f32d4740479eb7764884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002003085",
       "keywords_kr": [
         "백용성",
         "율맥",
@@ -10714,8 +10946,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002003085",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f32d4740479eb7764884a65323211ff0",
       "id": "f32d4740479eb7764884a65323211ff0"
@@ -10723,7 +10957,7 @@
     {
       "article_id": "f32d4740479eb776b7998d826d417196",
       "title_kr": "백용성의 근대와의 만남과 불교개혁 운동",
-      "title_en": "",
+      "title_en": "Baek Youngseonng's Encounting Modernity and His Activities for the Reformation of Korean Buddhism",
       "authors": [
         {
           "name": "김종인",
@@ -10741,7 +10975,7 @@
       "end_page": "152",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f32d4740479eb776b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002003101",
       "keywords_kr": [
         "용성",
         "만해",
@@ -10768,8 +11002,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002003101",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f32d4740479eb776b7998d826d417196",
       "id": "f32d4740479eb776b7998d826d417196"
@@ -10777,7 +11013,7 @@
     {
       "article_id": "f32d4740479eb776c85d2949c297615a",
       "title_kr": "<戒箴>의 분석을 통한 漢岩의 禪戒一致적 관점",
-      "title_en": "",
+      "title_en": "A Study on Hanam(漢岩)’s Seon/Gye Identity Idea through Analysis of <Gyejam(戒箴)>",
       "authors": [
         {
           "name": "염중섭(자현)",
@@ -10795,7 +11031,7 @@
       "end_page": "191",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f32d4740479eb776c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002003111",
       "keywords_kr": [
         "<戒箴>",
         "禪戒一致",
@@ -10822,8 +11058,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002003111",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f32d4740479eb776c85d2949c297615a",
       "id": "f32d4740479eb776c85d2949c297615a"
@@ -10831,7 +11069,7 @@
     {
       "article_id": "f32d4740479eb77647de9c1710b0298d",
       "title_kr": "화두참구의 두 가지 방법과 漢岩禪",
-      "title_en": "",
+      "title_en": "Two ways of Hwaduchamgu and Hanam Seon",
       "authors": [
         {
           "name": "윤창화",
@@ -10849,7 +11087,7 @@
       "end_page": "232",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f32d4740479eb77647de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002003123",
       "keywords_kr": [
         "간화선",
         "무자화두",
@@ -10874,8 +11112,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002003123",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f32d4740479eb77647de9c1710b0298d",
       "id": "f32d4740479eb77647de9c1710b0298d"
@@ -10883,7 +11123,7 @@
     {
       "article_id": "f32d4740479eb7767f7a54760bb41745",
       "title_kr": "한암의 계율인식 고찰",
-      "title_en": "",
+      "title_en": "A Study of Hanam's adherence to Discipline",
       "authors": [
         {
           "name": "백도수",
@@ -10901,7 +11141,7 @@
       "end_page": "262",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f32d4740479eb7767f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002003137",
       "keywords_kr": [
         "계율인식의 토대",
         "특징",
@@ -10928,8 +11168,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002003137",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f32d4740479eb7767f7a54760bb41745",
       "id": "f32d4740479eb7767f7a54760bb41745"
@@ -10937,7 +11179,7 @@
     {
       "article_id": "f32d4740479eb776e9810257f7042666",
       "title_kr": "漢巖 重遠의 普照 ⋅ 鏡虛 계승과 그 의미",
-      "title_en": "",
+      "title_en": "The Teachings of Hanam Joongwon (漢巖 重遠), Inherited by Those of Bojo (普照) and Gyeongheo, (鏡虛) and its Significance",
       "authors": [
         {
           "name": "이상하",
@@ -10955,7 +11197,7 @@
       "end_page": "287",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f32d4740479eb776e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002003152",
       "keywords_kr": [
         "漢巖",
         "普照",
@@ -10984,8 +11226,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002003152",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f32d4740479eb776e9810257f7042666",
       "id": "f32d4740479eb776e9810257f7042666"
@@ -10993,7 +11237,7 @@
     {
       "article_id": "f32d4740479eb776d18150b21a227875",
       "title_kr": "원효의 불신화쟁론(佛身和諍論) - 보신불의 상주성과 무상성 -",
-      "title_en": "",
+      "title_en": "Wonhyo' Theory of Harmonization on the Buddha-body - the Permanence or the Impermanence of Reward Body -",
       "authors": [
         {
           "name": "김영일",
@@ -11011,7 +11255,7 @@
       "end_page": "315",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f32d4740479eb776d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002003173",
       "keywords_kr": [
         "원효",
         "화쟁론",
@@ -11038,8 +11282,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002003173",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f32d4740479eb776d18150b21a227875",
       "id": "f32d4740479eb776d18150b21a227875"
@@ -11047,7 +11293,7 @@
     {
       "article_id": "f32d4740479eb7766aae8a972f9116fb",
       "title_kr": "근대 한국 비구니 선수행 양상과 印可에 대한 문제",
-      "title_en": "",
+      "title_en": "A Consideration on the Aspects of Korean Bhikshuni’s Seon Practice and Approval of the Enlightenment in the Early Modern Era",
       "authors": [
         {
           "name": "강문선(혜원)",
@@ -11065,7 +11311,7 @@
       "end_page": "355",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f32d4740479eb7766aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002003188",
       "keywords_kr": [
         "근대기비구니",
         "화두참구",
@@ -11086,8 +11332,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002003188",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f32d4740479eb7766aae8a972f9116fb",
       "id": "f32d4740479eb7766aae8a972f9116fb"
@@ -11095,7 +11343,7 @@
     {
       "article_id": "3274763d9e80af2a4884a65323211ff0",
       "title_kr": "고암의 정체성과 용성사상의 계승",
-      "title_en": "",
+      "title_en": "Goam’s Identification and his succession to the thought of Yongseong",
       "authors": [
         {
           "name": "김광식",
@@ -11113,7 +11361,7 @@
       "end_page": "47",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3274763d9e80af2a4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070351",
       "keywords_kr": [
         "백용성",
         "고암",
@@ -11132,8 +11380,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070351",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3274763d9e80af2a4884a65323211ff0",
       "id": "3274763d9e80af2a4884a65323211ff0"
@@ -11141,7 +11391,7 @@
     {
       "article_id": "3274763d9e80af2ab7998d826d417196",
       "title_kr": "‘설악산문'의 성립과 역사적 전개",
-      "title_en": "",
+      "title_en": "The Establishment of ‘Seorak Monastery’ and its Historical Development",
       "authors": [
         {
           "name": "홍사성",
@@ -11159,7 +11409,7 @@
       "end_page": "78",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3274763d9e80af2ab7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070376",
       "keywords_kr": [
         "설악산",
         "도의선사",
@@ -11182,8 +11432,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070376",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3274763d9e80af2ab7998d826d417196",
       "id": "3274763d9e80af2ab7998d826d417196"
@@ -11191,7 +11443,7 @@
     {
       "article_id": "3274763d9e80af2ac85d2949c297615a",
       "title_kr": "설악산 권역 사찰과 관련한 시문의 감상",
-      "title_en": "",
+      "title_en": "Impression of the poems related to the temples in the district of Mt. Seorak",
       "authors": [
         {
           "name": "임연태",
@@ -11209,7 +11461,7 @@
       "end_page": "108",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3274763d9e80af2ac85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070389",
       "keywords_kr": [
         "설악산",
         "내설악",
@@ -11236,8 +11488,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070389",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3274763d9e80af2ac85d2949c297615a",
       "id": "3274763d9e80af2ac85d2949c297615a"
@@ -11245,7 +11499,7 @@
     {
       "article_id": "3274763d9e80af2a47de9c1710b0298d",
       "title_kr": "고암ㆍ성준스님의 가르침 - 인연으로 지켜본 隨聞記 -",
-      "title_en": "",
+      "title_en": "The Teachings of Goam Sunim and Seongjun Sunim - A Story of Causality -",
       "authors": [
         {
           "name": "윤점열(지원)",
@@ -11263,7 +11517,7 @@
       "end_page": "133",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3274763d9e80af2a47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070405",
       "keywords_kr": [
         "고암스님",
         "성준스님",
@@ -11286,8 +11540,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070405",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3274763d9e80af2a47de9c1710b0298d",
       "id": "3274763d9e80af2a47de9c1710b0298d"
@@ -11295,7 +11551,7 @@
     {
       "article_id": "3274763d9e80af2a7f7a54760bb41745",
       "title_kr": "속초 신흥사의 지역포교 방안 연구",
-      "title_en": "",
+      "title_en": "A study on the area propagation method of Seorak Mt. Sinhung Temple",
       "authors": [
         {
           "name": "김응철",
@@ -11313,7 +11569,7 @@
       "end_page": "171",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3274763d9e80af2a7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070412",
       "keywords_kr": [
         "불교",
         "조계종",
@@ -11340,8 +11596,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070412",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3274763d9e80af2a7f7a54760bb41745",
       "id": "3274763d9e80af2a7f7a54760bb41745"
@@ -11349,7 +11607,7 @@
     {
       "article_id": "3274763d9e80af2ae9810257f7042666",
       "title_kr": "설악불교와 지역포교",
-      "title_en": "",
+      "title_en": "Sorak Buddhism and local missionary work",
       "authors": [
         {
           "name": "고명석",
@@ -11367,7 +11625,7 @@
       "end_page": "205",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3274763d9e80af2ae9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070420",
       "keywords_kr": [
         "설악불교. 지역포교. 지역공동체",
         "강원불교",
@@ -11390,8 +11648,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070420",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3274763d9e80af2ae9810257f7042666",
       "id": "3274763d9e80af2ae9810257f7042666"
@@ -11399,7 +11659,7 @@
     {
       "article_id": "3274763d9e80af2ad18150b21a227875",
       "title_kr": "용성선사 진영에 나타난 근대적 양상",
-      "title_en": "",
+      "title_en": "Modern Patterns Appearing in Yong-seong’s Portraits",
       "authors": [
         {
           "name": "이정은",
@@ -11417,7 +11677,7 @@
       "end_page": "236",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3274763d9e80af2ad18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070444",
       "keywords_kr": [
         "용성선사 진영",
         "고승진영",
@@ -11444,8 +11704,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070444",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3274763d9e80af2ad18150b21a227875",
       "id": "3274763d9e80af2ad18150b21a227875"
@@ -11453,7 +11715,7 @@
     {
       "article_id": "3274763d9e80af2a6aae8a972f9116fb",
       "title_kr": "삼학겸수에 입각한 윤월하 수행 정신 - 행장을 중심으로 -",
-      "title_en": "",
+      "title_en": "Yun Wolha’s spirituality based on the combined three trainings - Focused on his hagiography -",
       "authors": [
         {
           "name": "김수아(소운)",
@@ -11471,7 +11733,7 @@
       "end_page": "268",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3274763d9e80af2a6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070451",
       "keywords_kr": [
         "윤월하",
         "김구하",
@@ -11498,8 +11760,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070451",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3274763d9e80af2a6aae8a972f9116fb",
       "id": "3274763d9e80af2a6aae8a972f9116fb"
@@ -11507,7 +11771,7 @@
     {
       "article_id": "666c5cf7d809e00db36097776a77e665",
       "title_kr": "19세기 수선결사의 계승 - 『少林通方正眼』과 雪竇奉琪의 선교결사 -",
-      "title_en": "",
+      "title_en": "A Study of Seoldu authored Solim Tong bang jeong an(『少林通方正眼』) and the Association of Seon practice and scriptures(禪敎結社)",
       "authors": [
         {
           "name": "이영석(영석)",
@@ -11525,7 +11789,7 @@
       "end_page": "302",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=666c5cf7d809e00db36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070463",
       "keywords_kr": [
         "소림통방정안",
         "설두봉기",
@@ -11553,8 +11817,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070463",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "666c5cf7d809e00db36097776a77e665",
       "id": "666c5cf7d809e00db36097776a77e665"
@@ -11562,7 +11828,7 @@
     {
       "article_id": "666c5cf7d809e00d7ecd42904f0c5d65",
       "title_kr": "大韓佛敎天台宗 三大指標의 實踐에 대한 硏究",
-      "title_en": "",
+      "title_en": "Study on the practice of the Three indicators in the Korea Buddhist Cheontae Order",
       "authors": [
         {
           "name": "김동림(보덕)",
@@ -11580,7 +11846,7 @@
       "end_page": "333",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=666c5cf7d809e00d7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070473",
       "keywords_kr": [
         "상월대조사",
         "새 불교운동",
@@ -11607,8 +11873,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070473",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "666c5cf7d809e00d7ecd42904f0c5d65",
       "id": "666c5cf7d809e00d7ecd42904f0c5d65"
@@ -11616,7 +11884,7 @@
     {
       "article_id": "666c5cf7d809e00d4884a65323211ff0",
       "title_kr": "백파긍선 『선문오종강요사기』의 潙仰宗 및 法眼宗 敎義 고찰",
-      "title_en": "",
+      "title_en": "A study on doctrines of Weiyang sect and Fayan sect about Seonmun Ojong Gangyo Sagi",
       "authors": [
         {
           "name": "김호귀",
@@ -11634,7 +11902,7 @@
       "end_page": "359",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=666c5cf7d809e00d4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002070477",
       "keywords_kr": [
         "선문오종강요사기",
         "선문오종강요",
@@ -11662,8 +11930,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002070477",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "666c5cf7d809e00d4884a65323211ff0",
       "id": "666c5cf7d809e00d4884a65323211ff0"
@@ -11671,7 +11941,7 @@
     {
       "article_id": "d400dfd5abd3114d47de9c1710b0298d",
       "title_kr": "박영희의 독립운동과 민족불교",
-      "title_en": "",
+      "title_en": "Park Yeonghee's Independent Movement and Ethnic Buddhism",
       "authors": [
         {
           "name": "김광식",
@@ -11689,7 +11959,7 @@
       "end_page": "38",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d400dfd5abd3114d47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002125085",
       "keywords_kr": [
         "박영희",
         "불교 독립운동",
@@ -11710,8 +11980,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002125085",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d400dfd5abd3114d47de9c1710b0298d",
       "id": "d400dfd5abd3114d47de9c1710b0298d"
@@ -11719,7 +11991,7 @@
     {
       "article_id": "d400dfd5abd3114d7f7a54760bb41745",
       "title_kr": "응송 박영희의 불교계 활동과 선관",
-      "title_en": "",
+      "title_en": "The Activity of Monk Eungsong Park Younghee in Modern Korean Buddhism and His Viewpoint of Zen",
       "authors": [
         {
           "name": "정병삼",
@@ -11737,7 +12009,7 @@
       "end_page": "68",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d400dfd5abd3114d7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002125092",
       "keywords_kr": [
         "응송 박영희",
         "대흥사",
@@ -11763,8 +12035,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002125092",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d400dfd5abd3114d7f7a54760bb41745",
       "id": "d400dfd5abd3114d7f7a54760bb41745"
@@ -11772,7 +12046,7 @@
     {
       "article_id": "d400dfd5abd3114de9810257f7042666",
       "title_kr": "응송 박영희의 다법과 특징",
-      "title_en": "",
+      "title_en": "A study on the characteristic of Eungsong's tea making",
       "authors": [
         {
           "name": "박동춘",
@@ -11790,7 +12064,7 @@
       "end_page": "101",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d400dfd5abd3114de9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002125096",
       "keywords_kr": [
         "대흥사 다법",
         "초의선사",
@@ -11809,8 +12083,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002125096",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d400dfd5abd3114de9810257f7042666",
       "id": "d400dfd5abd3114de9810257f7042666"
@@ -11818,7 +12094,7 @@
     {
       "article_id": "d400dfd5abd3114dd18150b21a227875",
       "title_kr": "근ㆍ현대 차문화 부흥기 應松 朴暎熙의 역할과 영향",
-      "title_en": "",
+      "title_en": "The Role and influences of Eungsong Park, Yeong-hee(應松 朴暎熙) in Modern and contemporary revival period of Korean Tea Culture",
       "authors": [
         {
           "name": "정서경",
@@ -11836,7 +12112,7 @@
       "end_page": "141",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d400dfd5abd3114dd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002125103",
       "keywords_kr": [
         "초의 의순",
         "대흥사",
@@ -11860,8 +12136,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002125103",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d400dfd5abd3114dd18150b21a227875",
       "id": "d400dfd5abd3114dd18150b21a227875"
@@ -11869,7 +12147,7 @@
     {
       "article_id": "d400dfd5abd3114d6aae8a972f9116fb",
       "title_kr": "應松 ｢隨緣說法의 諸法門｣ 考察",
-      "title_en": "",
+      "title_en": "A Study on Eungsong(應松) Jebeopmun of Suyeonseolbeop(「隨緣說法ui 諸法門」)",
       "authors": [
         {
           "name": "김미선",
@@ -11887,7 +12165,7 @@
       "end_page": "166",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d400dfd5abd3114d6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002125109",
       "keywords_kr": [
         "應松",
         "隨緣",
@@ -11904,8 +12182,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002125109",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d400dfd5abd3114d6aae8a972f9116fb",
       "id": "d400dfd5abd3114d6aae8a972f9116fb"
@@ -11913,7 +12193,7 @@
     {
       "article_id": "371d61d2fe3c878d7ecd42904f0c5d65",
       "title_kr": "龍城禪師의 敎化 樣態 考察",
-      "title_en": "",
+      "title_en": "Consideration of the approach to the edification of Seon master, Yongseong",
       "authors": [
         {
           "name": "박영만(법안)",
@@ -11931,7 +12211,7 @@
       "end_page": "199",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=371d61d2fe3c878d7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002125131",
       "keywords_kr": [
         "용성선사",
         "대성사",
@@ -11945,8 +12225,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002125131",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "371d61d2fe3c878d7ecd42904f0c5d65",
       "id": "371d61d2fe3c878d7ecd42904f0c5d65"
@@ -11954,7 +12236,7 @@
     {
       "article_id": "371d61d2fe3c878db36097776a77e665",
       "title_kr": "만해 한용운이라는 기념비",
-      "title_en": "",
+      "title_en": "A Monument named Manhae, Han Yong-woon",
       "authors": [
         {
           "name": "김익균",
@@ -11972,7 +12254,7 @@
       "end_page": "239",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=371d61d2fe3c878db36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002125138",
       "keywords_kr": [
         "한용운",
         "역사",
@@ -11998,8 +12280,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002125138",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "371d61d2fe3c878db36097776a77e665",
       "id": "371d61d2fe3c878db36097776a77e665"
@@ -12025,7 +12309,7 @@
       "end_page": "273",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb94880a7b1f95de7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002125146",
       "keywords_kr": [
         "무진장",
         "불교 대중화",
@@ -12046,8 +12330,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002125146",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb94880a7b1f95de7ecd42904f0c5d65",
       "id": "cb94880a7b1f95de7ecd42904f0c5d65"
@@ -14266,7 +14552,7 @@
     {
       "article_id": "a38b311d55f4c38ed18150b21a227875",
       "title_kr": "1920년대 공주포교당의 포교의 방향 - 한용운⋅이영재의 불교개혁론과 관련해서 -",
-      "title_en": "The Direction of Activities of the Period of 1920's Gongju Buddhist Missionary Center : In Context of Han Yong Un and Lee Young Jae's the Argument of Buddhist Reform.",
+      "title_en": "The Direction of Activities of the Period of 1920's Gongju Buddhist Missionary Center: In Context of Han Yong Un and Lee Young Jae's the Argument of Buddhist Reform.",
       "authors": [
         {
           "name": "이병욱",
@@ -14924,7 +15210,7 @@
     {
       "article_id": "07ae0fb343a8cb1bb36097776a77e665",
       "title_kr": "성림월산과 불국사 선원- 불국사 선원 개설의 역사적 배경과 의미를 중심으로 -",
-      "title_en": "Ven. Wolsan and the Seon Center of the Bulguksa Temple : Focusing on the historical background and meaning of establishing the Center",
+      "title_en": "Ven. Wolsan and the Seon Center of the Bulguksa Temple: Focusing on the historical background and meaning of establishing the Center",
       "authors": [
         {
           "name": "석길암",
@@ -15260,7 +15546,7 @@
     {
       "article_id": "8c0656ee978fcc4be9810257f7042666",
       "title_kr": "조계종의 ‘통불교’ 인식과 그 문제점 - ‘통불교’ 담론의 전개양상을 중심으로 -",
-      "title_en": "Perception of the Jogye Order towards the Syncretic Buddhism (t’ong bulgyo, 通佛敎) and Its Related Issues  - Focused on the Development of the Discourse of the Syncretic Buddhism -",
+      "title_en": "Perception of the Jogye Order towards the Syncretic Buddhism (t’ong bulgyo, 通佛敎) and Its Related Issues - Focused on the Development of the Discourse of the Syncretic Buddhism -",
       "authors": [
         {
           "name": "김상영",
@@ -15441,7 +15727,7 @@
     {
       "article_id": "fb2eaeec91c5ce107ecd42904f0c5d65",
       "title_kr": "석전 박한영의 禪理 및 禪語에 대한 고찰 - 선사상적인 배경과 관련하여 -",
-      "title_en": "A Study on the Theorys of Zen and the Terms of Zen by Seokjeon Bakhanyoung  - in Relation to the Historic Background of Zen Thoughts -",
+      "title_en": "A Study on the Theorys of Zen and the Terms of Zen by Seokjeon Bakhanyoung - in Relation to the Historic Background of Zen Thoughts -",
       "authors": [
         {
           "name": "김호귀",
@@ -15490,7 +15776,7 @@
     {
       "article_id": "fb2eaeec91c5ce10b36097776a77e665",
       "title_kr": "근대 불교계와 만암 송종헌의 교육 활동",
-      "title_en": "Modern Buddhist Circle and Educational Activities  of Manam Song Jong-heon",
+      "title_en": "Modern Buddhist Circle and Educational Activities of Manam Song Jong-heon",
       "authors": [
         {
           "name": "한동민",
@@ -19328,7 +19614,7 @@
     {
       "article_id": "5576e4311acee5ae47de9c1710b0298d",
       "title_kr": "동국대학교와 범어사 - 허영호와 김법린을 중심으로 -",
-      "title_en": "Dongguk University and Beomeosa Temple(梵魚寺) : The Educational Contributions of Heo Yeongho(許永鎬) and Kim Beomrin(金法麟)",
+      "title_en": "Dongguk University and Beomeosa Temple(梵魚寺): The Educational Contributions of Heo Yeongho(許永鎬) and Kim Beomrin(金法麟)",
       "authors": [
         {
           "name": "김은영",
@@ -19404,7 +19690,7 @@
     {
       "article_id": "5576e4311acee5ae4884a65323211ff0",
       "title_kr": "불교의 중국화와 ‘인도 불교’ 원형론 비판 - 케네스 첸과 우홍의 해석을 중심으로 -",
-      "title_en": "Buddhist Localization and the Critique of the ‘Indian Buddhism’ Archetype : Rethinking Sinification in the Interpretations of Kenneth Ch’en and Wu Hung",
+      "title_en": "Buddhist Localization and the Critique of the ‘Indian Buddhism’ Archetype: Rethinking Sinification in the Interpretations of Kenneth Ch’en and Wu Hung",
       "authors": [
         {
           "name": "이주성",
@@ -19556,7 +19842,7 @@
     {
       "article_id": "5576e4311acee5ae7f7a54760bb41745",
       "title_kr": "남은돌모둠(1960~70년대 원로 승가 모임) 기록의 발굴과 그 의미",
-      "title_en": "Discovery of Archival Records on Nameun-Dol-Modum and Its Significance:  Historical Insights into the Senior Monks’ Community in the 1960s and 1970s Korea",
+      "title_en": "Discovery of Archival Records on Nameun-Dol-Modum and Its Significance: Historical Insights into the Senior Monks’ Community in the 1960s and 1970s Korea",
       "authors": [
         {
           "name": "김동혁(향성)",
@@ -19701,7 +19987,7 @@
     {
       "article_id": "c5d5154db07f1ac4b7998d826d417196",
       "title_kr": "대은의 암야의 등명에 나타난 사상 연구 - 인생관, 불교의 윤리관과 경제관을 중심으로 -",
-      "title_en": "A Study of the Thoughts Revealed in Daeeun Great Master's The Light in the Dark Night   - Focusing on Life, Buddhist Ethics, and Buddhist Economics -",
+      "title_en": "A Study of the Thoughts Revealed in Daeeun Great Master's The Light in the Dark Night - Focusing on Life, Buddhist Ethics, and Buddhist Economics -",
       "authors": [
         {
           "name": "이병욱",
@@ -19991,7 +20277,7 @@
     {
       "article_id": "90f4fc855757114cb36097776a77e665",
       "title_kr": "항일 비밀결사 만당(卍黨), 개요와 성격",
-      "title_en": "Anti-Japanese Secret Society Mandang(卍黨) :  Overview and Characteristics",
+      "title_en": "Anti-Japanese Secret Society Mandang(卍黨): Overview and Characteristics",
       "authors": [
         {
           "name": "김광식",
@@ -20103,7 +20389,7 @@
     {
       "article_id": "d902b613404870106aae8a972f9116fb",
       "title_kr": "만암스님과 정화운동 - 근대 한국불교의 전환과 리더십의 관점에서 -",
-      "title_en": "Ven. Manam and the Buddhist Purification Movement:  From the Perspective of Transition and Leadership in Modern Korean Buddhism",
+      "title_en": "Ven. Manam and the Buddhist Purification Movement: From the Perspective of Transition and Leadership in Modern Korean Buddhism",
       "authors": [
         {
           "name": "오종만",
@@ -20380,7 +20666,7 @@
     {
       "article_id": "7c71a355f886a02cb7998d826d417196",
       "title_kr": "백용성 스님의 각설범망경 역경과 승가 정화운동 - 참회 사상을 중심으로 -",
-      "title_en": "Back yongseong’s Translation of Gakseol Beommanggyeong and the Sangha Purification Movement : Focusing on Repentance Thought",
+      "title_en": "Back yongseong’s Translation of Gakseol Beommanggyeong and the Sangha Purification Movement: Focusing on Repentance Thought",
       "authors": [
         {
           "name": "지하나",

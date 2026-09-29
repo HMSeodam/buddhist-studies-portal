@@ -5,43 +5,6 @@
   },
   "articles": [
     {
-      "article_id": "ART001211922",
-      "id": "ART001211922",
-      "kci_id": "ART001211922",
-      "title_kr": "The essence",
-      "title_en": "The essence",
-      "authors": [
-        {
-          "name": "asdf",
-          "affiliation": "asdf",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "IJBTC",
-      "year": "2002",
-      "volume": "1",
-      "issue": "",
-      "start_page": "",
-      "end_page": "",
-      "doi": "",
-      "riss_url": "",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001211922",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학술원",
-      "kci_year": "2002",
-      "kci_volume": "1",
-      "kci_issue": "",
-      "sources": [
-        "KCI"
-      ],
-      "riss_id": ""
-    },
-    {
       "article_id": "9f267eba61e23f78b36097776a77e665",
       "title_kr": "A Message from the Editors",
       "title_en": "",
@@ -245,7 +208,7 @@
     },
     {
       "article_id": "a9b866cf58c37a03ffe0bdc3ef48d419",
-      "title_kr": "Double Tragedy\n\t\t\t \t\n\t\t\t \t\n\t\t\t\t\t : \n\t            \n\t            A Reappraisal of the Decline of Buddhism in India",
+      "title_kr": "Double Tragedy: A Reappraisal of the Decline of Buddhism in India",
       "title_en": "Double Tragedy: A Reappraisal of the Decline of Buddhism in India",
       "authors": [
         {
@@ -415,7 +378,7 @@
     },
     {
       "article_id": "1579de61f6551ad1ffe0bdc3ef48d419",
-      "title_kr": "Relic Worship\n\t\t\t \t\n\t\t\t \t\n\t\t\t\t\t : \n\t            \n\t            A Devotional Institute in Early Buddhism",
+      "title_kr": "Relic Worship: A Devotional Institute in Early Buddhism",
       "title_en": "Relic Worship: A Devotional Institute in Early Buddhism",
       "authors": [
         {
@@ -619,7 +582,7 @@
     },
     {
       "article_id": "a2cce3a766fac0f2ffe0bdc3ef48d419",
-      "title_kr": "Editorial : The Locus for Creative Interpretation in Buddhist Thought and Culture",
+      "title_kr": "Editorial: The Locus for Creative Interpretation in Buddhist Thought and Culture",
       "title_en": "",
       "authors": [
         {
@@ -651,7 +614,7 @@
     },
     {
       "article_id": "d5c77ea533586c5affe0bdc3ef48d419",
-      "title_kr": "Essay of the President : Contemporary Relevance of W&nhyo Thought",
+      "title_kr": "Essay of the President: Contemporary Relevance of W&nhyo Thought",
       "title_en": "",
       "authors": [
         {
@@ -717,7 +680,7 @@
     },
     {
       "article_id": "d0fbc8074a43d7bbffe0bdc3ef48d419",
-      "title_kr": "Special Topic of W&nhyo : W&nhyo`s Faith System, as seen in his Commentaries on the Awakening of Mah2y2na Faith",
+      "title_kr": "Special Topic of W&nhyo: W&nhyo`s Faith System, as seen in his Commentaries on the Awakening of Mah2y2na Faith",
       "title_en": "Wnhyo's Faith System, as Seen in His Commentaries on the Awakening of Mahyna Faith",
       "authors": [
         {
@@ -751,7 +714,7 @@
     },
     {
       "article_id": "6dc2e45d2e6c19c3ffe0bdc3ef48d419",
-      "title_kr": "Special Topic of W&nhyo : W&nhyo and the Commentarial Genre in Korean Buddhist Literature",
+      "title_kr": "Special Topic of W&nhyo: W&nhyo and the Commentarial Genre in Korean Buddhist Literature",
       "title_en": "Wnhyo and the Commentarial Genre in Korean Buddhist Literature",
       "authors": [
         {
@@ -819,7 +782,7 @@
     },
     {
       "article_id": "408431f27f8285baffe0bdc3ef48d419",
-      "title_kr": "Special Topic of W&nhyo : W&nhyo`s Interpretation of the Mah2-praj@2p2ramit2-s^tra: Apparatus Criticus and Translation",
+      "title_kr": "Special Topic of W&nhyo: W&nhyo`s Interpretation of the Mah2-praj@2p2ramit2-s^tra: Apparatus Criticus and Translation",
       "title_en": "Wnhyo's Interpretation of the Mah-prajn-pramit-stra: Apparatus Criticus and Translation",
       "authors": [
         {
@@ -853,7 +816,7 @@
     },
     {
       "article_id": "d2b1bccdbae1fd5effe0bdc3ef48d419",
-      "title_kr": "Special Topic of W&nhyo : W&nhyo`s View of the Huayan Doctrine",
+      "title_kr": "Special Topic of W&nhyo: W&nhyo`s View of the Huayan Doctrine",
       "title_en": "Wnhyo's View of the Huayan Doctrine",
       "authors": [
         {
@@ -887,7 +850,7 @@
     },
     {
       "article_id": "abae8466ee447c2dffe0bdc3ef48d419",
-      "title_kr": "Special Topic of W&nhyo : W&nhyo on the Muryangsugy*ngchongyo and the Yusimallakto",
+      "title_kr": "Special Topic of W&nhyo: W&nhyo on the Muryangsugy*ngchongyo and the Yusimallakto",
       "title_en": "Wnhyo on the Muryangsugyngchongyo and the Yusimallakto",
       "authors": [
         {
@@ -921,7 +884,7 @@
     },
     {
       "article_id": "ccc2cf8258c4ccffffe0bdc3ef48d419",
-      "title_kr": "Special Topic of W&nhyo : W&nhyo`s Interpretation of the Hindrances",
+      "title_kr": "Special Topic of W&nhyo: W&nhyo`s Interpretation of the Hindrances",
       "title_en": "Wnhyo's Interpretation of the Hindrances",
       "authors": [
         {
@@ -955,7 +918,7 @@
     },
     {
       "article_id": "336a12b609d85e05ffe0bdc3ef48d419",
-      "title_kr": "Special Topic of W&nhyo : W&nhyo`s Writings on Bodhisattva Precepts and the Philosophical Ground of Mahayana Buddhist Ethics",
+      "title_kr": "Special Topic of W&nhyo: W&nhyo`s Writings on Bodhisattva Precepts and the Philosophical Ground of Mahayana Buddhist Ethics",
       "title_en": "Wnhyo's Writings on Bodhisattva Precepts and the Philosophical Ground of Mahayana Buddhist Ethics",
       "authors": [
         {
@@ -989,7 +952,7 @@
     },
     {
       "article_id": "57a7b0d78ce45d9effe0bdc3ef48d419",
-      "title_kr": "Special Topic of W&nhyo : W&nhyo`s View on Rebirth of the Sentient Beings to the Pure Land",
+      "title_kr": "Special Topic of W&nhyo: W&nhyo`s View on Rebirth of the Sentient Beings to the Pure Land",
       "title_en": "Wnhyo's View on Rebirth of the Sentient Beings to the pure Land",
       "authors": [
         {
@@ -1334,7 +1297,7 @@
     },
     {
       "article_id": "36ec6d0e9d2d5d94ffe0bdc3ef48d419",
-      "title_kr": "Essays : The Best War Against Terrorism: Dialogue Among The Religions",
+      "title_kr": "Essays: The Best War Against Terrorism: Dialogue Among The Religions",
       "title_en": "The Best War Against Terrorism: Dialogue among the Religions",
       "authors": [
         {
@@ -1368,7 +1331,7 @@
     },
     {
       "article_id": "290207a906653ba6ffe0bdc3ef48d419",
-      "title_kr": "Essays : Buddhism and World Peace",
+      "title_kr": "Essays: Buddhism and World Peace",
       "title_en": "Buddhism and World Peace",
       "authors": [
         {
@@ -1402,7 +1365,7 @@
     },
     {
       "article_id": "6b9766bcbd83ad82ffe0bdc3ef48d419",
-      "title_kr": "Essay from the President : Civilizational Transition and Buddhism",
+      "title_kr": "Essay from the President: Civilizational Transition and Buddhism",
       "title_en": "",
       "authors": [
         {
@@ -1468,7 +1431,7 @@
     },
     {
       "article_id": "3f61122f7bc19621b36097776a77e665",
-      "title_kr": "Navayana Buddhism : The Dawning of a New Tradition",
+      "title_kr": "Navayana Buddhism: The Dawning of a New Tradition",
       "title_en": "Navayana Buddhism : The Dawning of a New Tradition",
       "authors": [
         {
@@ -1502,7 +1465,7 @@
     },
     {
       "article_id": "67de19bb0a07c00e7f7a54760bb41745",
-      "title_kr": "The Heart Sutra in Chinese Yogacara : Some Comparative Comments on the Heart Sutra Commentaries of Wonch'uk and K'uei-chi",
+      "title_kr": "The Heart Sutra in Chinese Yogacara: Some Comparative Comments on the Heart Sutra Commentaries of Wonch'uk and K'uei-chi",
       "title_en": "The Heart Sutra in Chinese Yogacara : Some Comparative Comments on the Heart Sutra Commentaries of Wonch'uk and K'uei-chi",
       "authors": [
         {
@@ -2739,7 +2702,7 @@
     },
     {
       "article_id": "7b6cdc34cdf21753ffe0bdc3ef48d419",
-      "title_kr": "Essay from the Editorial Advisor : Dialogue between Korean Buddhism and World Buddhism in the Global Era",
+      "title_kr": "Essay from the Editorial Advisor: Dialogue between Korean Buddhism and World Buddhism in the Global Era",
       "title_en": "",
       "authors": [
         {
@@ -3718,7 +3681,7 @@
     },
     {
       "article_id": "cc3ef5d36d8893edffe0bdc3ef48d419",
-      "title_kr": "Essay : The Tibetan Book of the Dead",
+      "title_kr": "Essay: The Tibetan Book of the Dead",
       "title_en": "",
       "authors": [
         {
@@ -4081,7 +4044,7 @@
     },
     {
       "article_id": "0bc67eac0c797d5bffe0bdc3ef48d419",
-      "title_kr": "Essay : Enduring, Endearing Korea",
+      "title_kr": "Essay: Enduring, Endearing Korea",
       "title_en": "",
       "authors": [
         {
@@ -4119,7 +4082,7 @@
     },
     {
       "article_id": "8a7acb9b97b03a57ffe0bdc3ef48d419",
-      "title_kr": "Book Review : Review of Cultivating Original Enlightenment: Wonhyo`s Exposition of the Vajrasamadhi-Sutra, by Robert E. Buswell, Jr.",
+      "title_kr": "Book Review: Review of Cultivating Original Enlightenment: Wonhyo`s Exposition of the Vajrasamadhi-Sutra, by Robert E. Buswell, Jr.",
       "title_en": "Review of Cultivating Original Enlightenment: Wonhyo’s Exposition of the Vajrasamādhi-Sūtra, by Robert E. Buswell, Jr.",
       "authors": [
         {
@@ -6477,8 +6440,8 @@
     },
     {
       "article_id": "c02f5a6c3bbb3d17ffe0bdc3ef48d419",
-      "title_kr": "Articles : The Last Blade of Grass? Universal Salvation and Buddhism",
-      "title_en": "Articles : The Last Blade of Grass? Universal Salvation and Buddhism",
+      "title_kr": "Articles: The Last Blade of Grass? Universal Salvation and Buddhism",
+      "title_en": "Articles: The Last Blade of Grass? Universal Salvation and Buddhism",
       "authors": [
         {
           "name": "( Karel Werner )",
@@ -7942,7 +7905,7 @@
     },
     {
       "article_id": "d9ea6017936fddbc7f7a54760bb41745",
-      "title_kr": "The Problem of Religiosity of Buddhist Faith in Other Power System: Criticisms and Interpretations",
+      "title_kr": "The Problem of Religiosity of Buddhist Faith in Other Power System: Criticisms and Interpretations",
       "title_en": "The Problem of Religiosity of Buddhist Faith in Other Power System: Criticisms and Interpretations",
       "authors": [
         {
@@ -8023,8 +7986,8 @@
     },
     {
       "article_id": "f79179508bd75f57ffe0bdc3ef48d419",
-      "title_kr": "Articles : Religion and Peace",
-      "title_en": "Articles : Religion and Peace",
+      "title_kr": "Articles: Religion and Peace",
+      "title_en": "Articles: Religion and Peace",
       "authors": [
         {
           "name": "( Aasulv Lande )",
@@ -8188,8 +8151,8 @@
     },
     {
       "article_id": "de970219ae38f9b0ffe0bdc3ef48d419",
-      "title_kr": "Articles : Localized Asian Characteristics in the Development of the Concept of Buddha-Nature: Mainly Focused on Indian and Japanese Buddhism",
-      "title_en": "Articles : Localized Asian Characteristics in the Development of the Concept of Buddha-Nature: Mainly Focused on Indian and Japanese Buddhism",
+      "title_kr": "Articles: Localized Asian Characteristics in the Development of the Concept of Buddha-Nature: Mainly Focused on Indian and Japanese Buddhism",
+      "title_en": "Articles: Localized Asian Characteristics in the Development of the Concept of Buddha-Nature: Mainly Focused on Indian and Japanese Buddhism",
       "authors": [
         {
           "name": "( Suk Hwan Lee )",
@@ -9461,7 +9424,7 @@
     {
       "article_id": "cb1a633713ef5c387ecd42904f0c5d65",
       "title_kr": "Book Review: On the Publication of the Compendium of the Complete Works of Korean Buddhism (Han’guk Bulgyo jeonseo pyeollam 韓國佛敎典書便覽 )",
-      "title_en": "",
+      "title_en": "Book Review: On the Publication of the Compendium of the Complete Works of Korean Buddhism (Han’guk Bulgyo jeonseo pyeollam 韓國佛敎典書便覽 )",
       "authors": [
         {
           "name": "김성욱",
@@ -9477,15 +9440,17 @@
       "issue": "1",
       "start_page": "193",
       "end_page": "198",
-      "doi": "",
+      "doi": "10.16893/IJBTC.26.09",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1a633713ef5c387ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002123709",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002123709",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1a633713ef5c387ecd42904f0c5d65",
       "id": "cb1a633713ef5c387ecd42904f0c5d65"
@@ -9493,7 +9458,7 @@
     {
       "article_id": "cb1a633713ef5c38b36097776a77e665",
       "title_kr": "Book Review: The Mahāparinirvāṇa-mahāsūtra and the Emergence of Tathāgatagarbha Doctrine",
-      "title_en": "",
+      "title_en": "Book Review: The Mahāparinirvāṇa-mahāsūtra and the Emergence of Tathāgatagarbha Doctrine",
       "authors": [
         {
           "name": "이수미",
@@ -9509,15 +9474,17 @@
       "issue": "1",
       "start_page": "199",
       "end_page": "203",
-      "doi": "",
+      "doi": "10.16893/IJBTC.26.10",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1a633713ef5c38b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002123706",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002123706",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1a633713ef5c38b36097776a77e665",
       "id": "cb1a633713ef5c38b36097776a77e665"
@@ -10693,7 +10660,7 @@
     },
     {
       "article_id": "f5e2221c6ee1f793d18150b21a227875",
-      "title_kr": "Theravada Buddhism : Continuity, Diversity, and Identity by Kate Crosby.",
+      "title_kr": "Theravada Buddhism: Continuity, Diversity, and Identity by Kate Crosby.",
       "title_en": "Chichester: Wiley-Blackwell, 2014. x + 300 pp. (ISBN: 9781405189064)",
       "authors": [
         {
@@ -10725,7 +10692,7 @@
     },
     {
       "article_id": "f5e2221c6ee1f7936aae8a972f9116fb",
-      "title_kr": "A Study of Korean Pagodas : Joseon Tappa ui yeon’gu by GO Yuseop.",
+      "title_kr": "A Study of Korean Pagodas: Joseon Tappa ui yeon’gu by GO Yuseop.",
       "title_en": "Korean Buddhism Library: Collected Works of Modern Korean Buddhism: Annotated Translation and Introduction by LEE Seunghye. Seoul: Jogye Order of Korean Buddhism, 2017. xx+ 469 pp. (ISBN: 978897801511094220)",
       "authors": [
         {
@@ -11530,7 +11497,7 @@
     {
       "article_id": "6f0d8bc7556ad1e647de9c1710b0298d",
       "title_kr": "Bhāviveka versus Candrakīrti on the Logic of Mūlamadhyamakakārikā: Negation of Arising in the Four Possible Ways",
-      "title_en": "",
+      "title_en": "Bhāviveka versus Candrakīrti on the Logic of Mūlamadhyamakakārikā: Negation of Arising in the Four Possible Ways",
       "authors": [
         {
           "name": "SAITO Akira",
@@ -11539,7 +11506,7 @@
         }
       ],
       "abstract_kr": "This paper deals with hitherto unresolved questions regarding the opening verse of Nāgārjuna’s Mūlamadhyamakakārikā (MMK) in Chapter 1 titled “Examination of Conditions.” In this well-known stanza Nāgārjuna negates the “arising” of things in the four possible ways: from themselves, from others, from both, or without cause (MMK 1.1). Despite a good number of studies so far executed, a few significant questions remain unresolved. In this regard, the present paper aims at reconsidering the following three points yet to be fully examined: The first point is whether Nāgārjuna presents only a conclusion in the above stanza (MMK 1.1) without showing any reasons for it in his discussion. The second concerns Bhāviveka’s criticism of Buddhapālita’s explanation of the above verse and whether it is logically valid or not. In relation to this question, the third and most important point is whether we have arrived at an accurate understanding of Candrakīrti’s discussion which vindicates Buddhapālita’s explanation with a methodological criticism of Bhāviveka. This paper mainly discusses the third point, with reference to the first two, when necessary.",
-      "abstract_en": "",
+      "abstract_en": "This paper deals with hitherto unresolved questions regarding the opening verse of Nāgārjuna’s Mūlamadhyamakakārikā (MMK) in Chapter 1 titled “Examination of Conditions.” In this well-known stanza Nāgārjuna negates the “arising” of things in the four possible ways: from themselves, from others, from both, or without cause (MMK 1.1). Despite a good number of studies so far executed, a few significant questions remain unresolved. In this regard, the present paper aims at reconsidering the following three points yet to be fully examined: The first point is whether Nāgārjuna presents only a conclusion in the above stanza (MMK 1.1) without showing any reasons for it in his discussion. The second concerns Bhāviveka’s criticism of Buddhapālita’s explanation of the above verse and whether it is logically valid or not. In relation to this question, the third and most important point is whether we have arrived at an accurate understanding of Candrakīrti’s discussion which vindicates Buddhapālita’s explanation with a methodological criticism of Bhāviveka. This paper mainly discusses the third point, with reference to the first two, when necessary.",
       "journal_name": "IJBTC",
       "year": "2019",
       "volume": "29",
@@ -11548,7 +11515,7 @@
       "end_page": "27",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6f0d8bc7556ad1e647de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002479084",
       "keywords_kr": [],
       "keywords_en": [
         "Nāgārjuna",
@@ -11560,8 +11527,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002479084",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6f0d8bc7556ad1e647de9c1710b0298d",
       "id": "6f0d8bc7556ad1e647de9c1710b0298d"
@@ -11809,7 +11778,7 @@
     {
       "article_id": "6f0d8bc7556ad1e6c85d2949c297615a",
       "title_kr": "Representing Buddhism through Mise-en-scène, Diegesis, and Mimesis: Kim Ki-duk’s Spring, Summer, Fall, Winter… and Spring",
-      "title_en": "",
+      "title_en": "Representing Buddhism through Mise-en-scène, Diegesis, and Mimesis: Kim Ki-duk’s Spring, Summer, Fall, Winter… and Spring",
       "authors": [
         {
           "name": "Ronald S. Green",
@@ -11823,7 +11792,7 @@
         }
       ],
       "abstract_kr": "This paper examines elements identified as “Buddhist” in the Korean film Spring, Summer, Fall, Winter… and Spring (K.  Pom yŏrŭm kaŭl kyŏul kŭrigo pom) written and directed by Kim Ki-duk (b. 1960) and released in 2003. It draws on research on this topic by numerous notable researchers of Korean film. For the sake of our investigation, we have arranged various points made by these scholars into three sections reflecting categories philosophers have long used to analyze drama. These are (1) mise-en-scène: the visual design of the film, (2) diegesis: the fictive narrative space of the film, and (3) mimesis: symbolic or ritual action in the film. This arrangement is based on a study of Spring, Summer, Fall, Winter… and Spring by Pak Chongch’ŏn. This paper reorganizes Pak’s analysis and expands it to include the ideas of other Korean critics along with our own. Specifically, the paper looks at how the director uses mimicry, seasonal allegory, and various elements of visual design to create a multifaceted religious narrative. We analyze his assorted usages of Buddhist iconographical images and temple sounds including chanting of the Heart Sūtra, but argue that Kim additionally builds the storyline with cinematic symbolism and metaphor taken from Yin/Yang philosophy, Five Elements theory, Christianity, Jainism, and Korean folklore. We also offer a theory of Buddhist adoptive society in terms of the island and orphan metaphor found in the film. The paper considers whether Spring, Summer, Fall, Winter… and Spring falls short of the requirements necessary for designating it as a \"Buddhist film\" as argued by a number of researchers, particularly if it lacks a soteriological solution to the inherent problem of human suffering at the forefront of the movie.",
-      "abstract_en": "",
+      "abstract_en": "This paper examines elements identified as “Buddhist” in the Korean film Spring, Summer, Fall, Winter… and Spring (K. Pom yŏrŭm kaŭl kyŏul kŭrigo pom) written and directed by Kim Ki-duk (b. 1960) and released in 2003. It draws on research on this topic by numerous notable researchers of Korean film. For the sake of our investigation, we have arranged various points made by these scholars into three sections reflecting categories philosophers have long used to analyze drama. These are (1) mise-en-scène: the visual design of the film, (2) diegesis: the fictive narrative space of the film, and (3) mimesis: symbolic or ritual action in the film. This arrangement is based on a study of Spring, Summer, Fall, Winter… and Spring by Pak Chongch’ŏn. This paper reorganizes Pak’s analysis and expands it to include the ideas of other Korean critics along with our own. Specifically, the paper looks at how the director uses mimicry, seasonal allegory, and various elements of visual design to create a multifaceted religious narrative. We analyze his assorted usages of Buddhist iconographical images and temple sounds including chanting of the Heart Sūtra, but argue that Kim additionally builds the storyline with cinematic symbolism and metaphor taken from Yin/Yang philosophy, Five Elements theory, Christianity, Jainism, and Korean folklore. We also offer a theory of Buddhist adoptive society in terms of the island and orphan metaphor found in the film. The paper considers whether Spring, Summer, Fall, Winter… and Spring falls short of the requirements necessary for designating it as a \"Buddhist film\" as argued by a number of researchers, particularly if it lacks a soteriological solution to the inherent problem of human suffering at the forefront of the movie.",
       "journal_name": "IJBTC",
       "year": "2019",
       "volume": "29",
@@ -11832,7 +11801,7 @@
       "end_page": "203",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6f0d8bc7556ad1e6c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002479091",
       "keywords_kr": [],
       "keywords_en": [
         "Buddhist movies",
@@ -11843,8 +11812,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002479091",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6f0d8bc7556ad1e6c85d2949c297615a",
       "id": "6f0d8bc7556ad1e6c85d2949c297615a"
@@ -14714,7 +14685,7 @@
     },
     {
       "article_id": "017d13328d8c24827ecd42904f0c5d65",
-      "title_kr": "Introduction : The Religiosity of Secular Fiction and Cinema: An Argument from Buddhism",
+      "title_kr": "Introduction: The Religiosity of Secular Fiction and Cinema: An Argument from Buddhism",
       "title_en": "",
       "authors": [
         {
