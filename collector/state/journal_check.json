@@ -143,17 +143,17 @@
     },
     "불교연구": {
       "riss": 573,
-      "kci": 0,
+      "kci": 204,
       "kci_links": 14,
-      "paired": 0,
-      "kci_only": 0,
+      "paired": 203,
+      "kci_only": 1,
       "scheme": "i2v",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 0,
-      "comparable_matched": 0,
-      "match_rate": null,
-      "new": 0
+      "comparable": 204,
+      "comparable_matched": 203,
+      "match_rate": 0.995,
+      "new": 1
     },
     "불교와 사회": {
       "riss": 179,
@@ -255,16 +255,16 @@
     },
     "선학": {
       "riss": 730,
-      "kci": 0,
+      "kci": 343,
       "kci_links": 24,
-      "paired": 0,
+      "paired": 343,
       "kci_only": 0,
-      "scheme": "v2i",
+      "scheme": "i2v",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 0,
-      "comparable_matched": 0,
-      "match_rate": null,
+      "comparable": 343,
+      "comparable_matched": 343,
+      "match_rate": 1.0,
       "new": 0
     },
     "세화불학": {
