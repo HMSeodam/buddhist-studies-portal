@@ -27101,7 +27101,7 @@
       "end_page": "142",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0975592e36e0bb9bd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002541636",
       "keywords_kr": [
         "무위진인",
         "소소영영",
@@ -27119,8 +27119,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002541636",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0975592e36e0bb9bd18150b21a227875",
       "id": "0975592e36e0bb9bd18150b21a227875"
@@ -27174,7 +27176,7 @@
     {
       "article_id": "5a4b0361ec60d30ac85d2949c297615a",
       "title_kr": "근대 일본선종과 군국주의 - 전쟁선(戰爭禪) 사상을 중심으로 -",
-      "title_en": "",
+      "title_en": "A Study on the Modern Japanese Zen Buddhism and Militarism - Focused on Sentō-zen thought -",
       "authors": [
         {
           "name": "원영상",
@@ -27192,7 +27194,7 @@
       "end_page": "31",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5a4b0361ec60d30ac85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002581482",
       "keywords_kr": [
         "「조동종수증의(曹洞宗修証儀)」",
         "일본선종",
@@ -27216,8 +27218,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002581482",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5a4b0361ec60d30ac85d2949c297615a",
       "id": "5a4b0361ec60d30ac85d2949c297615a"
@@ -27225,7 +27229,7 @@
     {
       "article_id": "5a4b0361ec60d30a47de9c1710b0298d",
       "title_kr": "『법화영험전』 판본의 서지적 특징 고찰",
-      "title_en": "",
+      "title_en": "A Study On The Compositions And Editions Of Beophwa Yeongheomjeon",
       "authors": [
         {
           "name": "퇴휴스님(문순회)",
@@ -27243,7 +27247,7 @@
       "end_page": "63",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5a4b0361ec60d30a47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002581484",
       "keywords_kr": [
         "법화영험전",
         "묘법연화경",
@@ -27261,8 +27265,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002581484",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5a4b0361ec60d30a47de9c1710b0298d",
       "id": "5a4b0361ec60d30a47de9c1710b0298d"
@@ -27270,7 +27276,7 @@
     {
       "article_id": "5a4b0361ec60d30a7f7a54760bb41745",
       "title_kr": "고려 묘지명을 통해 본 불교 신앙의례",
-      "title_en": "",
+      "title_en": "The Religious Rites of Buddhism on Epitaphs of Goryeo",
       "authors": [
         {
           "name": "정각스님(문상련)",
@@ -27288,7 +27294,7 @@
       "end_page": "96",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5a4b0361ec60d30a7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002581486",
       "keywords_kr": [
         "묘지명(墓誌銘)",
         "기자신앙(祈子信仰)",
@@ -27305,8 +27311,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002581486",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5a4b0361ec60d30a7f7a54760bb41745",
       "id": "5a4b0361ec60d30a7f7a54760bb41745"
@@ -27314,7 +27322,7 @@
     {
       "article_id": "5a4b0361ec60d30ae9810257f7042666",
       "title_kr": "조선 후기 완주 화암사의 불화 연구",
-      "title_en": "",
+      "title_en": "Study on the Buddhist Paintings of Hwaam Temple in Wanju produced in the Late Joseon Dynasty",
       "authors": [
         {
           "name": "신광희",
@@ -27332,7 +27340,7 @@
       "end_page": "125",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5a4b0361ec60d30ae9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002581488",
       "keywords_kr": [
         "화암사",
         "불화",
@@ -27349,8 +27357,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002581488",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5a4b0361ec60d30ae9810257f7042666",
       "id": "5a4b0361ec60d30ae9810257f7042666"
@@ -27358,7 +27368,7 @@
     {
       "article_id": "5a4b0361ec60d30ad18150b21a227875",
       "title_kr": "음악명상과 심리치유 공명을 중심으로",
-      "title_en": "",
+      "title_en": "Psychological Healing Effect of Music Meditation - Centering on resonance",
       "authors": [
         {
           "name": "김나래",
@@ -27376,7 +27386,7 @@
       "end_page": "158",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5a4b0361ec60d30ad18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002581490",
       "keywords_kr": [
         "음악명상",
         "자애명상문구 노래 부르기",
@@ -27393,8 +27403,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002581490",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5a4b0361ec60d30ad18150b21a227875",
       "id": "5a4b0361ec60d30ad18150b21a227875"
@@ -27402,7 +27414,7 @@
     {
       "article_id": "5a4b0361ec60d30a6aae8a972f9116fb",
       "title_kr": "백운경한(白雲景閑)의 선사상",
-      "title_en": "",
+      "title_en": "The Seon Thought(禪思想) of Baekwungyeonghan(白雲景閑)",
       "authors": [
         {
           "name": "정도스님(서왕모)",
@@ -27420,7 +27432,7 @@
       "end_page": "185",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5a4b0361ec60d30a6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002581491",
       "keywords_kr": [
         "백운경한",
         "무심무념",
@@ -27437,8 +27449,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002581491",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5a4b0361ec60d30a6aae8a972f9116fb",
       "id": "5a4b0361ec60d30a6aae8a972f9116fb"
