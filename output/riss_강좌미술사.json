@@ -9198,39 +9198,6 @@
       "id": "4c2855be5ef0f68dffe0bdc3ef48d419"
     },
     {
-      "article_id": "ART001086431",
-      "id": "ART001086431",
-      "kci_id": "ART001086431",
-      "title_kr": "운흥사 각수 인희의 판각 양식",
-      "title_en": "A Study on Yeon-hi, a Xylographic Monk of Unheung Temple",
-      "authors": [
-        {
-          "name": "박도화",
-          "affiliation": "동국대학교",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2006",
-      "volume": "26",
-      "issue": "",
-      "start_page": "637",
-      "end_page": "664",
-      "doi": "",
-      "riss_url": "",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001086431",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "KCI",
-      "sources": [
-        "KCI"
-      ],
-      "riss_id": ""
-    },
-    {
       "article_id": "0bb4ea1b552c1fe8ffe0bdc3ef48d419",
       "title_kr": "혜사(慧史) 문명대 교수 정년퇴임 기념 논문집 : 미술사의 작가와 유파 ; 이력서",
       "title_en": "",
@@ -11099,7 +11066,7 @@
       "end_page": "664",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d213b3f001835ffffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001086431",
       "keywords_kr": [
         "연희",
         "각수",
@@ -11116,8 +11083,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001086431",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2d213b3f001835ffffe0bdc3ef48d419",
       "id": "2d213b3f001835ffffe0bdc3ef48d419"

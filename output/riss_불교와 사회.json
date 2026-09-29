@@ -7130,9 +7130,9 @@
       "issue": "1",
       "start_page": "36",
       "end_page": "101",
-      "doi": "",
+      "doi": "10.33521/jbs.2025.17.1.36",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57b75b4ef0adfc3347de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226714",
       "keywords_kr": [
         "불교",
         "과학",
@@ -7149,44 +7149,13 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003226714",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "57b75b4ef0adfc3347de9c1710b0298d",
       "id": "57b75b4ef0adfc3347de9c1710b0298d"
-    },
-    {
-      "article_id": "ART003226714",
-      "id": "ART003226714",
-      "kci_id": "ART003226714",
-      "title_kr": "Harmony Unveiled: Exploring the Convergence of Buddhism and Scientific Thought",
-      "title_en": "",
-      "authors": [
-        {
-          "name": "비비크",
-          "affiliation": "한림대학교",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "The relationship between Buddhist traditions and modern scientific thought has captured widespread interest, often framed through narratives emphasizing inherent compatibility and harmony. However, such portrayals frequently overlook significant philosophical, methodological, and historical complexities, particularly points of divergence, tension, and conflict. This paper addresses these complexities by undertaking a methodologically grounded comparative analysis. It moves beyond simplistic claims of convergence to critically examine both areas of productive dialogue and fundamental differences between specific Buddhist concepts and relevant scientific frameworks. Adopting a methodology informed by Comparative Philosophy, this analysis explicitly defines its comparative framework and acknowledges the historical influence of \"Buddhist Modernism\"—a narrative that has often privileged compatibility while marginalizing points of friction. The paper systematically explores areas of apparent resonance, including epistemological parallels and conceptual echoes like interdependence, subjecting them to critical scrutiny. Crucially, it then delves into significant points of divergence and conflict, focusing on metaphysical divides concerning consciousness and materialism, the challenges posed by scientific perspectives to doctrines like rebirth and karma, differing interpretations of 'no-self' (anattā), and fundamental differences in ultimate aims and values. By synthesizing these findings, the paper argues for a more complex, multi-layered understanding of the Buddhism-science relationship, acknowledging both resonance and irreducible difference. The objective is not to adjudicate between the traditions but to foster a more nuanced, historically sensitive, and methodologically self-aware dialogue that appreciates the intricate and often challenging nature of their interaction.",
-      "journal_name": "불교와 사회",
-      "year": "2025",
-      "volume": "17",
-      "issue": "1",
-      "start_page": "36",
-      "end_page": "101",
-      "doi": "10.33521/jbs.2025.17.1.36",
-      "riss_url": "",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003226714",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "KCI",
-      "sources": [
-        "KCI"
-      ],
-      "riss_id": ""
     },
     {
       "article_id": "57b75b4ef0adfc337f7a54760bb41745",

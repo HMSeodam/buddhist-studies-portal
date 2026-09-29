@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.56,
     "control_no": "a7943149367c4574ffe0bdc3ef48d419",
-    "last_updated": "2026-09-29"
+    "last_updated": "2026-09-26"
   },
   "articles": [
     {
@@ -8167,43 +8167,6 @@
       "id": "54bddc818e708262ffe0bdc3ef48d419"
     },
     {
-      "article_id": "ART001055820",
-      "id": "ART001055820",
-      "kci_id": "ART001055820",
-      "title_kr": "佛敎硏究26",
-      "title_en": "BulgyYongu26",
-      "authors": [
-        {
-          "name": "한국불교연구원",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "불교연구",
-      "year": "2007",
-      "volume": "26",
-      "issue": "",
-      "start_page": "",
-      "end_page": "",
-      "doi": "",
-      "riss_url": "",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001055820",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "한국불교연구원",
-      "kci_year": "2007",
-      "kci_volume": "",
-      "kci_issue": "26",
-      "sources": [
-        "KCI"
-      ],
-      "riss_id": ""
-    },
-    {
       "article_id": "e41ac88dfe346d0affe0bdc3ef48d419",
       "title_kr": "三國遺事의 編纂과 刊行에 대한 硏究 現況",
       "title_en": "Current Research Status on the Compilation and Publication of Samgungnyusa",
@@ -11860,7 +11823,7 @@
       "end_page": "146",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b9958560b4412fb3ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001531358",
       "keywords_kr": [
         "진묵",
         "능엄삼매",
@@ -11877,8 +11840,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001531358",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b9958560b4412fb3ffe0bdc3ef48d419",
       "id": "b9958560b4412fb3ffe0bdc3ef48d419"
@@ -17034,7 +16999,7 @@
       "end_page": "35",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=70c6655734cab585b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002081106",
       "keywords_kr": [
         "자기동일성",
         "찰나설",
@@ -17047,8 +17012,10 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002081106",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "70c6655734cab585b36097776a77e665",
       "id": "70c6655734cab585b36097776a77e665"
@@ -17074,7 +17041,7 @@
       "end_page": "62",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f04bc1764946aa667f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002081107",
       "keywords_kr": [
         "천태",
         "밀교",
@@ -17095,8 +17062,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002081107",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f04bc1764946aa667f7a54760bb41745",
       "id": "f04bc1764946aa667f7a54760bb41745"
@@ -17122,7 +17091,7 @@
       "end_page": "88",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f04bc1764946aa66e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002081108",
       "keywords_kr": [
         "중론소기",
         "안징",
@@ -17141,8 +17110,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002081108",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f04bc1764946aa66e9810257f7042666",
       "id": "f04bc1764946aa66e9810257f7042666"
@@ -17168,7 +17139,7 @@
       "end_page": "123",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f04bc1764946aa66d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002081109",
       "keywords_kr": [
         "밀교",
         "의식차제",
@@ -17187,8 +17158,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002081109",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f04bc1764946aa66d18150b21a227875",
       "id": "f04bc1764946aa66d18150b21a227875"
@@ -17214,7 +17187,7 @@
       "end_page": "158",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f04bc1764946aa666aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002081110",
       "keywords_kr": [
         "자력수행",
         "타력수행",
@@ -17235,8 +17208,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002081110",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f04bc1764946aa666aae8a972f9116fb",
       "id": "f04bc1764946aa666aae8a972f9116fb"
@@ -17262,7 +17237,7 @@
       "end_page": "185",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=70c6655734cab5857ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002081111",
       "keywords_kr": [
         "체벌",
         "方便",
@@ -17283,8 +17258,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002081111",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "70c6655734cab5857ecd42904f0c5d65",
       "id": "70c6655734cab5857ecd42904f0c5d65"
@@ -17310,7 +17287,7 @@
       "end_page": "45",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=69580821fd9b93e46aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002140448",
       "keywords_kr": [
         "요가심리학",
         "유식학",
@@ -17333,8 +17310,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002140448",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "69580821fd9b93e46aae8a972f9116fb",
       "id": "69580821fd9b93e46aae8a972f9116fb"
@@ -17360,7 +17339,7 @@
       "end_page": "74",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4ba53103ab88fae27ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002140453",
       "keywords_kr": [
         "결정지",
         "지각판단",
@@ -17384,8 +17363,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002140453",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4ba53103ab88fae27ecd42904f0c5d65",
       "id": "4ba53103ab88fae27ecd42904f0c5d65"
@@ -17411,7 +17392,7 @@
       "end_page": "99",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4ba53103ab88fae2b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002140456",
       "keywords_kr": [
         "두 종류의 부정",
         "단순 부정",
@@ -17431,8 +17412,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002140456",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4ba53103ab88fae2b36097776a77e665",
       "id": "4ba53103ab88fae2b36097776a77e665"
@@ -17458,7 +17441,7 @@
       "end_page": "126",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4ba53103ab88fae24884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002140461",
       "keywords_kr": [
         "『능엄경』",
         "기존의 傳譯說",
@@ -17476,8 +17459,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002140461",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4ba53103ab88fae24884a65323211ff0",
       "id": "4ba53103ab88fae24884a65323211ff0"
@@ -17503,7 +17488,7 @@
       "end_page": "164",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4ba53103ab88fae2b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002140465",
       "keywords_kr": [
         "오대십국",
         "오대",
@@ -17520,8 +17505,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002140465",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4ba53103ab88fae2b7998d826d417196",
       "id": "4ba53103ab88fae2b7998d826d417196"
@@ -17547,7 +17534,7 @@
       "end_page": "198",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4ba53103ab88fae2c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002140468",
       "keywords_kr": [
         "행위",
         "지각",
@@ -17577,8 +17564,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002140468",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4ba53103ab88fae2c85d2949c297615a",
       "id": "4ba53103ab88fae2c85d2949c297615a"
@@ -17604,7 +17593,7 @@
       "end_page": "30",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=78461e62ae225bb37f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205129",
       "keywords_kr": [
         "샨티데바",
         "『입보리행론』",
@@ -17642,8 +17631,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205129",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "78461e62ae225bb37f7a54760bb41745",
       "id": "78461e62ae225bb37f7a54760bb41745"
@@ -17669,7 +17660,7 @@
       "end_page": "56",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=78461e62ae225bb37ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205130",
       "keywords_kr": [
         "교키",
         "보살",
@@ -17701,8 +17692,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205130",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "78461e62ae225bb37ecd42904f0c5d65",
       "id": "78461e62ae225bb37ecd42904f0c5d65"
@@ -17728,7 +17721,7 @@
       "end_page": "81",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=78461e62ae225bb347de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205131",
       "keywords_kr": [
         "불연",
         "이기영",
@@ -17746,8 +17739,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205131",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "78461e62ae225bb347de9c1710b0298d",
       "id": "78461e62ae225bb347de9c1710b0298d"
@@ -17773,7 +17768,7 @@
       "end_page": "112",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=78461e62ae225bb3b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205132",
       "keywords_kr": [
         "죄의식",
         "형벌",
@@ -17789,8 +17784,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205132",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "78461e62ae225bb3b7998d826d417196",
       "id": "78461e62ae225bb3b7998d826d417196"
@@ -17816,7 +17813,7 @@
       "end_page": "153",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=78461e62ae225bb3e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205133",
       "keywords_kr": [
         "상좌 슈리라타",
         "舊隨界",
@@ -17847,8 +17844,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205133",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "78461e62ae225bb3e9810257f7042666",
       "id": "78461e62ae225bb3e9810257f7042666"
@@ -17874,7 +17873,7 @@
       "end_page": "178",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ccbf39424b3609296aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205134",
       "keywords_kr": [
         "마하위하라",
         "아바야기리",
@@ -17904,8 +17903,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205134",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ccbf39424b3609296aae8a972f9116fb",
       "id": "ccbf39424b3609296aae8a972f9116fb"
@@ -17931,7 +17932,7 @@
       "end_page": "207",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=78461e62ae225bb3c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205135",
       "keywords_kr": [
         "僧職",
         "僧團",
@@ -17955,8 +17956,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205135",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "78461e62ae225bb3c85d2949c297615a",
       "id": "78461e62ae225bb3c85d2949c297615a"
@@ -17982,7 +17985,7 @@
       "end_page": "242",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=78461e62ae225bb3b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205137",
       "keywords_kr": [
         "점찰법회",
         "법상종",
@@ -18004,8 +18007,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205137",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "78461e62ae225bb3b36097776a77e665",
       "id": "78461e62ae225bb3b36097776a77e665"
@@ -18031,7 +18036,7 @@
       "end_page": "276",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=78461e62ae225bb34884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205138",
       "keywords_kr": [
         "만해 한용운",
         "한국불교전통",
@@ -18053,8 +18058,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205138",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "78461e62ae225bb34884a65323211ff0",
       "id": "78461e62ae225bb34884a65323211ff0"
@@ -18080,7 +18087,7 @@
       "end_page": "312",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=26ede2b47296cdfbc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205140",
       "keywords_kr": [
         "일타",
         "승가교육",
@@ -18104,8 +18111,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205140",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "26ede2b47296cdfbc85d2949c297615a",
       "id": "26ede2b47296cdfbc85d2949c297615a"
@@ -18131,7 +18140,7 @@
       "end_page": "340",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=78461e62ae225bb3d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002205143",
       "keywords_kr": [
         "주관적 웰빙",
         "국민 총행복",
@@ -18150,8 +18159,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002205143",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "78461e62ae225bb3d18150b21a227875",
       "id": "78461e62ae225bb3d18150b21a227875"
@@ -18177,7 +18188,7 @@
       "end_page": "53",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0a713f09da9b572cd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002251678",
       "keywords_kr": [
         "삼성설",
         "실재",
@@ -18210,8 +18221,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002251678",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0a713f09da9b572cd18150b21a227875",
       "id": "0a713f09da9b572cd18150b21a227875"
@@ -18237,7 +18250,7 @@
       "end_page": "84",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0a713f09da9b572c6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002251679",
       "keywords_kr": [
         "해탈도론(解脫道論)",
         "앗타살리니(Atthasālinī)",
@@ -18248,8 +18261,10 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002251679",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0a713f09da9b572c6aae8a972f9116fb",
       "id": "0a713f09da9b572c6aae8a972f9116fb"
@@ -18275,7 +18290,7 @@
       "end_page": "123",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f28f591348ee6467ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002251680",
       "keywords_kr": [
         "번뇌",
         "중생의 붓다에 대한 갈애",
@@ -18298,8 +18313,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002251680",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f28f591348ee6467ecd42904f0c5d65",
       "id": "5f28f591348ee6467ecd42904f0c5d65"
@@ -18325,7 +18342,7 @@
       "end_page": "157",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f28f591348ee646b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002251681",
       "keywords_kr": [
         "『이장의』",
         "원효",
@@ -18348,8 +18365,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002251681",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f28f591348ee646b36097776a77e665",
       "id": "5f28f591348ee646b36097776a77e665"
@@ -18375,7 +18394,7 @@
       "end_page": "165",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f28f591348ee6464884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002251682",
       "keywords_kr": [
         "출가자 불전",
         "재가자 불전",
@@ -18395,8 +18414,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002251682",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f28f591348ee6464884a65323211ff0",
       "id": "5f28f591348ee6464884a65323211ff0"
@@ -18422,7 +18443,7 @@
       "end_page": "219",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f28f591348ee646b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002251683",
       "keywords_kr": [
         "금강산",
         "금강산 기행문",
@@ -18439,8 +18460,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002251683",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f28f591348ee646b7998d826d417196",
       "id": "5f28f591348ee646b7998d826d417196"
@@ -18466,7 +18489,7 @@
       "end_page": "250",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f28f591348ee646c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002251684",
       "keywords_kr": [
         "僧肇",
         "注維摩詰經",
@@ -18502,8 +18525,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002251684",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f28f591348ee646c85d2949c297615a",
       "id": "5f28f591348ee646c85d2949c297615a"
@@ -18529,7 +18554,7 @@
       "end_page": "287",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f28f591348ee64647de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002251685",
       "keywords_kr": [
         "출가",
         "재가",
@@ -18551,8 +18576,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002251685",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f28f591348ee64647de9c1710b0298d",
       "id": "5f28f591348ee64647de9c1710b0298d"
@@ -18578,7 +18605,7 @@
       "end_page": "316",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5f28f591348ee6467f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002251686",
       "keywords_kr": [
         "불교적 교육",
         "심인교육",
@@ -18594,8 +18621,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002251686",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5f28f591348ee6467f7a54760bb41745",
       "id": "5f28f591348ee6467f7a54760bb41745"
@@ -18619,9 +18648,9 @@
       "issue": "",
       "start_page": "1",
       "end_page": "35",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.48.041",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=52ede33bb6ea5ac847de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002319202",
       "keywords_kr": [
         "초기불교",
         "연기",
@@ -18645,8 +18674,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002319202",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "52ede33bb6ea5ac847de9c1710b0298d",
       "id": "52ede33bb6ea5ac847de9c1710b0298d"
@@ -18670,9 +18701,9 @@
       "issue": "",
       "start_page": "1",
       "end_page": "33",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.48.203",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=dbbfd78365872ff1c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002319229",
       "keywords_kr": [
         "신행",
         "삼계교",
@@ -18693,8 +18724,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002319229",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "dbbfd78365872ff1c85d2949c297615a",
       "id": "dbbfd78365872ff1c85d2949c297615a"
@@ -18718,9 +18751,9 @@
       "issue": "",
       "start_page": "1",
       "end_page": "34",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.48.135",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e4fe27f0ec1e2a996aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002319219",
       "keywords_kr": [
         "다솔사",
         "한용운",
@@ -18740,8 +18773,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002319219",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e4fe27f0ec1e2a996aae8a972f9116fb",
       "id": "e4fe27f0ec1e2a996aae8a972f9116fb"
@@ -18765,9 +18800,9 @@
       "issue": "",
       "start_page": "1",
       "end_page": "30",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.48.077",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e4fe27f0ec1e2a99d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002319206",
       "keywords_kr": [
         "바스투",
         "반야경전",
@@ -18785,8 +18820,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002319206",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e4fe27f0ec1e2a99d18150b21a227875",
       "id": "e4fe27f0ec1e2a99d18150b21a227875"
@@ -18810,9 +18847,9 @@
       "issue": "",
       "start_page": "9",
       "end_page": "40",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.48.009",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1f6f84a0cf8ef5b37ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002319197",
       "keywords_kr": [
         "믿음이 없는 사람(assaddha)",
         "믿음(saddhā)",
@@ -18829,8 +18866,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002319197",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1f6f84a0cf8ef5b37ecd42904f0c5d65",
       "id": "1f6f84a0cf8ef5b37ecd42904f0c5d65"
@@ -18854,9 +18893,9 @@
       "issue": "",
       "start_page": "107",
       "end_page": "133",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.48.107",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1f6f84a0cf8ef5b37f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002319211",
       "keywords_kr": [
         "뇌묵 처영",
         "의승군",
@@ -18875,8 +18914,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002319211",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1f6f84a0cf8ef5b37f7a54760bb41745",
       "id": "1f6f84a0cf8ef5b37f7a54760bb41745"
@@ -18900,9 +18941,9 @@
       "issue": "",
       "start_page": "169",
       "end_page": "201",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.48.169",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1f6f84a0cf8ef5b3b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002319223",
       "keywords_kr": [
         "장수자선(長水子璿)",
         "『기신론소필삭기(起信論疏筆削記)』",
@@ -18917,8 +18958,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002319223",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1f6f84a0cf8ef5b3b7998d826d417196",
       "id": "1f6f84a0cf8ef5b3b7998d826d417196"
@@ -18942,9 +18985,9 @@
       "issue": "",
       "start_page": "237",
       "end_page": "276",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.48.237",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=975f6c4bba1b09f56aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002319235",
       "keywords_kr": [
         "대소",
         "연의초",
@@ -18964,8 +19007,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002319235",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "975f6c4bba1b09f56aae8a972f9116fb",
       "id": "975f6c4bba1b09f56aae8a972f9116fb"
@@ -18989,9 +19034,9 @@
       "issue": "",
       "start_page": "9",
       "end_page": "44",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.49.009",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9af5b9a3e5b9f6ffd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002376335",
       "keywords_kr": [
         "ḍākinī",
         "Lakṣmīṃkarā",
@@ -19013,8 +19058,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002376335",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9af5b9a3e5b9f6ffd18150b21a227875",
       "id": "9af5b9a3e5b9f6ffd18150b21a227875"
@@ -19026,7 +19073,7 @@
       "authors": [
         {
           "name": "구효정",
-          "affiliation": "",
+          "affiliation": "동국대학교",
           "order": "1"
         }
       ],
@@ -19038,9 +19085,9 @@
       "issue": "",
       "start_page": "45",
       "end_page": "74",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.49.045",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9af5b9a3e5b9f6ffe9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002376342",
       "keywords_kr": [
         "타공설",
         "돌포파",
@@ -19060,8 +19107,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002376342",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9af5b9a3e5b9f6ffe9810257f7042666",
       "id": "9af5b9a3e5b9f6ffe9810257f7042666"
@@ -19085,9 +19134,9 @@
       "issue": "",
       "start_page": "75",
       "end_page": "101",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.49.075",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9af5b9a3e5b9f6ff7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002376346",
       "keywords_kr": [
         "마띠까(mātikā)",
         "명칭(nāma)",
@@ -19104,8 +19153,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002376346",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9af5b9a3e5b9f6ff7f7a54760bb41745",
       "id": "9af5b9a3e5b9f6ff7f7a54760bb41745"
@@ -19129,9 +19180,9 @@
       "issue": "",
       "start_page": "103",
       "end_page": "131",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.49.103",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9af5b9a3e5b9f6ff47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002376350",
       "keywords_kr": [
         "원효",
         "지눌",
@@ -19148,8 +19199,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002376350",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9af5b9a3e5b9f6ff47de9c1710b0298d",
       "id": "9af5b9a3e5b9f6ff47de9c1710b0298d"
@@ -19173,9 +19226,9 @@
       "issue": "",
       "start_page": "133",
       "end_page": "161",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.49.133",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9af5b9a3e5b9f6ffc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002376351",
       "keywords_kr": [
         "송광사",
         "승보종찰",
@@ -19192,8 +19245,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002376351",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9af5b9a3e5b9f6ffc85d2949c297615a",
       "id": "9af5b9a3e5b9f6ffc85d2949c297615a"
@@ -19217,9 +19272,9 @@
       "issue": "",
       "start_page": "163",
       "end_page": "195",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.49.163",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9af5b9a3e5b9f6ffb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002376358",
       "keywords_kr": [
         "사찰판(寺刹版)",
         "불서(佛書)",
@@ -19242,8 +19297,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002376358",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9af5b9a3e5b9f6ffb7998d826d417196",
       "id": "9af5b9a3e5b9f6ffb7998d826d417196"
@@ -19251,7 +19308,7 @@
     {
       "article_id": "97f927a775683aebc85d2949c297615a",
       "title_kr": "For the Triratna and for Samyak-saṃbodhi-The 'Quasi-poetry' of Tianran Hanshi-",
-      "title_en": "",
+      "title_en": "For the Triratna and for Samyak-saṃbodhi -The 'Quasi-poetry' of Tianran Hanshi-",
       "authors": [
         {
           "name": "Corey Lee Bell",
@@ -19260,16 +19317,16 @@
         }
       ],
       "abstract_kr": "This article discusses the meaning of the eminent early Qing monastic leader Tianran Hanshi's 天然函昰 concept of “quasi poetry” 似詩, its relationship with contemporary debates on the relationship between Chan and poetry, and its impact on poetic ideas and practices in Buddhist monasteries. It will begin by addressing how, in the backdrop of a shift in gentry-monastic relations in the late Ming / early Qing, some monastic writers, such as the renowned late Ming reformer Hanshan Deqing 憨山德清, articulated a more radical identification of Chan with poetry. I will then briefly introduce Tianran and the core principles he associated with his concept of “quasi poetry”, focusing on the ways in which this concept constituted an alternative – and possibly an implicit critique – of the radical identity theory. The third section shows examples of the application of Tianran’s “quasi poetry”, focusing on a response poem Tianran composed for the lay disciple Xie Jiu 謝揪. This is followed by a discussion on quasi poetry’s application and impact in and beyond Tianran’s Haiyun school. In a brief afterword I will discuss this how this concept was associated with new modes of literary interaction between gentry and clerical interlocutors, and summarise some of the core reasons for this phenomenon’s growth, and eventual decline, during the Qing dynasty.",
-      "abstract_en": "",
+      "abstract_en": "This article discusses the meaning of the eminent early Qing monastic leader Tianran Hanshi's 天然函昰 concept of “quasi poetry” 似詩, its relationship with contemporary debates on the relationship between Chan and poetry, and its impact on poetic ideas and practices in Buddhist monasteries. It will begin by addressing how, in the backdrop of a shift in gentry-monastic relations in the late Ming / early Qing, some monastic writers, such as the renowned late Ming reformer Hanshan Deqing 憨山德清, articulated a more radical identification of Chan with poetry. I will then briefly introduce Tianran and the core principles he associated with his concept of “quasi poetry”, focusing on the ways in which this concept constituted an alternative – and possibly an implicit critique – of the radical identity theory. The third section shows examples of the application of Tianran’s “quasi poetry”, focusing on a response poem Tianran composed for the lay disciple Xie Jiu 謝揪. This is followed by a discussion on quasi poetry’s application and impact in and beyond Tianran’s Haiyun school. In a brief afterword I will discuss this how this concept was associated with new modes of literary interaction between gentry and clerical interlocutors, and summarise some of the core reasons for this phenomenon’s growth, and eventual decline, during the Qing dynasty.",
       "journal_name": "불교연구",
       "year": "2018",
       "volume": "49",
       "issue": "",
       "start_page": "197",
       "end_page": "257",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.49.197",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=97f927a775683aebc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002376372",
       "keywords_kr": [
         "천연함시(天然函昰)",
         "명·청의불교",
@@ -19290,8 +19347,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002376372",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "97f927a775683aebc85d2949c297615a",
       "id": "97f927a775683aebc85d2949c297615a"
@@ -19315,9 +19374,9 @@
       "issue": "",
       "start_page": "259",
       "end_page": "296",
-      "doi": "",
+      "doi": "10.34275/kibs.2018.49.259",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=97f927a775683aebb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002376379",
       "keywords_kr": [
         "이노우에 엔료",
         "『진리금침초편』",
@@ -19336,8 +19395,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002376379",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "97f927a775683aebb7998d826d417196",
       "id": "97f927a775683aebb7998d826d417196"

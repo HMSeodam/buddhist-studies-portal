@@ -10597,40 +10597,6 @@
     {
       "article_id": "3bec43083acb2f2ed18150b21a227875",
       "title_kr": "근대일본과 불교",
-      "title_en": "",
-      "authors": [
-        {
-          "name": "김제란",
-          "affiliation": "동국대학교 불교학술원",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "불교학리뷰",
-      "year": "2021",
-      "volume": "29",
-      "issue": "",
-      "start_page": "95",
-      "end_page": "104",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3bec43083acb2f2ed18150b21a227875",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "3bec43083acb2f2ed18150b21a227875",
-      "id": "3bec43083acb2f2ed18150b21a227875"
-    },
-    {
-      "article_id": "ART002711392",
-      "id": "ART002711392",
-      "kci_id": "ART002711392",
-      "title_kr": "서평: 근대일본과 불교",
       "title_en": "Review of Humihiko Sueki’s Modern Japan and Buddhism",
       "authors": [
         {
@@ -10648,20 +10614,19 @@
       "start_page": "95",
       "end_page": "104",
       "doi": "10.29213/crbs..29.202104.95",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3bec43083acb2f2ed18150b21a227875",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002711392",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교문화연구소",
-      "kci_year": "2021",
-      "kci_volume": "",
-      "kci_issue": "29",
+      "source": "RISS",
+      "kci_id": "ART002711392",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3bec43083acb2f2ed18150b21a227875",
+      "id": "3bec43083acb2f2ed18150b21a227875"
     },
     {
       "article_id": "84201d55a1c978726aae8a972f9116fb",
