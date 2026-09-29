@@ -3,17 +3,17 @@
   "journals": {
     "IJBTC": {
       "riss": 421,
-      "kci": 266,
+      "kci": 274,
       "kci_links": 0,
-      "paired": 265,
+      "paired": 273,
       "kci_only": 1,
       "scheme": "same",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 266,
-      "comparable_matched": 265,
+      "comparable": 274,
+      "comparable_matched": 273,
       "match_rate": 0.996,
-      "new": 1
+      "new": 0
     },
     "강좌미술사": {
       "riss": 845,
@@ -255,15 +255,15 @@
     },
     "선학": {
       "riss": 730,
-      "kci": 418,
+      "kci": 424,
       "kci_links": 24,
-      "paired": 418,
+      "paired": 424,
       "kci_only": 0,
       "scheme": "i2v",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 418,
-      "comparable_matched": 418,
+      "comparable": 424,
+      "comparable_matched": 424,
       "match_rate": 1.0,
       "new": 0
     },
@@ -297,15 +297,15 @@
     },
     "인도철학": {
       "riss": 763,
-      "kci": 372,
+      "kci": 382,
       "kci_links": 21,
-      "paired": 372,
+      "paired": 382,
       "kci_only": 0,
       "scheme": "same",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 372,
-      "comparable_matched": 372,
+      "comparable": 382,
+      "comparable_matched": 382,
       "match_rate": 1.0,
       "new": 0
     },
@@ -325,16 +325,16 @@
     },
     "정토학연구": {
       "riss": 433,
-      "kci": 0,
+      "kci": 142,
       "kci_links": 0,
-      "paired": 0,
+      "paired": 142,
       "kci_only": 0,
-      "scheme": "i2v",
+      "scheme": "same",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 0,
-      "comparable_matched": 0,
-      "match_rate": null,
+      "comparable": 142,
+      "comparable_matched": 142,
+      "match_rate": 1.0,
       "new": 0
     },
     "종학연구": {
@@ -353,16 +353,16 @@
     },
     "한국교수불자연합학회지": {
       "riss": 472,
-      "kci": 0,
+      "kci": 152,
       "kci_links": 10,
-      "paired": 0,
+      "paired": 152,
       "kci_only": 0,
       "scheme": "same",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 0,
-      "comparable_matched": 0,
-      "match_rate": null,
+      "comparable": 152,
+      "comparable_matched": 152,
+      "match_rate": 1.0,
       "new": 0
     },
     "한국불교사연구": {
@@ -408,5 +408,14 @@
       "new": 0
     }
   },
-  "candidates": []
+  "candidates": [
+    {
+      "kci_name": "미술사연구",
+      "records": 202,
+      "best": null,
+      "matched": 0,
+      "rate": 0.0,
+      "accepted": false
+    }
+  ]
 }

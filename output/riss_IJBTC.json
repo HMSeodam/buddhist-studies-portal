@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "IJBTC",
-    "last_updated": "2026-09-29"
+    "last_updated": "2026-07-10"
   },
   "articles": [
     {
@@ -11916,7 +11916,7 @@
     {
       "article_id": "78a4e2a559a7f012b36097776a77e665",
       "title_kr": "Logic and Religion in Wŏnhyo’s Buddhism: Focusing on Wŏnhyo’s Critical Discussions on Inference",
-      "title_en": "",
+      "title_en": "Logic and Religion in Wŏnhyo’s Buddhism: Focusing on Wŏhyo’s Critical Discussions on Inference",
       "authors": [
         {
           "name": "Gregor PAUL",
@@ -11925,7 +11925,7 @@
         }
       ],
       "abstract_kr": "In my reflections about logic and religion in Wŏnhyo’s Buddhism, I presuppose that there exist logical laws normatively valid for all human beings. My analyses then focus on the question of whether Wŏnhyo held that in, and because of, certain Buddhist teachings, some such laws as for instance the Principle of non-contradiction need not be accepted. Answering this question in the negative, I argue that Wŏnhyo, in spite of being a devout Buddhist, uncompromisingly rejected logical inconsistencies, thus comparing favorably to many medieval Christian scholastics. In particular, I deal with Wŏnhyo’s use of “skillful means” (upāya) as a device to avoid contradiction. However, I also admit that important questions remain open, and I try to make it clear that, from a methodological point of view, skillful means is a rather dubious tool to solve logical problems.",
-      "abstract_en": "",
+      "abstract_en": "In my reflections about logic and religion in Wŏnhyo’s Buddhism, I presuppose that there exist logical laws normatively valid for all human beings. My analyses then focus on the question of whether Wŏnhyo held that in, and because of, certain Buddhist teachings, some such laws as for instance the Principle of non-contradiction need not be accepted. Answering this question in the negative, I argue that Wŏnhyo, in spite of being a devout Buddhist, uncompromisingly rejected logical inconsistencies, thus comparing favorably to many medieval Christian scholastics. In particular, I deal with Wŏnhyo’s use of “skillful means” (upāya) as a device to avoid contradiction. However, I also admit that important questions remain open, and I try to make it clear that, from a methodological point of view, skillful means is a rather dubious tool to solve logical problems.",
       "journal_name": "IJBTC",
       "year": "2019",
       "volume": "29",
@@ -11934,7 +11934,7 @@
       "end_page": "39",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=78a4e2a559a7f012b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002536888",
       "keywords_kr": [],
       "keywords_en": [
         "W?nhyo",
@@ -11945,8 +11945,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002536888",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "78a4e2a559a7f012b36097776a77e665",
       "id": "78a4e2a559a7f012b36097776a77e665"
@@ -11954,7 +11956,7 @@
     {
       "article_id": "65a55c9b5712a7d447de9c1710b0298d",
       "title_kr": "Wŏnhyo’s Antinomic Inference and Wengui",
-      "title_en": "",
+      "title_en": "Wŏnhyo’s Antinomic Inference and Wengui",
       "authors": [
         {
           "name": "TANG Mingjun",
@@ -11963,7 +11965,7 @@
         }
       ],
       "abstract_kr": "In the history of the East Asian tradition of Buddhist logic, Wŏnhyo 元曉 is famous for his antinomic inference directed against Xuanzang’s inference of consciousnessonly. Recently, studies by Shigeki Moro (2017) have brought to light the close relation between Wengui 文軌 and Wŏnhyo. By examining the passage from Wengui found by Moro and related materials, I attempt to reveal some new facts concerning the relation between Wengui and Wŏnhyo. In short, Wŏnhyo’s antinomic inference was known to Wengui, as he has offered a criticism on it. Furthermore, Zenju 善珠 in his Inmyō ronsho myōtō shō 因明論疏明燈抄 cites a passage from Wŏnhyo’s P’an piryang non 判比量論, which shows that Wengui’s criticism was known to Wŏnhyo because Wŏnhyo response. The point of Wŏnhyo’s counter is that his inference will be free from fault, as pointed out by Wengui, if the property to be proven in his inference is reformulated into the condition of being separate from the visual consciousness that is well established (離極成眼識). Lastly, I entertain the hypothesis that the former part of Wengui’s Yinming ru zhengli lun shu 因明入正理論疏, which is actually the source of Wŏnhyo’s knowledge of the inference of consciousness-only was written before the arrival of the antinomic inference in China, while the last part of this same work, which contains criticism of the antinomic inference, was written after the arrival of the antinomic inference.",
-      "abstract_en": "",
+      "abstract_en": "In the history of the East Asian tradition of Buddhist logic, Wŏnhyo 元曉 is famous for his antinomic inference directed against Xuanzang’s inference of consciousnessonly. Recently, studies by Shigeki Moro (2017) have brought to light the close relation between Wengui 文軌 and Wŏnhyo. By examining the passage from Wengui found by Moro and related materials, I attempt to reveal some new facts concerning the relation between Wengui and Wŏnhyo. In short, Wŏnhyo’s antinomic inference was known to Wengui, as he has offered a criticism on it. Furthermore, Zenju 善珠 in his Inmyō ronsho myōtō shō 因明論疏明燈抄 cites a passage from Wŏnhyo’s P’an piryang non 判比量論, which shows that Wengui’s criticism was known to Wŏnhyo because Wŏnhyo response. The point of Wŏnhyo’s counter is that his inference will be free from fault, as pointed out by Wengui, if the property to be proven in his inference is reformulated into the condition of being separate from the visual consciousness that is well established (離極成眼識). Lastly, I entertain the hypothesis that the former part of Wengui’s Yinming ru zhengli lun shu 因明入正理論疏, which is actually the source of Wŏnhyo’s knowledge of the inference of consciousness-only was written before the arrival of the antinomic inference in China, while the last part of this same work, which contains criticism of the antinomic inference, was written after the arrival of the antinomic inference.",
       "journal_name": "IJBTC",
       "year": "2019",
       "volume": "29",
@@ -11972,7 +11974,7 @@
       "end_page": "68",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=65a55c9b5712a7d447de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002536896",
       "keywords_kr": [],
       "keywords_en": [
         "Buddhist logic",
@@ -11983,8 +11985,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002536896",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "65a55c9b5712a7d447de9c1710b0298d",
       "id": "65a55c9b5712a7d447de9c1710b0298d"
@@ -11992,7 +11996,7 @@
     {
       "article_id": "65a55c9b5712a7d4b36097776a77e665",
       "title_kr": "Metalogic in East Asia: Discussion on the Antinomic Reason (*viruddhāvyabhicārin) in P’an piryang non",
-      "title_en": "",
+      "title_en": "Metalogic in East Asia: Discussion on the Antinomic Reason (*viruddhāvyabhicārin) in P’an piryang non",
       "authors": [
         {
           "name": "MORO Shigeki",
@@ -12001,7 +12005,7 @@
         }
       ],
       "abstract_kr": "Although the tradition of the East Asian Buddhist logic is a transmission of the system of Indian logic established by Dignāga (ca. 480–540), it developed in its own way in East Asia. East Asian Buddhist logic should be reconsidered in the context of the East Asian Buddhist tradition, instead of based on Western or Indian logic-centrism.The twelfth section of P’an piryang non written by Wŏnhyo (617–686) metalogically discusses the logical problem of the antinomic reason (*viruddhāvyabhicārin), one of the fallacies of the reason of the three-part syllogism. Some textual problems remain in the section preserved in the manuscript of Otani University. Wŏnhyo seemed to have a keen interest in the antinomic reason. Although Dignāga categorizes the antinomic reason as one of the six fallacies of the inconclusive reasons, it has been questioned whether the categorization is valid by premodern Buddhist logicians and current scholars. Wŏnhyo tried to solve the problem through a kind of reductio ad absurdum method. Thus, he transformed the principle of the antinomic reason and showed the tautological redefinition, which probably is in conflict with the rule of the fallacy of both-agreement. According to these points, Wŏnhyo’s perspective of the antinomic reason seems to resemble the standpoint of Mun’gwe (fl. 7th century) more rather than that of Kuiji (632-682).These points found in the short descriptions of P’an piryang non probably express the features of Wŏnhyo’s logic and not of his logical misinterpretation. We need an even more detailed examinations of P’an piryang non from the viewpoints of textual criticism and logic.",
-      "abstract_en": "",
+      "abstract_en": "Although the tradition of the East Asian Buddhist logic is a transmission of the system of Indian logic established by Dignāga (ca. 480–540), it developed in its own way in East Asia. East Asian Buddhist logic should be reconsidered in the context of the East Asian Buddhist tradition, instead of based on Western or Indian logic-centrism.\nThe twelfth section of P’an piryang non written by Wŏnhyo (617–686) metalogically discusses the logical problem of the antinomic reason (*viruddhāvyabhicārin), one of the fallacies of the reason of the three-part syllogism. Some textual problems remain in the section preserved in the manuscript of Otani University. Wŏnhyo seemed to have a keen interest in the antinomic reason. Although Dignāga categorizes the antinomic reason as one of the six fallacies of the inconclusive reasons, it has been questioned whether the categorization is valid by premodern Buddhist logicians and current scholars. Wŏnhyo tried to solve the problem through a kind of reductio ad absurdum method. Thus, he transformed the principle of the antinomic reason and showed the tautological redefinition, which probably is in conflict with the rule of the fallacy of both-agreement. According to these points, Wŏnhyo’s perspective of the antinomic reason seems to resemble the standpoint of Mun’gwe (fl. 7th century) more rather than that of Kuiji (632-682).\nThese points found in the short descriptions of P’an piryang non probably express the features of Wŏnhyo’s logic and not of his logical misinterpretation. We need an even more detailed examinations of P’an piryang non from the viewpoints of textual criticism and logic.",
       "journal_name": "IJBTC",
       "year": "2019",
       "volume": "29",
@@ -12010,7 +12014,7 @@
       "end_page": "91",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=65a55c9b5712a7d4b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002536926",
       "keywords_kr": [],
       "keywords_en": [
         "Wŏnhyo",
@@ -12021,8 +12025,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002536926",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "65a55c9b5712a7d4b36097776a77e665",
       "id": "65a55c9b5712a7d4b36097776a77e665"
@@ -12030,7 +12036,7 @@
     {
       "article_id": "af609a91a121c546c85d2949c297615a",
       "title_kr": "New Discoveries in Wŏnhyo’s P’an piryang non: Focusing on the Akebono Fragmentary Text and Fragments Found in Auction Catalogues",
-      "title_en": "",
+      "title_en": "New Discoveries in Wŏnhyo’s P’an piryang non: Focusing on the Akebono Fragmentary Text and Fragments Found in Auction Catalogues",
       "authors": [
         {
           "name": "KIM Young-suk",
@@ -12039,7 +12045,7 @@
         }
       ],
       "abstract_kr": "In early 2018 I happened upon three distinct images that were previously unknown fragmentary texts found as entries that were published in three separate Japanese auction catalogues. This article is a careful analysis of these fragmentary texts, which I conclude are excerpts from Wŏnhyo’s P’an piryang non (Critical Discussions on Inference) that together make-up a section of the manuscript.In the three entries, common characteristics including boundary lines, height and width of the lines, the calligraphic style, the content of discussions, and ink markings indicate connections between the cut-out fragments of passages. Furthermore, the content shows a continuity in the flow of Wŏnhyo’s critique on the inferences posed by the Dharmapāla that refuted the past and future true existences.The significance of this discovery is that we are able to piece together what had long been considered lost. The particular significance of Wŏnhyo’s P’an piryang non is that it highlights the level of debate that took place in East Asian Buddhism. In the middle of this, Wŏnhyo was a prolific writer who was read by both the Japanese and Chinese monks, of whom we can piece together the person and his system of thought with the works that are extant and newly-discovered. The current discovery is important as it is part of one of his most outstanding work.",
-      "abstract_en": "",
+      "abstract_en": "In early 2018 I happened upon three distinct images that were previously unknown fragmentary texts found as entries that were published in three separate Japanese auction catalogues. This article is a careful analysis of these fragmentary texts, which I conclude are excerpts from Wŏnhyo’s P’an piryang non (Critical Discussions on Inference) that together make-up a section of the manuscript.\nIn the three entries, common characteristics including boundary lines, height and width of the lines, the calligraphic style, the content of discussions, and ink markings indicate connections between the cut-out fragments of passages. Furthermore, the content shows a continuity in the flow of Wŏnhyo’s critique on the inferences posed by the Dharmapāla that refuted the past and future true existences.\nThe significance of this discovery is that we are able to piece together what had long been considered lost. The particular significance of Wŏnhyo’s P’an piryang non is that it highlights the level of debate that took place in East Asian Buddhism. In the middle of this, Wŏnhyo was a prolific writer who was read by both the Japanese and Chinese monks, of whom we can piece together the person and his system of thought with the works that are extant and newly-discovered. The current discovery is important as it is part of one of his most outstanding work.",
       "journal_name": "IJBTC",
       "year": "2019",
       "volume": "29",
@@ -12048,7 +12054,7 @@
       "end_page": "116",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=af609a91a121c546c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002536929",
       "keywords_kr": [],
       "keywords_en": [
         "Dharmap?la",
@@ -12060,8 +12066,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002536929",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "af609a91a121c546c85d2949c297615a",
       "id": "af609a91a121c546c85d2949c297615a"
@@ -12078,7 +12086,7 @@
         }
       ],
       "abstract_kr": "In addition to the twelve links (nidānas) of dependent arising (paṭicca-samuppāda), early Buddhist texts record a series of stages of the path to awakening, called “preconditions” (upanisās), which in the Pāli Upanisā Sutta (S 12: 23; pts ii.29–31) are joined in one series. Modern western Buddhists take this one series to imply that nidānas and upanisās exemplify an over-arching principle of conditionality. In this article I argue that the upanisās exemplify a distinctively teleological mode of conditionality. I investigate (i) the images of a tree coming to full growth and rain flowing to the seas used to illustrate the upanisās, (ii) the distinctly goal-directed language used in relation to the stages of the path, and finally (iii), I propose, via a discussion of Aristotle on teleology, that the upanisās represent a teleological mode of conditionality, such that each stage of the path becomes the condition for the next, in relation to an aim or goal of awakening. I argue that the series of upanisās has a normative, rather than phenomenological, character, and I compare the series to a recipe. I conclude with the suggestion that the similarity between upanisās and nidānas lies in their being necessary conditions, and that this similarity constitutes a “family resemblance” (in Wittgenstein’s phrase). The over-arching principle of conditionality is not a feature of reality over and above such a family resemblance.",
-      "abstract_en": "",
+      "abstract_en": "In addition to the twelve links (nidānas) of dependent arising (paṭicca-samuppāda), early Buddhist texts record a series of stages of the path to awakening, called “preconditions” (upanisās), which in the Pāli Upanisā Sutta (S 12: 23; pts ii.29–31) are joined in one series. Modern western Buddhists take this one series to imply that nidānas and upanisās exemplify an over-arching principle of conditionality. In this article I argue that the upanisās exemplify a distinctively teleological mode of conditionality. I investigate (i) the images of a tree coming to full growth and rain flowing to the seas used to illustrate the upanisās, (ii) the distinctly goal-directed language used in relation to the stages of the path, and finally (iii), I propose, via a discussion of Aristotle on teleology, that the upanisās represent a teleological mode of conditionality, such that each stage of the path becomes the condition for the next, in relation to an aim or goal of awakening. I argue that the series of upanisās has a normative, rather than phenomenological, character, and I compare the series to a recipe. I conclude with the suggestion that the similarity between upanisās and nidānas lies in their being necessary conditions, and that this similarity constitutes a “family resemblance” (in Wittgenstein’s phrase). The over-arching principle of conditionality is not a feature of reality over and above such a family resemblance.",
       "journal_name": "IJBTC",
       "year": "2019",
       "volume": "29",
@@ -12087,7 +12095,7 @@
       "end_page": "149",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=65a55c9b5712a7d4c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002536930",
       "keywords_kr": [],
       "keywords_en": [
         "conditionality",
@@ -12098,8 +12106,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002536930",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "65a55c9b5712a7d4c85d2949c297615a",
       "id": "65a55c9b5712a7d4c85d2949c297615a"
@@ -12107,7 +12117,7 @@
     {
       "article_id": "65a55c9b5712a7d4d18150b21a227875",
       "title_kr": "On Jātakastava as a Kind of Buddhist Hymn",
-      "title_en": "",
+      "title_en": "On Jātakastava as a Kind of Buddhist Hymn",
       "authors": [
         {
           "name": "Dmitrii Alexeevich KOMISSAROV",
@@ -12116,7 +12126,7 @@
         }
       ],
       "abstract_kr": "In the paper, some genre peculiarities of two Buddhist poems with the same title, Jātakastava, are analyzed. They both contain eulogies on the virtuous deeds performed by Buddha in his previous lives. Comparing these poems allows us to discover a number of common formal characteristics in them. It is helpful in our examination to note that the same formal characteristics can be revealed in many poems within as well as outside of the Buddhist literary tradition. Turning to the non-Buddhist texts helps in attaining some insightful information concerning the history of the poetical form under consideration.Comparative analysis reveals that this poetical form was not invented inside the Buddhist literary tradition. Rather, the authors of the two extant Jātakastavas incorporated the poetical form known from at least the times of Ṛgveda as a literary tool in glorifying the past lives of the Buddha.",
-      "abstract_en": "",
+      "abstract_en": "In the paper, some genre peculiarities of two Buddhist poems with the same title, Jātakastava, are analyzed. They both contain eulogies on the virtuous deeds performed by Buddha in his previous lives. Comparing these poems allows us to discover a number of common formal characteristics in them. It is helpful in our examination to note that the same formal characteristics can be revealed in many poems within as well as outside of the Buddhist literary tradition. Turning to the non-Buddhist texts helps in attaining some insightful information concerning the history of the poetical form under consideration.\nComparative analysis reveals that this poetical form was not invented inside the Buddhist literary tradition. Rather, the authors of the two extant Jātakastavas incorporated the poetical form known from at least the times of Ṛgveda as a literary tool in glorifying the past lives of the Buddha.",
       "journal_name": "IJBTC",
       "year": "2019",
       "volume": "29",
@@ -12125,7 +12135,7 @@
       "end_page": "169",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=65a55c9b5712a7d4d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002536933",
       "keywords_kr": [],
       "keywords_en": [
         "Jātakastava",
@@ -12136,8 +12146,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002536933",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "65a55c9b5712a7d4d18150b21a227875",
       "id": "65a55c9b5712a7d4d18150b21a227875"
@@ -12145,7 +12157,7 @@
     {
       "article_id": "65a55c9b5712a7d47f7a54760bb41745",
       "title_kr": "Verses of Silent Illumination: Hongzhi Zhengjue’s Poetic Vision of Caodong Zen",
-      "title_en": "",
+      "title_en": "Verses of Silent Illumination: Hongzhi Zhengjue’s Poetic Vision of Caodong Zen",
       "authors": [
         {
           "name": "Christopher BYRNE",
@@ -12154,7 +12166,7 @@
         }
       ],
       "abstract_kr": "Zen master Hongzhi Zhengjue (1091–1157) is best known for bringing the Caodong lineage to prominence during the Song dynasty and for coining the phrase “silent illumination” (mozhao) which came to define Caodong meditative practice. Hongzhi was anything but silent, however, in his promotion of the insights of wordless meditation and produced one of the most extensive recorded sayings (yulu) in the Song, whose poetic content far exceeds any other yulu of the period. In this article, I argue that poetic composition is a central component of Hongzhi’s Zen practice and a privileged means for asserting a distinct Caodong identity. Rather than constituting a rejection of words and letters, the principle of silence transforms the character of Hongzhi’s poetic compositions in a manner that characterizes his Caodong practice. Hongzhi primarily promotes and articulates his vision of silent meditation through poetic means, including his famous “Inscription of Silent Illumination” (Mozhao ming), as well as the images of the “withered tree” and “cold ashes” associated with the Caodong meditative ideal of absolute silence. Furthermore, when these texts and images are analyzed in their poetic contexts, “silent illumination” appears to be far more dynamic than usually conceived, thus, accounting for an active component that encompasses the vital role of words and letters. In this manner, Hongzhi depicts a vision of Caodong practice that synthesizes wordless meditation with poetic composition as two complementary sides of a single mode of religious cultivation. Furthermore, this paradoxical synthesis corresponds to the identification of the ultimate and conventional truths within Caodong Zen philosophy. In sum, contrary to the predominant perception of Caodong practice as simply identified with absolute silence, for Hongzhi, an active and dynamic engagement with poetic composition more accurately characterizes how he imagined the lineage’s teachings.",
-      "abstract_en": "",
+      "abstract_en": "Zen master Hongzhi Zhengjue (1091–1157) is best known for bringing the Caodong lineage to prominence during the Song dynasty and for coining the phrase “silent illumination” (mozhao) which came to define Caodong meditative practice. Hongzhi was anything but silent, however, in his promotion of the insights of wordless meditation and produced one of the most extensive recorded sayings (yulu) in the Song, whose poetic content far exceeds any other yulu of the period. In this article, I argue that poetic composition is a central component of Hongzhi’s Zen practice and a privileged means for asserting a distinct Caodong identity. Rather than constituting a rejection of words and letters, the principle of silence transforms the character of Hongzhi’s poetic compositions in a manner that characterizes his Caodong practice. Hongzhi primarily promotes and articulates his vision of silent meditation through poetic means, including his famous “Inscription of Silent Illumination” (Mozhao ming), as well as the images of the “withered tree” and “cold ashes” associated with the Caodong meditative ideal of absolute silence. Furthermore, when these texts and images are analyzed in their poetic contexts, “silent illumination” appears to be far more dynamic than usually conceived, thus, accounting for an active component that encompasses the vital role of words and letters. In this manner, Hongzhi depicts a vision of Caodong practice that synthesizes wordless meditation with poetic composition as two complementary sides of a single mode of religious cultivation. Furthermore, this paradoxical synthesis corresponds to the identification of the ultimate and conventional truths within Caodong Zen philosophy. In sum, contrary to the predominant perception of Caodong practice as simply identified with absolute silence, for Hongzhi, an active and dynamic engagement with poetic composition more accurately characterizes how he imagined the lineage’s teachings.",
       "journal_name": "IJBTC",
       "year": "2019",
       "volume": "29",
@@ -12163,7 +12175,7 @@
       "end_page": "205",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=65a55c9b5712a7d47f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002536936",
       "keywords_kr": [],
       "keywords_en": [
         "Hongzhi Zhengjue",
@@ -12174,8 +12186,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002536936",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "65a55c9b5712a7d47f7a54760bb41745",
       "id": "65a55c9b5712a7d47f7a54760bb41745"
@@ -12192,7 +12206,7 @@
         }
       ],
       "abstract_kr": "This paper aims to expand the understanding of Guanyin’s reception in the West outside of immigrant and convert Buddhist communities by examining her role in the apologetics of Filianism—a new religious movement that first appeared in England in the 1970s. Although this religion participated in some of the same currents of thought that birthed contmporary feminist and Goddess spiritualities, it has historically defined itself against these and displays more commonality with its Roman Catholic origins.This study therefore focuses on how the symbolism of Guanyin has served Filianic writers as a touchpoint for mediating their relationship with Roman Catholicism, not only by explicating and legitimating their distinctive re-reading of Marian iconography, but also through leveraging Western receptions of Buddhism as a proxy for a criticism of the Second Vatican Council. Although Filianism is far from being the only movement originating in Europe to accord Guanyin a prominent place in its teachings and self-presentation, its thealogical focus on the nature of the bodhisattva in dialogue with received traditions of popular Marian veneration distinguishes it notably from the majority of non-Buddhist Western receptions of Guanyin, which have tended to employ her as a more generically “feminist” figure with comparatively minimal engagement with specifically Buddhist teachings. As a case study, Filianic readings of Guanyin therefore appear to offer the clearest example of a genuinely syncretic exchange in a Western context, expanding our perspective on the influence of Buddhist thought and culture within a reciprocal process of religious globalization.",
-      "abstract_en": "",
+      "abstract_en": "This paper aims to expand the understanding of Guanyin’s reception in the West outside of immigrant and convert Buddhist communities by examining her role in the apologetics of Filianism—a new religious movement that first appeared in England in the 1970s. Although this religion participated in some of the same currents of thought that birthed contmporary feminist and Goddess spiritualities, it has historically defined itself against these and displays more commonality with its Roman Catholic origins.\nThis study therefore focuses on how the symbolism of Guanyin has served Filianic writers as a touchpoint for mediating their relationship with Roman Catholicism, not only by explicating and legitimating their distinctive re-reading of Marian iconography, but also through leveraging Western receptions of Buddhism as a proxy for a criticism of the Second Vatican Council. Although Filianism is far from being the only movement originating in Europe to accord Guanyin a prominent place in its teachings and self-presentation, its thealogical focus on the nature of the bodhisattva in dialogue with received traditions of popular Marian veneration distinguishes it notably from the majority of non-Buddhist Western receptions of Guanyin, which have tended to employ her as a more generically “feminist” figure with comparatively minimal engagement with specifically Buddhist teachings. As a case study, Filianic readings of Guanyin therefore appear to offer the clearest example of a genuinely syncretic exchange in a Western context, expanding our perspective on the influence of Buddhist thought and culture within a reciprocal process of religious globalization.",
       "journal_name": "IJBTC",
       "year": "2019",
       "volume": "29",
@@ -12201,7 +12215,7 @@
       "end_page": "232",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=65a55c9b5712a7d4e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002536944",
       "keywords_kr": [],
       "keywords_en": [
         "Filianism",
@@ -12212,8 +12226,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002536944",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "65a55c9b5712a7d4e9810257f7042666",
       "id": "65a55c9b5712a7d4e9810257f7042666"
