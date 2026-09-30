@@ -39390,5 +39390,37 @@
       "source": "KCI",
       "publisher": "한국미술사교육학회"
     }
+  ],
+  "미술사학연구": [
+    {
+      "article_id": "ART003383429",
+      "id": "ART003383429",
+      "kci_id": "ART003383429",
+      "title_kr": "조선왕릉 동원이강릉의 성립 배경에 관한 연구: 광릉을 중심으로",
+      "title_en": "A Study on the Formation of Tongwŏn Igangnŭng in the Royal Tombs of the Chosŏn Dynasty: Focusing on Kwangnŭng",
+      "authors": [
+        {
+          "name": "조훈철",
+          "affiliation": "동국대학교 대학원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 조선왕릉 동원이강릉(同原異岡陵)이 어떠한 조건과 조정을 거쳐 성립하였는지를 광릉의 형성 과정을 통해 밝히는 데 목적이 있다. 1468년 광릉은 정희왕후의 장래 능침을 포함하지 않은 세조의 단릉으로 완결되었다. 약 15년 뒤인 1483년 정희왕후의 능침은 세조릉에서 약 190m 떨어진 북동쪽 별도 구릉에 조성되었다.\n이는 이미 완결된 세조릉을 보존하면서 왕후를 같은 능역에 모시기 위한 선택으로, 서로 다른 구릉이면서도 같은골 안에 포괄되는 지형과 기존 능제를 그대로 적용하기 어려웠던 세조릉의 선행완결과 정희왕후릉의 후장이그 시간적 조건이 되었다. 흉년과 공역 부담도 두 능 사이에 공동 정자각을 마련하도록 촉진하였다. 조정은 ‘비록혈은 다르지만 같은 골 안’에 있다는 판단과 ‘부인은 남편을 따른다’는 원칙에 따라 두 능침에 하나의 능호를 적용하였다. 그러나 세조는 길례, 정희왕후는 흉례의 대상이었으므로 삼년상 기간에는 제향을 구분하고 이후 합제로전환하였다. 이 운영 방식은 1499년 창릉의 제향 논의에서 ‘광릉 구례’로 인용되었다. 따라서 광릉에서 동원이강릉이 성립한 것은 완결된 세조릉의 보존, 정희왕후의 후장, 같은 골 안의 서로 다른 두 구릉, 기존 능제 적용의제약, 공역 부담, 능호 · 정자각 · 제향의 단계적 조정이 복합적으로 작용한 결과이다.",
+      "abstract_en": "This study investigates the conditions and adjustments through which Tongwŏn Igangnŭng emerged in the royal tombs of the Chosŏn dynasty by reconstructing the formation of Kwangnŭng. Kwangnŭng was completed in 1468 as the single tomb of King Sejo, without a burial site planned for Queen Chŏnghŭi. Approximately fifteen years later, in 1483, the queen’s tomb was constructed on a separate hill to the northeast, about 190 meters from the king’s mound. This choice preserved the completed tomb of King Sejo while placing the queen within the same royal tomb precinct. The spatial conditions for this arrangement were provided, in which two distinct hills were encompassed within the same valley, while the temporal conditions arose from the prior completion of King Sejo’s tomb and the later burial of Queen Chŏnghŭi, which made earlier arrangements for royal couples difficult to apply without modification. Famine and the burden of construction further encouraged the establishment of a shared Chŏngjagak between the two tombs. The court placed both tombs under the single name Kwangnŭng on the grounds that, although they occupied different burial sites, they lay within the same valley, and on the principle that a wife follows her husband. A common tomb name and a shared ritual building, however, did not immediately unify the rites. King Sejo was already the object of auspicious rites, whereas Queen Chŏnghŭi remained subject to mourning rites. Their observances were therefore kept separate during the mourning period and combined only afterward. In 1499, this operational arrangement was cited in discussions of rites at Ch’angnŭng as the “old precedent of Kwangnŭng,” showing that the response devised at Kwangnŭng had become an applicable royal precedent. The formation of Tongwŏn Igangnŭng at Kwangnŭng thus resulted from the combined operation of six factors: the preservation of King Sejo’s completed tomb; the later burial of Queen Chŏnghŭi; two separate hills within the same valley; the difficulty of applying existing burial arrangements; the burden of construction; and the successive coordination of the tomb name, Chŏngjagak, and ritual order.",
+      "journal_name": "미술사학연구",
+      "year": "2026",
+      "volume": "331",
+      "issue": "331",
+      "start_page": "37",
+      "end_page": "62",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003383429",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "한국미술사학회"
+    }
   ]
 }
