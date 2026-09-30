@@ -42,7 +42,7 @@ OAI_URL    = "https://open.kci.go.kr/oai/request"
 REST_URL   = "https://open.kci.go.kr/po/openapi/openApiSearch.kci"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36 BuddhistStudiesPortal/1.0")
-THROTTLE   = 1.0           # 요청 간 간격(초) — 공공 API 에 대한 예의
+THROTTLE   = 1.5           # 요청 간 간격(초) — 공공 API 에 대한 예의 (2026-10 방화벽 차단 이후 늘림)
 DEFAULT_LOOKBACK_DAYS = 21
 OVERLAP_DAYS = 3           # 지난 수확일과 겹치게 조금 앞에서 시작 (누락 방지)
 OVERLAP_PAGE_CAP = 20      # 이미 받은 날(겹침 구간)은 이 쪽수까지만 다시 봄 — 대량 갱신일에 매일 시간을 다 쓰지 않도록
@@ -235,6 +235,21 @@ def parse_oai_dc(xml_text: str):
     return recs, (_text(tok) if tok is not None else ""), ""
 
 
+def kci_error_text(r) -> str:
+    """KCI 오류 안내는 EUC-KR 로 와서 글자가 깨져 보이므로 한글로 풀어서 태그를 걷어 냄."""
+    raw = r.content or b""
+    for enc in ("utf-8", "euc-kr", "cp949"):
+        try:
+            t = raw.decode(enc)
+            if "\ufffd" not in t:
+                break
+        except UnicodeDecodeError:
+            continue
+    else:
+        t = raw.decode("cp949", errors="replace")
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", t)).strip()
+
+
 def http_get(session, url, params, tries=4, stats=None, deadline=None):
     for i in range(tries):
         left = (deadline - time.time()) if deadline else 999
@@ -244,8 +259,13 @@ def http_get(session, url, params, tries=4, stats=None, deadline=None):
             r = session.get(url, params=params, timeout=min(60, max(10, left - 5)))
             if r.status_code == 200:
                 return r.text
-            print(f"  ⚠ HTTP {r.status_code} (시도 {i+1}/{tries}) {r.text[:120]!r}")
+            msg = kci_error_text(r)
+            print(f"  ⚠ HTTP {r.status_code} (시도 {i+1}/{tries}) {msg[:80]}")
             if stats is not None: stats["http_errors"].append(r.status_code)
+            if "차단" in msg:
+                # KCI 방화벽이 막음 → 더 두드리면 차단이 길어질 수 있으므로 즉시 멈춤 (다음 실행에서 이어받음)
+                if stats is not None: stats["blocked"] = msg
+                return None
         except requests.RequestException as e:
             print(f"  ⚠ 네트워크 오류 (시도 {i+1}/{tries}): {type(e).__name__}")
         w = 5 * (2 ** i)
@@ -291,6 +311,8 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
         if time.time() > deadline:
             return False, "시간 예산 소진"
         text = http_get(s, OAI_URL, params, stats=stats, deadline=deadline)
+        if stats.get("blocked"):
+            return False, "KCI 방화벽 차단(" + stats["blocked"][:40] + ") — 다음 실행에서 이어받음"
         page_parser = parser
         if text is None and time.time() > deadline - 20:
             return False, "시간 예산 소진"
@@ -431,6 +453,10 @@ def harvest(date_from: str, date_until: str, deadline: float, discover: bool = T
             d0 = datetime.strptime(m.group(1), "%Y-%m-%d")
     except Exception:
         pass
+    if stats.get("blocked"):
+        stats["error"] = "KCI 방화벽 차단 — 다음 실행에서 이어받음"
+        print(f"  ✗ {stats['error']}: {stats['blocked'][:60]}")
+        return matched, unmatched, False, stats, ""
     done_until = ""
     # 처음 보는 날을 먼저(날짜순), 이미 받은 겹침 날은 맨 뒤에 — 겹침 구간 때문에 진행이 막히지 않게
     days = []

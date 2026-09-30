@@ -37,7 +37,7 @@ from kci_oai_updater import (parse_oai_kci, to_article, KCI_NAME_MAP, _norm, RES
 RISS_DIR = Path("../data/riss")
 KCI_DIR = Path("../data/kci")
 STATE = Path("state/kci_link_state.json")
-THROTTLE = 0.6
+THROTTLE = 1.0          # 2026-10 KCI 방화벽 차단 이후 늘림
 RETRY_MISS_DAYS = 90
 SKIP_JOURNALS = {"印度學佛教學研究"}          # KCI 비수록 (J-Stage)
 
@@ -140,6 +140,11 @@ class KCI:
                 if r.status_code == 200:
                     text = r.text
                     break
+                if r.status_code in (400, 403, 429):
+                    from kci_oai_updater import kci_error_text
+                    msg = kci_error_text(r)
+                    if "차단" in msg:
+                        raise Stop("KCI 방화벽 차단 — 다음 실행에서 이어서 (" + msg[:40] + ")")
                 if r.status_code in (401, 403):
                     raise Stop(f"KCI 가 인증키를 거부함(HTTP {r.status_code})")
             except requests.RequestException:
