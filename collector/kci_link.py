@@ -230,9 +230,12 @@ def main():
     by_j0 = {}
     for k_, v in swept0.items():
         by_j0.setdefault(k_.split("|")[0], []).append((v or {}).get("n", 0))
+    tried_reset = state.setdefault("reset_tried", {})
     for j_, ns in by_j0.items():
-        if len(ns) >= 3 and not any(ns) and j_ not in qname:
+        # 다시 시도는 학술지마다 90일에 한 번만 (전자불전처럼 KCI 에 정말 없는 학술지를 매일 되풀이하지 않도록)
+        if len(ns) >= 3 and not any(ns) and j_ not in qname and tried_reset.get(j_, "") <= cutoff:
             reset_j.add(j_)
+            tried_reset[j_] = today_kst()
         elif any(ns) and j_ not in qname:
             qname[j_] = qnames(j_)[0]           # 예전 실행에서 결과가 나왔던 이름
     for k_ in [k_ for k_ in swept0 if k_.split("|")[0] in reset_j]:
