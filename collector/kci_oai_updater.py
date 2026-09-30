@@ -235,17 +235,23 @@ def parse_oai_dc(xml_text: str):
     return recs, (_text(tok) if tok is not None else ""), ""
 
 
-def http_get(session, url, params, tries=4, stats=None):
+def http_get(session, url, params, tries=4, stats=None, deadline=None):
     for i in range(tries):
+        left = (deadline - time.time()) if deadline else 999
+        if left < 15:                     # 시간 예산이 끝나 가면 새 요청을 시작하지 않음 (단계 제한시간에 걸려 강제 종료되지 않게)
+            return None
         try:
-            r = session.get(url, params=params, timeout=60)
+            r = session.get(url, params=params, timeout=min(60, max(10, left - 5)))
             if r.status_code == 200:
                 return r.text
             print(f"  ⚠ HTTP {r.status_code} (시도 {i+1}/{tries}) {r.text[:120]!r}")
             if stats is not None: stats["http_errors"].append(r.status_code)
         except requests.RequestException as e:
             print(f"  ⚠ 네트워크 오류 (시도 {i+1}/{tries}): {type(e).__name__}")
-        time.sleep(5 * (2 ** i))
+        w = 5 * (2 ** i)
+        if deadline and time.time() + w > deadline:
+            return None
+        time.sleep(w)
     return None
 
 
@@ -267,7 +273,7 @@ def _next_params(fmt, token, style):
 
 
 def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, unmatched, discover, fmt_state,
-                    start_token="", page_cap=0):
+                    start_token="", page_cap=0, checkpoint=None):
     """한 기간(1일)을 끝까지 수확. 반환: (완료 여부, 사유)
     stats["resume"] 에 '어디까지 받았는지(토큰)'를 계속 적어 두어, 시간이 다 돼 멈춰도 다음 실행이 그 지점부터 이어받는다."""
     fmt = fmt_state["fmt"]
@@ -284,13 +290,15 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
     while True:
         if time.time() > deadline:
             return False, "시간 예산 소진"
-        text = http_get(s, OAI_URL, params, stats=stats)
+        text = http_get(s, OAI_URL, params, stats=stats, deadline=deadline)
         page_parser = parser
+        if text is None and time.time() > deadline - 20:
+            return False, "시간 예산 소진"
         tok_now = params.get("resumptionToken", "")
         if text is None and tok_now and fmt == "oai_kci":
             # 2019-04 적재분처럼 특정 쪽만 상세 형식(oai_kci)에서 서버 오류가 나는 경우가 있다 → 그 쪽만 간략 형식으로
             t2 = http_get(s, OAI_URL, {"verb": "ListRecords", "metadataPrefix": "oai_dc", "resumptionToken": tok_now},
-                          tries=2, stats=stats)
+                          tries=2, stats=stats, deadline=deadline)
             if t2 and "<record" in t2:
                 text, page_parser = t2, parse_oai_dc
                 print(f"  ↪ 상세 형식 오류 쪽을 간략 형식으로 받음 (위치 {tok_now.split(':')[-1]})")
@@ -307,7 +315,7 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
             fmt = fmt_state["fmt"] = stats["format"] = "oai_dc"; parser = parse_oai_dc
             params = {"verb": "ListRecords", "set": "ARTI", "metadataPrefix": fmt, "from": date_from, "until": date_until}
             continue
-        if text is None and tok_now and not skipped and _bump_token(tok_now):
+        if text is None and tok_now and not skipped and not cooldowns and _bump_token(tok_now):
             # 쉬어도 이 쪽만 계속 실패 → 이 쪽(100건)을 건너뛰고 다음 쪽이 되는지 본다 (다음 쪽도 안 되면 서버 장애로 보고 멈춤)
             nt = _bump_token(tok_now)
             print(f"  ⤼ 위치 {tok_now.split(':')[-1]} 쪽을 받을 수 없어 건너뜀 → {nt.split(':')[-1]}")
@@ -392,11 +400,13 @@ def _harvest_window(s, date_from, date_until, deadline, stats, matched, seen, un
                 return False, "다음 쪽으로 넘어가지 않음(같은 목록 반복)"
         params = _next_params(fmt, token, fmt_state["page_style"])
         stats["resume"]["page_style"] = fmt_state["page_style"]
+        if checkpoint:
+            checkpoint()
         time.sleep(THROTTLE)
 
 
 def harvest(date_from: str, date_until: str, deadline: float, discover: bool = True, on_window_done=None,
-            resume: dict = None, seen_until: str = "", window_days: int = 1, skip_ranges=()):
+            resume: dict = None, seen_until: str = "", window_days: int = 1, skip_ranges=(), checkpoint=None):
     """
     기간을 1일 단위로 나눠 수확. 하루치가 많아 도중에 멈추면 그 날의 토큰(쪽 위치)을 남겨 다음 실행이 이어받는다.
     반환: (대상 레코드, 이름이 안 맞은 불교 관련 학술지, 끝까지 받았는지, 통계, 완료된 마지막 날짜)
@@ -450,7 +460,8 @@ def harvest(date_from: str, date_until: str, deadline: float, discover: bool = T
         before = stats["total"]
         tok = resume.get("token", "") if resume and resume.get("window") == a else ""
         cap = OVERLAP_PAGE_CAP if overlap else 0
-        ok, why = _harvest_window(s, a, b, deadline, stats, matched, seen, unmatched, discover, fmt_state, tok, cap)
+        ok, why = _harvest_window(s, a, b, deadline, stats, matched, seen, unmatched, discover, fmt_state, tok, cap,
+                                  (lambda: checkpoint(matched, stats, done_until)) if checkpoint else None)
         if not ok:
             if overlap:      # 새 날짜는 다 받았고 겹침 재확인만 못 끝냄 → 진행에는 지장 없음
                 stats.pop("resume", None)
@@ -620,14 +631,9 @@ def main():
     if "done_ranges" not in state:
         state["done_ranges"] = [["2026-01-01", "2026-06-16"], ["2026-09-05", state.get("last_until", "2026-09-28")]]
     skip = [tuple(x) for x in state["done_ranges"]] if args.date_from else []
-    matched, unmatched, complete, stats, done_until = harvest(dfrom, duntil, deadline, True, resume=resume,
-                                                              skip_ranges=skip,
-                                                              window_days=30 if args.date_from else 1,
-                                                              seen_until="" if args.date_from else state.get("last_until", ""))
-    summary = store_raw(matched, stats.get("cands", {}), args.dry_run, os.environ.get("KCI_API_KEY", ""))
-    # 진행 상황 저장 (병합이 끝난 뒤에만 — 받은 논문이 저장되기 전에 날짜·위치만 앞서가지 않도록)
-    new_resume = None if complete else stats.get("resume")
-    if not args.dry_run and (done_until or new_resume or resume):
+    def save_progress(done_until, new_resume):
+        if args.dry_run or not (done_until or new_resume or resume):
+            return
         Path(STATE_FILE).parent.mkdir(parents=True, exist_ok=True)
         if args.date_from:
             prev_done = bf.get("done_until", "") if bf.get("from") == args.date_from else ""
@@ -644,6 +650,37 @@ def main():
                 state.pop("resume_daily", None)
         state["updated"] = today_kst()
         atomic_write_json(Path(STATE_FILE), state)
+
+    summary, saved, last_cp = {}, [0], [time.time()]
+    api_key = os.environ.get("KCI_API_KEY", "")
+
+    def add_summary(part):
+        for j, (n, u) in part.items():
+            o = summary.get(j, (0, 0)); summary[j] = (o[0] + n, o[1] + u)
+
+    def checkpoint(matched_now, stats_now, done_now):
+        # 30분마다 받은 논문과 진행 위치를 저장 — 실행이 강제로 끊겨도 그때까지 받은 것은 남도록
+        if time.time() - last_cp[0] < 1800:
+            return
+        last_cp[0] = time.time()
+        add_summary(store_raw(matched_now[saved[0]:], {}, args.dry_run, api_key))
+        saved[0] = len(matched_now)
+        save_progress(done_now, stats_now.get("resume"))
+        gh = os.environ.get("GITHUB_OUTPUT")
+        if gh and not args.dry_run:
+            with open(gh, "a", encoding="utf-8") as f:
+                f.write("complete=false\nprogress=true\n")
+        print(f"  💾 중간 저장 (대상 {saved[0]}건, 위치 {(stats_now.get('resume') or {}).get('token', '')})")
+
+    matched, unmatched, complete, stats, done_until = harvest(dfrom, duntil, deadline, True, resume=resume,
+                                                              skip_ranges=skip,
+                                                              window_days=30 if args.date_from else 1,
+                                                              seen_until="" if args.date_from else state.get("last_until", ""),
+                                                              checkpoint=checkpoint)
+    add_summary(store_raw(matched[saved[0]:], stats.get("cands", {}), args.dry_run, api_key))
+    # 진행 상황 저장 (병합이 끝난 뒤에만 — 받은 논문이 저장되기 전에 날짜·위치만 앞서가지 않도록)
+    new_resume = None if complete else stats.get("resume")
+    save_progress(done_until, new_resume)
     # Actions 자동 반복용: 끝까지 받았는지 / 이번에 조금이라도 나아갔는지
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:

@@ -138,8 +138,12 @@ class KCI:
         mt = re.search(r"<total>\s*(\d+)", text)
         total = int(mt.group(1)) if mt else 0
         if "<record" not in text:
-            if not mt and re.search(r"인증|key|KEY|권한|한도|초과|limit", text):
-                raise Stop("KCI 응답: " + re.sub(r"<[^>]+>|\s+", " ", text)[:120].strip())
+            # 결과 없음: KCI 는 '<total>' 없이 'No Data' 로 답하기도 한다 (요청 내용을 되풀이한 inputData 는 빼고 판단)
+            body = re.sub(r"<inputData>.*?</inputData>", " ", text, flags=re.S)
+            if re.search(r"No\s*Data|검색\s*결과가\s*없|결과가 없습니다", body, re.I):
+                return [], 0
+            if not mt and re.search(r"인증키|유효하지|권한|한도|초과|limit|invalid", body, re.I):
+                raise Stop("KCI 응답: " + re.sub(r"<[^>]+>|\s+", " ", body)[:120].strip())
             return [], total
         try:
             recs, _, _ = parse_oai_kci(text)
