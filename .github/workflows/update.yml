@@ -243,10 +243,15 @@ jobs:
       - name: IBK 업데이트
         if: always() && steps.ibk_check.outputs.run == 'true'
         continue-on-error: true
-        timeout-minutes: 20
+        # 수동 실행(target=ibk)이면 저자 보충에 넉넉히, 매월 정기 실행은 10분씩
+        timeout-minutes: ${{ github.event.inputs.target == 'ibk' && 150 || 35 }}
         run: |
           cd collector
-          python ibk_updater.py --depth 2
+          if [ "${{ github.event.inputs.target }}" = "ibk" ]; then
+            python ibk_updater.py --depth 2 --repair-min 120
+          else
+            python ibk_updater.py --depth 2 --repair-min 10
+          fi
         env:
           DISPLAY: ""
 
