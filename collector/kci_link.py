@@ -42,11 +42,24 @@ RETRY_MISS_DAYS = 90
 SKIP_JOURNALS = {"印度學佛教學研究"}          # KCI 비수록 (J-Stage)
 
 # KCI 에서 쓰는 학술지명 (우리 이름과 다른 것만) — 2026-09 저자 확인
+# KCI 검색의 학술지명 조건은 글자가 정확히 같아야 하므로 이체자(硏/研) 표기까지 후보로 둔다.
+# 실제로 결과가 나온 이름은 state 에 기억해 두고 다음부터 그 이름만 쓴다.
 KCI_QUERY_NAME = {
-    "IJBTC": "International Journal of Buddhist Thought and Culture",
-    "선문화연구": "禪文化研究",
-    "종학연구": "宗學研究",
+    "IJBTC": ["International Journal of Buddhist Thought and Culture",
+              "International Journal of Buddhist Thought & Culture"],
+    "선문화연구": ["禪文化硏究", "禪文化研究", "선문화연구"],
+    "종학연구": ["宗學硏究", "宗學研究", "종학연구"],
+    "정토학연구": ["정토학연구", "淨土學硏究"],
 }
+
+
+def qnames(ours, known=None):
+    lst = ([known] if known else []) + list(KCI_QUERY_NAME.get(ours, [])) + [ours]
+    out = []
+    for n in lst:
+        if n and n not in out:
+            out.append(n)
+    return out
 
 
 class Stop(Exception):
@@ -211,6 +224,21 @@ def main():
     cutoff = (datetime.strptime(today_kst(), "%Y-%m-%d") - timedelta(days=RETRY_MISS_DAYS)).strftime("%Y-%m-%d")
 
     # 1) 짝이 없는 RISS 논문 모으기
+    swept0 = state.setdefault("swept", {})
+    qname = state.setdefault("qname", {})
+    reset_j = set()
+    by_j0 = {}
+    for k_, v in swept0.items():
+        by_j0.setdefault(k_.split("|")[0], []).append((v or {}).get("n", 0))
+    for j_, ns in by_j0.items():
+        if len(ns) >= 3 and not any(ns) and j_ not in qname:
+            reset_j.add(j_)
+        elif any(ns) and j_ not in qname:
+            qname[j_] = qnames(j_)[0]           # 예전 실행에서 결과가 나왔던 이름
+    for k_ in [k_ for k_ in swept0 if k_.split("|")[0] in reset_j]:
+        del swept0[k_]
+    if reset_j:
+        print("  ↺ 학술지명 조건이 맞지 않았던 것으로 보여 다시 시도:", ", ".join(sorted(reset_j)))
     todo, stores = [], {}
     paired_k = set()             # 이미 RISS 와 짝이 된 KCI 번호 — 다른 RISS 레코드(중복 수집분 등)에 또 붙이지 않음
     probe = (0, "", 0)           # (KCI 레코드 수, 학술지, 연도) — 1단계 가능 여부를 시험할 곳
@@ -240,6 +268,8 @@ def main():
             if "/recommender/" in (r.get("riss_url") or ""):
                 continue
             rid = r.get("article_id", "")
+            if ours in reset_j:
+                miss.pop(rid, None)
             if miss.get(rid, "") > cutoff:
                 continue
             todo.append((ours, r))
@@ -286,7 +316,7 @@ def main():
             # KCI 에 레코드가 많은 것으로 확인된 학술지·연도에 '의'로 물어 보아, 짧은 검색어가 통하는지 먼저 시험
             _, pj, py = probe
             for tok in ("의", "연구"):
-                _, total = api.search(tok, KCI_QUERY_NAME.get(pj, pj), py, exact_year=True)
+                _, total = api.search(tok, qnames(pj, qname.get(pj))[0], py, exact_year=True)
                 if total > 0:
                     sweep_ok = True
                     break
@@ -297,13 +327,22 @@ def main():
             k = f"{ours}|{y}"
             if (swept.get(k) or {}).get("d", "") > cutoff:
                 continue
-            jq = KCI_QUERY_NAME.get(ours, ours)
             pool = jpool.setdefault(ours, {})
             n_year = 0
+            names = [qname[ours]] if ours in qname else qnames(ours)
             for tok in SWEEP_TOKENS["en" if ours == "IJBTC" else "ko"]:
                 page = 1
+                jq = names[0]
                 while True:
                     recs, total = api.search(tok, jq, y, page=page, exact_year=True)
+                    if total == 0 and page == 1 and len(names) > 1 and ours not in qname:
+                        # 이 이름으로는 없음 → 다른 표기로 한 번씩
+                        for alt in names[1:]:
+                            recs, total = api.search(tok, alt, y, page=1, exact_year=True)
+                            if total:
+                                jq = alt; break
+                    if total and ours not in qname:
+                        qname[ours] = jq; names = [jq]
                     for c in recs:
                         if c.get("kci_id") and _ours(c.get("journal", "")) == ours:
                             n_year += c["kci_id"] not in pool
@@ -325,10 +364,11 @@ def main():
             if id(r) in done:
                 continue
             y = year_of(r)
-            jq = KCI_QUERY_NAME.get(ours, ours)
+            jq = qnames(ours, qname.get(ours))[0]
             hit = None
             sw = [swept.get(f"{ours}|{yy}") for yy in (y - 1, y, y + 1)] if y else []
-            if sweep_ok and sw and all(x and x.get("n", 1) == 0 for x in sw):
+            # '그 해 KCI 에 없음'은 학술지명 조건이 맞는 것으로 확인된 학술지(qname)에만 적용
+            if sweep_ok and ours in qname and sw and all(x and x.get("n", 1) == 0 for x in sw):
                 # 그 해(±1년) KCI 에 이 학술지 논문이 한 편도 없음 → KCI 수록 이전 호. 묻지 않고 넘어감
                 miss[r.get("article_id", "")] = today_kst(); tried_ids.add(id(r)); continue
             qs = query_titles(r["title_kr"], limit=2 if sweep_ok and swept.get(f"{ours}|{y}") else 4)
