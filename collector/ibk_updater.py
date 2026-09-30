@@ -54,6 +54,107 @@ def get_soup(driver, url, wait_sec=4):
     return BeautifulSoup(driver.page_source, "html.parser")
 
 
+# ── 부제가 저자 칸에 들어간 경우 (J-Stage 목록 화면의 구조 때문) ──────────────
+#   예) 제목 '起信論研究の問題点' · 저자 '実叉難陀訳の性格をめぐって'  (실제 저자: 高崎直道)
+_SUB_PART = re.compile(r"[のをにてと「」『』〔〕]|より|から|など|おける|於ける|ついて|として|める|みる|考察|研究|試論|序説|一考|中心|論$")
+_NAME_WITH_ALIAS = re.compile(r"^[一-鿿〓]{2,5}[（(][^)）]{1,20}[)）]$")        # 金錫岩(花郎), 韓普光(泰植)
+
+
+def looks_like_subtitle(name: str) -> bool:
+    n = (name or "").strip()
+    if not n:
+        return False
+    if re.match(r"^[―─\-－]{1,2}", n):                  # '――チベット撰述文献の理解から――'
+        return True
+    if re.search(r"[A-Za-z]", n) or re.search(r"\s", n) or _NAME_WITH_ALIAS.match(n):
+        return False                                    # 'Richard A. Gard', '井ノ口 泰淳', '白土 わか'
+    return len(n) >= 5 and bool(_SUB_PART.search(n))
+
+
+def fix_subtitle_authors(arts) -> int:
+    """저자 칸의 부제를 제목 뒤로 옮기고, 진짜 저자는 상세 페이지에서 다시 받도록 표시. 반환: 고친 수"""
+    fixed = 0
+    for a in arts:
+        aus = a.get("authors") or []
+        subs = [x for x in aus if looks_like_subtitle(x.get("name", ""))]
+        if not subs:
+            continue
+        sub = re.sub(r"^[―─\-－\s]+|[―─\-－\s]+$", "", subs[0]["name"])
+        t = a.get("title_ja") or a.get("title_kr") or ""
+        if sub and sub not in t:
+            t = f"{t} ―{sub}―"
+            a["title_ja"] = a["title_kr"] = t
+        keep = [x for x in aus if x not in subs]
+        for i, x in enumerate(keep):
+            x["order"] = str(i + 1)
+        a["authors"] = keep
+        a["needs_author"] = True
+        fixed += 1
+    return fixed
+
+
+def parse_page_authors(soup):
+    """J-Stage 논문 페이지의 저자(일본어 표기 우선).
+    메타데이터(citation_author)는 로마자('Jikido Takasaki')라서, 본문의 저자 검색 링크(item=8)에서 일본어 이름을 읽고
+    메타데이터의 저자 수만큼만 앞에서부터 취한다 (관련 논문 목록의 다른 저자를 섞지 않도록)."""
+    meta = [re.sub(r"\s+", " ", (m.get("content") or "")).strip()
+            for m in soup.find_all("meta", attrs={"name": "citation_author"})]
+    meta = [x for x in meta if x]
+    links = []
+    for a in soup.select("a[href*='item=8']"):
+        nm = re.sub(r"\s+", " ", a.get_text(" ", strip=True)).strip()
+        if nm and 2 <= len(nm) <= 30 and not looks_like_subtitle(nm) and nm not in links:
+            links.append(nm)
+    n = len(meta) or 1
+    names = links[:n] if links else meta
+    return names
+
+
+def fetch_meta_authors(url: str):
+    """J-Stage 논문 페이지의 서지 메타데이터(citation_author 등)에서 저자·부제를 읽음 (브라우저 없이)."""
+    import requests
+    try:
+        r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                                                   "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+                                                   "Accept-Language": "ja,en;q=0.8"})
+        if r.status_code != 200:
+            return None
+    except Exception:
+        return None
+    soup = BeautifulSoup(r.text, "html.parser")
+    names = parse_page_authors(soup)
+    title = ""
+    m = soup.find("meta", attrs={"name": "citation_title"})
+    if m:
+        title = (m.get("content") or "").strip()
+    return {"authors": names, "title": title}
+
+
+def repair_authors(arts, minutes: float) -> int:
+    """저자가 비었거나 부제로 표시됐던 논문의 저자를 J-Stage 메타데이터로 채움 (시간 예산 안에서)."""
+    todo = [a for a in arts if a.get("jstage_url") and (a.get("needs_author") or not a.get("authors"))]
+    if not todo or minutes <= 0:
+        return 0
+    print(f"\n저자 보충 대상 {len(todo)}편 (최대 {minutes:.0f}분)")
+    end = time.time() + minutes * 60
+    done = 0
+    for a in todo:
+        if time.time() > end:
+            break
+        info = fetch_meta_authors(a["jstage_url"])
+        time.sleep(1.2)
+        if not info:
+            continue
+        if info["authors"]:
+            a["authors"] = [{"name": n, "affiliation": "", "order": str(i + 1)} for i, n in enumerate(info["authors"])]
+            a.pop("needs_author", None)
+            done += 1
+            if done <= 10:
+                print(f"  ✓ {a.get('title_ja','')[:30]} → {', '.join(info['authors'])}")
+    print(f"  → {done}편 저자 보충 (남은 대상 {len(todo) - done}편은 다음 실행에서)")
+    return done
+
+
 def infer_year(vol):
     try: return str(1952 + int(vol) - 1)
     except: return ""
@@ -125,7 +226,7 @@ def _parse_jstage_page(soup, vol, iss, year, seen: set) -> list[dict]:
             au_raw = au_div.get("title", "") or au_div.get_text(strip=True)
             for nm in re.split(r"[,、;]", au_raw):
                 nm = nm.strip()
-                if nm and 2 <= len(nm) <= 20:
+                if nm and 2 <= len(nm) <= 20 and not looks_like_subtitle(nm):
                     authors.append({"name": nm, "affiliation": "", "order": str(len(authors) + 1)})
 
         # 권호·페이지
@@ -212,13 +313,13 @@ def fetch_detail(driver, art):
         if el:
             t = el.get_text(strip=True)
             if t: r["title_en"] = t; break
-    # 저자
-    authors = []
-    for sel in [".contrib", ".author-list li", "[class*='author']"]:
+    # 저자 (서지 메타데이터가 가장 정확 — 없을 때만 화면 요소에서)
+    authors = [{"name": nm, "affiliation": "", "order": str(i + 1)} for i, nm in enumerate(parse_page_authors(soup))]
+    for sel in ([] if authors else [".contrib", ".author-list li", "[class*='author']"]):
         for el in soup.select(sel):
             nm = el.get_text(strip=True)
             nm = re.sub(r"\s+", " ", nm).strip()
-            if nm and 2 <= len(nm) <= 30 and nm not in [a["name"] for a in authors]:
+            if nm and 2 <= len(nm) <= 30 and not looks_like_subtitle(nm) and nm not in [a["name"] for a in authors]:
                 authors.append({"name": nm, "affiliation": "", "order": str(len(authors)+1)})
         if authors: break
     if authors: r["authors"] = authors
@@ -308,10 +409,13 @@ def _remove_ndl_duplicates(arts: list) -> int:
     return len(to_remove)
 
 
-def main(depth=2):
+def main(depth=2, repair_min=10.0):
     data, existing_ids, incomplete_ids = load_existing()
     if data is None:
         return
+    n_fix = fix_subtitle_authors(data.get("articles", []))
+    if n_fix:
+        print(f"저자 칸의 부제를 제목으로 옮김: {n_fix}편")
 
     print("Chrome 초기화...")
     driver = init_driver()
@@ -372,6 +476,9 @@ def main(depth=2):
             total_filled = filled
             print(f"  → {filled}편 초록 보충 완료")
 
+        # 3) 저자 보충 (부제가 저자로 들어갔던 논문, 저자 없는 논문)
+        n_rep = repair_authors(arts, repair_min)
+
         # NDL→J-Stage 승격: 같은 논문이 NDL·J-Stage 양쪽에 있으면 NDL 삭제
         removed = _remove_ndl_duplicates(arts)
         if removed:
@@ -397,5 +504,6 @@ def main(depth=2):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--depth", type=int, default=2)
+    parser.add_argument("--repair-min", type=float, default=10, help="저자 보충에 쓸 시간(분)")
     args = parser.parse_args()
-    main(depth=args.depth)
+    main(depth=args.depth, repair_min=args.repair_min)
