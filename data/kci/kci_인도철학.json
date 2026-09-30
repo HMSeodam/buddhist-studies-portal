@@ -13613,6 +13613,944 @@
       "kci_year": "2020",
       "kci_volume": "",
       "kci_issue": "60"
+    },
+    {
+      "article_id": "ART002582689",
+      "id": "ART002582689",
+      "kci_id": "ART002582689",
+      "title_kr": "고전 산스끄리뜨의 바이딸리야(Vaitālīya) 운율 군(群) 연구 (Ⅰ)__바이딸리야와 아우빠찬다시까(Aupacchandasika)를 중심으로__",
+      "title_en": "A Study on the Vaitālīya in the Classical Sanskrit Metre (Part I): Focused on Vaitālīyā and Aupacchandasika",
+      "authors": [
+        {
+          "name": "박영길",
+          "affiliation": "금강대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "바이딸리야(Vaitālīya)는 ‘단-장-단’(∪⏤∪) 등과 같은 운각(韻脚, gaṇa)들과 마뜨라(mātrā) 수(數)로 구성된 자띠(jāti, 또는 mātrāchandas로도 불림) 범주에 속하는 시형이다. 바이딸리야는 아리야(ārya) 군(群)의 운율처럼, 한 개의 단독 운율을 의미할 뿐만 아니라 동시에 바이딸리야를 비롯해서 이와 유사한 구조를 지닌 아우빠찬다시까(aupacchandasika), 아빠딸리까(āpātalikā) 등과 같은 아홉 운율을 통칭하는 용어이기도 하다. 바이딸리야 군에 속하는 아홉 운율들 중에서 가장 널리 사용된 것은 바이딸리야와 아우빠찬다시까이다.\n바이딸리야 구의 운율들은 네 구의 후반부가 ‘⏤∪⏤∪⏤’(8마뜨라) 또는 ‘⏤∪⏤∪⏤⏤’(10마뜨라)과 같은 형식으로 끝맺지만 전반부의 형태는 고정되어 있지 않다. Apte와 Brown은 바이딸리야, 아우빠찬다시까를 하나의 정형시(定型詩)처럼 소개하고 있지만 필자의 분석에 따르면 바이딸리야, 아우빠찬다시까의 경우만 해도 조합 가능한 시형(詩形)이 각각 12,544개나 되는 복잡한 형태의 운율이다.\n바이딸리야 군의 운율은 삥갈라(Piṅgala)의 Chandaḥśāstra를 비롯해서 라뜨나까라샨띠(Ratnākaraśānti)의 Chandoratnākara, 께다라브핫따(Kedārabhaṭṭa)의 Vṛttaratnākara, 강가다사(Gaṅgādāsa)의 Chando- mañjarī 등에서 정의되었다. 하지만 암호와 같은 간략한 게송만으로 그 의미를 온전하게 파악하기 힘들고 주석서들의 해설 역시 상충되거나 다소 납득하기 힘든 해설상의 오류도 담고 있다. 본고에서는 먼저, 바이딸리야 군의 운율 중 가장 표준적 모델이라 할 수 있는 바이딸리야 그리고 이 운율과 더불어 가장 빈번하게 사용된 아우빠찬다시까를 정의하고 분석했다.",
+      "abstract_en": "Vaitālīya is a metre belonging to the jāti(also known as mātrāchandas). Like the Āryā metre, the term vaitālīya means not only one independent metre, but also a term encompassing nine metres such as Aupacchandasika, Āpātalikā, Dakṣiṇāntikā, Prācyavṛtti, Udīcyavṛtti, Pravṛttaka, Cāruhāsinī, Aparāntika. The structure of these nine metres are fixed in the second-half of the four pādas such as ‘⏤∪⏤∪⏤’ or ‘⏤∪⏤∪⏤⏤’, but the structure of the first-half is not fixed. Therefore, the structure of these metres are not fixed form, but the structure of each metre are very diverse. According to my analysis, there are 12,544 types of Vaitālīya.\nThe Vatalīya metres were defined in almost Sanskrit chandas-literatures, including Chandaḥśāstra and they are frequently used in classical Sanskrit literature, but have not been studied carefully. This article focuses mainly on Chandomañjarī and Vṛttaratnākara with Vivṛti-s. Among nine metres, the standard metre is Vaitālīya and of the nine metres the most frequently used are Vaitālīya and Aupacchandasika.\n1. Of the two metres, the rules of vaitālīya are summarized as follows: ① The first half of the odd Pādas is consist of 6 mātrā-s(1~6th mātrā-s), and the first half of the even pāda-s is 8 mātrā-s (1~8th mātrā-s).\n② ‘8 short syllables’(∪∪∪∪∪∪∪∪) cannot be used in the first half(1~8th) of even pāda-s.\n③ In the first half of the odd pāda(1~6th mātrā-s) and the even pāda(1~8th mātrā-s), a guru(⏤: long) cannot be used for 2-3rd, 4-5th and 6-7th mātrās.\n④ Both the second half of the odd and the even pāda ends with ‘⏤∪⏤∪⏤’(Ra, L, G).\nBased on the above rule, the formats available for odd and even pāda-s are as follows. (cf. table of pp.181-182) Vitalia is not a fixed poem, but a combination of the above charts Ⓥ and Ⓢ, all 12,544 poems are possible. Among them, the combined form of Ⓥ1 + Ⓢ1 and Ⓥ1 + Ⓢ1 is the same as the Aparavaktra of Ardhasamavṛtta, and Ⓥ4 + Ⓢ4 and Ⓥ4 + Ⓢ4 of Vaitālīya is the same as the Viyoginī of Ardhasamavṛtta.\n2. In the case of Aupacchandasika, it is the same as the rule of the Vaitaliya, but the second half of the odd and the even pādas ends with ‘⏤∪⏤∪⏤⏤’(Ra, Ya).\n(cf. table of p.183) Of the 12,544 types of Vaitālīya’s structures, ‘a,c∪∪∪∪∪∪⏤∪⏤∪⏤, b,d∪∪∪∪⏤∪∪ ⏤∪⏤∪⏤’ is the same as Aparavaktra metre and a,c∪∪⏤∪∪⏤∪⏤∪⏤, b,d∪∪⏤⏤∪∪⏤∪⏤∪⏤is the same as Viyoginī (=Sundari) metre of Viṣamavṛtta. Similarly, among the 12,544 kinds of Aupacchandasika’s structures, ‘a, c∪∪∪∪∪∪⏤∪⏤∪⏤⏤, b, d∪∪∪∪⏤∪∪⏤∪⏤∪⏤⏤’ is the same as Puṣpitāgrā metre and ‘a,c∪∪⏤∪∪⏤∪⏤∪⏤⏤, b,d∪∪⏤⏤∪∪⏤∪⏤∪⏤’is the same as Malabhāriṇī (=Śiśulīlā) metre of Viṣamavṛtta.",
+      "journal_name": "인도철학",
+      "year": "2020",
+      "volume": "",
+      "issue": "58",
+      "start_page": "147",
+      "end_page": "191",
+      "doi": "10.32761/kjip.2020..58.006",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002582689",
+      "keywords_kr": [
+        "산스끄리뜨",
+        "시형론",
+        "운율",
+        "자띠 운율",
+        "바이딸리야",
+        "아우빠찬다시까",
+        "Vaitālīya",
+        "Jāti"
+      ],
+      "keywords_en": [
+        "Sanskrit Metre",
+        "Aupaccchandasika"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2020",
+      "kci_volume": "",
+      "kci_issue": "58"
+    },
+    {
+      "article_id": "ART002710631",
+      "id": "ART002710631",
+      "kci_id": "ART002710631",
+      "title_kr": "빠알리어 동사어간을 만드는 활용문자에 관한 연구 _『목갈라나 문법』과 『깟짜야나 문법』의 규칙을 중심으로_",
+      "title_en": "A Study of Conjugational Sign(Vikaraṇa) in Pāli Grammar with reference to Moggallāna-Vyākaraṇa and Kaccāyana-Vyākaraṇa",
+      "authors": [
+        {
+          "name": "김서리",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 빠알리어 능동동사의 어간 형성에 중요한 역할을 하는 동시에 빠알리어 동사어근의 분류와도 직결되는 접미사(활용문자)에 관해 『깟짜야나 문법(KV)』과 『목갈라나 문법(MV)』 규칙을 중심으로 고찰한다.\n먼저 KV와 MV에서 활용문자를 어떤 용어로 제시하는지 살펴본 후, 활용문자와 관련된 KV와 MV 규칙의 개요를 제시한다. 그런 다음, 규칙들을 구체적으로 분석하여 KV와 MV가 제시하는 어근군에 따른 활용문자와 활용변화를 살펴본다.\nKV는 접미사를 통칭하는 빳짜야(paccaya)라는 용어로 활용문자를 지칭하는 반면, MV는 활용문자에 대한 용어 없이 규칙을 전개하는데 드물게 위까라나(vikaraṇa)라는 용어로 활용문자를 지칭한다.\nKV는 8개의 어근군과 13개의 활용문자를 제시하고, MV는 9개의 어근군과 지시문자가 부착된, 9개의 활용문자를 제시한다. KV와 MV가 제시하는 어근군과 활용문자는 그 수와 형태에 있어서 표면적으로 차이가 있는데, 동일한 활용문자에 대해 어근을 분류하는 기준이 다르거나 활용문자에 대한 기술이 다르기 때문이다. 이러한 점은 어간 형성과정의 차이를 가져오는데, 그럼에도 불구하고 KV와 MV는 한 어근에 대해서 동일한 동사어간을 만들어낸다. 그리고 모든 어근이 하나의 활용문자만 갖는 것은 아니다. 하나의 어근으로부터 하나 이상의 활용문자가 결합될 수 있고 각기 다른 활용을 거쳐 하나 이상의 동사어간들이 만들어지기도 한다.",
+      "abstract_en": "This paper discusses the conjugational sign in Pāli grammar focused on the grammatical rules of Kaccāyana-vyākaraṇa(KV) and Moggallāna-vyākaraṇa(MV).\nThe verbal base(or stem) is the root with its conjugational sign combined. The conjugational sign is inserted between the root and the verbal termination, or between the last vowel and the following consonant of the root. The root does not have only one conjugational sign; one or more conjugational signs can be attached to one root, and one or more bases can be made through different conjugations.\nKV uses the term paccaya for the conjugational sign in the sense of a suffix. KV presents thirteen conjugational signs for the eight groups of the roots in KV 447-454. The condition of ‘kattari(in the active voice)’ governs these rules. KV presents conjugational signs together with those respective groups of roots as follows: a for the roots √bhū etc.; a preceded by niggahīta(ṃ) for the roots √rudh etc.; ya for the roots √div etc.; ṇu, ṇā, uṇā for the roots √su etc.; nā for the roots √ki etc.; ppa, ṇhā for the roots √gah etc.; o, yira for the roots √tan etc.; ṇe(e), ṇaya(aya) for the roots √cur etc.\nMV does not use any special term for the conjugational sign regularly, but the term vikaraṇa appears in rare places in MV. MV presents nine conjugational signs with indicatory letter(anubandha) attached, in MV 5.15, 18-19, 21-26. The condition of ‘aparokkhesu kattuvihitamānantatyādisu(in the active voice, when the suffixes of all the tenses and moods except the perfect tense follow, or the suffixes of the present participles follow)’ governs these rules. MV presents conjugational signs together with those respective groups of roots as follows: general conjugational sign la(l is an indication letter and a is the actual suffix here); ṇi(i) for the roots √cur etc.; la(a) preceded by maṃ(ṃ) for the roots √rudh etc.; yak(ya) for the roots √div etc.; ka(a) for the roots √tud etc.; knā(nā) for the roots √ji etc.; kṇā(ṇā) for the roots √ki etc.; kṇo(ṇo) for the roots √su etc.; ok(o) for the roots √tan etc.\nSome roots-groups and the conjugational signs presented by the rules of KV and MV are superficially different in number and form. The difference comes from the criteria for classifying the roots for the respective conjugational sign or for the description of the conjugational signs. This point brings the different process of forming the verbal bases along with the various rules of KV and MV. Nevertheless, it is noteworthy that KV and MV form the same verbal base for one root.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "61",
+      "start_page": "5",
+      "end_page": "37",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002710631",
+      "keywords_kr": [
+        "위까라나",
+        "접미사(활용문자)",
+        "동사어간",
+        "목갈라나문법",
+        "깟짜야나문법",
+        "vikaraṇa",
+        "Kaccāyana-vyākaraṇa",
+        "Moggallāna-vyākaraṇa"
+      ],
+      "keywords_en": [
+        "base",
+        "roots-group"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "61"
+    },
+    {
+      "article_id": "ART002711226",
+      "id": "ART002711226",
+      "kci_id": "ART002711226",
+      "title_kr": "중기중관파 논쟁에 나타나는 sāvakāśa-vākya와 prasaṅga-vākya의 의미",
+      "title_en": "On the Meaning of the Sāvakāśa-vākya and Prasaṅga-vākya appeared in the Controversy of Middle Mādhyamikas based on the First Chapter of Mūlamadhyamaka-kārikā",
+      "authors": [
+        {
+          "name": "이태승",
+          "affiliation": "위덕대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "인도불교사에서 보통 중기중관파 논사들은 자립논증파와 귀류논증파로 구분되며, 이 구분은 짠드라끼르띠가 바비베까를 비판하고 붓다빨리따를 옹호한 데 연유한다. 이 중기중관파의 논쟁관계는 『중송』 제1장 제1게송의 해석과 관련해 명확히 나타나며, 그곳에서 바비베까는 붓다빨리따의 해석을 sāvakāśa-vākya라고 주장하고, 이 sāvakāśa-vākya를 짠드라끼르티는 쁘라상가라고 말하고 있다. sāvakāśa- vākya는 ‘귀류의 여지를 가진 문장’ 또는 ‘비난의 여지를 가진 문장’ 등으로 번역되는 것으로, 제1장 제1게송과 관련해 살펴보면, “존재하는 것은 스스로로부터 생겨나지 않는다”고 하는 경우, 이것이 “다른 것으로부터 생겨난다.” 등의 여지를 갖는 것을 말한다. 이에 대해 짠드라끼르띠가 주장하는 쁘라상가는 “만약 스스로로부터 생겨난다면, 같은 것에서 같은 것이 생겨나고 무한히 같은 것이 생겨나는 오류에 빠진다”는 뜻으로 이해할 수 있다. 따라서 바비베까가 주장하는 sāvakāśa-vākya와 짠드라끼르띠가 말하는 쁘라상가와는 그 의미가 다르다고 생각된다. 티베트에서는 물론 오늘날에 이르기까지 이러한 sāvakāśa-vākya나 쁘라상가에 대한 이해는 한결같지 않고 경우에 따라서는 잘못 이해되기도 하였다고 생각된다. 귀류논증파와 자립논증파에 대한 정확한 이해가 여전히 필요하다고 생각된다.",
+      "abstract_en": "In the history of Indian Buddhism, the middle Mādhyamikas are usually divided into Svātantrika and Prāsaṅgika, and this distinction is attributed to Candrakīrti’s criticism of Bhāviveka and advocating for the Budddhapālita. The controversial relations of this middle Mādhyamikas are clearly shown in relation to the interpretation of the first kārikā of the first chapter of the Mūlamadhyamaka-kārikā[Mmk], where Bhāviveka insisted that the interpretation of the Buddhapālita was sāvakāśa-vākya and Candrakīrti said that this sāvakāśa-vākya was a same of prasaṅga-vākya. The sāvakāśa-vākya is translated as 'the sentence with room for absurd' or 'the sentence with room for censure'. Looking at this in relation to the first kārikā of the first chapter of Mmk, when it is said that the existences does not arise from itself, this means that the existence is born from another etc.. In this regard, the prasaṅga interpretation of Candrakīrti can be understood that if the existence arises from itself, it falls into the error that the same thing arises out of the same thing and the same thing arises infinitely. Therefore, I think that the meaning of the sāvakāśa-vākya of Bhāviveka is different from the prasaṅga-vākya of Candrakīrti. It is thought that the understanding of sāvakāśa-vākya and prasanga-vākya in Tibet as well as up to the present day is not consistent and has been misunderstood in some cases. It seems that there is still a need for an accurate understanding of the Svātantrika and Prāsaṅgika.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "61",
+      "start_page": "71",
+      "end_page": "95",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002711226",
+      "keywords_kr": [
+        "Middle Mādhyamika",
+        "Svātanrika",
+        "Prāsaṅgika",
+        "sāvakāśa-vākya",
+        "prasaṅga-vākya",
+        "Buddhapālita",
+        "Bhāviveka",
+        "Candrakīrti",
+        "중기중관파",
+        "자립논증파",
+        "귀류논증파",
+        "여지를 갖는 문장",
+        "쁘라상가",
+        "붓다빨리따",
+        "바비베까",
+        "짠드라끼르띠"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "61"
+    },
+    {
+      "article_id": "ART002711235",
+      "id": "ART002711235",
+      "kci_id": "ART002711235",
+      "title_kr": "바비베까의 비-채식주의: 고기를 먹는 행위가 살생을 야기하는가, 고기 먹기를 원하는 행위가 살생을 야기하는가?",
+      "title_en": "Bhāviveka’s Non-vegetarianism: Is Killing Caused by the Act of Meat-Eating or of Desiring to Eat Meat?",
+      "authors": [
+        {
+          "name": "함형석",
+          "affiliation": "전남대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 바비베까(Bhāviveka, 500-570 CE)의 저작 『중관심론』(Madhyamakahṛdayakārikā)과 그에 대한 주석 『이성의 불꽃』(Tarkajvālā)의 아홉 번 째 챕터인 「미망사장」(Mīmāṃsātattvanirṇayāvatāra)에 등장하는 비-채식주의(non-vegetarianism) 논의를 분석한다. 이를 통해 6세기 중관논사인 바비베까가 기본적으로 “세 가지 측면에서 청정한”(trikoṭiśuddha) 고기에 대한 섭취를 허용하는 율장의 육식관련 규정을 전적으로 긍정하고 있음을 확인한다. 바비베까는 또한 육식은 필연적으로 살생을 야기하거나 조장한다는 반론자에 의견을 반박하기 위해 육식과 살생 간의 인과관계를 인정하였을 때 발생하게 되는 불합리한 결론(prasaṅga)들을 나열하여 육식이 아니라 육식을 하고자 하는 욕망이 살생과 연결된다는 점을 보여준다. 하지만 비록 바비베까가 그가 상대하였던 채식주의자들의 주장이 확정적이지 않음을 보여 채식주의를 불교도들의 식사규칙으로 삼을 것에 반대하고는 있지만, 그가 문제 삼지 않는 육식행위는 승려의 탁발행위에 제한되어 있다는 점을 고려할 때, 그의 논의를 육식을 옹호하는 보편적인 논리로 확대하는 것은 불가능한 것으로 보인다.",
+      "abstract_en": "This paper analyzes Bhāviveka’s (500-570 CE) non-vegetarianism appearing in the ninth Mīmāṃsā chapter of the Madhyamakahṛdayakārikā and its commentary, the Tarkajvālā. Examining the Buddha’s (or rather Siddhārtha’s) thought that he had before deciding to partake a meal offered by Sujātā as contained in the works such as Aśvaghoṣa’s (80-150 CE) Buddhacarita and the Mahāsaccakasutta (the thirty sixth sutta of the Majjhima Nikāya), it first identifies the basic Buddhist attitude toward the act of eating. Against this background, it then introduces Bhāviveka’s counter-arguments toward the opponents, the adherents of the Mahābhārata (rgyas byed), who argue that meat-eating is tantamount to killing animals. By so doing, it confirms that Bhāviveka saw no moral problem in the Buddhist practice of eating meat that is “pure in three aspects” (trikoṭiśuddha) as prescribed in the Vinaya. From a different perspective, what Bhāviveka defended was not the Buddhists’ meat-eating per se, but the Buddhists’ mode of eating, that is, eating one’s alms (bhaikṣānna). In short, Bhāviveka defended the Buddhists’ practice of eating meat fallen onto one’s own begging bowl by chance (yadṛcchāgatabhakta).\nThe paper also considers the so-called “extra Tibetan verses” (Kawasaki 1992b) contained in the Tarkajvālā on the Madhyamakahṛdayakārikā 9.136. Acknowledging the interpretive difficulties in reading those verses, it argues that what Bhāviveka aimed at is not showing the emptiness of karmic consequence (svabhāva) of meat-eating (māṃsabhakṣaṇa). Bhāviveka rather, it argues, attempted to establish the causal relationship between the desire to eat meat and animal slaughter and thereby to assert that the causal relationship between meat-eating and killing supposed by the opponents is wrong. It concludes that Bhāviveka emphasized that eating meat contained in begged food is an non-intentional act, and therefore, is not morally reproachable. Lastly, it is discussed whether Bhāviveka’s anti-vegetarian, or more precisely, non-vegetarian arguments can justify our meat containing meals given that his fault-free meat diet does not only consist of threefoldly pure meat but is also unmotivated by a crave for the flavor of meat.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "61",
+      "start_page": "97",
+      "end_page": "120",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002711235",
+      "keywords_kr": [
+        "바비베까",
+        "채식주의",
+        "고행",
+        "중관심론",
+        "따르까즈왈라",
+        "Bhāviveka",
+        "Madhyamakahṛdayakārikā",
+        "Tarkajvālā"
+      ],
+      "keywords_en": [
+        "vegetarianism",
+        "asceticism"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "61"
+    },
+    {
+      "article_id": "ART001024478",
+      "id": "ART001024478",
+      "kci_id": "ART001024478",
+      "title_kr": "『根本說一切有部毘奈耶雜事』의 勝鬘(Mallikā) 이야기를 통해 본 여성의 이미지 분석",
+      "title_en": "An analysis on the image of women in the Mallikāvadāna of the Mūlasarvāstivādavinaya Kṣudrakavastu",
+      "authors": [
+        {
+          "name": "박청환",
+          "affiliation": "중앙승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "말리(Malli) 또는 말리까(Mallikā)는 아직까지도 인도에서 일반적으로 사용되는 대표적인 여성 이름 중의 하나이다. 다른 인도종교 전통에서와 마찬가지로 불교전통에서도 이 이름의 여성이 등장하는데, 본 논문은 『근본설일체유부비나야잡사』에 나타난 이야기를 중심으로 내용 분석과 사회사적 의미를 살펴보면서, 이 이야기가 가지고 있는 여성관과 신데렐라 이야기와의 연관성을 문학이론적 측면에서 심도있게 다루려고 한다. 그리하여 불교 문헌에서 여성 문제를 다룸에 있어 범인도적인 여성관이 가지고 있는 성격을 밝히고 그 배후에 숨어있는 불교적인 특성을 살려내는 것을 목표로 한다.",
+      "abstract_en": "Malli or Mallikā is one of still very popular female names in India. As in the other Indian religious traditions, in the Buddhist tradition also, a woman named Mallikā appears. This paper deals with Mallikā story of the Mūlasarvāstivādavinaya Kṣudrakavastu where it performs not only the structural and sociohistorical analysis but also highlights the Mūlasarvāstivādins' view of women in this story.\nMallikā’s episode presents the Mūlasarāvstivādins’ rich literary imagination as an Indian version of the Cinderella story. This is an example of the combination between Buddhism, Indo-european mythology and local tradition. The Mallikā story represents the strong desire for social upgrade from the lower class of Indian society. The episode of Mallikā and Varṣikā represents the social situation of that time: the harmony between wives and their paying respect to their husband were regarded as essential to the family. The analysis of this episode reveals that women are content with a passive status in a male dominant society. This reflects the inclinations of the avadānas of the MSV to reconcile with social custom. Mallikā’s giving birth to Virūḍhaka is the beginning of the main episode of the Śākyas’ massacre by Virūḍhaka. Here arises the question: why did the Mūlasarāvstivādins connect Mallikā, symbol of good deeds, and Virūḍhaka, symbol of bad deeds? The MSVKv does not provide any karmic explanation. Just like the slave-girl who gives birth to Pūrṇa and is never mentioned again in the Pūrṇāvadāna, another avadāna of the MSV, following the birth of Virūḍhaka, Mallikā is briefly mentioned in the scene of the meeting with Prasenajit after she was driven from the palace. Through a similar process, the slave-girl gives birth to Pūrṇa who becomes a disciple of the Buddha whereas Mallikā’s son, Virūḍhaka takes part in a massacre. This is the Mūlasarāvstivādins’ method of creating stories. They do not consider the karmic relation between the protagonists and their mothers. Mallikā, a doer of good deeds through past and present, is even ousted from the palace by her own son. This also reflects the Mūlasarvāstivādin’ view of women which could not but be influenced by the social realities of their time when women were subordinate to men. In many cases, women are secondary characters who only introduce the male protagonists and as shown in the table 6 and the past story of Mallikā, they are often described as worldly obstacles to the male protagonists’ enlightenment.",
+      "journal_name": "인도철학",
+      "year": "2006",
+      "volume": "21",
+      "issue": "",
+      "start_page": "63",
+      "end_page": "97",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001024478",
+      "keywords_kr": [
+        "근본설일체유부비나야잡사",
+        "말리카",
+        "여성",
+        "까르마",
+        "신데렐라"
+      ],
+      "keywords_en": [
+        "mUlasarvAstivAdavinaya kSudrakavastu",
+        "mallikA",
+        "women",
+        "karma",
+        "cinderella"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2006",
+      "kci_volume": "21",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART002711192",
+      "id": "ART002711192",
+      "kci_id": "ART002711192",
+      "title_kr": "율장에 언급된 실수마라(失守摩羅)의 연원과 변용",
+      "title_en": "Sources and Modifications of Śiśumāra Mentioned in Vinaya-piṭaka",
+      "authors": [
+        {
+          "name": "김영호",
+          "affiliation": "동국대학교 인도철학불교학연구소",
+          "order": "1"
+        },
+        {
+          "name": "정승석",
+          "affiliation": "동국대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "한역(漢譯) 불전에는 실수마라(śiśumāra)와 마갈(makara)이 자라(鼈), 거북(龜), 악어(鼉), 고래(鯨魚), 바다 짐승(海獸), 물에 사는 나찰(水羅刹), 대해의 벌레(大海虫), 새끼 용(虬), 바다의 용(海龍) 등으로 혼잡하게 의역되어 있다. 이는 불전을 이해하는 데 장애의 요인이 되므로, 본론에서는 이 같은 장애를 원어로 해소하면서 śiśumāra와 makara가 주요 소재로 등장하는 이야기의 변용 양상을 고찰하여 그 취지의 추이를 파악한다.\n악어를 지칭하는 śiśumāra가 원숭이와 함께 주역으로 등장하는 본생담의 원형에서는 악어의 아내가 원숭이의 심장을 먹고 싶어 하는 식탐(食貪)이 이야기의 발단이다. 그러나 이 밖의 불전들에서는 이야기의 발단을 음행(淫行) 또는 음심(淫心)으로 바꾸어 부각함으로써 동일한 이야기를 지계(持戒)의 소재로 변용한다. Suṃsumāra Jātaka에 상응하는 「불설별미후경」을 단적인 예로 들 수 있다. 그리고 불전의 본생담 중에서는 가장 완성도가 높은 Mahavāstu의 Markaṭa Jātaka가 이 같은 변용의 전형을 이룬다. 『마하승기율』은 변용된 소재만을 활용하여 불음계에 대한 경각심을 고취한다.\nŚiśumāra 또는 makara이 각각 원숭이 또는 거북과 함께 등장하는 이야기에서 이 주역들은 교의적 상징성을 함의한다. Śiśumāra와 makara는 포악성을 대변하면서 무지를 상징하는 반면, 원숭이와 거북은 자비심을 대변하면서 지혜를 상징한다.",
+      "abstract_en": "The concepts of ‘sśiśumāra’ and ‘makara’ in the Chinese Buddhist literatures have been perplexedly translated and paraphrased such as a snapping turtle, a turtle, a gavial, a whale, a marine animal, a semiaquatic rākṣasa, the worm of the ocean dragonet, and Sea dragon etc.. Because this fact is an obstacle to understand the Buddhist literatures, this article examines the stories in which śiśumāra and Makara appear as the main characteristics in order to explain this difficulty. In this process, I examine the transformation of the stories and grasp the tendency of its purpose.\nAmong the Jātaka, the Suṃsumāra Jātaka, which may be the origin of the story of the gavial and monkey, is likely to be. In Pañcatantra's fables, where the same subject is most expanded, food craving is the beginning of the story, and among the Buddhist literatures, the Suṃsumāra Jātaka is the same.\nThe term of śiśumāra, in the Jātaka's prototype which refers to a gavial appears as the protagonist with a monkey, the story begins with the craving for the gavial's wife to eat the monkey's heart. In other Buddhist literatures, however, the same story is transformed into the subject of observing precepts by changing the origin of the story into an obscene act or sexual desire. It is the good example that the book of A Tale of Terrapin and Monkey Taught by the Buddha which corresponds to the Suṃsumāra Jātaka. In addition, among the Buddhist Jātaka, the Mahavāstu's Markaṭa Jātaka, which is the most complete, is the archetype of this transformation. In the Mahāsaṅghabhikṣuṇī-vinaya, it raises awareness of the intoxication through alcohol, drugs etc. using only the transformed materials of the story.\nIn the story of Śiśumāra or makara with monkeys or turtles, respectively, these central characters simply represent doctrinal symbolism. Śiśumāra and makara epitomize ferocity and symbolize ignorance, while monkeys and turtles represent compassion and symbolize wisdom.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "61",
+      "start_page": "39",
+      "end_page": "69",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002711192",
+      "keywords_kr": [
+        "실수마라",
+        "마갈",
+        "악어",
+        "원숭이",
+        "본생담",
+        "인도 우화집",
+        "śiśumāra",
+        "Jātaka",
+        "Pañcatantra"
+      ],
+      "keywords_en": [
+        "makara",
+        "crocodile",
+        "monkey"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "61"
+    },
+    {
+      "article_id": "ART002750170",
+      "id": "ART002750170",
+      "kci_id": "ART002750170",
+      "title_kr": "아쉬바고샤(Aśvaghoṣa)의 『사운다라난다』(Saundarananda)에 나타난 인도 문학의 초기 수사법",
+      "title_en": "Early Characteristics of the Alaṃkāras represented in the Saundarananda of Aśvaghoṣa",
+      "authors": [
+        {
+          "name": "류현정",
+          "affiliation": "서울대학교 아시아연구소 남아시아센터",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 카비야(kāvya, 산스크리트어로 작성된 정형시) 작품 『『사운다라난다』(Saundarananda, ‘아름다운 난다’ 이하 SN)를 통해 수사론서가 제작되기 전 초기 수사법의 특성에 대해 고찰하는 것을 목적으로 한다. SN은 아쉬바고샤(Aśvaghoṣa, 馬鳴, 80~150년 경)의 저작으로서, 붓다의 이복동생이자 주인공 난다(Nanda)가 승려로 출가하여 해탈하기까지의 여정을 담고 있다.\n해당 작품은 인도 불교사와 문학사에서 중요한 위치를 점하고 있지만, 후반의 수행론을 중심으로 저자의 사상에 대한 연구는 상당 부분 이루어진 반면, 문학적 연구는 상대적으로 적은 편이며, 작품의 명성과 연구사에 비해 국내 학계에서는 아직 작품 자체에 대한 독립 연구가 없을 정도로 부족한 상태이다.\n이에 따라 본고는 SN의 문학적 연구 저변을 넓히기 위한 초석으로서, SN의 수사법에 대해 고찰하고자 한다. 문헌의 형성 시기를 고려하여 수사론의 형성기를 담당하는 연극론 문헌 『나티야 샤스트라』(Nāṭya-śāstra)의 이론을 바탕으로 SN의 수사법 적용례를 분석함으로써, 고전기 이전 초기 카비야의 수사법이 지닌 특성에 대해 알아본다.",
+      "abstract_en": "Classical Sanskrit poetics (kāvya) recommends applying and using various rhetorical methods or figures of speech (alaṃkāra) concerning the use of poetic language. As the poets have applied various literary devices according to the theories of kāvya-śāstras, a proper understanding of the application of alaṃkāras helps the reader not only to understand rich hints about suggestive allusions under the surface but also to enhance the aesthetic appreciation of the well-arranged or decorated expressions.\nEven though the alaṃkāras as literary devices have been theoretically established by various scholars for a long time, these are not only left as a theory but are found as practical techniques for versificational usage. Moreover, even before they are systematically organized, still poets in early ages used it skillfully, just as represented in the early kāvya literary works such as the Saundarananda (SN) of Aśvaghoṣa.\nThis paper aims to analyze some examples of alaṃkāras of early age used in the SN based on the classification of alaṃkāras in the Nāṭyaśāstra (NŚ) of Bharata muni. In the second chapter, I introduce the brief plot of SN with the information of the author and the previous researches as well to understand the background of this piece of work. In the third chapter, I outline the classification of the alaṃkāras stated in the NŚ as a tool for analyzing the verses. This process lets us figure out some archaic features of kāvya as the SN shows the early characteristics of alaṃkāra usages. I would like to consider how those alaṃkāras have been applied practically through citations and analysis of the selected verses from the SN.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "62",
+      "start_page": "5",
+      "end_page": "39",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750170",
+      "keywords_kr": [
+        "Kāvya",
+        "Aśvaghoṣa",
+        "Alaṃkāra",
+        "산스크리트문학",
+        "카비야",
+        "아쉬바고샤",
+        "사운다라난다",
+        "알람카라",
+        "수사법"
+      ],
+      "keywords_en": [
+        "Sanskrit Literature",
+        "Saundarananda",
+        "Figure of speech"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "62"
+    },
+    {
+      "article_id": "ART002750194",
+      "id": "ART002750194",
+      "kci_id": "ART002750194",
+      "title_kr": "『법화경』에 설해진 붓다의 보살행에 대한 주석적 연구 검토",
+      "title_en": "A Review of the Exegetical Studies on the Buddha’s Bodhisattva Practice: Described in the Lotus Sutra",
+      "authors": [
+        {
+          "name": "하영수",
+          "affiliation": "금강대학교 불교문화연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "보살행은 최상의 깨달음을 추구하면서 중생을 구제하려는 보살의 실천을 의미하며, 그 결과로 성불을 이루게 된다. 그러므로 보살행과 성불은 인과 관계에 있다. 그런데 범어본 『법화경』 「여래수량품」에서는 붓다 자신이 과거의 보살행을 완성하지 않았다고 설하고 있다. 그리고 동일한 내용이 세친의 주석서 『법화경론』에 제시되어 있다. 반면 『묘법연화경』에는 붓다가 보살행을 통해 얻은 수명이 완료되지 않았다고 번역되어 있다.\n본고의 목적은 ‘붓다의 보살행’이라는 주제에 대하여 다양한 해석의 가능성을 고찰하는 것이다. 먼저 『법화경론』의 해당 구절에 관하여 동아시아의 주석가들 중에서 지의, 길장, 규기, 원효의 해석을 검토한다. 이어서 범어본 『법화경』에 대한 연구자들의 해석을 검토한다. 주석가들과 연구자들의 견해가 반드시 일치하지는 않지만, 그들의 해석에서 공통적으로 지적할 수 있는 것은 『법화경』에서 보살행이 매우 중요한 의미를 갖는다는 것이다.\n『법화경』은 널리 알려져 있으며, 「여래수량품」은 경전에서 매우 중요한 품이다. 반면, 붓다의 보살행이라는 내용은 그다지 강조되지 않고 있다. 그러나 『법화경』에서 붓다 자신이 여전히 보살행을 행하고 있다고 선언하는 것은 붓다가 되기를 지향하는 우리들에게 종교적 실천과 구원에 관하여 매우 핵심적인 메시지를 전하는 것으로 이해할 수 있다. 본고에서는 주석적 연구를 검토하여 그 일면을 확인하였다.",
+      "abstract_en": "The bodhisattva practice (bodhisattvacāryā) refers to a practice carried out by a bodhisattva to seek supreme enlightenment and save sentient beings; the bodhisattva attains buddhahood as a result of this practice. Therefore, we can establish a causal relationship between the bodhisattva practice and buddhahood. The Sanskrit version of the “Lifespan of the Tathāgata” chapter of the Lotus Sutra (saddharmapuṇḍarīkasūtra), however, says that the Buddha himself has not accomplished his ancient bodhisattva practice. The same thesis is also presented in Vasubandhu’s Commentary on the Lotus Sutra (Saddharmapuṇḍarīkopadeśa, Fahua jing lun 法華經論). The Chinese translation of the Lotus Sutra, namely Miaofa lianhua jing 妙法蓮華經, by contrast, states that the lifespan attained by the Buddha through his bodhisattva practice has not been exhausted yet.\nThis paper intends to examine the various hermeneutical possibilities on the topic of the Buddha’s bodhisattva practice. First, interpretations made by the East Asian commentators, such as Zhiyi 智顗, Jizang 吉藏, Kuiji 窺基, and Wonhyo 元曉, on the relevant passages of Vasubandhu’s Commentary on the Lotus Sutra will be examined. Interpretations made by the researchers on the Sanskrit version of the Lotus Sutra will also be analyzed. Although the commentators and researchers are not necessarily in agreement about their views, all of them acknowledge that the bodhisattva practice has a very important meaning in the Lotus Sutra.\nThe Lotus Sutra is widely known, and the “Lifespan of the Tathāgata” chapter is very important in this sutra. The Buddha's bodhisattva practice referred to in this chapter is, however, not given much attention. However, the Lotus Sutra’s declaration that the Buddha himself is still performing the bodhisattva practice can be understood as a passage that touches upon a very essential aspect of our religious practice and salvation. In this paper, I clearly reveal this important aspect by reviewing exegetical studies.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "62",
+      "start_page": "41",
+      "end_page": "67",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750194",
+      "keywords_kr": [
+        "Lotus Sutra (Saddharmapuṇḍarīkasūtra)",
+        "Vasubandhu’s Commentary on the Lotus Sutra (Saddharmapuṇḍarīkopadeśa)",
+        "Buddha’s Bodhisattva Practice",
+        "법화경",
+        "법화경론",
+        "붓다의 보살행",
+        "지의",
+        "길장",
+        "규기",
+        "원효"
+      ],
+      "keywords_en": [
+        "Zhiyi",
+        "Jizang",
+        "Kuiji",
+        "Wonhyo"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "62"
+    },
+    {
+      "article_id": "ART002750214",
+      "id": "ART002750214",
+      "kci_id": "ART002750214",
+      "title_kr": "고전요가의 ‘śabda’(말)에 대한 관점__Yogabhāṣya를 중심으로__",
+      "title_en": "Classical Yoga System’s Perspectives on Words: Focused on the Yogabhāṣya",
+      "authors": [
+        {
+          "name": "손경록",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "일찍이 고대인도 종교·철학 학파들은 언어에 대한 높은 수준의 논의를 전개하였다. 언어에 대한 논의는 비단 문법학파(Vaiyākāraṇa)에만 국한된 것이 아니었다. Yogasūtra에서 시작된 고전요가체계에서도 ‘소리’(śabda)와 ‘의미’(artha)의 본질에 관한 언어학적 사유가 발견된다.\n여기에서 언어는 주로 음성언어인 ‘말’을 일컫는다. 말은 소리와 의미로 이루어져 있으며, 화자(話者)의 인식은 ‘소리’라는 매체를 통해서 청자(聽者)에게 전달된다. 소리로 전달되는 말의 의미는 인식을 담고 있다. 고전요가체계에서 말을 중요시하는 이유도 바로 말과 인식, 특히 말과 삼매(samādhi)의 연관성에 있다. Yogasūtra에 따르면, 삼매는 말로 표현 가능한 대상에 대한 분별로부터 시작된다.\n본고에서는 Yogasūtra와 이에 대한 최초의 주석으로 알려진 Bhāṣya를 중심으로 고전요가 초기의 말에 대한 관점을 살펴보려고 한다. 특히 Bhāṣya의 언어와 관련된 주석은 후대의 주석들과는 조금 다르다는 점에서 의미가 있으며, 아직까지 많이 알려져 있지 않다. 본고에서는 가장 권위 있는 최초의 주석을 중심으로 수트라의 저자인 Patañjali의 언어에 대한 관점에 대해서 파악하려고 한다. 이와 같은 고찰은 고전요가 초기의 언어관에 주안점을 두고 있지만, 다른 학파들과의 언어관 비교연구에도 도움이 될 수 있을 것이다.",
+      "abstract_en": "In the Classical Yoga system, the role of words is considered to be important in relation of cognition as a starting point of meditation (vitarka samādhi), where language and cognition partially begin to coincide.\nWords are made up of sounds and meanings. Considering these two aspects of speech, I made this research based on the two sides of phonetics and semantics.\nThe Sanskrit word śabda means sounds, words as well as verbal testimony. Sounds can be classified as a genus (jāti), as it has universality and the particulars. Words as a kind of sounds, it also has this characteristic of sounds, which makes differences between the sounds and its meaning (cognition) in ordinary speech. But in the case of coincidence of conception between a speaker and the listener(s), it can be a verbal testimony, being recognized as one of valid proofs.\nAnd the Classical Yoga acknowledges three phases of phonetic units called syllable sounds (dhvani), word sounds (nāda) and sentence sounds (śabda). It is the meaning that is conveyed through these media of sounds, sounds are converted into meanings through grammatical analysis.\nIt is one of the characteristics of Yoga system that the sentence meaning (śabdārtha) is relatively emphasized as an indivisible semantic units. However, the underlying matters, such as the motives of the speaker are only mentioned to be superimposed on the Consciousness (Puruṣa). But the terms of ‘the motives’ itself is important in that this conception links the material aspects of sounds and the Consciousness. And this causal relation overcomes the limits of the Dualism.\nIn addition, the Yoga system also acknowledges both the word’s capacity and the variable factor of the long time-accumulated practices as the creative sources of words. According to YBh, the meaning of a sound is primarily established by the inherent powers of sounds itself, and the meaning is revealed [re]established by the actual practices by its users. This eclectic stance is explicitly supported by Mādhava’s expositions in regards of the denotation and connotation of words, and also by Vācaspati Miśra and Vijñāna Bhikṣu’s later commentaries.\nIn brief, the Yoga system’s perspectives of the conventionalism centered on the naturalism on the relationship between sound and meaning can be more easily understood in the context of their own peculiar relative eternalism (śāśvatavāda), which allows for changes.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "62",
+      "start_page": "101",
+      "end_page": "135",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750214",
+      "keywords_kr": [
+        "sound(śabda)",
+        "power(śakti)",
+        "convention(saṃketa)",
+        "소리",
+        "의미",
+        "관계",
+        "소리의 힘",
+        "관행"
+      ],
+      "keywords_en": [
+        "meaning(artha)",
+        "relation(sambandha)"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "62"
+    },
+    {
+      "article_id": "ART002750219",
+      "id": "ART002750219",
+      "kci_id": "ART002750219",
+      "title_kr": "승랑과 원효의 상즉론(相卽論)의 비교연구",
+      "title_en": "A Comparative Study on the Doctrine of Mutual Identification between Seung-rang and Wonhyo",
+      "authors": [
+        {
+          "name": "김영미",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "승랑(僧朗)은 유무(有無)를 속제로 삼고, 비유비무(非有非無)를 진제로 삼고서, 진속이 아닌 것[비진비속(非眞非俗)]을 깨달음의 경지인 불이중도(不二中道)라고 상정한다. 승랑이 주옹(周顒)에게 전해준 ‘유무상즉(有無相卽)’이 ‘가명공(假名空)’ 사상으로 불이중도를 드러낸 것이다.\n불이중도를 확립한 승랑의 사상은 이원적(二元的) 범주론(範疇論), 무득(無得)의 오도론(悟道論), 방편적(方便的) 교화론, 상즉(相卽)의 실상론(實相論)으로 정리된다.\n반면 원효는 『금강삼매경론』에서 진제를 [시각의] 원성실성으로, 속제를 세속법인 변계소집성으로, 진제중도는 [본각의] 원성실성으로, 속제중도는 의타기성으로, 진제중도와 속제중도가 둘이 아닌 경지를 무이중도(無二中道)라고 상정한다. 원효가 『금강삼매경론』에서 해석한 일사구게(一四句偈)의 ‘생즉멸(生卽滅)ㆍ멸즉생(滅卽生)’은 ‘생멸상즉(生滅相卽)’의 경지이다.\n결국 승랑은 제법의 실상(諸法實相)을 해석할 때 가명공(假名空)사상으로 ‘유무상즉론(有無相卽論)’을 설명하고, 원효는 『금강삼매경론』에서 일사구게(一四句偈)를 설할 때 ‘생멸상즉론(生滅相卽論)’으로 설명한다.",
+      "abstract_en": "Seung-rang presumes that neither truth nor convention is the middle way of non-duality, a stage of enlightenment, by regarding existence and non-existence as the conventional truth and neither existence nor non-existence as the absolute truth. Seung-rang delivered the idea to Zhou Yong, that ‘existence and non-existence are mutual identification’ is ‘conventionally designated emptiness which reveals the middle way of non-duality. The ideas of Seung-rang, who established the middle way of non-duality, are summarized as ‘dual categorism, the theory to awaken to the way of nothing to be attained, skillful edifications, the theory of true characteristics of mutual identification.’ On the other hand, Wonhyo suggests in the Exposition of the Vajrasamādhi Sūtra that the absolute truth is pariniṣpanna-svabhāva [of initial enlightenment], the conventional truth is parikalpita-svabhāva, that is, the secular law, the middle way from the standpoint of the absolute truth is pariniṣpanna-svabhāva [of original enlightenment], the middle way from the stand point of conventional truth is paratantra-svabhāva, and the middle way free from dualistic extremes is the stage at which the middle way from the standpoint of conventional truth and the middle way from the standpoint of the absolute truth coexist. A gatha of four lines interpreted by Wonhyo in the Exposition of the Vajrasamādhi Sūtra, is that ‘production is in fact extinction and extinction is in fact production,’ is the stage of production and extinction are mutual identification.\nAfter all, Seung-rang advocates ‘existence and non-existence are mutual identification’ as conventionally designated emptiness and Wonhyo preaches ‘production and extinction are mutual identification’ as the real state of all elements when he clarifies a gatha of four lines in the Exposition of the Vajrasamādhi Sūtra.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "62",
+      "start_page": "137",
+      "end_page": "168",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750219",
+      "keywords_kr": [
+        "승랑",
+        "원효",
+        "생멸상즉(生滅相卽)",
+        "유무상즉(有無相卽)",
+        "불이중도(不二中道)",
+        "무이중도(無二中道)"
+      ],
+      "keywords_en": [
+        "Seung-rang",
+        "Wonhyo",
+        "production and extinction are mutual identification",
+        "existence and non-existence are mutual identification",
+        "the middle way of non-duality",
+        "the middle way free from dualistic extremes"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "62"
+    },
+    {
+      "article_id": "ART002750226",
+      "id": "ART002750226",
+      "kci_id": "ART002750226",
+      "title_kr": "힌두교의 개혁과 박띠즘",
+      "title_en": "Hindu Reform Movement and Bhaktism",
+      "authors": [
+        {
+          "name": "최지연",
+          "affiliation": "한국외국어대학교 인도연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "현재의 힌두교는 19세기 힌두교 개혁 운동 이후의 것이라고 볼 수 있다. 힌두교 개혁 운동이 일어날 당시 인도의 종교는 이슬람 세력의 오랜 지배 이후 다시 기독교 세력의 영향을 받고 있는 상황이었다. 유일신 사상을 갖는 두 종교의 영향력 아래서 힌두교는 문화적 자긍심 및 민족의 정체성 회복을 위해 대중적인 지지를 받는 종교로 거듭날 필요가 있었다.\n본 논문은 이 과정에서 박띠즘이 어떤 역할을 했는지 살펴보았다. 첫째 박띠즘은 기존 힌두교에서 비롯된 구습을 타파하고 빈곤자와 소외 계층을 포섭함으로써 사회 통합의 도구 역할을 하였다. 둘째 배움 없이도 누구나 쉽게 접근할 수 있었기 때문에 교세 확장에 용이했고 이는 힌두교의 세계화 가능성까지도 엿볼 수 있게 했다. 셋째 사상적으로 종교절충주의 혹은 탈종파주의의 배경이 되었기 때문에 종교적 배타성을 극복하고 다종교의 공존을 위한 대안이 될 수 있었다. 넷째 뿌라나 등 신화 문학을 통해 사랑스럽고 매력적인 신의 이미지를 얼마든지 양산할 수 있었고 이는 힌두교의 대중적인 인기에 큰 역할을 하게 되었다.\n즉 힌두교의 종교적 변천에서 보자면 박띠는 비교적 쉬운 신행 방법으로 브라마니즘의 사제주의 흐름에서 탈피하는 전환점을 마련하였고, 또 이슬람, 기독교와 같은 이민족 종교와의 관계에서 신앙적 접합점이 되어 주었다. 그리고 인도가 현대 사회로 발전하는 과정에서 새로운 인도 사회와 전통적인 힌두교 간의 완충제 역할을 하였다.",
+      "abstract_en": "Today's Hinduism is resulted by the Hindu Reformation movement in the 19th century. At the time of the Hindu reformation movement, religion in India was under the influence of Christianity after a long period of domination by Islam. Under the influence of two monotheistic religions, Hinduism needed to be reborn as a religion with popular support in order to restore cultural pride and national identity.\nThis paper examines the four roles of Bhaktism as follows. First, Bhaktism played a role in breaking the old customs derived from the existing Hinduism and embracing the poor and marginalized. Second, it was easy to expand religious influence because anyone could easily access it without learning. Third, in ideology, because of being the background of religious eclecticism or post-sectarianism, it was possible to overcome religious exclusivity. Fourth, it was possible to mass-produce the image of a lovely and attractive god through mythology, such as Purana, which played a big role in its popularity.\nIn other words, in terms of the religious transition of Hinduism, Bhakti provided a turning point to break away from the priesthood of Brahmanism as a relatively easy new method, and also served as a religious junction in relations with other ethnic religions such as Islam and Christianity. And it served as a buffer between the new Indian society and traditional Hinduism in the process of India's development into a modern society.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "62",
+      "start_page": "169",
+      "end_page": "199",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750226",
+      "keywords_kr": [
+        "힌두교",
+        "박띠즘",
+        "신힌두교",
+        "현대 힌두교",
+        "힌두교 개혁"
+      ],
+      "keywords_en": [
+        "Hinduism",
+        "Neo-Hinduism",
+        "Bhaktism",
+        "Hindu Reform Movement",
+        "Hindu Reformism"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "62"
+    },
+    {
+      "article_id": "ART002750207",
+      "id": "ART002750207",
+      "kci_id": "ART002750207",
+      "title_kr": "인도철학에서 텍스트 재사용 사례 분석__ ‘가고 있는 나무’ 모티프를 중심으로 __",
+      "title_en": "A Case of Seeing Moving Trees: An Analysis of Textual Reuse in Indian Philosophy",
+      "authors": [
+        {
+          "name": "조은별",
+          "affiliation": "전남대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 글에서는 특정 텍스트 재사용(textual reuse) 사례의 하나로, ‘배를 타고 가고 있는 사람에게는 마치 강변의 나무가 움직이는 것처럼 보인다’(gacchadvṛkṣadarśana)는 모티프를 불교 인식론의 다르마끼르띠(Dharmakīrti, c. 600-660 C.E.) 전통과 아드바이따 베단따 학파의 샹까라(Śaṅkara, c. 700-750 C.E.)가 각각 상이한 방식으로 사용한 맥락을 구체적으로 분석하고 그 함의를 확인한다. 다르마끼르띠 이후 불교 전통에서는 우리의 감각적 착오에 의해 나타나는 인식이 유효한 인식수단(pramāṇa)으로 인정될 수 없다는 사실을 뒷받침하기 위한 예시로 ‘가고 있는 나무’ 모티프를 중심적으로 활용한다. 반면, 샹까라는 ‘마치 움직이는 것처럼 보이는 나무’에 아뜨만을 빗대면서 ‘가고 있는 나무’ 모티프를 아뜨만의 존재론적 상태에 대해 잘못 파악하는 서사구조에 차용하고 있다. 이러한 분석을 통해 두 전통에서 ‘가고 있는 나무’ 모티프의 원형으로서 인식론적 착오(bhrānti, vibhrama)에 대한 아이디어를 공유하고 있지만, 그 사용 맥락은 전혀 다르다는 것을 확인할 수 있다.\n인도철학에 있어서 텍스트 재사용의 분석은 인용이나 참조 등의 형식을 통해 서로 다른 텍스트를 유기적으로 해석하는 하나의 도구를 제공한다. 이 점에서 텍스트 재사용의 분석은 유사한 텍스트 구절이 서로 다른 전통의 사유 안에서 이질적인 이해방식으로 수용되고 있는 맥락을 실제적으로 확인함으로써 다소 단절되어 보이는 학파들 사이의 사상적 지형을 파악하는 대안적 방법이 될 수 있을 것이다.",
+      "abstract_en": "This paper analyzes the motif that “a person on a boat may misperceive trees as moving” (gacchadvṛkṣadarśana) as an instance of textual reuse. In the Buddhist epistemological tradition, Dharmakīrti (c. 600-660 C.E.) and Dharmottara (c. 750-810 C.E.) use this motif as an example to support their argument that misperception due to sensory error cannot be considered a valid means of cognition (prāmaṇa). Dharmakīrti provides this motif as an example of a cognition that is “free from conceptualization” (kalpanāpoḍham) but “mistaken” (bhrānta). Elaborating Dharmakīrti’s explanation, Dharmottra adds a new interpretation that seeing moving trees is not trustworthy since, in such a cognition, trees appear to stay in many different places. On the other hand, Śaṅkara (c. 700-750 C.E.) of Advaita Vedānta school employs the gacchadvṛkṣadarśana motif as a metaphor of elusive ātman, describing ātman as a seemingly moving tree.\nWhat we can observe from these two cases is that the commonly used themes such as passengers’ seeing moving trees can be shared by intellectuals of different affiliations but serve divergent purposes. While it was a simple example of erroneous cognition for Dharmakīrti, but Śaṅkara metaphorically uses the motif in his illustration of the fundamental ignorance (māyā) about the omnipresent ātman. In both cases, the basic idea of epistemological fallacy (vibhrama) immanent in the motif of seeing moving trees remains but the context in which it is put produces different significances.\nCollecting and analyzing more similar cases of shared ideas or common stock expressions such as this would enable us to rethink how the classical Indian intellectuals formulate their arguments, the theoretical interchanges between seemingly discrete schools, and the common ground on which they debated with each other.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "62",
+      "start_page": "69",
+      "end_page": "100",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750207",
+      "keywords_kr": [
+        "Dharmakīrti",
+        "Śaṅkara",
+        "텍스트 재사용",
+        "상호텍스트성",
+        "다르마끼르띠",
+        "다르못따라",
+        "샹까라",
+        "착오"
+      ],
+      "keywords_en": [
+        "textual reuse",
+        "intertextuality",
+        "Dharmottara",
+        "error"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "62"
+    },
+    {
+      "article_id": "ART002796792",
+      "id": "ART002796792",
+      "kci_id": "ART002796792",
+      "title_kr": "‘따뜨 뜨밤 아시’(tat tvam asi)에 대한 두 가지 해석 방법과 범아일여의 숨은 논리",
+      "title_en": "Two Methods of Interpretation on ‘tat tvam asi’ and the Hidden Logic of the Oneness between Brahman and Ātman",
+      "authors": [
+        {
+          "name": "박효엽",
+          "affiliation": "부산대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "‘따뜨 뜨밤 아시’(tat tvam asi)는 베단따 전통의 범아일여 사상을 집약적으로 담고 있는 위대한 문장으로서 여러 분파와 여러 학자에 의해 다양한 방식으로 해석되었다. 그렇다면 아드바이따의 초기(샹까라와 수레슈바라)와 후기(그 외의 학자들)에서 이 문장에 대한 해석 방법은 어떤 차이를 보이며 그 차이는 이 문장의 핵심인 범아일여 사상을 이해하는 데 어떤 차이를 낳을까? 이 문장에 대한 두 가지 해석 방법 가운데 어느 것이 우빠니샤드의 취지에 더 부합하는 해석일까? 이러한 질문에 대하여 다음과 같은 결론을 도출할 수 있을 것이다. 첫째, 아드바이따 전통에서 ‘tat tvam asi’에 대한 해석 방법은 크게 두 가지이다. 하나는 ‘tvam’의 의미만을 확정하는 초기의 ‘연속과 불연속을 통한 함축’이고, 다른 하나는 ‘tat’와 ‘tvam’ 모두의 의미를 확정하는 후기의 ‘부분 함축’이다. 둘째, 두 가지 해석 방법에서 ‘tat’와 ‘tvam’의 명시적 의미와 함축적 의미를 검토할 경우, 초기의 방법에서는 ‘유일성의 논리’를 따르는 범아일여가 암시되고 후기의 방법에서는 ‘동일성의 논리’를 따르는 범아일여가 암시된다는 것을 확인할 수 있다. 셋째, 두 가지 해석 방법 가운데 후기의 것보다 초기의 것이 ‘해석의 경제성’과 ‘맥락의 충실성’ 차원에서 우빠니샤드의 취지에 더 부합한다.",
+      "abstract_en": "‘tat tvam asi’ (That thou art) is one of the ‘great sentence’ (mahāvākya) that intensively embodies the idea of oneness between Brahman and Ātman in the Vedānta tradition, which has been interpreted in various ways by sub-schools and scholars. Then, what difference does the interpretation on this sentence make in early (Śaṅkara and Sureśvara) and late (other scholars) Advaita, and what difference does that difference make in understanding the thought of oneness between Brahman and Ātman, which is at the heart of this sentence? Which of the two methods of interpretation on this sentence is more consistent with the purport of Upaniṣad? The following conclusions may be drawn on these questions. First, there are two ways of interpreting the sentence ‘tat tvam asi’ in the Advaita tradition, one with ‘implication’ (lakṣaṇā) through ‘continuity and discontinuity’ (anvaya-vyatireka) of early Advaita, and the other with ‘partial implication’ (bhaga-lakṣaṇā) of late Advaita. Second, implication is applied in both early and late Advaita, but early Advaita is to confirm only the meaning of ‘tvam’ through the argument of ‘continuity and discontinuity’, and late Advaita is to confirm the meanings of both ‘tat’ and ‘tvam’ for discarding the contradictory partial meaning and accepting the non-contradictory partial meaning between two words. Third, in order for the implication to be possible, whether early or late Advaita, ‘tat’ must have Nirguṇa Brahman in its own meaning, whether explicit or implied. In early Advaita ‘tat’ has an explicit meaning of Nirguṇa Brahman, and in late Advaita ‘tat’ has an explicit meanings of Saguṇa and Nirguṇa Brahman, while it has an implicit meaning of Nirguṇa Brahman. Fourth, in early Advaita, as the interpretation aims at sameness between the explicit meaning of ‘tat’ that is confirmed and the implied meaning of ‘tvam’ that is not confirmed, what is suggested is oneness between Brahman and Ātman following ‘the logic of oneness’. And in late Advaita, as the the interpretation aims at sameness between the implied meaning of ‘tat’ that is not confirmed and the implied meaning of ‘tvam’ that is not confirmed, what is suggested is oneness between Brahman and Ātman following ‘the logic of identity’. Fifth, of the two methods of interpretation, the early one is more compatible than the late one with the purport of Upaniṣad in terms of ‘hermeneutic economy’ and ‘contextual fidelity’.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "63",
+      "start_page": "5",
+      "end_page": "47",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796792",
+      "keywords_kr": [
+        "따뜨 뜨밤 아시",
+        "해석 방법",
+        "함축",
+        "범아일여",
+        "유일성의 논리",
+        "동일성의 논리"
+      ],
+      "keywords_en": [
+        "tat tvam asi",
+        "method of interpretation",
+        "implication",
+        "oneness between brahman and atman",
+        "the logic of oneness",
+        "the logic of identity"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "63"
+    },
+    {
+      "article_id": "ART002796793",
+      "id": "ART002796793",
+      "kci_id": "ART002796793",
+      "title_kr": "무량수경 제22원의 번역 문제__범본 및 한역의 대조를 중심으로__",
+      "title_en": "Some Problems on the Translation of the 22nd Vow in the Longer Sukhāvatīvyūha Sutra:  Focused on the Comparison between Sanskrit Version and Chinese Version",
+      "authors": [
+        {
+          "name": "김호성",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 글은 강승개 역 『무량수경』의 제22원에 대한 6종의 우리말 번역들이 범하고 있는 오역의 원인을 밝히고 올바르게 수정함을 목적으로 삼는다.\n이를 위해서 3종의 일본어 역본과 1종의 영어 번역도 참조하였으나, 결정적인 판단근거는 『무량수경』과 함께 ‘후기 『무량수경』’으로 불리고 있는 『여래회』와 범본을 대조･검토함으로써 얻을 수 있었다.\n첫째, ‘除其本願’이라는 말에 등장하는 ‘除’라는 말은 ‘德’까지 적용되는 것임을 논증한다.\n둘째, 『무량수경』의 제22원을 범본과 대조해 볼 때, ‘自在所化, 爲衆生故’라는 말이 보충되어 있음을 알 수 있었다. 특히 ‘自在所化’가 담당하는 역할이 이후 각론적으로 설명되는 일곱 가지 보살행을 총괄적으로 표현함으로써 ‘본원’이라는 주어에 대한 술어 역할을 하고 있음을 밝힌다.\n셋째, ‘使立無上正眞之道’에서 ‘無上正眞之道’는 ‘立’의 목적어가 아니라, ‘使’ 뒤에 생략된 주어 ‘恒沙無量衆生’이 머무는 장소가 된다. 즉 처소격 조사 ‘-에’를 붙여야 함을 알 수 있었다.\n마지막으로 종래 ‘超出常倫諸地之行, 現前修習普賢之德’이라 읽어온 것은 잘못이며, ‘超出常倫하여 諸地之行이 現前하며 修習普賢之德함을’로 읽어야 함을 밝혔다. ‘超出常倫’ 자체가 부사이고, ‘諸地之行’은 ‘現前’의 주어이기 때문이다.\n이러한 과정을 통하여 제22원 자체에 대한 보다 깊은 이해를 얻을 수 있었다.",
+      "abstract_en": "The Amitabha’s 22nd Vow in the Longer Sukhāvatīvyūha Sutra is very difficult to translate, because it is the longest vow of the Forty-eight Vows. The article of exception interpolated and divided the 22nd vow into two parts. I think that point made many Korean translators mistake in their transalations.\nI aim to investigate the causes of mistranslation in the 6 Korean translation by Ven. Beopjung(法頂), Ven. Chunghwa(淸華), Ven. Bokwang(普光), Myungsook Han(韓明淑), Ho Sung Kim(金浩星), and Ven. Taewon(太元), and after that I propose its right translation too. This process will make us the more deep understanding on the 22nd vow.\nFor these aim, I looked into 3 Japanese translations and 1 English translation. But the method of the comparison between Sanskrit and the Chapter of the Amitāyus in the Ratnakūṭa was the crucial for my research.\nAs result, I found out 4 points as below.\nFirstly, the word of ‘except’ in ‘except for those who, in accordance with their own special vows’ affects until the word of ‘virtue of Samantabhadra’. The translations in which ‘except’ affects until the word of ‘the unexcelled, right, true way’ were mistranslation.\nSecondly, I found out that there have been supplemented the prase of ‘freely to guide others to enlightenment, don the armor of universal vows for the sake of sentient beings’, even though it have not been in the Sanskrit Version. The former translations on this phrase are all different. I think that the phrase ‘freely to guide others to enlightenment’ contains 7 actions and takes a role as the predicative use for the subject of ‘their own special vow’.\nThirdly, there have been cases in which many translators considered ‘the unexcelled, right, true way’ of ‘bring them to abide firmly in the unexcelled, right, true way’ as accusative. But comparing the praise with Sanskrit version and the Chapter of the Amitāyus, I found out that there were an omission of subject of the verb ‘abide’ after the word of ‘bring’. The omitted subject is spoken as ‘sentient beings countless as the sands of the Ganges’ in the proceeding phrase. So the phrase of ‘the unexcelled, right, true way’ should have ‘in’ as a locative case.\nLastly, comparing with Sanskrit version and the Chapter of the Amitāyus, I found out that the word have to been translated ‘surpassly’ as adverb, ‘the practices of all the bodhisattva stages’ as subject, and ‘come true’ as verb.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "63",
+      "start_page": "91",
+      "end_page": "124",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796793",
+      "keywords_kr": [
+        "무량수경",
+        "무량수여래회",
+        "범본",
+        "사십팔원",
+        "제22원",
+        "Longer Sukhāvatīvyūha Sutra",
+        "Chapter of the Amitāyus in the Ratnakūṭa"
+      ],
+      "keywords_en": [
+        "Sanskrit Version",
+        "Forty-eight Vows",
+        "22nd Vow"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "63"
+    },
+    {
+      "article_id": "ART002796794",
+      "id": "ART002796794",
+      "kci_id": "ART002796794",
+      "title_kr": "당대(唐代) 돈황 막고굴(敦煌 莫高窟) 관경변상도(觀經變相圖)에 대한 고찰",
+      "title_en": "Study on Tang Dynasty‘s Gwangyeongbyeonsangdo (觀經變相圖) of Dunhuang Mogao Caves",
+      "authors": [
+        {
+          "name": "김선희",
+          "affiliation": "동국대학교 전자불전문화콘텐츠연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "돈황 막고굴(莫高窟) <관경변상도(觀經變相圖)>는 당대(唐代)에 성행하여 오대(五代), 송대(宋代)에 이르기까지 그려졌다. 특히 당대에는 『관무량수경(觀無量壽經)』, 『아미타경(阿彌陀經)』 등의 정토경전(淨土經典) 유형이 많이 그려졌다. 『관경(觀經)』에 관한 경변(經變)은 주로 굴(窟)의 남벽에 그려졌는데 구도의 배치는 굴에 따라 다소 차이가 있다. 서방정토(西方淨土)의 정경을 묘사한 ‘정토변(淨土變) 형식’, 외연부를 생략하고 정토 장면만 묘사한 ‘간략화된 형식’ 등이 있다.\n이를 『관무량수경』 경문과 함께 분석 검토한 결과, 커다란 구품연지(蓮池)는 언제나 하단 중앙에 자리하고 있으며, ‘아미타극락회’와 ‘관경의 16관’ 등의 장소를 재확인할 수 있었다. 각 品(상황)을 독립적으로 나누어 표현하고 있으나 상호 조화와 균형을 이루면서 정체감(正體感, identity)을 주고 있다. 그 표현의 면면을 살펴보면 부처나 보살은 풍만(豐潤)하고, 원만 (渾圓)하며 서역의 음영법이 늦게까지 나타나고 있다. 필선(線條)은 활발하면서도 유연하고 색채는 화려(富麗)한 서역 요소와 함께 중국 전통의 운염법이 가미되어 있다. 이러한 경향은 초·성당기 제217굴이나 제220굴, 제320굴 등의 벽화에서 그 절정을 이루고 중당대인 토번 점령에 들어서면서 점차 쇠퇴하고 만당기에는 제156굴·제16굴·제17굴·제196굴 등에 서 볼 수 있듯이 거칠고 형식화된 그림으로 흘렀다.",
+      "abstract_en": "<The Paintings of the Paradise of Amitabha> in Mogao Caves in Dunhuang (莫高窟) were prevalent in the Tang Dynasty (唐代) and were drawn until the　Song Dynasty (宋代) during five successive reigns (五代). Especially in the Tang Dynasty (唐), many types of pure land scriptures (淨土經典) including 『The Amitayurdhyana Sutra (觀無量壽經)』 and 『The Amitabha Buddha Sutra (阿彌陀經)』 were drawn. Illustrations (經變) about 『the Paradise of Amitabha (觀經)』 were usually drawn on the southern wall of the caves and the arrangements were somewhat different from caves. There were ‘the pure land painting (淨土變) style’ to draw situations of Western pure land (西方淨土), and 'the simplified style' to describe only pure land scenes without any external parts.\nThe result which analyzed and examined <The Paintings of the Paradise of Amitabha> with the Buddhist scriptures of 『The Amitayurdhyana Sutra』 could be found that the nine grades of large ponds (蓮池) are always located in the center at the bottom and places of the Pure Land of Utmost Bliss of Amitabha Buddha’ and ‘16 paintings of the paradise’ were reconfirmed. Each situation (品) is independently divided and expressed, but they have identity harmonizing with one another and achieving a balance. These murals have the parts which cannot be decoded because of their serious wear and tear, but they can be found to try to be eloquent of situations of the Pure Land of the Utmost Bliss (極樂世界) of Amitabha Buddha (阿彌陀淨土) described in the scriptures with paintings.\nExamining various sides of the expressions, Buddha or bodhisattva have chubby and shiny (豐潤) faces and curved (渾圓) bodies and Western shading remained on them. The lines (線條) are active and flexible and the colors include Chinese traditional dyeing method with externally splendid (富麗) Western elements. This tendency reached a climax in the murals of the 217th, 220th, 320th caves in the early Tang Dynasty, gradually declined as Tibetan people occupied in the mid Tang Dynasty, and turned into the tough and formalized paintings as shown in the paintings in the 156th, 16th, 17th, and 196th caves in the late Tang Dynasty.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "63",
+      "start_page": "125",
+      "end_page": "168",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796794",
+      "keywords_kr": [
+        "돈황 막고굴",
+        "서방정토",
+        "관무량수경",
+        "관경변상도",
+        "아미타경변상도"
+      ],
+      "keywords_en": [
+        "Mogao Caves in Dunhuang",
+        "Western Paradise",
+        "Contemplation Sutra",
+        "The Paintings of the Paradise of Amitabha",
+        "The Paintings of the Paradise of the Amitabha Buddha Sutra"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "63"
+    },
+    {
+      "article_id": "ART002796795",
+      "id": "ART002796795",
+      "kci_id": "ART002796795",
+      "title_kr": "현대 요가의 발전과 Sūryanamaskāra",
+      "title_en": "The Development of Modern Yoga and Sūryanamaskāra",
+      "authors": [
+        {
+          "name": "최윤제",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "현대 요가에서 기본 동작으로 활용되고 있는 Sūryanamaskāra, 즉 태양 경배 자세는 고전 요가와 큰 연관성 없이 개량된 것이다. 현재와 같은 형태의 연결 동작이 만들어진 것은 불과 100여년 전이며, 이마저도 요가 아사나가 아닌 보디빌더와 레슬링 선수를 위한 체력 단련 운동으로 시작된 것이다. 그러나 수많은 현대 요가 지도자와 수련자들은 Sūryanamaskāra를 마치 고전 요가 전통을 계승한 수행법인 듯 여기며, 요가 수련의 기본 동작으로 강조하고 있다.\n본론에서는 Sūryanamaskāra가 어떻게 현대 요가에서 ‘전통의’ ‘영적인’ 수련법으로 자리 잡게 되었는지 살펴본다. 요가 지도자 또는 학생들이 Sūryanamaskāra의 기원으로 언급하고 있는 문헌과 신화 등에 태양을 경배하는 요가 자세에 관한 설명이 있는지 또는 경배의 대상으로서 태양이 등장하는지 확인한다. 또한 인도에서 하타 요가가 부활하게 된 시대적 배경과 ‘Sūryanamaskāra’라는 이름의 운동법이 현대 요가의 일부로 흡수되는 과정, 그리고 현대 요가 문화 전반에 영향을 미친 인도에 대한 막연한 신비화에 관해 고찰한다.\n이러한 고찰은 Sūryanamaskāra 동작에 한정되는 것이 아닌, 현대 요가 문화 전반에 퍼져있는 정체성 혼란의 문제에 대해 수련자 스스로 숙고하도록 도울 수 있을 것이다.",
+      "abstract_en": "Most modern yoga has been developed without connection with classical yoga, but the elements that contributed to the trainee's misunderstanding that he or she follows the classical practice can be found in various parts. The most representative example is the ‘Sūryanamaskāra’ sequence. This movement of worshiping the sun is applied as a basic movement in almost all modern yoga styles.\nDoes ‘Sūryanamaskāra’, which is established as if it were the basis of yoga training, really have its roots in classical yoga? To begin with, the answer is no. The sun worship posture, which is used as a basic movement in modern yoga, has been improved without much correlation with classical yoga. Today's connecting movements have only been made for about 100 years, and even this originated from fitness exercise for bodybuilders and wrestlers. So, what was the procedure in which these movements were accepted as orthodox to yoga trainees around the world? In this study, We will take a look at how Sūryanamaskāra has become a 'traditional' or 'spiritual' training method in modern yoga. This study also checks whether there is an explanation of the yoga posture of worshiping the sun, or whether the sun appears as an object of worship in the literature and myths mentioned by yoga leaders or students as the origin of Sūryanamaskāra. It also examines the historical background of Hatha yoga's revival in India, the process of the \"Sūryanamaskāra\" sequence permeating as part of modern yoga, and the widespread mystification of India's overall impact on modern yoga culture.\nSince modern yoga itself admits that there exists a refinement of training methods, it can’t be questioned that the origin or method of Sūryanamaskāra is not related to classics. However, the situation of teaching classical yoga in totally different ways as if it is a mysterious practice related to classical philosophy, or recklessly believing in such teachings, should undergo improvements. This contemplation is not limited to the Sūryanamaskāra sequence, but it is also expected that the trainee himself will be able to help contemplate the problem of widespread identity confusion in modern yoga culture.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "63",
+      "start_page": "169",
+      "end_page": "204",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796795",
+      "keywords_kr": [
+        "요가",
+        "현대 요가",
+        "하타 요가",
+        "태양 경배 자세",
+        "빈야사 요가",
+        "sūryanamaskāra"
+      ],
+      "keywords_en": [
+        "yoga",
+        "modern yoga",
+        "hatha yoga",
+        "sun salutation",
+        "vinyasa yoga"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "63"
+    },
+    {
+      "article_id": "ART002796796",
+      "id": "ART002796796",
+      "kci_id": "ART002796796",
+      "title_kr": "소셜미디어에서 나타나는 사이버 힌두뜨바 활동 양상과 그 영향",
+      "title_en": "The Patterns of Cyber Hindutva Activities on Social Media and Its Repercussions",
+      "authors": [
+        {
+          "name": "상연진",
+          "affiliation": "한국외국어대학교 인도연구소",
+          "order": "1"
+        },
+        {
+          "name": "김민영",
+          "affiliation": "인도 자와할랄 네루대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "가짜 뉴스 전파, 정보의 왜곡과 조작, 온라인 학대 문제를 심화시키는 소셜미디어의 부작용은 정치 선동과 관련하여 나타나는 경우가 많으며 인도는 특히 힌두 우익 지지자들이 주도하는 모습을 보인다. 90년대 인터넷의 발달 이후부터 나타난 사이버 힌두뜨바(cyber Hindutva)의 활동은 힌두 우익 조직을 기반으로 하는 조직적이고 체계적인 네트워크를 통해 발전했다. 2000년대 이후 소셜미디어가 발달하면서 온라인에서의 자발적 개인들의 참여가 함께 더해져 힌두뜨바 프로파간다(propaganda)를 전파하는 양상이 새롭게 나타난다. 이들의 메시지는 힌두 집단의 우수성 강조와 비힌두 집단 소외화 등 힌두 문화민족주의와 궤를 같이 한다. 그러나 소셜미디어의 즉시성과 확산성, 그리고 집단성을 염두에 둔다면 이전보다 더 강한 파급력과 부정적 영향을 가져올 것으로 예상할 수 있다.\n본 논문은 사이버 힌두뜨바의 활동과 전략이 인도 사회에 유효한 영향력을 끼치는가에 대한 질문을 바탕으로 현재 인도 소셜미디어에서 나타나는 사이버 힌두뜨바 활동 양상의 특징과 그 영향을 알아보고자 한다. 온라인 학대와 신어 형성, 그리고 이미지 조작을 통해 역사를 왜곡하고 반대 집단에 대한 혐오를 확산시키는 이들은 양극화 심화로 인한 사회 분열과 힌두 우익 정당에 대한 지지율 증가, 힌두와 인도를 동일시하는 대중을 양산할 것으로 보인다.",
+      "abstract_en": "Social media encourages voluntary participation of the mass while also accompanying side effects such as exacerbating online abuse, distorting and fabricating information, and creating fake news based on anonymity. These negative effects are frequently associated with political propaganda, particularly in India, which is led by Hindu right-wingers.\nThe activities of Cyber Hindutva have developed through an organised and systematic network centred on Hindu right-wing organisations since the introduction of the Internet in the 1990s. Since the rise of social media in the 2000s, individuals' voluntary online activity has been combined to promote Hindutva propaganda. Their statements echo Hindu cultural nationalism, highlighting the Hindu group's superiority, and alienating non-Hindu groups. However, given the nature of immediacy, diffusion, and collectivity of social media, it is likely to have a greater ripple effect and negative influence than previously.\nThis research attempts to investigate the characteristics and impacts of cyber Hindutva activities currently occurring on Indian social media in light of this awareness of the problem. The group that distorts history and spreads hatred towards opposing groups through online abuse, generating neologism, manipulating images and spreading hatred towards opposing groups is having an impact on Indian society, such as polarising society, increasing public support for Hindu right wings and producing mass equating Hindus with India.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "63",
+      "start_page": "205",
+      "end_page": "242",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796796",
+      "keywords_kr": [
+        "소셜미디어",
+        "힌두뜨바",
+        "사이버 힌두뜨바",
+        "인터넷힌두",
+        "문화민족주의",
+        "힌두 민족주의"
+      ],
+      "keywords_en": [
+        "Social Media",
+        "Hindutva",
+        "Hindu Nationalism",
+        "Internet Hindu",
+        "Cyber Hindutva",
+        "Cultural Nationalism"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "63"
+    },
+    {
+      "article_id": "ART002796797",
+      "id": "ART002796797",
+      "kci_id": "ART002796797",
+      "title_kr": "인식의 모호함이 향하는 문학적 귀결__영화 <버닝>에 대한 단상들__",
+      "title_en": "From the Ambiguity of Perception to Literary Conclusion: Thoughts on the movie “Burning”",
+      "authors": [
+        {
+          "name": "류현정",
+          "affiliation": "서울대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "예술의 장르를 불문하고 창작자는 작품 속에서 주제를 나타내기 위해 여러 가지 기술적 장치들을 활용한다. 마찬가지로 고전 산스크리트 시학에서는 시인의 의도를 전달하고 시적 아름다움을 표현하는 기술적 장치로서 다양한 알람카라(alaṃkāra, 修辭法)를 거론한다. 이와 관련하여, 본고에서는 일부 알람카라의 기법들이 시간적·장르적 간극을 넘어서 현대 대중문화 속에서는 어떠한 방식으로 해석될 수 있을지를 영화 <버닝>을 통해 가늠해 보고자 한다. 이창동 감독의 2018년 영화 <버닝>은 무라카미 하루키의 단편소설 <헛간을 태우다>(Barn Burning, 1983)를 원작으로 한 작품이다. 본고에서는 작품을 읽는 하나의 방법으로서, 작중 직·간접적으로 드러나는 인식과 존재의 담론과 관련하여 인도철학 또는 불교학적 관점에서 어떻게 이해할 수 있을지에 대해 몇 가지 단상을 통해 간략히 언급해 본다. 이를 통해 작품에서 거론된 은유와 서술이 닿아 있는 내용들을 살펴본 후, 이러한 요소들이 향하는 귀결이 어떠한 의미를 지니는지에 고전 산스크리트 문학의 수사법, 특히 우트프레크샤(utprekṣā)를 바탕으로 분석을 시도한다.\n영화는 주관적이고 불확실성으로 가득한 대상의 인식이 작가의 창조물 속에서 확실성을 가진 하나의 세계로서 재인식되는 과정으로서, 인식의 모호함이 문학적인 귀결로 마무리되는 것을 보여 준다. 결국 영화 <버닝>이 보여주는 열린 서사와 더불어 심리적 촉발을 통해 지속적으로 드러내는 불확실성과 모호함, 경계성은 결국 불가해한 실상과 현실의 부조리/아이러니를 더욱 선명하게 드러내 주는 예술의 논리이자 인식의 발로인 것이다.",
+      "abstract_en": "Regardless of the genres of art, creators use various technical devices to express themes in their works. In classical Sanskrit poetry, likewise, various alaṃkāras are mentioned as technical devices that convey the poets’ intentions and express poetic beauty.\nIn this paper, I try to estimate how some alaṃkāra techniques can be interpreted in modern popular art beyond the temporal and genre gaps through the film <Burning>. The <Burning>, directed by Lee Chang-dong, is based on the Barn Burning (1983) by Haruki Murakami.\nAs one of the methods of reading the film, I will briefly mention how to understand it from the perspective of Indian philosophy or Buddhism concerning the discourse of perception and existence directly or indirectly revealed in the film. Through this, I examine the metaphors and narratives discussed in the film and try to analyze the meaning of the consequences of these elements, based on one of the rhetoric devices of classical Sanskrit literature, especially utprekṣā mentioned in the Kāvyālaṃkāra by Bhāmaha. In this sense, 'burning a vinyl greenhouse' in the film can be interpreted metaphorically as 'killing a woman' by the feature of ascription of utprekṣā even if there is no common attribute between the two, that is upamāna and upameya.\nThe film demonstrates a process in which the perception of an object, which is subjective and full of uncertainty, is re-recognized as a world with certainty in the artist (of hero of the movie)'s creation.\nAt last, it shows that the ambiguity of perception ends in literary consequences. In the end, the uncertainty, ambiguity, and borderline that constantly are revealed through psychological triggers and the open narrative of the movie <Burning> are the logic and awareness of art that more clearly reveals the incomprehensible reality and the absurdity/irony of reality.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "63",
+      "start_page": "243",
+      "end_page": "261",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796797",
+      "keywords_kr": [
+        "영화<버닝>",
+        "인식의 모호함",
+        "인도문학",
+        "알람카라",
+        "우트프레크샤",
+        "alaṃkāra",
+        "utprekṣā"
+      ],
+      "keywords_en": [
+        "<Burning>",
+        "ambiguity of perception",
+        "Indian literature"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "63"
+    },
+    {
+      "article_id": "ART002796807",
+      "id": "ART002796807",
+      "kci_id": "ART002796807",
+      "title_kr": "Rāhu와 Ketu에 대한 불교와 중국의 인식",
+      "title_en": "The Recognition on Rāhu and Ketu of Buddhism and China",
+      "authors": [
+        {
+          "name": "류범선",
+          "affiliation": "동국대학교",
+          "order": "1"
+        },
+        {
+          "name": "정승석",
+          "affiliation": "동국대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "『마등가경』, 『사두간경』, Śārdūla-karṇāvadāna, 『수요경』 등을 비롯한 많은 불전들에서 Rāhu와 Ketu는 각각 일월식과 혜성을 지칭하는 것으로 고착되어 있으며, 이 둘은 재앙의 징조로 각인되어 있다.\n그러나 불교에서 Rāhu 및 Ketu와 같은 재앙의 징조로 발생할 수 있는 피해를 인간의 노력으로 극복할 수 있다고 역설한 것은 베다에서 유래한 전통적 관습보다 한층 더 진일보한 관념의 소산이다. 제사로써 재앙을 극복할 수 있다는 것이 베다의 관습인 반면, 불교에서는 자구적인 노력으로 재앙을 극복할 수 있다는 인식을 Rāhu와 Ketu에도 적용한다. 이는 인도의 전통적 천문학 지식을 불교의 주체적 노선에 원용했음을 시사한다.\n한편 Rāhu와 Ketu에 대한 중국의 인식은 인도의 천문학을 주체적으로 수용한 불교 천문학의 주류적 인식을 수용하여 원용한 것으로 보인다. 이 점은 16세기에 작성된 『『성학대성』을 통해 입증된다. Rāhu와 Ketu에 관한 『『성학대성』의 설명은 『『범천화라구요』와 『『칠요양재결』을 수용하면서도 보수적 성향을 유지하는 불교 천문학의 주류를 그대로 반영한다. 그런데 이 주류를 형성하고 대변하는 불전들은 밀교 이전의 『『마등가경』, 『『사두간경』, Śārdūla-karṇāvadāna 등이다. 그러므로 Rāhu와 Ketu에 대한 중국의 인식에는 근동에서 유래한 천문학 지식이 일부 수용되었을지라도, 보수적 성향의 ‘불교 천문학/점성술’이 그 인식의 주류를 형성하였을 것이다.",
+      "abstract_en": "Rāhu and Ketu are referred to as eclipses and comet respectively in many Buddhist texts such as Mātaṅga-sūtra, Śārdūla-karṇāvadāna, Shetoujian taizi ershiba xiu jing(舍頭諫太子二十八宿經: Chinese version of Śārdūla-karṇāvadāna), Xiuyao jing(宿曜經: Sūtra of Nakṣatras and Planets) and so on. The meaning of Rāhu and Ketu is fixed as such in those tetxts, and both of them are stamped as signs of disaster.\nHowever Buddhism emphasizes that people can overcome the damage to be generated as a result of those signs by their own efforts. It is the outcome of more progressive idea than the traditional custom derived from Veda.\nBuddhism applies a recognition that disasters are able to be overcame by self-helping efforts to Rāhu and Ketu, whereas the custom of Veda is the carrying out sacrifices in the belief that disasters are able to be overcame through the sacrifices. It suggests that Buddhism applied the traditional astronomical knowledge of India to the Buddhist independent route usefully.\nMeanwhile, the Chinese recognition of Rāhu and Ketu seems to receive the mainstream of Buddhist astronomy/astrology, which received Indian astronomy with subjectivity, and apply it usefully. It is demonstrated through Xingxue dacheng(星學大成: Great Compendium of Stellar Studies) written in sixteenth century.\nThe description of Xingxue dacheng about Rāhu and Ketu reflects the conservative mainstream of Buddhist astronomy intactly, while receiving Brahmadeva-horā-navagraha(梵天火羅九曜) and Qiyao rangzai jue(七曜攘災決: Mature Buddhist Astrology). By the way Buddhist texts, which form and represent that mainstream, are Mātaṅga-sūtra, Shetoujian taizi ershiba xiu jing, Śārdūla-karṇāvadāna and so on. These texts are common in sense that they were composed in India or translated into Chinese before Esoteric Buddhism.\nTherefore the conservative mainstream of Buddhist astronomy/astrology would had formed the mainstream in Chinese recognition on Rāhu and Ketu, even though a part of astronomy derived from the Near East had been received in China.",
+      "journal_name": "인도철학",
+      "year": "2021",
+      "volume": "",
+      "issue": "63",
+      "start_page": "49",
+      "end_page": "89",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796807",
+      "keywords_kr": [
+        "라후",
+        "베다",
+        "일식. 월식",
+        "점성술",
+        "천문학",
+        "케투",
+        "혜성",
+        "Ṛgveda"
+      ],
+      "keywords_en": [
+        "Atharvaveda",
+        "Buddhist astrology",
+        "Chinese astronomy",
+        "comet",
+        "eclipse"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2021",
+      "kci_volume": "",
+      "kci_issue": "63"
+    },
+    {
+      "article_id": "ART001424084",
+      "id": "ART001424084",
+      "kci_id": "ART001424084",
+      "title_kr": "根本說一切有部毘奈耶의 내러티브 고찰⑴_붓다가 말먹이용 보리를 먹은 사연을 중심으로",
+      "title_en": "A Study on the Narrative of the Buddha's Eating of Horse Fodder Barley in the Mūlasarvāstivādin Vinaya ⑴",
+      "authors": [
+        {
+          "name": "박청환",
+          "affiliation": "중앙승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "굽타왕조시대(300-550 CE)는 산스끄리뜨 문학의 황금기였다. 대부분의 불교부파들이 당시의 조류에 효과적으로 대응하지 못한 반면에 설일체유부는 그들의 논서에서 보여지듯이 정확성을 바탕으로 하여 경전의 언어와 용어 체계를 통일시키면서 그들의 삼장(三藏,Tripiṭaka)을 산스끄리뜨로 번역했다. 근본설일체유부는 가능한 한 최소한의 수정을 하는 단순한 번역에서 훨씬 더 나아가서 그들의 삼장을 유려하게 다듬어 다시 쓰는 작업을 하였는데 아마도 교리에는 손대지 않더라도 문학적으로는 당시의 조류를 반영하여 그들의 삼장을 보다 대중적으로 만들려는 생각을 하였던 것 같다. 근본설일체유부비나야는 이러한 시도의 산물이다.\n근본설일체유부비나야는 다른 율장들에 비해 내러티브가 상당히 발전된 모습을 보이고 있다. 다른 율장들이 메시지 전달에만 치중해서 아주 단순하게 이야기를 전개하고 있는 반면에 근본설일체유부비나야에 소개된 많은 이야기들은 내러티브의 구조가 상당히 복잡해지고 다양한 복선이나 장치를 설정해 놓음으로써 문학적인 완성도를 높이고 있다. 이런 복선이나 장치들은 단순한 문학적 용도에 그치는 것이 아니라 당시의 종교 환경이나 시대상황을 파악할 수 있는 다양한 정보를 제공하고 있다.\n본고는 붓다가 말먹이용 보리를 먹은 에피소드를 중심으로 근본설일체유부비나야약사 속의 이 이야기가 다른 율장이나 경장속의 이야기들보다 얼마나 내러티브 기능이 우월한가를 보이고자 한다.",
+      "abstract_en": "The Gupta period(300-500 CE) is the golden age of Sanskrit literature. While most Buddhist schools did not respond effectively to this trend, the Sarvāstivādins translated their version of the Tripiṭaka into Sanskrit, standardizing the language and terminology of their system in the interests of precision in exegesis. The Mūlasarvāstivādins went much further than simple translation with (possibly) a minimum of revision, and produced an elaborate rewriting of their Tripiṭaka, probably with the idea of assimilating it to current trends in literature (without, however, changing the doctrine) and so making it more popular. The Mūlasarvāstivādin Vinaya is the result of this effort.\nIn comparison with other Vinayas, Mūlasarvāstivādin Vinaya shows impressively the upgraded feature in terms of narrative. While the stories of other Vinayas pay attention only at their messages, those of the Mūlasarvāstivādin Vinaya show the developed narrative with various devices and plots which label the Mūlasarvāstivādin Vinaya as the elaborate literary work. These devices and plots provide not only literary interest but also various informations on religious environment at that period.\nThis is the episode about the Buddha’s human shortcomings in a previous life which have produced bad karma. This avadāna is devoted to the story of how as a result of his bad karma the Buddha had to eat horse fodder barley. Among the Buddha’s so-called ten bad karma stories, which are often presented as a set, the Mūlasarvāstivādin Vinaya provides a separate version of this story in the Bhaiṣajyavastu section. Besides the main theme of the Buddha’s bad karma, I show how this text presents the following topics as its literary devices: the seven treasures of a cakravartin, equal opportunity without sexual discrimination for attaining Buddhahood, offerings (dāna), aspiration (praṇidhāna), prediction (vyākaraṇa) and Śāriputra and Maudgalyāyana’s exemption from bad karma.\nThis paper aims to show the literary development and competitiveness of the narratives of the Mūlasarvāstivādin Vinaya through the study of this episode.",
+      "journal_name": "인도철학",
+      "year": "2010",
+      "volume": "",
+      "issue": "28",
+      "start_page": "199",
+      "end_page": "227",
+      "doi": "10.32761/kjip.2010..28.008",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001424084",
+      "keywords_kr": [
+        "근본설일체유부비나야",
+        "전생업",
+        "보리",
+        "내러티브"
+      ],
+      "keywords_en": [
+        "mUlasarvAstivAdin vinaya",
+        "karma",
+        "barley",
+        "narrative"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "인도철학회",
+      "kci_year": "2010",
+      "kci_volume": "",
+      "kci_issue": "28"
     }
   ]
 }

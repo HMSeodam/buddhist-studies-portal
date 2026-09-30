@@ -9947,7 +9947,7 @@
       "end_page": "97",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6e5e85c176905a1a7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001024478",
       "keywords_kr": [
         "근본설일체유부비나야잡사",
         "말리카",
@@ -9964,8 +9964,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001024478",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6e5e85c176905a1a7ecd42904f0c5d65",
       "id": "6e5e85c176905a1a7ecd42904f0c5d65"
@@ -14111,9 +14113,9 @@
       "issue": "28",
       "start_page": "199",
       "end_page": "227",
-      "doi": "",
+      "doi": "10.32761/kjip.2010..28.008",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=93ca1be921c1a7566aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001424084",
       "keywords_kr": [
         "근본설일체유부비나야",
         "전생업",
@@ -14128,8 +14130,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001424084",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "93ca1be921c1a7566aae8a972f9116fb",
       "id": "93ca1be921c1a7566aae8a972f9116fb"
@@ -28798,9 +28802,9 @@
       "issue": "58",
       "start_page": "147",
       "end_page": "191",
-      "doi": "",
+      "doi": "10.32761/kjip.2020..58.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1e30c85b6e99a04a7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002582689",
       "keywords_kr": [
         "산스끄리뜨",
         "시형론",
@@ -28817,8 +28821,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002582689",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1e30c85b6e99a04a7f7a54760bb41745",
       "id": "1e30c85b6e99a04a7f7a54760bb41745"
@@ -29475,7 +29481,7 @@
       "end_page": "37",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8b0822e694ecde4a6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002710631",
       "keywords_kr": [
         "위까라나",
         "접미사",
@@ -29493,8 +29499,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002710631",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8b0822e694ecde4a6aae8a972f9116fb",
       "id": "8b0822e694ecde4a6aae8a972f9116fb"
@@ -29525,7 +29533,7 @@
       "end_page": "69",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d5087f7efa269357ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002711192",
       "keywords_kr": [
         "실수마라",
         "마갈",
@@ -29544,8 +29552,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002711192",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2d5087f7efa269357ecd42904f0c5d65",
       "id": "2d5087f7efa269357ecd42904f0c5d65"
@@ -29571,7 +29581,7 @@
       "end_page": "95",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d5087f7efa26935b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002711226",
       "keywords_kr": [
         "중기중관파",
         "자립논증파",
@@ -29594,8 +29604,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002711226",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2d5087f7efa26935b36097776a77e665",
       "id": "2d5087f7efa26935b36097776a77e665"
@@ -29621,7 +29633,7 @@
       "end_page": "120",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d5087f7efa269354884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002711235",
       "keywords_kr": [
         "바비베까",
         "채식주의",
@@ -29638,8 +29650,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002711235",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2d5087f7efa269354884a65323211ff0",
       "id": "2d5087f7efa269354884a65323211ff0"
@@ -29665,7 +29679,7 @@
       "end_page": "39",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d3eabc79cfbbdf0b47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750170",
       "keywords_kr": [
         "산스크리트문학",
         "카비야",
@@ -29684,8 +29698,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002750170",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d3eabc79cfbbdf0b47de9c1710b0298d",
       "id": "d3eabc79cfbbdf0b47de9c1710b0298d"
@@ -29711,7 +29727,7 @@
       "end_page": "67",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d3eabc79cfbbdf0b7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750194",
       "keywords_kr": [
         "법화경",
         "법화경론",
@@ -29732,8 +29748,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002750194",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d3eabc79cfbbdf0b7f7a54760bb41745",
       "id": "d3eabc79cfbbdf0b7f7a54760bb41745"
@@ -29759,7 +29777,7 @@
       "end_page": "100",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d3eabc79cfbbdf0be9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750207",
       "keywords_kr": [
         "텍스트 재사용",
         "상호텍스트성",
@@ -29778,8 +29796,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002750207",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d3eabc79cfbbdf0be9810257f7042666",
       "id": "d3eabc79cfbbdf0be9810257f7042666"
@@ -29805,7 +29825,7 @@
       "end_page": "135",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d3eabc79cfbbdf0bd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750214",
       "keywords_kr": [
         "소리",
         "의미",
@@ -29822,8 +29842,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002750214",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d3eabc79cfbbdf0bd18150b21a227875",
       "id": "d3eabc79cfbbdf0bd18150b21a227875"
@@ -29849,7 +29871,7 @@
       "end_page": "168",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d3eabc79cfbbdf0b6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750219",
       "keywords_kr": [
         "승랑",
         "원효",
@@ -29872,8 +29894,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002750219",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d3eabc79cfbbdf0b6aae8a972f9116fb",
       "id": "d3eabc79cfbbdf0b6aae8a972f9116fb"
@@ -29899,7 +29923,7 @@
       "end_page": "199",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8cf59de54dd705b47ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002750226",
       "keywords_kr": [
         "힌두교",
         "박띠즘",
@@ -29916,8 +29940,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002750226",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8cf59de54dd705b47ecd42904f0c5d65",
       "id": "8cf59de54dd705b47ecd42904f0c5d65"
@@ -29943,7 +29969,7 @@
       "end_page": "47",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c43ca720e1f7c0257f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796792",
       "keywords_kr": [
         "따뜨 뜨밤 아시",
         "해석 방법",
@@ -29962,8 +29988,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002796792",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c43ca720e1f7c0257f7a54760bb41745",
       "id": "c43ca720e1f7c0257f7a54760bb41745"
@@ -29994,7 +30022,7 @@
       "end_page": "89",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c43ca720e1f7c025e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796807",
       "keywords_kr": [
         "라후",
         "베다",
@@ -30015,8 +30043,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002796807",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c43ca720e1f7c025e9810257f7042666",
       "id": "c43ca720e1f7c025e9810257f7042666"
@@ -30042,7 +30072,7 @@
       "end_page": "124",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c43ca720e1f7c025d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796793",
       "keywords_kr": [
         "무량수경",
         "무량수여래회",
@@ -30059,8 +30089,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002796793",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c43ca720e1f7c025d18150b21a227875",
       "id": "c43ca720e1f7c025d18150b21a227875"
@@ -30086,7 +30118,7 @@
       "end_page": "168",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c43ca720e1f7c0256aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796794",
       "keywords_kr": [
         "돈황 막고굴",
         "서방정토",
@@ -30103,8 +30135,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002796794",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c43ca720e1f7c0256aae8a972f9116fb",
       "id": "c43ca720e1f7c0256aae8a972f9116fb"
@@ -30130,7 +30164,7 @@
       "end_page": "204",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=255c2b4ae73293297ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796795",
       "keywords_kr": [
         "요가",
         "현대 요가",
@@ -30148,8 +30182,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002796795",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "255c2b4ae73293297ecd42904f0c5d65",
       "id": "255c2b4ae73293297ecd42904f0c5d65"
@@ -30180,7 +30216,7 @@
       "end_page": "242",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=255c2b4ae7329329b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796796",
       "keywords_kr": [
         "소셜미디어",
         "힌두뜨바",
@@ -30199,8 +30235,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002796796",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "255c2b4ae7329329b36097776a77e665",
       "id": "255c2b4ae7329329b36097776a77e665"
@@ -30226,7 +30264,7 @@
       "end_page": "261",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=255c2b4ae73293294884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796797",
       "keywords_kr": [
         "영화<버닝>",
         "인식의 모호함",
@@ -30243,8 +30281,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002796797",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "255c2b4ae73293294884a65323211ff0",
       "id": "255c2b4ae73293294884a65323211ff0"
