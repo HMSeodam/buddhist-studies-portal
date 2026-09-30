@@ -376,6 +376,10 @@ def main():
     linked = sum(per_j.values())
     left = sum(1 for _, r in todo if id(r) not in done and id(r) not in tried_ids)
     print(f"\n✅ KCI 번호 연결: {tried:,}편 확인 → {linked:,}편 연결 (호출 {api.calls}회, 남은 대상 {left:,}편)")
+    gh_out = os.environ.get("GITHUB_OUTPUT")
+    if gh_out and not args.dry_run:        # Actions 자동 반복(target=kcilink)용
+        with open(gh_out, "a", encoding="utf-8") as f:
+            f.write(f"remaining={left}\nprogress={'true' if (linked or tried) else 'false'}\n")
     if summ:
         L = [f"### KCI 논문번호 연결: {tried:,}편 확인 → **{linked:,}편 연결** (남은 대상 {left:,}편, API 호출 {api.calls}회)"]
         if per_j:
