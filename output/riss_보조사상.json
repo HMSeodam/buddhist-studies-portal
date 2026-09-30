@@ -244,7 +244,7 @@
     {
       "article_id": "007d2e2c6f7aa80effe0bdc3ef48d419",
       "title_kr": "보조찬술의 사상개요와 서지학적 고찰",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "이종익",
@@ -252,8 +252,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1987",
       "volume": "1",
@@ -262,13 +262,15 @@
       "end_page": "163",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=007d2e2c6f7aa80effe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614519",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614519",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "007d2e2c6f7aa80effe0bdc3ef48d419",
       "id": "007d2e2c6f7aa80effe0bdc3ef48d419"
@@ -276,7 +278,7 @@
     {
       "article_id": "b422d7078aa86f2fffe0bdc3ef48d419",
       "title_kr": "보조사상의 현대적 의미",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "강건기",
@@ -284,8 +286,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -294,13 +296,15 @@
       "end_page": "24",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b422d7078aa86f2fffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614537",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614537",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b422d7078aa86f2fffe0bdc3ef48d419",
       "id": "b422d7078aa86f2fffe0bdc3ef48d419"
@@ -340,7 +344,7 @@
     {
       "article_id": "e8732747d2b6955bffe0bdc3ef48d419",
       "title_kr": "CHINUL's Ambivalent Critique of Radical Subitism",
-      "title_en": "",
+      "title_en": "CHINUL’s Ambivalent Critique of Radical Subitism",
       "authors": [
         {
           "name": "Robert Buswell",
@@ -348,8 +352,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -358,13 +362,15 @@
       "end_page": "88",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e8732747d2b6955bffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614542",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614542",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e8732747d2b6955bffe0bdc3ef48d419",
       "id": "e8732747d2b6955bffe0bdc3ef48d419"
@@ -372,16 +378,16 @@
     {
       "article_id": "e8fef2c1c52f9d67ffe0bdc3ef48d419",
       "title_kr": "보조선의 본질구조",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "한기두",
-          "affiliation": "",
+          "affiliation": "원광대학교",
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -390,13 +396,15 @@
       "end_page": "144",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e8fef2c1c52f9d67ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614540",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614540",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e8fef2c1c52f9d67ffe0bdc3ef48d419",
       "id": "e8fef2c1c52f9d67ffe0bdc3ef48d419"
@@ -404,7 +412,7 @@
     {
       "article_id": "a2aa955517d7236bffe0bdc3ef48d419",
       "title_kr": "한국불교 수행전통에 대한 일고찰",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "길희성",
@@ -412,8 +420,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -422,13 +430,15 @@
       "end_page": "155",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a2aa955517d7236bffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614541",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614541",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a2aa955517d7236bffe0bdc3ef48d419",
       "id": "a2aa955517d7236bffe0bdc3ef48d419"
@@ -436,7 +446,7 @@
     {
       "article_id": "fb96a1ae8acdf3424884a65323211ff0",
       "title_kr": "FA-CHI and CHINUL’s understanding of Tsun-MI",
-      "title_en": "",
+      "title_en": "FA-CHI and CHINUL’s understanding of Tsun-MI",
       "authors": [
         {
           "name": "YUn- hua. JAN",
@@ -444,8 +454,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -454,13 +464,15 @@
       "end_page": "202",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fb96a1ae8acdf3424884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614544",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614544",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fb96a1ae8acdf3424884a65323211ff0",
       "id": "fb96a1ae8acdf3424884a65323211ff0"
@@ -508,8 +520,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -518,13 +530,15 @@
       "end_page": "269",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fb96a1ae8acdf342b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614543",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614543",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fb96a1ae8acdf342b7998d826d417196",
       "id": "fb96a1ae8acdf342b7998d826d417196"
@@ -564,7 +578,7 @@
     {
       "article_id": "99074c594706a69fffe0bdc3ef48d419",
       "title_kr": "법보단경과 보조",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "이종익",
@@ -572,8 +586,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -582,13 +596,15 @@
       "end_page": "288",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=99074c594706a69fffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614545",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614545",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "99074c594706a69fffe0bdc3ef48d419",
       "id": "99074c594706a69fffe0bdc3ef48d419"
@@ -596,7 +612,7 @@
     {
       "article_id": "da1550c2b862c652ffe0bdc3ef48d419",
       "title_kr": "대혜의 서장과 보조선",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "채정수",
@@ -604,8 +620,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -614,13 +630,15 @@
       "end_page": "304",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=da1550c2b862c652ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614546",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614546",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "da1550c2b862c652ffe0bdc3ef48d419",
       "id": "da1550c2b862c652ffe0bdc3ef48d419"
@@ -628,7 +646,7 @@
     {
       "article_id": "47d116e2cc64c485ffe0bdc3ef48d419",
       "title_kr": "퇴계의 사단칠정설의 구조적 유사성에 대하여",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "박성배",
@@ -636,8 +654,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -646,13 +664,15 @@
       "end_page": "316",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=47d116e2cc64c485ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614547",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614547",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "47d116e2cc64c485ffe0bdc3ef48d419",
       "id": "47d116e2cc64c485ffe0bdc3ef48d419"
@@ -660,7 +680,7 @@
     {
       "article_id": "fb96a1ae8acdf342e9810257f7042666",
       "title_kr": "The Contents of CHINUL’s Son Seen",
-      "title_en": "",
+      "title_en": "The Contents of CHINUL’s Son Seen",
       "authors": [
         {
           "name": "헨릭소렌슨",
@@ -668,8 +688,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -678,13 +698,15 @@
       "end_page": "347",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fb96a1ae8acdf342e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614548",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614548",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fb96a1ae8acdf342e9810257f7042666",
       "id": "fb96a1ae8acdf342e9810257f7042666"
@@ -692,7 +714,7 @@
     {
       "article_id": "fb96a1ae8acdf342d18150b21a227875",
       "title_kr": "THE INTEGRATION OF CH’ANjSON AND THE TEACHINGS (CHIAOjKYO) IN TSUNG- MI AND CHINUL",
-      "title_en": "",
+      "title_en": "THE INTEGRATION OF CH’ANjSON AND THE TEACHINGS (CHIAOjKYO) IN TSUNG- MI AND CHINUL",
       "authors": [
         {
           "name": "Peter N. Gregory",
@@ -700,8 +722,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -710,13 +732,15 @@
       "end_page": "379",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fb96a1ae8acdf342d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614549",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614549",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fb96a1ae8acdf342d18150b21a227875",
       "id": "fb96a1ae8acdf342d18150b21a227875"
@@ -788,7 +812,7 @@
     {
       "article_id": "946914b07a72f562ffe0bdc3ef48d419",
       "title_kr": "Philosophical Implications of CHINUL's Thought:An Essay on Buddhism and Neo-Confucianism",
-      "title_en": "",
+      "title_en": "Philosophical Implications of CHINUL’s Thought",
       "authors": [
         {
           "name": "Oaksook Chun Kim",
@@ -796,8 +820,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -806,13 +830,15 @@
       "end_page": "399",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=946914b07a72f562ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614550",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614550",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "946914b07a72f562ffe0bdc3ef48d419",
       "id": "946914b07a72f562ffe0bdc3ef48d419"
@@ -852,7 +878,7 @@
     {
       "article_id": "f945f138511b7c93ffe0bdc3ef48d419",
       "title_kr": "한암의 도의-보조 법통설",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "김호성",
@@ -860,8 +886,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -870,13 +896,15 @@
       "end_page": "416",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f945f138511b7c93ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614551",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614551",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f945f138511b7c93ffe0bdc3ef48d419",
       "id": "f945f138511b7c93ffe0bdc3ef48d419"
@@ -18705,9 +18733,9 @@
       "issue": "",
       "start_page": "388",
       "end_page": "421",
-      "doi": "",
+      "doi": "10.22859/bojoss.2014..41.012",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=abd43c8b8592e217ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001850051",
       "keywords_kr": [
         "『대방광불화엄경』",
         "티베트어역 『화엄경』",
@@ -18732,8 +18760,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001850051",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "abd43c8b8592e217ffe0bdc3ef48d419",
       "id": "abd43c8b8592e217ffe0bdc3ef48d419"
@@ -26401,9 +26431,9 @@
       "issue": "",
       "start_page": "117",
       "end_page": "151",
-      "doi": "",
+      "doi": "10.22859/bojoss.2021..60.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=95d4708675c684f57f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002743615",
       "keywords_kr": [
         "원효",
         "『무량수경종요』",
@@ -26422,8 +26452,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002743615",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "95d4708675c684f57f7a54760bb41745",
       "id": "95d4708675c684f57f7a54760bb41745"
@@ -27364,16 +27396,16 @@
         }
       ],
       "abstract_kr": "Maslow’s theory of needs hierarchy(TNH) which is still utilized in modern social fields has important meaning in the sense that TNH demonstrates human beings have not only physiological needs such as sex drive but also lofty needs such as social ethics (loyalty, friendship, citizenship) and esteem needs, self actualization needs. But the reasoning when low needs are satisfied high needs are revealed then naturally could work as psychological grounds generating economic polarization and climate crisis. It is nearly impossible that human being low needs are fully satisfied, and rather during the process of satisfying low needs social bad effects could be generated.Meanwhile Buddhism does not deny human being’s needs and consider needs as target of recognizing and controlling in the middle way. Ultimately Buddhism pursue the realm of selflessness overcoming self-concept and the realm of Nirvana transcending all needs. In other words, Buddhism consider human is able to regulate and advance needs properly one’s own free will, so that Buddhism presents dana, precepts, four immeasurable minds, Satipatthana etc as concrete way of practice overcoming low and high needs in the process of Nirvana.Early Buddhism TNH could be utilized as psychological grounds as overcoming economic polarization and climate crisis of modern world, because modern world problems has been originated from excessive greed of human. Even though Buddhism does not present systematically various needs of human, but provide concrete and realizable methods of regulating and advancing excessive greed of human. This essay suggests physiological needs, social needs, more learning, no-more learning as the stages of human needs hierarchy in Buddhist literature.",
-      "abstract_en": "",
+      "abstract_en": "Maslow’s theory of needs hierarchy(TNH) which is still utilized in modern social fields has important meaning in the sense that TNH demonstrates human beings have not only physiological needs such as sex drive but also lofty needs such as social ethics (loyalty, friendship, citizenship) and esteem needs, self actualization needs. But the reasoning when low needs are satisfied high needs are revealed then naturally could work as psychological grounds generating economic polarization and climate crisis. It is nearly impossible that human being low needs are fully satisfied, and rather during the process of satisfying low needs social bad effects could be generated.\nMeanwhile Buddhism does not deny human being’s needs and consider needs as target of recognizing and controlling in the middle way. Ultimately Buddhism pursue the realm of selflessness overcoming self-concept and the realm of Nirvana transcending all needs. In other words, Buddhism consider human is able to regulate and advance needs properly one’s own free will, so that Buddhism presents dana, precepts, four immeasurable minds, Satipatthana etc as concrete way of practice overcoming low and high needs in the process of Nirvana.\nEarly Buddhism TNH could be utilized as psychological grounds as overcoming economic polarization and climate crisis of modern world, because modern world problems has been originated from excessive greed of human. Even though Buddhism does not present systematically various needs of human, but provide concrete and realizable methods of regulating and advancing excessive greed of human. This essay suggests physiological needs, social needs, more learning, no-more learning as the stages of human needs hierarchy in Buddhist literature.",
       "journal_name": "보조사상",
       "year": "2022",
       "volume": "62",
       "issue": "",
       "start_page": "209",
       "end_page": "239",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..62.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4c25b581093f871ab7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002831076",
       "keywords_kr": [
         "매슬로",
         "초기불교",
@@ -27392,8 +27424,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002831076",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4c25b581093f871ab7998d826d417196",
       "id": "4c25b581093f871ab7998d826d417196"
@@ -27410,16 +27444,16 @@
         }
       ],
       "abstract_kr": "이 논문은 ‘『화엄경』 「보현삼매품」에 담긴 선정사상’에 대하여 중국 화엄주석서를 중심으로 살펴본 글이다. 『화엄경』에는 다양한 삼매들이 설해져 있는데, 「보현삼매품」에도 조금은 독특한 一切諸佛毘慮遮那如來藏身삼매가 교설되어 있다. 이 삼매는 보현보살이 선정의 상태에서 부처님의 위신력으로 끝없는 지혜와 올바른 삼매로 중생을 위해 설법한 품이라 할 수 있다. 이 품의 구성은 來意, 釋名, 宗趣, 경문의 釋文의 4가지와 세부적으로 크게 6가지 단락이다. 그리고 여기서 설해진 삼매는 광명으로 낱낱이 두루 비추는 법성의 본체로 온갖 법을 갈무리한 지혜로 나타나는 비로자나여래장신이다. 이 삼매의 특징은 理智로 갖가지 敎行의 광명으로 중생의 근기를 비추어서 근기에 따라 이익을 주며, 일체제불이 비로자나여래의 몸을 태아(胎兒)로 갈무리하는 삼매이다. 따라서 이 품에 담긴 선정사상의 핵심은 보현이 삼매 속에서 시방의 모든 佛들로부터 온갖 지혜를 얻고, 佛의 깨달음의 세계를 설해 보현의 힘으로 법회에 모인 대중들도 보현보살과 함께 삼매에 들어서 설법을 들을 수 있는 지혜와 유익한 공덕을 얻도록 중생을 교화하고 있다는 데 있다. 결국 이 품에서 삼매를 설한 목적은 일체제불이 설주 보현을 내세워 미혹에 빠져 있는 모든 중생을 교화하기 위한 과정으로서 삼매입정과 출정 등의 모습을 보여 佛世界에 들어갈 수 있음을 보여준 하나의 방편이다. 왜냐하면 보현보살은 늘 삼매에 있지만, 중생을 교화하기 위해, 같고 다름의 모습을 가려서 중생의 業의 과보와 부처님이 행하시는 업의 과보를 잘 가려내기 때문에 반드시 삼매에 입정과 출정을 한 후에 佛의 위신력으로 교설하고 있기 때문이다.",
-      "abstract_en": "",
+      "abstract_en": "This study examines the Idea of Jhana contained in 「Bohyeonsammaepum」 of 『The Avatamska Sutra』 focusing on Chinese footnotes for Hwaeom.\n『The Avatamska Sutra』, one of the early Mahayana sutras, preaches about samadhi in several ways, and 「Bohyeonsammaepum」, too, deals with Ilchejebulbirojanayeoraejangsin (一切諸佛毘慮遮那如來藏身) samadhi which is a little unique. This samadhi is the pum preached by Samantabhadra in the state of Jhana for the people through endless wisdom and righteous samadhi grounded on Buddha’s power of dignity. This pum consists of four parts, original meanings (來意), the interpretation of names (釋名), fundamental teachings (宗趣), and analysis on Buddhist scriptures (釋文), and in detail, it has largely six paragraphs. Samadhi preached here is the true nature of Buddha’s teachings shedding light on each part of the world and is Birojanayeoraejangsin revealed as wisdom embracing all sorts of teachings. This samadhi is characterized by reasoning power (理智), and through the light of all kinds of teaching deeds (敎行), it shines on the religious qualities of the people and benefits them according to the qualities. It is samadhi that Ilchejebul finishes things off with the body of Birojanayeorae as its fetus (胎兒). In other words, through that samadhi, Tathagata exists evenly in the world, and the world comes to exist as Tathagata. Therefore, the key point in the idea of Jhana contained in this pum is that Samantabhadra gains all sorts of wisdom from all the Buddhas (佛) from ten directions within samadhi, preaches about the world of Buddha (佛)’s enlightenment, and reforms the people so that they gathering in the Buddhist ceremony can also enter the state of samadhi along with Samantabhadra through his power and attain the wisdom and beneficial merit and virtue to hear the preaching. The noteworthy features of samadhi preached in this pum include Cheyong of Jhana, Gapi in Jhana, Chungjeong (出定) sammaemun and samadhi benefits, and splendid samadhi merit and virtue attributed to the light of Taryeok. Consequently, the reason why samadhi is preached in this pum is that it is one of the ways to show the aspects of samadhi ipjeong and culjeong as a process of Ilchejebul to reform all creatures falling in delusion and tell any of the people can enter the world of Buddha (佛世界) having the preacher of Samantabhadra in the front. It is because Samantabhadra always exists in the state of samadhi but preaches with Buddha’s power of dignity after samadhi iljeong and culjeong necessarily as he can distinguish what are the same and different and well differentiate the outcomes of the people’s karma from those of Buddha’s deeds to reform the people.",
       "journal_name": "보조사상",
       "year": "2022",
       "volume": "62",
       "issue": "",
       "start_page": "241",
       "end_page": "276",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..62.008",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4c25b581093f871ac85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002831077",
       "keywords_kr": [
         "보현삼매품",
         "보현보살",
@@ -27436,8 +27470,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002831077",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4c25b581093f871ac85d2949c297615a",
       "id": "4c25b581093f871ac85d2949c297615a"
@@ -27696,16 +27732,16 @@
         }
       ],
       "abstract_kr": "이 글은 돈오의 체험성 여부에 대한 의문과 관련 문제의식에서 비롯되었다. 지눌 수행체계의 기초와 중심을 돈오점수로 보는 동시에, 지눌의 돈오 자체는 인식의 범주를 벗어난 반조에 의한 전의적 체험[見自本性]이라 판단한다.『선문정로』출간이 불러온 돈점논쟁은 지눌의 돈오에 대한 다양한 인식들을 산출한다. 지해로 확정하려는 시각과 지해와는 다른 것으로 보는 시각이 중심이라 할 수 있다. 논쟁은 해오의 성격을 규정하는 데 집중한다. 이후 지눌의 돈오를 두 차원으로 구분해 읽어보자는 분리독법이 제기된다.텍스트를 통해 심층 분석하는 쪽은 지해와의 차이에 주목한 연구들이다. 인용하는 지눌의 진술을 확인하면, 돈오(해오) 자체가 알음알이 혹은 주객분리의 대상적 인식이 아님은 명확하다. 지눌은 지해를 넘어 반조에 의한 돈오를 독려하고 있음을 거듭 확인할 수 있다. 원칙적으로 자성정혜를 강조하면서, 점수를 원점(圓漸)으로 이해하는 것을 보면 돈오 자체는 지해가 아니다.이 글의 범주 내 인식 대부분은 성철이 제시한 ‘해오는 지해’라는 기준에 영향을 받고 있다. 지해와의 차이를 주장하는 쪽은 수사적 해명과 강조에 치중하는 경향을 보인다. 형식상 지해는 오(悟) 자체와 분화될 수 있다. 오 전후의 지해를 분리하면 오 자체를 확보할 수 있다. 초점을 체험 쪽에 둔다면, 혹은 오 자체에 둔다면 법(法)과 실존[人]을 고려하는 수증론으로서 돈오(-점수)의 특성이 살아날 수 있다고 본다.초점 전환을 위해서는 선결 과제로서 지눌의 선교관과 그에 부합하는 회통방식이 규명되어야 한다. 지해와의 차이에 주목한 연구에선 믿음과 돈오의 연계적 즉일성을 확인하고 있다. 분리독법은 지눌의 본의 파악과 돈오점수의 이중성 문제를 안고 있다. 지눌의 언어를 정밀히 검토할 필요가 있다.",
-      "abstract_en": "",
+      "abstract_en": "This article stems from the question of whether Sudden Enlightenment is experiential and the awareness of matters related to it. The basis and center of Jinul's practice system is viewed as Sudden Enlightenment and Gradual Practice, and at the same time Jinul's Sudden Enlightenment itself is judged to be a holistic experience by reflection(見自本性) beyond the realm of knowledge.\nThe controversy over being Sudden or Gradual brought about by the publication of Sunmunjeongro(禪門正路) produces various perceptions of Jinul's Sudden Enlightenment. It can be said that the main focus is the view to be confirmed as Enlightenment of Knowledge and the view to be different from it. The controversy focuses on defining the character of Enlightenment. Afterwards, a separate reading method is proposed to read the two dimensions of Sudden Enlightenment separately.\nThe in-depth analysis through texts are studies that focus on the difference from Enlightenment of Knowledge. If we check Jinul's quoted statement, it is clear that (Sudden) Enlightenment itself is not Knowledge though the separation of subject and object. It can be confirmed again and again that Jinul is encouraging Sudden Enlightenment by Reflection beyond Enlightenment of Knowledge. In principle, while emphasizing Inherent Concentration and Wisdom(自性定慧) and understanding Gradual Enlightenment as Originally Gradual(圓漸), Sudden Enlightenment itself is not Enlightenment of Knowledge.\nMost of the perceptions within the category of this article are influenced by the criterion of “Enlightenment being Enlightenment of Knowledge” suggested by Seong-cheol. Those who claim the difference from Enlightenment of Knowledge tend to limit themselves to rhetorical explanations and emphasis. In a formal sense, Enlightenment of Knowledge can be differentiated from Enlightenment itself. By separating Enlightenment of Knowledge before and after Enlightenment, Enlightenment itself can be secured. If the focus is on Experience, or on Enlightenment itself, I think that the characteristic of Sudden Enlightenment (and Gradual Practice) can be revived as the Theory of Practice and Realization(修證論) that considers Dharma(法) and Existence(人).\nIn order to change the focus, as a prerequisite, Jinul's View of Practice and Teaching(禪敎觀) and the harmonizing method corresponding to it must be identified. Research focusing on the difference from Enlightenment of Knowledge confirms the link between Faith and Sudden Enlightenment. The separate reading method has the problem of understanding Jinul's true intentions and the duality of Sudden Enlightenment and Gradual Practice. It is necessary to carefully examine Jinul's language.",
       "journal_name": "보조사상",
       "year": "2022",
       "volume": "63",
       "issue": "",
       "start_page": "45",
       "end_page": "82",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..63.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d5384712143ed04647de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002865996",
       "keywords_kr": [
         "돈오",
         "해오",
@@ -27726,8 +27762,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002865996",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d5384712143ed04647de9c1710b0298d",
       "id": "d5384712143ed04647de9c1710b0298d"
@@ -27751,9 +27789,9 @@
       "issue": "",
       "start_page": "83",
       "end_page": "113",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..63.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d5384712143ed046e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002865995",
       "keywords_kr": [
         "17세기 중반",
         "목조아미타여래좌상",
@@ -27770,8 +27808,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002865995",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d5384712143ed046e9810257f7042666",
       "id": "d5384712143ed046e9810257f7042666"
@@ -27795,9 +27835,9 @@
       "issue": "",
       "start_page": "115",
       "end_page": "151",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..63.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d5384712143ed0464884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002865994",
       "keywords_kr": [
         "일행",
         "일행선사자모표",
@@ -27813,8 +27853,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002865994",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d5384712143ed0464884a65323211ff0",
       "id": "d5384712143ed0464884a65323211ff0"
@@ -27882,9 +27924,9 @@
       "issue": "",
       "start_page": "183",
       "end_page": "214",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..63.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d5384712143ed046b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002865986",
       "keywords_kr": [
         "지주(智周)",
         "『유가론소(瑜伽論疏)』",
@@ -27901,8 +27943,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002865986",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d5384712143ed046b36097776a77e665",
       "id": "d5384712143ed046b36097776a77e665"
@@ -27926,9 +27970,9 @@
       "issue": "",
       "start_page": "215",
       "end_page": "248",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..63.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d5384712143ed046c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002865978",
       "keywords_kr": [
         "학교교육",
         "교육열",
@@ -27945,8 +27989,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002865978",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d5384712143ed046c85d2949c297615a",
       "id": "d5384712143ed046c85d2949c297615a"
@@ -27970,9 +28016,9 @@
       "issue": "",
       "start_page": "11",
       "end_page": "38",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=187812f3706fdeaa4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904058",
       "keywords_kr": [
         "부휴 선수",
         "조선불교",
@@ -27989,8 +28035,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904058",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "187812f3706fdeaa4884a65323211ff0",
       "id": "187812f3706fdeaa4884a65323211ff0"
@@ -28014,9 +28062,9 @@
       "issue": "",
       "start_page": "39",
       "end_page": "79",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=187812f3706fdeaa7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904059",
       "keywords_kr": [
         "벽암각성",
         "조선",
@@ -28035,8 +28083,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904059",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "187812f3706fdeaa7f7a54760bb41745",
       "id": "187812f3706fdeaa7f7a54760bb41745"
@@ -28060,9 +28110,9 @@
       "issue": "",
       "start_page": "81",
       "end_page": "107",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=187812f3706fdeaab7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904060",
       "keywords_kr": [
         "보조 지눌",
         "임진왜란",
@@ -28082,8 +28132,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904060",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "187812f3706fdeaab7998d826d417196",
       "id": "187812f3706fdeaab7998d826d417196"
@@ -28107,9 +28159,9 @@
       "issue": "",
       "start_page": "109",
       "end_page": "138",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=187812f3706fdeaac85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904061",
       "keywords_kr": [
         "체중현",
         "구중현",
@@ -28126,8 +28178,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904061",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "187812f3706fdeaac85d2949c297615a",
       "id": "187812f3706fdeaac85d2949c297615a"
@@ -28151,9 +28205,9 @@
       "issue": "",
       "start_page": "139",
       "end_page": "170",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6fe83df5eba067bdb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904062",
       "keywords_kr": [
         "금명",
         "송광사",
@@ -28176,8 +28230,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904062",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6fe83df5eba067bdb7998d826d417196",
       "id": "6fe83df5eba067bdb7998d826d417196"
@@ -28201,9 +28257,9 @@
       "issue": "",
       "start_page": "173",
       "end_page": "202",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6fe83df5eba067bd7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904063",
       "keywords_kr": [
         "구산선문(九山禪門)",
         "동리산문(桐裏山門)",
@@ -28222,8 +28278,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904063",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6fe83df5eba067bd7ecd42904f0c5d65",
       "id": "6fe83df5eba067bd7ecd42904f0c5d65"
@@ -28247,9 +28305,9 @@
       "issue": "",
       "start_page": "203",
       "end_page": "237",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6fe83df5eba067bdc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904064",
       "keywords_kr": [
         "대흥사 북미륵암 마애여래좌상",
         "하사창동 철조여래좌상",
@@ -28266,8 +28324,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904064",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6fe83df5eba067bdc85d2949c297615a",
       "id": "6fe83df5eba067bdc85d2949c297615a"
@@ -28337,9 +28397,9 @@
       "issue": "",
       "start_page": "269",
       "end_page": "299",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.009",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6fe83df5eba067bdb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904065",
       "keywords_kr": [
         "자타카",
         "구법담",
@@ -28364,8 +28424,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904065",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6fe83df5eba067bdb36097776a77e665",
       "id": "6fe83df5eba067bdb36097776a77e665"
@@ -28441,9 +28503,9 @@
       "issue": "",
       "start_page": "335",
       "end_page": "365",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.011",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=187812f3706fdeaae9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904067",
       "keywords_kr": [
         "『밀엄경』",
         "여래장",
@@ -28460,8 +28522,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904067",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "187812f3706fdeaae9810257f7042666",
       "id": "187812f3706fdeaae9810257f7042666"
@@ -28531,9 +28595,9 @@
       "issue": "",
       "start_page": "395",
       "end_page": "425",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.013",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=187812f3706fdeaad18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904069",
       "keywords_kr": [
         "난계도륭(蘭溪道隆)",
         "가마쿠라 막부",
@@ -28552,8 +28616,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904069",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "187812f3706fdeaad18150b21a227875",
       "id": "187812f3706fdeaad18150b21a227875"

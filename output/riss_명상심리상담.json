@@ -4472,7 +4472,7 @@
       "end_page": "13",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5d6222ce79e404d47f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002553770",
       "keywords_kr": [
         "오감",
         "호흡명상",
@@ -4493,8 +4493,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002553770",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5d6222ce79e404d47f7a54760bb41745",
       "id": "5d6222ce79e404d47f7a54760bb41745"
@@ -4520,7 +4522,7 @@
       "end_page": "27",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5d6222ce79e404d4e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002553858",
       "keywords_kr": [
         "수용전념치료",
         "개인사례",
@@ -4539,8 +4541,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002553858",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5d6222ce79e404d4e9810257f7042666",
       "id": "5d6222ce79e404d4e9810257f7042666"
@@ -4552,7 +4556,7 @@
       "authors": [
         {
           "name": "김진기",
-          "affiliation": "",
+          "affiliation": "단국대학교 경영대학원",
           "order": "1"
         }
       ],
@@ -4566,7 +4570,7 @@
       "end_page": "42",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5d6222ce79e404d447de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002553861",
       "keywords_kr": [
         "ACT와 가치",
         "가치작업",
@@ -4583,8 +4587,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002553861",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5d6222ce79e404d447de9c1710b0298d",
       "id": "5d6222ce79e404d447de9c1710b0298d"
@@ -4610,7 +4616,7 @@
       "end_page": "55",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5d6222ce79e404d46aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002553865",
       "keywords_kr": [
         "수용전념",
         "가치",
@@ -4626,8 +4632,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002553865",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5d6222ce79e404d46aae8a972f9116fb",
       "id": "5d6222ce79e404d46aae8a972f9116fb"
@@ -4699,7 +4707,7 @@
       "end_page": "21",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c3ea745d955f72dfe9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002547682",
       "keywords_kr": [
         "알아차림",
         "염지관",
@@ -4718,8 +4726,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002547682",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c3ea745d955f72dfe9810257f7042666",
       "id": "c3ea745d955f72dfe9810257f7042666"
@@ -4789,7 +4799,7 @@
       "end_page": "53",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4693a38d84a5f7867f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002548428",
       "keywords_kr": [
         "말라식",
         "아뢰야식",
@@ -4808,8 +4818,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002548428",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4693a38d84a5f7867f7a54760bb41745",
       "id": "4693a38d84a5f7867f7a54760bb41745"
@@ -4840,7 +4852,7 @@
       "end_page": "70",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4693a38d84a5f786c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002548437",
       "keywords_kr": [
         "차명상",
         "자살예방",
@@ -4856,8 +4868,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002548437",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4693a38d84a5f786c85d2949c297615a",
       "id": "4693a38d84a5f786c85d2949c297615a"
@@ -4883,7 +4897,7 @@
       "end_page": "80",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4693a38d84a5f786d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002548446",
       "keywords_kr": [
         "발표불안",
         "내러티브 연구",
@@ -4900,8 +4914,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002548446",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4693a38d84a5f786d18150b21a227875",
       "id": "4693a38d84a5f786d18150b21a227875"
@@ -5019,7 +5035,7 @@
       "end_page": "24",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d6e3f3a557ac881b47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002607025",
       "keywords_kr": [
         "대염처경",
         "호흡명상",
@@ -5036,8 +5052,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002607025",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d6e3f3a557ac881b47de9c1710b0298d",
       "id": "d6e3f3a557ac881b47de9c1710b0298d"
@@ -5063,7 +5081,7 @@
       "end_page": "39",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=441d870ac1bd7615d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002607026",
       "keywords_kr": [
         "부정관",
         "후예부정관",
@@ -5080,8 +5098,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002607026",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "441d870ac1bd7615d18150b21a227875",
       "id": "441d870ac1bd7615d18150b21a227875"
@@ -5107,7 +5127,7 @@
       "end_page": "49",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d6e3f3a557ac881b7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002607029",
       "keywords_kr": [
         "프라아야나마",
         "요가 호흡",
@@ -5133,8 +5153,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002607029",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d6e3f3a557ac881b7f7a54760bb41745",
       "id": "d6e3f3a557ac881b7f7a54760bb41745"
@@ -5160,7 +5182,7 @@
       "end_page": "67",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c8914244c08d0c8b4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002607032",
       "keywords_kr": [
         "학교상담",
         "호흡명상",
@@ -5173,8 +5195,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002607032",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c8914244c08d0c8b4884a65323211ff0",
       "id": "c8914244c08d0c8b4884a65323211ff0"
@@ -5200,7 +5224,7 @@
       "end_page": "17",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=db985ca4a71ab2c1d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002672886",
       "keywords_kr": [
         "명상",
         "마음치유",
@@ -5219,8 +5243,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002672886",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "db985ca4a71ab2c1d18150b21a227875",
       "id": "db985ca4a71ab2c1d18150b21a227875"
@@ -5246,7 +5272,7 @@
       "end_page": "32",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fea028fcb72cb16dc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002672848",
       "keywords_kr": [
         "위빠사나 명상",
         "느낌(vedanā)",
@@ -5263,8 +5289,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002672848",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fea028fcb72cb16dc85d2949c297615a",
       "id": "fea028fcb72cb16dc85d2949c297615a"
@@ -5290,7 +5318,7 @@
       "end_page": "52",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=54decdd9d46aa95ae9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002672891",
       "keywords_kr": [
         "가족관계 스트레스",
         "염지관",
@@ -5306,8 +5334,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002672891",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "54decdd9d46aa95ae9810257f7042666",
       "id": "54decdd9d46aa95ae9810257f7042666"
@@ -5425,7 +5455,7 @@
       "end_page": "28",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bf98fe7f491001f647de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002818290",
       "keywords_kr": [
         "명상상담",
         "반야",
@@ -5442,8 +5472,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002818290",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "bf98fe7f491001f647de9c1710b0298d",
       "id": "bf98fe7f491001f647de9c1710b0298d"
@@ -5469,7 +5501,7 @@
       "end_page": "41",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4581e974c75597d147de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002818292",
       "keywords_kr": [
         "공상의 자각",
         "인지적 정서조절전략",
@@ -5484,8 +5516,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002818292",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4581e974c75597d147de9c1710b0298d",
       "id": "4581e974c75597d147de9c1710b0298d"
@@ -5560,7 +5594,7 @@
       "end_page": "28",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=32865cc00093c6fc6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002803562",
       "keywords_kr": [
         "불교 명상",
         "청소년",
@@ -5577,8 +5611,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002803562",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "32865cc00093c6fc6aae8a972f9116fb",
       "id": "32865cc00093c6fc6aae8a972f9116fb"
@@ -5658,7 +5694,7 @@
       "end_page": "15",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2477ab36d6275e366aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002860803",
       "keywords_kr": [
         "마음공부",
         "마음지도사",
@@ -5673,8 +5709,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002860803",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2477ab36d6275e366aae8a972f9116fb",
       "id": "2477ab36d6275e366aae8a972f9116fb"
@@ -5700,7 +5738,7 @@
       "end_page": "25",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=25dfc608a9cfdc2eb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002861038",
       "keywords_kr": [
         "마음공부",
         "멈춤",
@@ -5717,8 +5755,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002861038",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "25dfc608a9cfdc2eb7998d826d417196",
       "id": "25dfc608a9cfdc2eb7998d826d417196"
@@ -5740,7 +5780,7 @@
         }
       ],
       "abstract_kr": "본 연구는 마음인문학연구소에서 개발한 마음지도사 2급 프로그램 가운데 ‘마음일기’를 중심으로 마음일기가 일반적인 명상적 글쓰기와 어떠한 점에서 같고 다른지 더 나아가 그것의 원리, 치유 기제 등에 대하여 살펴보았다. 지금까지의 논의를 정리하면 다음과 같다. 첫째, 마음일기의 개념과 원리에 대해 소개하였다. 마음일기는 마음지도사 2급 자격과정 중에 진행하는 하나의 프로그램으로서 여기서 말하는 마음일기란 어떠한 상황을 대할 때 일어나는 심신의 반응작용과 그것을 어떻게 처리했는지에 관한 일련의 과정을 글쓰기를 통해 ‘있는 그대로’ 기재하는 활동이다. 둘째, 마음일기가 글쓰기라는 구체적 행위를 통해 나타나며, 이러한 글쓰기는 인문학적 치유의 바탕 위에서 진행된다는 점을 염두에 두고 글쓰기치료와 글쓰기명상에 나타난 명상적 글쓰기의 역할과 치유에 대해 살펴보았다. 마음일기는 글쓰기치료보다는 글쓰기명상에 가깝다고 할 수 있다. 셋째, 마음일기에 나타난 명상적 글쓰기의 역할과 치유에 대하여 논의하였다. 마음일기는 외경에 따라 일어난 마음을 ‘있는 그대로’ 자각하고 수용하는 것을 중시한다. 여기서 ‘자각’과 ‘수용’은 명상적 글쓰기에서 강조하는 핵심적인 치유 기제로서 마음일기와 명상적 글쓰기의 공통점에 해당한다고 할 수 있다. 넷째, 마음일기의 실제 사례를 제시하여 마음일기가 구체적인 상황 속에서 어떻게 진행되는지 소개하였다. 마음일기는 ‘상황-처리내용-감정(鑑定)’의 구조적 메커니즘 속에서 진행되며 이 가운데 지도자의 감정이 중요한 의미를 갖는다. 지도자는 마음일기에 대한 가치 평가가 아닌 공감적 경청과 수용적 태도로 마음일기 작성자가 상황을 있는 그대로 알아차리고 수용할 수 있도록 돕는다.",
-      "abstract_en": "",
+      "abstract_en": "This study examines the principles and healing mechanisms of a mind diary, focusing on 'Mind Diary' among the second-level programs developed by the Mind Humanities Research Institute. The discussion so far is summarized as follows. First, the concept and principle of mind diary were introduced. Mind diary is a program that is conducted during the 2nd level qualification course for a mind instructor, and the mind diary refers to a series of processes related to the reaction of mind and body that occurs when dealing with a certain situation and how to deal with it 'as it is' through writing. Second, the role and healing of meditative writing appearing in writing therapy and writing meditation were investigated, keeping in mind that mind diary appears through the specific act of writing, and that writing is based on humanistic healing. Mind diary is closer to writing meditation than writing therapy. Third, the role and healing of meditative writing in the mind diary was discussed. The mind diary emphasizes awareness and acceptance of the mind 'as it is' according to the outer condition. Here, 'awareness' and 'acceptance' are the key healing mechanisms emphasized in meditative writing, and they can be said to have common features of mind diary and meditative writing. Fourth, actual examples of the mind diary were presented to introduce how the mind diary proceeds in specific situations. The mind diary proceeds in the structural mechanism of 'situation-processing content-appraisal', and among them, the master's teachings have an important meaning. The master helps the mind diary writer to recognize and accept the situation as it is by empathic listening and receptive attitude, rather than evaluating the value of the mind diary.",
       "journal_name": "명상심리상담",
       "year": "2022",
       "volume": "27",
@@ -5749,7 +5789,7 @@
       "end_page": "37",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=25dfc608a9cfdc2ec85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002861039",
       "keywords_kr": [
         "마음일기",
         "글쓰기치료",
@@ -5766,8 +5806,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002861039",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "25dfc608a9cfdc2ec85d2949c297615a",
       "id": "25dfc608a9cfdc2ec85d2949c297615a"
@@ -5984,7 +6026,7 @@
       "end_page": "104",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d00766a972dc00d37ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002861055",
       "keywords_kr": [
         "마음챙김",
         "자기효능감",
@@ -5999,8 +6041,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002861055",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d00766a972dc00d37ecd42904f0c5d65",
       "id": "d00766a972dc00d37ecd42904f0c5d65"
@@ -6065,7 +6109,7 @@
         }
       ],
       "abstract_kr": "영국의 심리학자 Paul Gilbert가 개발한 자비중심치료는 수치심과 자기비난 경향이 높은 만성적인 정서 장애를 가진 내담자들을 위한 치료 프로그램이다. 자비중심치료는 구뇌와 진화된 신뇌의 상호작용, 세 가지 유형을 포함하는 정서조절 모델, 뇌와 정서조절에 영향을 미치는 돌봄 환경에 대한 이해를 통해 정서 문제가 유지, 악화되는 메카니즘을 설명한다. 자비중심치료에서는 내담자가 진화된 마음과 양육 환경이 정서에 미치는 영향을 이해하도록 도움으로써 자신의 정서 문제를 병리적으로 보거나 자신의 잘못으로 귀인하지 않도록 돕는다. 자비로운 마음훈련은 이완 연습, 마음챙김과 자비 심상화 훈련을 통해 내담자가 내외로부터의 부정적인 경험을 반추, 걱정, 자기비난하는 방식이 아니라 자비로운 주의로 재초점화하도록 돕는다. 자비로운 마음 훈련의 원리와 몇 가지 사례를 제시했으며 자비 명상의 심리치료적 함의에 관해 간략히 논의하였다.",
-      "abstract_en": "",
+      "abstract_en": "Compassion Focused Therapy(CFT) is a therapeutic program developed by Paul Gilbert, an english psychologist which is for people who have chronic emotional disorders with high shame and self-criticism. CFT conceptualizes a mechanism of emotional problems through understandings on the interaction of the old and new brains, an affect regulation model with three types and caring environments that influence brains and affect regulation systems. CFT helps clients to understand the impact of the evolved mind and caring environments for emotional development and not to attribute their own emotional problems to their own mistakes and not to see them pathologically.\nCompassionate Mind Training (CMT) includes a relaxation, mindfulness and compassion imagination practices. It helps clients to refocus compassionate attention to negative experiences from in and ex instead of rumination, worry or self-criticism. This article presented some fundamental principles and examples of CMT and discussed on the therapeutic implications of compassion meditation.",
       "journal_name": "명상심리상담",
       "year": "2022",
       "volume": "28",
@@ -6074,7 +6118,7 @@
       "end_page": "19",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=60ba0c85302216267f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002925896",
       "keywords_kr": [
         "자비",
         "자비중심치료",
@@ -6091,8 +6135,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002925896",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "60ba0c85302216267f7a54760bb41745",
       "id": "60ba0c85302216267f7a54760bb41745"
@@ -6109,7 +6155,7 @@
         }
       ],
       "abstract_kr": "본 연구는 불교상담 시 상담자의 자세를 사홍서원을 중심으로 밝히는 데 있다. 이를 위해 본 연구의 연구문제는 다음과 같다. 첫째, 불교상담에서 사홍서원의 의미는 무엇인가? 둘째, 불교상담에서 사홍서원을 기반으로 한 불교상담자의 자세는 어떠한가? 이다. 본 연구의 결과는 다음과 같다. 첫번째 사홍서원은 사람을 포함한 모든 만물을 해탈시킨 후 자신도 성불을 이루겠다는 뜻으로, 상담에서는 내담자에게 내재된 가능성을 알기에 바른 길로 이끎에 흔들림이 없이 내담자를 제도하는 것을 의미한다. 두번째 사홍서원은 본래 청정한 마음자리로 돌아가 번뇌를 가라앉혀 더 이상 흔들림이 없는 경지에 이르러 마침해탈을 얻겠다는 뜻으로, 상담에서는 내담자를 자신의 틀로 보지 않는 것 즉, 있는 그대로 보는 것을 의미한다. 세번째 사홍서원은 팔만사천법문을 모두 배운다는 뜻으로, 상담에서는 상담자가 다양한 상담기법을 배워 상담의 질을 높이고 내담자의 삶의 질도 높이도록 돕는 것을 의미한다. 네번째 사홍서원은 위없는 불도를 다 이룬다는 뜻으로, 상담에서는 상담자가 내담자의 궁극적인 행복 즉, 깨달음을 얻도록 하기 위해 머무름 없는 마음으로 보리심을 발하는 것을 의미한다. 둘째, 사홍서원을 기반으로 한 불교상담자의 자세는 첫째, 중생제도를 통해 보살행을 닦는 것이다. 이때 상담자는 중생을 제도한 일도 제도했다는 생각도 없다는 마음을 가지고 상담에 임해야 하며 한사람도 남김없이 성불을 이룰 수 있도록 돕겠다는 자세를 가져야 한다. 둘째, 번뇌를 끊고 청정심을 보는 것이다. 상담현장에서 내담자와 상호작용 시 내담자의 감정을 담아내려면 상담자 스스로 왜곡된 견해와 감정을 끊고 청정심을 볼 수 있는 자세를 가져야 한다. 셋째, 부처님을 모델링하는 것이다. 이를 위해 스스로 다양한 법문을 접하고 내담자가 부처님을 모델링 할 수 있도록 돕는 자세를 가져야 한다. 넷째, 머무름 없는 마음으로 보리심을 발하는 것이다. 이를 위해 상담자는 부처님의 대자비심의 자세를 가져야 하다. 이러한 결과를 바탕으로 불교상담 시 사홍서원을 기반으로 한 불교상담자의 자세에 대한 논의와 제언을 하였다.",
-      "abstract_en": "",
+      "abstract_en": "The purpose of this study is to clarify the attitude of counselors during Buddhist counseling, focusing on Four Essential Vows for Buddhists. For this purpose, the research questions of this study are as follows.\nFirst, what is the meaning of Four Essential Vows for Buddhists in Buddhist counseling? Second, what is the attitude of the Buddhist counselor based on the Four Essential Vows for Buddhists in Buddhist counseling? The results of this study are as follows. The meaning of the first wish is that after liberation of all things, including humans, he himself will attain enlightenment. In counseling, it means that the counselor knows the client's inherent potential, so there is no wavering in leading the client on the right path. The meaning of the second wish is that we will return to our original pure mind, calm our defilements, reach a state where we are no longer shaken, and achieve final liberation. In counseling, it means that the counselor does not see the client as his own frame, that is, sees the client as they are. The third wish means to learn all the eighty-four thousand teachings. In counseling, it means that the counselor learns various counseling techniques to improve the quality of counseling and the quality of life of the client. The meaning of the fourth wish is to achieve the highest Buddhahood. In counseling, it means that the counselor exerts the spirit of hope with an unstoppable mind to help the client achieve ultimate happiness, that is, enlightenment. Second, the attitude of the Buddhist counselor based on the Four Essential Vows for Buddhists is as follows. First, it is an attitude of cultivating bodhisattvas through the salvation of sentient beings. At this time, the counselor should have the mindset that he has neither saved any sentient beings nor even thought that he has saved them, and should have the attitude to help each and every one of them achieve enlightenment. Second, it is an attitude that cuts off defilements and sees purity. In order to capture the feelings of the client when interacting with the client in the counseling field, the counselor must have an attitude that allows the counselor to cut off his distorted views and feelings and see the purity of the mind. Third, it is an attitude that models the Buddha. To this end, the counselor should have an attitude of helping the client to model the Buddha by experiencing various teachings on his own. Fourth, it is an attitude of radiating the Bodhisattva with an unstoppable heart. For this, the counselor must have the attitude of Buddha's great compassion. Based on these results, discussions and suggestions were made on the attitudes of Buddhist counselors based on the Four Essential Vows for Buddhists during Buddhist counseling.",
       "journal_name": "명상심리상담",
       "year": "2022",
       "volume": "28",
@@ -6118,7 +6164,7 @@
       "end_page": "34",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=60ba0c8530221626c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002925897",
       "keywords_kr": [
         "불교상담",
         "불교상담자",
@@ -6133,8 +6179,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002925897",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "60ba0c8530221626c85d2949c297615a",
       "id": "60ba0c8530221626c85d2949c297615a"
@@ -6202,7 +6250,7 @@
         }
       ],
       "abstract_kr": "본 연구의 목적은 사찰에서 실시하고 있는 노인 자원봉사 신행활동에 따라 청소년의 효인식과 봉사만족도, 부양의식에 차이가 있는지 살펴보고, 효인식과 봉사만족도가 부양의식에 미치는 영향을 탐색해보고자 하였다. 본 연구의 연구문제는 첫째, 청소년의 노인 자원봉사 신행활동의 유형에 따라 효인식, 봉사만족도, 부양의식에 차이가 있는가? 둘째, 노인 자원봉사 신행활동 참여 청소년의 효인식과 봉사만족도는 부양인식에 영향을 미치는가? 이다. 이를 위하여 본 연구는 서울시와 경기도 거주하는 남녀 청소년 169명을 대상으로 효인식, 노인 대상 자원봉사 경험 및 봉사만족도, 부양의식 척도로 구성된 설문을 실시하였다. SPSS 18.0 통계 프로그램을 이용하여 신뢰도 분석, 빈도분석, 기술통계, 일원변량분석 F-검정(ANOVA)과 사후분석(Sheffe), 중다회귀분석(multiple regression)을 실시하였다. 연구 결과는 다음과 같다. 첫째, 청소년이 참여하는 자원봉사 신행활동에 따라 효인식, 봉사만족도, 부양의식에 차이가 있는지 살펴본 결과, 효인식은 지역사회개발 활동에 비해 자선, 구호, 활동, 기타, 환경, 시설보존 활동이 높게 나타났으며, 방문, 위문활동, 캠페인 활동, 일손돕기 활동, 지도, 상담활동의 평균이 가장 높은 것으로 나타났다. 봉사만족도는 지역사회개발 활동에 비해 기타, 지역사회개발 활동, 환경, 시설보존 활동, 방문, 위문활동, 캠페인 활동이 높게 나타났으며, 지도, 상담활동, 일손 돕기 활동의 평균이 가장 높은 것으로 나타났다. 부양의식은 자선, 구호 활동에 비해 기차, 방문, 위문활동, 캠페인 활동, 지도 상담활동, 환경, 시설보존 활동, 일손돕기 활동이 높게 나타났으며, 지역사회개발 활동의 평균이 가장 높은 것으로 나타났다. 둘째, 본 연구에서는 효인식, 봉사만족도, 부양의식 간의 관계를 살펴보기 위해 상관관계 분석을 실시한 결과, 효인식과 봉사만족도, 부양의식 간에 유의미한 정적 상관이 있는 것으로 나타났다. 셋째, 청소년의 효인식과 봉사만족도가 부양의식에 미치는 영향을 살펴보기 중다회귀분석을 실시한 결과, 청소년의 효인식은 부양의식에 유의미한 영향을 미치지 않는 것으로 나타났으며, 봉사만족도는 부양의식에 유의미한 영향을 미치는 것으로 나타났다. 본 연구의 결과는 한국인의 효도와 관련된 문제에 대한 인식을 조망해 봄으로써 효에 대한 이해를 심도 있게 도울 수 있을 뿐만 아니라 이는 추후 사찰에서의 포교활동의 기초자료를 제공할 수 있을 것으로 기대한다..",
-      "abstract_en": "",
+      "abstract_en": "The purpose of this study was to investigate the differences in adolescents' filial piety awareness, service satisfaction, and support consciousness according to the elderly volunteer activities conducted at temples, and to investigate the effect of filial piety awareness and service satisfaction on the consciousness of support. The research problems of this study are as follows. First, are there differences in filial piety awareness, service satisfaction, and support consciousness according to types of youth volunteering activities? Second, does the filial piety awareness, service satisfaction of adolescents participating in volunteering activities affect perceptions of caregiving for the elderly? For this purpose, 169 male and female adolescents living in Seoul and Gyeonggi - do were surveyed with the questionnaire consisted of filial piety awareness, elderly volunteer experience, service satisfaction, and support consciousness scale. Reliability analysis, frequency analysis, descriptive statistics, one-way ANOVA, post-analysis(Sheffe) and multiple regression were performed using the SPSS 18.0 statistical program. The results of this study are expected to help an in-depth understanding of filial piety by looking at the perception of problems related to the filial piety of Koreans as well as to provide basic data on the missionary activities at temples in the later.",
       "journal_name": "명상심리상담",
       "year": "2022",
       "volume": "28",
@@ -6211,7 +6259,7 @@
       "end_page": "60",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=60ba0c85302216267ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002925899",
       "keywords_kr": [
         "노인자원봉사",
         "청소년",
@@ -6228,8 +6276,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002925899",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "60ba0c85302216267ecd42904f0c5d65",
       "id": "60ba0c85302216267ecd42904f0c5d65"
@@ -6246,7 +6296,7 @@
         }
       ],
       "abstract_kr": "본 연구는 요가치료 프로그램이 우울감을 호소하는 중년기 성인의 우울 및 회복탄력성에 미치는 영향을 밝히는 데 목적이 있다. 국내에서도 우울증 개선을 위한 요가 프로그램에 관한 연구가 증가하고 있지만 우울증 중년 남녀를 대상으로 마음챙김 중심의 요가치료를 적용한 연구는 거의 없다. 본 연구는 우울한 중년 남녀를 대상으로 6주 18회기의 요가치료 Rx 프로그램을 실시하고 프로그램 전과 후에 우울과 회복탄력성을 측정하였다. 14인의 남녀가 실험집단에 14인의 우울 중년 남녀가 참여했으며 요가 교육 프로그램에 전혀 참여하지 않은 14인을 통제집단으로 구성하였다.연구 결과 실험집단에서는 우울의 사전-사후 조사 결과에 유의미한 평균 차이가 있는 것으로 나타났다(t=7.039>±1.96, p<.001). 요가 프로그램을 실시하기 전 실험집단의 평균값이 14.36에서 요가 프로그램을 실시한 이후 평균값 6.43로 나타났다. 즉, 요가 프로그램을 통해 실험집단에서 참가자들의 우울 지각 정도가 낮아졌음을 확인할 수 있다. 회복탄력성의 경우 실험집단에서는 회복탄력성의 사전-사후 조사 결과에 유의미한 평균차이가 있는 것으로 나타났다(t=-7.001>±1.96, p<.001). 구체적으로 요가 프로그램을 실시하기 전 실험집단의 평균값이 85.71에서 요가 프로그램을 실시한 이후 평균값 102.93으로 나타났음을 확인할 수 있다. 즉, 요가 프로그램을 통해 실험집단에서의 참가자들은 회복탄력성을 높게 지각한 것으로 나타났다. 본 연구결과로 보아 요가치료 Rx(마음챙김 기반 요가치료) 프로그램은 중년 남녀의 우울증을 치료하기 위한 프로그램으로 임상장면에서 효과적으로 적용될 가능성이 있음을 알 수 있다.",
-      "abstract_en": "",
+      "abstract_en": "This study aimed to identify the effects of a yoga treatment program on depression and resilience of Korean middle-aged adults. In Korea, the numbers of studies on yoga programs to improve depression have increased, but there are few studies that have applied mindfulness-centered yoga therapy to middle-aged men and women with depression. In this study, Yoga therapy Rx program of 18 sessions for 6 weeks was conducted for depressed middle-aged men and women, and depression and resilience were measured before and after the program. 14 men and women participated in the experimental group, 14 depressed middle-aged men and women were constituted as a control group.\nAs a result of the study, it was found that there was a significant average difference in the experimental group (t=7.039>±1.96, p<.001). The average value of the experimental group before the yoga program was 14.36, and after the yoga program, the average value was 6.43. In other words, it can be confirmed that the degree of depression perception of the participants in the experimental group was lowered through the yoga program. In the case of resilience, there was a significant average difference in the experimental group (t=-7.001>±1.96, p<.001). Specifically, it can be confirmed that the average value of the experimental group before the yoga program was 85.71 and the average value after the yoga program was 102.93. In other words, it was found that the participants in the experimental group perceived resilience highly through the yoga program. From the results of this study, it can be seen that the yoga therapy Rx (mindfulness-based yoga therapy) program is a program to treat depression in middle-aged men and women and has the potential to be effectively applied in clinical settings.",
       "journal_name": "명상심리상담",
       "year": "2022",
       "volume": "28",
@@ -6255,7 +6305,7 @@
       "end_page": "73",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=60ba0c8530221626b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002925900",
       "keywords_kr": [
         "중년 우울증",
         "요가치료 Rx",
@@ -6273,8 +6323,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002925900",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "60ba0c8530221626b36097776a77e665",
       "id": "60ba0c8530221626b36097776a77e665"

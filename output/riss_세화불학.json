@@ -143,7 +143,7 @@
       "end_page": "112",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a8f1df0af7f342beb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003276676",
       "keywords_kr": [
         "수월",
         "경허",
@@ -156,8 +156,10 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003276676",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a8f1df0af7f342beb36097776a77e665",
       "id": "a8f1df0af7f342beb36097776a77e665"
