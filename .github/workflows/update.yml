@@ -33,7 +33,7 @@ on:
         required: false
         default: ""
       target:
-        description: "실행 대상 (riss/ibk/kci/all)"
+        description: "실행 대상 (riss/ibk/kci/kcilink/all) — kcilink: 인증키로 KCI 원문 번호만 연결(끝날 때까지 자동 반복)"
         required: false
         default: "riss"
       depth:
@@ -125,15 +125,19 @@ jobs:
       # RISS 로 받은 논문마다 KCI 논문번호(ART…)를 찾아 'KCI 원문' 버튼이 그 논문 페이지로 바로 가게 한다.
       # 키가 없으면 안내만 남기고 넘어간다. (Settings → Secrets → Actions → KCI_API_KEY)
       - name: KCI 논문번호 연결 (Open API)
+        id: link
         if: >
           vars.KCI_ENABLED == 'true' ||
           github.event.inputs.target == 'kci' ||
+          github.event.inputs.target == 'kcilink' ||
           github.event.inputs.target == 'all'
         continue-on-error: true
-        timeout-minutes: ${{ github.event.inputs.target == 'kci' && 70 || 15 }}
+        timeout-minutes: ${{ github.event.inputs.target == 'kcilink' && 295 || (github.event.inputs.target == 'kci' && 70 || 15) }}
         run: |
           cd collector
-          if [ "${{ github.event.inputs.target }}" = "kci" ]; then
+          if [ "${{ github.event.inputs.target }}" = "kcilink" ]; then
+            python kci_link.py --deadline-min 280 --max-calls 20000      # 연결만 집중 (OAI 수확은 건너뜀)
+          elif [ "${{ github.event.inputs.target }}" = "kci" ]; then
             python kci_link.py --deadline-min 60 --max-calls 6000
           else
             python kci_link.py --deadline-min 10 --max-calls 1000
@@ -148,7 +152,7 @@ jobs:
       - name: KCI 신규 논문 수집 (OAI-PMH)
         id: kci
         if: >
-          vars.KCI_ENABLED == 'true' ||
+          (vars.KCI_ENABLED == 'true' && github.event.inputs.target != 'kcilink') ||
           github.event.inputs.target == 'kci' ||
           github.event.inputs.target == 'all'
         continue-on-error: true
@@ -334,3 +338,26 @@ jobs:
           gh workflow run update.yml --ref "${{ github.ref_name }}" \
             -f target=kci -f kci_from="${{ github.event.inputs.kci_from }}" -f repeat=yes -f round=$NEXT
           echo "🔁 KCI 전체 수확 미완료 → ${NEXT}회차를 자동 예약했습니다 (그만두려면 대기 중인 실행을 Cancel)" | tee -a $GITHUB_STEP_SUMMARY
+
+      # ── KCI 원문 번호 연결 자동 반복 (target=kcilink) ─────────────
+      - name: KCI 번호 연결 — 다음 회차 자동 예약
+        if: >
+          always() &&
+          github.event_name == 'workflow_dispatch' &&
+          github.event.inputs.target == 'kcilink' &&
+          github.event.inputs.repeat != 'no' &&
+          steps.link.outputs.remaining != '' &&
+          steps.link.outputs.remaining != '0' &&
+          steps.link.outputs.progress == 'true' &&
+          steps.commit.outcome != 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          ROUND="${{ github.event.inputs.round }}"; ROUND=${ROUND:-1}
+          if [ "$ROUND" -ge 10 ]; then
+            echo "⏹ 자동 반복 10회차 도달 — 멈춤" | tee -a $GITHUB_STEP_SUMMARY; exit 0
+          fi
+          NEXT=$((ROUND + 1))
+          gh workflow run update.yml --ref "${{ github.ref_name }}" -f target=kcilink -f repeat=yes -f round=$NEXT
+          echo "🔁 KCI 번호 연결 남은 대상 ${{ steps.link.outputs.remaining }}편 → ${NEXT}회차를 자동 예약했습니다" | tee -a $GITHUB_STEP_SUMMARY
