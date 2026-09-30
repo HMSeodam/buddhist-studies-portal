@@ -3255,9 +3255,9 @@
       "issue": "",
       "start_page": "5",
       "end_page": "40",
-      "doi": "",
+      "doi": "10.23222/jjos.2026.16..5",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f43538a87569e2a4c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003348400",
       "keywords_kr": [
         "청담",
         "경산",
@@ -3275,8 +3275,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "f43538a87569e2a4c85d2949c297615a",
+      "kci_id": "ART003348400",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f43538a87569e2a4c85d2949c297615a"
     },
@@ -3299,9 +3301,9 @@
       "issue": "",
       "start_page": "41",
       "end_page": "69",
-      "doi": "",
+      "doi": "10.23222/jjos.2026.16..41",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f43538a87569e2a447de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003348415",
       "keywords_kr": [
         "초의 의순",
         "이종선",
@@ -3319,8 +3321,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "f43538a87569e2a447de9c1710b0298d",
+      "kci_id": "ART003348415",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f43538a87569e2a447de9c1710b0298d"
     },
@@ -3392,9 +3396,9 @@
       "issue": "",
       "start_page": "105",
       "end_page": "135",
-      "doi": "",
+      "doi": "10.23222/jjos.2026.16..105",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f43538a87569e2a4e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003348452",
       "keywords_kr": [
         "아하라(āhāra)",
         "구종식(九種食)",
@@ -3412,8 +3416,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "f43538a87569e2a4e9810257f7042666",
+      "kci_id": "ART003348452",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f43538a87569e2a4e9810257f7042666"
     }

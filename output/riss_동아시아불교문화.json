@@ -46428,9 +46428,9 @@
       "issue": "67",
       "start_page": "3",
       "end_page": "30",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.01",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff45893bc52cc6a1e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183426",
       "keywords_kr": [
         "원효",
         "대승기신론",
@@ -46447,8 +46447,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183426",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ff45893bc52cc6a1e9810257f7042666",
       "id": "ff45893bc52cc6a1e9810257f7042666"
@@ -46477,9 +46479,9 @@
       "issue": "67",
       "start_page": "31",
       "end_page": "51",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.02",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1c3b3d163658cb29b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183427",
       "keywords_kr": [
         "허응당",
         "보우",
@@ -46499,8 +46501,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183427",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1c3b3d163658cb29b7998d826d417196",
       "id": "1c3b3d163658cb29b7998d826d417196"
@@ -46524,9 +46528,9 @@
       "issue": "67",
       "start_page": "53",
       "end_page": "83",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.03",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff45893bc52cc6a17f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183443",
       "keywords_kr": [
         "청허휴정(淸虛 休靜)",
         "삼가귀감(三家龜鑑)",
@@ -46543,8 +46547,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183443",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ff45893bc52cc6a17f7a54760bb41745",
       "id": "ff45893bc52cc6a17f7a54760bb41745"
@@ -46568,9 +46574,9 @@
       "issue": "67",
       "start_page": "85",
       "end_page": "110",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.04",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff45893bc52cc6a1c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183444",
       "keywords_kr": [
         "무념(無念)",
         "선(禪)",
@@ -46587,8 +46593,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183444",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ff45893bc52cc6a1c85d2949c297615a",
       "id": "ff45893bc52cc6a1c85d2949c297615a"
@@ -46612,9 +46620,9 @@
       "issue": "67",
       "start_page": "111",
       "end_page": "131",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.05",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff45893bc52cc6a14884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183445",
       "keywords_kr": [
         "지의",
         "천태",
@@ -46631,8 +46639,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183445",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ff45893bc52cc6a14884a65323211ff0",
       "id": "ff45893bc52cc6a14884a65323211ff0"
@@ -46656,9 +46666,9 @@
       "issue": "67",
       "start_page": "133",
       "end_page": "160",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.06",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff45893bc52cc6a1d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183446",
       "keywords_kr": [
         "평정심",
         "평상심",
@@ -46675,8 +46685,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183446",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ff45893bc52cc6a1d18150b21a227875",
       "id": "ff45893bc52cc6a1d18150b21a227875"
@@ -46700,9 +46712,9 @@
       "issue": "67",
       "start_page": "161",
       "end_page": "189",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.07",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff45893bc52cc6a147de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183448",
       "keywords_kr": [
         "shànzhīshi(善知識)",
         "선지식(善知識)",
@@ -46719,8 +46731,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183448",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ff45893bc52cc6a147de9c1710b0298d",
       "id": "ff45893bc52cc6a147de9c1710b0298d"
@@ -46749,9 +46763,9 @@
       "issue": "67",
       "start_page": "193",
       "end_page": "221",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.08",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff45893bc52cc6a16aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183447",
       "keywords_kr": [
         "자장(慈藏)",
         "원효(元曉)",
@@ -46772,8 +46786,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183447",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ff45893bc52cc6a16aae8a972f9116fb",
       "id": "ff45893bc52cc6a16aae8a972f9116fb"
@@ -46797,9 +46813,9 @@
       "issue": "67",
       "start_page": "223",
       "end_page": "246",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.09",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1c3b3d163658cb294884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183449",
       "keywords_kr": [
         "추사",
         "김정희",
@@ -46816,8 +46832,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183449",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1c3b3d163658cb294884a65323211ff0",
       "id": "1c3b3d163658cb294884a65323211ff0"
@@ -46841,9 +46859,9 @@
       "issue": "67",
       "start_page": "247",
       "end_page": "276",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.10",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1c3b3d163658cb297ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183450",
       "keywords_kr": [
         "불상",
         "조각승",
@@ -46860,8 +46878,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183450",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1c3b3d163658cb297ecd42904f0c5d65",
       "id": "1c3b3d163658cb297ecd42904f0c5d65"
@@ -46885,9 +46905,9 @@
       "issue": "67",
       "start_page": "277",
       "end_page": "314",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.11",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1c3b3d163658cb29b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183451",
       "keywords_kr": [
         "명상",
         "좌선 자세",
@@ -46904,8 +46924,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183451",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1c3b3d163658cb29b36097776a77e665",
       "id": "1c3b3d163658cb29b36097776a77e665"
@@ -46929,9 +46951,9 @@
       "issue": "67",
       "start_page": "315",
       "end_page": "347",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.67.12",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff45893bc52cc6a1b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003183452",
       "keywords_kr": [
         "염불보권문",
         "보권문",
@@ -46948,8 +46970,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003183452",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ff45893bc52cc6a1b7998d826d417196",
       "id": "ff45893bc52cc6a1b7998d826d417196"
@@ -46973,9 +46997,9 @@
       "issue": "68",
       "start_page": "3",
       "end_page": "30",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.01",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ac1aa787449c65ca7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003202991",
       "keywords_kr": [
         "법장",
         "중중무진",
@@ -46992,8 +47016,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003202991",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ac1aa787449c65ca7f7a54760bb41745",
       "id": "ac1aa787449c65ca7f7a54760bb41745"
@@ -47017,9 +47043,9 @@
       "issue": "68",
       "start_page": "31",
       "end_page": "55",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.02",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1a52052f1cf332b7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003202993",
       "keywords_kr": [
         "자장",
         "보천",
@@ -47042,8 +47068,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003202993",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b1a52052f1cf332b7ecd42904f0c5d65",
       "id": "b1a52052f1cf332b7ecd42904f0c5d65"
@@ -47067,9 +47095,9 @@
       "issue": "68",
       "start_page": "57",
       "end_page": "82",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.03",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ac1aa787449c65cad18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003202995",
       "keywords_kr": [
         "원효",
         "열반종요",
@@ -47086,8 +47114,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003202995",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ac1aa787449c65cad18150b21a227875",
       "id": "ac1aa787449c65cad18150b21a227875"
@@ -47111,9 +47141,9 @@
       "issue": "68",
       "start_page": "83",
       "end_page": "115",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.04",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1a52052f1cf332bc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003202996",
       "keywords_kr": [
         "화엄경",
         "여래출현품",
@@ -47132,8 +47162,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003202996",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b1a52052f1cf332bc85d2949c297615a",
       "id": "b1a52052f1cf332bc85d2949c297615a"
@@ -47204,9 +47236,9 @@
       "issue": "68",
       "start_page": "141",
       "end_page": "169",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.06",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1a52052f1cf332b47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003202998",
       "keywords_kr": [
         "즉각적 깨달음(돈오",
         "頓悟)",
@@ -47228,8 +47260,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003202998",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b1a52052f1cf332b47de9c1710b0298d",
       "id": "b1a52052f1cf332b47de9c1710b0298d"
@@ -47258,9 +47292,9 @@
       "issue": "68",
       "start_page": "171",
       "end_page": "195",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.07",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1a52052f1cf332b7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003202999",
       "keywords_kr": [
         "화두",
         "언어",
@@ -47277,8 +47311,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003202999",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b1a52052f1cf332b7f7a54760bb41745",
       "id": "b1a52052f1cf332b7f7a54760bb41745"
@@ -47307,9 +47343,9 @@
       "issue": "68",
       "start_page": "197",
       "end_page": "225",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.08",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1a52052f1cf332bb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203000",
       "keywords_kr": [
         "Śrāvastī",
         "사위성",
@@ -47327,8 +47363,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003203000",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b1a52052f1cf332bb7998d826d417196",
       "id": "b1a52052f1cf332bb7998d826d417196"
@@ -47352,9 +47390,9 @@
       "issue": "68",
       "start_page": "229",
       "end_page": "264",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.09",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ac1aa787449c65ca6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203001",
       "keywords_kr": [
         "불설팔관재계비밀구생정토심요",
         "팔관재계정토심요",
@@ -47373,8 +47411,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003203001",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ac1aa787449c65ca6aae8a972f9116fb",
       "id": "ac1aa787449c65ca6aae8a972f9116fb"
@@ -47398,9 +47438,9 @@
       "issue": "68",
       "start_page": "265",
       "end_page": "299",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.10",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1a52052f1cf332be9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203004",
       "keywords_kr": [
         "금강삼매경",
         "의해백문",
@@ -47417,8 +47457,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003203004",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b1a52052f1cf332be9810257f7042666",
       "id": "b1a52052f1cf332be9810257f7042666"
@@ -47442,9 +47484,9 @@
       "issue": "68",
       "start_page": "301",
       "end_page": "338",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.11",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1a52052f1cf332bb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203006",
       "keywords_kr": [
         "본생경",
         "업연 윤회",
@@ -47461,8 +47503,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003203006",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b1a52052f1cf332bb36097776a77e665",
       "id": "b1a52052f1cf332bb36097776a77e665"
@@ -47486,9 +47530,9 @@
       "issue": "68",
       "start_page": "339",
       "end_page": "365",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.12",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1a52052f1cf332b4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203007",
       "keywords_kr": [
         "이근원통(耳根圓通)",
         "능엄경(楞嚴經)",
@@ -47505,8 +47549,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003203007",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b1a52052f1cf332b4884a65323211ff0",
       "id": "b1a52052f1cf332b4884a65323211ff0"
@@ -47535,9 +47581,9 @@
       "issue": "68",
       "start_page": "367",
       "end_page": "401",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.13",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ac1aa787449c65cae9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203008",
       "keywords_kr": [
         "뇌과학",
         "마음",
@@ -47554,8 +47600,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003203008",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ac1aa787449c65cae9810257f7042666",
       "id": "ac1aa787449c65cae9810257f7042666"
@@ -47584,9 +47632,9 @@
       "issue": "68",
       "start_page": "403",
       "end_page": "438",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.68.14",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1a52052f1cf332bd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003203009",
       "keywords_kr": [
         "조사선",
         "간화선",
@@ -47607,8 +47655,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003203009",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b1a52052f1cf332bd18150b21a227875",
       "id": "b1a52052f1cf332bd18150b21a227875"
@@ -47632,9 +47682,9 @@
       "issue": "69",
       "start_page": "3",
       "end_page": "27",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.01",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=aa536d9bce23b1a6e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225227",
       "keywords_kr": [
         "寶川",
         "孝明",
@@ -47650,8 +47700,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225227",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "aa536d9bce23b1a6e9810257f7042666",
       "id": "aa536d9bce23b1a6e9810257f7042666"
@@ -47675,9 +47727,9 @@
       "issue": "69",
       "start_page": "29",
       "end_page": "51",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.02",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=97820bd92f4db945b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225230",
       "keywords_kr": [
         "화랑",
         "미륵",
@@ -47695,8 +47747,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225230",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "97820bd92f4db945b36097776a77e665",
       "id": "97820bd92f4db945b36097776a77e665"
@@ -47720,9 +47774,9 @@
       "issue": "69",
       "start_page": "53",
       "end_page": "81",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.03",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d0b5063e3f430e367f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225232",
       "keywords_kr": [
         "청담",
         "대한불교",
@@ -47743,8 +47797,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225232",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d0b5063e3f430e367f7a54760bb41745",
       "id": "d0b5063e3f430e367f7a54760bb41745"
@@ -47773,9 +47829,9 @@
       "issue": "69",
       "start_page": "83",
       "end_page": "108",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.04",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=aa536d9bce23b1a6b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225235",
       "keywords_kr": [
         "『전심법요』",
         "대사",
@@ -47792,8 +47848,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225235",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "aa536d9bce23b1a6b36097776a77e665",
       "id": "aa536d9bce23b1a6b36097776a77e665"
@@ -47817,9 +47875,9 @@
       "issue": "69",
       "start_page": "109",
       "end_page": "133",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.05",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=97820bd92f4db9454884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225242",
       "keywords_kr": [
         "일본선종",
         "가마쿠라시대",
@@ -47836,8 +47894,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225242",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "97820bd92f4db9454884a65323211ff0",
       "id": "97820bd92f4db9454884a65323211ff0"
@@ -47861,9 +47921,9 @@
       "issue": "69",
       "start_page": "135",
       "end_page": "159",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.06",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d0b5063e3f430e366aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225245",
       "keywords_kr": [
         "좋은 친구",
         "범행",
@@ -47880,8 +47940,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225245",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d0b5063e3f430e366aae8a972f9116fb",
       "id": "d0b5063e3f430e366aae8a972f9116fb"
@@ -47905,9 +47967,9 @@
       "issue": "69",
       "start_page": "161",
       "end_page": "186",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.07",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=aa536d9bce23b1a66aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225250",
       "keywords_kr": [
         "유가행중관학파",
         "『명상수행의 점진적 단계』 첫 번째 편",
@@ -47928,8 +47990,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225250",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "aa536d9bce23b1a66aae8a972f9116fb",
       "id": "aa536d9bce23b1a66aae8a972f9116fb"
@@ -47953,9 +48017,9 @@
       "issue": "69",
       "start_page": "189",
       "end_page": "218",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.08",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=aa536d9bce23b1a67f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225253",
       "keywords_kr": [
         "공간 인식",
         "종교지리학",
@@ -47976,8 +48040,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225253",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "aa536d9bce23b1a67f7a54760bb41745",
       "id": "aa536d9bce23b1a67f7a54760bb41745"
@@ -48001,9 +48067,9 @@
       "issue": "69",
       "start_page": "219",
       "end_page": "248",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.09",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d0b5063e3f430e36c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225255",
       "keywords_kr": [
         "정서",
         "심소법",
@@ -48020,8 +48086,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225255",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d0b5063e3f430e36c85d2949c297615a",
       "id": "d0b5063e3f430e36c85d2949c297615a"
@@ -48045,9 +48113,9 @@
       "issue": "69",
       "start_page": "249",
       "end_page": "284",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.10",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=97820bd92f4db9457ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225256",
       "keywords_kr": [
         "불교 식생활 규범",
         "조계종",
@@ -48064,8 +48132,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225256",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "97820bd92f4db9457ecd42904f0c5d65",
       "id": "97820bd92f4db9457ecd42904f0c5d65"
@@ -48089,9 +48159,9 @@
       "issue": "69",
       "start_page": "285",
       "end_page": "314",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.11",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=aa536d9bce23b1a64884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225272",
       "keywords_kr": [
         "마음챙김",
         "자비명상",
@@ -48108,8 +48178,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225272",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "aa536d9bce23b1a64884a65323211ff0",
       "id": "aa536d9bce23b1a64884a65323211ff0"
@@ -48133,9 +48205,9 @@
       "issue": "69",
       "start_page": "315",
       "end_page": "352",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.69.12",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=aa536d9bce23b1a6c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003225277",
       "keywords_kr": [
         "사식(四食)",
         "인식론적 순환",
@@ -48152,8 +48224,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003225277",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "aa536d9bce23b1a6c85d2949c297615a",
       "id": "aa536d9bce23b1a6c85d2949c297615a"
@@ -48170,16 +48244,16 @@
         }
       ],
       "abstract_kr": "This study compares and analyzes the Fourfold Dialectic (四句論法) of Jizang, Wonhyo, and Zhiyi, who played pivotal roles in shaping the East Asian Buddhist understanding of the “true aspect of all dharmas” (諸法實相). Unlike Nāgārjuna’s primarily negative employment of the tetralemma, East Asian thinkers transformed it into an active hermeneutical method for grasping ultimate reality. In this context, the present paper examines Jizang’s logic of mutual dependence (相依相關) and his interpretation of the Middle Way as “neither existence nor nonexistence” (非有非無), Wonhyo’s hwajaeng (和諍)-oriented affirmation of the tetralemma, and Zhiyi’s analytical approach to the Fourfold Dialectic, thereby highlighting the originality of their respective interpretations.Jizang, through his logic of mutual dependence, directed attention to the ultimate Middle Way of “forgetting words and silencing thought” (言忘慮絶). Wonhyo, by affirming all four alternatives of the tetralemma, constructed an open framework of reconciliation that dissolves oppositions. Zhiyi, by treating discriminations of the four alternatives as indispensable to practice, developed a systematic methodology for liberation and the realization of the “perfect teaching’s true aspect” (圓敎實相). While each thinker inherited the Madhyamaka tradition, they creatively reinterpreted the tetralemma within the socio-cultural contexts of sixth- and seventh-century East Asia. Such hermeneutical transformations exemplify the distinctive developments of the East Asian Buddhist philosophical “golden age.”",
-      "abstract_en": "",
+      "abstract_en": "This study compares and analyzes the Fourfold Dialectic (四句論法) of Jizang, Wonhyo, and Zhiyi, who played pivotal roles in shaping the East Asian Buddhist understanding of the “true aspect of all dharmas” (諸法實相). Unlike Nāgārjuna’s primarily negative employment of the tetralemma, East Asian thinkers transformed it into an active hermeneutical method for grasping ultimate reality. In this context, the present paper examines Jizang’s logic of mutual dependence (相依相關) and his interpretation of the Middle Way as “neither existence nor nonexistence” (非有非無), Wonhyo’s hwajaeng (和諍)-oriented affirmation of the tetralemma, and Zhiyi’s analytical approach to the Fourfold Dialectic, thereby highlighting the originality of their respective interpretations.\nJizang, through his logic of mutual dependence, directed attention to the ultimate Middle Way of “forgetting words and silencing thought” (言忘慮絶). Wonhyo, by affirming all four alternatives of the tetralemma, constructed an open framework of reconciliation that dissolves oppositions. Zhiyi, by treating discriminations of the four alternatives as indispensable to practice, developed a systematic methodology for liberation and the realization of the “perfect teaching’s true aspect” (圓敎實相). While each thinker inherited the Madhyamaka tradition, they creatively reinterpreted the tetralemma within the socio-cultural contexts of sixth- and seventh-century East Asia. Such hermeneutical transformations exemplify the distinctive developments of the East Asian Buddhist philosophical “golden age.”",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "3",
       "end_page": "33",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.01",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fdd47a9fafc603b57f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003243990",
       "keywords_kr": [
         "길장",
         "원효",
@@ -48196,8 +48270,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003243990",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fdd47a9fafc603b57f7a54760bb41745",
       "id": "fdd47a9fafc603b57f7a54760bb41745"
@@ -48214,16 +48290,16 @@
         }
       ],
       "abstract_kr": "This paper explores the original sources of the so-called ‘Condition for Judgment’ that appears in Type 1 among the cases in Wonhyo's theory of Harmonization. The main object of inquiry was the ‘Twofold Truth as a Teaching (二諦是敎)’ in Sān-lùn school and the theory of twofold truth in Chéng-shi-lùn school and Middle Way school was also investigated.First, ‘the Condition for Judgment’ was checked. In Type 1 among the cases in Wonhyo's theory of Harmonization, Wonhyo adds conditions such as ‘if you take the word as it is’ and ‘if you take the meaning of the word’ before he makes a judgment that ‘every theory is wrong’ and ‘every theory is right.’ We call the former phrases ‘the Condition for Judgment.’ Second, the teaching of ‘Twofold Truth as a Teaching’ in Chinese Sān-lùn school was explored. This teaching in the school means that the Buddha said the twofold truth in language to convey the middle way. Jí-zàng (吉藏, 549-623) used ‘the metaphor of finger and moon’ to explain the teaching easily, and Wonhyo also used the metaphor in the theory of Harmonization.And third, we also looked at the theory of twofold truth in 2 more schools. The theory in Chéng-shi-lùn school is theoretically distinguished from the theory in Sān-lùn school, so it could not be viewed as the source of the condition. In addition, since Middle Way school also did not share the same ideas with Sān-lùn school, it could not be judged as the source.",
-      "abstract_en": "",
+      "abstract_en": "This paper explores the original sources of the so-called ‘Condition for Judgment’ that appears in Type 1 among the cases in Wonhyo's theory of Harmonization. The main object of inquiry was the ‘Twofold Truth as a Teaching (二諦是敎)’ in Sān-lùn school and the theory of twofold truth in Chéng-shi-lùn school and Middle Way school was also investigated.\nFirst, ‘the Condition for Judgment’ was checked. In Type 1 among the cases in Wonhyo's theory of Harmonization, Wonhyo adds conditions such as ‘if you take the word as it is’ and ‘if you take the meaning of the word’ before he makes a judgment that ‘every theory is wrong’ and ‘every theory is right.’ We call the former phrases ‘the Condition for Judgment.’ Second, the teaching of ‘Twofold Truth as a Teaching’ in Chinese Sān-lùn school was explored. This teaching in the school means that the Buddha said the twofold truth in language to convey the middle way. Jí-zàng (吉藏, 549-623) used ‘the metaphor of finger and moon’ to explain the teaching easily, and Wonhyo also used the metaphor in the theory of Harmonization.\nAnd third, we also looked at the theory of twofold truth in 2 more schools. The theory in Chéng-shi-lùn school is theoretically distinguished from the theory in Sān-lùn school, so it could not be viewed as the source of the condition. In addition, since Middle Way school also did not share the same ideas with Sān-lùn school, it could not be judged as the source.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "35",
       "end_page": "64",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.02",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fdd47a9fafc603b56aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003243992",
       "keywords_kr": [
         "화쟁론",
         "판단조건",
@@ -48240,8 +48316,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003243992",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fdd47a9fafc603b56aae8a972f9116fb",
       "id": "fdd47a9fafc603b56aae8a972f9116fb"
@@ -48258,16 +48336,16 @@
         }
       ],
       "abstract_kr": "This study This paper analyzes how the Discours on the nature of Buddha’s words(敎體論) as presented in Woncheuk’s Haesimmilgyŏngso(Commentary on the Saṃdhinirmocana-sūtra) is understood within Yogācāra thought as a practical epistemic structure for the bodhisattva path. Focusing on the second and third of the Five Gateways of Emanation(五門出體)—namely, the Gateway of Resolving Appearances into Consciousness (攝相歸識門) and the Gateway of Following the Real through the Provisional(以假從實門)—this study examines the core framework of the Discours on the nature of Buddha’s words. Drawing on Cheng weishi lun for the second gateway and the Yogācārabhūmiśāstra, specifically the Tattvārtha-paṭala(Chapter on the Meaning of Ultimate Truth), for the third, it elucidates the interrelationship between Yogācāra's theory of language and the theory of self-nature(svabhāva). Through this lens, the non-dual logic is explored in which the existence of conceptually constructed nature (parikalpita-svabhāva) and the existence of inexpressible self-nature (nirabhilāpya- svabhāva) are both negated simultaneously. the Discours on the nature of Buddha’s words unfolds on an epistemological basis wherein conventional truth is constituted as a linguistically constructed order(vyavahāra). This indicates that Yogācāra’s distinctive linguistic world-conception—grounded in meditative experience—provides the operative foundation for the structure of the bodhisattva’s path of practice, as confirmed in the Tattvārtha-paṭala. Accordingly, the linguistic perspective embedded in Woncheuk’s interpretation of the Theory of Teaching-Substance, aimed at explicating the Buddha’s truth, implies a Yogācāra worldview rooted in praxis. This continuity between Woncheuk’s doctrinal model and early Yogācāra practice traditions reveals the enduring link between Chinese Faxiang scholasticism and the soteriological foundations of Indian Yogācāra.",
-      "abstract_en": "",
+      "abstract_en": "This study This paper analyzes how the Discours on the nature of Buddha’s words(敎體論) as presented in Woncheuk’s Haesimmilgyŏngso(Commentary on the Saṃdhinirmocana-sūtra) is understood within Yogācāra thought as a practical epistemic structure for the bodhisattva path. Focusing on the second and third of the Five Gateways of Emanation(五門出體)—namely, the Gateway of Resolving Appearances into Consciousness (攝相歸識門) and the Gateway of Following the Real through the Provisional(以假從實門)—this study examines the core framework of the Discours on the nature of Buddha’s words. Drawing on Cheng weishi lun for the second gateway and the Yogācārabhūmiśāstra, specifically the Tattvārtha-paṭala(Chapter on the Meaning of Ultimate Truth), for the third, it elucidates the interrelationship between Yogācāra's theory of language and the theory of self-nature(svabhāva). Through this lens, the non-dual logic is explored in which the existence of conceptually constructed nature (parikalpita-svabhāva) and the existence of inexpressible self-nature (nirabhilāpya- svabhāva) are both negated simultaneously. the Discours on the nature of Buddha’s words unfolds on an epistemological basis wherein conventional truth is constituted as a linguistically constructed order(vyavahāra). This indicates that Yogācāra’s distinctive linguistic world-conception—grounded in meditative experience—provides the operative foundation for the structure of the bodhisattva’s path of practice, as confirmed in the Tattvārtha-paṭala. Accordingly, the linguistic perspective embedded in Woncheuk’s interpretation of the Theory of Teaching-Substance, aimed at explicating the Buddha’s truth, implies a Yogācāra worldview rooted in praxis. This continuity between Woncheuk’s doctrinal model and early Yogācāra practice traditions reveals the enduring link between Chinese Faxiang scholasticism and the soteriological foundations of Indian Yogācāra.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "65",
       "end_page": "95",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.03",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=429c301c34e29c277f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003243993",
       "keywords_kr": [
         "원측",
         "해심밀경소",
@@ -48284,8 +48362,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003243993",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "429c301c34e29c277f7a54760bb41745",
       "id": "429c301c34e29c277f7a54760bb41745"
@@ -48302,16 +48382,16 @@
         }
       ],
       "abstract_kr": "This paper explores the relationship between Fazang's(法藏, 643-712) Huayan(華嚴) teachings and the Awakening of Faith in Mahayana(大乘起信論), and examines how the Awakening of Faith was understood within Fazang's systems of doctrinal classification. It investigates the meaning of citations of the Awakening of Faith found in early works like the Wujiaozhang(五教章) and later works such as the QixinlunYigi(起信論義記) and the Tanxuanji(探玄記). It clarifies that the Five Doctrinal Classifications(五敎判) and Four Doctrinal Schools(四宗判) have different interests, and there was no change in Fazang's doctrinal classifications between his early and later thought.In the Five Doctrinal Classifications established in the Wujiaozhang, the Awakening of Faith holds the status of the Three Vehicles(三乘), clearly distinguished from the One Vehicle Perfect Teaching(一乘圓敎). While the Awakening of Faith encompasses the Initial Teaching(始敎) and plays a pivotal role in laying the foundation for Fazang's Huayan teachings, it is classified as the Final Teaching(終敎), thus differing in dimension from the One Vehicle Perfect Teaching based on the Huayan Sutra(華嚴經).The QixinlunYigi classifies the Awakening of Faith as the ‘Tathagatagarbha- dependent Arising School(如來藏緣起宗)’ according to the system of the Four Doctrinal Schools. Discussions of True Suchness(眞如) and non-obstruction(無礙) in the QixinlunYigi are based on non-obstruction between principle and phenomenon(理事無礙), which is distant from the non-obstruction between phenomena(事事無礙) dimension presented by the Separate One Vehicle(別教一乘). The Tanxuanji maintains the position of the Wujiaozhang, which places the Awakening of Faith in the category of the Three Vehicle Final Teaching, thereby subordinate to the One Vehicle Perfect Teaching. It is reasonable to view the Five Doctrinal Classifications and the Four Doctrinal Schools as having their own independent meanings within Fazang's doctrinal classification theory. The Four Doctrinal Schools primarily focus on encompassing the Alaya-consciousness(阿賴耶識) of the Yogacara(唯識) tradition through the Tathagatagarbha(如來藏) thought, whereas the Five Doctrinal Classifications seem to be primarily concerned with the non-obstruction between phenomena(事事無礙) discussions of the One Vehicle Perfect Teaching within Huayan teachings.",
-      "abstract_en": "",
+      "abstract_en": "This paper explores the relationship between Fazang's(法藏, 643-712) Huayan(華嚴) teachings and the Awakening of Faith in Mahayana(大乘起信論), and examines how the Awakening of Faith was understood within Fazang's systems of doctrinal classification. It investigates the meaning of citations of the Awakening of Faith found in early works like the Wujiaozhang(五教章) and later works such as the QixinlunYigi(起信論義記) and the Tanxuanji(探玄記). It clarifies that the Five Doctrinal Classifications(五敎判) and Four Doctrinal Schools(四宗判) have different interests, and there was no change in Fazang's doctrinal classifications between his early and later thought.\nIn the Five Doctrinal Classifications established in the Wujiaozhang, the Awakening of Faith holds the status of the Three Vehicles(三乘), clearly distinguished from the One Vehicle Perfect Teaching(一乘圓敎). While the Awakening of Faith encompasses the Initial Teaching(始敎) and plays a pivotal role in laying the foundation for Fazang's Huayan teachings, it is classified as the Final Teaching(終敎), thus differing in dimension from the One Vehicle Perfect Teaching based on the Huayan Sutra(華嚴經).\nThe QixinlunYigi classifies the Awakening of Faith as the ‘Tathagatagarbha- dependent Arising School(如來藏緣起宗)’ according to the system of the Four Doctrinal Schools. Discussions of True Suchness(眞如) and non-obstruction(無礙) in the QixinlunYigi are based on non-obstruction between principle and phenomenon(理事無礙), which is distant from the non-obstruction between phenomena(事事無礙) dimension presented by the Separate One Vehicle(別教一乘). The Tanxuanji maintains the position of the Wujiaozhang, which places the Awakening of Faith in the category of the Three Vehicle Final Teaching, thereby subordinate to the One Vehicle Perfect Teaching. It is reasonable to view the Five Doctrinal Classifications and the Four Doctrinal Schools as having their own independent meanings within Fazang's doctrinal classification theory. The Four Doctrinal Schools primarily focus on encompassing the Alaya-consciousness(阿賴耶識) of the Yogacara(唯識) tradition through the Tathagatagarbha(如來藏) thought, whereas the Five Doctrinal Classifications seem to be primarily concerned with the non-obstruction between phenomena(事事無礙) discussions of the One Vehicle Perfect Teaching within Huayan teachings.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "97",
       "end_page": "127",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.04",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fdd47a9fafc603b54884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003243996",
       "keywords_kr": [
         "화엄교학",
         "『기신론』",
@@ -48328,8 +48408,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003243996",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fdd47a9fafc603b54884a65323211ff0",
       "id": "fdd47a9fafc603b54884a65323211ff0"
@@ -48346,16 +48428,16 @@
         }
       ],
       "abstract_kr": "This study systematically analyzes the reception and application of Southern Chan (南宗禪) Buddhist thought in the Direct Commentary on the Vimalakīrti Sūtra (Weimojing Zhishu, 維摩經直疏) by Yiyu Tongrun (一雨通潤, 1565-1624), an eminent Huayan monk of the late Ming dynasty. In his commentary on the Vimalakīrti Sūtra, Tongrun actively incorporated Southern Chan thought centered on the Sixth Patriarch Huineng(六祖慧能) and Mazu Daoyi(馬祖道一) to reinterpret the scripture's core concepts.The findings reveal that, first, Tongrun employed Huineng’s concepts of inherent purity of self-nature (zixing qingjing, 自性淸淨), the three non-attachments (sanwu, 三無) of no-thought, no-form, and no-abiding, and the emptiness philosophy of “originally not a single thing” (benlai wuyiwu, 本來無一物) as the fundamental framework for interpreting the Vimalakīrti Sūtra. He directly quoted passages from the Zongbao edition of the Platform Sūtra to reinterpret concepts such as mind-only pure land, impermanence, suffering, emptiness, non-self, cessation, and “emptiness of emptiness”(yikongkong, 以空空) from a Southern Chan perspective.Second, through Mazu’s teachings on “the Way requires no cultivation”(dao buyong xiu, 道不用修), “ordinary mind is the Way”(pingchangxin shi dao, 平常心是道), and “this very mind is Buddha”(jixin jifo, 卽心卽佛), Tongrun highlighted the practical significance of the Vimalakīrti Sūtra. By extensively citing dialogues between Nanyue Huairang and Mazu, as well as Mazu’s dharma talks, he interpreted the scripture’s meditation practices and the proper attitude of dharma seekers as the realization of enlightenment in everyday life.Third, Tongrun systematically cited the dharma talks of Mazu’s principal disciples, including Panshan Baoji(槃山寶積), Nanquan Puyuan(南泉普願), and Baizhang Huaihai (百丈懷海), to concretize the non-dual philosophy of the Vimalakīrti Sūtra. He particularly utilized these Chan masters’ insights when interpreting the true meaning of renunciation and the practice of “practicing the non-Way to penetrate the Buddha Way”(feidao xing fodao, 非道行佛道).Tongrun’s hermeneutical methodology represents a paradigmatic example of the unity of Chan and doctrinal teachings (chan jiao yizhi, 禪敎一致) characteristic of Ming dynasty Buddhism, creatively synthesizing doctrinal understanding with Chan experiential realization. This study elucidates the intrinsic relationship between the Vimalakīrti Sūtra and Southern Chan thought, demonstrating how scriptures and Chan thought were harmoniously integrated in Chinese Buddhist history.",
-      "abstract_en": "",
+      "abstract_en": "This study systematically analyzes the reception and application of Southern Chan (南宗禪) Buddhist thought in the Direct Commentary on the Vimalakīrti Sūtra (Weimojing Zhishu, 維摩經直疏) by Yiyu Tongrun (一雨通潤, 1565-1624), an eminent Huayan monk of the late Ming dynasty. In his commentary on the Vimalakīrti Sūtra, Tongrun actively incorporated Southern Chan thought centered on the Sixth Patriarch Huineng(六祖慧能) and Mazu Daoyi(馬祖道一) to reinterpret the scripture's core concepts.\nThe findings reveal that, first, Tongrun employed Huineng’s concepts of inherent purity of self-nature (zixing qingjing, 自性淸淨), the three non-attachments (sanwu, 三無) of no-thought, no-form, and no-abiding, and the emptiness philosophy of “originally not a single thing” (benlai wuyiwu, 本來無一物) as the fundamental framework for interpreting the Vimalakīrti Sūtra. He directly quoted passages from the Zongbao edition of the Platform Sūtra to reinterpret concepts such as mind-only pure land, impermanence, suffering, emptiness, non-self, cessation, and “emptiness of emptiness”(yikongkong, 以空空) from a Southern Chan perspective.\nSecond, through Mazu’s teachings on “the Way requires no cultivation”(dao buyong xiu, 道不用修), “ordinary mind is the Way”(pingchangxin shi dao, 平常心是道), and “this very mind is Buddha”(jixin jifo, 卽心卽佛), Tongrun highlighted the practical significance of the Vimalakīrti Sūtra. By extensively citing dialogues between Nanyue Huairang and Mazu, as well as Mazu’s dharma talks, he interpreted the scripture’s meditation practices and the proper attitude of dharma seekers as the realization of enlightenment in everyday life.\nThird, Tongrun systematically cited the dharma talks of Mazu’s principal disciples, including Panshan Baoji(槃山寶積), Nanquan Puyuan(南泉普願), and Baizhang Huaihai (百丈懷海), to concretize the non-dual philosophy of the Vimalakīrti Sūtra. He particularly utilized these Chan masters’ insights when interpreting the true meaning of renunciation and the practice of “practicing the non-Way to penetrate the Buddha Way”(feidao xing fodao, 非道行佛道).\nTongrun’s hermeneutical methodology represents a paradigmatic example of the unity of Chan and doctrinal teachings (chan jiao yizhi, 禪敎一致) characteristic of Ming dynasty Buddhism, creatively synthesizing doctrinal understanding with Chan experiential realization. This study elucidates the intrinsic relationship between the Vimalakīrti Sūtra and Southern Chan thought, demonstrating how scriptures and Chan thought were harmoniously integrated in Chinese Buddhist history.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "129",
       "end_page": "157",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.05",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fdd47a9fafc603b5c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003243998",
       "keywords_kr": [
         "통윤",
         "유마경직소",
@@ -48372,8 +48454,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003243998",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fdd47a9fafc603b5c85d2949c297615a",
       "id": "fdd47a9fafc603b5c85d2949c297615a"
@@ -48395,16 +48479,16 @@
         }
       ],
       "abstract_kr": "This study analyzes the patterns of Sino-Korean vocabulary acceptance in the Nungeomgyeong Eonhae (楞嚴經諺解) from the perspective of East Asian Buddhist cultural exchange, aiming to elucidate the patterns of linguistic adaptation evident in early Joseon Buddhist scripture translation. The Nungeomgyeong Eonhae is recognized as a significant case study, noteworthy not only for its documentation of medieval Korean linguistic phenomena but also as a convergence of creative translation strategies developed within the East Asian Sino-Buddhist cultural sphere for conveying Buddhist concepts. Specifically, the methods of selecting and arranging Sino-Korean vocabulary reflect the philosophical orientation of Joseon Buddhism and its relationship with Chinese Buddhist tradition. This paper conducts a multifaceted examination of the acceptance patterns of Sino-Korean terms in medieval Korean by systematically analyzing the total of 6,208 Sino-Korean words documented in this text. The analysis focuses on three primary aspects: first, the characteristics of syllable distribution, ranging from monosyllabic to 8-syllable words; second, combinatory patterns with various case markers (such as nominative, accusative, and instrumental) and grammatical utilization patterns, including verbalization through the derivative suffix ‘-hota’ (‑다); and third, lexical characteristics centered on specialized Buddhist terminology, encompassing homonyms, synonyms, thesauruses, and loanwords.The findings reveal that, regarding syllable distribution, disyllabic words constituted the highest proportion overall, while a considerable number of 3-4 syllable words and specialized terms of 5 syllables or more—reflecting the specific nature of Buddhist scriptures—were also identified. In terms of grammatical integration, it was observed that Sino-Korean words combined naturally with the entire case marker system of medieval Korean, with the active phenomenon of lexical category conversion, particularly through the ‘-hota’ (‑다) verbalization pattern, being confirmed. Regarding lexical characteristics, specialized Buddhist terminology was prominently manifested through homonyms and loanwords.",
-      "abstract_en": "",
+      "abstract_en": "This study analyzes the patterns of Sino-Korean vocabulary acceptance in the Nungeomgyeong Eonhae (楞嚴經諺解) from the perspective of East Asian Buddhist cultural exchange, aiming to elucidate the patterns of linguistic adaptation evident in early Joseon Buddhist scripture translation. The Nungeomgyeong Eonhae is recognized as a significant case study, noteworthy not only for its documentation of medieval Korean linguistic phenomena but also as a convergence of creative translation strategies developed within the East Asian Sino-Buddhist cultural sphere for conveying Buddhist concepts. Specifically, the methods of selecting and arranging Sino-Korean vocabulary reflect the philosophical orientation of Joseon Buddhism and its relationship with Chinese Buddhist tradition. This paper conducts a multifaceted examination of the acceptance patterns of Sino-Korean terms in medieval Korean by systematically analyzing the total of 6,208 Sino-Korean words documented in this text. The analysis focuses on three primary aspects: first, the characteristics of syllable distribution, ranging from monosyllabic to 8-syllable words; second, combinatory patterns with various case markers (such as nominative, accusative, and instrumental) and grammatical utilization patterns, including verbalization through the derivative suffix ‘-hota’ (‑다); and third, lexical characteristics centered on specialized Buddhist terminology, encompassing homonyms, synonyms, thesauruses, and loanwords.\nThe findings reveal that, regarding syllable distribution, disyllabic words constituted the highest proportion overall, while a considerable number of 3-4 syllable words and specialized terms of 5 syllables or more—reflecting the specific nature of Buddhist scriptures—were also identified. In terms of grammatical integration, it was observed that Sino-Korean words combined naturally with the entire case marker system of medieval Korean, with the active phenomenon of lexical category conversion, particularly through the ‘-hota’ (‑다) verbalization pattern, being confirmed. Regarding lexical characteristics, specialized Buddhist terminology was prominently manifested through homonyms and loanwords.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "159",
       "end_page": "191",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.06",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fdd47a9fafc603b5e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244002",
       "keywords_kr": [
         "『능엄경언해』",
         "불경 번역",
@@ -48421,8 +48505,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244002",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fdd47a9fafc603b5e9810257f7042666",
       "id": "fdd47a9fafc603b5e9810257f7042666"
@@ -48439,16 +48525,16 @@
         }
       ],
       "abstract_kr": "This study reexamines the relationship between Buddhism and Daoism across the early and medieval periods of Chinese history by moving beyond the conventional framework of unilateral influence. It instead proposes a multilayered perspective grounded in the historical dynamics of coexistence, conflict, and competition. Previous Western scholarship has been largely shaped by Erik Zürcher’s Buddhist-centered influence theory and Stephen R. Bokenkamp’s model of Daoist subjectivity. However, these approaches often interpret the interaction in a linear fashion—from Buddhism to Daoism or vice versa—thus overlooking the complexity and reciprocity inherent in the relationship.In response, this paper offers a diachronic analysis of Buddhist–Daoist relations, tracing the trajectory from the syncretic coexistence of the Han dynasty, through the legitimacy debates of the Eastern Jin and Northern–Southern Dynasties, to the institutional competition—particularly through scripture appropriation and the production of apocrypha—during the late Six Dynasties, Tang, and Five Dynasties periods. Rather than focusing exclusively on doctrinal discourse, the study examines concrete instances of interaction as manifested in ritual practices, meditation techniques, visual culture, and textual production.By doing so, the paper articulates an analytical framework that enables a more contextualized and multidimensional understanding of Buddhist–Daoist interactions. Furthermore, by critically engaging with Western discourse that has remained relatively underexplored in Korean scholarship, this study seeks to broaden the theoretical horizons of current debates. Ultimately, it contributes to the fields of Chinese religious history and Buddhist Studies by reframing interreligious dynamics not as one-way influences but as historically situated and multilayered processes of negotiation.",
-      "abstract_en": "",
+      "abstract_en": "This study reexamines the relationship between Buddhism and Daoism across the early and medieval periods of Chinese history by moving beyond the conventional framework of unilateral influence. It instead proposes a multilayered perspective grounded in the historical dynamics of coexistence, conflict, and competition. Previous Western scholarship has been largely shaped by Erik Zürcher’s Buddhist-centered influence theory and Stephen R. Bokenkamp’s model of Daoist subjectivity. However, these approaches often interpret the interaction in a linear fashion—from Buddhism to Daoism or vice versa—thus overlooking the complexity and reciprocity inherent in the relationship.\nIn response, this paper offers a diachronic analysis of Buddhist–Daoist relations, tracing the trajectory from the syncretic coexistence of the Han dynasty, through the legitimacy debates of the Eastern Jin and Northern–Southern Dynasties, to the institutional competition—particularly through scripture appropriation and the production of apocrypha—during the late Six Dynasties, Tang, and Five Dynasties periods. Rather than focusing exclusively on doctrinal discourse, the study examines concrete instances of interaction as manifested in ritual practices, meditation techniques, visual culture, and textual production.\nBy doing so, the paper articulates an analytical framework that enables a more contextualized and multidimensional understanding of Buddhist–Daoist interactions. Furthermore, by critically engaging with Western discourse that has remained relatively underexplored in Korean scholarship, this study seeks to broaden the theoretical horizons of current debates. Ultimately, it contributes to the fields of Chinese religious history and Buddhist Studies by reframing interreligious dynamics not as one-way influences but as historically situated and multilayered processes of negotiation.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "193",
       "end_page": "223",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.07",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=429c301c34e29c277ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244006",
       "keywords_kr": [
         "불교-도교 관계",
         "중국 고중세",
@@ -48465,8 +48551,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244006",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "429c301c34e29c277ecd42904f0c5d65",
       "id": "429c301c34e29c277ecd42904f0c5d65"
@@ -48483,16 +48571,16 @@
         }
       ],
       "abstract_kr": "This study aims to illuminate the core practice task that a practitioner newly entering Mahāyāna Buddhism must master, focusing on Lam gtso rnam gsum presented by Tsong kha pa, the founder of Tibetan Buddhism's dGe lugs pa tradition. At present, the Korean Buddhist community is actively seeking ways to modernize and popularize Buddhism, not only through traditional practices such as Seon meditation, but also by developing diverse forms of meditation such as Seon-based meditation and loving-kindness meditation. Based on this reality, the present study attempts to make a modest contribution. Accordingly, the main body is structured into three sections.First, this text is a concise epistle composed of 14 stanzas that Tsong kha pa sent to his disciple Tsha kho Ngag dbang Grags pa, systematically presenting the core practice tasks of Mahāyāna Buddhism—renunciation, bodhicitta, and the wisdom realizing emptiness. These elements constitute the central axis of the system of practice found in texts such as Byang chub lam rim che ba, and to this day, it is utilized as a principal practice manual in the devotional, oral transmission, and teaching traditions of Tibetan Buddhist monasteries.Second, renunciation is the mind that seeks to be free from the suffering of saṃsāra. Bodhicitta is the altruistic vow to attain liberation for the sake of all sentient beings, serving as both the direction and the driving force of a Mahāyāna practitioner. The wisdom realizing emptiness functions as an antidote that eliminates both afflictive obstructions and obstructions to the knowledge of objects. These three are organically interconnected and constitute the essential framework of the system of practice of Mahāyāna Buddhism.Third, it clarifies the close correlation between the core content of Lam gtso rnam gsum—namely, renunciation, bodhicitta, and the wisdom realizing emptiness—and the practice tasks of the three types of practitioners—the lesser, middling, and superior—presented in Byang chub lam rim che ba. On the basis of this analysis, it demonstrates that Lam gtso rnam gsum constitutes the doctrinal and practical foundation of Lam rim.Accordingly, this study is expected to provide valuable insight into the core practice task and system of practice of the Tibetan Buddhism dGe lugs pa tradition, while also responding to the historical trend of 21st-century Korean Buddhism, which demands diverse practice methods.",
-      "abstract_en": "",
+      "abstract_en": "This study aims to illuminate the core practice task that a practitioner newly entering Mahāyāna Buddhism must master, focusing on Lam gtso rnam gsum presented by Tsong kha pa, the founder of Tibetan Buddhism's dGe lugs pa tradition. At present, the Korean Buddhist community is actively seeking ways to modernize and popularize Buddhism, not only through traditional practices such as Seon meditation, but also by developing diverse forms of meditation such as Seon-based meditation and loving-kindness meditation. Based on this reality, the present study attempts to make a modest contribution. Accordingly, the main body is structured into three sections.\nFirst, this text is a concise epistle composed of 14 stanzas that Tsong kha pa sent to his disciple Tsha kho Ngag dbang Grags pa, systematically presenting the core practice tasks of Mahāyāna Buddhism—renunciation, bodhicitta, and the wisdom realizing emptiness. These elements constitute the central axis of the system of practice found in texts such as Byang chub lam rim che ba, and to this day, it is utilized as a principal practice manual in the devotional, oral transmission, and teaching traditions of Tibetan Buddhist monasteries.\nSecond, renunciation is the mind that seeks to be free from the suffering of saṃsāra. Bodhicitta is the altruistic vow to attain liberation for the sake of all sentient beings, serving as both the direction and the driving force of a Mahāyāna practitioner. The wisdom realizing emptiness functions as an antidote that eliminates both afflictive obstructions and obstructions to the knowledge of objects. These three are organically interconnected and constitute the essential framework of the system of practice of Mahāyāna Buddhism.\nThird, it clarifies the close correlation between the core content of Lam gtso rnam gsum—namely, renunciation, bodhicitta, and the wisdom realizing emptiness—and the practice tasks of the three types of practitioners—the lesser, middling, and superior—presented in Byang chub lam rim che ba. On the basis of this analysis, it demonstrates that Lam gtso rnam gsum constitutes the doctrinal and practical foundation of Lam rim.\nAccordingly, this study is expected to provide valuable insight into the core practice task and system of practice of the Tibetan Buddhism dGe lugs pa tradition, while also responding to the historical trend of 21st-century Korean Buddhism, which demands diverse practice methods.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "225",
       "end_page": "263",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.08",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=429c301c34e29c27b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244008",
       "keywords_kr": [
         "공성을 요해하는 지혜",
         "대승불교",
@@ -48509,8 +48597,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244008",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "429c301c34e29c27b7998d826d417196",
       "id": "429c301c34e29c27b7998d826d417196"
@@ -48527,16 +48617,16 @@
         }
       ],
       "abstract_kr": "This study analyzes the composition and content of the Wonjongmunryu-Jiphae  and examines its intertextual relationship with the Wonjongmunryu text. The Jiphae is a commentary composed in a question-and-answer format, based on key excerpts from the Wonjongmunryu. It elucidates core concepts of Huayan(華嚴) Buddhist doctrine such as Jongyo(宗要, essential meaning), Jongchwi(宗趣, doctrinal aim), gukt’ohae(國土海, ocean of buddha lands), and the relationship between I(理, principle) and Ji(智, wisdom). The commentary integrates and harmonizes the views of the three major Huayan patriarchs—Zhiyan(智儼), Fazang(法藏), and Chengguan(澄觀).Each section of the Jiphae corresponds to specific classifications in the Wonjongmunryu: the “Jongyo ui” is based on the “Sipji Jongyo ryu,” the “Jongchwi ui” on the “Jemun Jongchwi ryu,” and the “Gukt’ohai ui” on the “Jemun Bulto ryu.” These are primarily interpreted through Fazang’s Tamhyeongi(探玄記), along with Zhiyan and Chengguan’s commentarial texts. The “Jongyo ui” section presents nine themes representing the core thought of the Ten Grounds(十地), while the “Jongchwi ui” analyzes doctrinal organization through the dual lens of jong and chwi. The “Gukt’ohae ui” clarifies the relationship between Bulto(佛土) and Gukt’ohai(國土海). Although there is no direct corresponding passage for the “Choehoe Iji ui” in the Wonjongmunryu, it synthesizes the views of Fazang’s Tamhyeongi and Zhiyan’s Suhyeongi(搜玄記) to explain the interrelation of principle and wisdom.The Jiphae thus systematizes doctrinal discussions found in the Wonjongmunryu and serves as a valuable resource for understanding the development of Huayan thought in mid-Goryeo Korea and the intellectual exchanges within the broader Sinitic Buddhist world. Further comparative research focusing on the individual interpretive questions in the Jiphae will deepen our understanding of Goryeo Huayan scholasticism and East Asian Buddhist intellectual history.",
-      "abstract_en": "",
+      "abstract_en": "This study analyzes the composition and content of the Wonjongmunryu-Jiphae and examines its intertextual relationship with the Wonjongmunryu text. The Jiphae is a commentary composed in a question-and-answer format, based on key excerpts from the Wonjongmunryu. It elucidates core concepts of Huayan(華嚴) Buddhist doctrine such as Jongyo(宗要, essential meaning), Jongchwi(宗趣, doctrinal aim), gukt’ohae(國土海, ocean of buddha lands), and the relationship between I(理, principle) and Ji(智, wisdom). The commentary integrates and harmonizes the views of the three major Huayan patriarchs—Zhiyan(智儼), Fazang(法藏), and Chengguan(澄觀).\nEach section of the Jiphae corresponds to specific classifications in the Wonjongmunryu: the “Jongyo ui” is based on the “Sipji Jongyo ryu,” the “Jongchwi ui” on the “Jemun Jongchwi ryu,” and the “Gukt’ohai ui” on the “Jemun Bulto ryu.” These are primarily interpreted through Fazang’s Tamhyeongi(探玄記), along with Zhiyan and Chengguan’s commentarial texts. The “Jongyo ui” section presents nine themes representing the core thought of the Ten Grounds(十地), while the “Jongchwi ui” analyzes doctrinal organization through the dual lens of jong and chwi. The “Gukt’ohae ui” clarifies the relationship between Bulto(佛土) and Gukt’ohai(國土海). Although there is no direct corresponding passage for the “Choehoe Iji ui” in the Wonjongmunryu, it synthesizes the views of Fazang’s Tamhyeongi and Zhiyan’s Suhyeongi(搜玄記) to explain the interrelation of principle and wisdom.\nThe Jiphae thus systematizes doctrinal discussions found in the Wonjongmunryu and serves as a valuable resource for understanding the development of Huayan thought in mid-Goryeo Korea and the intellectual exchanges within the broader Sinitic Buddhist world. Further comparative research focusing on the individual interpretive questions in the Jiphae will deepen our understanding of Goryeo Huayan scholasticism and East Asian Buddhist intellectual history.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "267",
       "end_page": "299",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.09",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=429c301c34e29c27b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244010",
       "keywords_kr": [
         "『원종문류집해』",
         "『원종문류』",
@@ -48555,8 +48645,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244010",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "429c301c34e29c27b36097776a77e665",
       "id": "429c301c34e29c27b36097776a77e665"
@@ -48573,16 +48665,16 @@
         }
       ],
       "abstract_kr": "From the Late Goryeo to the Early Joseon Period, the printing of the Tripitaka Koreana was carried out as a state-led project, supported by active governmental sponsorship and the use of administrative organizational systems.The leading agents of printing were often the king or ruling elites, who initiated the projects not only to pray for the peace and stability of the state but also for personal religious faith or specific objectives.Due to the unique nature of the Tripitaka being carved on wooden printing blocks, great care is required in its preservation and consultation. Therefore, a systematic investigation and classification of the printed editions are essential. The extant printed editions were produced at various times, and some show differences in content and format depending on the particular woodblocks used. Each edition can be categorized as prints from the original blocks, prints from newly re-carved blocks, or prints from revised and re-carved blocks. In order to trace and compare the original sources of the printing blocks, a meticulous investigation of the Tripitaka Koreana printed editions across different periods is necessary.For a deeper understanding of each block and to recover the woodblock carving techniques, two primary steps must be taken. First, the various printed editions currently preserved at Haeinsa Temple(海印寺)’s storage facilities and museum should be re-examined and classified according to their printing period and book format. Second, the status of Tripitaka Koreana printed editions housed both domestically and abroad, along with their key characteristics, should be systematically and thoroughly surveyed. Haeinsa Temple should strengthen its role as a central institution by building a database of existing information on the Tripitaka Koreana printed editions, including details on block carving, printing, and related research.",
-      "abstract_en": "",
+      "abstract_en": "From the Late Goryeo to the Early Joseon Period, the printing of the Tripitaka Koreana was carried out as a state-led project, supported by active governmental sponsorship and the use of administrative organizational systems.\nThe leading agents of printing were often the king or ruling elites, who initiated the projects not only to pray for the peace and stability of the state but also for personal religious faith or specific objectives.\nDue to the unique nature of the Tripitaka being carved on wooden printing blocks, great care is required in its preservation and consultation. Therefore, a systematic investigation and classification of the printed editions are essential. The extant printed editions were produced at various times, and some show differences in content and format depending on the particular woodblocks used. Each edition can be categorized as prints from the original blocks, prints from newly re-carved blocks, or prints from revised and re-carved blocks. In order to trace and compare the original sources of the printing blocks, a meticulous investigation of the Tripitaka Koreana printed editions across different periods is necessary.\nFor a deeper understanding of each block and to recover the woodblock carving techniques, two primary steps must be taken. First, the various printed editions currently preserved at Haeinsa Temple(海印寺)’s storage facilities and museum should be re-examined and classified according to their printing period and book format. Second, the status of Tripitaka Koreana printed editions housed both domestically and abroad, along with their key characteristics, should be systematically and thoroughly surveyed. Haeinsa Temple should strengthen its role as a central institution by building a database of existing information on the Tripitaka Koreana printed editions, including details on block carving, printing, and related research.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "301",
       "end_page": "330",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.10",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=429c301c34e29c274884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244011",
       "keywords_kr": [
         "고려대장경",
         "해인사",
@@ -48603,8 +48695,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244011",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "429c301c34e29c274884a65323211ff0",
       "id": "429c301c34e29c274884a65323211ff0"
@@ -48621,16 +48715,16 @@
         }
       ],
       "abstract_kr": "본 논문은 8~10세기에 발해에서 일본을 오가며 활동한 발해불교계가 일본 사회에 끼친 영향에 대해 살펴보기 위한 것이다. 당과 일본을 연결 시킨 교두보로서의 발해의 역할은 충분히 강조할만 하다. 고구려·백제·신라 승려들 가운데 동해를 건너 일본에 불법을 전한 일군의 승려들이 있었다. 7세기 말에 건국된 발해에서도 승려들이 사신단의 일원이나 여러 가지 이유로 일본에 가서 일본불교계에 여러 가지 영향을 주었다.당시 일본은 동아시아에서 문화적으로 낙후된 지역이었기에 여러 분야에서 기량을 갖춘 전법승들은 통치자의 시선을 단번에 사로잡았던 것으로 보인다. 본고에서는 일본불교계와 관련이 있는 발해 승려들의 활동상을 정리하고, 그들이 일본 사회나 불교계에 어떤 영향을 주었는지 살펴보았다. 발해인들은 고구려를 계승하여 698년에 발해를 건국한 후 실크로드의 연장선인 ‘일본도(日本道)’를 개척하여, 총 35차례에 걸쳐 일본에 사신단을 파견하였다. 그 길을 통해 수많은 인적교류와 다양한 문물교류가 있었다. 불교와 한시를 통한 문화교류, 인도에서 서역, 당을 통해 발해에 이르는 실크로드로 전래된 ‘땅설법’과 일본의 ‘에도끼(繪解き)’의 관련성을 밝혀 한국고대 대외문명교류사의 일부를 복원하고자 한다.",
-      "abstract_en": "",
+      "abstract_en": "This paper examines the influence of the Bohai Buddhist community, which travelled back and forth between Bohai and Japan from the 8th to the 10th century, on Japanese society.\nThe role of the kingdom of Bohai as a bridge connecting the Tang Dynasty and Japan should be sufficiently emphasised.\nAmong the monks of Goguryeo, Baekje, and Silla, there was a group of monks who transmitted the Buddha's teachings to Japan across the Eastern Sea.\nIn the kingdom of Bohai, founded at the end of the 7th century, there were monks who influenced the Japanese Buddhist community as members of envoy delegations and for various reasons.\nAt that time, Japan was the most culturally backward region in East Asia, so it seems that monks who were proficient in various fields quickly caught the attention of the rulers.\nThe Bohai people inherited Goguryeo and founded Bohai in 698. They then developed the Japan Road, a pathway of the Silk Road, and sent delegations to Japan a total of 35 times.\nThis paper aims to understand the activities and thoughts of the Bohai monks who came from the Bohai to Japan or were related to Japanese Buddhism, and to organise their roles in Japanese Buddhism, attempting to restore a part of the ancient history of external cultural exchanges in Korea.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "331",
       "end_page": "363",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.11",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=429c301c34e29c2747de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244013",
       "keywords_kr": [
         "발해",
         "발해승",
@@ -48647,8 +48741,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244013",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "429c301c34e29c2747de9c1710b0298d",
       "id": "429c301c34e29c2747de9c1710b0298d"
@@ -48665,16 +48761,16 @@
         }
       ],
       "abstract_kr": "Religious rituals are held in sacred spaces, with sacred offerings and devout participants, and follow a set format and cyclical pattern. Religious rituals are collective acts where all participants experience the sacred, and their symbolism expresses the ultimate goal of the values pursued by the religion. In Hindu and Buddhist rituals, flowers most concisely embody this symbolism, a fact supported by literary sources.This paper first examines the lotus, widely used in Indian culture as a symbol of the flower itself, accompanying all rituals. Its origins stem from a cosmological view rooted in Indian mythology. Specifically, it examines the significant significance attached to the lotus not only in Buddhism but also in Hinduism, Jainism, and Sikhism. Furthermore, it examines the use of various flowers in rituals, not just the lotus. It then explores the symbolic nature of flowers in Hindu mythology and the life of the Buddha. In Hindu tradition, the lotus flower is widely used in astrology, cosmology, and mythology, and holds diverse meanings in various aspects of human life. The god Vishnu is depicted twirling a lotus flower with one hand, representing the universal flow of the universe and creation. In traditional Indian family rituals, flowers are not merely aesthetically valuable; they are also symbols of happiness, prosperity, and fulfillment of life's purpose.In the life of the Buddha, flowers are used in moments of joy and reverence, as well as moments of sorrow and grief. However, in all instances, reverence for the Buddha remains constant, and the ultimate symbol of reverence is the offering of flowers. The ritual of scattering flowers, with its dynamic visuality, reaches its climax. This use of flowers as a form of reverence continued even after the Buddha's death, establishing them as an important element in Buddhist ritual.Korean Buddhist rituals have traditionally employed paper flowers, and the documentary evidence for this practice can be found in various sources. Based on this, this study examines the specific uses of paper flowers in Korean Buddhist rituals, thereby exploring the meaning and role they embody.",
-      "abstract_en": "",
+      "abstract_en": "Religious rituals are held in sacred spaces, with sacred offerings and devout participants, and follow a set format and cyclical pattern. Religious rituals are collective acts where all participants experience the sacred, and their symbolism expresses the ultimate goal of the values pursued by the religion. In Hindu and Buddhist rituals, flowers most concisely embody this symbolism, a fact supported by literary sources.\nThis paper first examines the lotus, widely used in Indian culture as a symbol of the flower itself, accompanying all rituals. Its origins stem from a cosmological view rooted in Indian mythology. Specifically, it examines the significant significance attached to the lotus not only in Buddhism but also in Hinduism, Jainism, and Sikhism. Furthermore, it examines the use of various flowers in rituals, not just the lotus. It then explores the symbolic nature of flowers in Hindu mythology and the life of the Buddha. In Hindu tradition, the lotus flower is widely used in astrology, cosmology, and mythology, and holds diverse meanings in various aspects of human life. The god Vishnu is depicted twirling a lotus flower with one hand, representing the universal flow of the universe and creation. In traditional Indian family rituals, flowers are not merely aesthetically valuable; they are also symbols of happiness, prosperity, and fulfillment of life's purpose.\nIn the life of the Buddha, flowers are used in moments of joy and reverence, as well as moments of sorrow and grief. However, in all instances, reverence for the Buddha remains constant, and the ultimate symbol of reverence is the offering of flowers. The ritual of scattering flowers, with its dynamic visuality, reaches its climax. This use of flowers as a form of reverence continued even after the Buddha's death, establishing them as an important element in Buddhist ritual.\nKorean Buddhist rituals have traditionally employed paper flowers, and the documentary evidence for this practice can be found in various sources. Based on this, this study examines the specific uses of paper flowers in Korean Buddhist rituals, thereby exploring the meaning and role they embody.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "365",
       "end_page": "391",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.12",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=429c301c34e29c27e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244015",
       "keywords_kr": [
         "지화(紙花)",
         "상징성",
@@ -48692,8 +48788,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244015",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "429c301c34e29c27e9810257f7042666",
       "id": "429c301c34e29c27e9810257f7042666"
@@ -48710,16 +48808,16 @@
         }
       ],
       "abstract_kr": "본 연구는 일본 지장신앙이 내세 구제와 현세 보호라는 이중적 신앙 구조를 지니는 가운데, 특히 현세적 실천과 민속적 상상력을 통해 지장보살이 여성적 보호신으로 변용되는 과정을 문화사적 관점에서 고찰한 것이다. 지장보살은 경전적으로는 지옥 중생을 구제하는 보살과 현세 복리를 실천하는 존재로 설정되었으나, 일본 민간에서는 일상 속 고통과 불안을 돌보는 친근한 존재로 수용되며, 다양한 문화적 실천 속에서 모성적 이미지와 젠더화된 신격으로 형상화되었다.본고는 엔메이지(延命寺)의 나체지장(裸地蔵)과 교토의 승군지장(勝軍地藏)을 통해 대리 고통과 수행성을 분석하고, 덴코지(伝香寺)의 가스카지장(春日地蔵)의 착의법요와 일본 문학 하이쿠(俳句)에 나타난 표현을 통해 여성적 보호자의 형상화 과정을 고찰하였다. 또한 지장분(地蔵盆), 삿갓지장(笠地蔵) 등 민속적 실천을 통해 지장보살이 현세의 안녕과 정서적 위안을 담당하는 신앙 대상으로 작용하는 양상을 살폈다. 본 연구는 도상 분석에 국한하지 않고, 문헌·의례·신앙 행위 등 다양한 문화 요소를 종합적으로 해석함으로써, 일본 지장신앙의 사회적 기능 변화와 젠더적 재구성을 규명하는 데 그 의의를 둔다.",
-      "abstract_en": "",
+      "abstract_en": "This paper examines how Jizō Bodhisattva (Kṣitigarbha) in Japan has been reinterpreted through cultural practices and folk beliefs into gendered and often maternal forms. Doctrinally, bodhisattvas are beyond gender, yet in Japanese society Jizō came to embody both masculine and feminine qualities, shaped by historical conditions and local devotion.\nThe study first considers iconographic examples: the naked Jizō of Enmeiji, which emphasizes a feminine and life-giving body, and the Shōgun Jizō associated with warriors such as Ashikaga Takauji and Sakanoue no Tamuramaro, which represents martial masculinity and protective power. These contrasting figures show how the same bodhisattva was embodied in different ways according to social expectations.\nThe discussion then turns to cultural practices. At Denkōji, the clothing ritual for the Kasuga Jizō highlights women devotees who actively provide care as a form of offering. In haiku poetry, Jizō appears as a gentle guardian woven into seasonal imagery. Folk traditions such as the Kasa Jizō legend and the Jizō Bon festival further demonstrate how Jizō was closely tied to children’s protection, ancestor rites, and communal well-being.\nThrough these cases, the paper argues that the feminization of Jizō is not merely an artistic variation but the result of repeated ritual, local imagination, and the interaction between Buddhist doctrine and folk belief. Jizō thus emerges as a multi-layered figure, embodying both male and female aspects, and functioning as a protector in the lived religious culture of Japan.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "393",
       "end_page": "418",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.13",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=429c301c34e29c27c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244016",
       "keywords_kr": [
         "본 지장신앙",
         "젠더 수행성",
@@ -48736,8 +48834,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244016",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "429c301c34e29c27c85d2949c297615a",
       "id": "429c301c34e29c27c85d2949c297615a"
@@ -48759,16 +48859,16 @@
         }
       ],
       "abstract_kr": "These days, Buddhist monks are creating music using AI as part of their propagation efforts. However, in the 1920s, since the monks did not know how to compose music, they carried out Buddhist enlightenment movements by setting Buddhist lyrics to the melodies of military songs and Japanese pop songs popular at the time. Modern composed Buddhist hymns of Korea originated with monks who were studying abroad in Japan. Their composition of Buddhist hymns was influenced by Japan’s religious policies, which actively embraced modernization and Westernization, as well as by the Western-style Buddhist hymn movement.The phenomenon of simply changing lyrics to existing melodies—commonly known as “Nogaba”—has occurred throughout music history worldwide. In Korean music history, for instance, Goryeo-era folk songs were given lyrics praising the Joseon royal family, eventually evolving into today’s Jongmyo Jeryeak. Similarly, this practice can be seen in Japanese Buddhist hymns and Christian hymns as well.When Venerable Jeongmuk published a collection of Buddhist hymns in 1948, he removed Venerable Johakyu’s piece “The feeling under a Jambuna tree” which had set Buddhist lyrics to a Japanese popular song. This decision was made immediately after Korea’s liberation, at a time when anti-Japanese sentiment was at its peak. However, with the rise of Korean culture (K-culture) on the global stage today, we have gained greater composure and can now view this matter with more generosity. Looking back into history, Japanese Buddhism began with Baekje, and the Buddhism of Goguryeo and Unified Silla formed the roots of their Buddhist culture. In light of this long history, setting Korean Buddhist lyrics to Japanese popular songs was merely a temporary transitional phase.In the 21st century, various music genres, including popular music, coexist. In Korea, a richly diverse landscape of Buddhist music is unfolding, encompassing not only monks chanting in hip-hop style but also celebrities singing songs like \"Buddha Handsome. In the upcoming AI era, music listeners will become creators themselves. In the global era brought about by the advancement of digital information and technology, it is necessary to have a balanced sense of identity and uniqueness of Korean Buddhist music, along with its timeliness and universality that can resonate with people worldwide. “To achieve this, it is necessary to maintain a broad perspective while highlighting the distinctive features of each genre in detail, and furthermore, to shift awareness toward a new paradigm in content protection and international copyright.”",
-      "abstract_en": "",
+      "abstract_en": "These days, Buddhist monks are creating music using AI as part of their propagation efforts. However, in the 1920s, since the monks did not know how to compose music, they carried out Buddhist enlightenment movements by setting Buddhist lyrics to the melodies of military songs and Japanese pop songs popular at the time. Modern composed Buddhist hymns of Korea originated with monks who were studying abroad in Japan. Their composition of Buddhist hymns was influenced by Japan’s religious policies, which actively embraced modernization and Westernization, as well as by the Western-style Buddhist hymn movement.\nThe phenomenon of simply changing lyrics to existing melodies—commonly known as “Nogaba”—has occurred throughout music history worldwide. In Korean music history, for instance, Goryeo-era folk songs were given lyrics praising the Joseon royal family, eventually evolving into today’s Jongmyo Jeryeak. Similarly, this practice can be seen in Japanese Buddhist hymns and Christian hymns as well.\nWhen Venerable Jeongmuk published a collection of Buddhist hymns in 1948, he removed Venerable Johakyu’s piece “The feeling under a Jambuna tree” which had set Buddhist lyrics to a Japanese popular song. This decision was made immediately after Korea’s liberation, at a time when anti-Japanese sentiment was at its peak. However, with the rise of Korean culture (K-culture) on the global stage today, we have gained greater composure and can now view this matter with more generosity. Looking back into history, Japanese Buddhism began with Baekje, and the Buddhism of Goguryeo and Unified Silla formed the roots of their Buddhist culture. In light of this long history, setting Korean Buddhist lyrics to Japanese popular songs was merely a temporary transitional phase.\nIn the 21st century, various music genres, including popular music, coexist. In Korea, a richly diverse landscape of Buddhist music is unfolding, encompassing not only monks chanting in hip-hop style but also celebrities singing songs like \"Buddha Handsome. In the upcoming AI era, music listeners will become creators themselves. In the global era brought about by the advancement of digital information and technology, it is necessary to have a balanced sense of identity and uniqueness of Korean Buddhist music, along with its timeliness and universality that can resonate with people worldwide. “To achieve this, it is necessary to maintain a broad perspective while highlighting the distinctive features of each genre in detail, and furthermore, to shift awareness toward a new paradigm in content protection and international copyright.”",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "419",
       "end_page": "449",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.14",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fdd47a9fafc603b5d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244019",
       "keywords_kr": [
         "창작 찬불가",
         "대중 찬불가",
@@ -48785,8 +48885,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244019",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fdd47a9fafc603b5d18150b21a227875",
       "id": "fdd47a9fafc603b5d18150b21a227875"
@@ -48803,16 +48905,16 @@
         }
       ],
       "abstract_kr": "This study is conducted as a literature-based analysis focusing on the interpretation of Barthes’s A Lover’s Discourse. To this end, it first examines the principles and methods Barthes applied in the writing of A Lover’s Discourse. It then organizes and classifies the literary sources referenced in the text, selecting those that appear to be related to Buddhism. Finally, based on the selected Buddhist-related materials, the study interprets the textual characteristics of Barthes’s work in terms of both content and structure.Through this process, it is revealed that Barthes’s text exhibits structural similarities with the logic of sokuhi (即非), and that concepts such as Nietzsche’s eternal return and nirvana, mentioned in the text, lead to the Buddhist ideas of anātman (non-self) and śūnyatā (emptiness), offering alternatives to overcome the closed nature of the lover’s discourse. Furthermore, connections and similarities with Buddhism are also found in Barthes’s references to Nietzsche, psychoanalysis, and mysticism, indicating that these influences contribute to the Buddhist tone of the text.This study reaffirms that while Barthes’s A Lover’s Discourse outwardly depicts the discourse of lovers, it ultimately presents a discourse of love that opens the path for individuals to transcend the closed structure of romantic relationships and be reborn as subjects of their own love and life.",
-      "abstract_en": "",
+      "abstract_en": "This study is conducted as a literature-based analysis focusing on the interpretation of Barthes’s A Lover’s Discourse. To this end, it first examines the principles and methods Barthes applied in the writing of A Lover’s Discourse. It then organizes and classifies the literary sources referenced in the text, selecting those that appear to be related to Buddhism. Finally, based on the selected Buddhist-related materials, the study interprets the textual characteristics of Barthes’s work in terms of both content and structure.\nThrough this process, it is revealed that Barthes’s text exhibits structural similarities with the logic of sokuhi (即非), and that concepts such as Nietzsche’s eternal return and nirvana, mentioned in the text, lead to the Buddhist ideas of anātman (non-self) and śūnyatā (emptiness), offering alternatives to overcome the closed nature of the lover’s discourse. Furthermore, connections and similarities with Buddhism are also found in Barthes’s references to Nietzsche, psychoanalysis, and mysticism, indicating that these influences contribute to the Buddhist tone of the text.\nThis study reaffirms that while Barthes’s A Lover’s Discourse outwardly depicts the discourse of lovers, it ultimately presents a discourse of love that opens the path for individuals to transcend the closed structure of romantic relationships and be reborn as subjects of their own love and life.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "451",
       "end_page": "479",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.15",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fdd47a9fafc603b547de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244021",
       "keywords_kr": [
         "롤랑 바르트",
         "『사랑의 단상』",
@@ -48829,8 +48931,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244021",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fdd47a9fafc603b547de9c1710b0298d",
       "id": "fdd47a9fafc603b547de9c1710b0298d"
@@ -48847,16 +48951,16 @@
         }
       ],
       "abstract_kr": "This study aims analyze the protagonist Jin-hee`s divided self “The visible self” and “The observing self” in Eun Hee-kyungˊs novel A Gigt from a Bird from a Buddhist perspective, while exploring the confusion of self-identity in modern individuals and the potential for healing. Based on the Thirty Verses on Consciousness-Only, Jin-heeˊs self-division can be interpreted as the discriminative functions of the sixth consciousness(mano-vijñāna) and the seventh consciousness(manas). This structure parallels the Buddhist meditative practices of mindfulness(sati) and Insight(vipassanā). The symbolic “gift from a bird” presented at the end of the novel represents liberation from attachment to the self, corresponding to the Buddhist notions of non-self (anātman) and the wisdom of non-dependence. This study particularly emphasizes that A Gift from a bird was composes within a framework Buddhist thought, thereby illuminating the intersection between literary inquiry and Buddhist practice. While literature highlights the multiplicity and complexity of the self through self-reflection and the search for healing, Buddhist practice fundamentally aims to dismantle attachment to the self in pursuit of liberation from suffering. Jin-heeˊs self-observation and reflective distancing do not culminate in the Buddhist experience of non-self. Nevertheless, her exploration of the self can be understood from the perspective of dependent origination, and her receptive and observational stance toward reality resonates with mindfulness-based approaches to psychological healing. In this regard, the significance of this study lies in applying the Yogācāra model of consciousness and Buddhist meditation theory to Eun Hee-kyungˊs literature, thereby elucidating the meaning of Buddhist self-formation and healing. Furthermore, it suggests the possibility of addressing modern experiences of self-division and Identity crisis through Buddhist perspectives.",
-      "abstract_en": "",
+      "abstract_en": "This study aims analyze the protagonist Jin-hee`s divided self “The visible self” and “The observing self” in Eun Hee-kyungˊs novel A Gigt from a Bird from a Buddhist perspective, while exploring the confusion of self-identity in modern individuals and the potential for healing. Based on the Thirty Verses on Consciousness-Only, Jin-heeˊs self-division can be interpreted as the discriminative functions of the sixth consciousness(mano-vijñāna) and the seventh consciousness(manas). This structure parallels the Buddhist meditative practices of mindfulness(sati) and Insight(vipassanā). The symbolic “gift from a bird” presented at the end of the novel represents liberation from attachment to the self, corresponding to the Buddhist notions of non-self (anātman) and the wisdom of non-dependence. This study particularly emphasizes that A Gift from a bird was composes within a framework Buddhist thought, thereby illuminating the intersection between literary inquiry and Buddhist practice. While literature highlights the multiplicity and complexity of the self through self-reflection and the search for healing, Buddhist practice fundamentally aims to dismantle attachment to the self in pursuit of liberation from suffering. Jin-heeˊs self-observation and reflective distancing do not culminate in the Buddhist experience of non-self. Nevertheless, her exploration of the self can be understood from the perspective of dependent origination, and her receptive and observational stance toward reality resonates with mindfulness-based approaches to psychological healing. In this regard, the significance of this study lies in applying the Yogācāra model of consciousness and Buddhist meditation theory to Eun Hee-kyungˊs literature, thereby elucidating the meaning of Buddhist self-formation and healing. Furthermore, it suggests the possibility of addressing modern experiences of self-division and Identity crisis through Buddhist perspectives.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "70",
       "start_page": "481",
       "end_page": "510",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.70.16",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=fdd47a9fafc603b5b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003244023",
       "keywords_kr": [
         "새의 선물",
         "유식30송",
@@ -48873,8 +48977,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003244023",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "fdd47a9fafc603b5b7998d826d417196",
       "id": "fdd47a9fafc603b5b7998d826d417196"
@@ -48898,9 +49004,9 @@
       "issue": "71",
       "start_page": "3",
       "end_page": "29",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.01",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c63c18d58be39431b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264493",
       "keywords_kr": [
         "퇴옹 성철",
         "우파니샤드",
@@ -48917,8 +49023,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264493",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c63c18d58be39431b36097776a77e665",
       "id": "c63c18d58be39431b36097776a77e665"
@@ -48942,9 +49050,9 @@
       "issue": "71",
       "start_page": "31",
       "end_page": "58",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.02",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c63c18d58be394317ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264494",
       "keywords_kr": [
         "야운시성",
         "고운사",
@@ -48962,8 +49070,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264494",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c63c18d58be394317ecd42904f0c5d65",
       "id": "c63c18d58be394317ecd42904f0c5d65"
@@ -48987,9 +49097,9 @@
       "issue": "71",
       "start_page": "59",
       "end_page": "85",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.03",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=db867e9fa455757f6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264495",
       "keywords_kr": [
         "화엄(華嚴)",
         "천태(天台)",
@@ -49007,8 +49117,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264495",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "db867e9fa455757f6aae8a972f9116fb",
       "id": "db867e9fa455757f6aae8a972f9116fb"
@@ -49025,16 +49137,16 @@
         }
       ],
       "abstract_kr": "Equality of opportunity refers to the right of every individual to receive fair and equal chances regardless of inherent or external factors such as social or economic background, gender, race, or religion. This concept has become a core value in modern society, enabling individuals to develop and exercise their capabilities freely and fairly. This study aims to analyze the early Buddhist scripture Aṅguttara Nikāya through the lens of equality of opportunity and to explore its practical implications for Buddhist social welfare. For this purpose, the teachings of the Buddha contained in the Aṅguttara Nikāya were examined using an analytical framework divided into two categories: “guarantee of opportunity” and “elimination of discriminatory factors.” The former was further subdivided into “innate equality of rights” and “equality in opportunity ownership,” while the latter was analyzed in terms of “equitable conditions,” “social justice,” and “redistribution of resources.” Representative suttas were selected for analysis: “The Case Sutta” (A5:57) for innate equality of rights, “The Endeavor Sutta” (A3:15) for equality in opportunity ownership, “The One Who Experienced Sutta” (A3:21) for equitable conditions, “The Fetters Sutta” (A2:1:6) for social justice, and “The Blind Sutta” (A3:29) for the redistribution of resources. Through this analysis, it was confirmed that the teachings of the Aṅguttara Nikāya are closely aligned with the modern value of equality of opportunity. These teachings hold practical implications for ensuring human dignity and providing fair opportunities to the socially disadvantaged and marginalized, thereby contributing to the realization of justice and equality in contemporary society.",
-      "abstract_en": "",
+      "abstract_en": "Equality of opportunity refers to the right of every individual to receive fair and equal chances regardless of inherent or external factors such as social or economic background, gender, race, or religion. This concept has become a core value in modern society, enabling individuals to develop and exercise their capabilities freely and fairly. This study aims to analyze the early Buddhist scripture Aṅguttara Nikāya through the lens of equality of opportunity and to explore its practical implications for Buddhist social welfare. For this purpose, the teachings of the Buddha contained in the Aṅguttara Nikāya were examined using an analytical framework divided into two categories: “guarantee of opportunity” and “elimination of discriminatory factors.” The former was further subdivided into “innate equality of rights” and “equality in opportunity ownership,” while the latter was analyzed in terms of “equitable conditions,” “social justice,” and “redistribution of resources.” Representative suttas were selected for analysis: “The Case Sutta” (A5:57) for innate equality of rights, “The Endeavor Sutta” (A3:15) for equality in opportunity ownership, “The One Who Experienced Sutta” (A3:21) for equitable conditions, “The Fetters Sutta” (A2:1:6) for social justice, and “The Blind Sutta” (A3:29) for the redistribution of resources. Through this analysis, it was confirmed that the teachings of the Aṅguttara Nikāya are closely aligned with the modern value of equality of opportunity. These teachings hold practical implications for ensuring human dignity and providing fair opportunities to the socially disadvantaged and marginalized, thereby contributing to the realization of justice and equality in contemporary society.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "71",
       "start_page": "87",
       "end_page": "118",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.04",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c63c18d58be394314884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264496",
       "keywords_kr": [
         "초기불교",
         "앙굿따라 니까야",
@@ -49051,8 +49163,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264496",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c63c18d58be394314884a65323211ff0",
       "id": "c63c18d58be394314884a65323211ff0"
@@ -49076,9 +49190,9 @@
       "issue": "71",
       "start_page": "119",
       "end_page": "149",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.05",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c63c18d58be39431e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264497",
       "keywords_kr": [
         "사람",
         "뿌루샤",
@@ -49095,8 +49209,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264497",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c63c18d58be39431e9810257f7042666",
       "id": "c63c18d58be39431e9810257f7042666"
@@ -49120,9 +49236,9 @@
       "issue": "71",
       "start_page": "153",
       "end_page": "176",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.06",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c63c18d58be39431d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264498",
       "keywords_kr": [
         "보리장소",
         "고려대장경",
@@ -49140,8 +49256,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264498",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c63c18d58be39431d18150b21a227875",
       "id": "c63c18d58be39431d18150b21a227875"
@@ -49165,9 +49283,9 @@
       "issue": "71",
       "start_page": "177",
       "end_page": "219",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.07",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c63c18d58be3943147de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264499",
       "keywords_kr": [
         "운허",
         "월운",
@@ -49185,8 +49303,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264499",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c63c18d58be3943147de9c1710b0298d",
       "id": "c63c18d58be3943147de9c1710b0298d"
@@ -49203,16 +49323,16 @@
         }
       ],
       "abstract_kr": "This study focuses on the role of Beomeosa, the head temple of the 14th parish of the Jogye Order of Korean Buddhism, as a royal monastic shrine during the late Joseon dynasty, and seeks to shed new light on the status and social foundations of modern Beomeosa. Founded by the monk Uisang in the Silla period and reconstructed in the late Joseon dynasty, Beomeosa has often been highlighted in previous scholarship for its Zen practice led by eminent monks, its contribution to the anti-Japanese resistance, and its operation of modern educational institutions. However, the function of Beomeosa as a royal monastic shrine has been largely overlooked, despite its importance in understanding the temple’s place in Korean Buddhist history and the regional history of Busan.This paper examines especially the Sangchuk Hyeonpan of 1902, the calligraphic record Beomeosa Chongseop Banghamnok written by Gyeongheo, and related documentary sources, as well as photographs and architectural drawings from the Japanese colonial period. These materials confirm that the abbot of Beomeosa carried out the duty of protecting the royal shrine, and that Cheontae-gak and Gyemyeong-am were operated as royal votive sites. Furthermore, the enshrinement of royal tablets, rituals of supplication, and connections with members of the royal family reveal Beomeosa’s close relationship with the Joseon court.Ultimately, the replacement of the plaque on Beomeosa’s Jogye Gate from “Royal Votive Temple for the Enshrinement of Imperial Writings” (Eoje Bong-an Chukri Wondang) to “Head Temple of the Seon Tradition” (Seonchal Daebonsan) symbolizes both the loss of national sovereignty and the enactment of the Temple Ordinance, while also reflecting Beomeosa’s efforts to solidify its identity as a Seon temple. This change stands as a significant marker of transformation in modern Korean Buddhism and the regional history of Busan. By highlighting Beomeosa’s role as a royal monastic shrine, this study seeks to broaden the horizon of modern Buddhist historical research and proposes the need for further scholarly inquiry.",
-      "abstract_en": "",
+      "abstract_en": "This study focuses on the role of Beomeosa, the head temple of the 14th parish of the Jogye Order of Korean Buddhism, as a royal monastic shrine during the late Joseon dynasty, and seeks to shed new light on the status and social foundations of modern Beomeosa. Founded by the monk Uisang in the Silla period and reconstructed in the late Joseon dynasty, Beomeosa has often been highlighted in previous scholarship for its Zen practice led by eminent monks, its contribution to the anti-Japanese resistance, and its operation of modern educational institutions. However, the function of Beomeosa as a royal monastic shrine has been largely overlooked, despite its importance in understanding the temple’s place in Korean Buddhist history and the regional history of Busan.\nThis paper examines especially the Sangchuk Hyeonpan of 1902, the calligraphic record Beomeosa Chongseop Banghamnok written by Gyeongheo, and related documentary sources, as well as photographs and architectural drawings from the Japanese colonial period. These materials confirm that the abbot of Beomeosa carried out the duty of protecting the royal shrine, and that Cheontae-gak and Gyemyeong-am were operated as royal votive sites. Furthermore, the enshrinement of royal tablets, rituals of supplication, and connections with members of the royal family reveal Beomeosa’s close relationship with the Joseon court.\nUltimately, the replacement of the plaque on Beomeosa’s Jogye Gate from “Royal Votive Temple for the Enshrinement of Imperial Writings” (Eoje Bong-an Chukri Wondang) to “Head Temple of the Seon Tradition” (Seonchal Daebonsan) symbolizes both the loss of national sovereignty and the enactment of the Temple Ordinance, while also reflecting Beomeosa’s efforts to solidify its identity as a Seon temple. This change stands as a significant marker of transformation in modern Korean Buddhism and the regional history of Busan. By highlighting Beomeosa’s role as a royal monastic shrine, this study seeks to broaden the horizon of modern Buddhist historical research and proposes the need for further scholarly inquiry.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "71",
       "start_page": "221",
       "end_page": "252",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.08",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c63c18d58be394317f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264500",
       "keywords_kr": [
         "범어사",
         "왕실 원당",
@@ -49229,8 +49349,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264500",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c63c18d58be394317f7a54760bb41745",
       "id": "c63c18d58be394317f7a54760bb41745"
@@ -49252,16 +49374,16 @@
         }
       ],
       "abstract_kr": "This study aims to explore the healing potential of vedanā (受, feeling/sensation) as a means to overcome anxiety in modern society. The research defines vedanā as the bodily reactions, sensations, and perceptions arising from the convergence of three factors-sense organ (根, indriya), object (境, viṣaya), and consciousness (識, vijñāna)-in sensory contact (三事和合), and develops the discussion centered on this understanding.To achieve this objective, the study examines the traditional meaning of vedanā and trends in contemporary interpretations, reviews the current state of anxiety disorders in Korea, and explores the relationship between anxiety and vedanā from a neuroscientific perspective to investigate the healing potential of vedanā.The study confirmed the key principle in the neuroscientific mechanism of anxiety that bodily responses precede emotional experiences. Furthermore, observing  bodily sensations at the stage of vedanā was found to prevent the escalation of anxiety and substantially contribute to emotional regulation.Specifically, the study demonstrates that vedanā-based practices rooted in Buddhist teachings-including Goenka Vipassanā, the Mahāsī Tradition, and Body Scan Meditation-can be effectively utilized for psychosomatic healing and anxiety relief in modern society.",
-      "abstract_en": "",
+      "abstract_en": "This study aims to explore the healing potential of vedanā (受, feeling/sensation) as a means to overcome anxiety in modern society. The research defines vedanā as the bodily reactions, sensations, and perceptions arising from the convergence of three factors-sense organ (根, indriya), object (境, viṣaya), and consciousness (識, vijñāna)-in sensory contact (三事和合), and develops the discussion centered on this understanding.\nTo achieve this objective, the study examines the traditional meaning of vedanā and trends in contemporary interpretations, reviews the current state of anxiety disorders in Korea, and explores the relationship between anxiety and vedanā from a neuroscientific perspective to investigate the healing potential of vedanā.\nThe study confirmed the key principle in the neuroscientific mechanism of anxiety that bodily responses precede emotional experiences. Furthermore, observing bodily sensations at the stage of vedanā was found to prevent the escalation of anxiety and substantially contribute to emotional regulation.\nSpecifically, the study demonstrates that vedanā-based practices rooted in Buddhist teachings-including Goenka Vipassanā, the Mahāsī Tradition, and Body Scan Meditation-can be effectively utilized for psychosomatic healing and anxiety relief in modern society.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "71",
       "start_page": "253",
       "end_page": "285",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.09",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c63c18d58be39431b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264501",
       "keywords_kr": [
         "수(受",
         "불안",
@@ -49278,8 +49400,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264501",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c63c18d58be39431b7998d826d417196",
       "id": "c63c18d58be39431b7998d826d417196"
@@ -49303,9 +49427,9 @@
       "issue": "71",
       "start_page": "287",
       "end_page": "314",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.10",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c63c18d58be39431c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264502",
       "keywords_kr": [
         "불교문화콘텐츠",
         "진로태도성숙도",
@@ -49322,8 +49446,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264502",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c63c18d58be39431c85d2949c297615a",
       "id": "c63c18d58be39431c85d2949c297615a"
@@ -49340,16 +49466,16 @@
         }
       ],
       "abstract_kr": "This study provides an in-depth analysis of the Buddhist thought reflected in Ucchari Hiroi, a short story by Kōda Rohan (1867–1947), from the perspective of Chapter 18, “The Benefits of Responding with Joy” (Sui-ki Kudoku-hon, 隨喜功徳品), of the Lotus Sutra (Saddharmapuṇḍarīka Sūtra). The story takes as its theme the labor of a ragpicker—socially regarded as the most humble of occupations—yet transforms it into an exploration of spiritual value that transcends the material world. This paper argues that the ragpicker’s act of “picking up” discarded objects structurally corresponds to the principle of the “fifty successive transmissions of merit” (gojū ten-ten no kudoku) presented in the Lotus Sutra. Through the seemingly mundane act of salvaging waste, Rohan embodies a Buddhist mechanism in which merit is preserved and transmitted, thereby offering a spiritual response to the material excess and existential nihilism of modern society. In particular, the role of the narrator, who witnesses and praises the ragpicker’s work, corresponds to that of the “joyful respondent” (sui-ki santansha), illustrating how the chain of merit extends beyond the actor to the observer and, ultimately, to the reader. This reading reexamines the Buddhist depth of Rohan’s literature and demonstrates how Ucchari Hiroi conveys a universal message that remains relevant to modern.",
-      "abstract_en": "",
+      "abstract_en": "This study provides an in-depth analysis of the Buddhist thought reflected in Ucchari Hiroi, a short story by Kōda Rohan (1867–1947), from the perspective of Chapter 18, “The Benefits of Responding with Joy” (Sui-ki Kudoku-hon, 隨喜功徳品), of the Lotus Sutra (Saddharmapuṇḍarīka Sūtra). The story takes as its theme the labor of a ragpicker—socially regarded as the most humble of occupations—yet transforms it into an exploration of spiritual value that transcends the material world. This paper argues that the ragpicker’s act of “picking up” discarded objects structurally corresponds to the principle of the “fifty successive transmissions of merit” (gojū ten-ten no kudoku) presented in the Lotus Sutra. Through the seemingly mundane act of salvaging waste, Rohan embodies a Buddhist mechanism in which merit is preserved and transmitted, thereby offering a spiritual response to the material excess and existential nihilism of modern society. In particular, the role of the narrator, who witnesses and praises the ragpicker’s work, corresponds to that of the “joyful respondent” (sui-ki santansha), illustrating how the chain of merit extends beyond the actor to the observer and, ultimately, to the reader. This reading reexamines the Buddhist depth of Rohan’s literature and demonstrates how Ucchari Hiroi conveys a universal message that remains relevant to modern.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "71",
       "start_page": "315",
       "end_page": "337",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.71.11",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c63c18d58be394316aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003264503",
       "keywords_kr": [
         "고다 로한",
         "『물 위의 넝마주이』",
@@ -49366,8 +49492,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003264503",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c63c18d58be394316aae8a972f9116fb",
       "id": "c63c18d58be394316aae8a972f9116fb"
@@ -49391,9 +49519,9 @@
       "issue": "72",
       "start_page": "3",
       "end_page": "34",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d3f9b6310f4b4584884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003295961",
       "keywords_kr": [
         "의상대사법성게",
         "화엄일승법계도",
@@ -49410,8 +49538,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003295961",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9d3f9b6310f4b4584884a65323211ff0",
       "id": "9d3f9b6310f4b4584884a65323211ff0"
@@ -49435,9 +49565,9 @@
       "issue": "72",
       "start_page": "35",
       "end_page": "62",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.2",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d3f9b6310f4b458e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003295963",
       "keywords_kr": [
         "자장慈藏",
         "개청開淸",
@@ -49454,8 +49584,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003295963",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9d3f9b6310f4b458e9810257f7042666",
       "id": "9d3f9b6310f4b458e9810257f7042666"
@@ -49479,9 +49611,9 @@
       "issue": "72",
       "start_page": "63",
       "end_page": "98",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.3",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d3f9b6310f4b458d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003295964",
       "keywords_kr": [
         "정혜결사",
         "오대산 결사",
@@ -49498,8 +49630,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003295964",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9d3f9b6310f4b458d18150b21a227875",
       "id": "9d3f9b6310f4b458d18150b21a227875"
@@ -49523,9 +49657,9 @@
       "issue": "72",
       "start_page": "99",
       "end_page": "125",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.4",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4c1c01919b9ffc8147de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003295967",
       "keywords_kr": [
         "법화경",
         "육근청정",
@@ -49542,8 +49676,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003295967",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4c1c01919b9ffc8147de9c1710b0298d",
       "id": "4c1c01919b9ffc8147de9c1710b0298d"
@@ -49560,16 +49696,16 @@
         }
       ],
       "abstract_kr": "This study reinterprets the practice system of Wonmyo Guksa Yose (了世, 1163–1245), leader of the Baengnyeon (White Lotus) Community in late Goryeo, moving beyond the conventional view that his movement was merely a “low-stage, ordinary-beings-centered Pure Land society.” By examining the Tiantai doctrinal framework—especially the theories of Ichinen-sanzen and One-Mind Three Contemplations—along with historical accounts in the Dongmunseon, this paper demonstrates that Yose’s integrated structure of śamatha–vipaśyanā (止觀), repentance (懺悔), Buddha-recitation (念佛), and Pure Land practice (淨土) formed an all-embracing system of salvation. The key analytical focus is the redefinition of capacity (根機, geungi) not as an inherent, fixed difference between people, but as variable mental states—higher, middle, and lower capacities—that arise fluidly within a single individual. From this perspective, repentance is understood as a universal corrective mechanism for the psychological and moral “descents” that occur during practice, while Pure Land reliance becomes a supplementary safeguard that compensates for the collapse of self-power inevitably experienced at the moment of death.Through this reinterpretation, the Baengnyeon movement emerges not as a simple popular chanting society for “inferior practitioners,” but as a comprehensive practice model embracing the entirety of human life and death. Yose integrated the Tiantai tradition with the social turmoil of late Goryeo to construct a cyclic practice system capable of supporting practitioners in both daily training and the existential vulnerability of dying. By reframing Baengnyeon practice as a Tiantai-based, all-capacity (凡根機) model rather than a low-capacity movement, this study offers a renewed historical understanding of Yose’s reform and provides theoretical insights applicable to contemporary Buddhist practice, philosophical counseling, and studies of death and dying.",
-      "abstract_en": "",
+      "abstract_en": "This study reinterprets the practice system of Wonmyo Guksa Yose (了世, 1163–1245), leader of the Baengnyeon (White Lotus) Community in late Goryeo, moving beyond the conventional view that his movement was merely a “low-stage, ordinary-beings-centered Pure Land society.” By examining the Tiantai doctrinal framework—especially the theories of Ichinen-sanzen and One-Mind Three Contemplations—along with historical accounts in the Dongmunseon, this paper demonstrates that Yose’s integrated structure of śamatha–vipaśyanā (止觀), repentance (懺悔), Buddha-recitation (念佛), and Pure Land practice (淨土) formed an all-embracing system of salvation. The key analytical focus is the redefinition of capacity (根機, geungi) not as an inherent, fixed difference between people, but as variable mental states—higher, middle, and lower capacities—that arise fluidly within a single individual. From this perspective, repentance is understood as a universal corrective mechanism for the psychological and moral “descents” that occur during practice, while Pure Land reliance becomes a supplementary safeguard that compensates for the collapse of self-power inevitably experienced at the moment of death.\nThrough this reinterpretation, the Baengnyeon movement emerges not as a simple popular chanting society for “inferior practitioners,” but as a comprehensive practice model embracing the entirety of human life and death. Yose integrated the Tiantai tradition with the social turmoil of late Goryeo to construct a cyclic practice system capable of supporting practitioners in both daily training and the existential vulnerability of dying. By reframing Baengnyeon practice as a Tiantai-based, all-capacity (凡根機) model rather than a low-capacity movement, this study offers a renewed historical understanding of Yose’s reform and provides theoretical insights applicable to contemporary Buddhist practice, philosophical counseling, and studies of death and dying.",
       "journal_name": "동아시아불교문화",
       "year": "2025",
       "volume": "",
       "issue": "72",
       "start_page": "127",
       "end_page": "151",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.5",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d3f9b6310f4b4587f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003295969",
       "keywords_kr": [
         "천태",
         "백련결사",
@@ -49588,8 +49724,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003295969",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9d3f9b6310f4b4587f7a54760bb41745",
       "id": "9d3f9b6310f4b4587f7a54760bb41745"
@@ -49613,9 +49751,9 @@
       "issue": "72",
       "start_page": "153",
       "end_page": "180",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.6",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4c1c01919b9ffc817f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003295970",
       "keywords_kr": [
         "Saññā",
         "숫따니빠따",
@@ -49632,8 +49770,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003295970",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4c1c01919b9ffc817f7a54760bb41745",
       "id": "4c1c01919b9ffc817f7a54760bb41745"
@@ -49657,9 +49797,9 @@
       "issue": "72",
       "start_page": "181",
       "end_page": "207",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.7",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d3f9b6310f4b458b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003295977",
       "keywords_kr": [
         "귀경게",
         "세속제",
@@ -49676,8 +49816,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003295977",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9d3f9b6310f4b458b7998d826d417196",
       "id": "9d3f9b6310f4b458b7998d826d417196"
@@ -49701,9 +49843,9 @@
       "issue": "72",
       "start_page": "209",
       "end_page": "237",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.8",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4c1c01919b9ffc816aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003295983",
       "keywords_kr": [
         "프라마나",
         "현실적 존재",
@@ -49720,8 +49862,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003295983",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4c1c01919b9ffc816aae8a972f9116fb",
       "id": "4c1c01919b9ffc816aae8a972f9116fb"
@@ -49745,9 +49889,9 @@
       "issue": "72",
       "start_page": "241",
       "end_page": "283",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6e4f7832daa490c74884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003295986",
       "keywords_kr": [
         "아뢰야식",
         "자증분",
@@ -49764,8 +49908,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003295986",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6e4f7832daa490c74884a65323211ff0",
       "id": "6e4f7832daa490c74884a65323211ff0"
@@ -49789,9 +49935,9 @@
       "issue": "72",
       "start_page": "285",
       "end_page": "318",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.10",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6e4f7832daa490c7b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003295992",
       "keywords_kr": [
         "형이상학 비판",
         "북종선 비판",
@@ -49808,8 +49954,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003295992",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6e4f7832daa490c7b36097776a77e665",
       "id": "6e4f7832daa490c7b36097776a77e665"
@@ -49833,9 +49981,9 @@
       "issue": "72",
       "start_page": "319",
       "end_page": "353",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.11",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6e4f7832daa490c7b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296020",
       "keywords_kr": [
         "『단금집초(斷錦集鈔)』",
         "석전(石顚) 박한영(朴漢永)",
@@ -49855,8 +50003,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296020",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6e4f7832daa490c7b7998d826d417196",
       "id": "6e4f7832daa490c7b7998d826d417196"
@@ -49880,9 +50030,9 @@
       "issue": "72",
       "start_page": "355",
       "end_page": "379",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.12",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4c1c01919b9ffc81c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296024",
       "keywords_kr": [
         "『불설불명경』",
         "불명호",
@@ -49902,8 +50052,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296024",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4c1c01919b9ffc81c85d2949c297615a",
       "id": "4c1c01919b9ffc81c85d2949c297615a"
@@ -49927,9 +50079,9 @@
       "issue": "72",
       "start_page": "381",
       "end_page": "408",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.13",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4c1c01919b9ffc81d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296025",
       "keywords_kr": [
         "원종문류집해",
         "확심",
@@ -49954,8 +50106,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296025",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4c1c01919b9ffc81d18150b21a227875",
       "id": "4c1c01919b9ffc81d18150b21a227875"
@@ -49984,9 +50138,9 @@
       "issue": "72",
       "start_page": "409",
       "end_page": "439",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.14",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4c1c01919b9ffc81e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296027",
       "keywords_kr": [
         "차서(次序)",
         "채비(差備)",
@@ -50003,8 +50157,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296027",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4c1c01919b9ffc81e9810257f7042666",
       "id": "4c1c01919b9ffc81e9810257f7042666"
@@ -50028,9 +50184,9 @@
       "issue": "72",
       "start_page": "441",
       "end_page": "468",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.15",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d3f9b6310f4b4586aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296029",
       "keywords_kr": [
         "일본 지장신앙",
         "물의례",
@@ -50047,8 +50203,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296029",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9d3f9b6310f4b4586aae8a972f9116fb",
       "id": "9d3f9b6310f4b4586aae8a972f9116fb"
@@ -50072,9 +50230,9 @@
       "issue": "72",
       "start_page": "469",
       "end_page": "500",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.16",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d3f9b6310f4b4587ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296030",
       "keywords_kr": [
         "가루다",
         "나가",
@@ -50093,8 +50251,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296030",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9d3f9b6310f4b4587ecd42904f0c5d65",
       "id": "9d3f9b6310f4b4587ecd42904f0c5d65"
@@ -50118,9 +50278,9 @@
       "issue": "72",
       "start_page": "501",
       "end_page": "526",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.17",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4c1c01919b9ffc81b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296032",
       "keywords_kr": [
         "심희(審希)",
         "현욱(玄昱)",
@@ -50144,8 +50304,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296032",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4c1c01919b9ffc81b7998d826d417196",
       "id": "4c1c01919b9ffc81b7998d826d417196"
@@ -50169,9 +50331,9 @@
       "issue": "72",
       "start_page": "527",
       "end_page": "560",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.18",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d3f9b6310f4b458b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296033",
       "keywords_kr": [
         "造紙寺)",
         "주어사(走魚寺)",
@@ -50190,8 +50352,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296033",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9d3f9b6310f4b458b36097776a77e665",
       "id": "9d3f9b6310f4b458b36097776a77e665"
@@ -50215,9 +50379,9 @@
       "issue": "72",
       "start_page": "561",
       "end_page": "582",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.19",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d3f9b6310f4b45847de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296034",
       "keywords_kr": [
         "봉림산문",
         "봉림사",
@@ -50236,8 +50400,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296034",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9d3f9b6310f4b45847de9c1710b0298d",
       "id": "9d3f9b6310f4b45847de9c1710b0298d"
@@ -50261,9 +50427,9 @@
       "issue": "72",
       "start_page": "583",
       "end_page": "613",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.20",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d3f9b6310f4b458c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296035",
       "keywords_kr": [
         "불교",
         "불교경제학",
@@ -50282,8 +50448,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296035",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9d3f9b6310f4b458c85d2949c297615a",
       "id": "9d3f9b6310f4b458c85d2949c297615a"
@@ -50307,9 +50475,9 @@
       "issue": "72",
       "start_page": "615",
       "end_page": "653",
-      "doi": "",
+      "doi": "10.21718/EABC.2025.72.21",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6e4f7832daa490c77ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003296037",
       "keywords_kr": [
         "연기",
         "초기불교 사회화 이론",
@@ -50326,8 +50494,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003296037",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6e4f7832daa490c77ecd42904f0c5d65",
       "id": "6e4f7832daa490c77ecd42904f0c5d65"
@@ -51393,7 +51563,7 @@
       "end_page": "31",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e17f9016b777019a7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362340",
       "keywords_kr": [
         "나옹혜근",
         "태고보우",
@@ -51413,8 +51583,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "e17f9016b777019a7f7a54760bb41745",
+      "kci_id": "ART003362340",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e17f9016b777019a7f7a54760bb41745"
     },
@@ -51444,7 +51616,7 @@
       "end_page": "61",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3b2fa7bca938f67447de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362341",
       "keywords_kr": [
         "불국토(佛國土)",
         "삼세일념(三世一念)",
@@ -51464,8 +51636,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "3b2fa7bca938f67447de9c1710b0298d",
+      "kci_id": "ART003362341",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3b2fa7bca938f67447de9c1710b0298d"
     },
@@ -51490,7 +51664,7 @@
       "end_page": "92",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=41cbe3ca761777bab36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362342",
       "keywords_kr": [
         "간화선",
         "진각혜심",
@@ -51508,8 +51682,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "41cbe3ca761777bab36097776a77e665",
+      "kci_id": "ART003362342",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "41cbe3ca761777bab36097776a77e665"
     },
@@ -51534,7 +51710,7 @@
       "end_page": "126",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3b2fa7bca938f6747f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362343",
       "keywords_kr": [
         "유식 지관 수행론",
         "해심밀경소",
@@ -51552,8 +51728,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "3b2fa7bca938f6747f7a54760bb41745",
+      "kci_id": "ART003362343",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3b2fa7bca938f6747f7a54760bb41745"
     },
@@ -51578,7 +51756,7 @@
       "end_page": "157",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e17f9016b777019ac85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362344",
       "keywords_kr": [
         "불[火]",
         "『대일경』",
@@ -51602,8 +51780,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "e17f9016b777019ac85d2949c297615a",
+      "kci_id": "ART003362344",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e17f9016b777019ac85d2949c297615a"
     },
@@ -51628,7 +51808,7 @@
       "end_page": "185",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e17f9016b777019a6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362345",
       "keywords_kr": [
         "유사지각",
         "오류지",
@@ -51646,8 +51826,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "e17f9016b777019a6aae8a972f9116fb",
+      "kci_id": "ART003362345",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e17f9016b777019a6aae8a972f9116fb"
     },
@@ -51672,7 +51854,7 @@
       "end_page": "225",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e17f9016b777019ad18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362346",
       "keywords_kr": [
         "비구니 빠라지까",
         "빠알리 율장",
@@ -51690,8 +51872,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "e17f9016b777019ad18150b21a227875",
+      "kci_id": "ART003362346",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e17f9016b777019ad18150b21a227875"
     },
@@ -51716,7 +51900,7 @@
       "end_page": "267",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=41cbe3ca761777ba4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362347",
       "keywords_kr": [
         "만해 한용운",
         "卍당",
@@ -51734,8 +51918,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "41cbe3ca761777ba4884a65323211ff0",
+      "kci_id": "ART003362347",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "41cbe3ca761777ba4884a65323211ff0"
     },
@@ -51760,7 +51946,7 @@
       "end_page": "294",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e17f9016b777019ae9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362348",
       "keywords_kr": [
         "호국불교",
         "의승군",
@@ -51784,8 +51970,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "e17f9016b777019ae9810257f7042666",
+      "kci_id": "ART003362348",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e17f9016b777019ae9810257f7042666"
     },
@@ -51810,7 +51998,7 @@
       "end_page": "311",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=41cbe3ca761777ba7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362349",
       "keywords_kr": [
         "护国思想",
         "国土",
@@ -51826,8 +52014,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "41cbe3ca761777ba7ecd42904f0c5d65",
+      "kci_id": "ART003362349",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "41cbe3ca761777ba7ecd42904f0c5d65"
     },
@@ -51852,7 +52042,7 @@
       "end_page": "342",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e17f9016b777019a47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362350",
       "keywords_kr": [
         "지속가능성의 위기",
         "불교경제학",
@@ -51870,8 +52060,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "e17f9016b777019a47de9c1710b0298d",
+      "kci_id": "ART003362350",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e17f9016b777019a47de9c1710b0298d"
     },
@@ -51896,7 +52088,7 @@
       "end_page": "373",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e17f9016b777019ab36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362351",
       "keywords_kr": [
         "AI 시대의 인도철학",
         "인간경험",
@@ -51914,8 +52106,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "e17f9016b777019ab36097776a77e665",
+      "kci_id": "ART003362351",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e17f9016b777019ab36097776a77e665"
     },
@@ -51940,7 +52134,7 @@
       "end_page": "401",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e17f9016b777019a4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362352",
       "keywords_kr": [
         "화두",
         "의심",
@@ -51958,8 +52152,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "e17f9016b777019a4884a65323211ff0",
+      "kci_id": "ART003362352",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e17f9016b777019a4884a65323211ff0"
     },
@@ -51984,7 +52180,7 @@
       "end_page": "438",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e17f9016b777019ab7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362353",
       "keywords_kr": [
         "만해 한용운",
         "디지털 아카이브",
@@ -52004,8 +52200,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "e17f9016b777019ab7998d826d417196",
+      "kci_id": "ART003362353",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e17f9016b777019ab7998d826d417196"
     },
@@ -52030,7 +52228,7 @@
       "end_page": "473",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=41cbe3ca761777bab7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362354",
       "keywords_kr": [
         "조현병스펙트럼장애",
         "망상",
@@ -52048,8 +52246,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "41cbe3ca761777bab7998d826d417196",
+      "kci_id": "ART003362354",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "41cbe3ca761777bab7998d826d417196"
     },
@@ -52074,7 +52274,7 @@
       "end_page": "33",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c741ecca9eafbb4b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381298",
       "keywords_kr": [
         "삼계유심구(三界唯心句)",
         "일심(一心)",
@@ -52094,8 +52294,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "7c741ecca9eafbb4b36097776a77e665",
+      "kci_id": "ART003381298",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7c741ecca9eafbb4b36097776a77e665"
     },
@@ -52120,7 +52322,7 @@
       "end_page": "63",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=79d8039ec97c99c7c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381300",
       "keywords_kr": [
         "지눌(知訥)",
         "『수심결』(修心訣)",
@@ -52138,8 +52340,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "79d8039ec97c99c7c85d2949c297615a",
+      "kci_id": "ART003381300",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "79d8039ec97c99c7c85d2949c297615a"
     },
@@ -52164,7 +52368,7 @@
       "end_page": "89",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=79d8039ec97c99c74884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381302",
       "keywords_kr": [
         "배휴",
         "규봉종밀",
@@ -52182,8 +52386,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "79d8039ec97c99c74884a65323211ff0",
+      "kci_id": "ART003381302",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "79d8039ec97c99c74884a65323211ff0"
     },
@@ -52213,7 +52419,7 @@
       "end_page": "125",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=79d8039ec97c99c7d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381304",
       "keywords_kr": [
         "무문혜개(無門慧開)",
         "만송행수(萬松行秀)",
@@ -52231,8 +52437,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "79d8039ec97c99c7d18150b21a227875",
+      "kci_id": "ART003381304",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "79d8039ec97c99c7d18150b21a227875"
     },
@@ -52257,7 +52465,7 @@
       "end_page": "154",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c741ecca9eafbb44884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381306",
       "keywords_kr": [
         "중국 밀교",
         "진언다라니",
@@ -52275,8 +52483,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "7c741ecca9eafbb44884a65323211ff0",
+      "kci_id": "ART003381306",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7c741ecca9eafbb44884a65323211ff0"
     },
@@ -52301,7 +52511,7 @@
       "end_page": "200",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=79d8039ec97c99c7b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381307",
       "keywords_kr": [
         "Māyā",
         "나가르주나(Nāgārjuna)",
@@ -52323,8 +52533,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "79d8039ec97c99c7b36097776a77e665",
+      "kci_id": "ART003381307",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "79d8039ec97c99c7b36097776a77e665"
     },
@@ -52349,7 +52561,7 @@
       "end_page": "234",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=79d8039ec97c99c77f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381309",
       "keywords_kr": [
         "신라",
         "불교공인(佛敎公認)",
@@ -52369,8 +52581,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "79d8039ec97c99c77f7a54760bb41745",
+      "kci_id": "ART003381309",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "79d8039ec97c99c77f7a54760bb41745"
     },
@@ -52395,7 +52609,7 @@
       "end_page": "263",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=79d8039ec97c99c747de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381585",
       "keywords_kr": [
         "신장상(神將像)",
         "신왕상(神王像)",
@@ -52414,8 +52628,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "79d8039ec97c99c747de9c1710b0298d",
+      "kci_id": "ART003381585",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "79d8039ec97c99c747de9c1710b0298d"
     },
@@ -52440,7 +52656,7 @@
       "end_page": "300",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c741ecca9eafbb447de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381590",
       "keywords_kr": [
         "조선전기",
         "건칠불상",
@@ -52460,8 +52676,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "7c741ecca9eafbb447de9c1710b0298d",
+      "kci_id": "ART003381590",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7c741ecca9eafbb447de9c1710b0298d"
     },
@@ -52486,7 +52704,7 @@
       "end_page": "325",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c741ecca9eafbb4c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381596",
       "keywords_kr": [
         "환성 지안",
         "전법 기제",
@@ -52505,8 +52723,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "7c741ecca9eafbb4c85d2949c297615a",
+      "kci_id": "ART003381596",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7c741ecca9eafbb4c85d2949c297615a"
     },
@@ -52531,7 +52751,7 @@
       "end_page": "356",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=79d8039ec97c99c76aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381603",
       "keywords_kr": [
         "백파 긍선",
         "수선결사문",
@@ -52553,8 +52773,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "79d8039ec97c99c76aae8a972f9116fb",
+      "kci_id": "ART003381603",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "79d8039ec97c99c76aae8a972f9116fb"
     },
@@ -52579,7 +52801,7 @@
       "end_page": "389",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c741ecca9eafbb47f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381627",
       "keywords_kr": [
         "일제강점기",
         "한국 불교 잡지",
@@ -52597,8 +52819,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "7c741ecca9eafbb47f7a54760bb41745",
+      "kci_id": "ART003381627",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7c741ecca9eafbb47f7a54760bb41745"
     },
@@ -52628,7 +52852,7 @@
       "end_page": "425",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=79d8039ec97c99c7e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381629",
       "keywords_kr": [
         "관음주송(觀音呪誦)",
         "염불(念佛)",
@@ -52646,8 +52870,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "79d8039ec97c99c7e9810257f7042666",
+      "kci_id": "ART003381629",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "79d8039ec97c99c7e9810257f7042666"
     },
@@ -52672,7 +52898,7 @@
       "end_page": "456",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c741ecca9eafbb46aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381632",
       "keywords_kr": [
         "통도사",
         "해인사",
@@ -52692,8 +52918,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "7c741ecca9eafbb46aae8a972f9116fb",
+      "kci_id": "ART003381632",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7c741ecca9eafbb46aae8a972f9116fb"
     },
@@ -52718,7 +52946,7 @@
       "end_page": "488",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c741ecca9eafbb4d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381634",
       "keywords_kr": [
         "담양 용화사",
         "불복장작법",
@@ -52739,8 +52967,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "7c741ecca9eafbb4d18150b21a227875",
+      "kci_id": "ART003381634",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7c741ecca9eafbb4d18150b21a227875"
     },
@@ -52770,7 +53000,7 @@
       "end_page": "514",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=79d8039ec97c99c77ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381636",
       "keywords_kr": [
         "절 걸립패",
         "비나리",
@@ -52788,8 +53018,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "79d8039ec97c99c77ecd42904f0c5d65",
+      "kci_id": "ART003381636",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "79d8039ec97c99c77ecd42904f0c5d65"
     },
@@ -52814,7 +53046,7 @@
       "end_page": "548",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c741ecca9eafbb4e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381649",
       "keywords_kr": [
         "인도네시아 불교",
         "혼합주의",
@@ -52832,8 +53064,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "7c741ecca9eafbb4e9810257f7042666",
+      "kci_id": "ART003381649",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7c741ecca9eafbb4e9810257f7042666"
     },
@@ -52858,7 +53092,7 @@
       "end_page": "574",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=79d8039ec97c99c7b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381650",
       "keywords_kr": [
         "불교음악명상",
         "법성게 선율 복원",
@@ -52876,8 +53110,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "79d8039ec97c99c7b7998d826d417196",
+      "kci_id": "ART003381650",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "79d8039ec97c99c7b7998d826d417196"
     },
@@ -52902,7 +53138,7 @@
       "end_page": "601",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c741ecca9eafbb4b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381651",
       "keywords_kr": [
         "불교 명상",
         "선정(禪定)",
@@ -52920,8 +53156,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "7c741ecca9eafbb4b7998d826d417196",
+      "kci_id": "ART003381651",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7c741ecca9eafbb4b7998d826d417196"
     },
@@ -52946,7 +53184,7 @@
       "end_page": "633",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c741ecca9eafbb47ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381652",
       "keywords_kr": [
         "인공지능",
         "불교윤리",
@@ -52970,8 +53208,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "7c741ecca9eafbb47ecd42904f0c5d65",
+      "kci_id": "ART003381652",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7c741ecca9eafbb47ecd42904f0c5d65"
     }

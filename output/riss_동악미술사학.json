@@ -15340,9 +15340,9 @@
       "issue": "37",
       "start_page": "5",
       "end_page": "26",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=244fcafc86588fde47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218106",
       "keywords_kr": [
         "조선",
         "왕실",
@@ -15361,8 +15361,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218106",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "244fcafc86588fde47de9c1710b0298d",
       "id": "244fcafc86588fde47de9c1710b0298d"
@@ -15386,9 +15388,9 @@
       "issue": "37",
       "start_page": "27",
       "end_page": "52",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.2",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=244fcafc86588fde7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218133",
       "keywords_kr": [
         "16세기 범종",
         "민간후원",
@@ -15411,8 +15413,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218133",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "244fcafc86588fde7f7a54760bb41745",
       "id": "244fcafc86588fde7f7a54760bb41745"
@@ -15436,9 +15440,9 @@
       "issue": "37",
       "start_page": "53",
       "end_page": "79",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.3",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=244fcafc86588fdeb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218155",
       "keywords_kr": [
         "서대문구 백련사",
         "명부전 존상",
@@ -15457,8 +15461,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218155",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "244fcafc86588fdeb36097776a77e665",
       "id": "244fcafc86588fdeb36097776a77e665"
@@ -15482,9 +15488,9 @@
       "issue": "37",
       "start_page": "81",
       "end_page": "103",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.4",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=244fcafc86588fde4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218162",
       "keywords_kr": [
         "백련사",
         "정토절",
@@ -15504,8 +15510,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218162",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "244fcafc86588fde4884a65323211ff0",
       "id": "244fcafc86588fde4884a65323211ff0"
@@ -15529,9 +15537,9 @@
       "issue": "37",
       "start_page": "105",
       "end_page": "133",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.5",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d0719a131d61a9b36aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218214",
       "keywords_kr": [
         "서울 백련사",
         "조왕도",
@@ -15548,8 +15556,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218214",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d0719a131d61a9b36aae8a972f9116fb",
       "id": "d0719a131d61a9b36aae8a972f9116fb"
@@ -15573,9 +15583,9 @@
       "issue": "37",
       "start_page": "135",
       "end_page": "175",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.6",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d0719a131d61a9b3d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218232",
       "keywords_kr": [
         "白蓮寺",
         "十王圖",
@@ -15594,8 +15604,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218232",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d0719a131d61a9b3d18150b21a227875",
       "id": "d0719a131d61a9b3d18150b21a227875"
@@ -15619,9 +15631,9 @@
       "issue": "37",
       "start_page": "177",
       "end_page": "202",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.7",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d0719a131d61a9b3e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218252",
       "keywords_kr": [
         "아동",
         "어린이",
@@ -15647,8 +15659,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218252",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d0719a131d61a9b3e9810257f7042666",
       "id": "d0719a131d61a9b3e9810257f7042666"
@@ -15672,9 +15686,9 @@
       "issue": "37",
       "start_page": "203",
       "end_page": "232",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.8",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=244fcafc86588fdee9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218277",
       "keywords_kr": [
         "금강산 그림",
         "금강산 사진",
@@ -15691,8 +15705,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218277",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "244fcafc86588fdee9810257f7042666",
       "id": "244fcafc86588fdee9810257f7042666"
@@ -15704,7 +15720,7 @@
       "authors": [
         {
           "name": "왕하오양",
-          "affiliation": "",
+          "affiliation": "성균관대학교",
           "order": "1"
         }
       ],
@@ -15716,9 +15732,9 @@
       "issue": "37",
       "start_page": "233",
       "end_page": "258",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.9",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=244fcafc86588fdec85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218297",
       "keywords_kr": [
         "瑞樹",
         "乾隆帝",
@@ -15735,8 +15751,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218297",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "244fcafc86588fdec85d2949c297615a",
       "id": "244fcafc86588fdec85d2949c297615a"
@@ -15760,9 +15778,9 @@
       "issue": "37",
       "start_page": "259",
       "end_page": "291",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.10",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=244fcafc86588fde7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218316",
       "keywords_kr": [
         "우각채석굴",
         "미륵대불",
@@ -15783,8 +15801,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218316",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "244fcafc86588fde7ecd42904f0c5d65",
       "id": "244fcafc86588fde7ecd42904f0c5d65"
@@ -15808,9 +15828,9 @@
       "issue": "37",
       "start_page": "293",
       "end_page": "325",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.11",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=244fcafc86588fdeb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218332",
       "keywords_kr": [
         "木彫佛",
         "制作技法",
@@ -15832,8 +15852,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218332",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "244fcafc86588fdeb7998d826d417196",
       "id": "244fcafc86588fdeb7998d826d417196"
@@ -15857,9 +15879,9 @@
       "issue": "37",
       "start_page": "327",
       "end_page": "344",
-      "doi": "",
+      "doi": "10.17300/dah.2025.37.12",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d0719a131d61a9b37f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003218343",
       "keywords_kr": [
         "조앙사",
         "불탑",
@@ -15876,8 +15898,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003218343",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d0719a131d61a9b37f7a54760bb41745",
       "id": "d0719a131d61a9b37f7a54760bb41745"
@@ -15901,9 +15925,9 @@
       "issue": "38",
       "start_page": "5",
       "end_page": "30",
-      "doi": "",
+      "doi": "10.17300/dah.2025.38.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6bc677816aee0620b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003284711",
       "keywords_kr": [
         "오색구름",
         "氣象繪畵",
@@ -15923,8 +15947,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003284711",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6bc677816aee0620b36097776a77e665",
       "id": "6bc677816aee0620b36097776a77e665"
@@ -15948,9 +15974,9 @@
       "issue": "38",
       "start_page": "31",
       "end_page": "51",
-      "doi": "",
+      "doi": "10.17300/dah.2025.38.2",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6bc677816aee0620b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003284739",
       "keywords_kr": [
         "羅漢像",
         "神通力",
@@ -15969,8 +15995,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003284739",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6bc677816aee0620b7998d826d417196",
       "id": "6bc677816aee0620b7998d826d417196"
@@ -15994,9 +16022,9 @@
       "issue": "38",
       "start_page": "53",
       "end_page": "75",
-      "doi": "",
+      "doi": "10.17300/dah.2025.38.3",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6bc677816aee06204884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003284766",
       "keywords_kr": [
         "문고산",
         "청량사 동별당 <관음보살도>",
@@ -16013,8 +16041,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003284766",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6bc677816aee06204884a65323211ff0",
       "id": "6bc677816aee06204884a65323211ff0"
@@ -16038,9 +16068,9 @@
       "issue": "38",
       "start_page": "77",
       "end_page": "114",
-      "doi": "",
+      "doi": "10.17300/dah.2025.38.4",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6bc677816aee06207ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003284791",
       "keywords_kr": [
         "신라말·고려초",
         "청주지역 불교미술",
@@ -16061,8 +16091,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003284791",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6bc677816aee06207ecd42904f0c5d65",
       "id": "6bc677816aee06207ecd42904f0c5d65"
@@ -16086,9 +16118,9 @@
       "issue": "38",
       "start_page": "115",
       "end_page": "149",
-      "doi": "",
+      "doi": "10.17300/dah.2025.38.5",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7a54b269f13b17c96aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003284814",
       "keywords_kr": [
         "도우",
         "희장",
@@ -16108,8 +16140,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003284814",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7a54b269f13b17c96aae8a972f9116fb",
       "id": "7a54b269f13b17c96aae8a972f9116fb"
@@ -16133,9 +16167,9 @@
       "issue": "38",
       "start_page": "151",
       "end_page": "167",
-      "doi": "",
+      "doi": "10.17300/dah.2025.38.6",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7a54b269f13b17c9d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003284849",
       "keywords_kr": [
         "청동토수",
         "경복궁영건일기",
@@ -16153,8 +16187,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003284849",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7a54b269f13b17c9d18150b21a227875",
       "id": "7a54b269f13b17c9d18150b21a227875"
@@ -16162,11 +16198,11 @@
     {
       "article_id": "3ed7aeb6e026499e47de9c1710b0298d",
       "title_kr": "唐·宋代 <觀經十六觀變相圖>의 사상적 계보 재검토",
-      "title_en": "",
+      "title_en": "A Reappraisal of the Ideological Lineage of the Transformation Tableaux of the Contemplation Sutra in Tang and Song China",
       "authors": [
         {
           "name": "김자현",
-          "affiliation": "",
+          "affiliation": "동국대학교 불교문화연구원",
           "order": "1"
         }
       ],
@@ -16180,7 +16216,7 @@
       "end_page": "34",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3ed7aeb6e026499e47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358566",
       "keywords_kr": [
         "관경변상도",
         "善導",
@@ -16200,19 +16236,21 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "3ed7aeb6e026499e47de9c1710b0298d",
+      "kci_id": "ART003358566",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3ed7aeb6e026499e47de9c1710b0298d"
     },
     {
       "article_id": "3ed7aeb6e026499e7f7a54760bb41745",
       "title_kr": "조선 후기 선묘불화의 제작 현황과 의미",
-      "title_en": "",
+      "title_en": "Production and Significance of Late Joseon Line-drawn Buddhist Paintings",
       "authors": [
         {
           "name": "김형곤",
-          "affiliation": "",
+          "affiliation": "청람문화유산연구원",
           "order": "1"
         }
       ],
@@ -16226,7 +16264,7 @@
       "end_page": "62",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3ed7aeb6e026499e7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358572",
       "keywords_kr": [
         "조선 후기",
         "線描佛畵",
@@ -16247,19 +16285,21 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "3ed7aeb6e026499e7f7a54760bb41745",
+      "kci_id": "ART003358572",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3ed7aeb6e026499e7f7a54760bb41745"
     },
     {
       "article_id": "3ed7aeb6e026499ee9810257f7042666",
       "title_kr": "강화 전등사의 근대 불화: 대웅보전의 불화를 중심으로",
-      "title_en": "",
+      "title_en": "Modern Buddhist Paintings at Jeondeungsa Temple in Ganghwa: Based on the Buddhist Paintings in Daeungbojeon Hall",
       "authors": [
         {
           "name": "최엽",
-          "affiliation": "",
+          "affiliation": "동국대학교 미술학부",
           "order": "1"
         }
       ],
@@ -16273,7 +16313,7 @@
       "end_page": "87",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3ed7aeb6e026499ee9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358577",
       "keywords_kr": [
         "근대전환기",
         "강화 전등사",
@@ -16291,19 +16331,21 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "3ed7aeb6e026499ee9810257f7042666",
+      "kci_id": "ART003358577",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3ed7aeb6e026499ee9810257f7042666"
     },
     {
       "article_id": "3ed7aeb6e026499ed18150b21a227875",
       "title_kr": "충절과 길상의 시각화: 한국 근대기 소무목양도의 제작 양상과 특징",
-      "title_en": "",
+      "title_en": "Visualizing Loyalty and Auspiciousness: The Development and Iconographic Characteristics of Su Wu Tending Sheep in Modern Korea",
       "authors": [
         {
           "name": "김소연",
-          "affiliation": "",
+          "affiliation": "이화여자대학교",
           "order": "1"
         }
       ],
@@ -16317,7 +16359,7 @@
       "end_page": "108",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3ed7aeb6e026499ed18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358583",
       "keywords_kr": [
         "소무",
         "소무목양도",
@@ -16337,19 +16379,21 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "3ed7aeb6e026499ed18150b21a227875",
+      "kci_id": "ART003358583",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3ed7aeb6e026499ed18150b21a227875"
     },
     {
       "article_id": "3ed7aeb6e026499e6aae8a972f9116fb",
       "title_kr": "한국 고대 托盞의 수용과 변용: 중국 고대 托盞과 백제·통일신라 托盞의 비교를 중심으로",
-      "title_en": "",
+      "title_en": "The Acceptance and Transformation of Takjan(托盞) in Ancient Korea: A Comparative Study of Takjan in Ancient China, Baekje, and Unified Silla",
       "authors": [
         {
           "name": "나상철",
-          "affiliation": "",
+          "affiliation": "충북대학교",
           "order": "1"
         }
       ],
@@ -16363,7 +16407,7 @@
       "end_page": "141",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3ed7aeb6e026499e6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358586",
       "keywords_kr": [
         "托盞",
         "盤·臺附盤",
@@ -16381,19 +16425,21 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "3ed7aeb6e026499e6aae8a972f9116fb",
+      "kci_id": "ART003358586",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3ed7aeb6e026499e6aae8a972f9116fb"
     },
     {
       "article_id": "498c9df6e1d1301a7ecd42904f0c5d65",
       "title_kr": "北魏末·東魏 定州 白石 佛像 硏究 - 여래상과 보살입상을 중심으로 -",
-      "title_en": "",
+      "title_en": "A Study of White Marble Buddhist Sculptures in Dingzhou during the Late Northern Wei and Eastern Wei Periods: Focusing on Buddha and Standing Bodhisattva Images",
       "authors": [
         {
           "name": "박기헌",
-          "affiliation": "",
+          "affiliation": "운강연구원",
           "order": "1"
         }
       ],
@@ -16407,7 +16453,7 @@
       "end_page": "182",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=498c9df6e1d1301a7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358591",
       "keywords_kr": [
         "北魏",
         "東魏",
@@ -16431,15 +16477,17 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "498c9df6e1d1301a7ecd42904f0c5d65",
+      "kci_id": "ART003358591",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "498c9df6e1d1301a7ecd42904f0c5d65"
     },
     {
       "article_id": "498c9df6e1d1301a4884a65323211ff0",
       "title_kr": "‘내 손으로 만드는 功德’: 7-8세기 唐代 小型 佛敎美術品의 성격",
-      "title_en": "",
+      "title_en": "Merit-making by one’s own hand: Characteristics of small, mold-made Buddhist clay tiles in the 7th–8th Century Tang Dynasty",
       "authors": [
         {
           "name": "蘇鉉淑",
@@ -16457,7 +16505,7 @@
       "end_page": "212",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=498c9df6e1d1301a4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358595",
       "keywords_kr": [
         "唐代",
         "소형 模印泥像",
@@ -16475,15 +16523,17 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "498c9df6e1d1301a4884a65323211ff0",
+      "kci_id": "ART003358595",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "498c9df6e1d1301a4884a65323211ff0"
     },
     {
       "article_id": "498c9df6e1d1301ab7998d826d417196",
       "title_kr": "12-14世紀 日本 四天王像에 보이는 瑞獸·瑞禽文樣과 自然文樣 - 마카라(Makara)·파도 문양을 지표로 한 大佛殿様 四天王像의 제작 연대 -",
-      "title_en": "",
+      "title_en": "Natural Motifs and Auspicious Animal and Bird Motifs in Japanese Statues of the Four Heavenly Kings from the 12th to the 14th Centuries – Dating Daibutsuden-style (大佛樣) Statues of the Four Heavenly Kings through Makara and Wave Motifs –",
       "authors": [
         {
           "name": "야마다 미키",
@@ -16506,7 +16556,7 @@
       "end_page": "243",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=498c9df6e1d1301ab7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358598",
       "keywords_kr": [
         "대불전 양식계열(大佛殿様) 四天王像",
         "마카라문양(Makara文様)",
@@ -16524,8 +16574,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "498c9df6e1d1301ab7998d826d417196",
+      "kci_id": "ART003358598",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "498c9df6e1d1301ab7998d826d417196"
     },

@@ -665,7 +665,7 @@
       "end_page": "193",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=038b3e85f9dc2e45e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906858",
       "keywords_kr": [
         "대비심",
         "보리심",
@@ -692,8 +692,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906858",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "038b3e85f9dc2e45e9810257f7042666",
       "id": "038b3e85f9dc2e45e9810257f7042666"
@@ -810,7 +812,7 @@
       "end_page": "318",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ff2f4e52cba1dec4e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906861",
       "keywords_kr": [
         "종교갈등",
         "종교차별",
@@ -827,8 +829,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906861",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ff2f4e52cba1dec4e9810257f7042666",
       "id": "ff2f4e52cba1dec4e9810257f7042666"
@@ -1939,7 +1943,7 @@
       "end_page": "66",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=dabebb2edd9acb61d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906816",
       "keywords_kr": [
         "고대사지",
         "일제강점기",
@@ -1964,8 +1968,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906816",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "dabebb2edd9acb61d18150b21a227875",
       "id": "dabebb2edd9acb61d18150b21a227875"
@@ -1991,13 +1997,15 @@
       "end_page": "90",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cfb47d62eccbab586aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906818",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906818",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cfb47d62eccbab586aae8a972f9116fb",
       "id": "cfb47d62eccbab586aae8a972f9116fb"
@@ -2023,13 +2031,15 @@
       "end_page": "148",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=db788d828636413b7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906820",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906820",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "db788d828636413b7ecd42904f0c5d65",
       "id": "db788d828636413b7ecd42904f0c5d65"
@@ -2055,13 +2065,15 @@
       "end_page": "183",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=dabebb2edd9acb61e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906821",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906821",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "dabebb2edd9acb61e9810257f7042666",
       "id": "dabebb2edd9acb61e9810257f7042666"
@@ -2384,7 +2396,7 @@
     {
       "article_id": "bee8792c85bfef987f7a54760bb41745",
       "title_kr": "현대 한국사찰 체험문화 대중화 연구",
-      "title_en": "",
+      "title_en": "A Study on the Popularization of Modern Korean Temple Experience Culture - Development of Temple Stay Program - Focusing on the Direction of Composition",
       "authors": [
         {
           "name": "정해성",
@@ -2402,7 +2414,7 @@
       "end_page": "174",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bee8792c85bfef987f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906740",
       "keywords_kr": [
         "템플 스테이",
         "템플 스테이 프로그램",
@@ -2412,8 +2424,10 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906740",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "bee8792c85bfef987f7a54760bb41745",
       "id": "bee8792c85bfef987f7a54760bb41745"
@@ -2557,13 +2571,15 @@
       "end_page": "147",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cfb47d62eccbab58b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906722",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906722",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cfb47d62eccbab58b36097776a77e665",
       "id": "cfb47d62eccbab58b36097776a77e665"
@@ -2589,7 +2605,7 @@
       "end_page": "207",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cfb47d62eccbab584884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906723",
       "keywords_kr": [
         "백제",
         "불탑지",
@@ -2606,8 +2622,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906723",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cfb47d62eccbab584884a65323211ff0",
       "id": "cfb47d62eccbab584884a65323211ff0"
@@ -2831,7 +2849,7 @@
     {
       "article_id": "01b22d43e39861d147de9c1710b0298d",
       "title_kr": "金山寺 五層石塔 舍利莊嚴具 硏究",
-      "title_en": "",
+      "title_en": "A Studies on Geumsansa Temple’s Five-Story Stone Sarira Reliquaries",
       "authors": [
         {
           "name": "이분희",
@@ -2849,7 +2867,7 @@
       "end_page": "118",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=01b22d43e39861d147de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906703",
       "keywords_kr": [
         "금산사 오층석탑 사리장엄구",
         "중창기",
@@ -2866,8 +2884,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906703",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "01b22d43e39861d147de9c1710b0298d",
       "id": "01b22d43e39861d147de9c1710b0298d"
@@ -3533,9 +3553,9 @@
       "issue": "1",
       "start_page": "161",
       "end_page": "196",
-      "doi": "",
+      "doi": "10.33521/jbs.2018.10.1.161",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=da5c8718ab0d14a0e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906437",
       "keywords_kr": [
         "『상윳따 니까야』",
         "자기실현",
@@ -3554,8 +3574,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906437",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "da5c8718ab0d14a0e9810257f7042666",
       "id": "da5c8718ab0d14a0e9810257f7042666"
@@ -4542,9 +4564,9 @@
       "issue": "2",
       "start_page": "124",
       "end_page": "151",
-      "doi": "",
+      "doi": "10.33521/jbs.2019.11.2.124",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5ac5e9c3fc93f9e147de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906416",
       "keywords_kr": [
         "49재",
         "애도",
@@ -4561,8 +4583,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906416",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5ac5e9c3fc93f9e147de9c1710b0298d",
       "id": "5ac5e9c3fc93f9e147de9c1710b0298d"
@@ -5360,9 +5384,9 @@
       "issue": "2",
       "start_page": "37",
       "end_page": "68",
-      "doi": "",
+      "doi": "10.33521/jbs.2021.13.2.37",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e267a6722a183270e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906383",
       "keywords_kr": [
         "자장",
         "오대산",
@@ -5387,8 +5411,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906383",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e267a6722a183270e9810257f7042666",
       "id": "e267a6722a183270e9810257f7042666"
@@ -5830,9 +5856,9 @@
       "issue": "2",
       "start_page": "30",
       "end_page": "51",
-      "doi": "",
+      "doi": "10.33521/jbs.2022.14.2.30",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5cb389d75e8ee1f7b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002919160",
       "keywords_kr": [
         "상담",
         "명상",
@@ -5850,8 +5876,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002919160",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5cb389d75e8ee1f7b7998d826d417196",
       "id": "5cb389d75e8ee1f7b7998d826d417196"
@@ -5868,16 +5896,16 @@
         }
       ],
       "abstract_kr": "The purpose of this study is to examine in depth the Temple stay experience at a Korean temple for foreign university students participating in Temple stay at Woljeongsa Temple in Odaesan. The research questions for this are as follows. First, what did you experience in Temple stay? Second, what did you gain from the Temple stay experience? Third, how will you use the Temple stay experience in your daily life? The subjects of this study were 27 foreign university students attending Temple stay at a university in B city, Gyeonggi-do, and data were collected using a written questionnaire in July 2022. The collected results were analyzed with the Consensual Qualitative Research-Modified (CQR-M). As a result of the study, 10 categories and 24 subcategories were derived in 3 areas: Temple stay experience, what was gained from Temple stay experience, and how to use the Temple stay experience in daily life. First, in the field of Temple stay experience, four categories were derived: Buddhist experience, mental spa experience, beautiful natural environment, and warm encounter experience. Second, in the area of ​​what was gained from the Temple stay experience, four categories were derived: curiosity about Buddhism, time to see myself, and learning the true meaning of Buddhism. Third, in the area of ​​the daily life application of the Temple stay experience, three categories were derived: storage in long-term memory, use as a strategy to cope with daily stress, and research on Buddhism and Buddhist meditation. The above results have been discussed, and the results of this study are expected to contribute to providing basic data for foreign university students Temple stay participants.",
-      "abstract_en": "",
+      "abstract_en": "The purpose of this study is to examine in depth the Temple stay experience at a Korean temple for foreign university students participating in Temple stay at Woljeongsa Temple in Odaesan. The research questions for this are as follows. First, what did you experience in Temple stay? Second, what did you gain from the Temple stay experience? Third, how will you use the Temple stay experience in your daily life? The subjects of this study were 27 foreign university students attending Temple stay at a university in B city, Gyeonggi-do, and data were collected using a written questionnaire in July 2022. The collected results were analyzed with the Consensual Qualitative Research-Modified (CQR-M). As a result of the study, 10 categories and 24 subcategories were derived in 3 areas: Temple stay experience, what was gained from Temple stay experience, and how to use the Temple stay experience in daily life. First, in the field of Temple stay experience, four categories were derived: Buddhist experience, mental spa experience, beautiful natural environment, and warm encounter experience. Second, in the area of ​​what was gained from the Temple stay experience, four categories were derived: curiosity about Buddhism, time to see myself, and learning the true meaning of Buddhism. Third, in the area of ​​the daily life application of the Temple stay experience, three categories were derived: storage in long-term memory, use as a strategy to cope with daily stress, and research on Buddhism and Buddhist meditation. The above results have been discussed, and the results of this study are expected to contribute to providing basic data for foreign university students Temple stay participants.",
       "journal_name": "불교와 사회",
       "year": "2022",
       "volume": "14",
       "issue": "2",
       "start_page": "52",
       "end_page": "84",
-      "doi": "",
+      "doi": "10.33521/jbs.2022.14.2.52",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5cb389d75e8ee1f7c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002919164",
       "keywords_kr": [
         "외국인 대학생",
         "오대산 월정사",
@@ -5892,8 +5920,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002919164",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5cb389d75e8ee1f7c85d2949c297615a",
       "id": "5cb389d75e8ee1f7c85d2949c297615a"
@@ -5917,9 +5947,9 @@
       "issue": "2",
       "start_page": "85",
       "end_page": "128",
-      "doi": "",
+      "doi": "10.33521/jbs.2022.14.2.85",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=af0d4ac58f4d276e7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002919169",
       "keywords_kr": [
         "청허 휴정",
         "호법활동",
@@ -5938,8 +5968,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002919169",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "af0d4ac58f4d276e7f7a54760bb41745",
       "id": "af0d4ac58f4d276e7f7a54760bb41745"
@@ -5956,16 +5988,16 @@
         }
       ],
       "abstract_kr": "The \"Record of Hwaeomsa Temple(華嚴寺事蹟),\" compiled in 1636, raised concerns about its credibility. It is known that Yeon-gi(緣起) of Hwangnyongsa(皇龍寺) Temple established Hwaeomsa(華嚴寺) Temple in the mid-8th century. It is also known that  the features of Yeon-gi and the traditional aspects inside Hwaeomsa Temple began to diminish between the late Goryeo(高麗) period and the early Joseon(朝鮮) period.This paper aims to examine the transformation of the Hwaeom school through the historical context of the Later Three Kingdoms period, by examining the conflict between Goanhye(觀惠) and Huirang(希郞). Moreover, this paper inspects the transformation regarding to Hwaeomsa’s ten mountains(華嚴十山) and ten temples(華嚴十刹) inside Bupjang Hwasangjeon(法藏和尙傳, 904) and Samguk Yusa(三國遺事, 1281). Through these analyses, the study discusses about the forgotten value of Hwaeomsa Temple.This study concludes that Yeongi of Hwangryongsa Temple, who inherits Jajang(慈藏) Hwaeom established Hwaeomsa Temple in the mid-8th century in Namak, Jirisan, in Gurye. During the early 10th century, a conflict arose between Goanhye of Namak(南岳) Hwaeomsa Temple who followed Jajang(慈藏) Hwaeom, and the Huirang of Bukak(北岳) Haein Temple(海印寺), who followed Uisang(義湘) Hwaeom. After the establishment of the Goryeo dynasty, the tradition of the Jajang Hwaeom at Hwaeomsa Temple was integrated under the Uisang Hwaeom by Gyunyeo(均如, 923~973). This integration is evidenced through ‘Ten major Temples of Hwaeom Buddhism(義湘傳敎十刹)’ in \"Samguk Yusa.\" Based on the aforementioned research, this paper contemplates Hwaeomsa Temple as a temple established by Yeon-gi in the mid-8th century, carrying on the legacy of the Jajang Hwaeom.",
-      "abstract_en": "",
+      "abstract_en": "The \"Record of Hwaeomsa Temple(華嚴寺事蹟),\" compiled in 1636, raised concerns about its credibility. It is known that Yeon-gi(緣起) of Hwangnyongsa(皇龍寺) Temple established Hwaeomsa(華嚴寺) Temple in the mid-8th century. It is also known that the features of Yeon-gi and the traditional aspects inside Hwaeomsa Temple began to diminish between the late Goryeo(高麗) period and the early Joseon(朝鮮) period.\nThis paper aims to examine the transformation of the Hwaeom school through the historical context of the Later Three Kingdoms period, by examining the conflict between Goanhye(觀惠) and Huirang(希郞). Moreover, this paper inspects the transformation regarding to Hwaeomsa’s ten mountains(華嚴十山) and ten temples(華嚴十刹) inside Bupjang Hwasangjeon(法藏和尙傳, 904) and Samguk Yusa(三國遺事, 1281). Through these analyses, the study discusses about the forgotten value of Hwaeomsa Temple.\nThis study concludes that Yeongi of Hwangryongsa Temple, who inherits Jajang(慈藏) Hwaeom established Hwaeomsa Temple in the mid-8th century in Namak, Jirisan, in Gurye. During the early 10th century, a conflict arose between Goanhye of Namak(南岳) Hwaeomsa Temple who followed Jajang(慈藏) Hwaeom, and the Huirang of Bukak(北岳) Haein Temple(海印寺), who followed Uisang(義湘) Hwaeom. After the establishment of the Goryeo dynasty, the tradition of the Jajang Hwaeom at Hwaeomsa Temple was integrated under the Uisang Hwaeom by Gyunyeo(均如, 923~973). This integration is evidenced through ‘Ten major Temples of Hwaeom Buddhism(義湘傳敎十刹)’ in \"Samguk Yusa.\" Based on the aforementioned research, this paper contemplates Hwaeomsa Temple as a temple established by Yeon-gi in the mid-8th century, carrying on the legacy of the Jajang Hwaeom.",
       "journal_name": "불교와 사회",
       "year": "2023",
       "volume": "15",
       "issue": "1",
       "start_page": "1",
       "end_page": "28",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.1.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6a13124fc4df914a6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002980933",
       "keywords_kr": [
         "華嚴寺",
         "慈藏系 華嚴",
@@ -5982,8 +6014,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002980933",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6a13124fc4df914a6aae8a972f9116fb",
       "id": "6a13124fc4df914a6aae8a972f9116fb"
@@ -6000,16 +6034,16 @@
         }
       ],
       "abstract_kr": "This paper aims to investigate the philosophical foundations and development of the Avalokitesvara Bodhisattva faith, which is one of the most prominent forms of contemporary Bodhisattva worship, based on the key scriptures of Mahayana Buddhism, namely the \"Lotus Sutra\" and the \"Avatamsaka Sutra.\" While previous studies on Avalokitesvara Bodhisattva have mainly focused on matters of faith, the philosophical aspects have received less in-depth analysis. Considering that the Mahayana Buddhism and Bodhisattva ideology, which have persisted into modern Buddhism, have been transmitted primarily through scriptures, this study explores the Bodhisattva and Avalokitesvara ideologies based on these scriptures, considering them as the foundation of Avalokitesvara faith.The Bodhisattva ideologies depicted in the \"Lotus Sutra\" and the \"Avatamsaka Sutra\" take different perspectives based on their central teachings. Firstly, in the \"Lotus Sutra,\" the concept of Bodhisattva is understood as beings who follow a path different from that of the Hinayana Buddhism, namely the path of saints, arhats, and pratyekabuddhas. It presents the idea that anyone who realizes the potential for attaining enlightenment can cultivate Bodhisattva practices and progress towards Buddhahood. This concept of Bodhisattva and the idea of realizing the path of saints form the foundation for the doctrine of Avalokitesvara, who is portrayed in the \"Lotus Sutra\" as the compassionate guide that shows the way of Bodhisattva practices leading to enlightenment. Avalokitesvara is depicted as the embodiment of Dharma deities (Bodhisattvas) and the transformation bodies of Samantabhadra and Manjusri, representing the practice of compassion and wisdom in the mundane world.as the pinnacle of the Mahayana scriptures, are the manifestation of the Buddha and the practice of Bodhisattva. According to the \"Avatamsaka Sutra,\" sentient beings who generate the aspiration to enlightenment are Bodhisattvas, and the moment of their initial aspiration is the moment of achieving the perfect enlightenment. The practice of Bodhisattva, as described in the \"Avatamsaka Sutra,\" is not the means to attain Buddhahood but rather the conduct of the enlightened Buddhas. In this context, the Bodhisattva's practice is seen as the activity of a realized Buddha, rather than a path leading to enlightenment. This concept of Bodhisattva in the \"Avatamsaka Sutra\" differs significantly from the Bodhisattva ideologies found in the \"Lotus Sutra\" and other traditional scriptures.Based on these ideas, the concept of Avalokitesvara as depicted in the \"Avatamsaka Sutra,\" particularly in the \"Chapter on Entering the Dharma Realm,\" embodies a specific and systematic structure of Bodhisattva practices and reveals the activities of the enlightened Buddhas. Avalokitesvara is presented as the embodiment of Dharma deities, displaying the practice of compassionate deeds.Even when observing the same Bodhisattva practices, there can be a significant difference in perspective regarding whether they are considered as methods for progressing towards Buddhahood or as teachings that exemplify the path of Buddhahood.",
-      "abstract_en": "",
+      "abstract_en": "This paper aims to investigate the philosophical foundations and development of the Avalokitesvara Bodhisattva faith, which is one of the most prominent forms of contemporary Bodhisattva worship, based on the key scriptures of Mahayana Buddhism, namely the \"Lotus Sutra\" and the \"Avatamsaka Sutra.\" While previous studies on Avalokitesvara Bodhisattva have mainly focused on matters of faith, the philosophical aspects have received less in-depth analysis. Considering that the Mahayana Buddhism and Bodhisattva ideology, which have persisted into modern Buddhism, have been transmitted primarily through scriptures, this study explores the Bodhisattva and Avalokitesvara ideologies based on these scriptures, considering them as the foundation of Avalokitesvara faith.\nThe Bodhisattva ideologies depicted in the \"Lotus Sutra\" and the \"Avatamsaka Sutra\" take different perspectives based on their central teachings. Firstly, in the \"Lotus Sutra,\" the concept of Bodhisattva is understood as beings who follow a path different from that of the Hinayana Buddhism, namely the path of saints, arhats, and pratyekabuddhas. It presents the idea that anyone who realizes the potential for attaining enlightenment can cultivate Bodhisattva practices and progress towards Buddhahood. This concept of Bodhisattva and the idea of realizing the path of saints form the foundation for the doctrine of Avalokitesvara, who is portrayed in the \"Lotus Sutra\" as the compassionate guide that shows the way of Bodhisattva practices leading to enlightenment. Avalokitesvara is depicted as the embodiment of Dharma deities (Bodhisattvas) and the transformation bodies of Samantabhadra and Manjusri, representing the practice of compassion and wisdom in the mundane world.\nas the pinnacle of the Mahayana scriptures, are the manifestation of the Buddha and the practice of Bodhisattva. According to the \"Avatamsaka Sutra,\" sentient beings who generate the aspiration to enlightenment are Bodhisattvas, and the moment of their initial aspiration is the moment of achieving the perfect enlightenment. The practice of Bodhisattva, as described in the \"Avatamsaka Sutra,\" is not the means to attain Buddhahood but rather the conduct of the enlightened Buddhas. In this context, the Bodhisattva's practice is seen as the activity of a realized Buddha, rather than a path leading to enlightenment. This concept of Bodhisattva in the \"Avatamsaka Sutra\" differs significantly from the Bodhisattva ideologies found in the \"Lotus Sutra\" and other traditional scriptures.\nBased on these ideas, the concept of Avalokitesvara as depicted in the \"Avatamsaka Sutra,\" particularly in the \"Chapter on Entering the Dharma Realm,\" embodies a specific and systematic structure of Bodhisattva practices and reveals the activities of the enlightened Buddhas. Avalokitesvara is presented as the embodiment of Dharma deities, displaying the practice of compassionate deeds.\nEven when observing the same Bodhisattva practices, there can be a significant difference in perspective regarding whether they are considered as methods for progressing towards Buddhahood or as teachings that exemplify the path of Buddhahood.",
       "journal_name": "불교와 사회",
       "year": "2023",
       "volume": "15",
       "issue": "1",
       "start_page": "29",
       "end_page": "71",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.1.29",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=194d9277676c9a687ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002980934",
       "keywords_kr": [
         "관음사상",
         "관세음보살",
@@ -6026,8 +6060,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002980934",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "194d9277676c9a687ecd42904f0c5d65",
       "id": "194d9277676c9a687ecd42904f0c5d65"
@@ -6044,16 +6080,16 @@
         }
       ],
       "abstract_kr": "This paper examines the phenomenon of transformation and convergence in the ‘Cheondo’ ritual (rituals for consoling the wandering souls) since the late Joseon Dynasty by comparing it with Buddhist rituals before it, and by examining the selective acceptance of the ‘Kwan-eum-si-sik’ (觀音施食), discusses how such changes are reflected in the ‘Tongil-Bubyojip’ (Unified Buddhist Ritual Book) compiled by the Jogye Order of Korean Buddhism, and its implications.First, we found that previous studies on rituals centered on the ‘Kwan-eum-si-sik’ mainly focused on the origins of the ritual, and we reviewed the relevant texts contained in the ‘Taisyou shinsyu daizoukyou’ (大正新修大藏經), the ‘Manji Shinsan Dainihon Zokuzokyo’ (卍新纂大日本續藏經), and the ‘Hangukbulgyojeonseo’ (Complete Works of Korean Buddhism, 韓國佛敎全書). The results showed that the ritual books compiled in China tend to complement and inherit the ritual books of previous periods, while the ritual books compiled in Korea show various changes according to the historical and cultural circumstances.Subsequent comparisons of the ‘Unsudangga’ (雲水壇謌訶), the ‘Jagbupguigam’ (The Best Exemplar for Ritual Procedure, 作法龜鑑), the ‘Sukmooneuibhum’ (釋門儀範), and the ‘Tongil-Bubyojip’ revealed that the rituals of Korean ‘Kwan-eum-si-sik’ ceremonies have been selected, edited, and adapted along historical lines to arrive at the present day. We were able to recognize that these variations reveal the style of each historically existing Buddhist Order and symbolize its identity. In this context, the ‘Tongil-Bubyojip’ published by the Jogye Order of Korean Buddhism can be evaluated as a compilation of ritual texts appropriate for modern times.",
-      "abstract_en": "",
+      "abstract_en": "This paper examines the phenomenon of transformation and convergence in the ‘Cheondo’ ritual (rituals for consoling the wandering souls) since the late Joseon Dynasty by comparing it with Buddhist rituals before it, and by examining the selective acceptance of the ‘Kwan-eum-si-sik’ (觀音施食), discusses how such changes are reflected in the ‘Tongil-Bubyojip’ (Unified Buddhist Ritual Book) compiled by the Jogye Order of Korean Buddhism, and its implications.\nFirst, we found that previous studies on rituals centered on the ‘Kwan-eum-si-sik’ mainly focused on the origins of the ritual, and we reviewed the relevant texts contained in the ‘Taisyou shinsyu daizoukyou’ (大正新修大藏經), the ‘Manji Shinsan Dainihon Zokuzokyo’ (卍新纂大日本續藏經), and the ‘Hangukbulgyojeonseo’ (Complete Works of Korean Buddhism, 韓國佛敎全書). The results showed that the ritual books compiled in China tend to complement and inherit the ritual books of previous periods, while the ritual books compiled in Korea show various changes according to the historical and cultural circumstances.\nSubsequent comparisons of the ‘Unsudangga’ (雲水壇謌訶), the ‘Jagbupguigam’ (The Best Exemplar for Ritual Procedure, 作法龜鑑), the ‘Sukmooneuibhum’ (釋門儀範), and the ‘Tongil-Bubyojip’ revealed that the rituals of Korean ‘Kwan-eum-si-sik’ ceremonies have been selected, edited, and adapted along historical lines to arrive at the present day. We were able to recognize that these variations reveal the style of each historically existing Buddhist Order and symbolize its identity. In this context, the ‘Tongil-Bubyojip’ published by the Jogye Order of Korean Buddhism can be evaluated as a compilation of ritual texts appropriate for modern times.",
       "journal_name": "불교와 사회",
       "year": "2023",
       "volume": "15",
       "issue": "1",
       "start_page": "72",
       "end_page": "107",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.1.72",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=194d9277676c9a68b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002980936",
       "keywords_kr": [
         "관음시식",
         "재 의례",
@@ -6070,8 +6106,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002980936",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "194d9277676c9a68b36097776a77e665",
       "id": "194d9277676c9a68b36097776a77e665"
@@ -6088,16 +6126,16 @@
         }
       ],
       "abstract_kr": "The 21st century is an era of pets, and the number of households raising pets increases significantly every year, Awareness of animals is also rising to the status of 'companion' beyond the stage of 'pet'. Along with this change in perception of animals, the issue of animal rights is even more emerging, including ethical conflicts over animal testing. Animal testing and the confrontation between the pros and cons surrounding it had already existed for a long time, but in the modern era, it became popular and began to be discussed in earnest.However, the realistic position, such as usefulness and lack of alternatives, and the ethical position that insists on the equality of animals and humans have not been able to find a compromise until now, and arouse debate among many ethicists. Recently, reports analyzing scholars' opinions on the views surrounding animal testing have been studied,while papers have also been published in religious academia to study solutions surrounding animal testing from the doctrinal perspective of each system.The reason why religion is interested in such social problems may be because of the function of education it has. Religion arose and developed with society, and has been implicitly in charge of ethical and philosophical education of its members. In other words, religions that harm members of society or have doctrines that go against the social system naturally turned away and disappeared over time. Accordingly, this content seeks to consider an ethical perspective by disposing of animal experiments and the confrontation of pros and cons surrounding them to Buddhist doctrines.Buddhism basically uses \"fire and death\" as an important discipline, but the confrontation between animal testing and the pros and cons over it cannot find an appropriate compromise with these fragmentary and deterministic discipline. Accordingly, it was substituted for animal experiments in light of the Baramil idea of 『華嚴經』 which emphasizes acting ideas and practice, one of the Buddha's early teachings. As a result of the study, it can be seen that there is a limit to the application of two-dimensional theory and practice that claims only one side of animal experimentation and the conflict surrounding it. It is expected that theoretical accumulation will be established to escape from ethical conflicts over animal testing by presenting a multidimensional understanding of causality based on the law of acting and practical behavior based on it.",
-      "abstract_en": "",
+      "abstract_en": "The 21st century is an era of pets, and the number of households raising pets increases significantly every year, Awareness of animals is also rising to the status of 'companion' beyond the stage of 'pet'. Along with this change in perception of animals, the issue of animal rights is even more emerging, including ethical conflicts over animal testing. Animal testing and the confrontation between the pros and cons surrounding it had already existed for a long time, but in the modern era, it became popular and began to be discussed in earnest.\nHowever, the realistic position, such as usefulness and lack of alternatives, and the ethical position that insists on the equality of animals and humans have not been able to find a compromise until now, and arouse debate among many ethicists. Recently, reports analyzing scholars' opinions on the views surrounding animal testing have been studied,while papers have also been published in religious academia to study solutions surrounding animal testing from the doctrinal perspective of each system.\nThe reason why religion is interested in such social problems may be because of the function of education it has. Religion arose and developed with society, and has been implicitly in charge of ethical and philosophical education of its members. In other words, religions that harm members of society or have doctrines that go against the social system naturally turned away and disappeared over time. Accordingly, this content seeks to consider an ethical perspective by disposing of animal experiments and the confrontation of pros and cons surrounding them to Buddhist doctrines.\nBuddhism basically uses \"fire and death\" as an important discipline, but the confrontation between animal testing and the pros and cons over it cannot find an appropriate compromise with these fragmentary and deterministic discipline. Accordingly, it was substituted for animal experiments in light of the Baramil idea of 『華嚴經』 which emphasizes acting ideas and practice, one of the Buddha's early teachings. As a result of the study, it can be seen that there is a limit to the application of two-dimensional theory and practice that claims only one side of animal experimentation and the conflict surrounding it. It is expected that theoretical accumulation will be established to escape from ethical conflicts over animal testing by presenting a multidimensional understanding of causality based on the law of acting and practical behavior based on it.",
       "journal_name": "불교와 사회",
       "year": "2023",
       "volume": "15",
       "issue": "1",
       "start_page": "108",
       "end_page": "145",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.1.108",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=194d9277676c9a684884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002980938",
       "keywords_kr": [
         "불교 윤리",
         "동물실험",
@@ -6114,8 +6152,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002980938",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "194d9277676c9a684884a65323211ff0",
       "id": "194d9277676c9a684884a65323211ff0"
@@ -6123,7 +6163,7 @@
     {
       "article_id": "6a13124fc4df914ad18150b21a227875",
       "title_kr": "The State of Wŏn Buddhist Propagation in Southwest Asia:Religion or International NGO?",
-      "title_en": "",
+      "title_en": "The State of Wŏn Buddhist Propagation in Southwest Asia:Religion or International NGO?",
       "authors": [
         {
           "name": "김성순",
@@ -6132,16 +6172,16 @@
         }
       ],
       "abstract_kr": "This paper examines the state and problems of Wŏn Buddhist propagation in Southwest Asia. It examines relevant literature and references interviews conducted with Wŏn Buddhist associates. Wŏn Buddhist propagation in the three nations of Southwest Asia appears to be progressing passively under the auspices of international NGOs and encountering much difficulty due to local society, culture, and law. Wŏn Buddhism, along with other religious orders pursuing propagation, such as Protestantism, is bypassing legal restrictions in India and Nepal, primarily operating under the aegis of international NGOs and private corporations in order to mitigate cultural friction.In the case of India, Wŏn Buddhist propagation is conducted mainly in the form of free education focusing on the poor rather than those in the upper castes. Delhi Temple, which is legally allowed to engage in propagation activities, is currently vacant due to unavoidable circumstances, but the free education center continues to operate. This demonstrates the potential for support activities at the NGO-level to continue, but also that there are many barriers inhibiting outright propagation. Since the caste system is strong within Indian society, clashing with the Wŏn Buddhist principle of human equality, this creates the awkward situation in which clergymen must be recruited from the upper social echelon. Moreover, there is also the problem of the lack of volunteers within the clergy, wherein younger clergymen display a decidedly less fervent passion for the calling toward mission work compared with older generations in the past. This situation is the same for Protestant missionary work.In the case of Sri Lanka, Reverend Ch’oe Sŏyŏn has singlehandedly operated a “remote” propagation campaign, conveying Wŏn Buddhist teachings to migrant workers in Korea from Sri Lanka through varied support and a scholarship program. Reverend Ch’oe has adopted a patient position, emphasizing that Sri Lankans will need to absorb the teachings of Wŏn Buddhism before they are ready to establish a temple on their own. Meanwhile, unlike Wŏn Buddhism, Protestant missions typically accumulate local converts, educate them and endow them with a church, and then move on to another location. Nonetheless, all mission work is encumbered by the society, culture, and laws in Southwest Asia, and thus tends to opt for activities straddling the line between unofficial temples and official NGOs.",
-      "abstract_en": "",
+      "abstract_en": "This paper examines the state and problems of Wŏn Buddhist propagation in Southwest Asia. It examines relevant literature and references interviews conducted with Wŏn Buddhist associates. Wŏn Buddhist propagation in the three nations of Southwest Asia appears to be progressing passively under the auspices of international NGOs and encountering much difficulty due to local society, culture, and law. Wŏn Buddhism, along with other religious orders pursuing propagation, such as Protestantism, is bypassing legal restrictions in India and Nepal, primarily operating under the aegis of international NGOs and private corporations in order to mitigate cultural friction.\nIn the case of India, Wŏn Buddhist propagation is conducted mainly in the form of free education focusing on the poor rather than those in the upper castes. Delhi Temple, which is legally allowed to engage in propagation activities, is currently vacant due to unavoidable circumstances, but the free education center continues to operate. This demonstrates the potential for support activities at the NGO-level to continue, but also that there are many barriers inhibiting outright propagation. Since the caste system is strong within Indian society, clashing with the Wŏn Buddhist principle of human equality, this creates the awkward situation in which clergymen must be recruited from the upper social echelon. Moreover, there is also the problem of the lack of volunteers within the clergy, wherein younger clergymen display a decidedly less fervent passion for the calling toward mission work compared with older generations in the past. This situation is the same for Protestant missionary work.\nIn the case of Sri Lanka, Reverend Ch’oe Sŏyŏn has singlehandedly operated a “remote” propagation campaign, conveying Wŏn Buddhist teachings to migrant workers in Korea from Sri Lanka through varied support and a scholarship program. Reverend Ch’oe has adopted a patient position, emphasizing that Sri Lankans will need to absorb the teachings of Wŏn Buddhism before they are ready to establish a temple on their own. Meanwhile, unlike Wŏn Buddhism, Protestant missions typically accumulate local converts, educate them and endow them with a church, and then move on to another location. Nonetheless, all mission work is encumbered by the society, culture, and laws in Southwest Asia, and thus tends to opt for activities straddling the line between unofficial temples and official NGOs.",
       "journal_name": "불교와 사회",
       "year": "2023",
       "volume": "15",
       "issue": "1",
       "start_page": "146",
       "end_page": "178",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.1.146",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6a13124fc4df914ad18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002980940",
       "keywords_kr": [
         "서남아시아",
         "원불교",
@@ -6158,8 +6198,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002980940",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6a13124fc4df914ad18150b21a227875",
       "id": "6a13124fc4df914ad18150b21a227875"
@@ -6183,9 +6225,9 @@
       "issue": "2",
       "start_page": "1",
       "end_page": "30",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.2.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d6fcb07c7858f8dcd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003045596",
       "keywords_kr": [
         "고우스님",
         "선사상",
@@ -6206,8 +6248,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003045596",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d6fcb07c7858f8dcd18150b21a227875",
       "id": "d6fcb07c7858f8dcd18150b21a227875"
@@ -6231,9 +6275,9 @@
       "issue": "2",
       "start_page": "31",
       "end_page": "62",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.2.31",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9791ad4a97e73234b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003045606",
       "keywords_kr": [
         "한국 차 첫 재배지",
         "대렴의 차",
@@ -6250,8 +6294,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003045606",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9791ad4a97e73234b7998d826d417196",
       "id": "9791ad4a97e73234b7998d826d417196"
@@ -6275,9 +6321,9 @@
       "issue": "2",
       "start_page": "63",
       "end_page": "106",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.2.63",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d6fcb07c7858f8dc6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003045675",
       "keywords_kr": [
         "불교윤리",
         "중동전쟁",
@@ -6296,8 +6342,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003045675",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d6fcb07c7858f8dc6aae8a972f9116fb",
       "id": "d6fcb07c7858f8dc6aae8a972f9116fb"
@@ -6321,9 +6369,9 @@
       "issue": "2",
       "start_page": "107",
       "end_page": "132",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.2.107",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9791ad4a97e7323447de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003045678",
       "keywords_kr": [
         "템플스테이",
         "텍스톰",
@@ -6340,8 +6388,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003045678",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9791ad4a97e7323447de9c1710b0298d",
       "id": "9791ad4a97e7323447de9c1710b0298d"
@@ -6370,9 +6420,9 @@
       "issue": "2",
       "start_page": "133",
       "end_page": "162",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.2.133",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9791ad4a97e732347f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003045681",
       "keywords_kr": [
         "템플스테이 프로그램",
         "예비 은퇴자",
@@ -6389,8 +6439,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003045681",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9791ad4a97e732347f7a54760bb41745",
       "id": "9791ad4a97e732347f7a54760bb41745"
@@ -6414,9 +6466,9 @@
       "issue": "2",
       "start_page": "163",
       "end_page": "199",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.2.163",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=afea7691bcd253ab7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003045683",
       "keywords_kr": [
         "신자유주의",
         "종교환경",
@@ -6433,8 +6485,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003045683",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "afea7691bcd253ab7ecd42904f0c5d65",
       "id": "afea7691bcd253ab7ecd42904f0c5d65"
@@ -6458,9 +6512,9 @@
       "issue": "2",
       "start_page": "200",
       "end_page": "236",
-      "doi": "",
+      "doi": "10.33521/jbs.2023.15.2.200",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9791ad4a97e73234c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003045685",
       "keywords_kr": [
         "승가의 이미지",
         "재가불자",
@@ -6477,8 +6531,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003045685",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9791ad4a97e73234c85d2949c297615a",
       "id": "9791ad4a97e73234c85d2949c297615a"
@@ -6486,7 +6542,7 @@
     {
       "article_id": "cef20730d04ced997ecd42904f0c5d65",
       "title_kr": "심원의 비교불교연구의 비교연구: 루만을 경유하여",
-      "title_en": "",
+      "title_en": "Comparative Study on Shimwon’s Comparative Buddhist Studies: Via N. Luhmann",
       "authors": [
         {
           "name": "유승무(Lew",
@@ -6509,7 +6565,7 @@
       "end_page": "28",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cef20730d04ced997ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003102553",
       "keywords_kr": [
         "심원",
         "하이데거",
@@ -6530,8 +6586,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003102553",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cef20730d04ced997ecd42904f0c5d65",
       "id": "cef20730d04ced997ecd42904f0c5d65"
@@ -6539,7 +6597,7 @@
     {
       "article_id": "cef20730d04ced99b36097776a77e665",
       "title_kr": "보살사상의 사회참여적 측면과 월주의 사회참여 활동",
-      "title_en": "",
+      "title_en": "The Side of Social Participation of Bodhisattva's Thought and Wolju's Social Partificipation",
       "authors": [
         {
           "name": "이병욱(Lee",
@@ -6562,7 +6620,7 @@
       "end_page": "65",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cef20730d04ced99b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003102554",
       "keywords_kr": [
         "보현보살의 10대원",
         "약사여래의 12대원",
@@ -6579,8 +6637,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003102554",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cef20730d04ced99b36097776a77e665",
       "id": "cef20730d04ced99b36097776a77e665"
@@ -6588,7 +6648,7 @@
     {
       "article_id": "cef20730d04ced99b7998d826d417196",
       "title_kr": "바디스캔 프로그램이 불교수행자의 마음챙김과 자기자비에 미치는 효과",
-      "title_en": "",
+      "title_en": "Effect of Body Scan Program on Mindfulness and Self-Compassion of Buddhist Practitioners",
       "authors": [
         {
           "name": "손강숙(Shon",
@@ -6611,7 +6671,7 @@
       "end_page": "95",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cef20730d04ced99b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003102555",
       "keywords_kr": [
         "바디스캔",
         "마음챙김",
@@ -6626,8 +6686,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003102555",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cef20730d04ced99b7998d826d417196",
       "id": "cef20730d04ced99b7998d826d417196"
@@ -6635,7 +6697,7 @@
     {
       "article_id": "cef20730d04ced99c85d2949c297615a",
       "title_kr": "태권도선수의 마음챙김이 운동스트레스 및 심리적 수행전략에 미치는 영향에 관한 중다회귀 분석",
-      "title_en": "",
+      "title_en": "Multiple Linear Analysis of the Mindfulness on Exercise Stress, and Psychological Performance Strategies",
       "authors": [
         {
           "name": "오수원(Oh",
@@ -6668,7 +6730,7 @@
       "end_page": "117",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cef20730d04ced99c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003102556",
       "keywords_kr": [
         "태권도 선수",
         "마음챙김",
@@ -6685,8 +6747,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003102556",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cef20730d04ced99c85d2949c297615a",
       "id": "cef20730d04ced99c85d2949c297615a"
@@ -6694,7 +6758,7 @@
     {
       "article_id": "cef20730d04ced9947de9c1710b0298d",
       "title_kr": "어린이 법회의 불교 교육에 대한 이론적 고찰",
-      "title_en": "",
+      "title_en": "A Theoretical Study on the Education of Buddhism in the Children's Buddhist Mass",
       "authors": [
         {
           "name": "김민자(선오)(Kim",
@@ -6717,7 +6781,7 @@
       "end_page": "142",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cef20730d04ced9947de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003102557",
       "keywords_kr": [
         "어린이 불교 교육",
         "어린이 법회",
@@ -6734,8 +6798,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003102557",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cef20730d04ced9947de9c1710b0298d",
       "id": "cef20730d04ced9947de9c1710b0298d"
@@ -6743,7 +6809,7 @@
     {
       "article_id": "cef20730d04ced994884a65323211ff0",
       "title_kr": "수인스님의 수행, 사상 그리고 실천",
-      "title_en": "",
+      "title_en": "Bhikkhuni Sooin’s Practice, Thought, and Social Engagements",
       "authors": [
         {
           "name": "최연희(경조)(Choi",
@@ -6766,7 +6832,7 @@
       "end_page": "185",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cef20730d04ced994884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003102558",
       "keywords_kr": [
         "수인스님",
         "수행",
@@ -6793,8 +6859,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003102558",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cef20730d04ced994884a65323211ff0",
       "id": "cef20730d04ced994884a65323211ff0"
@@ -6802,7 +6870,7 @@
     {
       "article_id": "98441b6dc4da7621e9810257f7042666",
       "title_kr": "『구사론』의 제법무아와 공관",
-      "title_en": "",
+      "title_en": "The Non-Self of Dharmas and the Contemplation of Emptiness in Abhidharmakośabhāṣya",
       "authors": [
         {
           "name": "김남수(해진)(Nam-soo Kim)",
@@ -6811,7 +6879,7 @@
         }
       ],
       "abstract_kr": "아비달마 논사 세친은 불설의 교리적 특징을 축약하여 삼법인을 명시하고 있다. 이 중에서 ‘제법무아’는 유위법과 무위법을 아우르는 전체적인 특징이다. 설일체유부를 대표하는 논서인 『구사론』역시 ‘제법무아’를 논 전체의 종지로 표방하고 있다. 그런데 일부의 해석에선 『구사론』의 ‘제법무아’와 대승의 ‘제법개공’을 혼동하는 견해가 보이고 있으며, 나아가 『구사론』 내에서 언급하고 있는 ‘공’과 대승의 ‘제법개공’을 구분하지 못하기도 한다.본고에선 이러한 문제점의 해결을 위해 『구사론』의 전통적인 한문주석서에 근거하여 논 전체의 종지인 ‘제법무아’의 내용을 살펴볼 것이다. 이어 중국불교의 주요 종파에서 제시하는 교판론에 입각하여 유부의 ‘제법무아’와 대승의 ‘제법개공’과의 차이를 살펴볼 것이다. 나아가 전통주소 및 중현과 지민 등의 견해에 근거하여 『구사론』내에서 언급하고 있는 ‘공’의 행상에 대하여 고찰한다. 이를 통해 『구사론』의 ‘공’은 대승의 ‘제법개공’이 아니며, ‘제법무아’의 연장선에 있음을 밝힐 것이다. 상기의 과정을 통해 유부의 ‘제법무아’와 대승의 ‘제법개공’과의 교판적 차이를 명확하게 구별할 수 있기를 기대한다.1장에서는 『구사론』의 제법무아를 고찰하면서, 우선 논 전체의 종지에 대해 살펴본다. 『구사론』 전체의 종지에 대해 전통 3소를 비롯한 한역 주석가들은 ‘제법무아’라고 일치된 견해를 보이고 있다. 다음으로 중국 불교의 주요 교판론에 근거하여 살펴본다. 화엄종과 법상종 등의 교판에선 설일체유부를 ‘법유아무종’으로 규정하고 있다. 이에 따르면 『구사론』의 ‘제법무아’를 법공(法空)이 아닌 아공(我空)의 관점에서 해석해야 한다.2장에서는 『구사론』의 공관에 대해 살펴본다. 『구사론』에선 4념주 중의 총잡념주와 4제의 16행상 중에서 고제의 4행상과 3종 해탈문 등에서 ‘공관’을 언급하고 있다. 전통주소에 따르면 유부의 공(空)은 ‘무아소(無我所)’를 가리킨다. 이것은 대승의 공이 연기(상호의존)에 근거한 ‘무자성(無自性)’을 가리키는 것과 차이가 있다.다음으로 비아와 공의 차이에 대해 중현과 지민의 견해를 살펴본다. 중현은 ‘비아(非我)-공’을 ‘비아-무아’로 해석하고 있는데 이러한 해석은 오류를 담고 있으며 이는 ‘무아-무아소’로 해결할 수 있다. 이는 유부의 공관이 결국 ‘제법무아’의 연장선에 있음을 보인 것이다.",
-      "abstract_en": "",
+      "abstract_en": "Vasubandhu(世親), an Abhidharma scholar, summarized doctrinal characteristics of Buddhist teachings and specified the three marks of existence.\nAmong them, the “non-self of all dharmas(諸法無我)” is an overall characteristic that encompasses conditioned dharmas and unconditioned dharmas.\nAbhidharmakośabhāṣya, a representative treatise of Sarvāstivāda, also advocates the “non-self of all dharmas” as the final conclusion of the entire treatise.\nHowever, there are views that confuse the “non-self of all dharmas” in Abhidharmakośabhāṣya with the “emptiness of all dharmas(諸法皆空)” in Mahāyāna, and some fail to distinguish the “emptiness(空)” mentioned in Abhidharmakośabhāṣya from the “emptiness of all dharmas” in Mahāyāna.\nIn this paper, based on traditional Chinese commentaries on Abhidharmakośabhāṣya, we will examine the content of the “non-self of all dharmas”, which is the final conclusion of the entire treatise.\nWe will then examine differences between the “non-self of all dharmas” in Sarvāstivāda and the “emptiness of all dharmas” in Mahāyāna based on the doctrinal theories presented by major schools of Chinese Buddhism.\nWe will further examine the characteristics of emptiness mentioned in Abhidharmakośabhāṣya based on the views of the traditional commentators and those of Saṃghabhadra(衆賢) and Zhimin(智敏). Through this, we will clarify that the “emptiness” in Abhidharmakośabhāṣya is not the “emptiness of all dharmas” in the Mahāyāna, but an extension of the “non-self of all dharmas”. Through this process, we hope to clearly distinguish the doctrinal differences between the “non-self of all dharmas” in Sarvastivada and the “emptiness of all dharmas” in Mahāyāna.\nIn Chapter 1, we will examine the “non-self of all dharmas” in Abhidharmakośabhāṣya, first looking at the final point of the entire treatise. The traditional three commentators and other commentators on Abhidharmakośabhāṣya agree that the final point of the entire treatise is the “non-self of all dharmas”.\nNext, we will examine the main doctrinal theories of Chinese Buddhism. In the doctrinal theories of the Huayan(華嚴) School and the Faxiang(法相) School, Sarvāstivāda is defined as the “Dharma-only-no- self-kind.(法有我無宗)” According to this, the “non-self of all dharmas” in Abhidharmakośabhāṣya, should be interpreted from the perspective of “self-emptiness(我空)” rather than “dharma-emptiness(法空)”.\nIn Chapter 2, we will examine the “emptiness contemplation” in Abhidharmakośabhāṣya. Abhidharmakośabhāṣya mentions “emptiness contemplation” in the total contemplation of the four foundations of mindfulness, the four aspects(行相) of the truth of suffering among the sixteen aspects of the four truths, and the three doors of liberation. According to the traditional interpretation, the “emptiness” of Sarvāstivāda refers to “non-possession(無我所)”. This is different from the “emptiness” of Mahāyāna, which refers to “non-self-nature(無自性)” based on dependent origination.\nNext, we will examine the views of Saṃghabhadra(衆賢) and Zhimin(智敏) on the difference between “non-self” and “emptiness”. Saṃghabhadra(衆賢) interprets “not-self(非我) vs emptiness(空)” as “not-self(非我) vs non-self(無我)”, which is erroneous and can be resolved as “non-self(無我) vs non-possession(無我所)”. This shows that the “emptiness contemplation” of Sarvāstivāda is ultimately an extension of the “non-self of all dharmas”.",
       "journal_name": "불교와 사회",
       "year": "2024",
       "volume": "16",
@@ -6820,7 +6888,7 @@
       "end_page": "32",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=98441b6dc4da7621e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003168198",
       "keywords_kr": [
         "구사론",
         "설일체유부",
@@ -6837,8 +6905,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003168198",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "98441b6dc4da7621e9810257f7042666",
       "id": "98441b6dc4da7621e9810257f7042666"
@@ -6846,7 +6916,7 @@
     {
       "article_id": "e6e96cc18d71ef197ecd42904f0c5d65",
       "title_kr": "충주의 고중세 사찰의 역사와 의의",
-      "title_en": "",
+      "title_en": "The Foundation and History of the Ancient Middle Ages in Chungju",
       "authors": [
         {
           "name": "황인규(In-gyu Hwang)",
@@ -6864,7 +6934,7 @@
       "end_page": "60",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6e96cc18d71ef197ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003168200",
       "keywords_kr": [
         "김생사",
         "정토사",
@@ -6885,8 +6955,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003168200",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6e96cc18d71ef197ecd42904f0c5d65",
       "id": "e6e96cc18d71ef197ecd42904f0c5d65"
@@ -6894,7 +6966,7 @@
     {
       "article_id": "98441b6dc4da7621d18150b21a227875",
       "title_kr": "명부신앙의 기원과 전개:염라대왕, 야마(Yama), 시왕을 중심으로",
-      "title_en": "",
+      "title_en": "The Origin and Development of Myeongbu Belief: Focusing on King Yeomna, Yama, and Siwang",
       "authors": [
         {
           "name": "박희철(자운)(Hee-chul Park)",
@@ -6912,7 +6984,7 @@
       "end_page": "87",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=98441b6dc4da7621d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003168203",
       "keywords_kr": [
         "명부신앙",
         "야마",
@@ -6929,8 +7001,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003168203",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "98441b6dc4da7621d18150b21a227875",
       "id": "98441b6dc4da7621d18150b21a227875"
@@ -6938,7 +7012,7 @@
     {
       "article_id": "98441b6dc4da76216aae8a972f9116fb",
       "title_kr": "불교적 상생의 방안과 실천에 대한 고찰",
-      "title_en": "",
+      "title_en": "A Study of the Plans and Practices of Buddhist Coexistence",
       "authors": [
         {
           "name": "설상동(현응)(Sang-dong Seol)",
@@ -6956,7 +7030,7 @@
       "end_page": "113",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=98441b6dc4da76216aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003168208",
       "keywords_kr": [
         "상생",
         "화해",
@@ -6973,8 +7047,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003168208",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "98441b6dc4da76216aae8a972f9116fb",
       "id": "98441b6dc4da76216aae8a972f9116fb"
@@ -6982,7 +7058,7 @@
     {
       "article_id": "e6e96cc18d71ef19b36097776a77e665",
       "title_kr": "탈종교화 시대의 농촌 사찰의 역할에 대한 신도 인식 연구",
-      "title_en": "",
+      "title_en": "A Study on Perceptions of Lay Buddhists regarding the Role of Rural Temples in the Age of Secularization",
       "authors": [
         {
           "name": "여상규(혜범)(Sang-gyu Yeo)",
@@ -7000,7 +7076,7 @@
       "end_page": "146",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6e96cc18d71ef19b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003168211",
       "keywords_kr": [
         "농촌 사찰",
         "탈종교화",
@@ -7017,8 +7093,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003168211",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6e96cc18d71ef19b36097776a77e665",
       "id": "e6e96cc18d71ef19b36097776a77e665"
@@ -7026,7 +7104,7 @@
     {
       "article_id": "e6e96cc18d71ef194884a65323211ff0",
       "title_kr": "노년기 원불교 신앙인의 사별 경험과 장례의식에 관한 연구:내러티브접근법을 중심으로",
-      "title_en": "",
+      "title_en": "A Study on the Bereavement Experiences and Funeral Rites of Elderly Won-Buddhism Believer: Focusing on the Narrative Approach",
       "authors": [
         {
           "name": "신은보(Eun-bo Shin)",
@@ -7044,7 +7122,7 @@
       "end_page": "179",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e6e96cc18d71ef194884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003168212",
       "keywords_kr": [
         "사별경험",
         "다중사별",
@@ -7059,8 +7137,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003168212",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e6e96cc18d71ef194884a65323211ff0",
       "id": "e6e96cc18d71ef194884a65323211ff0"
@@ -7757,7 +7837,7 @@
       "end_page": "32",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8df25eedfa70d7cb7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003361251",
       "keywords_kr": [
         "선가귀감",
         "업화가신",
@@ -7775,8 +7855,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "8df25eedfa70d7cb7ecd42904f0c5d65",
+      "kci_id": "ART003361251",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8df25eedfa70d7cb7ecd42904f0c5d65"
     },
@@ -7801,7 +7883,7 @@
       "end_page": "76",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8260ffdb614e585eb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003361252",
       "keywords_kr": [
         "무종교인",
         "한국불교",
@@ -7820,15 +7902,17 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "8260ffdb614e585eb36097776a77e665",
+      "kci_id": "ART003361252",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8260ffdb614e585eb36097776a77e665"
     },
     {
       "article_id": "8df25eedfa70d7cbb36097776a77e665",
       "title_kr": "From Kalinga to Global Justice: A Normative-Comparative Reading of Ashoka’s Dhamma, Religious Tolerance, and Contemporary Accountability",
-      "title_en": "",
+      "title_en": "From Kalinga to Global Justice: A Normative-Comparative Reading of Ashoka’s Dhamma, Religious Tolerance, and Contemporary Accountability",
       "authors": [
         {
           "name": "Vivek Kumar Morya",
@@ -7837,7 +7921,7 @@
         }
       ],
       "abstract_kr": "This article offers a normative-comparative analysis of Ashoka’s dhamma in relation to contemporary debates on global justice, religious tolerance, and humanitarian governance. Rather than treating Ashoka as a direct precursor of modern international law, the study interprets his post-Kalinga ethical turn as an early moral-political framework concerned with remorse, restraint, pluralism, welfare, and ruler accountability. Drawing on Ashokan edicts, Buddhist ethical thought, historical scholarship, international law, and political theory, the article compares selected Ashokan principles with modern concerns such as international criminal accountability, freedom of religion, secular pluralism, and the protection of vulnerable populations. The analysis is deliberately limited to three case clusters: ICC/ICJ-related accountability as a test of global justice, Nepal and the Rohingya crisis as contrasting cases of religious tolerance under strain, and Afghanistan as an example of humanitarian governance failure. The article argues that Ashoka’s dhamma is most useful not as a historical source or institutional blueprint, but as a critical ethical lens for examining the moral aspirations and structural weaknesses of contemporary global governance. The comparison reveals a persistent tension between moral universalism and political power: Ashoka contributes an ethical vocabulary of remorse, restraint, plural responsibility, and humane rule, while modern institutions contribute legal codification, procedural accountability, and international monitoring. The article concludes that global justice requires both moral responsibility and durable institutional mechanisms.",
-      "abstract_en": "",
+      "abstract_en": "This article offers a normative-comparative analysis of Ashoka’s dhamma in relation to contemporary debates on global justice, religious tolerance, and humanitarian governance. Rather than treating Ashoka as a direct precursor of modern international law, the study interprets his post-Kalinga ethical turn as an early moral-political framework concerned with remorse, restraint, pluralism, welfare, and ruler accountability. Drawing on Ashokan edicts, Buddhist ethical thought, historical scholarship, international law, and political theory, the article compares selected Ashokan principles with modern concerns such as international criminal accountability, freedom of religion, secular pluralism, and the protection of vulnerable populations. The analysis is deliberately limited to three case clusters: ICC/ICJ-related accountability as a test of global justice, Nepal and the Rohingya crisis as contrasting cases of religious tolerance under strain, and Afghanistan as an example of humanitarian governance failure. The article argues that Ashoka’s dhamma is most useful not as a historical source or institutional blueprint, but as a critical ethical lens for examining the moral aspirations and structural weaknesses of contemporary global governance. The comparison reveals a persistent tension between moral universalism and political power: Ashoka contributes an ethical vocabulary of remorse, restraint, plural responsibility, and humane rule, while modern institutions contribute legal codification, procedural accountability, and international monitoring. The article concludes that global justice requires both moral responsibility and durable institutional mechanisms.",
       "journal_name": "불교와 사회",
       "year": "2026",
       "volume": "18",
@@ -7846,7 +7930,7 @@
       "end_page": "123",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8df25eedfa70d7cbb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003361254",
       "keywords_kr": [
         "아쇼카",
         "불교 정치윤리",
@@ -7868,8 +7952,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "8df25eedfa70d7cbb36097776a77e665",
+      "kci_id": "ART003361254",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8df25eedfa70d7cbb36097776a77e665"
     },
@@ -7894,7 +7980,7 @@
       "end_page": "164",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8260ffdb614e585ec85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003361257",
       "keywords_kr": [
         "인도불교 부흥 운동",
         "신불교",
@@ -7912,8 +7998,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "8260ffdb614e585ec85d2949c297615a",
+      "kci_id": "ART003361257",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8260ffdb614e585ec85d2949c297615a"
     },
@@ -7938,7 +8026,7 @@
       "end_page": "196",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8260ffdb614e585e4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003361258",
       "keywords_kr": [
         "한강",
         "채식주의자",
@@ -7956,8 +8044,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "8260ffdb614e585e4884a65323211ff0",
+      "kci_id": "ART003361258",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8260ffdb614e585e4884a65323211ff0"
     },
@@ -7987,7 +8077,7 @@
       "end_page": "230",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8260ffdb614e585eb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003361259",
       "keywords_kr": [
         "종교 저널리즘",
         "원불교 교단 언론",
@@ -8005,8 +8095,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "8260ffdb614e585eb7998d826d417196",
+      "kci_id": "ART003361259",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8260ffdb614e585eb7998d826d417196"
     }

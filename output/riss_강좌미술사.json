@@ -34619,7 +34619,7 @@
       "end_page": "49",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6e39589ee6bf55464884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003210004",
       "keywords_kr": [
         "운흥사",
         "대웅보전",
@@ -34636,8 +34636,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003210004",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6e39589ee6bf55464884a65323211ff0",
       "id": "6e39589ee6bf55464884a65323211ff0"
@@ -34663,7 +34665,7 @@
       "end_page": "81",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a109ceedb09f1e95d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003210005",
       "keywords_kr": [
         "삼세불회도",
         "운흥사",
@@ -34680,8 +34682,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003210005",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a109ceedb09f1e95d18150b21a227875",
       "id": "a109ceedb09f1e95d18150b21a227875"
@@ -34707,7 +34711,7 @@
       "end_page": "109",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a109ceedb09f1e9547de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003210006",
       "keywords_kr": [
         "고성 운흥사",
         "18세기 감로도",
@@ -34727,8 +34731,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003210006",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a109ceedb09f1e9547de9c1710b0298d",
       "id": "a109ceedb09f1e9547de9c1710b0298d"
@@ -34754,7 +34760,7 @@
       "end_page": "141",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6e39589ee6bf5546b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003210008",
       "keywords_kr": [
         "운흥사",
         "영산회괘불도",
@@ -34771,8 +34777,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003210008",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6e39589ee6bf5546b36097776a77e665",
       "id": "6e39589ee6bf5546b36097776a77e665"
@@ -34798,7 +34806,7 @@
       "end_page": "173",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a109ceedb09f1e956aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003210011",
       "keywords_kr": [
         "고성 운흥사",
         "다포계맞배",
@@ -34816,8 +34824,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003210011",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a109ceedb09f1e956aae8a972f9116fb",
       "id": "a109ceedb09f1e956aae8a972f9116fb"
@@ -34843,7 +34853,7 @@
       "end_page": "197",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6e39589ee6bf55467ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003210014",
       "keywords_kr": [
         "운흥사(雲興寺)",
         "중창",
@@ -34863,8 +34873,10 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003210014",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6e39589ee6bf55467ecd42904f0c5d65",
       "id": "6e39589ee6bf55467ecd42904f0c5d65"
@@ -34890,7 +34902,7 @@
       "end_page": "215",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a109ceedb09f1e95e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003210016",
       "keywords_kr": [
         "운흥사",
         "화승 의겸",
@@ -34907,8 +34919,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003210016",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a109ceedb09f1e95e9810257f7042666",
       "id": "a109ceedb09f1e95e9810257f7042666"
@@ -34925,7 +34939,7 @@
         }
       ],
       "abstract_kr": "In India, a large number of cave temples were excavated in the Western Deccan area around the B.C.E. 2nd to 6th centuries. A number of Buddhist cave temples excavated in the 5th and 6th centuries were identified in Western Malwa, about 700 kilometers north of here.Among these stone cave temples, Dhamnar cave has the largest size and is in good condition. In Dhamnar Cave, 51 caves were opened separately into 4 counties, of which 8 Chaitya caves and 20 stupas were built in Cave in the south. This number is the largest in a single complex, including all of India, in- cluding Chaitya caves and stupas.All of the stupas in the Dhamnar Caves, except one stupa, are form of cylin- drical bases and circular double bases of the Western Deccan, with an unusual addition of a square base at the lower part that touches the surface. The square-base stylobate is characterized only by the Gandhara stupa.Fences were installed to isolate or protect the flatland temple’s stupa (Buddha) from the world(secular), and the cave temple omitted the fence be- cause the cave itself served as a fence. After that, the square-shaped stupa ap- peared in earnest, and columns were expressed on most of the stupa bases.As Buddhism declined around the 4th and 5th centuries in Gandhara, a new square-bodied stupa was built in Sindh, downstream of the Indus River, and Gujarat, India. A Large-scale square-shaped stupas were constructed in Western Malwa and the provinces in the middle of the transportation route connecting these provinces and inland India, especially in Damnar Caves. It re- minds me of the square -shaped of the stone stupa in Korea.In India, there is no example of a square-base stupa being built, but a new type of stupa was built in the Western Malwa region by adding the square base of Gandhara to the stupa type of the Western Deccan Caves.",
-      "abstract_en": "",
+      "abstract_en": "In India, a large number of cave temples were excavated in the Western Deccan area around the B.C.E. 2nd to 6th centuries. A number of Buddhist cave temples excavated in the 5th and 6th centuries were identified in Western Malwa, about 700 kilometers north of here.\nAmong these stone cave temples, Dhamnar cave has the largest size and is in good condition. In Dhamnar Cave, 51 caves were opened separately into 4 counties, of which 8 Chaitya caves and 20 stupas were built in Cave in the south. This number is the largest in a single complex, including all of India, in- cluding Chaitya caves and stupas.\nAll of the stupas in the Dhamnar Caves, except one stupa, are form of cylin- drical bases and circular double bases of the Western Deccan, with an unusual addition of a square base at the lower part that touches the surface. The square-base stylobate is characterized only by the Gandhara stupa.\nFences were installed to isolate or protect the flatland temple’s stupa (Buddha) from the world(secular), and the cave temple omitted the fence be- cause the cave itself served as a fence. After that, the square-shaped stupa ap- peared in earnest, and columns were expressed on most of the stupa bases.\nAs Buddhism declined around the 4th and 5th centuries in Gandhara, a new square-bodied stupa was built in Sindh, downstream of the Indus River, and Gujarat, India. A Large-scale square-shaped stupas were constructed in Western Malwa and the provinces in the middle of the transportation route connecting these provinces and inland India, especially in Damnar Caves. It re- minds me of the square -shaped of the stone stupa in Korea.\nIn India, there is no example of a square-base stupa being built, but a new type of stupa was built in the Western Malwa region by adding the square base of Gandhara to the stupa type of the Western Deccan Caves.",
       "journal_name": "강좌미술사",
       "year": "2025",
       "volume": "64",
@@ -34934,7 +34948,7 @@
       "end_page": "254",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a109ceedb09f1e95c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003210022",
       "keywords_kr": [
         "스투파",
         "방형기단",
@@ -34949,8 +34963,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003210022",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a109ceedb09f1e95c85d2949c297615a",
       "id": "a109ceedb09f1e95c85d2949c297615a"
@@ -34976,13 +34992,15 @@
       "end_page": "286",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6e39589ee6bf5546b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003210024",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003210024",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6e39589ee6bf5546b7998d826d417196",
       "id": "6e39589ee6bf5546b7998d826d417196"
@@ -35008,13 +35026,15 @@
       "end_page": "307",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a109ceedb09f1e957f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003210026",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003210026",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a109ceedb09f1e957f7a54760bb41745",
       "id": "a109ceedb09f1e957f7a54760bb41745"
@@ -35040,7 +35060,7 @@
       "end_page": "39",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1381d6cbb49c566aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273685",
       "keywords_kr": [
         "봉국사",
         "만월보전",
@@ -35057,8 +35077,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273685",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1381d6cbb49c566aae8a972f9116fb",
       "id": "cb1381d6cbb49c566aae8a972f9116fb"
@@ -35084,7 +35106,7 @@
       "end_page": "62",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1381d6cbb49c56c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273698",
       "keywords_kr": [
         "奉國寺",
         "興國寺",
@@ -35103,8 +35125,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273698",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1381d6cbb49c56c85d2949c297615a",
       "id": "cb1381d6cbb49c56c85d2949c297615a"
@@ -35130,7 +35154,7 @@
       "end_page": "114",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1381d6cbb49c56b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273705",
       "keywords_kr": [
         "지장시왕상",
         "태산부군",
@@ -35147,8 +35171,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273705",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1381d6cbb49c56b7998d826d417196",
       "id": "cb1381d6cbb49c56b7998d826d417196"
@@ -35165,7 +35191,7 @@
         }
       ],
       "abstract_kr": "This study examines the status of Bonguksa Temple, an ancient temple adjacent to the Jeongneung Royal Tomb, by analyzing its Buddhist cultural properties  and  historical  records  from  the  late  19th  century  onward. Bonguksa Temple received patronage from various social strata, including a royal concubine of King Cheoljong, the Haepyeong Yun clan (the maternal family  of  Empress  Sunjeonghyo),  high-ranking  court  ladies  (Sanggung), reformist  intellectuals  (Gaehwapa),  and  businessmen.  In  particular,  the continuous   patronage   by   the   Haepyeong   Yun   clan   over   successive generations, along with the erection of a dedicated stele commemorating their donations (Sihyebi), strongly suggests that they regarded Bonguksa Temple as their family's primary votive temple (Wonchal).The Myeongbujeon Hall (Hall of Judgment), rebuilt in 1898, exemplifies the architectural characteristics of Buddhist halls in the Geungi region (the capital area) during the late 19th century. Although no ink inscriptions (mukseomyeong)  or  ridge  beam  records  (sangnyangmun)  have  been confirmed, as the hall has not yet undergone dismantling for repairs, this study analyzes its architectural form and features. The analysis reveals that the overall impression of its facade and decorative style are strikingly similar to those of the Myeongbujeon Hall at the nearby Heungcheonsa Temple, which  was  rebuilt  in  1894.  Both  temples  served  as  Joposa  (temples responsible for supplying tofu for royal ancestral rites) for the Jeongneung Royal   Tomb.   Furthermore,   records   indicating   that   both   temples commissioned Buddhist paintings and statues simultaneously in 1890 point to their close relationship. It is inferred that this close relationship led to mutual influences on the architecture of their respective Myeongbujeon Halls. Finally, the application of architectural techniques from the 1867 reconstruction of Gyeongbokgung Palace in Bonguksa's Myeongbujeon Hall clearly demonstrates the dissemination of royal court artisans and advanced building technologies to private temples.",
-      "abstract_en": "",
+      "abstract_en": "This study examines the status of Bonguksa Temple, an ancient temple adjacent to the Jeongneung Royal Tomb, by analyzing its Buddhist cultural properties and historical records from the late 19th century onward. Bonguksa Temple received patronage from various social strata, including a royal concubine of King Cheoljong, the Haepyeong Yun clan (the maternal family of Empress Sunjeonghyo), high-ranking court ladies (Sanggung), reformist intellectuals (Gaehwapa), and businessmen. In particular, the continuous patronage by the Haepyeong Yun clan over successive generations, along with the erection of a dedicated stele commemorating their donations (Sihyebi), strongly suggests that they regarded Bonguksa Temple as their family's primary votive temple (Wonchal).\nThe Myeongbujeon Hall (Hall of Judgment), rebuilt in 1898, exemplifies the architectural characteristics of Buddhist halls in the Geungi region (the capital area) during the late 19th century. Although no ink inscriptions (mukseomyeong) or ridge beam records (sangnyangmun) have been confirmed, as the hall has not yet undergone dismantling for repairs, this study analyzes its architectural form and features. The analysis reveals that the overall impression of its facade and decorative style are strikingly similar to those of the Myeongbujeon Hall at the nearby Heungcheonsa Temple, which was rebuilt in 1894. Both temples served as Joposa (temples responsible for supplying tofu for royal ancestral rites) for the Jeongneung Royal Tomb. Furthermore, records indicating that both temples commissioned Buddhist paintings and statues simultaneously in 1890 point to their close relationship. It is inferred that this close relationship led to mutual influences on the architecture of their respective Myeongbujeon Halls. Finally, the application of architectural techniques from the 1867 reconstruction of Gyeongbokgung Palace in Bonguksa's Myeongbujeon Hall clearly demonstrates the dissemination of royal court artisans and advanced building technologies to private temples.",
       "journal_name": "강좌미술사",
       "year": "2025",
       "volume": "65",
@@ -35174,7 +35200,7 @@
       "end_page": "143",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1381d6cbb49c567f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273707",
       "keywords_kr": [
         "정릉 봉국사",
         "명부전",
@@ -35193,8 +35219,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273707",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1381d6cbb49c567f7a54760bb41745",
       "id": "cb1381d6cbb49c567f7a54760bb41745"
@@ -35220,7 +35248,7 @@
       "end_page": "172",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1381d6cbb49c56e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273711",
       "keywords_kr": [
         "봉국사 명부전 불화",
         "지장시왕도",
@@ -35242,8 +35270,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273711",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1381d6cbb49c56e9810257f7042666",
       "id": "cb1381d6cbb49c56e9810257f7042666"
@@ -35269,7 +35299,7 @@
       "end_page": "198",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1381d6cbb49c56d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273753",
       "keywords_kr": [
         "봉국사",
         "아미타괘불도",
@@ -35286,8 +35316,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273753",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1381d6cbb49c56d18150b21a227875",
       "id": "cb1381d6cbb49c56d18150b21a227875"
@@ -35313,7 +35345,7 @@
       "end_page": "226",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1381d6cbb49c56b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273719",
       "keywords_kr": [
         "정릉 봉국사",
         "무학대사",
@@ -35331,8 +35363,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273719",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1381d6cbb49c56b36097776a77e665",
       "id": "cb1381d6cbb49c56b36097776a77e665"
@@ -35358,7 +35392,7 @@
       "end_page": "263",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1381d6cbb49c5647de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273723",
       "keywords_kr": [
         "목조건축유산",
         "가치보존",
@@ -35375,8 +35409,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273723",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1381d6cbb49c5647de9c1710b0298d",
       "id": "cb1381d6cbb49c5647de9c1710b0298d"
@@ -35402,7 +35438,7 @@
       "end_page": "310",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb1381d6cbb49c564884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273725",
       "keywords_kr": [
         "오백나한",
         "오백성중청문",
@@ -35427,8 +35463,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273725",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb1381d6cbb49c564884a65323211ff0",
       "id": "cb1381d6cbb49c564884a65323211ff0"

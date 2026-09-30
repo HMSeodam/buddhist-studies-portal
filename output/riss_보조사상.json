@@ -144,7 +144,7 @@
     {
       "article_id": "a8d55a901a84ea15ffe0bdc3ef48d419",
       "title_kr": "보조사상의 비교사상적 고찰에 대한 연구",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "강건기",
@@ -152,8 +152,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1987",
       "volume": "1",
@@ -162,13 +162,15 @@
       "end_page": "107",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a8d55a901a84ea15ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614511",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614511",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a8d55a901a84ea15ffe0bdc3ef48d419",
       "id": "a8d55a901a84ea15ffe0bdc3ef48d419"
@@ -1016,6 +1018,43 @@
       "id": "38502e5b3d2aa478ffe0bdc3ef48d419"
     },
     {
+      "article_id": "ART002615389",
+      "id": "ART002615389",
+      "kci_id": "ART002615389",
+      "title_kr": "토론, 보조사상의 전승",
+      "title_en": "No english title",
+      "authors": [
+        {
+          "name": "보조사상연구원 편집부",
+          "affiliation": "보조사상연구원 편집부",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": ".",
+      "abstract_en": ".",
+      "journal_name": "보조사상",
+      "year": "1989",
+      "volume": "3",
+      "issue": "",
+      "start_page": "109",
+      "end_page": "136",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002615389",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "보조사상연구원",
+      "kci_year": "1989",
+      "kci_volume": "",
+      "kci_issue": "3",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
       "article_id": "c0b7c2fcc40a776fffe0bdc3ef48d419",
       "title_kr": "보조사상의 전승(자료)",
       "title_en": "No english title",
@@ -1036,55 +1075,18 @@
       "end_page": "145",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c0b7c2fcc40a776fffe0bdc3ef48d419",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002615389",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002615392",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
-      "kci_id": "ART002615389",
+      "kci_id": "ART002615392",
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "c0b7c2fcc40a776fffe0bdc3ef48d419",
       "id": "c0b7c2fcc40a776fffe0bdc3ef48d419"
-    },
-    {
-      "article_id": "ART002615392",
-      "id": "ART002615392",
-      "kci_id": "ART002615392",
-      "title_kr": "자료",
-      "title_en": "No english title",
-      "authors": [
-        {
-          "name": "보조사상연구원 편집부",
-          "affiliation": "보조사상연구원 편집부",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": ".",
-      "abstract_en": ".",
-      "journal_name": "보조사상",
-      "year": "1989",
-      "volume": "3",
-      "issue": "",
-      "start_page": "137",
-      "end_page": "145",
-      "doi": "",
-      "riss_url": "",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002615392",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "보조사상연구원",
-      "kci_year": "1989",
-      "kci_volume": "",
-      "kci_issue": "3",
-      "sources": [
-        "KCI"
-      ],
-      "riss_id": ""
     },
     {
       "article_id": "23a4d805a3e8c69cffe0bdc3ef48d419",
@@ -1883,7 +1885,7 @@
     {
       "article_id": "d0186c457a7cb421ffe0bdc3ef48d419",
       "title_kr": "현대(결사운동)에 미친 지눌의 정혜결사",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "강건기",
@@ -1891,8 +1893,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1992",
       "volume": "5",
@@ -1901,13 +1903,15 @@
       "end_page": "225",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d0186c457a7cb421ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002615486",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002615486",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d0186c457a7cb421ffe0bdc3ef48d419",
       "id": "d0186c457a7cb421ffe0bdc3ef48d419"
@@ -1947,7 +1951,7 @@
     {
       "article_id": "f47cb3af0f0b1b7cffe0bdc3ef48d419",
       "title_kr": "원효의 이해와 돈오점수사상",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "심재열",
@@ -1955,8 +1959,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1992",
       "volume": "5",
@@ -1965,13 +1969,15 @@
       "end_page": "251",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f47cb3af0f0b1b7cffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002615489",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002615489",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "f47cb3af0f0b1b7cffe0bdc3ef48d419",
       "id": "f47cb3af0f0b1b7cffe0bdc3ef48d419"
@@ -1979,7 +1985,7 @@
     {
       "article_id": "05e16e8d3cfdef26ffe0bdc3ef48d419",
       "title_kr": "세친의 오온론",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "이지수",
@@ -1987,8 +1993,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1992",
       "volume": "5",
@@ -1997,13 +2003,15 @@
       "end_page": "289",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=05e16e8d3cfdef26ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002615502",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002615502",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "05e16e8d3cfdef26ffe0bdc3ef48d419",
       "id": "05e16e8d3cfdef26ffe0bdc3ef48d419"
@@ -2148,117 +2156,6 @@
       ],
       "riss_id": "b58b6c15acda1b23ffe0bdc3ef48d419",
       "id": "b58b6c15acda1b23ffe0bdc3ef48d419"
-    },
-    {
-      "article_id": "ART002615486",
-      "id": "ART002615486",
-      "kci_id": "ART002615486",
-      "title_kr": "현대졍혜결사에 미친 지눌의 정혜결사",
-      "title_en": "No english title",
-      "authors": [
-        {
-          "name": "강건기",
-          "affiliation": "전북대학교",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": ".",
-      "abstract_en": ".",
-      "journal_name": "보조사상",
-      "year": "1992",
-      "volume": "5",
-      "issue": "6",
-      "start_page": "207",
-      "end_page": "225",
-      "doi": "",
-      "riss_url": "",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002615486",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "보조사상연구원",
-      "kci_year": "1992",
-      "kci_volume": "5",
-      "kci_issue": "6",
-      "sources": [
-        "KCI"
-      ],
-      "riss_id": ""
-    },
-    {
-      "article_id": "ART002615489",
-      "id": "ART002615489",
-      "kci_id": "ART002615489",
-      "title_kr": "원효의 이해와 돈오점수사사상- 231-251",
-      "title_en": "No english title",
-      "authors": [
-        {
-          "name": "심재열",
-          "affiliation": "원효사상연구소",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": ".",
-      "abstract_en": ".",
-      "journal_name": "보조사상",
-      "year": "1992",
-      "volume": "5",
-      "issue": "6",
-      "start_page": "231",
-      "end_page": "251",
-      "doi": "",
-      "riss_url": "",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002615489",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "보조사상연구원",
-      "kci_year": "1992",
-      "kci_volume": "5",
-      "kci_issue": "6",
-      "sources": [
-        "KCI"
-      ],
-      "riss_id": ""
-    },
-    {
-      "article_id": "ART002615502",
-      "id": "ART002615502",
-      "kci_id": "ART002615502",
-      "title_kr": "세친의 오온론",
-      "title_en": "No english title",
-      "authors": [
-        {
-          "name": "이지수",
-          "affiliation": "동국대학교",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": ".",
-      "abstract_en": ".",
-      "journal_name": "보조사상",
-      "year": "1992",
-      "volume": "5",
-      "issue": "6",
-      "start_page": "255",
-      "end_page": "289",
-      "doi": "",
-      "riss_url": "",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002615502",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "보조사상연구원",
-      "kci_year": "1992",
-      "kci_volume": "5",
-      "kci_issue": "6",
-      "sources": [
-        "KCI"
-      ],
-      "riss_id": ""
     },
     {
       "article_id": "e342c792f1145e1effe0bdc3ef48d419",
@@ -7186,13 +7083,15 @@
       "end_page": "166",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=dceb018516561d5bffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000962962",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART000962962",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "dceb018516561d5bffe0bdc3ef48d419",
       "id": "dceb018516561d5bffe0bdc3ef48d419"
@@ -27751,16 +27650,16 @@
         }
       ],
       "abstract_kr": "This study intends to examine the meaning of Dhāraṇī in writings of the form of Hae-in-do(海印圖), such as Ilseung-beopgye-do and Hae-in-sammae-ron of Silla. Dhāraṇī is an abbreviation of the core ideas or scriptures of Buddhism, and is used in the sense of not forgetting and maintaining it. In Huayan, Dhāraṇī is explained in connection with the method of training of Bodhisattva.Dhāraṇī in Ilseung-beopgye-do is understood as a principle of dharma or the six characteristics, and is used to explain the the conditioned arising of the dharma realm. From the point of view of pursuing a world in which the Tathagata nature is revealed as it is the dharma nature of indiscriminately, the principle of conditioned arising is Dhāraṇī, and the goal is to be aware of the buddhas from times long past.In Hae-in-sammae-ron Dhāraṇī is divided into two parts, the dharma and the meaning. Here again, the Dharma is divided into three categories: Essence, Enlightenment, and Function.The goals of Dhāraṇī training in the two Hae-in-do's are slightly different. Ilseung-beopgye-do focuses on revealing the nature of the Tathagata as it is, and Hae-in-sammae-ron focuses on the achievement of enlightenment through the practice of the Bodhisattva through conditions practice.",
-      "abstract_en": "",
+      "abstract_en": "This study intends to examine the meaning of Dhāraṇī in writings of the form of Hae-in-do(海印圖), such as Ilseung-beopgye-do and Hae-in-sammae-ron of Silla. Dhāraṇī is an abbreviation of the core ideas or scriptures of Buddhism, and is used in the sense of not forgetting and maintaining it. In Huayan, Dhāraṇī is explained in connection with the method of training of Bodhisattva.\nDhāraṇī in Ilseung-beopgye-do is understood as a principle of dharma or the six characteristics, and is used to explain the the conditioned arising of the dharma realm. From the point of view of pursuing a world in which the Tathagata nature is revealed as it is the dharma nature of indiscriminately, the principle of conditioned arising is Dhāraṇī, and the goal is to be aware of the buddhas from times long past.\nIn Hae-in-sammae-ron Dhāraṇī is divided into two parts, the dharma and the meaning. Here again, the Dharma is divided into three categories: Essence, Enlightenment, and Function.\nThe goals of Dhāraṇī training in the two Hae-in-do's are slightly different. Ilseung-beopgye-do focuses on revealing the nature of the Tathagata as it is, and Hae-in-sammae-ron focuses on the achievement of enlightenment through the practice of the Bodhisattva through conditions practice.",
       "journal_name": "보조사상",
       "year": "2022",
       "volume": "63",
       "issue": "",
       "start_page": "11",
       "end_page": "44",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..63.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d5384712143ed046b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002865997",
       "keywords_kr": [
         "Dhāraṇī",
         "다라니",
@@ -27777,8 +27676,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002865997",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d5384712143ed046b7998d826d417196",
       "id": "d5384712143ed046b7998d826d417196"
@@ -27937,9 +27838,9 @@
       "issue": "",
       "start_page": "155",
       "end_page": "181",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..63.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d5384712143ed0467f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002865991",
       "keywords_kr": [
         "『해탈문의 』",
         "명혜",
@@ -27954,8 +27855,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002865991",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d5384712143ed0467f7a54760bb41745",
       "id": "d5384712143ed0467f7a54760bb41745"
@@ -28388,9 +28291,9 @@
       "issue": "",
       "start_page": "239",
       "end_page": "268",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.008",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6fe83df5eba067bd47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904214",
       "keywords_kr": [
         "청허휴정",
         "조선불교",
@@ -28407,8 +28310,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904214",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6fe83df5eba067bd47de9c1710b0298d",
       "id": "6fe83df5eba067bd47de9c1710b0298d"
@@ -28484,9 +28389,9 @@
       "issue": "",
       "start_page": "301",
       "end_page": "334",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.010",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6fe83df5eba067bd4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904066",
       "keywords_kr": [
         "영윤",
         "신태",
@@ -28509,8 +28414,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904066",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "6fe83df5eba067bd4884a65323211ff0",
       "id": "6fe83df5eba067bd4884a65323211ff0"
@@ -28578,9 +28485,9 @@
       "issue": "",
       "start_page": "367",
       "end_page": "393",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.012",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=979efc8f86fb3ea77f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904068",
       "keywords_kr": [
         "Upekṣā",
         "성문",
@@ -28597,8 +28504,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904068",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "979efc8f86fb3ea77f7a54760bb41745",
       "id": "979efc8f86fb3ea77f7a54760bb41745"
@@ -28678,9 +28587,9 @@
       "issue": "",
       "start_page": "427",
       "end_page": "455",
-      "doi": "",
+      "doi": "10.22859/bojoss.2022..64.014",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=187812f3706fdeaa6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904072",
       "keywords_kr": [
         "사찰음식",
         "빅데이터",
@@ -28695,8 +28604,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002904072",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "187812f3706fdeaa6aae8a972f9116fb",
       "id": "187812f3706fdeaa6aae8a972f9116fb"
@@ -28720,9 +28631,9 @@
       "issue": "",
       "start_page": "11",
       "end_page": "37",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=42d36f97273fbc31b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949774",
       "keywords_kr": [
         "초의의순(草衣意恂)",
         "이종선(二種禪)",
@@ -28741,8 +28652,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949774",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "42d36f97273fbc31b7998d826d417196",
       "id": "42d36f97273fbc31b7998d826d417196"
@@ -28759,16 +28672,16 @@
         }
       ],
       "abstract_kr": "백파와 초의의 선사상 논쟁에 대해 삼종선과 이종선을 중심으로 재검토하고자 한다. 백파와 초의의 주장은 모두 조선후기 통설을 비판한 것이다. 조선후기의 통설은 ‘여래선’은 ‘의리선’과 연결되고(여래선=의리선), ‘조사선’은 ‘격외선’과 연결되며(조사선=격외선), 그래서 ‘조사선’이 ‘여래선’보다 우월하다는 것이다. 이처럼 조선후기 통설은 이종선을 내용으로 하는 것이다. 그에 대해 백파는 『선문수경』에서 삼종선을 주장하였는데, 그것은 조사선, 여래선, 의리선이다. 이러한 백파의 주장은 조선 후기 통설을 비판하고 새로운 내용을 제시한 것이다. 그런데 백파가 조선후기 통설을 비판할 때 논리적 문제점이 발생한다. 그것은 백파가 비판의 근거로 제시한 것이 ‘경전에 의한 논증’이나 ‘선사의 어록에 의한 논증’에 의해 검증되지 않는다는 것이다. 그리고 초의는 『선문사변만어』에서 백파의 삼종선을 비판하고, 새로운 관점에서 이종선을 제시한다. 다시 말해서, 초의의 이종선도 조선후기 통설을 비판하고 자신의 새로운 견해를 제시한 것이다. 구체적으로 말하자면, 초의는 ‘여래선’과 ‘조사선’은 가르침의 근본[法體]에서 다른 것이 아니라고 한다(여래선=조사선). 이는 조선후기 통설에서 제시된 주장, 곧 ‘조사선’이 ‘여래선’보다 우월하다는 인식에 대해 비판한 것이다.",
-      "abstract_en": "",
+      "abstract_en": "I will re-examine zen thought debate between Baekpa and Choeui, focusing on three kinds zen and two kinds zen. Baekpa and Choeui's claims are all criticizing the prevailing theory in the late Joseon Dynasty. The prevailing theory in the late Joseon Dynasty is that tathāgata zen is connected to theoretical zen, and patriarch zen is connected to extraordinary zen, so patriarch zen is superior to tathāgata zen. In this way, the prevailing theory in the late Joseon period is based on two kinds zen. In response, Baekpa insists on three kinds zen in Seonmunsugyeong(禪文手鏡), which are patriarch zen, tathāgata zen, and theoretical zen. Baekpa's argument is to criticize the prevailing theory in the late Joseon Dynasty and to present a new content. However, a logical problem arises when Baekpa criticizes the prevailing theory of the late Joseon Dynasty. That is, what Baekpa presents as the basis for criticism is not verified by the argument from the scriptures or the recorded saying of zen masters. And Choeui criticizes Baekpa's three kinds in Seonmunsabyeonmaneo(禪門四辨漫語) and presents two kinds zen from a new perspective. In other words, Choeui's two kinds zen also criticizes the prevailing theory in the late Joseon Dynasty and presents his own new views. To put it concretely, Choeui says that tathāgata zen and patriarch zen are not different in terms of the essence of teachings. This is a criticism of the argument presented in the prevailing theory in the late Joseon Dynasty, that is, the perception that patriarch zen is superior to tathāgata zen.",
       "journal_name": "보조사상",
       "year": "2023",
       "volume": "65",
       "issue": "",
       "start_page": "39",
       "end_page": "68",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=42d36f97273fbc31c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949781",
       "keywords_kr": [
         "『선문수경』",
         "『선문사변만어』",
@@ -28787,8 +28700,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949781",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "42d36f97273fbc31c85d2949c297615a",
       "id": "42d36f97273fbc31c85d2949c297615a"
@@ -28805,16 +28720,16 @@
         }
       ],
       "abstract_kr": "『BulgyoJinhunghoiWolbo』 No.4, No.6, No.8, and No.9 reveal a section of the controversy over zen doctrine developed in the history of Zen Buddhism in Korea.Yu-gyeongjong's 「Dapseo(答書)」, which is included in No. 4, shows the problems of performance and edification related to Linjizong, and the characteristics of Joseon zen buddhism related to five-sects of zen buddhism.On the other hand, the sixth issue shows Yi-nunghwa and Choi-dongsik's refutation. Yi-nunghwa, on six occasions, and Choi-dongsik, on five occasions, raised objections to Yu-gyeongjong's views. Choi-dongsik's and Yi-nunghwa's rebuttals to Yu-gyeongjong's 「Dapseo」 were developed to the same effect, but they are not entirely identical, and there are subtle differences in the content of these rebuttals.Regarding the views of these refutations, Yu-gyeongjong again described his views with the title of penance in No. 8. Yu-gyeongjong concludes that after describing his views in various ways, including doctrinal explanations and practices of reality, this way of explanation gradually increases conflicts.In particular, Yu-gyeongjong contributed 「Hangaldung(閑葛藤)」 to No.9. Here, Yu-gyeongjong ended up advocating his own view in the form of a dialogue about the practice of Chosun zen Buddhism, which inherited Linjizong, and other ways of ruling the mind, rather than reflecting on the refutation of Choi-dongsik and Yi-nunghwa.『BulgyoJinhunghoiWolbo』 showed the uniqueness of being a magazine of modern Korean Buddhism, and it was also a newsletter of the Buddhist end at that time, a medium of propagation, and a scholarly magazine of Buddhism and a magazine of culture.It can be seen that the development of the doctrinal debate shown here was actively spreading in the doctrinal aspect in modern Korean zen Buddhism.",
-      "abstract_en": "",
+      "abstract_en": "『BulgyoJinhunghoiWolbo』 No.4, No.6, No.8, and No.9 reveal a section of the controversy over zen doctrine developed in the history of Zen Buddhism in Korea.\nYu-gyeongjong's 「Dapseo(答書)」, which is included in No. 4, shows the problems of performance and edification related to Linjizong, and the characteristics of Joseon zen buddhism related to five-sects of zen buddhism.\nOn the other hand, the sixth issue shows Yi-nunghwa and Choi-dongsik's refutation. Yi-nunghwa, on six occasions, and Choi-dongsik, on five occasions, raised objections to Yu-gyeongjong's views. Choi-dongsik's and Yi-nunghwa's rebuttals to Yu-gyeongjong's 「Dapseo」 were developed to the same effect, but they are not entirely identical, and there are subtle differences in the content of these rebuttals.\nRegarding the views of these refutations, Yu-gyeongjong again described his views with the title of penance in No. 8. Yu-gyeongjong concludes that after describing his views in various ways, including doctrinal explanations and practices of reality, this way of explanation gradually increases conflicts.\nIn particular, Yu-gyeongjong contributed 「Hangaldung(閑葛藤)」 to No.9. Here, Yu-gyeongjong ended up advocating his own view in the form of a dialogue about the practice of Chosun zen Buddhism, which inherited Linjizong, and other ways of ruling the mind, rather than reflecting on the refutation of Choi-dongsik and Yi-nunghwa.\n『BulgyoJinhunghoiWolbo』 showed the uniqueness of being a magazine of modern Korean Buddhism, and it was also a newsletter of the Buddhist end at that time, a medium of propagation, and a scholarly magazine of Buddhism and a magazine of culture.\nIt can be seen that the development of the doctrinal debate shown here was actively spreading in the doctrinal aspect in modern Korean zen Buddhism.",
       "journal_name": "보조사상",
       "year": "2023",
       "volume": "65",
       "issue": "",
       "start_page": "69",
       "end_page": "99",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=42d36f97273fbc3147de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949793",
       "keywords_kr": [
         "불교진흥회월보",
         "유경종",
@@ -28834,8 +28749,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949793",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "42d36f97273fbc3147de9c1710b0298d",
       "id": "42d36f97273fbc3147de9c1710b0298d"
@@ -28859,9 +28776,9 @@
       "issue": "",
       "start_page": "103",
       "end_page": "132",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=42d36f97273fbc317f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949802",
       "keywords_kr": [
         "홍성",
         "용봉사",
@@ -28878,8 +28795,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949802",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "42d36f97273fbc317f7a54760bb41745",
       "id": "42d36f97273fbc317f7a54760bb41745"
@@ -28896,16 +28815,16 @@
         }
       ],
       "abstract_kr": "This article was written based on the critical mind about the terms ‘The door of entering the way with no-mind’ (無心合道門) and ‘Observing the keyword’ (看話), which are terms related to ‘the path of direct cutting’ (徑截門) among the three gates buddhist practice mentioned in the inscription of Chinul (知訥). First, I raised a counterargument to some of the arguments that saw the ‘The door of entering the way with no-mind’ as another practice approach that Chinul opened. It was revealed that such a argument was based on a contextual misreading according to the composition of the original text, and that ‘The door of entering the way with no-mind’ was written to clarify the superiority of Seon Buddhism in the process of citing Qingliang Chengguan's (淸凉澄觀) writings to explain Zongmi(780-841)'s theory of sudden enlightenment and gradual cultivation in detail and to help scholars understand Seon Buddhism properly. In addition, through thorough reading of the original text of  Excerpts from the Dharma Collection and Special Practice Record with Personal Notes, the meaning of the term ‘Observing the Keyword’ written by Chinul was identified. In other words, based on the various episodes quoted in the path of direct cutting section of Excerpts from the Dharma Collection and Special Practice Record with Personal Notes, especially the episodes of the Platform Sūtra of the Sixth Patriarch (六祖壇經) cited before citing Zen Analects of Ta-hui (大慧語錄), the structure of the Kanhwa practice approach that Chinul must have had was drawn, and the relationship with Ta-hui (大慧)’s Kanhwa Sŏn was also reviewed. Although Chinul’s Kanhwa practice approach actively borrowed the part of Ta-hui (大慧)’s Kanhwa Sŏn that talks about ‘the ten illnesses  of the Investigation of (the Hwadu word of) Mu’ (無字話頭十種病), it was revealed that the equation of ‘The path of direct cutting = Ta-hui Sŏn’ should be reexamined. Through this, it was suggested that when ‘the path of direct cutting’ is named ‘Kanhwakyo˘ngjo˘l mun’ (看話徑截門) and used, the nature of the Kanhwa Sŏn should allocate a large share to the Kanhwa practice approach established by Chinul.",
-      "abstract_en": "",
+      "abstract_en": "This article was written based on the critical mind about the terms ‘The door of entering the way with no-mind’ (無心合道門) and ‘Observing the keyword’ (看話), which are terms related to ‘the path of direct cutting’ (徑截門) among the three gates buddhist practice mentioned in the inscription of Chinul (知訥). First, I raised a counterargument to some of the arguments that saw the ‘The door of entering the way with no-mind’ as another practice approach that Chinul opened. It was revealed that such a argument was based on a contextual misreading according to the composition of the original text, and that ‘The door of entering the way with no-mind’ was written to clarify the superiority of Seon Buddhism in the process of citing Qingliang Chengguan's (淸凉澄觀) writings to explain Zongmi(780-841)'s theory of sudden enlightenment and gradual cultivation in detail and to help scholars understand Seon Buddhism properly. In addition, through thorough reading of the original text of Excerpts from the Dharma Collection and Special Practice Record with Personal Notes, the meaning of the term ‘Observing the Keyword’ written by Chinul was identified. In other words, based on the various episodes quoted in the path of direct cutting section of Excerpts from the Dharma Collection and Special Practice Record with Personal Notes, especially the episodes of the Platform Sūtra of the Sixth Patriarch (六祖壇經) cited before citing Zen Analects of Ta-hui (大慧語錄), the structure of the Kanhwa practice approach that Chinul must have had was drawn, and the relationship with Ta-hui (大慧)’s Kanhwa Sŏn was also reviewed. Although Chinul’s Kanhwa practice approach actively borrowed the part of Ta-hui (大慧)’s Kanhwa Sŏn that talks about ‘the ten illnesses of the Investigation of (the Hwadu word of) Mu’ (無字話頭十種病), it was revealed that the equation of ‘The path of direct cutting = Ta-hui Sŏn’ should be reexamined. Through this, it was suggested that when ‘the path of direct cutting’ is named ‘Kanhwakyo˘ngjo˘l mun’ (看話徑截門) and used, the nature of the Kanhwa Sŏn should allocate a large share to the Kanhwa practice approach established by Chinul.",
       "journal_name": "보조사상",
       "year": "2023",
       "volume": "65",
       "issue": "",
       "start_page": "133",
       "end_page": "160",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=42d36f97273fbc31e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949828",
       "keywords_kr": [
         "지눌",
         "법집별행록절요병입사기",
@@ -28922,8 +28841,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949828",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "42d36f97273fbc31e9810257f7042666",
       "id": "42d36f97273fbc31e9810257f7042666"
@@ -28947,9 +28868,9 @@
       "issue": "",
       "start_page": "161",
       "end_page": "191",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=42d36f97273fbc31d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949831",
       "keywords_kr": [
         "경절문",
         "무심선",
@@ -28979,8 +28900,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949831",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "42d36f97273fbc31d18150b21a227875",
       "id": "42d36f97273fbc31d18150b21a227875"
@@ -29004,9 +28927,9 @@
       "issue": "",
       "start_page": "193",
       "end_page": "221",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=42d36f97273fbc316aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949833",
       "keywords_kr": [
         "일제강점기",
         "한국불교",
@@ -29023,8 +28946,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949833",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "42d36f97273fbc316aae8a972f9116fb",
       "id": "42d36f97273fbc316aae8a972f9116fb"
@@ -29048,9 +28973,9 @@
       "issue": "",
       "start_page": "223",
       "end_page": "250",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.008",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=62d339c6fbbf03f57f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949510",
       "keywords_kr": [
         "동산법문(東山法門)",
         "홍인(弘忍)",
@@ -29069,8 +28994,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949510",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "62d339c6fbbf03f57f7a54760bb41745",
       "id": "62d339c6fbbf03f57f7a54760bb41745"
@@ -29094,9 +29021,9 @@
       "issue": "",
       "start_page": "251",
       "end_page": "280",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.009",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7b273d0aad9ad8ae7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949849",
       "keywords_kr": [
         "업과 재생",
         "발생학",
@@ -29118,8 +29045,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949849",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7b273d0aad9ad8ae7ecd42904f0c5d65",
       "id": "7b273d0aad9ad8ae7ecd42904f0c5d65"
@@ -29148,9 +29077,9 @@
       "issue": "",
       "start_page": "281",
       "end_page": "309",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.010",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=62d339c6fbbf03f5e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949505",
       "keywords_kr": [
         "디빠왕사(Dīpavaṃsa)",
         "필사본",
@@ -29167,8 +29096,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949505",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "62d339c6fbbf03f5e9810257f7042666",
       "id": "62d339c6fbbf03f5e9810257f7042666"
@@ -29176,7 +29107,7 @@
     {
       "article_id": "7b273d0aad9ad8aeb36097776a77e665",
       "title_kr": "Vasubandhu’s Perspective on the Mindstream (saṃtati/saṃtāna) of Sentient Being (sattva): The Theory of Antarābhava in the Abhidharmakośabhāṣya Chapter Lokanirdeśa",
-      "title_en": "",
+      "title_en": "Vasubandhu’s Perspective on the Mindstream (saṃtati/saṃtāna) of Sentient Being (sattva): The Theory of Antarābhava in the Abhidharmakośabhāṣya Chapter Lokanirdeśa",
       "authors": [
         {
           "name": "구자현",
@@ -29185,16 +29116,16 @@
         }
       ],
       "abstract_kr": "In this study, I examine the unique characteristics of antarābhava reflected in the theory of saṃsāra in Buddhism by paying close attention to two interrelated points: (a) Vasubandhu’s distinct theoretical position in the Buddhist doctrines, and (b) antarābhava described in the Abhidharmakośabhāṣya Chapter Lokanirdeśa (世間品). In so doing, this study illustrates that antarābhava appeared in the history of Buddhism as a new entity in the cycle of birth, life and death. The emergence of antarābhava, I thus indicate, enabled to extend the thoughts of Buddhism that conflate heterogeneous beings such as karma, no-self, and saṃsāra. Buddhism, by virtue of the emergence and development of antarābhava, was established and flourished as the unique thoughts that noticeably differ from other religious doctrines.",
-      "abstract_en": "",
+      "abstract_en": "In this study, I examine the unique characteristics of antarābhava reflected in the theory of saṃsāra in Buddhism by paying close attention to two interrelated points: (a) Vasubandhu’s distinct theoretical position in the Buddhist doctrines, and (b) antarābhava described in the Abhidharmakośabhāṣya Chapter Lokanirdeśa (世間品). In so doing, this study illustrates that antarābhava appeared in the history of Buddhism as a new entity in the cycle of birth, life and death. The emergence of antarābhava, I thus indicate, enabled to extend the thoughts of Buddhism that conflate heterogeneous beings such as karma, no-self, and saṃsāra. Buddhism, by virtue of the emergence and development of antarābhava, was established and flourished as the unique thoughts that noticeably differ from other religious doctrines.",
       "journal_name": "보조사상",
       "year": "2023",
       "volume": "65",
       "issue": "",
       "start_page": "311",
       "end_page": "344",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..65.011",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7b273d0aad9ad8aeb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949853",
       "keywords_kr": [
         "중유",
         "윤회",
@@ -29209,8 +29140,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002949853",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "7b273d0aad9ad8aeb36097776a77e665",
       "id": "7b273d0aad9ad8aeb36097776a77e665"
@@ -29234,9 +29167,9 @@
       "issue": "",
       "start_page": "9",
       "end_page": "47",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..66.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=92761b389f11ba3c4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002985804",
       "keywords_kr": [
         "혜심(慧諶)",
         "최우(崔瑀)",
@@ -29257,8 +29190,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002985804",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "92761b389f11ba3c4884a65323211ff0",
       "id": "92761b389f11ba3c4884a65323211ff0"
@@ -29282,9 +29217,9 @@
       "issue": "",
       "start_page": "49",
       "end_page": "76",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..66.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=92761b389f11ba3cc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002985805",
       "keywords_kr": [
         "송광사",
         "인암",
@@ -29304,8 +29239,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002985805",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "92761b389f11ba3cc85d2949c297615a",
       "id": "92761b389f11ba3cc85d2949c297615a"
@@ -29329,9 +29266,9 @@
       "issue": "",
       "start_page": "77",
       "end_page": "108",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..66.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=92761b389f11ba3c47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002985806",
       "keywords_kr": [
         "무물(無物)",
         "무심(無心)",
@@ -29358,8 +29295,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002985806",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "92761b389f11ba3c47de9c1710b0298d",
       "id": "92761b389f11ba3c47de9c1710b0298d"
@@ -29383,9 +29322,9 @@
       "issue": "",
       "start_page": "109",
       "end_page": "137",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..66.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=92761b389f11ba3cb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002985807",
       "keywords_kr": [
         "이원론",
         "일원론",
@@ -29415,8 +29354,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002985807",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "92761b389f11ba3cb7998d826d417196",
       "id": "92761b389f11ba3cb7998d826d417196"
@@ -29433,16 +29374,16 @@
         }
       ],
       "abstract_kr": "네러티브적 접근은 경험을 대상으로 한 질적 연구의 한 방법이다. 곧 ‘특정한 경험’을 현시점에서 ‘다시 이야기함(retelling)’으로써 그 체험이 가지는 의미를 탐구한다. 화두참구와 같은 명상체험은 통계에 의존한 양적 연구나 혹은 문헌적 접근보다는 경험에 대한 질적 접근이 적절한 연구방법이라 생각한다.이에 필자는 구산 선사의 입적 40주년을 맞이하여 스님의 지도로 어떻게 화두를 결택하고 점검을 받았는지, 문답을 통해서 어떤 깨달음과 성찰을 이루었는지를 이야기하고 그것이 가지는 의미를 내러티브적으로 조망한다. 먼저, 첫 번째는 화두의 결택이다. 구산선사와의 인연을 통해서 어떻게 ‘이뭣고’ 화두를 결택하고 그것이 ‘어떻게 생기었나’는 질문과 함께 화두참구를 하게 되었는지를 이야기한다.다음 두 번째는 좌선이란 화두가 마음에 ‘자리잡음’이라는 정의와 일상에서 화두수행의 점검을 다루고, 천당과 지옥의 윤회란 바로 ‘생각’이라는 스님의 지적과 함께 다종교현상에서 만나게 되는 있음[有]과 없음[無]의 갈등을 필자의 경우는 어떻게 해소하게 되었는지를 다룬다. 곧 성경의 에덴동산을 마음의 본래면목으로서 마음동산[心地, 心性, 靈體]으로 해석하고 그곳에 서 있는 산악과를 끊임없이 생겨나는 선악의 분별의식, 윤회하는 생각으로 해석한다.세 번째는 ‘온다’는 것과 ‘간다’는 것에 대한 스님의 질문과 점검을 다룬다. 형상의 부정은 논리적인 측면이고 구체적인 긍정성이 요청된다. 이것을 필자는 산행하면서 경험한 세 번째의 광명체험으로 해소하였음을 말한다. 오지 않고 가지 않는 가운데 천하 대지는 빛으로 가득 차 있음을 분명하게 자각한다.",
-      "abstract_en": "",
+      "abstract_en": "What is this? When I close my eyes, the sight before my eyes Becomes brighter.\nSmiling with a deep sense of happiness.\nThis is the conclusion. A key component of the meditation path of all spiritual pilgrimages, including Ganhwa-Seon, is the question-answer and inspection between the teacher and disciple. This is absolutely a key element of rapport formation. So Ganhwaseon is the art of life consisting of questions and answers.\nFor this reason, a qualitative narrative review that describes experiences is considered an appropriate approach rather than a literary hermeneutics or statistical quantitative approach. The narrative approach is a method of qualitative research targeting experiences. In other words, the meaning of a ‘specific experience’ is explored by ‘retelling’ it at the present time. For meditation experiences such as Hwadu meditation, I believe that a qualitative approach to experience is an appropriate research method rather than quantitative research based on statistics or a literature approach.\nIn the practice of Ganhwa Seon, the presence of a teacher who selects hwadu and checks the practice has absolute influence. However, in most of the existing Seon Records, it is treated as a great enlightenment, and there is no detailed report on how this part is specifically accomplished and what the enlightenment is. Accordingly, in commemoration of the 40th anniversary of Master Kusan's death, I talks about how I chose and examined topics of Hwadu under the Master's guidance, what kind of enlightenment and reflection I achieved through questions and answers, and takes a narrative look at their meaning.\nFirst of all, the first thing is the choice of Hwadu. Through my relationship with Master Gusan, I talk about how I chose a Hwadu called ‘What is it’ and started delving into the Hwadu along with the question ‘How did it come about?’ Through this, I switches from a 2-step to a 3-step method of studying the hwadu and discusses whether the essence of the hwadu is the sensation of doubt(疑情) or reflective intuition(返照). The inspection part of the hwadu of topic was mainly done through letters with the Sunim, but the specific questions and answers were done through direct interviews while I participated in the summer retreat.\nNext, the second part deals with the definition of zazen[坐禪] as 'establishment' of the Hwadu in the mind and the inspection of the practice of the Hwadu in daily life, and with the Sunim's point out that reincarnation in heaven and hell is just 'thought', it is a question of existence encountered in the phenomenon of multiple religions. It deals with how the conflict between existence[有] and nothing[無] was resolved in my own case. In other words, the Garden of Eden in the Bible is interpreted as the garden of the mind as the original aspect of the mind[心性, 靈體], and the garden fruit standing there is interpreted as the consciousness of discernment between good and evil and also the idea of reincarnation that is constantly arising. In this way, the ‘hwadu’ and the ‘miracle of Ephatha(be opening)’ is understood as the key to realizing the true nature of the garden and escaping reincarnation.\nThe third deals with the Sunim’s questions and examination of ‘coming’ and ‘going’. The negation of the form is a logical aspect and specific positivity is required. This problem was resolved through the third brighten experience with light I had while walking on the mountain. Without coming or going, I clearly realize that the earth is full of light. The Sunim’s last teaching is the ‘back view’ of standing at Samilam Hermitage. This is to reveal in silence that our life itself is a great samadhi. So the monk smiled and left.",
       "journal_name": "보조사상",
       "year": "2023",
       "volume": "67",
       "issue": "",
       "start_page": "9",
       "end_page": "55",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..67.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57407b0173f1ef3747de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003021663",
       "keywords_kr": [
         "내러티브",
         "간화선",
@@ -29459,8 +29400,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003021663",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "57407b0173f1ef3747de9c1710b0298d",
       "id": "57407b0173f1ef3747de9c1710b0298d"
@@ -29484,9 +29427,9 @@
       "issue": "",
       "start_page": "57",
       "end_page": "83",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..67.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57407b0173f1ef377f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003021673",
       "keywords_kr": [
         "구산",
         "제 2정혜결사",
@@ -29503,8 +29446,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003021673",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "57407b0173f1ef377f7a54760bb41745",
       "id": "57407b0173f1ef377f7a54760bb41745"
@@ -29528,9 +29473,9 @@
       "issue": "",
       "start_page": "85",
       "end_page": "114",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..67.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=07bd1a7a67df75cc7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003021743",
       "keywords_kr": [
         "사상적 기반",
         "칠바라밀",
@@ -29547,8 +29492,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003021743",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "07bd1a7a67df75cc7ecd42904f0c5d65",
       "id": "07bd1a7a67df75cc7ecd42904f0c5d65"
@@ -29572,9 +29519,9 @@
       "issue": "",
       "start_page": "115",
       "end_page": "146",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..67.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57407b0173f1ef37e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003021744",
       "keywords_kr": [
         "구산",
         "효봉",
@@ -29595,8 +29542,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003021744",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "57407b0173f1ef37e9810257f7042666",
       "id": "57407b0173f1ef37e9810257f7042666"
@@ -29620,9 +29569,9 @@
       "issue": "",
       "start_page": "209",
       "end_page": "245",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..67.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57407b0173f1ef37d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003021745",
       "keywords_kr": [
         "유가계본",
         "범망계본",
@@ -29642,8 +29591,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003021745",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "57407b0173f1ef37d18150b21a227875",
       "id": "57407b0173f1ef37d18150b21a227875"
@@ -29660,16 +29611,16 @@
         }
       ],
       "abstract_kr": "Hye-kyung is the leader in Yugasajiron (瑜伽師地論) of the time, and is the most frequently cited scholar in Dunlun's Yugaron-gi. In this article, his thoughts was examined, focusing on quotes closely related to  ālaya-vijñāna (阿賴耶識). Although he is a scholar who mastered literature of the new and old consciousness-only school, he shares the fundamental perspective of later theory of consciousness-only established by the newly translated texts in chinese.First of all, he accepted the theory of eight-consciousness centered on the eighth ālaya-vijñāna established by hyonjang (玄奘)'s successors, while questioning the theory of nine-consciousness which was popular among old scholars. His comprehensive perspective of ālaya-vijñāna is found in the interpretation of “Seeds-support (種子依) is sarvabijaka-ālaya-vijñāna (一切種子阿賴耶識)”. According him, this phrase primarily means sarvabijaka-vijñāna (一切種子識) and, as such consciousness, it combines not only the seed of kleśa (煩惱), but also the seed of undefiled tathāgata (如來). In this perspective, sarvabijaka-vijñāna in Yugasajiron is no different from tathāgatagarbha (如來藏) in Neunggagyeong (楞伽經).His interpretation of the two objects perceived by ālaya-vijñāna, that is,  the inner body and the external world, generally aligns with the theory of later Sungyushikron (成唯識論). In particular, his view was no different from Dharmapala (護法) in regards to the old debates over the body of others. According to him, one's ālaya-vijñāna only expresses the others' physical bodies and recognizes them as external world. In addition, explaining the continuity of external world based on the common-seeds (共相種子) in ālaya-vijñāna is not much different from the  perspective of Sungyushikron. According to him, the outside world is experienced to have persistence because the always-inherited common-seeds constantly presents the image of the external world.",
-      "abstract_en": "",
+      "abstract_en": "Hye-kyung is the leader in Yugasajiron (瑜伽師地論) of the time, and is the most frequently cited scholar in Dunlun's Yugaron-gi. In this article, his thoughts was examined, focusing on quotes closely related to ālaya-vijñāna (阿賴耶識). Although he is a scholar who mastered literature of the new and old consciousness-only school, he shares the fundamental perspective of later theory of consciousness-only established by the newly translated texts in chinese.\nFirst of all, he accepted the theory of eight-consciousness centered on the eighth ālaya-vijñāna established by hyonjang (玄奘)'s successors, while questioning the theory of nine-consciousness which was popular among old scholars. His comprehensive perspective of ālaya-vijñāna is found in the interpretation of “Seeds-support (種子依) is sarvabijaka-ālaya-vijñāna (一切種子阿賴耶識)”. According him, this phrase primarily means sarvabijaka-vijñāna (一切種子識) and, as such consciousness, it combines not only the seed of kleśa (煩惱), but also the seed of undefiled tathāgata (如來). In this perspective, sarvabijaka-vijñāna in Yugasajiron is no different from tathāgatagarbha (如來藏) in Neunggagyeong (楞伽經).\nHis interpretation of the two objects perceived by ālaya-vijñāna, that is, the inner body and the external world, generally aligns with the theory of later Sungyushikron (成唯識論). In particular, his view was no different from Dharmapala (護法) in regards to the old debates over the body of others. According to him, one's ālaya-vijñāna only expresses the others' physical bodies and recognizes them as external world. In addition, explaining the continuity of external world based on the common-seeds (共相種子) in ālaya-vijñāna is not much different from the perspective of Sungyushikron. According to him, the outside world is experienced to have persistence because the always-inherited common-seeds constantly presents the image of the external world.",
       "journal_name": "보조사상",
       "year": "2023",
       "volume": "67",
       "issue": "",
       "start_page": "247",
       "end_page": "276",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..67.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57407b0173f1ef37c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003021747",
       "keywords_kr": [
         "amala-vijñāna(阿摩羅識)",
         "ālaya-vijñāna(阿賴耶識)",
@@ -29691,8 +29642,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003021747",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "57407b0173f1ef37c85d2949c297615a",
       "id": "57407b0173f1ef37c85d2949c297615a"
@@ -29709,16 +29662,16 @@
         }
       ],
       "abstract_kr": "This paper explores the Sutra of No Birth Precept which was translated and published by Ji-gong. As shown below, the sutra contains a number of unique contents in the idea of precept. This suggests that the sutra plays an important role in studying the development of the thought of precept in Korean Buddhism.Firstly, the sutra was briefly introduced. Being born in the 14th century in India, Ji-gong brought the sutra from India and translated it in China. The sutra is consists of 4 main parts: the principle of precept, some examples of the principle, the requirements for accepting the precept, and the item of precept.Secondly, I looked at the principle of the precept more specifically. It was analyzed that the precept was based on the principle of the middle way(中道). In addition, it was inferred that the scope of the object of applying the precept is 'all beings(一切法)': the material beings, the mental beings, and the other beings.Thirdly, the examples of the principle of precept were explained one by one. It was revealed that Bodhisattva practiced the middle way and obtained enlightenment in the previous life stories(前生譚) and that non-Buddhists did not practice the middle way and got the cycle of transmigration in the explanation on them.Finally, I looked at the requirements for accepting the precept and the item of precept. The fourfold refuges, the repentance for 3 karmas, and 6 great vows are common in Mahayana Buddhism, but there were unusual contents. And the only item of precept was understood to re-declaration the principle of the precept.",
-      "abstract_en": "",
+      "abstract_en": "This paper explores the Sutra of No Birth Precept which was translated and published by Ji-gong. As shown below, the sutra contains a number of unique contents in the idea of precept. This suggests that the sutra plays an important role in studying the development of the thought of precept in Korean Buddhism.\nFirstly, the sutra was briefly introduced. Being born in the 14th century in India, Ji-gong brought the sutra from India and translated it in China. The sutra is consists of 4 main parts: the principle of precept, some examples of the principle, the requirements for accepting the precept, and the item of precept.\nSecondly, I looked at the principle of the precept more specifically. It was analyzed that the precept was based on the principle of the middle way(中道). In addition, it was inferred that the scope of the object of applying the precept is 'all beings(一切法)': the material beings, the mental beings, and the other beings.\nThirdly, the examples of the principle of precept were explained one by one. It was revealed that Bodhisattva practiced the middle way and obtained enlightenment in the previous life stories(前生譚) and that non-Buddhists did not practice the middle way and got the cycle of transmigration in the explanation on them.\nFinally, I looked at the requirements for accepting the precept and the item of precept. The fourfold refuges, the repentance for 3 karmas, and 6 great vows are common in Mahayana Buddhism, but there were unusual contents. And the only item of precept was understood to re-declaration the principle of the precept.",
       "journal_name": "보조사상",
       "year": "2023",
       "volume": "67",
       "issue": "",
       "start_page": "277",
       "end_page": "306",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..67.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=07bd1a7a67df75ccb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003021748",
       "keywords_kr": [
         "지공",
         "계율",
@@ -29739,8 +29692,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003021748",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "07bd1a7a67df75ccb36097776a77e665",
       "id": "07bd1a7a67df75ccb36097776a77e665"
@@ -29748,7 +29703,7 @@
     {
       "article_id": "57407b0173f1ef37b7998d826d417196",
       "title_kr": "Garlic in Buddhism: Exploring its Context and Implications as an Impure Food",
-      "title_en": "",
+      "title_en": "Garlic in Buddhism: Exploring its Context and Implications as an Impure Food",
       "authors": [
         {
           "name": "김원주",
@@ -29757,16 +29712,16 @@
         }
       ],
       "abstract_kr": "This research offers a comprehensive exploration of the unique role and implications of garlic within both Pāli and Chinese Buddhist scriptures, which stands in stark contrast to Buddhism's typically neutral stance towards food. This study unfolds through three interconnected inquiries: tracing the origins of the aversion to garlic and its links with Indian Brahmin tradition, undertaking an intertextual analysis across Pāli and Chinese scriptures to unearth consistent themes and divergent narratives, and evaluating whether garlic can constitute substantial karma, including negative actions, and comparing it with meat, which shares similarities in origin.Through each of these considerations, this study aims to identify the inherent negative attributes of garlic in Hindu and Buddhist scriptures, akin to the cāṇḍāla in Hindu dharmaśāstra literatures, as well as its common exceptionality allowing consumption for medicinal purposes. Moreover, by delving into garlic’s smell and the view of women related to garlic as depicted in Pāli and Chinese scriptures, the objective is to understand the diverse contextual meanings and implications associated with garlic. And striving to transcend conventional research approaches concerning garlic, garlic is examined by its botanical characteristics, and compared to meat. This effort seeks to reassess the parallelism between diverse Buddhist doctrines and the inherent negativity associated with garlic from a more comprehensive viewpoint.Through this prism, it is postulated that we can elucidate a more comprehensive understanding of the significance of garlic within Buddhism, offering a multidimensional perspective.",
-      "abstract_en": "",
+      "abstract_en": "This research offers a comprehensive exploration of the unique role and implications of garlic within both Pāli and Chinese Buddhist scriptures, which stands in stark contrast to Buddhism's typically neutral stance towards food. This study unfolds through three interconnected inquiries: tracing the origins of the aversion to garlic and its links with Indian Brahmin tradition, undertaking an intertextual analysis across Pāli and Chinese scriptures to unearth consistent themes and divergent narratives, and evaluating whether garlic can constitute substantial karma, including negative actions, and comparing it with meat, which shares similarities in origin.\nThrough each of these considerations, this study aims to identify the inherent negative attributes of garlic in Hindu and Buddhist scriptures, akin to the cāṇḍāla in Hindu dharmaśāstra literatures, as well as its common exceptionality allowing consumption for medicinal purposes. Moreover, by delving into garlic’s smell and the view of women related to garlic as depicted in Pāli and Chinese scriptures, the objective is to understand the diverse contextual meanings and implications associated with garlic. And striving to transcend conventional research approaches concerning garlic, garlic is examined by its botanical characteristics, and compared to meat. This effort seeks to reassess the parallelism between diverse Buddhist doctrines and the inherent negativity associated with garlic from a more comprehensive viewpoint.\nThrough this prism, it is postulated that we can elucidate a more comprehensive understanding of the significance of garlic within Buddhism, offering a multidimensional perspective.",
       "journal_name": "보조사상",
       "year": "2023",
       "volume": "67",
       "issue": "",
       "start_page": "307",
       "end_page": "344",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..67.008",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57407b0173f1ef37b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003021749",
       "keywords_kr": [
         "마늘",
         "힌두 다르마 샤스트라 문헌",
@@ -29785,8 +29740,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003021749",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "57407b0173f1ef37b7998d826d417196",
       "id": "57407b0173f1ef37b7998d826d417196"
@@ -29798,7 +29755,7 @@
       "authors": [
         {
           "name": "정현주",
-          "affiliation": "",
+          "affiliation": "전남대학교",
           "order": "1"
         }
       ],
@@ -29810,9 +29767,9 @@
       "issue": "",
       "start_page": "345",
       "end_page": "383",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..67.009",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57407b0173f1ef376aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003021750",
       "keywords_kr": [
         "Viṃśatikā",
         "유식무경",
@@ -29836,8 +29793,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003021750",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "57407b0173f1ef376aae8a972f9116fb",
       "id": "57407b0173f1ef376aae8a972f9116fb"
@@ -29861,9 +29820,9 @@
       "issue": "",
       "start_page": "385",
       "end_page": "414",
-      "doi": "",
+      "doi": "10.22859/bojoss.2023..67.010",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57407b0173f1ef374884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003021751",
       "keywords_kr": [
         "지의",
         "심리치료",
@@ -29882,8 +29841,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003021751",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "57407b0173f1ef374884a65323211ff0",
       "id": "57407b0173f1ef374884a65323211ff0"
@@ -29900,16 +29861,16 @@
         }
       ],
       "abstract_kr": "This text endeavors to elucidate the tenets of Baekun's Zen teachings through an examination of his aphorisms. It aims to furnish information conducive to prospective comparative analyses with contemporaneous Zen luminaries such as Taegu Puyu and Yeongung Huikin.Baekun's distinctive Zen is characterized by \"patriarchal Zen\" (祖師禪). His patriarchal Zen perspective is firmly grounded in the realms of color, sound, and language, epitomized by the aphorism \"Patriarchal Zen does not depart from color, sound, and language.\" Baekun critiques the proclivity for textual fixation and unequivocally states, \"I have never spoken a single word,\" implying that the Buddha's teachings serve merely as expedient means with no inherent need for elucidation or auditory reception. This declaration becomes a recurrent subject of study in Baekun's aphorisms, reflective of his stance of rational inquiry manifesting as a method of self-study, underscored by the pursuit of \"自得之妙(self-acquired marvel).\" 白雲禪의 無心과 平等意識 / 조영미 41 This mode of study is not confined to any specific locus but is integrally embedded in the everyday milieu. It necessitates acknowledging the absence of discrimination within the objective entity itself and advocates for the renunciation of discriminatory thoughts.Baekun's concept of \"無心(no mind)\" is characterized as a \"direct pointing to the fundamental mind\" and the \"mind of ordinary non-attachment.\" It signifies a mind expressed without manipulation or attachment, freely manifesting in ordinary circumstances. The achieved value of \"無心\" by Baekun materializes as a world of equality founded on an egalitarian mindset.However, this does not imply absolute equality, as recognizing distinctions as they exist is integral to the concept of equality.",
-      "abstract_en": "",
+      "abstract_en": "This text endeavors to elucidate the tenets of Baekun's Zen teachings through an examination of his aphorisms. It aims to furnish information conducive to prospective comparative analy ses with contemporaneous Zen luminaries such as Taegu Puyu and Yeongung Huikin.\nBaekun's distinctive Zen is characterized by \"patriarchal Zen\" (祖師禪). His patriarchal Zen perspective is firmly grounded in the realms of color, sound, and language, epitomized by the aphorism \"Patriarchal Zen does not depart from color, sound, and language.\" Baekun critiques the proclivity for textual fixation and un equivocally states, \"I have never spoken a single word,\" imply ing that the Buddha's teachings serve merely as expedient means with no inherent need for elucidation or auditory reception. This declaration becomes a recurrent subject of study in Baekun's aphorisms, reflective of his stance of rational in quiry manifesting as a method of self-study, underscored by the pursuit of \"自得之妙(self-acquired marvel).\" 白雲禪의 無心과 平等意識 / 조영미 41 This mode of study is not confined to any specific locus but is integrally embedded in the everyday milieu. It necessitates ac knowledging the absence of discrimination within the objective entity itself and advocates for the renunciation of discrim inatory thoughts.\nBaekun's concept of \"無心(no mind)\" is characterized as a \"direct pointing to the fundamental mind\" and the \"mind of ordi nary non-attachment.\" It signifies a mind expressed without manipulation or attachment, freely manifesting in ordinary circumstances. The achieved value of \"無心\" by Baekun materi alizes as a world of equality founded on an egalitarian mindset.\nHowever, this does not imply absolute equality, as recognizing distinctions as they exist is integral to the concept of equality.",
       "journal_name": "보조사상",
       "year": "2024",
       "volume": "68",
       "issue": "",
       "start_page": "9",
       "end_page": "41",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..68.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=30286b04518c4a9f7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003070583",
       "keywords_kr": [
         "조사선",
         "무심",
@@ -29924,8 +29885,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003070583",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "30286b04518c4a9f7ecd42904f0c5d65",
       "id": "30286b04518c4a9f7ecd42904f0c5d65"
@@ -29942,16 +29905,16 @@
         }
       ],
       "abstract_kr": "This paper focuses on the vegha-missakena in the Mahāparinibbāna-sutta to elucidate its implications. To this end, the etymological findings that vegha can be translated as string is combined with the methods of symbolic analysis to reveal the meaning of string.First, review the general symbolism of string and the overall symbolism of string in Pali texts.Through this review, it is shown that string have ambivalence, being associated with both negative and positive contexts, and can be passive or active, and aspects of this property of string is presented as images of saṁyojana and bonding.Furthermore, by identifying the ways in which the image of string as saṁyojana and bonding runs through the Buddha's worldview and major ideas, and contributes to the network of interrelationships between them, and examine the relevance of these aspects to the use of string in the Mahāparinibbāna Sūtta.Based on the discussion, it is concluded that the string in the Mahāparinibbāna-sūtta has a dual structure with the images of saṁyojana and bonding superimposed, and that the string of saṁyojana symbolizes the natural law dhamma as a condition of existence and the string of bonding symbolizes the Dhamma as the Buddha's teaching on the ideal way of being for the disciplinant.In addition, the context between the sentence in which vegha-missakena occurs and the sentence that follows discusses the image of a string that is unstated but at work. This string is a reference to the conflict or competition between two tendencies within Buddhism: the tendency to attain vimokkha through the acquisition of paññā and the tendency to attain vimokkha through the concentration on jhāna, but it also implies an intention to combine these competing tendencies in harmony",
-      "abstract_en": "",
+      "abstract_en": "This paper focuses on the vegha-missakena in the Mahāpar inibbāna-sutta to elucidate its implications. To this end, the etymological findings that vegha can be translated as string is combined with the methods of symbolic analysis to reveal the meaning of string.\nFirst, review the general symbolism of string and the overall symbolism of string in Pali texts.\nThrough this review, it is shown that string have ambiv alence, being associated with both negative and positive con texts, and can be passive or active, and aspects of this property of string is presented as images of saṁyojana and bonding.\nFurthermore, by identifying the ways in which the image of string as saṁyojana and bonding runs through the Buddha's worldview and major ideas, and contributes to the network of interrelationships between them, and examine the relevance of these aspects to the use of string in the Mahāparinibbāna Sūtta.\nBased on the discussion, it is concluded that the string in the Mahāparinibbāna-sūtta has a dual structure with the images of saṁyojana and bonding superimposed, and that the string of saṁyojana symbolizes the natural law dhamma as a condition of existence and the string of bonding symbolizes the Dhamma as the Buddha's teaching on the ideal way of being for the disciplinant.\nIn addition, the context between the sentence in which ve gha-missakena occurs and the sentence that follows discusses the image of a string that is unstated but at work. This string is a reference to the conflict or competition between two tenden cies within Buddhism: the tendency to attain vimokkha through the acquisition of paññā and the tendency to attain vimokkha through the concentration on jhāna, but it also implies an in tention to combine these competing tendencies in harmony",
       "journal_name": "보조사상",
       "year": "2024",
       "volume": "68",
       "issue": "",
       "start_page": "43",
       "end_page": "80",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..68.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b5932caebb4dbb696aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003070620",
       "keywords_kr": [
         "paññā",
         "결박",
@@ -29971,8 +29934,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003070620",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b5932caebb4dbb696aae8a972f9116fb",
       "id": "b5932caebb4dbb696aae8a972f9116fb"
@@ -29989,16 +29954,16 @@
         }
       ],
       "abstract_kr": "As the title suggests, this research paper is an effort to discuss the concepts of avidyā and vidyā mainly in early Buddhism and Advaita Śaiva. avidyā that is also known as ajñāna, māyā, prakriti, prapanca or tamas etc. has been a crucial subject in the classical philosophies in India due to its role and causality of samsāra. vidyā is referred as an antidote to it. While in Early Buddhism, the theory of pratītya_samutpāda holds a pivotal role by explaining the domino effect of avidya, the ontology of Advaita Śaiva has vivid analysis on the subject. The focus of this monograph will mainly be avidya as its nature and characteristics have been manifold, entangling and thus intriguing.The objective of this paper is to bring forth the intricacies of avidya and how vidya helps in its annihilation. This research paper prefers to analyze the sanskrit terminologies and quote the main sources that are in Sanskrit and Pali in order to get the concepts in detail and direct. early buddhist canons and the Advaita Saiva texts would be the main sources of this paper.",
-      "abstract_en": "",
+      "abstract_en": "As the title suggests, this research paper is an effort to dis cuss the concepts of avidyā and vidyā mainly in early Buddhism and Advaita Śaiva. avidyā that is also known as ajñāna, māyā, prakriti, prapanca or tamas etc. has been a crucial subject in the classical philosophies in India due to its role and causality of samsāra. vidyā is referred as an antidote to it. While in Early Buddhism, the theory of pratītya_samutpāda holds a pivotal role by explaining the domino effect of avidya, the ontology of Advaita Śaiva has vivid analysis on the subject. The focus of this monograph will mainly be avidya as its nature and charac teristics have been manifold, entangling and thus intriguing.\nThe objective of this paper is to bring forth the intricacies of avidya and how vidya helps in its annihilation. This research paper prefers to analyze the sanskrit terminologies and quote the main sources that are in Sanskrit and Pali in order to get the concepts in detail and direct. early buddhist canons and the Advaita Saiva texts would be the main sources of this paper.",
       "journal_name": "보조사상",
       "year": "2024",
       "volume": "68",
       "issue": "",
       "start_page": "81",
       "end_page": "113",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..68.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b5932caebb4dbb69d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003070637",
       "keywords_kr": [
         "무명(avidyā)",
         "불이론 쉬바파(advita Śaiva)",
@@ -30017,8 +29982,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003070637",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b5932caebb4dbb69d18150b21a227875",
       "id": "b5932caebb4dbb69d18150b21a227875"
@@ -30035,16 +30002,16 @@
         }
       ],
       "abstract_kr": "This study aims to understand the meaning of the bodhisattva idea in its earliest period by focusing on the previous studies on the idea of bodhisattva. Starting from the problem that the word bodhisattva is based on the concept of ātman, which does not resonate with the Buddhist theory of anātman, and is close to the religious mindset of India in general outside of Buddhism, we examine how this non-Buddhist idea was established in the early sutras. As a result, bodhi - sattva was introduced in the context of the birth of a bodhisattva who 'possessed' wisdom to describe the miraculous event of the conception and birth of the bodhisattva, rather than referring to the known past lives of the Buddha. From here, the meaning would have been gradually expanded to refer to the Buddha's past lives in general.After this, a group of monks emerged who, in a sense, sought the Buddha, not the Arhats as advocated by established Buddhism. They composed new texts against the scriptures and temple life of established Buddhism and favored a new way of life, such as araṇya. In particular, the praise of the araṇya life, not the temple life, and the praise of ascetic practices was close to the religious mindset of India in general, except for Buddhism, as mentioned earlier. They sought to replace the view of the pagoda and the relics, which played a central role in the temple economy of established Buddhism, with the view of the araṇya practitioner. This necessitated a trick of sorts in which they superimposed images of themselves as practitioners of the six-year asceticism of the Buddha. So they probably wanted to refer to themselves as practitioners who would become Buddhas, and the most appropriate ready-made Buddhist term for this would have been bodhisattva. However, as practitioners of aranyā, they could seek wisdom, but not in the sense of having wisdom, so they would have constructed a form of meaning that was grammatically more difficult than the wisdom-seeking, wisdom-desiring sentient being, the wellspring of wisdom.",
-      "abstract_en": "",
+      "abstract_en": "This study aims to understand the meaning of the bodhi sattva idea in its earliest period by focusing on the previous studies on the idea of bodhisattva. Starting from the problem that the word bodhisattva is based on the concept of ātman, which does not resonate with the Buddhist theory of anātman, and is close to the religious mindset of India in general outside of Buddhism, we examine how this non-Buddhist idea was es tablished in the early sutras. As a result, bodhi - sattva was in troduced in the context of the birth of a bodhisattva who 'pos sessed' wisdom to describe the miraculous event of the con ception and birth of the bodhisattva, rather than referring to the known past lives of the Buddha. From here, the meaning would have been gradually expanded to refer to the Buddha's past lives in general.\nAfter this, a group of monks emerged who, in a sense, sought the Buddha, not the Arhats as advocated by established Buddhism. They composed new texts against the scriptures and temple life of established Buddhism and favored a new way of life, such as araṇya. In particular, the praise of the araṇya life, not the temple life, and the praise of ascetic practices was close to the religious mindset of India in general, except for Buddhism, as mentioned earlier. They sought to replace the view of the pagoda and the relics, which played a central role in the temple economy of established Buddhism, with the view of the araṇya practitioner. This necessitated a trick of sorts in which they superimposed images of themselves as practitioners of the six-year asceticism of the Buddha. So they probably wanted to refer to themselves as practitioners who would be come Buddhas, and the most appropriate ready-made Buddhist term for this would have been bodhisattva. However, as practi tioners of aranyā, they could seek wisdom, but not in the sense of having wisdom, so they would have constructed a form of meaning that was grammatically more difficult than the wis dom-seeking, wisdom-desiring sentient being, the wellspring of wisdom.",
       "journal_name": "보조사상",
       "year": "2024",
       "volume": "68",
       "issue": "",
       "start_page": "115",
       "end_page": "141",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..68.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=30286b04518c4a9fb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003070640",
       "keywords_kr": [
         "보살",
         "아론과 무아론",
@@ -30064,8 +30031,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003070640",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "30286b04518c4a9fb36097776a77e665",
       "id": "30286b04518c4a9fb36097776a77e665"
@@ -30082,16 +30051,16 @@
         }
       ],
       "abstract_kr": "This study explores the understanding and application of self-identity in Buddhist counseling, focusing on the Vimalakirti Sutra(維摩詰所說經). Buddhist counseling can integratively view the fundamental identity of unconditioned dharma(無為法) and the secular self-identity of conditioned dharma(有為法).The Vimalakīrti Sutra explains the self-identity of unconditioned dharma as 'Dharmakāya(法身)' and 'Suchness(如)'. In Buddhist counseling, self-identity is understood from a non-dualistic perspective, suggesting the establishment and development of a healthy secular self-identity. This involves using identification and disidentification, and proposes the path of a Bodhisattva as a life purpose. Additionally, awakening the wisdom that afflictions are indeed enlightenment becomes an important principle of Buddhist counseling. This perspective enables clients to view their lives and sufferings in a new light, guiding them on the path to enlightenment. Such an approach demonstrates that the goal of Buddhist counseling goes beyond simple problem-solving, aiming for a profound understanding and transformation of human beings and their lives.",
-      "abstract_en": "",
+      "abstract_en": "This study explores the understanding and application of self-identity in Buddhist counseling, focusing on the Vimalakirti Sutra(維摩詰所說經). Buddhist counseling can integratively view the fundamental identity of unconditioned dharma(無為法) and the secular self-identity of conditioned dharma(有為法).\nThe Vimalakīrti Sutra explains the self-identity of uncon ditioned dharma as 'Dharmakāya(法身)' and 'Suchness(如)'. In Buddhist counseling, self-identity is understood from a non-du alistic perspective, suggesting the establishment and develop ment of a healthy secular self-identity. This involves using identification and disidentification, and proposes the path of a Bodhisattva as a life purpose. Additionally, awakening the wis dom that afflictions are indeed enlightenment becomes an im portant principle of Buddhist counseling. This perspective en ables clients to view their lives and sufferings in a new light, guiding them on the path to enlightenment. Such an approach demonstrates that the goal of Buddhist counseling goes beyond simple problem-solving, aiming for a profound understanding and transformation of human beings and their lives.",
       "journal_name": "보조사상",
       "year": "2024",
       "volume": "68",
       "issue": "",
       "start_page": "143",
       "end_page": "168",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..68.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=30286b04518c4a9f4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003070645",
       "keywords_kr": [
         "불교상담",
         "자아정체성",
@@ -30110,8 +30079,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003070645",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "30286b04518c4a9f4884a65323211ff0",
       "id": "30286b04518c4a9f4884a65323211ff0"
@@ -30135,9 +30106,9 @@
       "issue": "",
       "start_page": "1",
       "end_page": "9",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..69.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d12042407d3be2a7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003105625",
       "keywords_kr": [
         "보조지눌",
         "법집별행록절요병입사기",
@@ -30154,8 +30125,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003105625",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2d12042407d3be2a7ecd42904f0c5d65",
       "id": "2d12042407d3be2a7ecd42904f0c5d65"
@@ -30184,9 +30157,9 @@
       "issue": "",
       "start_page": "20",
       "end_page": "25",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..69.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=70942dcf51cae8cbd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003105613",
       "keywords_kr": [
         "재가선",
         "불교언론",
@@ -30205,8 +30178,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003105613",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "70942dcf51cae8cbd18150b21a227875",
       "id": "70942dcf51cae8cbd18150b21a227875"
@@ -30230,9 +30205,9 @@
       "issue": "",
       "start_page": "40",
       "end_page": "48",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..69.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d12042407d3be2ab36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003105629",
       "keywords_kr": [
         "대승불교",
         "부파불교",
@@ -30253,8 +30228,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003105629",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2d12042407d3be2ab36097776a77e665",
       "id": "2d12042407d3be2ab36097776a77e665"
@@ -30278,9 +30255,9 @@
       "issue": "",
       "start_page": "50",
       "end_page": "59",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..69.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=70942dcf51cae8cbe9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003105631",
       "keywords_kr": [
         "인공지능 알고리즘. 베이즈 정리",
         "가(可)의 원리",
@@ -30295,8 +30272,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003105631",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "70942dcf51cae8cbe9810257f7042666",
       "id": "70942dcf51cae8cbe9810257f7042666"
@@ -30320,9 +30299,9 @@
       "issue": "",
       "start_page": "60",
       "end_page": "69",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..69.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d12042407d3be2a4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003105632",
       "keywords_kr": [
         "찬불가",
         "찬불가 연구",
@@ -30340,8 +30319,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003105632",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2d12042407d3be2a4884a65323211ff0",
       "id": "2d12042407d3be2a4884a65323211ff0"
@@ -30365,9 +30346,9 @@
       "issue": "",
       "start_page": "91",
       "end_page": "120",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..69.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57780ffdd0e1424b47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003106811",
       "keywords_kr": [
         "혜능",
         "고봉원묘",
@@ -30388,8 +30369,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003106811",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "57780ffdd0e1424b47de9c1710b0298d",
       "id": "57780ffdd0e1424b47de9c1710b0298d"
@@ -30406,16 +30389,16 @@
         }
       ],
       "abstract_kr": "Udam Honggi(1822-1881) re-confirmed the traditional interpretation of Patriarch-Sŏn=Beyond-the-norm-Sŏn, Tatagatha- Sŏn=Logic-Sŏn through the Sŏnmun Jeungjeongrok(禪門證正錄, Records of True Enlightenment of Sŏn) based on the Sŏnmunkangyochip(禪門綱要集, Collection of Essentials of the Sŏn) and the Sŏnmunyŏmsongsŏrhwa(禪門拈頌說話, Prose and Verse Comments on the Sŏn School) in order to criticize the Three Kind of Sŏn Thought. While Baekpa divided the first phrase into Patriarch-Sŏn, the second phrase into Tathagatha-Sŏn, and the third phrase into Logic-Sŏn and assigned canonical understanding to the third phrase, Udam understood the second phrase's Tathagatha-Sŏn as a self-achieving Sŏn, which means One Vehicle Teaching such as <Avatamsaka Sutra>, <Lotus Sutra>, and <Awakening of Faith>. It is also characteristic that Udam proved Patriarch-Sŏn's superiority by citing the story of Patriarch Jingwi published in Sŏnmunpojangnok(Record of the Treasure Store of the Sŏn School). Both metaphor of Killing and Healing were Patriarch-Sŏn, which had no superiority and inferiority, and Qingyuan-line and Nanyue-line passed on killing and healing, respectively, after the sixth patriarch, and four houses of Linji, Yunmen, Guiyang, and Fayan were assigned to the Nanyue-line. This is the view that inherited Sŏn'ga kugam(禪家龜鑑, Mirror of the Sŏn School) in relation to the succession of the five house of Sŏn. The Huaŏmilsŭngkyo(華嚴一乘敎, One Vehicle Teaching of Huayan) is reaffirmed as Tathagatha-Sŏn, which historical Buddha realized himself, and the relationship between Patriarch-Sŏn and Tathagatha-Sŏn is understood as Sŏn and the doctrine which means ‘Simultaneous cultivation of Sŏn and Doctrinal studies’. This idea can be understood as the result of the revelation of the succession of Master Bojo and identity of Linji lineage, which are considered to be the characteristics of Buhyu-lineage centered on Songgwangsa Temple in the late Joseon Buddhist Society.",
-      "abstract_en": "",
+      "abstract_en": "Udam Honggi(1822-1881) re-confirmed the traditional interpretation of Patriarch-Sŏn=Beyond-the-norm-Sŏn, Tatagatha- Sŏn=Logic-Sŏn through the Sŏnmun Jeungjeongrok(禪門證正錄, Records of True Enlightenment of Sŏn) based on the Sŏnmunkangyochip(禪門綱要集, Collection of Essentials of the Sŏn) and the Sŏnmunyŏmsongsŏrhwa(禪門拈頌說話, Prose and Verse Comments on the Sŏn School) in order to criticize the Three Kind of Sŏn Thought. While Baekpa divided the first phrase into Patriarch-Sŏn, the second phrase into Tathagatha-Sŏn, and the third phrase into Logic-Sŏn and assigned canonical understanding to the third phrase, Udam understood the second phrase's Tathagatha-Sŏn as a self-achieving Sŏn, which means One Vehicle Teaching such as <Avatamsaka Sutra>, <Lotus Sutra>, and <Awakening of Faith>. It is also characteristic that Udam proved Patriarch-Sŏn's superiority by citing the story of Patriarch Jingwi published in Sŏnmunpojangnok(Record of the Treasure Store of the Sŏn School). Both metaphor of Killing and Healing were Patriarch-Sŏn, which had no superiority and inferiority, and Qingyuan-line and Nanyue-line passed on killing and healing, respectively, after the sixth patriarch, and four houses of Linji, Yunmen, Guiyang, and Fayan were assigned to the Nanyue-line. This is the view that inherited Sŏn'ga kugam(禪家龜鑑, Mirror of the Sŏn School) in relation to the succession of the five house of Sŏn. The Huaŏmilsŭngkyo(華嚴一乘敎, One Vehicle Teaching of Huayan) is reaffirmed as Tathagatha-Sŏn, which historical Buddha realized himself, and the relationship between Patriarch-Sŏn and Tathagatha-Sŏn is understood as Sŏn and the doctrine which means ‘Simultaneous cultivation of Sŏn and Doctrinal studies’. This idea can be understood as the result of the revelation of the succession of Master Bojo and identity of Linji lineage, which are considered to be the characteristics of Buhyu-lineage centered on Songgwangsa Temple in the late Joseon Buddhist Society.",
       "journal_name": "보조사상",
       "year": "2024",
       "volume": "70",
       "issue": "",
       "start_page": "9",
       "end_page": "45",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..70.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bbab052016d94c087ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003142791",
       "keywords_kr": [
         "삼종선",
         "선문증정록",
@@ -30436,8 +30419,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003142791",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "bbab052016d94c087ecd42904f0c5d65",
       "id": "bbab052016d94c087ecd42904f0c5d65"
@@ -30454,16 +30439,16 @@
         }
       ],
       "abstract_kr": "『JogyesanSonggwangsago(曹溪山松廣寺寺庫)』is a historical record of Songgwangsa Temple. Although 『史庫(Sago)』 was carried out within the Buddhist policy of the Japanese colonial government of Joseon, it was an opportunity to establish the identity of our Buddhist history. Although it was only the history and culture of one temple, it organized Buddhist thought, practice, and religious traditions based on history, people, and sacred cultural assets. 『史庫Sasago)』 is the largest volume of temple records compiled at the same time, and its system is also highly complete. 『史庫Sasago)』 introduced the values ​​of Korean Buddhism through the traces of National Master Bojo-Jinul(普照知訥) and the 16 State Preceptors, and Joseon's records promoted the inheritance of Bojo Jinul's practice tradition. The various documents included in 『史庫Sasago)』 are also of high value as research materials as they allow us to examine the status of Songgwangsa Temple in Goryeo and Joseon, as well as the temple economy, disputes, and changes. sacred cultural assets such as the pavilion, Buddha statues, and Buddhist paintings tell the story of the temple’s prosperity and decline.The main compilers, Geummyeong Bojeong(錦溟寶鼎, 1861~ 1930), Yongeun Wanseop(龍隱完燮, 1899~1975), Kisan Seokjin(綺山錫珍, 1892~1968), and Yulam Chanui(栗庵讚儀), are also representative figures in the history of modern and contemporary Korean Buddhism. They tried to restore the tradition of missionary studies built up by the teachers of Goryeo and Joseon, and were active in renovating the decayed temple and preserving its status as a Buddhist temple. In addition, he attempted to preserve the historical materials of Songgwangsa Temple through research and collection of materials for more than 30 years, and these records played a decisive role in compiling 『史庫(Sasago)』",
-      "abstract_en": "",
+      "abstract_en": "『JogyesanSonggwangsago(曹溪山松廣寺寺庫)』is a historical record of Songgwangsa Temple. Although 『史庫(Sago)』 was carried out within the Buddhist policy of the Japanese colonial government of Joseon, it was an opportunity to establish the identity of our Buddhist history. Although it was only the history and culture of one temple, it organized Buddhist thought, practice, and religious traditions based on history, people, and sacred cultural assets. 『史庫Sasago)』 is the largest volume of temple records compiled at the same time, and its system is also highly complete. 『史庫Sasago)』 introduced the values ​​of Korean Buddhism through the traces of National Master Bojo-Jinul(普照知訥) and the 16 State Preceptors, and Joseon's records promoted the inheritance of Bojo Jinul's practice tradition. The various documents included in 『史庫Sasago)』 are also of high value as research materials as they allow us to examine the status of Songgwangsa Temple in Goryeo and Joseon, as well as the temple economy, disputes, and changes. sacred cultural assets such as the pavilion, Buddha statues, and Buddhist paintings tell the story of the temple’s prosperity and decline.\nThe main compilers, Geummyeong Bojeong(錦溟寶鼎, 1861~ 1930), Yongeun Wanseop(龍隱完燮, 1899~1975), Kisan Seokjin(綺山錫珍, 1892~1968), and Yulam Chanui(栗庵讚儀), are also representative figures in the history of modern and contemporary Korean Buddhism. They tried to restore the tradition of missionary studies built up by the teachers of Goryeo and Joseon, and were active in renovating the decayed temple and preserving its status as a Buddhist temple. In addition, he attempted to preserve the historical materials of Songgwangsa Temple through research and collection of materials for more than 30 years, and these records played a decisive role in compiling 『史庫(Sasago)』",
       "journal_name": "보조사상",
       "year": "2024",
       "volume": "70",
       "issue": "",
       "start_page": "47",
       "end_page": "80",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..70.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bbab052016d94c08c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003142803",
       "keywords_kr": [
         "조계산송광사사고",
         "송광사",
@@ -30480,8 +30465,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003142803",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "bbab052016d94c08c85d2949c297615a",
       "id": "bbab052016d94c08c85d2949c297615a"
@@ -30505,9 +30492,9 @@
       "issue": "",
       "start_page": "81",
       "end_page": "113",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..70.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bbab052016d94c084884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003142792",
       "keywords_kr": [
         "송광사",
         "조선불교청년회",
@@ -30531,8 +30518,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003142792",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "bbab052016d94c084884a65323211ff0",
       "id": "bbab052016d94c084884a65323211ff0"
@@ -30556,9 +30545,9 @@
       "issue": "",
       "start_page": "117",
       "end_page": "152",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..70.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8178d76898e8febf6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003142793",
       "keywords_kr": [
         "원효",
         "세친",
@@ -30575,8 +30564,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003142793",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8178d76898e8febf6aae8a972f9116fb",
       "id": "8178d76898e8febf6aae8a972f9116fb"
@@ -30600,9 +30591,9 @@
       "issue": "",
       "start_page": "153",
       "end_page": "184",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..70.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bbab052016d94c08b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003142795",
       "keywords_kr": [
         "교판",
         "화쟁",
@@ -30623,8 +30614,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003142795",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "bbab052016d94c08b7998d826d417196",
       "id": "bbab052016d94c08b7998d826d417196"
@@ -30648,9 +30641,9 @@
       "issue": "",
       "start_page": "185",
       "end_page": "216",
-      "doi": "",
+      "doi": "10.22859/bojoss.2024..70.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bbab052016d94c08b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003142796",
       "keywords_kr": [
         "회암사檜巖寺",
         "법원사法源寺",
@@ -30671,8 +30664,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003142796",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "bbab052016d94c08b36097776a77e665",
       "id": "bbab052016d94c08b36097776a77e665"
@@ -30689,16 +30684,16 @@
         }
       ],
       "abstract_kr": "현곡 김잉석은 승려로서의 삶을 멈추고 세상 속으로 뛰어들어 근대 한국 불교학을 정초하고, 불교를 이전과 다른 새로운 근대적 방식으로 연구하고자 하였다. 본고는 그의 연구물 가운데서도 보조국사 지눌에 대한 저술들을 중심으로 고찰해 보고자 한다. 김잉석은 승려로서의 체험을 바탕으로 지눌의 수증론을 해설하고, 지눌이 기존 화엄학자들의 틀에 갇히지 않고 이통현을 발굴한 것에 대해 극찬을 아끼지 않는다. 특히 징관이 법성종 안에 선종을 포괄하고, 선을 화엄보다 낮은 단계에 두는 것에 대해 예리한 비판을 가하는 지눌의 모습은 김잉석에게 강한 인상을 남겼다. 그러나 김잉석의 화엄학이 지눌에게 어떻게 적용되는가 하는 면에 대해서는 앞으로 좀 더 연구해야 할 필요성이 있다. 김잉석은 시종일관 따뜻한 시선으로 지눌을 바라보지만, 지눌이 선사로서 징관을 보는 관점과 김잉석이 화엄학자로서 징관을 보는 관점에는 서로 다른 부분이 드러난다. 또한 김잉석은 지눌이 징관을 평가하면서 보이는 미묘한 태도를 깊이 표현하지 못한 부분도 있는 것으로 보인다. 이러한 면들을 고찰하면서 본고는 앞으로 근대불교 지식인들이 느꼈던 시대적 압력과 서구 학문을 바라보는 복합적 의식을 토대로 김잉석의 학문적 자취와 노력이 연구되어야 한다고 조망하였다.",
-      "abstract_en": "",
+      "abstract_en": "Hyun-gock Kim Ying-Seok(玄谷 金芿石, 1900~1965) stopped his life as a monk and jumped into the world to establish modern Korean Buddhist studies. He tried to study modern Buddhist studies that were different from the Buddhist studies of the Joseon Dynasty. This paper focuses on the study of Jinul among his writings. Kim Ying-Seok explains Jinul's performance theory based on his experience as a monk, and praises Jinul for discovering Lee Tonghyeon(李通玄) without being confined to the framework of existing Hwaeom(華嚴) scholars.\nIn particular, Jinul's sharp criticism of Jingkwan(澄觀)'s placing of Seon(禪) on a lower level than Hwaeom, left a strong impression on Kim Ying-seok. However, how Kim's Hwaeom philosophy applies to Jinul is something that needs to be explored further. Although Kim Ying-seok looks at Jinul with a warm gaze throughout, the differences between Jinul's view of Jingkwan as a Seon master and Kim Ying-seok's view of Jingkwan as a Hwaeom scholar are revealed. It also seems that Kim Ying-Seok fails to express in depth the subtle attitudes that Jinul exhibits in his assessment of Jingkwan.\nIn considering these aspects, this paper suggests that Kim's scholarly traces and endeavors should be studied in the future based on the pressures felt by modern Buddhist intellectuals and their complex consciousness toward Western and Japan scholarship.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "71",
       "issue": "",
       "start_page": "9",
       "end_page": "34",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..71.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=90bad34f4867b2c67ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193567",
       "keywords_kr": [
         "김잉석",
         "지눌",
@@ -30716,8 +30711,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003193567",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "90bad34f4867b2c67ecd42904f0c5d65",
       "id": "90bad34f4867b2c67ecd42904f0c5d65"
@@ -30884,16 +30881,16 @@
         }
       ],
       "abstract_kr": "This paper delves into the potential of the Jeong-Hye Gyeol-sa (定慧結社) spirit and Mok-u-ga-pung (牧牛歌風) of the late Goryeo dynasty to build peace in contemporary South Korean society, which is grappling with severe internal and external conflicts (political polarization, economic inequality, generational and gender conflicts, low birthrate and super-aged society) and an unstable international situation.  Specifically, by reinterpreting Bojo Jijul's (普照知訥) activities within the context of conflict transformation, this paper examines the discourse surrounding how religious leaders and practitioners of religious policy should approach religion, and simultaneously engages in ongoing discussions about the role of religion in domestic and international conflicts and disputes.Utilizing the five functional frameworks of religion (community, teachings, spirituality, practice, discourse) proposed by Owen Frazer and Richard Friedli's research at the Center for Security Studies (CSS) in Zurich, Switzerland, this analysis explores how Bojo Jijul's Jeong-Hye Gyeol-sa and Mok-u-ga-pung align with these frameworks and contribute to conflict resolution and social integration. This demonstrates that Mok-u-ga-pung serves as a crucial example of how religion can function not as a mere \"divider\" in social conflict, but rather as a \"connector\" for peace.Furthermore, throughout the 20th and early 21st centuries, whenever Korean Buddhism faced critical crises within the religious order and broader society, new forms of Jeong-Hye Gyeol-sa emerged, contributing to conflict resolution and social cohesion. This prompts reflection among religious leaders and practitioners on the role of religion within the religious order and the national community.  This paper revisits Bojo's spirit of communal practice, arguing that its spiritual and cultural legacy should be inherited and developed through diverse religious roles to foster harmony and integration within the community.",
-      "abstract_en": "",
+      "abstract_en": "This paper delves into the potential of the Jeong-Hye Gyeol-sa (定慧結社) spirit and Mok-u-ga-pung (牧牛歌風) of the late Goryeo dynasty to build peace in contemporary South Korean society, which is grappling with severe internal and external conflicts (political polarization, economic inequality, generational and gender conflicts, low birthrate and super-aged society) and an unstable international situation. Specifically, by reinterpreting Bojo Jijul's (普照知訥) activities within the context of conflict transformation, this paper examines the discourse surrounding how religious leaders and practitioners of religious policy should approach religion, and simultaneously engages in ongoing discussions about the role of religion in domestic and international conflicts and disputes.\nUtilizing the five functional frameworks of religion (community, teachings, spirituality, practice, discourse) proposed by Owen Frazer and Richard Friedli's research at the Center for Security Studies (CSS) in Zurich, Switzerland, this analysis explores how Bojo Jijul's Jeong-Hye Gyeol-sa and Mok-u-ga-pung align with these frameworks and contribute to conflict resolution and social integration. This demonstrates that Mok-u-ga-pung serves as a crucial example of how religion can function not as a mere \"divider\" in social conflict, but rather as a \"connector\" for peace.\nFurthermore, throughout the 20th and early 21st centuries, whenever Korean Buddhism faced critical crises within the religious order and broader society, new forms of Jeong-Hye Gyeol-sa emerged, contributing to conflict resolution and social cohesion. This prompts reflection among religious leaders and practitioners on the role of religion within the religious order and the national community. This paper revisits Bojo's spirit of communal practice, arguing that its spiritual and cultural legacy should be inherited and developed through diverse religious roles to foster harmony and integration within the community.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "71",
       "issue": "",
       "start_page": "131",
       "end_page": "164",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..71.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=90bad34f4867b2c6b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193663",
       "keywords_kr": [
         "목우가풍",
         "정혜결사",
@@ -30910,8 +30907,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003193663",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "90bad34f4867b2c6b7998d826d417196",
       "id": "90bad34f4867b2c6b7998d826d417196"
@@ -30928,16 +30927,16 @@
         }
       ],
       "abstract_kr": "In this article, in order to examine the viewpoints of Guanshiyin(觀世音) Pusa(菩薩) that is, Avalokiteśvara Bodhisattva in Chinese buddhism, we look at the viewpoints of Daosheng(道生), Fayun(法雲), and Tiantai Zhiyi(天台智顗). In chapter 2, I briefly introduces the contents of Guanshiyin pusa pumen pin(觀世音菩薩普門品) in the Lotus Sutra. In chapter 3, I examines the viewpoints of Daosheng and Fayun. Daosheng(道生) approaches by dividing ‘Guanshiyin(觀世音)’ and ‘Pumen(普門)’. So, Guanshiyin(觀世音)’ is a being with a heart to save all living beings, and ‘Pumen(普門)’ refers to a mysterious action to save all living beings widely. This influenced the viewpoints of Tiantai Zhiyi. And Fayun(法雲) says that Avalokiteśvara Bodhisattva saves sentient beings by contemplating their voice(oral karma), physical karma, and intentional karma, and also saves them by contemplating these three karma comprehensively. This argument also influenced the viewpoints of Tiantai Zhiyi(天台智顗). In chapter 4, I examines the viewpoints of Tiantai Zhiyi. While being influenced by Daosaeng and Fayun's viewpoints, Tiantai Zhiyi(天台智顗) presents his own independent viewpoint. It appears in the interpretation of each letter of ‘Guanshiyin(觀世音)’ and ‘Pumen(普門)’. According to this interpretation, Avalokiteśvara Bodhisattva is a being who contemplates reality, and all sentient beings who listen to Avalokiteśvara Bodhisattva’s teachings or have relationships become Buddha, and the teachings that Avalokiteśvara Bodhisattva presents are perfect teachings and the middle way of teachings.",
-      "abstract_en": "",
+      "abstract_en": "In this article, in order to examine the viewpoints of Guanshiyin(觀世音) Pusa(菩薩) that is, Avalokiteśvara Bodhisattva in Chinese buddhism, we look at the viewpoints of Daosheng(道生), Fayun(法雲), and Tiantai Zhiyi(天台智顗). In chapter 2, I briefly introduces the contents of Guanshiyin pusa pumen pin(觀世音菩薩普門品) in the Lotus Sutra. In chapter 3, I examines the viewpoints of Daosheng and Fayun. Daosheng(道生) approaches by dividing ‘Guanshiyin(觀世音)’ and ‘Pumen(普門)’. So, Guanshiyin(觀世音)’ is a being with a heart to save all living beings, and ‘Pumen(普門)’ refers to a mysterious action to save all living beings widely. This influenced the viewpoints of Tiantai Zhiyi. And Fayun(法雲) says that Avalokiteśvara Bodhisattva saves sentient beings by contemplating their voice(oral karma), physical karma, and intentional karma, and also saves them by contemplating these three karma comprehensively. This argument also influenced the viewpoints of Tiantai Zhiyi(天台智顗). In chapter 4, I examines the viewpoints of Tiantai Zhiyi. While being influenced by Daosaeng and Fayun's viewpoints, Tiantai Zhiyi(天台智顗) presents his own independent viewpoint. It appears in the interpretation of each letter of ‘Guanshiyin(觀世音)’ and ‘Pumen(普門)’. According to this interpretation, Avalokiteśvara Bodhisattva is a being who contemplates reality, and all sentient beings who listen to Avalokiteśvara Bodhisattva’s teachings or have relationships become Buddha, and the teachings that Avalokiteśvara Bodhisattva presents are perfect teachings and the middle way of teachings.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "71",
       "issue": "",
       "start_page": "165",
       "end_page": "199",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..71.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=90bad34f4867b2c6c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193566",
       "keywords_kr": [
         "관세음",
         "보문",
@@ -30954,8 +30953,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003193566",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "90bad34f4867b2c6c85d2949c297615a",
       "id": "90bad34f4867b2c6c85d2949c297615a"
@@ -30972,16 +30973,16 @@
         }
       ],
       "abstract_kr": "Daoxian (道暹) was an 8th-century Chinese monk of the Tiantai school who authored several extant works. Based on the frequency of their citations, Daoxian is considered to have significantly influenced later Buddhist thought. However, research on Daoxian remains insufficient, leaving many aspects of his life and ideas unclear. This paper aims to contribute to foundational research on Daoxian by collecting historical records, reconstructing his life, and re-evaluating the authenticity of the works traditionally attributed to him.Biographical records about Daoxian are fragmented and lack a cohesive narrative. References to his life and activities appear sporadically in limited texts, such as his own Fahuawenjufuzhengji (『法華文句輔正記』), Zhiyuan's (智圓, 976–1022) Weimojinglueshuchiyuji (『維摩經略疏垂裕記』), Zanning's (賛寧) Songgaosengzhuan (『宋高僧傳』), and Zhipan's (志磐) Fozutongji (『佛祖統紀』). Due to these limitations, many aspects of Daoxian's life remain unclear. However, upon closer examination, it has been confirmed that Daoxian was a direct disciple of Zhanran（湛然, 711–782） and contributed to the inheritance and development of Zhanran's teachings.A synthesis of prior research and catalog sources reveals eight works comprising 39 volumes attributed to Daoxian. However, discrepancies in authorial attributions between catalogs and inconsistencies across different versions of the same catalog prompted further scrutiny. After careful examination of these catalogs and related materials, the following four works were confirmed as authentic compositions by Daoxian: 1.Fahuawenjufuzhengji (『法華文句輔正記』), 2.Niepanjingshusiji (『涅槃經疏私記』), 3.Weimoxuanshuji (『維摩玄疏記』), 4.Weimoshusiji (『維摩疏私記』). The other works traditionally attributed to Daoxian were found to be either of questionable authenticity or misattributions of texts authored by others. Conversely, cases were identified where Daoxian’s works were erroneously attributed to other authors.",
-      "abstract_en": "",
+      "abstract_en": "Daoxian (道暹) was an 8th-century Chinese monk of the Tiantai school who authored several extant works. Based on the frequency of their citations, Daoxian is considered to have significantly influenced later Buddhist thought. However, research on Daoxian remains insufficient, leaving many aspects of his life and ideas unclear. This paper aims to contribute to foundational research on Daoxian by collecting historical records, reconstructing his life, and re-evaluating the authenticity of the works traditionally attributed to him.\nBiographical records about Daoxian are fragmented and lack a cohesive narrative. References to his life and activities appear sporadically in limited texts, such as his own Fahuawenjufuzhengji (『法華文句輔正記』), Zhiyuan's (智圓, 976–1022) Weimojinglueshuchiyuji (『維摩經略疏垂裕記』), Zanning's (賛寧) Songgaosengzhuan (『宋高僧傳』), and Zhipan's (志磐) Fozutongji (『佛祖統紀』). Due to these limitations, many aspects of Daoxian's life remain unclear. However, upon closer examination, it has been confirmed that Daoxian was a direct disciple of Zhanran（湛然, 711–782） and contributed to the inheritance and development of Zhanran's teachings.\nA synthesis of prior research and catalog sources reveals eight works comprising 39 volumes attributed to Daoxian. However, discrepancies in authorial attributions between catalogs and inconsistencies across different versions of the same catalog prompted further scrutiny. After careful examination of these catalogs and related materials, the following four works were confirmed as authentic compositions by Daoxian: 1.Fahuawenjufuzhengji (『法華文句輔正記』), 2.Niepanjingshusiji (『涅槃經疏私記』), 3.Weimoxuanshuji (『維摩玄疏記』), 4.Weimoshusiji (『維摩疏私記』). The other works traditionally attributed to Daoxian were found to be either of questionable authenticity or misattributions of texts authored by others. Conversely, cases were identified where Daoxian’s works were erroneously attributed to other authors.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "71",
       "issue": "",
       "start_page": "201",
       "end_page": "231",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..71.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=249519eb5368412c47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193680",
       "keywords_kr": [
         "천태종",
         "도섬",
@@ -31002,8 +31003,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003193680",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "249519eb5368412c47de9c1710b0298d",
       "id": "249519eb5368412c47de9c1710b0298d"
@@ -31025,16 +31028,16 @@
         }
       ],
       "abstract_kr": "Yakkha is a tree spirit that symbolizes abundance and prosperity among ancient Indians, and has been worshiped as a cult. For the Brahman tradition, and other religious traditions such as Buddhism and Jainism, the Yakkha worship was absorbed and reinterpreted in their own form. In the case of Buddhist tradition, Yakkha, reinterpreted from a Buddhist perspective, emerges through vast commentary literature. In Buddhist literature, Yakkha is mainly described as a unique character with both good and evil through narratives. They are sometimes depicted as monsters hiding in trees and cannibalizing, or as sincere Buddhists who go on a trip to listen to the Buddha's teachings. In the commentary, Yakkha was depicted as a tyrant with a huge palace and maids, not a tree spirit. They have cannibalism, as well as transformation and flight ability, and they were like tribes, so they had different names, abilities, and tendencies. In particular, Alavaka Yakka is described as an attractive villain who continues a macho but delicate psychological change despite being violent. From this research, it was also possible to confirm the process of Buddhist tradition absorbing folk beliefs at the time, the hermeneutic intentions and methods of extensive commentary literature, and the archetype and development of Buddhist narratives.",
-      "abstract_en": "",
+      "abstract_en": "Yakkha is a tree spirit that symbolizes abundance and prosperity among ancient Indians, and has been worshiped as a cult. For the Brahman tradition, and other religious traditions such as Buddhism and Jainism, the Yakkha worship was absorbed and reinterpreted in their own form. In the case of Buddhist tradition, Yakkha, reinterpreted from a Buddhist perspective, emerges through vast commentary literature. In Buddhist literature, Yakkha is mainly described as a unique character with both good and evil through narratives. They are sometimes depicted as monsters hiding in trees and cannibalizing, or as sincere Buddhists who go on a trip to listen to the Buddha's teachings. In the commentary, Yakkha was depicted as a tyrant with a huge palace and maids, not a tree spirit. They have cannibalism, as well as transformation and flight ability, and they were like tribes, so they had different names, abilities, and tendencies. In particular, Alavaka Yakka is described as an attractive villain who continues a macho but delicate psychological change despite being violent. From this research, it was also possible to confirm the process of Buddhist tradition absorbing folk beliefs at the time, the hermeneutic intentions and methods of extensive commentary literature, and the archetype and development of Buddhist narratives.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "71",
       "issue": "",
       "start_page": "233",
       "end_page": "263",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..71.008",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=90bad34f4867b2c64884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193449",
       "keywords_kr": [
         "약카",
         "알라와까 숫따",
@@ -31051,8 +31054,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003193449",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "90bad34f4867b2c64884a65323211ff0",
       "id": "90bad34f4867b2c64884a65323211ff0"
@@ -31069,16 +31074,16 @@
         }
       ],
       "abstract_kr": "Culture, the result of human thought, can show different aspects depending on the region and era, even if it is the same phenomenon. How has Korean Buddhism, which has been absolutely influenced by Chinese Buddhism, accepted and transmitted the point where Indian and Chinese cultures collided? A representative example is hand seals. Even though it is called Zen meditation seals, unlike the right hand on top of the left hand in Indian Buddhism, the left hand is placed on top in Chinese Buddhism. Among these, the record related to the conflict remains in the “Samundanbokron (沙門袒服論)” in Volume 5 of Hongmyeongjip. Although this is a comprehensive and ambiguous question, if we consider various factors depending on the case, the answer to this question will probably not be a uniform answer, but rather a variety of answers depending on the situation. On the surface, Korean pagoda circling may seem like a simple form of continuously circling a pagoda, but its understanding, interpretation, and meaning are by no means simple. First, the following questions may be raised: Why do we need to circle a pagoda? Second, how can we define the principles and certain forms of circling a pagoda? Next, we may ask: Who is the subject of the pagoda circling, the practitioner? What does pagoda circling mean to the practitioner? What is the ultimate goal of pagoda circling? This paper seeks to provide partial answers to these questions, while at the same time tracing the origins of the right-hand circling of a pagoda that is practiced in Korean Buddhism today.",
-      "abstract_en": "",
+      "abstract_en": "Culture, the result of human thought, can show different aspects depending on the region and era, even if it is the same phenomenon. How has Korean Buddhism, which has been absolutely influenced by Chinese Buddhism, accepted and transmitted the point where Indian and Chinese cultures collided? A representative example is hand seals. Even though it is called Zen meditation seals, unlike the right hand on top of the left hand in Indian Buddhism, the left hand is placed on top in Chinese Buddhism. Among these, the record related to the conflict remains in the “Samundanbokron (沙門袒服論)” in Volume 5 of Hongmyeongjip. Although this is a comprehensive and ambiguous question, if we consider various factors depending on the case, the answer to this question will probably not be a uniform answer, but rather a variety of answers depending on the situation. On the surface, Korean pagoda circling may seem like a simple form of continuously circling a pagoda, but its understanding, interpretation, and meaning are by no means simple. First, the following questions may be raised: Why do we need to circle a pagoda? Second, how can we define the principles and certain forms of circling a pagoda? Next, we may ask: Who is the subject of the pagoda circling, the practitioner? What does pagoda circling mean to the practitioner? What is the ultimate goal of pagoda circling? This paper seeks to provide partial answers to these questions, while at the same time tracing the origins of the right-hand circling of a pagoda that is practiced in Korean Buddhism today.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "71",
       "issue": "",
       "start_page": "265",
       "end_page": "287",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..71.009",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=249519eb5368412c6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193674",
       "keywords_kr": [
         "탑돌이",
         "우요",
@@ -31096,8 +31101,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003193674",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "249519eb5368412c6aae8a972f9116fb",
       "id": "249519eb5368412c6aae8a972f9116fb"
@@ -31129,16 +31136,16 @@
         }
       ],
       "abstract_kr": "Despite growing interest in temple food due to health and wellness trends, related research is limited. This study analyzes existing temple food research and suggests future directions. We examined 77 papers from the Research Information Sharing Service(RISS), analyzing trends by year, journal, researcher, and methodology. Language network analysis was also employed. Key findings include: temple food research emerged in 1994, peaking in 2015; major publishing journals are in food science and tourism; most papers are single-authored; quantitative methods, particularly surveys, dominate; and key themes include value, perception, satisfaction, and intention. The study identified four main research topics related to temple food through language network analysis, providing a foundation for future research in this field.",
-      "abstract_en": "",
+      "abstract_en": "Despite growing interest in temple food due to health and wellness trends, related research is limited. This study analyzes existing temple food research and suggests future directions. We examined 77 papers from the Research Information Sharing Service(RISS), analyzing trends by year, journal, researcher, and methodology. Language network analysis was also employed. Key findings include: temple food research emerged in 1994, peaking in 2015; major publishing journals are in food science and tourism; most papers are single-authored; quantitative methods, particularly surveys, dominate; and key themes include value, perception, satisfaction, and intention. The study identified four main research topics related to temple food through language network analysis, providing a foundation for future research in this field.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "71",
       "issue": "",
       "start_page": "289",
       "end_page": "321",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..71.010",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=249519eb5368412c7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193697",
       "keywords_kr": [
         "사찰음식",
         "연구동향",
@@ -31155,8 +31162,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003193697",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "249519eb5368412c7f7a54760bb41745",
       "id": "249519eb5368412c7f7a54760bb41745"
@@ -31173,16 +31182,16 @@
         }
       ],
       "abstract_kr": "This article undertakes a critical examination of prior scholarship claiming that the Awakening of Faith in the Mahāyāna (Dashengqixinlun, henceforth “Qixinlun”)’s doctrine of “one mind” (一心) was influenced by the thought of Sengwei (僧衛), a monk active in the early 5th century. To reassess this assertion, I have analyzed Shizhujinghanzhuxu (十住經含注序) ascribed to Sengwei, as well as the Buddhist texts composed in the Northern Dynasties of early 6th century, the region where the Qixinlun was compiled. The findings of this investigation are as follows.While the notion of “one mind” in the Daśabhūmika Sūtra does not necessarily signify a foundational ground of the phenomenal world, Sengwei’s interpretation presents “one mind” as the mind that functions as the origin of phenomenal existence. However, this appears to reflect not so much a close reading of the Daśabhūmika Sūtra itself as it does a broader mode of thought prevalent in Southern Chinese Buddhism at the time. Above all, the dualistic framework distinguishing “one mind” and “one dharma” in Sengwei’s system differs substantially from the ontological conception of “one mind” articulated in the Qixinlun.By contrast, the Shidijinglun (十地經論), translated in the sixth century in Northern China, explicitly identifies “one mind” with the ālayavijñāna, which is described as possessing a dual nature of purity and defilement. Furthermore, the Laṅkāvatāra Sūtra (入楞伽經), translated by Bodhiruci—one of the leading translators and exegetes of the Northern Dynasties—along with his associated doctrinal formulations, clearly articulates a conceptual structure equating one mind with ālayavijñāna and tathāgatagarbha. This structure, as my research shows, is faithfully inherited in Chinese-authored texts from the same milieu. In light of the existence of such conceptually and geographically proximate sources, there appears to be little necessity to trace the doctrinal origins of the Qixinlun back to Sengwei, a figure of the preceding century. From this perspective, it is more plausible to regard the Qixinlun’s formulation of the “one mind” doctrine as having emerged from the interpretative horizon shaped by contemporary Chinese translations of Indian scriptures and their exegetical traditions.",
-      "abstract_en": "",
+      "abstract_en": "This article undertakes a critical examination of prior scholarship claiming that the Awakening of Faith in the Mahāyāna (Dashengqixinlun, henceforth “Qixinlun”)’s doctrine of “one mind” (一心) was influenced by the thought of Sengwei (僧衛), a monk active in the early 5th century. To reassess this assertion, I have analyzed Shizhujinghanzhuxu (十住經含注序) ascribed to Sengwei, as well as the Buddhist texts composed in the Northern Dynasties of early 6th century, the region where the Qixinlun was compiled. The findings of this investigation are as follows.\nWhile the notion of “one mind” in the Daśabhūmika Sūtra does not necessarily signify a foundational ground of the phenomenal world, Sengwei’s interpretation presents “one mind” as the mind that functions as the origin of phenomenal existence. However, this appears to reflect not so much a close reading of the Daśabhūmika Sūtra itself as it does a broader mode of thought prevalent in Southern Chinese Buddhism at the time. Above all, the dualistic framework distinguishing “one mind” and “one dharma” in Sengwei’s system differs substantially from the ontological conception of “one mind” articulated in the Qixinlun.\nBy contrast, the Shidijinglun (十地經論), translated in the sixth century in Northern China, explicitly identifies “one mind” with the ālayavijñāna, which is described as possessing a dual nature of purity and defilement. Furthermore, the Laṅkāvatāra Sūtra (入楞伽經), translated by Bodhiruci—one of the leading translators and exegetes of the Northern Dynasties—along with his associated doctrinal formulations, clearly articulates a conceptual structure equating one mind with ālayavijñāna and tathāgatagarbha. This structure, as my research shows, is faithfully inherited in Chinese-authored texts from the same milieu. In light of the existence of such conceptually and geographically proximate sources, there appears to be little necessity to trace the doctrinal origins of the Qixinlun back to Sengwei, a figure of the preceding century. From this perspective, it is more plausible to regard the Qixinlun’s formulation of the “one mind” doctrine as having emerged from the interpretative horizon shaped by contemporary Chinese translations of Indian scriptures and their exegetical traditions.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "72",
       "issue": "",
       "start_page": "9",
       "end_page": "38",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..72.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=12230f178953bf59b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003228250",
       "keywords_kr": [
         "일심",
         "여래장",
@@ -31203,8 +31212,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003228250",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "12230f178953bf59b7998d826d417196",
       "id": "12230f178953bf59b7998d826d417196"
@@ -31221,16 +31232,16 @@
         }
       ],
       "abstract_kr": "In the Mahāyānasūtrālaṃkāra, Abhidharmasamuccaya, and Mahāyānasaṃgraha, the concept of arthāntarābhiprāya(別義意趣) appears. It has previously been noted that the notion of arthāntarābhiprāya in the Mahāyānasūtrālaṃkāra and Abhidharmasamuccaya are different from Mahāyānasamgraha. There are two differences. First, The scriptural passages cited as examples of arthāntarābhiprāya differ between the two groups of texts. Second, The passages in the former two works are generally understood to be based on the doctrine of the Three Natures (trisvabhāva), while the intention behind the passage in the Mahāyānasamgraha is ambiguous with regard to whether it aims to express the Three Natures.This paper examines the concept of arthāntarābhiprāya as it appears in each of these texts.  And as a result, I would like to add the following two differences to the existing differences that have already been pointed out. First, In the Mahāyānasūtrālaṃkāra and Abhidharmasamuccaya, arthāntarā(別意) means hidden intention(密意), whereas in the Mahāyānasamgraha, it means a meaning that transcends language. Second, The passages cited in the former works is written with the intention of Three Natures, whereas the passage in the Mahāyānasamgraha is sentence that speaks in meaning of transcends language like Three Natures.Furthermore, this paper points out a similarity between the Mahāyānasaṃgraha and the Laṅkāvatārasūtra in terms of their perspectives on the Buddha’s words. That is, the Mahāyānasaṃgraha, by understanding arthāntarābhiprāya as a transcends language meaning, reflects a view of the Buddha’s words as comprising both linguistic and non-linguistic dimensions. This recognition is similarly found in the Laṅkāvatārasūtra, which distinguishes between the “doctrine of instruction” (deśanānaya) and the “doctrine of ultimate truth” (siddhāntanaya). Thus, both the Mahāyānasaṃgraha and the Laṅkāvatārasūtra show similarity in their understanding of the Buddha’s words.",
-      "abstract_en": "",
+      "abstract_en": "In the Mahāyānasūtrālaṃkāra, Abhidharmasamuccaya, and Mahāyānasaṃgraha, the concept of arthāntarābhiprāya(別義意趣) appears. It has previously been noted that the notion of arthāntarābhiprāya in the Mahāyānasūtrālaṃkāra and Abhidharmasamuccaya are different from Mahāyānasamgraha. There are two differences. First, The scriptural passages cited as examples of arthāntarābhiprāya differ between the two groups of texts. Second, The passages in the former two works are generally understood to be based on the doctrine of the Three Natures (trisvabhāva), while the intention behind the passage in the Mahāyānasamgraha is ambiguous with regard to whether it aims to express the Three Natures.\nThis paper examines the concept of arthāntarābhiprāya as it appears in each of these texts. And as a result, I would like to add the following two differences to the existing differences that have already been pointed out. First, In the Mahāyānasūtrālaṃkāra and Abhidharmasamuccaya, arthāntarā(別意) means hidden intention(密意), whereas in the Mahāyānasamgraha, it means a meaning that transcends language. Second, The passages cited in the former works is written with the intention of Three Natures, whereas the passage in the Mahāyānasamgraha is sentence that speaks in meaning of transcends language like Three Natures.\nFurthermore, this paper points out a similarity between the Mahāyānasaṃgraha and the Laṅkāvatārasūtra in terms of their perspectives on the Buddha’s words. That is, the Mahāyānasaṃgraha, by understanding arthāntarābhiprāya as a transcends language meaning, reflects a view of the Buddha’s words as comprising both linguistic and non-linguistic dimensions. This recognition is similarly found in the Laṅkāvatārasūtra, which distinguishes between the “doctrine of instruction” (deśanānaya) and the “doctrine of ultimate truth” (siddhāntanaya). Thus, both the Mahāyānasaṃgraha and the Laṅkāvatārasūtra show similarity in their understanding of the Buddha’s words.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "72",
       "issue": "",
       "start_page": "39",
       "end_page": "65",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..72.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=12230f178953bf59b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003228247",
       "keywords_kr": [
         "별의의취",
         "4종의취",
@@ -31247,8 +31258,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003228247",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "12230f178953bf59b36097776a77e665",
       "id": "12230f178953bf59b36097776a77e665"
@@ -31270,16 +31283,16 @@
         }
       ],
       "abstract_kr": "This article analyses the Sri Lankan Palm-leaf Manuscript tradition called Talpat. Within Sri Lanka, the Talpat tradition has been preserved by a limited number of experts, while the traditional production process is gradually diminishing or undergoing simplification. However, this production process has become an important factor both in the ritual aspect of Sri Lankan Buddhism and in terms of folk beliefs or worships. This paper examines in detail through local data and researches the structure and characteristics of the manuscript production process whoch have been handed down only inside Sri Lanka. The process of making Talpat begins with collecting and processing palm leaves. This process only limited palm leaves on a designated date is a kind of religious ceremony that reflects the religious life of ancient Sri Lankans who respect nature and believe in the gods of the trees in them. The process of putting the collected leaves together with various medicinal ingredients, boiling, drying and cutting them into standard sizes contains the desire to safely preserve and transmit the manuscript, which will become a Buddhist script in the future, and is also a very example of the advanced scientific level of ancient Sri Lanka. Transcribing on those processed palm leaves is done only by experienced professionals who have gone through a certain period of education. In particular, the Talpat tradition has various unique letter-forms (Akshara), which seems to have been selected according to the scribe and the region of production and the type of manuscript. After that, the coloring and finishing works that make the transcribed letters stand out will be followed by traditional rituals and procedures. Apart from the advanced printing techniques of modern society, this understanding of the Talpat tradition provides a new approach to understanding Sri Lankan unique Buddhist culture.",
-      "abstract_en": "",
+      "abstract_en": "This article analyses the Sri Lankan Palm-leaf Manuscript tradition called Talpat. Within Sri Lanka, the Talpat tradition has been preserved by a limited number of experts, while the traditional production process is gradually diminishing or undergoing simplification. However, this production process has become an important factor both in the ritual aspect of Sri Lankan Buddhism and in terms of folk beliefs or worships. This paper examines in detail through local data and researches the structure and characteristics of the manuscript production process whoch have been handed down only inside Sri Lanka. The process of making Talpat begins with collecting and processing palm leaves. This process only limited palm leaves on a designated date is a kind of religious ceremony that reflects the religious life of ancient Sri Lankans who respect nature and believe in the gods of the trees in them. The process of putting the collected leaves together with various medicinal ingredients, boiling, drying and cutting them into standard sizes contains the desire to safely preserve and transmit the manuscript, which will become a Buddhist script in the future, and is also a very example of the advanced scientific level of ancient Sri Lanka. Transcribing on those processed palm leaves is done only by experienced professionals who have gone through a certain period of education. In particular, the Talpat tradition has various unique letter-forms (Akshara), which seems to have been selected according to the scribe and the region of production and the type of manuscript. After that, the coloring and finishing works that make the transcribed letters stand out will be followed by traditional rituals and procedures. Apart from the advanced printing techniques of modern society, this understanding of the Talpat tradition provides a new approach to understanding Sri Lankan unique Buddhist culture.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "72",
       "issue": "",
       "start_page": "67",
       "end_page": "94",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..72.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=12230f178953bf59c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003228242",
       "keywords_kr": [
         "야자수 잎",
         "필사본",
@@ -31296,8 +31309,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003228242",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "12230f178953bf59c85d2949c297615a",
       "id": "12230f178953bf59c85d2949c297615a"
@@ -31314,16 +31329,16 @@
         }
       ],
       "abstract_kr": "This study aims to explore the concept of linguistic formation (vacī-saṅkhāra) as presented in early Buddhist scriptures and to clarify its practical significance from the perspective of the utilization of vitakka. Moving beyond existing research, which has primarily focused on the conceptual meaning of vitakka or its comparison with Yoga traditions, this study demonstrates that vitakka, a key component of linguistic formation, can serve both as a source of defilements and as a crucial meditative tool for practice and liberation.Linguistic formation is not merely a verbal act; rather, it constitutes an intentional psychological process composed of vitakka (initial application of mind) and vicāra (sustained application of mind). Vitakka itself exhibits a dynamic duality, capable of leading to either wholesome or unwholesome states depending on the practitioner’s intention and mental condition. When unwholesome, vitakka, in combination with craving (taṇhā) and ignorance (avijjā), develops into proliferation (papañca), which manifests as multiple layers of defilements, ranging from gross actions to subtle forms of self-clinging. In contrast, wholesome vitakka, when guided by right intention and wisdom, becomes an essential factor in jhāna (meditative absorption), aligns with right thought (sammā-saṅkappa) in the Noble Eightfold Path, and positively contributes to the realization of the Four Noble Truths and the emergence of the factors of awakening (bojjhaṅga).This research presents concrete scriptural evidence for both the wholesome and unwholesome dimensions of vitakka, and provides an analysis of five specific meditative methods from early scriptures for skillfully managing unwholesome vitakka and cultivating wholesome vitakka. In conclusion, a holistic understanding of linguistic formation, together with its core element vitakka, offers practical guidelines for the purification of mind and the perfection of wisdom in early Buddhist practice, ultimately leading to liberation. Academically, this study contributes by highlighting the pivotal role of vitakka in mediating the interaction between nāma-rūpa (mind-and-matter) and by providing an integrated understanding of mind and body within early Buddhist meditation. Future research is encouraged to investigate practical methodologies for applying the utilization of vitakka in contemporary psychotherapy and meditation programs.",
-      "abstract_en": "",
+      "abstract_en": "This study aims to explore the concept of linguistic formation (vacī-saṅkhāra) as presented in early Buddhist scriptures and to clarify its practical significance from the perspective of the utilization of vitakka. Moving beyond existing research, which has primarily focused on the conceptual meaning of vitakka or its comparison with Yoga traditions, this study demonstrates that vitakka, a key component of linguistic formation, can serve both as a source of defilements and as a crucial meditative tool for practice and liberation.\nLinguistic formation is not merely a verbal act; rather, it constitutes an intentional psychological process composed of vitakka (initial application of mind) and vicāra (sustained application of mind). Vitakka itself exhibits a dynamic duality, capable of leading to either wholesome or unwholesome states depending on the practitioner’s intention and mental condition. When unwholesome, vitakka, in combination with craving (taṇhā) and ignorance (avijjā), develops into proliferation (papañca), which manifests as multiple layers of defilements, ranging from gross actions to subtle forms of self-clinging. In contrast, wholesome vitakka, when guided by right intention and wisdom, becomes an essential factor in jhāna (meditative absorption), aligns with right thought (sammā-saṅkappa) in the Noble Eightfold Path, and positively contributes to the realization of the Four Noble Truths and the emergence of the factors of awakening (bojjhaṅga).\nThis research presents concrete scriptural evidence for both the wholesome and unwholesome dimensions of vitakka, and provides an analysis of five specific meditative methods from early scriptures for skillfully managing unwholesome vitakka and cultivating wholesome vitakka. In conclusion, a holistic understanding of linguistic formation, together with its core element vitakka, offers practical guidelines for the purification of mind and the perfection of wisdom in early Buddhist practice, ultimately leading to liberation. Academically, this study contributes by highlighting the pivotal role of vitakka in mediating the interaction between nāma-rūpa (mind-and-matter) and by providing an integrated understanding of mind and body within early Buddhist meditation. Future research is encouraged to investigate practical methodologies for applying the utilization of vitakka in contemporary psychotherapy and meditation programs.",
       "journal_name": "보조사상",
       "year": "2025",
       "volume": "72",
       "issue": "",
       "start_page": "95",
       "end_page": "127",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..72.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=12230f178953bf594884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003228239",
       "keywords_kr": [
         "언어적 형성작용(vacī-saṅkhāra)",
         "숙고(vicāra)",
@@ -31344,8 +31359,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003228239",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "12230f178953bf594884a65323211ff0",
       "id": "12230f178953bf594884a65323211ff0"
@@ -31419,9 +31436,9 @@
       "issue": "",
       "start_page": "41",
       "end_page": "68",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..73.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a22f678023cda3537f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003272987",
       "keywords_kr": [
         "고불총림",
         "가야총림",
@@ -31443,8 +31460,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003272987",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a22f678023cda3537f7a54760bb41745",
       "id": "a22f678023cda3537f7a54760bb41745"
@@ -31473,9 +31492,9 @@
       "issue": "",
       "start_page": "69",
       "end_page": "100",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..73.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a22f678023cda353d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003272990",
       "keywords_kr": [
         "서옹",
         "토마스 베리",
@@ -31492,8 +31511,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003272990",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a22f678023cda353d18150b21a227875",
       "id": "a22f678023cda353d18150b21a227875"
@@ -31522,9 +31543,9 @@
       "issue": "",
       "start_page": "101",
       "end_page": "136",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..73.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a22f678023cda3536aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273033",
       "keywords_kr": [
         "해안(海眼)",
         "무아",
@@ -31547,8 +31568,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273033",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a22f678023cda3536aae8a972f9116fb",
       "id": "a22f678023cda3536aae8a972f9116fb"
@@ -31774,9 +31797,9 @@
       "issue": "",
       "start_page": "257",
       "end_page": "291",
-      "doi": "",
+      "doi": "10.22859/bojoss.2025..73.009",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=87599718f16ade64c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273127",
       "keywords_kr": [
         "유목민족",
         "대승불교",
@@ -31795,8 +31818,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003273127",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "87599718f16ade64c85d2949c297615a",
       "id": "87599718f16ade64c85d2949c297615a"
@@ -32290,9 +32315,9 @@
       "issue": "",
       "start_page": "9",
       "end_page": "39",
-      "doi": "",
+      "doi": "10.22859/bojoss.2026..75.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0798738be69ee824e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367868",
       "keywords_kr": [
         "청량답순종심요법문",
         "주청량심요",
@@ -32313,8 +32338,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "0798738be69ee824e9810257f7042666",
+      "kci_id": "ART003367868",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0798738be69ee824e9810257f7042666"
     },
@@ -32337,9 +32364,9 @@
       "issue": "",
       "start_page": "41",
       "end_page": "80",
-      "doi": "",
+      "doi": "10.22859/bojoss.2026..75.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0798738be69ee824b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367869",
       "keywords_kr": [
         "송광사",
         "1458년 인출본",
@@ -32363,8 +32390,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "0798738be69ee824b7998d826d417196",
+      "kci_id": "ART003367869",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0798738be69ee824b7998d826d417196"
     },
@@ -32387,9 +32416,9 @@
       "issue": "",
       "start_page": "81",
       "end_page": "109",
-      "doi": "",
+      "doi": "10.22859/bojoss.2026..75.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0798738be69ee824c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367870",
       "keywords_kr": [
         "보조지눌",
         "계초심학인문",
@@ -32407,8 +32436,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "0798738be69ee824c85d2949c297615a",
+      "kci_id": "ART003367870",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0798738be69ee824c85d2949c297615a"
     },
@@ -32431,9 +32462,9 @@
       "issue": "",
       "start_page": "111",
       "end_page": "144",
-      "doi": "",
+      "doi": "10.22859/bojoss.2026..75.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0798738be69ee8247f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367871",
       "keywords_kr": [
         "임제",
         "동산",
@@ -32451,8 +32482,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "0798738be69ee8247f7a54760bb41745",
+      "kci_id": "ART003367871",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0798738be69ee8247f7a54760bb41745"
     },
@@ -32475,9 +32508,9 @@
       "issue": "",
       "start_page": "145",
       "end_page": "177",
-      "doi": "",
+      "doi": "10.22859/bojoss.2026..75.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d2835996fde9ee77e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367872",
       "keywords_kr": [
         "화엄경문의요결문답",
         "화엄오교장지사",
@@ -32499,8 +32532,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "d2835996fde9ee77e9810257f7042666",
+      "kci_id": "ART003367872",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d2835996fde9ee77e9810257f7042666"
     },
@@ -32523,9 +32558,9 @@
       "issue": "",
       "start_page": "179",
       "end_page": "206",
-      "doi": "",
+      "doi": "10.22859/bojoss.2026..75.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d2835996fde9ee77d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367873",
       "keywords_kr": [
         "방편",
         "『방편선교경』",
@@ -32543,8 +32578,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "d2835996fde9ee77d18150b21a227875",
+      "kci_id": "ART003367873",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d2835996fde9ee77d18150b21a227875"
     },
@@ -32567,9 +32604,9 @@
       "issue": "",
       "start_page": "207",
       "end_page": "234",
-      "doi": "",
+      "doi": "10.22859/bojoss.2026..75.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0798738be69ee824d18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367874",
       "keywords_kr": [
         "서방정토",
         "동방정토",
@@ -32591,8 +32628,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "0798738be69ee824d18150b21a227875",
+      "kci_id": "ART003367874",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0798738be69ee824d18150b21a227875"
     },
@@ -32615,9 +32654,9 @@
       "issue": "",
       "start_page": "235",
       "end_page": "262",
-      "doi": "",
+      "doi": "10.22859/bojoss.2026..75.008",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d2835996fde9ee776aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367927",
       "keywords_kr": [
         "영천암",
         "무량수각",
@@ -32635,8 +32674,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "d2835996fde9ee776aae8a972f9116fb",
+      "kci_id": "ART003367927",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d2835996fde9ee776aae8a972f9116fb"
     },
@@ -32659,9 +32700,9 @@
       "issue": "",
       "start_page": "263",
       "end_page": "302",
-      "doi": "",
+      "doi": "10.22859/bojoss.2026..75.009",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0798738be69ee82447de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367928",
       "keywords_kr": [
         "보현사",
         "고목(告目)",
@@ -32683,8 +32724,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "0798738be69ee82447de9c1710b0298d",
+      "kci_id": "ART003367928",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "0798738be69ee82447de9c1710b0298d"
     }

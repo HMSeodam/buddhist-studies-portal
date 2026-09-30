@@ -188,13 +188,15 @@
       "end_page": "148",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c07608a4414becd6ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002953540",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002953540",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c07608a4414becd6ffe0bdc3ef48d419",
       "id": "c07608a4414becd6ffe0bdc3ef48d419"
@@ -444,13 +446,15 @@
       "end_page": "333",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4d964763a8738ae5ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002953578",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002953578",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4d964763a8738ae5ffe0bdc3ef48d419",
       "id": "4d964763a8738ae5ffe0bdc3ef48d419"
@@ -540,13 +544,15 @@
       "end_page": "79",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=91ac34cf7293eb64ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002953597",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002953597",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "91ac34cf7293eb64ffe0bdc3ef48d419",
       "id": "91ac34cf7293eb64ffe0bdc3ef48d419"
@@ -1039,7 +1045,7 @@
     {
       "article_id": "e314ba3ea71c4a10ffe0bdc3ef48d419",
       "title_kr": "〈 학문적 범어의 문장론 연구 〉 ( 전재성 ) 에 있어서 몇 가지 문제점",
-      "title_en": "",
+      "title_en": "[논평] <학문적 범어의 문장론 연구>(전재성)에 있어서 몇 가지 문제점 l",
       "authors": [
         {
           "name": "이지수(Ji Soo Lee)",
@@ -1057,13 +1063,15 @@
       "end_page": "250",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e314ba3ea71c4a10ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002953713",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002953713",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "e314ba3ea71c4a10ffe0bdc3ef48d419",
       "id": "e314ba3ea71c4a10ffe0bdc3ef48d419"
@@ -1367,8 +1375,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "인도철학",
       "year": "1994",
       "volume": "4",
@@ -1377,13 +1385,15 @@
       "end_page": "249",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb70887eb274faafffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002951080",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002951080",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cb70887eb274faafffe0bdc3ef48d419",
       "id": "cb70887eb274faafffe0bdc3ef48d419"
@@ -1495,8 +1505,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "인도철학",
       "year": "1995",
       "volume": "5",
@@ -1505,13 +1515,15 @@
       "end_page": "71",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cc332edf81bf50e2ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002951084",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002951084",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "cc332edf81bf50e2ffe0bdc3ef48d419",
       "id": "cc332edf81bf50e2ffe0bdc3ef48d419"
@@ -4452,7 +4464,7 @@
       "end_page": "230",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9a11bd339451b523ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002954546",
       "keywords_kr": [],
       "keywords_en": [
         "Patanjali",
@@ -4462,8 +4474,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002954546",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9a11bd339451b523ffe0bdc3ef48d419",
       "id": "9a11bd339451b523ffe0bdc3ef48d419"
@@ -4792,8 +4806,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": "he view of the Doctrine in Theravada Buddhism is crysta llized in the commentaries to the Canon. Studing the Exegeti cal Methodology of Buddhaghosa is an important part of und erstanding the Tipitaka. This study addresses the Exegetical Methodology of Buddhaghosa, a Buddhist monk who was a f amous commentator. He interpretated and analyzed the Tipit aka ( 三藏) correcty and in detail. Therefore, It is important fo r us to research his commentary literature. This presents a m ethodology to understand and analyze the Tipitaka correctly.\nThis study looks into the above subject in each chapter as follows: Chapter I introduces the objectives and methods for this s tudy, and the Data of research i.e. Visuddhimagga, Samanta pasadika, Ka油havitaraI,li, SumangalavilasinI, Papaficasuda頂. SaratthappakasinI, Manorathapura頂, which were certain to be worked by Buddhaghosa.\nChapter II refers to the morphologic exegetical methodolog y of Budhaghosa. Budhaghosa tried to interprete grammatical and etymological methodology_ Chapter ill refers to the exegetical methodology of Budhaghosa in sernnatics. The exegetical methodology is divided into a word with many meanings and a word with one meaning. Also, an abbridged sentence was handled here as analytic.\nChapter N addresses peculiarity of the exegetical methodol ogy of Budhaghosa.\nFinally, in Chapter V , Summing up, the study can be con eluded as follow : according to Buddhaghosa, in order to understand to The Tipitaka is considerable to grammatical. etymological. morphologic meaning and an abbridged sentence in the exegetical methodology of Budhaghosa.\nAs a result, Buddhaghosa's work is considered as one of t he most important Interpretation to understand the Tipitaka.",
       "journal_name": "인도철학",
       "year": "2003",
       "volume": "12",
@@ -4802,7 +4816,7 @@
       "end_page": "133",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b378fbd880c62142ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002950993",
       "keywords_kr": [
         "해석방법",
         "일의어",
@@ -4819,8 +4833,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002950993",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b378fbd880c62142ffe0bdc3ef48d419",
       "id": "b378fbd880c62142ffe0bdc3ef48d419"
@@ -30530,16 +30546,16 @@
         }
       ],
       "abstract_kr": "인도 샤이바 딴뜨라에서 만뜨라삐타(Mantrapīṭha) 전통은 쉬바(Śiva) 신의 분노 형상인 바이라바(Bhairava) 숭배를 주요한 특징으로 삼는다. 이 전통의 문헌 중 하나인 Svacchandatantra는 스바찬다바이라바(Svacch-anda-bhairava)와 그의 배우자 여신인 아고레슈바리(Aghoreśvarī)의 숭배를 교설하는 핵심 경전이다.이 문헌은 샤라다 서체로 쓰인 북인도 카슈미르 지역의 사본을 중심으로 편집된 KSTS(Kashmir Series of Texts and Studies) 출판본을 통해 소개, 연구되어 왔다. 하지만, 북인도 사본 이외에도 네팔에서 이 경전은 Svacchandalalitabhairavatantra라는 이름으로 다수의 고층 범어 패엽 사본을 통해 전해지고 있으며, 남인도 사본들도 다수 남아 있다. 즉, 북인도와 남인도, 그리고 네팔본이라는 세 개의 전승본의 존재는 이 문헌이 인도 전역에 광범위하게 전파, 유통되었음을 짐작케 한다.본고는 Svacchandatantra에서 발견되는 유사 구문의 분석을 통해 이 문헌이 샤이바 싯단따의 Niśvāsa 집성(corpus) 일부의 영향을 받아 성립되었으며, 그 이후 샤이바의 여신지향 비드야삐타(Vidyāpīṭha)의 뜨리까(Trika) 전통의 경전 중 하나인 Tantrasadbhāva에도 다시 영향을 주었다는 점을 분석해 보고자 한다. 더하여 이 경전들이 평행, 유사 게송을 공유하면서도 어떻게 그 안에서 고유의 교설을 반영시키고 있는지도 살펴본다.이를 통해 최종적으로는 샤이바 문헌의 전승본들(recensions) 연구와 관련된 과제를 재고함으로써, 종교 전통의 발전과 확장을 어떻게 텍스트 분석을 통해 추적할 수 있는지를 조망해 보고자 한다.",
-      "abstract_en": "",
+      "abstract_en": "The Svacchandatantra, teaching the cult of Svacchandabhairava and his consort Aghoreśvarī, is one of the most significant scripture to understand the textual development of Śaiva literature. In the first half of the article, I introduced the detailed information of relevant critical editions and manuscripts that have not been used in the previous studies: the three recensions of the Svacchandatantra: the Kashmir Indian recension is published in the KSTS editions, and the South Indian version is available from IFP transcriptions, and the Nepalese recension preserves in old palm-leaf Sanskrit manuscripts.\nAnd in the latter part of the article, to show the necessity to study all the recensions of the Svacchanda, I analysed parallel passages shared in the Niśvāsatattvasaṃhita's Nayasūtra (4.107-9), the Svacchandatantra (7.292c-3b), and the Tantrasadbhāva (28.18-9). By examining the differences between these passages, the intention of compilers or redactors of these Tantras can be revealed.\nIn short, while the passages of the Niśvāsa presumably had listed the ten objects/means for meditating the supreme Śiva, the parallel passage of the Svacchanda modified the original text to fit the list to the eleven levels of the uccāra practice. In addition, older attestations, i.e., the Nepalese recension of the Svacchanda and the extant Tantrasadbhava, present readings which make more sense than the Kashmiran version of the Svacchanda. In this regard, it is worthy to mention that TaSa preserves the two models of the uccāra practice: one is the same as the model of the Svacchanda, and the other contains a slightly modified model of the uccāra practice. In the latter model, four syllables, (i.e. A, I, U, and M) are allocated to the previous stage of the nāda level. This shows that the redactors of the TaSa synthesized the doctrine of the phonemic emanation of three Trika goddesses, Parā, Parāparā, Aparā, -which are represented as three short vowels A, I, and U-, based on the Svacchanda's model. And also, we can see that these scriptures are redacted according to their own doctrine by altering the word indicating the mūlamantra to be recited in each text, e.g., parameśvaram in the Niśvāsa, haṃsa[ḥ]-svacchandam in the Svacchanda, and then ātmā svacchandam in the Tantrsadbhāva.\nLastly, with the help of Kṣemerāja's commentary on the Svacchandatantra, we can see some evidence of a tendency to have attempted to polish an older version of the Svacchanda attested in the Nepalese Svacchanda, i.e. the Svacchandalalitabhairava. Based on these examples, I would like to emphasize the importance of textual studies enabling shed light on the development of Śaiva thoughts through oral or written transmission.",
       "journal_name": "인도철학",
       "year": "2022",
       "volume": "",
       "issue": "65",
       "start_page": "5",
       "end_page": "33",
-      "doi": "",
+      "doi": "10.32761/kjip.2022..65.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=46ae678b56ae6a0d7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002870098",
       "keywords_kr": [
         "스바찬다딴뜨라",
         "샤이비즘",
@@ -30558,8 +30574,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002870098",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "46ae678b56ae6a0d7f7a54760bb41745",
       "id": "46ae678b56ae6a0d7f7a54760bb41745"
@@ -30723,9 +30741,9 @@
       "issue": "65",
       "start_page": "169",
       "end_page": "223",
-      "doi": "",
+      "doi": "10.32761/kjip.2022..65.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1235420e784dc529c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002870271",
       "keywords_kr": [
         "함석헌",
         "『바가바드 기타』",
@@ -30745,8 +30763,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002870271",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1235420e784dc529c85d2949c297615a",
       "id": "1235420e784dc529c85d2949c297615a"
@@ -31096,16 +31116,16 @@
         }
       ],
       "abstract_kr": "이 연구는 모디 정부 이후 인도에서 요가가 어떻게 힌두화되고 있는지를 최근 인도 현대요가와 관련된 여러 논쟁을 일으킨 인물인 스와미 람데브를 통해 살피려 한다. 이를 위해 다음 세 가지 작업을 본 고의 주요 논지로 한다.먼저 ‘힌두화(Hinduization)’의 개념을 산스크리트화, 샤프론화 그리고 브라흐만화라는 개념을 통해서 그 내용을 구체화한다. 다음으로 인도 현대요가의 선구자들인 요겐드라와 쿠발라야난다의 민족주의적 입장과 과학에 대한 관점을 고찰하여 이들이 요가를 과학적으로 규명하려 한 노력에 대해 살펴본다. 끝으로 스와미 람데브의 현대 과학에 대한 입장을 살펴보고 그의 입장에 영향을 준 아리야 사마즈의 창시자 다야난드 사라스와티의 관점과 비교해본다.스와미 람데브는 다야난드 사라스와티와 유사한 민족주의적 입장과 과학관을 주장하고는 있지만, 그의 비이성적 태도 때문에 아리야 사마즈의 진정한 후계자로 볼 수 없다. 나아가 스와미 람데브의 극단적 태도는 현대요가의 선구자인 요겐드라나 쿠발라야난다가 요가를 과학적으로 규명하고자 한 자세에도 반대된다.결론적으로 스와미 람데브의 요가와 아유르베다에 대한 비이성적인 주장은 많은 인도인들에게 인도의 고대과학이 현대 서구과학보다 우수하다는 잘못된 인식을 심어줌으로서 극단적 힌두 민족주의를 불러일으키는 결과를 가져올 위험이 많다. 이와 같은 요가에 대한 극우 힌두주의적인 스와미 람데브의 견해와 활동은 현재 인도 정부의 힌두화 정책에 일조하고 있다",
-      "abstract_en": "",
+      "abstract_en": "This study aims to examine the recent Hinduization of modern yoga in India, focusing on Swami Ramdev, the most famous yoga teacher in India.\nFirst of all, the concept of Hinduization was first compared and reviewed with concepts such as Sanskritization and Brahmanization. Next, among the pioneers of modern yoga in India in the early 20th century, Yogendra and Kubalayananda's nationalistic positions and perspectives on science were examined. And I introduced a brief biography of Swami Ramdev. Finally, Ramdev's position on nationalism and Western science was compared to that of Dayanand Saraswati, the founder of Ariya Samaj, who influenced Ramdev a lot.\nThrough this study, I argued that he could not be regarded as Ariya Samaj's true successor because of his irrational attitude, although he argued for a nationalist position and a view of science similar to Dayanand Saraswati. And I argued that Ramdev’s an attitude to Western science was contrary to the efforts of modern yoga pioneers Yogendra and Kubalayananda who strove for the scientific investigation of yoga. And I finally argued that Ramdev is currently contributing to the wrong Hinduization policy of the Indian government because he stirred up the nationalistic feelings of most Indians through irrational claims on yoga and ancient medicine of India.",
       "journal_name": "인도철학",
       "year": "2022",
       "volume": "",
       "issue": "66",
       "start_page": "109",
       "end_page": "143",
-      "doi": "",
+      "doi": "10.32761/kjip.2022..66.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=271fe1b83ae915cb7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002914826",
       "keywords_kr": [
         "인도 현대요가",
         "힌두화",
@@ -31122,8 +31142,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002914826",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "271fe1b83ae915cb7ecd42904f0c5d65",
       "id": "271fe1b83ae915cb7ecd42904f0c5d65"
@@ -31188,16 +31210,16 @@
         }
       ],
       "abstract_kr": "It could say that the Pratiharya (pratihārya) by Sakyamuni in Śrāvastī is representative of a miraculous intervention to reform people and non-Buddhists.The story of Pratiharya of Śrāvastī is described in little by litter different ways as sūtra-s, and the Buddhist iconography on it also varied in different localities.In the case of Pāli canons, the story is described as the miracle of mango trees and of the double supernatural transformations that water and fire are spouted out in turn from the upper and lower of Sakyamuni’s body. On the other hand, in the case of Sarvāstivādin’s literature, Sakyamuni is portrayed mainly to make the miracle of the double supernatural transformations and many Buddhas’ appearances.After appearances of many Buddhas by Sakyamuni have painted firstly at Sarnath in the Gupta period, they were expressed as mural paintings in the Front room of the Buddha hall in Ajanta’s latter Buddhist caves about 5 CE later.The paper, firstly, researches the story of Shravasti’s Pratiharya in the Buddhist literature, especially focusing on Divyāvadāna, the 12th chapter, The Miracle of Shravasti and secondly, analyzes seven mural paintings in the part of latter of Ajanta's Buddhist caves to compare the descriptions of the Buddhist literature and the depiction of the Pratiharya paintings of Ajanta.",
-      "abstract_en": "",
+      "abstract_en": "It could say that the Pratiharya (pratihārya) by Sakyamuni in Śrāvastī is representative of a miraculous intervention to reform people and non-Buddhists.\nThe story of Pratiharya of Śrāvastī is described in little by litter different ways as sūtra-s, and the Buddhist iconography on it also varied in different localities.\nIn the case of Pāli canons, the story is described as the miracle of mango trees and of the double supernatural transformations that water and fire are spouted out in turn from the upper and lower of Sakyamuni’s body. On the other hand, in the case of Sarvāstivādin’s literature, Sakyamuni is portrayed mainly to make the miracle of the double supernatural transformations and many Buddhas’ appearances.\nAfter appearances of many Buddhas by Sakyamuni have painted firstly at Sarnath in the Gupta period, they were expressed as mural paintings in the Front room of the Buddha hall in Ajanta’s latter Buddhist caves about 5 CE later.\nThe paper, firstly, researches the story of Shravasti’s Pratiharya in the Buddhist literature, especially focusing on Divyāvadāna, the 12th chapter, The Miracle of Shravasti and secondly, analyzes seven mural paintings in the part of latter of Ajanta's Buddhist caves to compare the descriptions of the Buddhist literature and the depiction of the Pratiharya paintings of Ajanta.",
       "journal_name": "인도철학",
       "year": "2022",
       "volume": "",
       "issue": "66",
       "start_page": "177",
       "end_page": "210",
-      "doi": "",
+      "doi": "10.32761/kjip.2022..66.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5eab63057955fa884884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002914852",
       "keywords_kr": [
         "사위성",
         "신변",
@@ -31216,8 +31238,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002914852",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "5eab63057955fa884884a65323211ff0",
       "id": "5eab63057955fa884884a65323211ff0"
@@ -31241,9 +31265,9 @@
       "issue": "67",
       "start_page": "5",
       "end_page": "44",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..67.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b72d6c344c070e63c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002954685",
       "keywords_kr": [
         "무량수경",
         "무량수여래회",
@@ -31260,8 +31284,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002954685",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b72d6c344c070e63c85d2949c297615a",
       "id": "b72d6c344c070e63c85d2949c297615a"
@@ -31285,9 +31311,9 @@
       "issue": "67",
       "start_page": "45",
       "end_page": "77",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..67.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b72d6c344c070e6347de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002954689",
       "keywords_kr": [
         "김법린",
         "근대불교학",
@@ -31304,8 +31330,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002954689",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b72d6c344c070e6347de9c1710b0298d",
       "id": "b72d6c344c070e6347de9c1710b0298d"
@@ -31329,9 +31357,9 @@
       "issue": "67",
       "start_page": "79",
       "end_page": "104",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..67.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b72d6c344c070e637f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002954703",
       "keywords_kr": [
         "마음챙김",
         "사마타",
@@ -31350,8 +31378,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002954703",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b72d6c344c070e637f7a54760bb41745",
       "id": "b72d6c344c070e637f7a54760bb41745"
@@ -31375,9 +31405,9 @@
       "issue": "67",
       "start_page": "105",
       "end_page": "138",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..67.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b72d6c344c070e63e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002954693",
       "keywords_kr": [
         "국가소수자위원회",
         "종교적 소수자",
@@ -31394,8 +31424,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002954693",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b72d6c344c070e63e9810257f7042666",
       "id": "b72d6c344c070e63e9810257f7042666"
@@ -31412,16 +31444,16 @@
         }
       ],
       "abstract_kr": "This article revisits an approach for conducting a comparative analysis of texts in Indian Tantric traditions, specifically focusing on the connection between non-dual Śaiva and Vajrayāna texts. To explore how texts from these traditions interact and reference each other, I provide examples of passages that share similar phrases but discuss concepts of non-duality and śūnyatā separately.To offer a comprehensive overview of the arguments concerning the similarities and interrelationships among Tantric traditions, this article summarizes previous noteworthy studies. Building upon these foundations, the primary focus of this article is to exemplify that certain shared passages between Śaiva and Vajrayāna can be effectively analyzed through the application of two distinct criteria.The first criterion involves categorizing texts based on their authorship. Given that passages from Tantras and scriptures are considered to be revealed rather than authored, they often lack specific attributions. In essence, the intentions of compilers and redactors remain undisclosed, including the sources they drew upon. In contrast, in cases where an author quotes or reworks passages from other traditions, their intentions become discernible through textual reformatting.The second criterion pertains to parallel or similar texts, distinguishing between those with traceable and untraceable origins. Specifically, this article examines one category that potentially indicates a pre-existing relationship among shared texts. The other category encompasses passages reflecting widespread notions within Indian religious thought, which often resist attempts to trace their original sources or references.In delving into these distinct categories of shared passages on non-dual and emptiness within the Śaiva and Vajrayāna traditions, this article contributes to the ongoing discourse on the intricate connections and variances among Tantric practices. By examining the multifaceted dimensions of authorship, intention, and source origins, this study illuminates the intricate tapestry of interwoven ideas within these traditions. Ultimately, this research offers fresh insights into the dynamic interplay between textual elements, shedding light on the evolving landscape of Tantric thought and its profound influence on Indian religious philosophy.",
-      "abstract_en": "",
+      "abstract_en": "This article revisits an approach for conducting a comparative analysis of texts in Indian Tantric traditions, specifically focusing on the connection between non-dual Śaiva and Vajrayāna texts. To explore how texts from these traditions interact and reference each other, I provide examples of passages that share similar phrases but discuss concepts of non-duality and śūnyatā separately.\nTo offer a comprehensive overview of the arguments concerning the similarities and interrelationships among Tantric traditions, this article summarizes previous noteworthy studies. Building upon these foundations, the primary focus of this article is to exemplify that certain shared passages between Śaiva and Vajrayāna can be effectively analyzed through the application of two distinct criteria.\nThe first criterion involves categorizing texts based on their authorship. Given that passages from Tantras and scriptures are considered to be revealed rather than authored, they often lack specific attributions. In essence, the intentions of compilers and redactors remain undisclosed, including the sources they drew upon. In contrast, in cases where an author quotes or reworks passages from other traditions, their intentions become discernible through textual reformatting.\nThe second criterion pertains to parallel or similar texts, distinguishing between those with traceable and untraceable origins. Specifically, this article examines one category that potentially indicates a pre-existing relationship among shared texts. The other category encompasses passages reflecting widespread notions within Indian religious thought, which often resist attempts to trace their original sources or references.\nIn delving into these distinct categories of shared passages on non-dual and emptiness within the Śaiva and Vajrayāna traditions, this article contributes to the ongoing discourse on the intricate connections and variances among Tantric practices. By examining the multifaceted dimensions of authorship, intention, and source origins, this study illuminates the intricate tapestry of interwoven ideas within these traditions. Ultimately, this research offers fresh insights into the dynamic interplay between textual elements, shedding light on the evolving landscape of Tantric thought and its profound influence on Indian religious philosophy.",
       "journal_name": "인도철학",
       "year": "2023",
       "volume": "",
       "issue": "68",
       "start_page": "5",
       "end_page": "34",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..68.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8ef94d4979d605b96aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002993010",
       "keywords_kr": [
         "후기 밀교",
         "불이원론 샤이바",
@@ -31438,8 +31470,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002993010",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8ef94d4979d605b96aae8a972f9116fb",
       "id": "8ef94d4979d605b96aae8a972f9116fb"
@@ -31456,16 +31490,16 @@
         }
       ],
       "abstract_kr": "In Jainism, meditation is classified as an internal tapas. It is highly emphasized as a means of powerful purification and liberation by cleansing subtle karmic particles(pudgala) attached to the soul. The Jain meditation theory has its origins in the early text(āgama). It is transmitted as four types of meditation: a meditation on suffering, a meditation on inauspiciousness, a meditation on the dharma, and a pure meditation.In the 12th century, Hemacandra of the Svetambara sect compiled the Yogaśāstra, a treatise on spiritual practices, which integrated traditional meditation theory with contemporary tantric meditation. Hemacandra elaborates on two of the traditional four types of meditation: meditation on the dharma and pure meditation, as indirect and direct methods to attain liberation, respectively. The former is discussed in chapters 7 to 10 of the Yogaśāstra, encompassing both classical and tantric influences, including more than thirty tantric meditation practices.This paper introduces Jain's dharma meditation and explores its traditional aspects and variations. It specifically investigates the Piṇdastha meditation (meditation on the five elements) as one of the various tantric meditations, which is analyzed in chapters IV and V.To understand the nature of meditation focused on dharma, the paper primarily examines Jain traditions' concept of dharma and traditional contemplative (bhāvanā) meditation in chapter III. The contemplative meditation( bhāvanā) later merges with dharma meditation. The twelve types of contemplation and the four types of dharma meditation are characterized by profound reflection (contemplation) closely related to meditation on the teachings of the omniscient being, karma maturity and fruition, and the nature of the universe.On the other hand, Piṇdastha meditation is a tantric meditation that visualizes and contemplates the five elements of the cosmic microcosm within the body, purifying both subtle matter and mental impurities in the process of reaching emptiness (ākaśa). Unlike the classical dharma meditation, which involves intellectual contemplation, Piṇḍastha meditation leads to the realization of the omniscient being's teaching. Piṇḍasatha meditation involves visualizing and contemplating images and bodily sensations. At its final stage, it directly leads to the state of liberation. This is in stark contrast to the fact that classical Dharma meditation is a precursor to the next deep meditation, pure meditation, and is limited to the indirect cause of liberation.",
-      "abstract_en": "",
+      "abstract_en": "In Jainism, meditation is classified as an internal tapas. It is highly emphasized as a means of powerful purification and liberation by cleansing subtle karmic particles(pudgala) attached to the soul. The Jain meditation theory has its origins in the early text(āgama). It is transmitted as four types of meditation: a meditation on suffering, a meditation on inauspiciousness, a meditation on the dharma, and a pure meditation.\nIn the 12th century, Hemacandra of the Svetambara sect compiled the Yogaśāstra, a treatise on spiritual practices, which integrated traditional meditation theory with contemporary tantric meditation. Hemacandra elaborates on two of the traditional four types of meditation: meditation on the dharma and pure meditation, as indirect and direct methods to attain liberation, respectively. The former is discussed in chapters 7 to 10 of the Yogaśāstra, encompassing both classical and tantric influences, including more than thirty tantric meditation practices.\nThis paper introduces Jain's dharma meditation and explores its traditional aspects and variations. It specifically investigates the Piṇdastha meditation (meditation on the five elements) as one of the various tantric meditations, which is analyzed in chapters IV and V.\nTo understand the nature of meditation focused on dharma, the paper primarily examines Jain traditions' concept of dharma and traditional contemplative (bhāvanā) meditation in chapter III. The contemplative meditation(bhāvanā) later merges with dharma meditation. The twelve types of contemplation and the four types of dharma meditation are characterized by profound reflection (contemplation) closely related to meditation on the teachings of the omniscient being, karma maturity and fruition, and the nature of the universe.\nOn the other hand, Piṇdastha meditation is a tantric meditation that visualizes and contemplates the five elements of the cosmic microcosm within the body, purifying both subtle matter and mental impurities in the process of reaching emptiness (ākaśa). Unlike the classical dharma meditation, which involves intellectual contemplation, Piṇḍastha meditation leads to the realization of the omniscient being's teaching. Piṇḍasatha meditation involves visualizing and contemplating images and bodily sensations. At its final stage, it directly leads to the state of liberation. This is in stark contrast to the fact that classical Dharma meditation is a precursor to the next deep meditation, pure meditation, and is limited to the indirect cause of liberation.",
       "journal_name": "인도철학",
       "year": "2023",
       "volume": "",
       "issue": "68",
       "start_page": "35",
       "end_page": "76",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..68.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c35fb39defac795f7ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002993011",
       "keywords_kr": [
         "다르마명상",
         "다르마",
@@ -31484,8 +31518,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002993011",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c35fb39defac795f7ecd42904f0c5d65",
       "id": "c35fb39defac795f7ecd42904f0c5d65"
@@ -31502,16 +31538,16 @@
         }
       ],
       "abstract_kr": "Dehadāna, the act of offering one's body or body parts for others, is a common theme in many Buddhist narratives such as Jātaka and Avadāna. Most of the tales of dehadāna are deeply related to the dāna-pāramitā. These stories are sometimes adopted not only in buddhist literature but also in other Indian tales that are regarded as part of the Hindu narrative tradition. Among them, the story of Jīmūtavāhana (hereinafter J), a prince of the demigod Vidyādhara, is one of the well-known Indian tales with the theme of bodily donation to Garuḍa for saving nāgas.However, there is no story that can be assumed as the original form of the J narrative in the literature that contains many prototypes of tales such as classical epics or jātakas. According to previous research by F. Bosch or Shibajaki Maho, the extant texts containing the J story are classified into three groups according to the type of literature. The first group is recorded in the main motif of the non-existent folktale Bṛhatkathā (BK) tradition. The second group is recorded in Vetālapancaviṃśati(kā) (Vet) and the third group is other traditions excluding these two.This paper focuses on the J story appearing in Vet, which belongs to the second group, and the Nāgānanda (Nāg), which corresponds to the third ‘other’ tradition.In addition, I would like to find that the J narrative can be interpreted in terms of a rite of passage for the restoring royal authority, which is a common structural motif in Hindu narratives. The rite of passage consists of three steps. First, the protagonist’s generosity is emphasized. Second, the protagonist goes through a spacial migration from the kingdom (or grāma) to the forest (or araṇya) and back to the kingdom. Finally, after going through a ritual experience involving danger or death (provoked by self-sacrificial motive), the original royal authority is restored or more sacred authority is acquired through the intervention of transcendental authority or divinity. In this respect, the J story also follows this narrative structure, depicting the process in which the protagonist J acquires the transcendental divinity of vidyādhara cakravartin after going through dehadāna.",
-      "abstract_en": "",
+      "abstract_en": "Dehadāna, the act of offering one's body or body parts for others, is a common theme in many Buddhist narratives such as Jātaka and Avadāna. Most of the tales of dehadāna are deeply related to the dāna-pāramitā. These stories are sometimes adopted not only in buddhist literature but also in other Indian tales that are regarded as part of the Hindu narrative tradition. Among them, the story of Jīmūtavāhana (hereinafter J), a prince of the demigod Vidyādhara, is one of the well-known Indian tales with the theme of bodily donation to Garuḍa for saving nāgas.\nHowever, there is no story that can be assumed as the original form of the J narrative in the literature that contains many prototypes of tales such as classical epics or jātakas. According to previous research by F. Bosch or Shibajaki Maho, the extant texts containing the J story are classified into three groups according to the type of literature. The first group is recorded in the main motif of the non-existent folktale Bṛhatkathā (BK) tradition. The second group is recorded in Vetālapancaviṃśati(kā) (Vet) and the third group is other traditions excluding these two.\nThis paper focuses on the J story appearing in Vet, which belongs to the second group, and the Nāgānanda (Nāg), which corresponds to the third ‘other’ tradition.\nIn addition, I would like to find that the J narrative can be interpreted in terms of a rite of passage for the restoring royal authority, which is a common structural motif in Hindu narratives. The rite of passage consists of three steps. First, the protagonist’s generosity is emphasized. Second, the protagonist goes through a spacial migration from the kingdom (or grāma) to the forest (or araṇya) and back to the kingdom. Finally, after going through a ritual experience involving danger or death (provoked by self-sacrificial motive), the original royal authority is restored or more sacred authority is acquired through the intervention of transcendental authority or divinity. In this respect, the J story also follows this narrative structure, depicting the process in which the protagonist J acquires the transcendental divinity of vidyādhara cakravartin after going through dehadāna.",
       "journal_name": "인도철학",
       "year": "2023",
       "volume": "",
       "issue": "68",
       "start_page": "77",
       "end_page": "105",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..68.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c35fb39defac795fb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002993012",
       "keywords_kr": [
         "인도설화",
         "사신설화",
@@ -31533,8 +31569,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002993012",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c35fb39defac795fb36097776a77e665",
       "id": "c35fb39defac795fb36097776a77e665"
@@ -31551,16 +31589,16 @@
         }
       ],
       "abstract_kr": "This study aims to examines Tsong kha pa’s theory that non-acceptance of establishment a self-characteristic (rang gi mtshan nyid , svalakṣaṇa) even in transactional- pragmatic usage(vyavahāra) which is proceeding by means of a reasoned knowledge(rigs shes ) that ascertainment on the ultimate truth.Madhyamaka philosophical theory is based on the canonical sources of the Prajñāpāramitā doctrine shown to be empty(śūnya) of self-existence (svabhāva) also known as the non-substantiality(niḥsvabhāvatā) of all things(dharma) and is designated as the Niḥsvabhāvavāda, Śūnyatāvāda. Considering then the Mādhyamaka refrain from taking up position definable in terms of divide conceptual thinking polarized into binary(positive, negative).Therefore of fundamental importance in Madhyamaka’s philosophy is essential for penetrating a reasonal logic with wordly surface-convention and ultimate real which can be known only directly negate in the object all hypostatized conceptual proliferation(prapañca).For Tsong kha pa´s views of the whether or not acceptance of the self-nature established by self-characteristic in transactional-pragmatic usage which is a basic difference between the Svātantrika and Prāsaṇgika Mādhyamikas.The beginning of Tsong kha pa illuminated by Bhāvaviveka acceptance of establishment self-characteristic in transactional-pragmatic usage relate with the dependent nature( paratantra) in his Prajñāpradīpa. But according to Prāsaṇgikas, no acceptance of a self-nature established by self-characteristic even transactional-pragmatic usage.Being discussed of the concept of svalakṣaṇa-siddha that one to hold that a svalakṣaṇa is apt for ’own specific defining characteristic’ in the Abhidharma, for ‘particular characteristic’ in the Pramāṇa school. In order to explain own theory Tsong kha pa criticize Svātantrikas’s tenet that pramāṇa postulated in virtue of a self-characteristic which is proceeding by means of a right knowledge(pramāṇa) that is only sensory cognition(dbang po’i shes pa) and which does not therefore entail analytically investigating the object of ultimate.Conclusion that ‘reasoned knowledge(rigs shes )’ is one of the central concepts in Tsong kha pa’s theory of knowledge and liberation and in understanding the topic of the object of which analytically investigating the ultimate(mthar thug dpyod pa’i rigs shes ) that is the sense of paramārthasatya which shows that a sensory cognition apprehending innate existence is conceiving has no validity and then of ascertainment reality(tattva) in the Ārya’s natural wisdom of meditative equipoise(mnyam gzhag, samāhita jñāna).",
-      "abstract_en": "",
+      "abstract_en": "This study aims to examines Tsong kha pa’s theory that non-acceptance of establishment a self-characteristic (rang gi mtshan nyid, svalakṣaṇa) even in transactional- pragmatic usage(vyavahāra) which is proceeding by means of a reasoned knowledge(rigs shes) that ascertainment on the ultimate truth.\nMadhyamaka philosophical theory is based on the canonical sources of the Prajñāpāramitā doctrine shown to be empty(śūnya) of self-existence (svabhāva) also known as the non-substantiality(niḥsvabhāvatā) of all things(dharma) and is designated as the Niḥsvabhāvavāda, Śūnyatāvāda. Considering then the Mādhyamaka refrain from taking up position definable in terms of divide conceptual thinking polarized into binary(positive, negative).\nTherefore of fundamental importance in Madhyamaka’s philosophy is essential for penetrating a reasonal logic with wordly surface-convention and ultimate real which can be known only directly negate in the object all hypostatized conceptual proliferation(prapañca).\nFor Tsong kha pa´s views of the whether or not acceptance of the self-nature established by self-characteristic in transactional-pragmatic usage which is a basic difference between the Svātantrika and Prāsaṇgika Mādhyamikas.\nThe beginning of Tsong kha pa illuminated by Bhāvaviveka acceptance of establishment self-characteristic in transactional-pragmatic usage relate with the dependent nature(paratantra) in his Prajñāpradīpa. But according to Prāsaṇgikas, no acceptance of a self-nature established by self-characteristic even transactional-pragmatic usage.\nBeing discussed of the concept of svalakṣaṇa-siddha that one to hold that a svalakṣaṇa is apt for ’own specific defining characteristic’ in the Abhidharma, for ‘particular characteristic’ in the Pramāṇa school. In order to explain own theory Tsong kha pa criticize Svātantrikas’s tenet that pramāṇa postulated in virtue of a self-characteristic which is proceeding by means of a right knowledge(pramāṇa) that is only sensory cognition(dbang po’i shes pa) and which does not therefore entail analytically investigating the object of ultimate.\nConclusion that ‘reasoned knowledge(rigs shes)’ is one of the central concepts in Tsong kha pa’s theory of knowledge and liberation and in understanding the topic of the object of which analytically investigating the ultimate(mthar thug dpyod pa’i rigs shes) that is the sense of paramārthasatya which shows that a sensory cognition apprehending innate existence is conceiving has no validity and then of ascertainment reality(tattva) in the Ārya’s natural wisdom of meditative equipoise(mnyam gzhag, samāhita jñāna).",
       "journal_name": "인도철학",
       "year": "2023",
       "volume": "",
       "issue": "68",
       "start_page": "107",
       "end_page": "136",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..68.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c35fb39defac795f4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002993013",
       "keywords_kr": [
         "무자상",
         "논리적 인식",
@@ -31578,8 +31616,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002993013",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c35fb39defac795f4884a65323211ff0",
       "id": "c35fb39defac795f4884a65323211ff0"
@@ -31603,9 +31643,9 @@
       "issue": "69",
       "start_page": "5",
       "end_page": "33",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..69.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=20a9be5722b73d4be9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003035094",
       "keywords_kr": [
         "죽음의 징조",
         "죽음준비",
@@ -31624,8 +31664,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003035094",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "20a9be5722b73d4be9810257f7042666",
       "id": "20a9be5722b73d4be9810257f7042666"
@@ -31649,9 +31691,9 @@
       "issue": "69",
       "start_page": "35",
       "end_page": "65",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..69.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=20a9be5722b73d4b47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003035095",
       "keywords_kr": [
         "차크라",
         "리드비터",
@@ -31672,8 +31714,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003035095",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "20a9be5722b73d4b47de9c1710b0298d",
       "id": "20a9be5722b73d4b47de9c1710b0298d"
@@ -31697,9 +31741,9 @@
       "issue": "69",
       "start_page": "67",
       "end_page": "107",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..69.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=20a9be5722b73d4b7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003035096",
       "keywords_kr": [
         "쫑카빠",
         "세속유",
@@ -31720,8 +31764,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003035096",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "20a9be5722b73d4b7f7a54760bb41745",
       "id": "20a9be5722b73d4b7f7a54760bb41745"
@@ -31745,9 +31791,9 @@
       "issue": "69",
       "start_page": "109",
       "end_page": "155",
-      "doi": "",
+      "doi": "10.32761/kjip.2023..69.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ddc01f5934e3370c47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003035160",
       "keywords_kr": [
         "ākāra",
         "sākāravāda",
@@ -31770,8 +31816,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003035160",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ddc01f5934e3370c47de9c1710b0298d",
       "id": "ddc01f5934e3370c47de9c1710b0298d"
@@ -31788,16 +31836,16 @@
         }
       ],
       "abstract_kr": "This paper examines Bhāviveka’s thoughts on the ‘object of cognition’(ālambana) based on his Madhyamakahṛdaya and Tarkajvālā. It reviews Kajiyama’s and Saito’s assessments that Bhāviveka shows a Sautrāntika tendency when he discusses the object of perceptual cognition.The Sautrāntika master Śrīlāta, or those who exhibit Sautrāntika-styled arguments such as Vasubandhu and Dharmakīrti introduce their own terms like ‘combination’(和合) and ‘excellence’(atiśaya) to explain the discordance between the ‘theoretical reality’ in which atoms are the only real beings and the ‘perceptual reality’ in which atoms do not appear. Bhāviveka, however, regards perceptual reality as ontologically real, albeit on the conventional level. His discussion reveals more familiarity with that of a Sarvāstivādin master, Saṅghabhadra. The paper also observes that, for Bhāviveka, an external entity, an atomic compound, is endowed with a universal (sāmānya), and thus serves to function as the cause of, not only a perceptual, but conceptual cognition.",
-      "abstract_en": "",
+      "abstract_en": "This paper examines Bhāviveka’s thoughts on the ‘object of cognition’(ālambana) based on his Madhyamakahṛdaya and Tarkajvālā. It reviews Kajiyama’s and Saito’s assessments that Bhāviveka shows a Sautrāntika tendency when he discusses the object of perceptual cognition.\nThe Sautrāntika master Śrīlāta, or those who exhibit Sautrāntika-styled arguments such as Vasubandhu and Dharmakīrti introduce their own terms like ‘combination’(和合) and ‘excellence’(atiśaya) to explain the discordance between the ‘theoretical reality’ in which atoms are the only real beings and the ‘perceptual reality’ in which atoms do not appear. Bhāviveka, however, regards perceptual reality as ontologically real, albeit on the conventional level. His discussion reveals more familiarity with that of a Sarvāstivādin master, Saṅghabhadra. The paper also observes that, for Bhāviveka, an external entity, an atomic compound, is endowed with a universal (sāmānya), and thus serves to function as the cause of, not only a perceptual, but conceptual cognition.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "70",
       "start_page": "5",
       "end_page": "37",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..70.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=16baec0cf760e6c27ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003076321",
       "keywords_kr": [
         "바비베까",
         "극미",
@@ -31816,8 +31864,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003076321",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "16baec0cf760e6c27ecd42904f0c5d65",
       "id": "16baec0cf760e6c27ecd42904f0c5d65"
@@ -31878,16 +31928,16 @@
         }
       ],
       "abstract_kr": "In the recently published paper, I explicated that mindfulness meditation has the aspects of Samatha and Vipassanā on the basis of Samādhi Sutta(AN 4:94) and Bhante Vimalaramsi’s interpretation of the Ānāpānasati Sutta(MN 118). This view contrasts with that of most of the scholars in Korea who advocate that Satipaṭṭhāna is of Vipassanā. However, Joon-young Chung pointed out that the prevalent view concerning Samatha and Vipassanā in Korea is influenced by the Theravāda Buddhism in Southeast Asia, which considers Anupassanā as identical with Vipassanā. According to him, the tradition of meditation of the Theravāda Buddhism in Southeast Asia is inclined to be based on the Abhidhamma and its commentaries rather than early Buddhist scriptures. Hence, he pointed out that it is required to understand Samatha and Vipassanā as explained in early Buddhist scriptures. In this paper, I interpret the terminology of ‘internal’(ajjhattaṁ) and ‘external’(bahiddhā) as meaning Samatha and Vipassanā respectively with reference to Pubba Sutta(SN 51:11), Janavasabha Sutta(DN 18), Uddesavibhaṅga Sutta(MN 138) as well as Samādhi Sutta(AN 4:94) and thus uphold that Anupassanā of Satipaṭṭhāna has the contradictory aspects of Samatha and Vipassanā. It is derived that Anupassanā functions as a connecting link of the contradictory Samatha and Vipassanā with the help of balancing role of Sati as it balances the opposites among five faculties and powers. The possibility of practicing(bhāvanā) Samatha and Vipassanā interdependently consists in achieving balance or Middle Path by referring to Uddesavibhaṅga Sutta(MN 138). It is concluded that the problematic of the development of interdependent Samatha and Vipassanā culminates in developing the Noble Eightfold Path consisting of ethical conduct(Sīla), concentration(Samādhi), and wisdom(Paññā) in the light of Mahācattārīsaka Sutta(MN 117).",
-      "abstract_en": "",
+      "abstract_en": "In the recently published paper, I explicated that mindfulness meditation has the aspects of Samatha and Vipassanā on the basis of Samādhi Sutta(AN 4:94) and Bhante Vimalaramsi’s interpretation of the Ānāpānasati Sutta(MN 118). This view contrasts with that of most of the scholars in Korea who advocate that Satipaṭṭhāna is of Vipassanā. However, Joon-young Chung pointed out that the prevalent view concerning Samatha and Vipassanā in Korea is influenced by the Theravāda Buddhism in Southeast Asia, which considers Anupassanā as identical with Vipassanā. According to him, the tradition of meditation of the Theravāda Buddhism in Southeast Asia is inclined to be based on the Abhidhamma and its commentaries rather than early Buddhist scriptures. Hence, he pointed out that it is required to understand Samatha and Vipassanā as explained in early Buddhist scriptures. In this paper, I interpret the terminology of ‘internal’(ajjhattaṁ) and ‘external’(bahiddhā) as meaning Samatha and Vipassanā respectively with reference to Pubba Sutta(SN 51:11), Janavasabha Sutta(DN 18), Uddesavibhaṅga Sutta(MN 138) as well as Samādhi Sutta(AN 4:94) and thus uphold that Anupassanā of Satipaṭṭhāna has the contradictory aspects of Samatha and Vipassanā. It is derived that Anupassanā functions as a connecting link of the contradictory Samatha and Vipassanā with the help of balancing role of Sati as it balances the opposites among five faculties and powers. The possibility of practicing(bhāvanā) Samatha and Vipassanā interdependently consists in achieving balance or Middle Path by referring to Uddesavibhaṅga Sutta(MN 138). It is concluded that the problematic of the development of interdependent Samatha and Vipassanā culminates in developing the Noble Eightfold Path consisting of ethical conduct(Sīla), concentration(Samādhi), and wisdom(Paññā) in the light of Mahācattārīsaka Sutta(MN 117).",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "70",
       "start_page": "67",
       "end_page": "93",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..70.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=16baec0cf760e6c24884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003075710",
       "keywords_kr": [
         "마음챙김",
         "사마타",
@@ -31904,8 +31954,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003075710",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "16baec0cf760e6c24884a65323211ff0",
       "id": "16baec0cf760e6c24884a65323211ff0"
@@ -31922,16 +31974,16 @@
         }
       ],
       "abstract_kr": "This study examines the variations and applications of Vīrāsana (Hero Pose) from classical and Hatha yoga to modern yoga. The transformation of Vīrāsana is considered a paradigm of the poses extensively modified or developed in modern yoga.In classical yoga, commentators predominantly recognized Hero Pose as half-lotus pose, though it was sometimes identified with full-lotus pose. Additionally, two different forms were considered as Hero Pose based on the direction of the bent legs and the position of the feet, one of which was a specific applied posture described in the original texts of Hatha Yoga, GS and HP.These four postures can trace their origins to Śaṅkara’s vague reference to “Hero Pose as bending one leg and placing the other knee on the ground.” Later commentators and original texts of Hatha Yoga clarified Śaṅkara’s ambiguous comments by specifying the direction and position of the legs, although the exact locations such as 'side,' 'below,' or 'above' remained unclear. Depending on how these positions are applied, the leg posture of Hero Pose can be demonstrated in different forms, resulting in unique postures in modern yoga distinct from the traditional Hero Pose.Therefore, the ambiguity of the original texts describing Hero Pose, the subjectivity in interpretation and translation, and the development of applications during demonstration are identified as the main factors in the transformation of Hero Pose. Moreover, this transformation process in modern yoga represents a shift from focusing on mental well-being through meditation to enhancing physical functionality and health through the adaptation or development of asanas.",
-      "abstract_en": "",
+      "abstract_en": "This study examines the variations and applications of Vīrāsana (Hero Pose) from classical and Hatha yoga to modern yoga. The transformation of Vīrāsana is considered a paradigm of the poses extensively modified or developed in modern yoga.\nIn classical yoga, commentators predominantly recognized Hero Pose as half-lotus pose, though it was sometimes identified with full-lotus pose. Additionally, two different forms were considered as Hero Pose based on the direction of the bent legs and the position of the feet, one of which was a specific applied posture described in the original texts of Hatha Yoga, GS and HP.\nThese four postures can trace their origins to Śaṅkara’s vague reference to “Hero Pose as bending one leg and placing the other knee on the ground.” Later commentators and original texts of Hatha Yoga clarified Śaṅkara’s ambiguous comments by specifying the direction and position of the legs, although the exact locations such as 'side,' 'below,' or 'above' remained unclear. Depending on how these positions are applied, the leg posture of Hero Pose can be demonstrated in different forms, resulting in unique postures in modern yoga distinct from the traditional Hero Pose.\nTherefore, the ambiguity of the original texts describing Hero Pose, the subjectivity in interpretation and translation, and the development of applications during demonstration are identified as the main factors in the transformation of Hero Pose. Moreover, this transformation process in modern yoga represents a shift from focusing on mental well-being through meditation to enhancing physical functionality and health through the adaptation or development of asanas.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "70",
       "start_page": "95",
       "end_page": "123",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..70.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=16baec0cf760e6c2b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003075738",
       "keywords_kr": [
         "결가부좌",
         "고전 요가",
@@ -31949,8 +32001,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003075738",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "16baec0cf760e6c2b7998d826d417196",
       "id": "16baec0cf760e6c2b7998d826d417196"
@@ -31967,16 +32021,16 @@
         }
       ],
       "abstract_kr": "Words with the suffixes, ~tūna, ~tvāna, ~tvā often appears in Pāli Canon and western scholars have called them gerund, indeclinable (past) participle, or absolutive. This paper aims to study the abbreviation, grammatical category, function, and substitution of these Pāli suffixes, namely, tūna, tvāna, tvā, focused on the relevant rules of Kaccāyana-vyākaraṇa(KV), Moggallāna-vyākaraṇa(MV), Saddanīti(Sadd).The suffixes tūna, tvāna, tvā in three grammar texts are abbreviated to tūnādayo(tūna etc.), tūnādayo belongs to kita, a class of suffixes that are applied directly to the verbal root to form primary derivatives. These derivatives are indeclinables that do not belong to the category of ‘noun’ that is declinable.The main function of tūnādayo is to express the preceding action in time. Out of two or more actions performed by one doer, tūnādayo are applied after the verbal root denoting the preceding action, and the words with this suffix are mainly translated into ‘having done’ and ‘after doing’. With regard to the secondary functions, the suffixes are used to denote the concurrent action of one doer, the future action than the main verb, the preceding action of different doers, or cause, but the frequency of use is low. And those suffixes are sometimes substituted by ya, acca, svāna, svā, mma, yha, jja, bbha, and ddha in some cases.With regard to the grammatical rules related to the subject of this study, KV presents main function along with various examples, MV uses questions and answers to enable a good understanding of the function of rules, and Sadd specifically presents various ranges of use, therefore it was possible to examine tūnādayo in various ways of the three grammar texts.As the final process of this study, both suitability and fallacy of the modern term of words ending in tūnādayo were examined, through this process, the grammatical range and feature of words ending in tūnādayo became manifest. And one thing is clear that the suffix-centered description in KV, MV, Sadd regarding the grammatical topics such as tūnādayo are more accessible than to try to correspond to existing English or Korean grammatical categories.",
-      "abstract_en": "",
+      "abstract_en": "Words with the suffixes, ~tūna, ~tvāna, ~tvā often appears in Pāli Canon and western scholars have called them gerund, indeclinable (past) participle, or absolutive. This paper aims to study the abbreviation, grammatical category, function, and substitution of these Pāli suffixes, namely, tūna, tvāna, tvā, focused on the relevant rules of Kaccāyana-vyākaraṇa(KV), Moggallāna-vyākaraṇa(MV), Saddanīti(Sadd).\nThe suffixes tūna, tvāna, tvā in three grammar texts are abbreviated to tūnādayo(tūna etc.), tūnādayo belongs to kita, a class of suffixes that are applied directly to the verbal root to form primary derivatives. These derivatives are indeclinables that do not belong to the category of ‘noun’ that is declinable.\nThe main function of tūnādayo is to express the preceding action in time. Out of two or more actions performed by one doer, tūnādayo are applied after the verbal root denoting the preceding action, and the words with this suffix are mainly translated into ‘having done’ and ‘after doing’. With regard to the secondary functions, the suffixes are used to denote the concurrent action of one doer, the future action than the main verb, the preceding action of different doers, or cause, but the frequency of use is low. And those suffixes are sometimes substituted by ya, acca, svāna, svā, mma, yha, jja, bbha, and ddha in some cases.\nWith regard to the grammatical rules related to the subject of this study, KV presents main function along with various examples, MV uses questions and answers to enable a good understanding of the function of rules, and Sadd specifically presents various ranges of use, therefore it was possible to examine tūnādayo in various ways of the three grammar texts.\nAs the final process of this study, both suitability and fallacy of the modern term of words ending in tūnādayo were examined, through this process, the grammatical range and feature of words ending in tūnādayo became manifest. And one thing is clear that the suffix-centered description in KV, MV, Sadd regarding the grammatical topics such as tūnādayo are more accessible than to try to correspond to existing English or Korean grammatical categories.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "70",
       "start_page": "125",
       "end_page": "151",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..70.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=16baec0cf760e6c2c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003075761",
       "keywords_kr": [
         "절대사",
         "불변분사",
@@ -31994,8 +32048,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003075761",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "16baec0cf760e6c2c85d2949c297615a",
       "id": "16baec0cf760e6c2c85d2949c297615a"
@@ -32019,9 +32075,9 @@
       "issue": "71",
       "start_page": "5",
       "end_page": "41",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..71.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=96edd6b291eb23bf6aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003112720",
       "keywords_kr": [
         "후기밀교",
         "장송의례",
@@ -32037,8 +32093,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003112720",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "96edd6b291eb23bf6aae8a972f9116fb",
       "id": "96edd6b291eb23bf6aae8a972f9116fb"
@@ -32062,9 +32120,9 @@
       "issue": "71",
       "start_page": "43",
       "end_page": "65",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..71.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=96edd6b291eb23bfe9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003112721",
       "keywords_kr": [
         "요가끄셰마",
         "요가케마",
@@ -32081,8 +32139,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003112721",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "96edd6b291eb23bfe9810257f7042666",
       "id": "96edd6b291eb23bfe9810257f7042666"
@@ -32106,9 +32166,9 @@
       "issue": "71",
       "start_page": "67",
       "end_page": "103",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..71.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=96edd6b291eb23bfd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003112723",
       "keywords_kr": [
         "Nāṭyaśāstra",
         "산스크리트 단막극",
@@ -32129,8 +32189,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003112723",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "96edd6b291eb23bfd18150b21a227875",
       "id": "96edd6b291eb23bfd18150b21a227875"
@@ -32154,9 +32216,9 @@
       "issue": "71",
       "start_page": "105",
       "end_page": "134",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..71.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=96edd6b291eb23bf7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003112728",
       "keywords_kr": [
         "재생연결",
         "결생(結生)",
@@ -32173,8 +32235,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003112728",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "96edd6b291eb23bf7f7a54760bb41745",
       "id": "96edd6b291eb23bf7f7a54760bb41745"
@@ -32191,16 +32255,16 @@
         }
       ],
       "abstract_kr": "The scriptures are formed during the interaction between text and context. Such an interaction not only defines but also liberates human life.Based on the active interaction between text and context, this paper examines the view of women based on the human understanding and salvation theory of Pure Land Buddhism, which has a lot of influence to this day.The object of salvation seen in Pure Land Buddhism is universal. The door to salvation is open to everyone. However, the contents of the 35th among the 48 members of The Larger Sukhāvatīvyuha Sūtra unfolds as if there were restrictions on women in salvation. Starting with the question of whether women are the object of hatred and whether the Sect of Pure Land claims to be unfaithful to women, the original meaning is to be deduced by studying the Chinese and English versions reflecting each era of the 35th member.It is necessary to take a step further from the explanatory approach of reflecting the negative content of women in the scriptures. This is because the alienation or discriminatory content of women in the scriptures is not limited to the story or the past society, but is a accusation against the very general alienation that occurs frequently today and is applicable.Therefore, through the consideration of women in No. 35 of the The Larger Sukhāvatīvyuha Sūtra, we will seek a path to humanization that declares freedom and freedom for all marginalized people beyond sex in this society where violence and alienation are taken for granted.",
-      "abstract_en": "",
+      "abstract_en": "The scriptures are formed during the interaction between text and context. Such an interaction not only defines but also liberates human life.\nBased on the active interaction between text and context, this paper examines the view of women based on the human understanding and salvation theory of Pure Land Buddhism, which has a lot of influence to this day.\nThe object of salvation seen in Pure Land Buddhism is universal. The door to salvation is open to everyone. However, the contents of the 35th among the 48 members of The Larger Sukhāvatīvyuha Sūtra unfolds as if there were restrictions on women in salvation. Starting with the question of whether women are the object of hatred and whether the Sect of Pure Land claims to be unfaithful to women, the original meaning is to be deduced by studying the Chinese and English versions reflecting each era of the 35th member.\nIt is necessary to take a step further from the explanatory approach of reflecting the negative content of women in the scriptures. This is because the alienation or discriminatory content of women in the scriptures is not limited to the story or the past society, but is a \"accusation\" against the very general \"alienation\" that occurs frequently today and is applicable.\nTherefore, through the consideration of women in No. 35 of the The Larger Sukhāvatīvyuha Sūtra, we will seek a path to \"humanization\" that declares freedom and freedom for all marginalized people beyond sex in this society where violence and alienation are taken for granted.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "71",
       "start_page": "135",
       "end_page": "166",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..71.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=68eda189f5bd385bb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003113333",
       "keywords_kr": [
         "정토불교",
         "정토",
@@ -32219,8 +32283,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003113333",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "68eda189f5bd385bb7998d826d417196",
       "id": "68eda189f5bd385bb7998d826d417196"
@@ -32244,9 +32310,9 @@
       "issue": "71",
       "start_page": "167",
       "end_page": "200",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..71.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bfea1ff5bbb3466cc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003112733",
       "keywords_kr": [
         "반야중관",
         "사구분별",
@@ -32265,8 +32331,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003112733",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "bfea1ff5bbb3466cc85d2949c297615a",
       "id": "bfea1ff5bbb3466cc85d2949c297615a"
@@ -32290,9 +32358,9 @@
       "issue": "71",
       "start_page": "201",
       "end_page": "240",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..71.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=96edd6b291eb23bf47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003112737",
       "keywords_kr": [
         "일체지",
         "일체지자",
@@ -32311,8 +32379,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003112737",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "96edd6b291eb23bf47de9c1710b0298d",
       "id": "96edd6b291eb23bf47de9c1710b0298d"
@@ -32329,16 +32399,16 @@
         }
       ],
       "abstract_kr": "This paper analyzes the Samāsakappa(the Chapter of Compounds) of Kaccāyana-vyākaraṇa, hereinafter referred to as KV, for the overall understanding of the Pāli compounds.The group dealing with compounds in KV is the Samāsakappa, which consists of 28 grammatical rules from KV318 to KV345. This Samāsakappa is an independent chapter, but is also included in a large category as Nāmakappa(the Chapter of Nouns). The fact that the compound falls into the category of ‘noun’ means that the vibhatti(case terminations) can be applied after the compounds and can be treated as a noun in the morphological procedure.The literal meaning of samāsa is ‘combining together, conjoining’, but in the context of Pāli grammar, samāsa generally means ‘compounds,’. According to KV, samāsa denotes combining of the meanings of nouns.The interrelationship between constituent words of compounds is not revealed apparently because the case termination after compounds is eliminated in the process of forming the compound. According to the interrelationship of these constituent words, the six compounds, that is, abyayībhāva, kammadhāraya, digu, tappurisa, bahubbīhi, and dvanda are classified.Identifying the context before and after is important for accurate interpretation of compounds, but it is also essential to distinguish and understand these six compounds. Therefore, this paper examines the category and composition of the Samāsakappa, the definition of samāsa, the common procedure of compounds, the definitions of six compounds, the etymological meaning of each example compound, and the origin of the Pāli terms of the six compounds.The words, digu, tappurisa, and bahubbīhi are compounds belonging to this very type of compounds, and have become the terms representing this type of compounds. And abyayībhāva, kammadhāraya, and dvanda are words that describe the characteristic aspects of the compounds, so they have become the terms of compounds.The Pāli terms of the Pāli compounds presented in KV, is an intuitive term that makes it easy to think of the concept of six compounds. And the etymological meaning that KV presents for each example compounds is a key of understanding the interrelationship of constituent words of compounds. In this respect, it can be said that the study of Pāli compounds through KV is more accessible to Pāli compounds.",
-      "abstract_en": "",
+      "abstract_en": "This paper analyzes the Samāsakappa(the Chapter of Compounds) of Kaccāyana-vyākaraṇa, hereinafter referred to as KV, for the overall understanding of the Pāli compounds.\nThe group dealing with compounds in KV is the Samāsakappa, which consists of 28 grammatical rules from KV318 to KV345. This Samāsakappa is an independent chapter, but is also included in a large category as Nāmakappa(the Chapter of Nouns). The fact that the compound falls into the category of ‘noun’ means that the vibhatti(case terminations) can be applied after the compounds and can be treated as a noun in the morphological procedure.\nThe literal meaning of samāsa is ‘combining together, conjoining’, but in the context of Pāli grammar, samāsa generally means ‘compounds,’. According to KV, samāsa denotes combining of the meanings of nouns.\nThe interrelationship between constituent words of compounds is not revealed apparently because the case termination after compounds is eliminated in the process of forming the compound. According to the interrelationship of these constituent words, the six compounds, that is, abyayībhāva, kammadhāraya, digu, tappurisa, bahubbīhi, and dvanda are classified.\nIdentifying the context before and after is important for accurate interpretation of compounds, but it is also essential to distinguish and understand these six compounds. Therefore, this paper examines the category and composition of the Samāsakappa, the definition of samāsa, the common procedure of compounds, the definitions of six compounds, the etymological meaning of each example compound, and the origin of the Pāli terms of the six compounds.\nThe words, digu, tappurisa, and bahubbīhi are compounds belonging to this very type of compounds, and have become the terms representing this type of compounds. And abyayībhāva, kammadhāraya, and dvanda are words that describe the characteristic aspects of the compounds, so they have become the terms of compounds.\nThe Pāli terms of the Pāli compounds presented in KV, is an intuitive term that makes it easy to think of the concept of six compounds. And the etymological meaning that KV presents for each example compounds is a key of understanding the interrelationship of constituent words of compounds. In this respect, it can be said that the study of Pāli compounds through KV is more accessible to Pāli compounds.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "72",
       "start_page": "5",
       "end_page": "38",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..72.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=662a4786a53baffc47de9c1710b0298d",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003154861",
       "keywords_kr": [
         "복합어",
         "깟짜야나문법",
@@ -32356,8 +32426,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003154861",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "662a4786a53baffc47de9c1710b0298d",
       "id": "662a4786a53baffc47de9c1710b0298d"
@@ -32374,16 +32446,16 @@
         }
       ],
       "abstract_kr": "In Early Buddhist Schools in India, sati(念, sk. smṛti) appears as the central concept of samatha-vipassana. Currently, the definition and concept of sati are used various terms both at home and abroad. Additionally, current Buddhist Studies tend to hesitate or avoid defining sati as its original meaning of memory. For this reason, the translation of sati is mindfulness, which is mainly used in English-speaking countries. In Korea, various terms such as ‘maeumchaenggim’ or ‘alachalim’ are used as translations of mindfulness or awareness. In this way, sati is used as a translation that differs from its traditional definition and meaning.So, what definition and concept does sati appear in the early canonical texts of various Buddhist schools and various treatises of the Abhidhamma works? The early canonical texts of various Buddhist schools and the Abhidhamma works that exist include Theravāda, Sarvâstivāda, Dharmaguptaka, Kāśyapīya and Mahāsāṁghika. In conclusion, it is confirmed that sati is used in the meaning of memory in all canonical texts of Buddhist schools. Likewise, in the Abhidhamma works of all Buddhist schools, sati appears basically to mean memory.In the canonical texts of all Buddhist schools and the Abhidhamma works, sati cannot be found used in any other sense than memory. In all canonical texts and the Abhidhamma works of various Buddhist schools, sati is defined as ‘memory’, that is, remembering past actions and words. This is confirmed to be consistently defined as memory in the canonical texts of all Buddhist schools and in the treatises of all Buddhist schools. The conclusion of this comprehensive investigation is that we must critically examine what is missing from memory issues in Buddhist practice. In this respect, this study suggests that sati should be studied again with a focus on memory in the future.",
-      "abstract_en": "",
+      "abstract_en": "In Early Buddhist Schools in India, sati(念, sk. smṛti) appears as the central concept of samatha-vipassana. Currently, the definition and concept of sati are used various terms both at home and abroad. Additionally, current Buddhist Studies tend to hesitate or avoid defining sati as its original meaning of memory. For this reason, the translation of sati is mindfulness, which is mainly used in English-speaking countries. In Korea, various terms such as ‘maeumchaenggim’ or ‘alachalim’ are used as translations of mindfulness or awareness. In this way, sati is used as a translation that differs from its traditional definition and meaning.\nSo, what definition and concept does sati appear in the early canonical texts of various Buddhist schools and various treatises of the Abhidhamma works? The early canonical texts of various Buddhist schools and the Abhidhamma works that exist include Theravāda, Sarvastivāda, Dharmaguptaka, Kāśyapīya and Mahāsāṁghika. In conclusion, it is confirmed that sati is used in the meaning of memory in all canonical texts of Buddhist schools. Likewise, in the Abhidhamma works of all Buddhist schools, sati appears basically to mean memory.\nIn the canonical texts of all Buddhist schools and the Abhidhamma works, sati cannot be found used in any other sense than memory. In all canonical texts and the Abhidhamma works of various Buddhist schools, sati is defined as ‘memory’, that is, remembering past actions and words. This is confirmed to be consistently defined as memory in the canonical texts of all Buddhist schools and in the treatises of all Buddhist schools. The conclusion of this comprehensive investigation is that we must critically examine what is missing from memory issues in Buddhist practice. In this respect, this study suggests that sati should be studied again with a focus on memory in the future.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "72",
       "start_page": "39",
       "end_page": "68",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..72.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=662a4786a53baffc7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003154874",
       "keywords_kr": [
         "사띠",
         "기억",
@@ -32402,8 +32474,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003154874",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "662a4786a53baffc7f7a54760bb41745",
       "id": "662a4786a53baffc7f7a54760bb41745"
@@ -32420,16 +32494,16 @@
         }
       ],
       "abstract_kr": "This paper aims to trace the historical changes and background of the concept of jhāna/dhyāna, taking as its starting point the definition of its essence and etymological interpretation found in the Samāpattinirdeśa of the Abhidharmakośabhāśya.While the Abhidharmakośabhāśya defines the nature of dhyāna as samādhi , it states that the word itself is derived from a root meaning 'to contemplate'. According to this interpretation, dhyāna is both samādhi and a means of contemplation. To understand dhyāna in these two aspects - samādhi and contemplation - also appears in pre-Abhidharmakośabhāśya texts of the Sarvāstivāda and Yogācāra schools.In contrast, the Southern Buddhist textual tradition explains the concept of jhāna based on two roots meaning 'contemplation' and 'burning'. In Northern Buddhist texts, the meaning of 'burning' disappears and changes into samādhi , with translation issues and meditative theory in the background.Finally, this paper examines what the original meaning of jhāna/dhyāna might have been. As a result, it suggests the possibility that 'burning' rather than the commonly accepted meaning of 'contemplation' may have been the original meaning.This paper examines the historical development of the concept of jhāna/dhyāna to expand our understanding of its original meaning and process of change. What can be confirmed here is that jhāna/dhyāna, as a Buddhist meditative practice, likely functioned originally as a path to liberation aimed at attaining nirvana through the elimination of negative emotions, independent of insight into the Four Noble Truths.",
-      "abstract_en": "",
+      "abstract_en": "This paper aims to trace the historical changes and background of the concept of jhāna/dhyāna, taking as its starting point the definition of its essence and etymological interpretation found in the \"Samāpattinirdeśa\" of the Abhidharmakośabhāśya.\nWhile the Abhidharmakośabhāśya defines the nature of dhyāna as samādhi, it states that the word itself is derived from a root meaning 'to contemplate'. According to this interpretation, dhyāna is both samādhi and a means of contemplation. To understand dhyāna in these two aspects - samādhi and contemplation - also appears in pre-Abhidharmakośabhāśya texts of the Sarvāstivāda and Yogācāra schools.\nIn contrast, the Southern Buddhist textual tradition explains the concept of jhāna based on two roots meaning 'contemplation' and 'burning'. In Northern Buddhist texts, the meaning of 'burning' disappears and changes into samādhi, with translation issues and meditative theory in the background.\nFinally, this paper examines what the original meaning of jhāna/dhyāna might have been. As a result, it suggests the possibility that 'burning' rather than the commonly accepted meaning of 'contemplation' may have been the original meaning.\nThis paper examines the historical development of the concept of jhāna/dhyāna to expand our understanding of its original meaning and process of change. What can be confirmed here is that jhāna/dhyāna, as a Buddhist meditative practice, likely functioned originally as a path to liberation aimed at attaining nirvana through the elimination of negative emotions, independent of insight into the Four Noble Truths.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "72",
       "start_page": "69",
       "end_page": "105",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..72.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=662a4786a53baffce9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003154903",
       "keywords_kr": [
         "정려",
         "삼매",
@@ -32447,8 +32521,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003154903",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "662a4786a53baffce9810257f7042666",
       "id": "662a4786a53baffce9810257f7042666"
@@ -32465,16 +32541,16 @@
         }
       ],
       "abstract_kr": "The present paper examines the role of faith (saddhā) in Buddhist meditative practice (bhāvanā) according to Early Buddhist texts and post canonical texts. Modern Buddhist practitioners whose sensibilities have been moulded by more recent Western intellectural tradition and secualizaton are often uncomfortable in the presence of religious faith and its devotional and ritual expression in Buddhism. I argue that liberation, the ultimate goal of Buddhism is hard to come by without spiritual activities and spiritual activities are impossible without saddhā in Buddhist religious practice. This interpretation of saddhā finds its rationale from a study of the nature of saddhā as motivating spiritual activities (pakkhandanarasā) and clarifying (pasādanarasā) mind behind Buddhist religious practice. Moreover, the interaction of faith in its cognitive mode and faith in its affective mode also confirms this interpretation. Without faith in its affective mode, a positive emotional response to someone or something one has heard or read, faith in its cognitive mode, putative knowledge or awareness that amounts to belief in propositions or statements of which one does not, or cannot, have direct knowledge, is not possible. Therefore, faith and its devotional and ritual expression in Buddhism constitute a preliminary meditative practice, settling and composing the mind in preparation for the higher stages of Buddhist meditative practice.",
-      "abstract_en": "",
+      "abstract_en": "The present paper examines the role of faith (saddhā) in Buddhist meditative practice (bhāvanā) according to Early Buddhist texts and post canonical texts. Modern Buddhist practitioners whose sensibilities have been moulded by more recent Western intellectural tradition and secualizaton are often uncomfortable in the presence of religious faith and its devotional and ritual expression in Buddhism. I argue that liberation, the ultimate goal of Buddhism is hard to come by without spiritual activities and spiritual activities are impossible without saddhā in Buddhist religious practice. This interpretation of saddhā finds its rationale from a study of the nature of saddhā as motivating spiritual activities (pakkhandanarasā) and clarifying (pasādanarasā) mind behind Buddhist religious practice. Moreover, the interaction of faith in its cognitive mode and faith in its affective mode also confirms this interpretation. Without faith in its affective mode, a positive emotional response to someone or something one has heard or read, faith in its cognitive mode, putative knowledge or awareness that amounts to belief in propositions or statements of which one does not, or cannot, have direct knowledge, is not possible. Therefore, faith and its devotional and ritual expression in Buddhism constitute a preliminary meditative practice, settling and composing the mind in preparation for the higher stages of Buddhist meditative practice.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "72",
       "start_page": "106",
       "end_page": "133",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..72.004",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=662a4786a53baffcd18150b21a227875",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003154914",
       "keywords_kr": [
         "믿음",
         "초기불교",
@@ -32496,8 +32572,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003154914",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "662a4786a53baffcd18150b21a227875",
       "id": "662a4786a53baffcd18150b21a227875"
@@ -32514,16 +32592,16 @@
         }
       ],
       "abstract_kr": "This paper reviews and compares three commentators’ discussions on the outsider’s charge that the Mādhyamikas are similar to the nāstikas found in their commentaries on Nāgārjuna’s Mūlamadhyamakakārikā 18.7. Buddhapālita (5th cen.) expands the existing Mādhyamika response to the critique, while Bhāviveka (6th cen.), denouncing the traditional answer that acknowledges the outer similarities between the Mādhyamikas and the nāstikas, submits a new one framed according to the two truths. On the other hand, Candrakīrti (7th cen.) defended the traditional stance to the charge, though adopting new elements from Bhāviveka’s discussion.",
-      "abstract_en": "",
+      "abstract_en": "This paper reviews and compares three commentators’ discussions on the outsider’s charge that the Mādhyamikas are similar to the nāstikas found in their commentaries on Nāgārjuna’s Mūlamadhyamakakārikā 18.7. Buddhapālita (5th cen.) expands the existing Mādhyamika response to the critique, while Bhāviveka (6th cen.), denouncing the traditional answer that acknowledges the outer similarities between the Mādhyamikas and the nāstikas, submits a new one framed according to the two truths. On the other hand, Candrakīrti (7th cen.) defended the traditional stance to the charge, though adopting new elements from Bhāviveka’s discussion.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "72",
       "start_page": "134",
       "end_page": "159",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..72.005",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=662a4786a53baffc4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003154986",
       "keywords_kr": [
         "중론",
         "붓다빨리따",
@@ -32540,8 +32618,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003154986",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "662a4786a53baffc4884a65323211ff0",
       "id": "662a4786a53baffc4884a65323211ff0"
@@ -32558,16 +32638,16 @@
         }
       ],
       "abstract_kr": "In the West, the scholarly study of the Nyingma school of Tibetan Buddhism has a long history dating back to the early 20th century, with an initial focus on the philological and historical analysis of its complex literature and its transmission, and a later emphasis on rituals and practices. However, Korean Buddhologists have typically devoted themselves to Seon (Chan) and Korean Buddhism, paying little attention to Vajrayana Buddhism in general and the Nyingma school in particular. Therefore, the first goal of this article is to introduce the notion of bardo (intermediate state) and zhi khro (peaceful and wrathful deities) rituals to Korean academia. To do so, a textual contextualization within the 'Ancient Tantric Collections' (rnying ma rgyud 'bum) is first presented, along with its related texts, and contemporary studies. This will allow us to examine the characteristics of the intermediate state in Tibetan Buddhism through the text The Great Liberation through Listening in the Bardo State (bar do thos grol chen mo), also known as The Tibetan Book of the Dead, and then, address the concept of “zhi khro,” which refers to esoterically described peaceful and wrathful deities and their rituals and which is somewhat unfamiliar to the Korean Buddhist.The paper shows how the intermediate state (bar do) and zhi khro rituals are concepts and practices that originated in the Guhyagarbha Tantra (rgyud gsang ba'i snying po, *密續秘密藏) in the Ancient Tantric Collections (rnying ma rgyud 'bum, 古密敎全集) and were further elaborated as Tibetan Buddhism developed. The iconography and symbolism of the 100 peaceful and wrathful deities in the Guhyagarbha Tantra were later further refined in Tibetan texts on the peaceful deities (zhi ba'i lha) and wrathful deities (khro bo'i lha), within which, the famous The Great Liberation through Listening in the Bardo State (bar do thos grol chen mo, 14C) is located.An innovative contribution of this article is the interpretation of the unique view of the intermediate state of Tibetan Buddhism as transmitted in the ancient translation school (rnying ma) through the Six Bardo Verses (drug gi rtsa tshig) from the Great Liberation through Listening in the Bardo State in order to discover the differences with the East Asian concept of the intermediate state contained in Zhong-yin (中陰), a representative Chinese translation of the intermediate state.By furthering the understanding of the Nyingma school of Tibetan Buddhism and introducing bardo and zhi khro rituals, we are able to situate Tibetan Buddhist practice in its historical and literary contexts, as well as its uniqueness and philosophical depth. This article shows the complexities of and rationale of these specific Tibetan Buddhist rituals and practices. In terms of practice, their essence is one, which to serve as skillful means, a method anyone can actually apply at all different states.",
-      "abstract_en": "",
+      "abstract_en": "In the West, the scholarly study of the Nyingma school of Tibetan Buddhism has a long history dating back to the early 20th century, with an initial focus on the philological and historical analysis of its complex literature and its transmission, and a later emphasis on rituals and practices. However, Korean Buddhologists have typically devoted themselves to Seon (Chan) and Korean Buddhism, paying little attention to Vajrayana Buddhism in general and the Nyingma school in particular. Therefore, the first goal of this article is to introduce the notion of bardo (intermediate state) and zhi khro (peaceful and wrathful deities) rituals to Korean academia. To do so, a textual contextualization within the 'Ancient Tantric Collections' (rnying ma rgyud 'bum) is first presented, along with its related texts, and contemporary studies. This will allow us to examine the characteristics of the intermediate state in Tibetan Buddhism through the text \"The Great Liberation through Listening in the Bardo State (bar do thos grol chen mo),\" also known as The Tibetan Book of the Dead, and then, address the concept of “zhi khro,” which refers to esoterically described peaceful and wrathful deities and their rituals and which is somewhat unfamiliar to the Korean Buddhist.\nThe paper shows how the intermediate state (bar do) and zhi khro rituals are concepts and practices that originated in the Guhyagarbha Tantra (rgyud gsang ba'i snying po, *密續秘密藏) in \"the Ancient Tantric Collections (rnying ma rgyud 'bum, 古密敎全集)\" and were further elaborated as Tibetan Buddhism developed. The iconography and symbolism of the 100 peaceful and wrathful deities in the Guhyagarbha Tantra were later further refined in Tibetan texts on the peaceful deities (zhi ba'i lha) and wrathful deities (khro bo'i lha), within which, the famous \"The Great Liberation through Listening in the Bardo State (bar do thos grol chen mo, 14C)\" is located.\nAn innovative contribution of this article is the interpretation of the unique view of the intermediate state of Tibetan Buddhism as transmitted in the ancient translation school (rnying ma) through the \"Six Bardo Verses (drug gi rtsa tshig)\" from the Great Liberation through Listening in the Bardo State in order to discover the differences with the East Asian concept of the intermediate state contained in Zhong-yin (中陰), a representative Chinese translation of the intermediate state.\nBy furthering the understanding of the Nyingma school of Tibetan Buddhism and introducing bardo and zhi khro rituals, we are able to situate Tibetan Buddhist practice in its historical and literary contexts, as well as its uniqueness and philosophical depth. This article shows the complexities of and rationale of these specific Tibetan Buddhist rituals and practices. In terms of practice, their essence is one, which to serve as skillful means, a method anyone can actually apply at all different states.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "72",
       "start_page": "160",
       "end_page": "199",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..72.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=662a4786a53baffcb7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003154941",
       "keywords_kr": [
         "바르도",
         "중음",
@@ -32586,8 +32666,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003154941",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "662a4786a53baffcb7998d826d417196",
       "id": "662a4786a53baffcb7998d826d417196"
@@ -32604,16 +32686,16 @@
         }
       ],
       "abstract_kr": "This article begins with a contemplation on the role a practitioner can play, and the practices they might undertake, to address the severe climate crisis, which now seems almost irreversible. Recognizing that conventional practices alone may be insufficient to tackle this global-scale challenge, the article seeks to reassess the concepts and scope of practice, inspired by the life of the Buddha, who responded to the suffering of all beings with teachings of compassion.First, direction is sought from the Buddha's declaration to spread the Dharma, with form found in his daily practice, and the dynamics and manifestations examined within the tradition of the Sangha. Based on this, the concept and scope of practice are reevaluated by exploring examples where the agent and reach of practice have expanded. Consequently, although it is not an individual practice, Jungto Society's Sustainable Development Project in Bhutan falls within this redefined category of practice. This project explores whether the Buddha's life of simplicity and sufficiency can be realized on a national scale. In line with this vision, the people of Bhutan, with the support of the Jungto Society, have been actively engaged in pilot development projects since 2023.By analyzing this project, the text illuminates whether practice can extend beyond individual training to encompass social engagement initiatives and provide meaningful guidance for overcoming large-scale crises like the current climate emergency. It also explores what distinguishes this project from others, aiming to understand how the Buddha's teachings can be applied at a community level and what outcomes might be anticipated from such communal practice.",
-      "abstract_en": "",
+      "abstract_en": "This article begins with a contemplation on the role a practitioner can play, and the practices they might undertake, to address the severe climate crisis, which now seems almost irreversible. Recognizing that conventional practices alone may be insufficient to tackle this global-scale challenge, the article seeks to reassess the concepts and scope of practice, inspired by the life of the Buddha, who responded to the suffering of all beings with teachings of compassion.\nFirst, direction is sought from the Buddha's declaration to spread the Dharma, with form found in his daily practice, and the dynamics and manifestations examined within the tradition of the Sangha. Based on this, the concept and scope of practice are reevaluated by exploring examples where the agent and reach of practice have expanded. Consequently, although it is not an individual practice, Jungto Society's \"Sustainable Development Project\" in Bhutan falls within this redefined category of practice. This project explores whether the Buddha's life of simplicity and sufficiency can be realized on a national scale. In line with this vision, the people of Bhutan, with the support of the Jungto Society, have been actively engaged in pilot development projects since 2023.\nBy analyzing this project, the text illuminates whether \"practice\" can extend beyond individual training to encompass social engagement initiatives and provide meaningful guidance for overcoming large-scale crises like the current climate emergency. It also explores what distinguishes this project from others, aiming to understand how the Buddha's teachings can be applied at a community level and what outcomes might be anticipated from such communal practice.",
       "journal_name": "인도철학",
       "year": "2024",
       "volume": "",
       "issue": "72",
       "start_page": "200",
       "end_page": "239",
-      "doi": "",
+      "doi": "10.32761/kjip.2024..72.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=662a4786a53baffcc85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003157240",
       "keywords_kr": [
         "수행",
         "사회참여",
@@ -32632,8 +32714,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003157240",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "662a4786a53baffcc85d2949c297615a",
       "id": "662a4786a53baffcc85d2949c297615a"
@@ -33654,9 +33738,9 @@
       "issue": "77",
       "start_page": "1",
       "end_page": "29",
-      "doi": "",
+      "doi": "10.32761/kjip.2026..77.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=64344964c431ef037ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003372924",
       "keywords_kr": [
         "니야야",
         "『니야야수뜨라』 1.1.5",
@@ -33674,8 +33758,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "64344964c431ef037ecd42904f0c5d65",
+      "kci_id": "ART003372924",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "64344964c431ef037ecd42904f0c5d65"
     },
@@ -33691,16 +33777,16 @@
         }
       ],
       "abstract_kr": "This study employs sutta-internal comparative hermeneutics—an analysis confined to the grammar and predicate usage of the Pāli texts themselves, independent of later commentaries—to examine the Ānāpānasatisutta (MN 118) and  the  Satipaṭṭhānasutta  (MN  10),  and  elucidates  the  function  of  Dham- mānupassanā as the locus where active formation gives way to non-interventive observation. Previous scholarship has tended either to divide the two texts along the samatha-vipassanā dichotomy or to read the sixteen steps as a strictly linear progression.This study argues instead that the two suttas form a complementary pair of “generative conditioning” and “interpretive diagnosis.” First, although both share pajānāti (clearly understands) and sikkhati (trains), their distribution differs structurally. MN 118 sustains sikkhati, together with the future ending-ssāmi, throughout steps 3-16 (87.5%), and embeds within this training frame a cluster of transitive   formative   participles   governing   accusative   objects,   thereby constructing samādhi intentionally, whereas MN 10 employs pajānāti, a verb cognate with paññā, to discern arisen phenomena through doctrinal categories without fabricating or altering them, thus functioning diagnostically. Second, cross-referencing MN 119, MN 44, and MN 52 confirms that the first three tetrads (body, feeling, mind) form not a single linear ladder but a pluralistic, open structure: each can independently fulfill samādhi and the seven factors of awakening according to the practitioner's disposition, so that the apparent non- linearity reflects the inclusivity of Nikāya praxis rather than a sequence internal to MN 118. Third, all pathways converge upon the fourth tetrad. The training frame—sikkhati with the future -ssāmi—persists into steps  13-16;  what disappears at step 13 is the transitive syntax of formative participles taking accusative objects, replaced by anupassī, whose prior member shifts from experiential contents to doctrinal categories (anicca, virāga, nirodha, paṭinissagga). Thus the practitioner deconstructs even the constructed samādhi, culminating in ultimate letting go (paṭinissagga).In  conclusion,  the  Buddha's meditation  forms  an  overarching  structure progressing from preliminary training (MN 62) through generative expansion (MN  118)  to  diagnostic  deconstruction  (MN  10),  thereby  reilluminating  the inclusivity and philosophical depth of early Buddhist praxis.",
-      "abstract_en": "",
+      "abstract_en": "This study employs sutta-internal comparative hermeneutics—an analysis confined to the grammar and predicate usage of the Pāli texts themselves, independent of later commentaries—to examine the Ānāpānasatisutta (MN 118) and  the  Satipaṭṭhānasutta  (MN  10),  and  elucidates  the  function  of  Dham- mānupassanā as the locus where active formation gives way to non-interventive observation. Previous scholarship has tended either to divide the two texts along the samatha-vipassanā dichotomy or to read the sixteen steps as a strictly linear progression.\nThis study argues instead that the two suttas form a complementary pair of “generative conditioning” and “interpretive diagnosis.” First, although both share pajānāti (clearly understands) and sikkhati (trains), their distribution differs structurally. MN 118 sustains sikkhati, together with the future ending-ssāmi, throughout steps 3-16 (87.5%), and embeds within this training frame a cluster of transitive   formative   participles   governing   accusative   objects,   thereby constructing samādhi intentionally, whereas MN 10 employs pajānāti, a verb cognate with paññā, to discern arisen phenomena through doctrinal categories without fabricating or altering them, thus functioning diagnostically. Second, cross-referencing MN 119, MN 44, and MN 52 confirms that the first three tetrads (body, feeling, mind) form not a single linear ladder but a pluralistic, open structure: each can independently fulfill samādhi and the seven factors of awakening according to the practitioner's disposition, so that the apparent non- linearity reflects the inclusivity of Nikāya praxis rather than a sequence internal to MN 118. Third, all pathways converge upon the fourth tetrad. The training frame—sikkhati with the future -ssāmi—persists into steps  13-16;  what disappears at step 13 is the transitive syntax of formative participles taking accusative objects, replaced by anupassī, whose prior member shifts from experiential contents to doctrinal categories (anicca, virāga, nirodha, paṭinissagga). Thus the practitioner deconstructs even the constructed samādhi, culminating in ultimate letting go (paṭinissagga).\nIn  conclusion,  the  Buddha's meditation  forms  an  overarching  structure progressing from preliminary training (MN 62) through generative expansion (MN  118)  to  diagnostic  deconstruction  (MN  10),  thereby  reilluminating  the inclusivity and philosophical depth of early Buddhist praxis.",
       "journal_name": "인도철학",
       "year": "2026",
       "volume": "",
       "issue": "77",
       "start_page": "31",
       "end_page": "63",
-      "doi": "",
+      "doi": "10.32761/kjip.2026..77.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3e228a39a69be2d06aae8a972f9116fb",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003372944",
       "keywords_kr": [
         "사념처(satipaṭṭhāna)",
         "분명히 앎(pajānāti)"
@@ -33718,15 +33804,17 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "3e228a39a69be2d06aae8a972f9116fb",
+      "kci_id": "ART003372944",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3e228a39a69be2d06aae8a972f9116fb"
     },
     {
       "article_id": "64344964c431ef03b36097776a77e665",
       "title_kr": "Dramatic Prakrit and the Diversity of Middle Indic Registers in Śūdraka’s Mṛcchakaṭika",
-      "title_en": "",
+      "title_en": "Dramatic Prakrit and the Diversity of Middle Indic Registers in Śūdraka’s Mṛcchakaṭika",
       "authors": [
         {
           "name": "아디티 싱",
@@ -33735,16 +33823,16 @@
         }
       ],
       "abstract_kr": "This paper examines dramatic Prakrit in “Sanskrit theatre” not as a direct record of spoken Middle Indic and not as mere supplementary material to Sanskrit, but as an enregistered repertoire; a set of staged speech forms made socially recognizable through repeated association with  role,  scene,  affect,  and  ethical  evaluation.  Using  Śūdraka’s Mṛcchakaṭika as its primary case, this paper brings together philological description, historical work on Middle Indic, cultural-historical accounts of  the  premodern  language  order,  and  comparative  dramaturgical analysis.The aim of this paper is limited in the sense that it does not reconstruct the spoken language of Ujjayinī, nor does it map the whole sociolinguistic system of the play. It instead analyzes selected passages in which Prakrit, Sanskrit  chāyā,  and  dramatic  context  can  be  read  together.  These examples show how staged registers mark domestic intimacy, comic license, coercive authority, public stigma, and claims to legitimacy. The Sanskrit chāyā is treated as a mediating device that can clarify or stabilize semantic access to Prakrit without erasing its register-specific force. This paper does not present a new grammar of dramatic Prakrit, but a scene- based account of how philological forms become socially audible in drama.",
-      "abstract_en": "",
+      "abstract_en": "This paper examines dramatic Prakrit in “Sanskrit theatre” not as a direct record of spoken Middle Indic and not as mere supplementary material to Sanskrit, but as an enregistered repertoire; a set of staged speech forms made socially recognizable through repeated association with  role,  scene,  affect,  and  ethical  evaluation.  Using  Śūdraka’s Mṛcchakaṭika as its primary case, this paper brings together philological description, historical work on Middle Indic, cultural-historical accounts of  the  premodern  language  order,  and  comparative  dramaturgical analysis.\nThe aim of this paper is limited in the sense that it does not reconstruct the spoken language of Ujjayinī, nor does it map the whole sociolinguistic system of the play. It instead analyzes selected passages in which Prakrit, Sanskrit  chāyā,  and  dramatic  context  can  be  read  together.  These examples show how staged registers mark domestic intimacy, comic license, coercive authority, public stigma, and claims to legitimacy. The Sanskrit chāyā is treated as a mediating device that can clarify or stabilize semantic access to Prakrit without erasing its register-specific force. This paper does not present a new grammar of dramatic Prakrit, but a scene- based account of how philological forms become socially audible in drama.",
       "journal_name": "인도철학",
       "year": "2026",
       "volume": "",
       "issue": "77",
       "start_page": "65",
       "end_page": "99",
-      "doi": "",
+      "doi": "10.32761/kjip.2026..77.003",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=64344964c431ef03b36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003372953",
       "keywords_kr": [
         "Chāyā",
         "슈드라카",
@@ -33762,8 +33850,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "64344964c431ef03b36097776a77e665",
+      "kci_id": "ART003372953",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "64344964c431ef03b36097776a77e665"
     }
