@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "journals": {
     "IJBTC": {
       "riss": 421,
@@ -101,15 +101,15 @@
     },
     "보조사상": {
       "riss": 742,
-      "kci": 648,
-      "kci_links": 18,
-      "paired": 645,
+      "kci": 656,
+      "kci_links": 10,
+      "paired": 653,
       "kci_only": 3,
       "scheme": "i2v",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 635,
-      "comparable_matched": 632,
+      "comparable": 643,
+      "comparable_matched": 640,
       "match_rate": 0.995,
       "new": 0
     },

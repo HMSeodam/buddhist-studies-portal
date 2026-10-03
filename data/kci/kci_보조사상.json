@@ -1,76 +1,276 @@
 {
   "articles": [
     {
+      "article_id": "ART003193568",
+      "id": "ART003193568",
       "kci_id": "ART003193568",
-      "riss_hint": "90bad34f4867b2c6b36097776a77e665",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "돈황본 『수심요론(修心要論) 』의 신(信)과 신행(信行) 연구",
+      "title_en": "A Study on Faith and Practice in Xiuxinyaolun (Treatise on the Essentials of Cultivating the Mind)",
+      "authors": [
+        {
+          "name": "강지언",
+          "affiliation": "서울대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 초기 선종 형성기의 주요 문헌 중 하나인 돈황본 『수심요론(修心要論)』의 초기 사본(P.3664)에 나타나는 신과 행을 파악하고, 논에서는 당대와 다르게 평가하는 불교 신행을 분석하며 초기 선종의 특징을 살펴보고자 한다. 『수심요론』은 참된 부처를 법으로서의 부처로 보고 있으며, 이를 오직 마음과만 연결한다. 따라서 수행자의 청정심이 참된 부처이고 수심(守心)하여 깨닫는 것이 성불이라는 심 중심의 수증론을 제시하고 이에 대한 믿음만을 주장한다. 중국에서는 제불보살에 대한 염불, 선정에서의 부처 및 불국토의 친견, 보살도의 일환으로서 고행이 성행하였다. 이러한 수행에는 보신으로서 불보살의 존재, 경전 속 이들의 이야기, 보살의 도과(道果)에 대한 믿음이 존재한다. 그러나 논은 법으로서의 부처인 자기 마음을 지키는 것을 최우선하는 입장에서 대상에 대한 믿음을 바탕으로 하는 불교 수행으로는 생사를 면할 수 없고 오히려 열반에 장애가 될 수도 있다고 말한다. 나아가 대승불교에서 불탑(경탑) 및 경전은 법으로서의 부처를 가리켰으며, 이는 중국 불교에서 폭넓게 받아들여졌다. 그러나 『수심요론』은 일승(一乘)은 오직 마음에 있는 진여법체에 있다는 입장에서 불탑 조성 등의 공덕이나 경전의 내용은 중생을 위한 방편에 해당한다고 말한다. 이에 대승 경전을 인용하면서도 특정 경전을 중시하지 않고, 대승불교의 대표적인 특징인 경론의 수지 독송도 언급하지 않으며, 인용 구절을 논의 의도에 맞추어 재해석한다. 이처럼 『수심요론』은 타 종파와 구분되는 선종의 믿음과 이를 바탕으로 한, 심 수행의 특징을 드러낸다.",
+      "abstract_en": "This study examines the early manuscript P.3664 of Xiuxinyaolun (修心要論), a key text from the formative period of early Chan Buddhism. The study analyzes the concept of faith (信) presented in the text, along with Buddhist faith-based practices that were widely practiced in China at the time but evaluated differently in the treatise. Through this analysis, the study aims to explore the characteristics of early Chan Buddhist thought.\nXiuxinyaolun regards the true Buddha as the Dharma itself and exclusively associates it with the mind. Thus, it presents a mind-centered theory of Buddha-nature and enlightenment, where the practitioner's pure mind is the true Buddha, and attaining enlightenment is achieved through maintaining the mind (守心).\nAdditionally, Xiuxinyaolun offers a distinct perspective on Buddhist faith-based practices widely practiced during its time. In China, practices such as reciting the names of Buddhas and Bodhisattvas, visualizing Buddhas and their lands in meditation, and ascetic practices as part of the Bodhisattva path were prevalent. These practices were based on faith in the existence of Buddhas and Bodhisattvas as their reward bodies, scriptural accounts of their deeds, and belief in their attainment of the Bodhisattva path and its fruition. However, Xiuxinyaolun, prioritizing maintaining one’s mind as the means to enlightenment, argues that practices based on faith in the reward-body Buddhas and Bodhisattvas cannot free one from the cycle of birth and death and may even become an obstacle to nirvana.\nFurthermore, in Mahāyāna Buddhism, stupas (śarīra stupas and scripture stupas) and scriptures were regarded as the Dharma-body Buddha, and this understanding was widely accepted in the development of Chinese Buddhism, as seen in the construction of stupas and the advancement of Buddhist teachings. However, Xiuxinyaolun asserts that the One Vehicle exists solely within the true suchness of the mind. From this perspective, the merit of stupa construction and the content of scriptures are merely skillful means for sentient beings, while attaining Buddhahood depends solely on maintaining the mind.\nAccordingly, unlike contemporary commentaries, Xiuxinyaolun quotes Mahāyāna scriptures but does not prioritize any particular text. It also does not mention the recitation and memorization of scriptures —a defining characteristic of Mahāyāna practice— and instead reinterprets quoted passages in alignment with the practice of maintaining the mind. Therefore, the concept of faith in Xiuxinyaolun reveals the distinctive belief system of Chan Buddhism, setting it apart from other Buddhist schools, and highlights the characteristics of mind-centered practice based on this faith.",
+      "journal_name": "보조사상",
       "year": "2025",
-      "volume": "71",
-      "issue": ""
+      "volume": "",
+      "issue": "71",
+      "start_page": "35",
+      "end_page": "66",
+      "doi": "10.22859/bojoss.2025..71.002",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193568",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "보조사상연구원",
+      "kci_year": "2025",
+      "kci_volume": "",
+      "kci_issue": "71",
+      "riss_hint": "90bad34f4867b2c6b36097776a77e665"
     },
     {
+      "article_id": "ART003193565",
+      "id": "ART003193565",
       "kci_id": "ART003193565",
-      "riss_hint": "249519eb5368412ce9810257f7042666",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "『범망경』 십중계(十重戒)의 범죄 구성요건에 관한 연구 – 신라 승려들의 인(因)·연(緣)·법(法)·업(業) 이해를 중심으로 -",
+      "title_en": "A Study on the Elements of Crimes in the Ten grave Precepts of the Brahma’s Net Sutra: Focusing on the Understanding of Cause, Condition, Method of conduct, and Completion of a case by Silla Monks Wonhyo, Uijeok, Seungjang, and Taehyun",
+      "authors": [
+        {
+          "name": "박성일",
+          "affiliation": "서울대학교 규장각한국학연구원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 『범망경』 십중계의 범죄를 이루는 네 가지 구성요건인 '인(因)·연(緣)·법(法)·업(業)'을 바탕으로 신라 승려 원효, 의적, 승장, 태현의 입장을 분석하였다. 원효는 『마하승기율』 등 한역 율장을 두루 고려하고 있다. 반면 의적, 승장, 태현은 『유가사지론』 본지분의 「보살지」와 같은 유가계본(瑜伽戒本)이 아니라 『유가사지론』 섭결택분의 「유심유사등삼지」(권59)에 나오는 십악업도의 다섯 가지 조건 '사·상·욕요·번뇌·방편구경'을 인용하고 있다. 의적은 이를 『범망경』의 인·연·업·법 중 '연'을 설명할 때만 활용한다. 반면 승장은 더욱 적극적으로 『범망경』의 구성요건은 무시한 채 『유가사지론』 권59의 다섯 가지 조건만을 주로 활용한다. 의적은 『범망경』의 인·연·업·법 해석에 『유가사지론』 권59 다섯 가지 조건을 배대하지만, 이 다섯 가지 조건에 본인의 해석을 통해, '방편구경'은 '방편'과 '구경'으로 나누고, '욕요' 역시 '의요'로 바꾸는 응용을 가한다.\n'범행의 구성요건'의 분석은 행위와 동기를 어떻게 포착할 것인지 하는 윤리학적 가치판단의 토대가 될 것이다. 현재까지도 영향력을 지니는 『범망경』의 주석 전통 속에는 '행위', '동기', '방법', '결과의 달성 여부' 등이 이미 체계적으로 분석되어 있다. 본고의 연구를 통해 신라 주석가들의 입장이 살해행위를 일으킨 의도, 범죄행위 이전에 발생한 업의 여부, 인등기심을 통한 수증론적 차이 등을 발견할 수 있다. 대승보살계를 대표하는 『범망경』의 중범죄 구성요건에 대한 논의가 '동아시아 불교윤리학 연구'의 확립에 일조할 수 있기를 기대한다.",
+      "abstract_en": "This study analyzes the perspectives of the Silla monks Wonhyo (元曉), Uijeok (義寂), Seungjang (勝莊), and Taehyun (太賢) on the four elements of crime in the Ten grave Precepts of the Brahma’s Net Sutra (Ch. Fanwang jing, 梵網經): “Cause” (因), “Condition” (緣), “Method of conduct” (法), and “Completion of a case” (業).\nWonhyo considers various texts, including the Mahāsāṃghika Vinaya (摩訶僧祇律) , while Uijeok, Seungjang, and Taehyun place significant emphasis on the five conditions of the “Ten Evil Acts” (十惡業道) in volume 59 of the Yogācārabhūmi-śāstra(Ch. Yuqie shidi lun, 瑜伽師地論) when interpreting the elements of crime. Rather than referring to the Yogācārabhūmi-śāstra or its commentary on the Bodhisattva Path (菩薩地), they focus on these five conditions: “affair” (事象), “ideation” (想), “intention” (欲樂), “affliction” (煩惱), and “complete method” (方便究竟).\nUijeok exclusively applies these conditions when explaining the element of “Condition” (緣) in the Brahma’s Net Sutra. In contrast, Seungjang largely disregards the structural elements of the Brahma’s Net Sutra and predominantly relies on the five conditions from volume 59 of the Yogācārabhūmi-śāstra. Uijeok incorporates these five conditions to interpret the Brahma’s Net Sutra’s elements of “Cause”, “Condition”, “Method of conduct”, and “Completion of a case”, while also offering his own interpretation. Notably, he subdivides the “complete method” (方便究竟) into “method” (方便) and “completion” (究竟) and alters “intention” (yule, 欲樂) to “intention” (yiyao, 意樂).\nThe analysis of the elements of a crime serves as a foundational framework for ethical value judgments regarding the interpretation of actions and motives. Within the exegetical tradition of the Brahma’s Net Sutra, which remains influential to this day, key components—Cause”, “Condition”, “Method of conduct”, and “Completion of a case”—have already been systematically analyzed. The discussions on the grave crimes in the Brahma’s Net Sutra, a representative text of the Mahāyāna Bodhisattva Precepts, are expected to contribute to the establishment of East Asian Buddhist ethics as a scholarly field.",
+      "journal_name": "보조사상",
       "year": "2025",
-      "volume": "71",
-      "issue": ""
+      "volume": "",
+      "issue": "71",
+      "start_page": "67",
+      "end_page": "97",
+      "doi": "10.22859/bojoss.2025..71.003",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193565",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "보조사상연구원",
+      "kci_year": "2025",
+      "kci_volume": "",
+      "kci_issue": "71",
+      "riss_hint": "249519eb5368412ce9810257f7042666"
     },
     {
+      "article_id": "ART003193658",
+      "id": "ART003193658",
       "kci_id": "ART003193658",
-      "riss_hint": "249519eb5368412cd18150b21a227875",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "『구사론』 제9장에 대한 진제와 현장의 한역용어 비교: 중국역경원칙에 따른 음역과 의역 비교",
+      "title_en": "A Comparative Study of the Chinese Terminology Between Paramartha’s and Xuanzang’s in the 9th Chapter of the Abhidharmakoshabhasya, in Light of the Translation Principles in Chinese Buddhism",
+      "authors": [
+        {
+          "name": "손경록",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고에서는 『구사론』 제9장을 중심으로 진제(真諦, Paramārtha, 499-569년)와 현장(玄奘, 602-664년)의 한역용어들을 비교 고찰한다. 이를 위해서, 『구사론』의 산스크리트어 원문과 진제와 현장의 한역용어들을 음역과 의역으로 구분하여 살펴본다.\n중국역경전통에 따르면, 음역은 오불번(五不翻) 원칙에, 의역은 정번(五翻)과 의번(義翻)에 해당된다. 따라서 본문 제Ⅱ장에서는 먼저 진제와 현장의 음역 용어들을, 그리고 제Ⅲ장에서는 의역 용어들을 정번과 의번 용례로 나누어 살펴본다. 이상의 비교연구를 통해서 진제와 현장의 한역이 역경 원칙과는 어느 정도 부합되는지, 그들의 한역용어들을 어떻게 해석해야 하는지, 그리고 이에 대한 기준점을 제시하고 있는 중국역경원칙인 오불번, 정번과 의번 원칙은 어떤 것인지에 대해서도 살펴본다.\n이와 같이 중국역경원칙에 비추어 진제와 현장 한역 용어들의 특징을 살펴보는 것은, 진제와 현장의 한역 용어들의 특징을 중국불교 역경사의 한 부분으로서 통시적으로 살펴볼 수 있다는 점에서 연구의 의의를 찾을 수 있다.",
+      "abstract_en": "This is a comparative study of the Chinese terminology made by Paramartha(眞諦) and Xuanzang(玄奘) in the 9th chapter of the Abhidharmakoshabhasya(俱舍論).\nAccording to the traditional Chinese principles of translation, the transliteration(音譯) corresponds to the phonetic transliteration-in-the-five-cases(五不翻) which means the transliteration should be applied for the exceptional five cases where the literal translation can’t convey the original meanings exactly; while the literal paraphrase(義譯) corresponding to the literal translation(正翻) and the figurative translation(義翻). In light of these traditional translation rules of the Chinese Buddhism, I discussed the characteristic features of Chinese terms used by Paramartha and Xuanzang by dividing them into two groups of phonetic transliteration and semantic literal translation.\nIn this survey, I found that their translation generally coincide with the traditional principles of translation. Although Xuanzang is known to have established the principles of the transliteration, but there must have been a sort of practice of translation before him judging from this coincidence. Anyway, the principles of translation were eventually presented as a solution to overcome the dilemmas of translation itself, there are slight differences in their actual application of the rules. Compared with Paramartha’s, Xuanzang’s has more literal terms(義譯), notably in proper nouns (as in ‘毘伽羅論師’→‘記論者’). Xuanzang seems to have preferred the literal translation to transliteration, to make it easier and clearer for the average readers to understand the meaning of the original text.\nHowever, despite Xuanzang’s ground-breaking translation with his own new terms, it’s quite surprising that his terminology coincide with Paramartha’s than expected, which means he must have referred to Paramartha’s whose terminology is basically comprised of older terms(舊譯). And it also indicates that each of them employed the older terms that were verified throughout the history. The fact that his terminology has many parts in common with the Paramartha’s reveals that the history of translation from Sanskrit into Chinese of Buddhist scriptures in Chinese Buddhism was the result of such a collective intelligence accumulated over a long period of time.",
+      "journal_name": "보조사상",
       "year": "2025",
-      "volume": "71",
-      "issue": ""
+      "volume": "",
+      "issue": "71",
+      "start_page": "99",
+      "end_page": "127",
+      "doi": "10.22859/bojoss.2025..71.004",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193658",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "보조사상연구원",
+      "kci_year": "2025",
+      "kci_volume": "",
+      "kci_issue": "71",
+      "riss_hint": "249519eb5368412cd18150b21a227875"
     },
     {
+      "article_id": "ART003272985",
+      "id": "ART003272985",
       "kci_id": "ART003272985",
-      "riss_hint": "a22f678023cda353e9810257f7042666",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "한국불교에서 계율 전통의 전개에 대한 소고",
+      "title_en": "A Study on the Development of Vinaya Traditions in Korean Buddhism",
+      "authors": [
+        {
+          "name": "김윤현",
+          "affiliation": "동국대학교 WISE",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 한국불교에서 구족계 수계제도가 성립하고 전개되는 과정에대한 통시적인 검토이다. 불교의 계율은 출가 공동체의 정체성과 질서를규정하는 핵심 장치이며, 그 가운데 구족계 수계의식은 출가 수행자를 승가의 정식 구성원으로 승인하는 절차로 시대적 상황 속에서 교단 운영의근간이 되어 왔다.\n본고에서는 율장에 보이는 부처님 당시 구족계 관련 기록을 출발점으로삼은 뒤, 곧바로 한국의 삼국시대, 고려 · 조선시대, 근현대 세 시기의 구분을 토대로 그 제도적 전개를 살펴보았다. 먼저 삼국시대에는 고구려의승관제 운영과 백제 겸익의 율장 번역, 신라의 계단 설치를 통해 구족계의제도적 기반이 마련되었으며, 이는 한국불교 율학 전통의 기원이다.\n고려시대에는 승록사를 통한 국가적 관리 속에서 승려의 신분을 공인한제도로 구족계가 정착하였다. 그리고 조선시대에는 도첩제를 통해 출가 자격이 국가 통제 아래 놓인 한편, 군역 회피와 면역 등의 문제 속에서도 승단은 자체적인 의식과 전승을 통해 정체성을 유지하였다.\n근현대에는 일제강점기 사찰령과 대처승 문제로 계율 전통이 흔들렸지만, 환성 지안의 순교 이후 서상수계를 토대로 계맥을 되살릴 수 있었고, 마침내 1962년 통합종단이 계단법을 제정함으로써 구족계의 현대적 제도화가 이루어졌다.\n이상의 고찰은 구족계 수계제도가 단순한 출가의례를 넘어 교단 정체성과 사회적 위상을 규정하는 역사적 지표였음을 밝히며, 나아가 한국불교계율 전통의 현대적 의의를 한데 모아 재조명해 본 결과이다.",
+      "abstract_en": "This study examines the formation and development of the full ordination (具足戒, Bhikṣu/Bhikṣuṇī precepts) system in Korean Buddhism from a diachronic perspective. Precepts in Buddhism serve as the essential framework that regulates the identity and ethical order of the monastic community, and among them, the full ordination ritual has functioned as the central procedure that officially admits an aspirant into the Saṅgha.\nBeginning with records in the early Vinaya texts from the Buddha’s time, this paper traces the institutional development of ordination through the Three Kingdoms, the Goryeo and Joseon dynasties, and the modern period. In the Three Kingdoms, the establishment of the monastic office in Goguryeo, the Vinaya translation by Gyeomik of Baekje, and the ordination platforms of Silla provided the institutional foundation of Korean Vinaya tradition.\nDuring the Goryeo dynasty, the Office of Monastic Affairs (Seungnoksa) institutionalized the recognition of monastic status, integrating the full ordination system into the framework of state governance. In the Joseon dynasty, Confucian state ideology suppressed Buddhism, the monk registration system (Doch’eopje) placed ordination under state control, yet the monastic order preserved its identity through ritual transmission.\nIn the modern era, despite distortions under the Japanese colonial Temple Ordinance and the married clergy controversy, the Vinaya transmission was maintained through the lineage of Hwanseong Jian and the Seosang ordination. With the establishment of the unified Jogye Order in 1962 and the enactment of the Ordinance on Ordination Platforms, the system was reorganized into a modern institutional framework.\nThis study demonstrates that the full ordination in Korea was not merely a ritual of monastic initiation but a historical index that reflects the identity of the Buddhist order and its relation to society and the state, thereby explaining to a renewed understanding of the contemporary significance of Vinaya tradition in Korean Buddhism.",
+      "journal_name": "보조사상",
       "year": "2025",
-      "volume": "73",
-      "issue": ""
+      "volume": "",
+      "issue": "73",
+      "start_page": "9",
+      "end_page": "39",
+      "doi": "10.22859/bojoss.2025..73.001",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003272985",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "보조사상연구원",
+      "kci_year": "2025",
+      "kci_volume": "",
+      "kci_issue": "73",
+      "riss_hint": "a22f678023cda353e9810257f7042666"
     },
     {
+      "article_id": "ART003273042",
+      "id": "ART003273042",
       "kci_id": "ART003273042",
-      "riss_hint": "87599718f16ade647ecd42904f0c5d65",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "『금강경』과 『법화경』에서 수행의 관점으로 본 '미진(微塵)'의 의미",
+      "title_en": "The Meaning of “Particle of Dust”(微塵) from a Contemplative Perspective in the Diamond Sūtra and the Lotus Sūtra",
+      "authors": [
+        {
+          "name": "조연숙",
+          "affiliation": "대한불교조계종",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "시공간을 초월하여 끊임없이 생멸을 반복하면서 우리에게 놀라운 세계를보여주는 '미진(微塵)'은 실제 수행에서 관찰 대상이 되기도 하는데, 그러한 '미진'이 언급된 『금강경』과 『법화경』에서 삼천대천세계의 땅의 요소가흙먼지로 관찰될 때 바람에 흩날리는 먼지의 입자는, 마치 마음속 번뇌가요동치는 모습과 흡사해 보인다.\nVajracchedikā Prajñāpāramitā(『금강경』)에서는 무수한 겁을 지나는동안에 삼천대천세계에서 땅의 요소 중 rajas(미진)들을 가루로 부수어서'paramāṇusaṃcaya(극미의 모음)'를 만든다고 가정하여 설하는 한편, Saddharmapuṇḍarīka(『법화경』)에서는 무한한 시공간의 세계에 있는paramāṇu(극미)들처럼 날아올라서 paramāṇurajas(극미진)를 하나씩하나씩 떨어뜨린다면, 언젠가는 그것이 다한 공(空)의 세계가 펼쳐질 것이라고 상상하여 설한다. 『금강경』은 티끌들의 가루로 빚은 극미의 모음이있는 불공(不空)의 세계를 암시하는데, 만약 수행자가 『금강경』과 『법화경』 에서 '미진'이 언급된 문장을 번갈아 보며 실제 수행에 접목해본다면, 그 문장의 끝부분에서 공즉불공(空即不空)의 세계가 찰나 보일지도 모른다.\n구마라집은 『금강경』과 『법화경』을 번역하면서 rajas, paramāṇu, paramāṇurajas를 모두 '微塵'이라 한역(漢譯)하여 독자들이 혼동하게 하나, 거듭 읽으면서 그 뜻을 되새기다 보면 '微塵'에 여러 의미가 함축되어있음을 알게 된다",
+      "abstract_en": "In the passages of the Diamond Sūtra and the Lotus Sūtra, a particle of dust — which reveals a wondrous world through the ceaseless repetition of birth and death across space-time — is mentioned. When the earth element of the trichiliocosm is perceived as dust, the particles drifting in the wind resemble the afflictions arising within the mind.\nIn the Vajracchedikā Prajñāpāramitā, it is described that over countless eons, the rajās (dust particles) of the earth in the trichiliocosm are ground into powders to form a “paramāṇusaṃcaya” (collection of indivisible particles). Meanwhile, in the Saddharmapuṇḍarīka, it is envisioned that if one were to ascend like the paramāṇu (indivisible particles) through the infinite spatiotemporal realm and drop the paramāṇurajas (indivisible particles of dust) one by one, the world of emptiness — where everything returns to emptiness — would eventually unfold.\nIf a practitioner were to alternately contemplate the passages in the Lotus Sūtra and the Diamond Sūtra that refer to a “particle of dust” and apply them to meditative practice, the in sight that the world of emptiness is precisely non-emptiness might momentarily arise at the end of contemplation.",
+      "journal_name": "보조사상",
       "year": "2025",
-      "volume": "73",
-      "issue": ""
+      "volume": "",
+      "issue": "73",
+      "start_page": "137",
+      "end_page": "164",
+      "doi": "10.22859/bojoss.2025..73.005",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273042",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "보조사상연구원",
+      "kci_year": "2025",
+      "kci_volume": "",
+      "kci_issue": "73",
+      "riss_hint": "87599718f16ade647ecd42904f0c5d65"
     },
     {
+      "article_id": "ART003273093",
+      "id": "ART003273093",
       "kci_id": "ART003273093",
-      "riss_hint": "87599718f16ade64b36097776a77e665",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "『법화경』과 남악 혜사·천태 지의의 법화삼매에 대한 사상적 연계 연구",
+      "title_en": "A Study on the Doctrinal Linkage of Dharma Flower Samādhi in the Lotus Sūtra, Nanyue Huisi, and Tiantai Zhiyi",
+      "authors": [
+        {
+          "name": "강영미",
+          "affiliation": "중앙승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 『법화경』의 법화삼매 관련 서술이 남악 혜사와 천태 지의를거치면서 어떻게 수행론적으로 구체화되고 교학적으로 체계화되었는지를사상사적 관점에서 규명하는 데 목적이 있다. 『법화경』은 일불승과 제법실상이라는 대승적 이상을 제시하지만, 이를 실천적으로 구현하기 위한 삼매수행의 절차나 방법은 명시적으로 제시하지 않는다. 이에 본 연구는 경전이 제공한 보살행·안락행·삼매의 이념적 요소가 혜사와 지의에 의해 어떠한 방식으로 재해석되고 수행 체계로 전개되었는지를 분석하였다.\n남악 혜사는 『법화경안락행의』와 『제법무쟁삼매법문』등을 통해 유상행과 무상행이라는 이원 구조를 설정하고, 안락행·경전 수지·공관 수행을 결합함으로써 법화삼매를 현실적 수행으로 자리매김하였다. 천태 지의는 혜사의 문제의식을 계승하여 일심삼관·사종삼매와 같은 원돈적 지관 체계를정립함으로써, 법화삼매의 수행 원리를 교학적으로 정합화하였다. 이러한전개 과정은 단순한 사상적 계승을 넘어, 『법화경』의 원형적 사상을 기반으로 한 수행의 실천적 구체화(혜사)가 다시 교학적 통합 체계(지의)로 심화되는 내적 발전 과정으로 이해될 수 있다.\n결론적으로 본 연구는 혜사와 지의의 해석을 통해 법화삼매가 대승불교수행 전통에서 '교리와 관행의 통합'을 구현하는 중요한 매개 역할을 했음을 밝혔다. 아울러 이들의 통합적 수행론은 현대 수행에서 제기되는 '수행과 일상의 분리' 문제를 극복할 수 있는 하나의 실천적 모델을 제공함을 제시한다.",
+      "abstract_en": "This study aims to clarify, from a doctrinal–historical perspective, how the conception of the Lotus Samādhi presented in the Saddharmapuṇḍarīka-sūtra (Lotus Sūtra) was concretized as a practical system of cultivation and systematized within Buddhist scholasticism through the interpretations of Nanyue Huisi(南嶽慧思) and Tiantai Zhiyi(天台智顗). While the Lotus Sūtra proclaims the Mahāyāna ideals of the One Vehicle(ekayāna) and the True Nature of All Dharmas(sarva-dharma-svabhāva / dharmāṇāṃ tattva), the text does not explicitly formulate a procedural method for the realization of samādhi. Accordingly, this study analyzes how the ideological elements concerning bodhisattva practice, peaceful practices(anle xing), and samādhi presented in the sūtra were reinterpreted by Huisi and Zhiyi, and further developed into concrete systems of cultivation.\nHuisi, in works such as the Fahua jing anle xing yi(法華經安樂 行義) and the Zhu fa wu zheng sanmei famen(諸法無諍三昧法門), established a dual structure of “form-based practice”(yǒuxiàng xíng) and “formless practice”(wúxiàng xíng), situating the Lotus Samādhi as an accessible and realistic praxis through the integration of peaceful practices, scriptural recitation, and contemplative insight. Zhiyi inherited these concerns and articulated a more comprehensive and coherent structure of cultivation, formulating doctrinal frameworks such as the Threefold Contemplation in One Mind(yīxīn sānguān) and the Four Samādhis (sizhong sanmei), thereby aligning the principle and practice of the Lotus Samādhi with the core of Tiantai scholasticism.\nThis development process is not merely a linear succession of doctrinal interpretation but can be understood as an internal process of deepening—namely, the practical concretization of the sūtra’s archetypal ideal in Huìsī, followed by its scholastic systematization into an integrated and perfect(圓頓) contemplative framework by Zhiyi.\nIn conclusion, this study demonstrates that the interpretations of Huìsī and Zhiyi positioned the Lotus Samādhi as a crucial medium by which the Mahāyāna ideal of “unity between doctrine and contemplative praxis”(jiaoxing yiti) is realized. It further suggests that their integrated approach to doctrine and meditation provides a practical model for overcoming the contemporary challenge of the separation between Buddhist practice and everyday life.",
+      "journal_name": "보조사상",
       "year": "2025",
-      "volume": "73",
-      "issue": ""
+      "volume": "",
+      "issue": "73",
+      "start_page": "165",
+      "end_page": "196",
+      "doi": "10.22859/bojoss.2025..73.006",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273093",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "보조사상연구원",
+      "kci_year": "2025",
+      "kci_volume": "",
+      "kci_issue": "73",
+      "riss_hint": "87599718f16ade64b36097776a77e665"
     },
     {
+      "article_id": "ART003273098",
+      "id": "ART003273098",
       "kci_id": "ART003273098",
-      "riss_hint": "87599718f16ade644884a65323211ff0",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "『유가사지론약찬(瑜伽師地論略纂)』에 나타난 규기(窺基)의 유식비량(唯識比量)",
+      "title_en": "Kuiji’s Vijñaptimātratā Inference in Condensed commentary on Yogācārabhūmi-śāstra",
+      "authors": [
+        {
+          "name": "백진순",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 규기(窺基)의 『약찬』「섭결택분」의 주석에서 제시된 유식비량(唯識比量)의 의의를 고찰한 것이다. 규기는 아뢰야식의 존재를 성립시키는 여덟 가지 논제를 분석하면서 진나의 삼지작법(三支作法)을 적극 활용하였다. 특히 다섯 번째 논제를 다루면서, '일체유식(一切唯識)'을 성립시키는 자신의 유식비량을 제시하였다. 다섯 번째 논제란, '여러 식구들의 구전(俱轉)을 인정하지 않으면, 외적 기세계와 자기 신체와 아(我), 그리고 색(色) 등의 경계를 요별하는 네 가지 작용은 성립할 수 없다'는 것이다. 규기는 소승의 반론을 추정해서 반박 논증을 만들고, 이를 통해 '여러 식이동시에 일어나야만 네 가지 차별적 작용이 성립한다'는 것을 보여준다.\n나아가 그는 그 반박 논증들이 결국은 '일체유식'을 성립시키는 자신의유식비량으로 귀결된다는 것을 보여준다. 8식설에 따르면, 아뢰야식은 종자로부터 기세계와 신체를 변현해내어 그것을 인식하고, 말나식은 아뢰야식의 견분(見分)에 의지해서 '아'의 영상을 변현해내어 그것을 인식하며, 육식은 아뢰야식의 상분(相分)에 의지해서 각자의 경계를 변현해내어 그것을 인식한다. 이런 의미에서 일체법은 식과 분리되지 않는다. 아뢰야식과말나식을 전제해야 세계와 신체와 아를 요별하는 작용도 성립한다는 것은규기의 반박 논증들에 의해 뒷받침된다. 다만, 소승은 색 등의 경계를 육식이 요별한다는 것을 인정해도 그 경계가 식과 분리되지 않는다는 것을 인정하지 않는다. 여기서 규기는 그것을 성립시킨 논증으로 현장의 유식비량을 인용하였다.",
+      "abstract_en": "This paper examines the significance of Vijñaptimātratā inference (唯識比量) as presented in Kuiji’s commentary on the “Section on Determinations” (攝決擇分) of Yogācārabhūmi-śāstra.\nKuiji actively employed Dignāga’s three-part syllogism analyzing eight theses that establish the existence of the ālaya-vijñāna. In particular, while addressing the fifth thesis, he introduced his own Vijñaptimātratā inference to affirm the doctrine of “everything is consciousness”.\nThe fifth thesis asserts that unless the simultaneous arising of multiple types of consciousness is accepted, four distinct cognitive functions—discriminating the external natural world, one’s own body, the self, and objects such as form (rūpa)—cannot be established. This argument indirectly affirms the existence of the ālaya-vijñāna by logically responding to counterarguments from other Buddhist schools. Kuiji further constructs a rebuttal by anticipating objections from the Hīnayāna perspective, thereby demonstrating that only the simultaneous emergence of multiple consciousnesses can account for the four differentiated cognitive functions.\nFurthermore, Kuiji demonstrates that his rebuttal arguments ultimately converge on his own Vijñaptimātratā inference, which establishes the doctrine of “everything is consciousness”.\nAccording to the theory of the eight consciousnesses, the ālaya-vijñāna, relying on karmic seeds, manifests and cognizes the external natural world and one’s physical body. The manas-vijñāna, depending on the subjective aspect (darśanabhāga) of the ālaya-vijñāna, manifests and cognizes the image of the self. The six consciousnesses, relying on the objective aspect (nimitta-bhāga) of the ālaya-vijñāna, manifest and cognize their respective objects.\nIn this framework, all phenomena (dharmas) are inseparable from consciousness. The necessity of positing both ālaya-vijñāna and manas-vijñāna to account for the discrimination of the external world, the body, and the self is substantiated by Kuiji’s rebuttal arguments. However, the Hīnayāna tradition, while acknowledging that the six consciousnesses discriminate objects such as material dharmas, does not accept that these objects are inseparable from consciousness.\nTo address this, Kuiji cites Xuanzang’s Vijñaptimātratā inference as a logical proof to establish the inseparability of object and consciousness.",
+      "journal_name": "보조사상",
       "year": "2025",
-      "volume": "73",
-      "issue": ""
+      "volume": "",
+      "issue": "73",
+      "start_page": "197",
+      "end_page": "230",
+      "doi": "10.22859/bojoss.2025..73.007",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273098",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "보조사상연구원",
+      "kci_year": "2025",
+      "kci_volume": "",
+      "kci_issue": "73",
+      "riss_hint": "87599718f16ade644884a65323211ff0"
     },
     {
+      "article_id": "ART003273115",
+      "id": "ART003273115",
       "kci_id": "ART003273115",
-      "riss_hint": "87599718f16ade64b7998d826d417196",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "『중론송』의 공성에 관한 고찰 - 「관사제품」 제7송을 중심으로 -",
+      "title_en": "A Consideration of śūnyatā in Mūlamadhyamakakārikā - Focusing on the 7th verse of the 24th chapter -",
+      "authors": [
+        {
+          "name": "최용권",
+          "affiliation": "독립연구자",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 『중론송』의 공성에 관해 고찰한다. 구체적으로 말하자면, 「관사제품」 제7송에 언급된 '공성의 목적', '공성', '공성의 의미'를 자세히 밝히기 위해 월칭의 주석서인 『쁘라산나빠다』는 물론이고, 「관사제품」의 다른게송들과 『중론송』의 여러 품까지도 참고한다.\n공성은 「관사제품」 제1-7송과 「관행품」 제1-4송을 통해 알 수 있듯이, 존재성이라는 자성을 지닌 존재도 아니고 비존재성이라는 자성을 지닌 비존재도 아닌 것이며, 변화를 가능하게 하는 특성인 무자성이다.\n공성의 의미는 「관사제품」 제18송을 통해 알 수 있듯이, '무자성', 즉 '자성을 지닌 채로 발생하지 않는 것'을 매개로 하여 성립하는 '연기 = 공성= 가시설 = 중도'의 등가적 관계 가운데 분명히 드러난다. 이때 공성의의미는 연기(인과 연의 상호의존성과 그 과로서 사물이 발생하는 것), 가시설(공성의 가시설이 자신의 부분을 의존하는 것), 중도(공성 가운데 존재성이라는 자성도 없고 비존재성이라는 자성도 없는 것)의 의미와 같다.\n마지막으로 공성의 목적은 「관법품」 제1-5송 통해 알 수 있듯이, 십이연기와 관련하여 이해할 수 있다. 십이연기의 유전문과 환멸문과 관련하여알 수 있는 공성의 목적은 '희론의 멸진', '분별의 소멸', '업과 번뇌의 소멸', '해탈', 즉 '환멸문의 성취'이다.\n이상과 같이 공성의 목적, 공성, 공성의 의미는 주석서뿐만 아니라,『중론송』의 여러 품과 유기적으로 연결하여 해석할 때, 그 뜻이 더욱더 분명히 드러난다",
+      "abstract_en": "This thesis examines emptiness (śūnyatā) in the Mūlamadhya makakārikā (MMK). Specifically, it refers not only to Candrakīr ti’s commentary Prasannapadā (PP) but also to other verses of the 24th chapter and to various chapters of the MMK, in order to clarify “the purpose of emptiness (śūnyatā prayojana)”, “empti ness (śūnyatā)”, and “the meaning of emptiness (śūnyatārtha)” m entioned in the 7th verse of that chapter.\nEmptiness, as can be seen from MMK 24:1-7 and MMK 13:1-4, is neither being (bhāva), which possesses the inherent nature of existence, nor non-being (abhāva), which possesses the inherent nature of non-existence; it is the non-inherent nature (niḥsvabhāvatv a), the characteristic that makes transformation possible.\nThe meaning of emptiness, as can be seen from MMK 24:18, becomes clearly manifest within the equivalence relation “depen dent co-arising (pratītyasamutpāda) = emptiness = temporary designation (prajñapti) = the middle way (madhyamā pratipa d),” which is established on the basis of “non-inherent nature,” that is, “not arising while possessing inherent nature.” At this point, the meaning of emptiness is identical with the meaning of dependent co-arising (the mutual dependence of causes and conditions and the arising of things as their result), temporary designation (the designation of emptiness that depends on its o wn constituents), and the middle way (emptiness in which there is neither the inherent nature of existence nor the inherent nat ure of non-existence).\nFinally, the purpose of emptiness, as can be seen from MMK 18:1-5, can be understood in relation to the twelve links (dvādaśāṅga pratītyasamutpāda). In connection with both the structure of the state conditioned by deluded mind (pravṛtti mārga) and the state conditioned by true mind (nivṛtti mārga) of the twelve links, the purpose of emptines is the “cessation of conceptual proliferations (prapañca),” the “extinction of discriminations (vikalpa),” the “ext inction of karma (karman) and afflictions (kleśa),” and “liberation (mokṣa),” namely the “accomplishment of the state conditioned by true mind of the twelve links.” As discussed above, when the purpose of emptiness, emptiness, and the meaning of emptiness are interpreted not only in connec tion with the commentary but also organically with various chap ters of the MMK, their significance becomes all the more clear.",
+      "journal_name": "보조사상",
       "year": "2025",
-      "volume": "73",
-      "issue": ""
+      "volume": "",
+      "issue": "73",
+      "start_page": "231",
+      "end_page": "256",
+      "doi": "10.22859/bojoss.2025..73.008",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003273115",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "보조사상연구원",
+      "kci_year": "2025",
+      "kci_volume": "",
+      "kci_issue": "73",
+      "riss_hint": "87599718f16ade64b7998d826d417196"
     },
     {
       "kci_id": "ART003326620",
@@ -18672,7 +18872,7 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "도섬(道暹)은 8세기 무렵 활약했던 중국 천태종의 승려이다. 몇몇 저작이 현존하며, 후대 문헌에서의 인용 관계를 미루어 보면 중국과 일본의 천태종에 적지 않은 영향을 미쳤다고 평가될 수 있는 인물이다. 그러나 도섬에 대한 연구는 미흡한 실정이다. 본 논문은 도섬에 대한 향후 본격적인 연구를 위한 기초 작업의 일환으로, 도섬의 사적을 수집하여 행장을 구성하고 귀속 저작의 진위 여부를 재검토하는 것을 목적으로 한다.\n도섬에게는 정리되어 있는 전기가 전하지 않는다. 그의 저작인   법화문구보정기  의 찬호(撰號)를 비롯하여, 지원(智圓, 976-1022)의   유마경약소수유기  , 찬녕(贊寧, 919-1002)의   송고승전  , 지반(志磐, 13세기)의   불조통기   등의 일부 문헌에서 도섬에 관한 파편적인 정보만이 확인될 뿐이다. 이러한 자료를 검토한 결과, 도섬의 생애는 여전히 불분명한 점이 많지만, 담연(湛然, 711-782)의 직계 문인으로서, 담연 교학의 계승과 발전에 기여한 인물임을 확인할 수 있었다.\n선행연구 및 목록류를 종합하면, 도섬에게 귀속되는 저작으로는 도합 8부 39권이 확인된다. 그러나 동일 저작임에도 목록류에 따라 저자명에 상위가 있는 경우가 있는가 하면, 동일 목록에서도 이본에 따라 저자명에 혼란이 있는 경우도 적지 않게 발견된다. 목록류와 관련 자료의 분석을 통해, ①  법화문구보정기  , ②  열반경소사기  , ③  유마현소기  , ④  유마소사기  의 4부만을 도섬의 저작으로 판정할 수 있었다. 이외의 저작은 진위가 의심되는 것이거나 다른 이의 저작이 도섬의 저작으로 오인된 것으로 판단되었다. 한편 도섬의 저작이 다른 이의 저작으로 오인되면서 혼란이 발생한 경우도 확인되었다.",
+      "abstract_kr": "도섬(道暹)은 8세기 무렵 활약했던 중국 천태종의 승려이다. 몇몇 저작이 현존하며, 후대 문헌에서의 인용 관계를 미루어 보면 중국과 일본의 천태종에 적지 않은 영향을 미쳤다고 평가될 수 있는 인물이다. 그러나 도섬에 대한 연구는 미흡한 실정이다. 본 논문은 도섬에 대한 향후 본격적인 연구를 위한 기초 작업의 일환으로, 도섬의 사적을 수집하여 행장을 구성하고 귀속 저작의 진위 여부를 재검토하는 것을 목적으로 한다.\n도섬에게는 정리되어 있는 전기가 전하지 않는다. 그의 저작인 『법화문구보정기』의 찬호(撰號)를 비롯하여, 지원(智圓, 976-1022)의 『유마경약소수유기』, 찬녕(贊寧, 919-1002)의 『송고승전』, 지반(志磐, 13세기)의 『불조통기』 등의 일부 문헌에서 도섬에 관한 파편적인 정보만이 확인될 뿐이다. 이러한 자료를 검토한 결과, 도섬의 생애는 여전히 불분명한 점이 많지만, 담연(湛然, 711-782)의 직계 문인으로서, 담연 교학의 계승과 발전에 기여한 인물임을 확인할 수 있었다.\n선행연구 및 목록류를 종합하면, 도섬에게 귀속되는 저작으로는 도합 8부 39권이 확인된다. 그러나 동일 저작임에도 목록류에 따라 저자명에 상위가 있는 경우가 있는가 하면, 동일 목록에서도 이본에 따라 저자명에 혼란이 있는 경우도 적지 않게 발견된다. 목록류와 관련 자료의 분석을 통해, ①『법화문구보정기』, ②『열반경소사기』, ③『유마현소기』, ④『유마소사기』의 4부만을 도섬의 저작으로 판정할 수 있었다. 이외의 저작은 진위가 의심되는 것이거나 다른 이의 저작이 도섬의 저작으로 오인된 것으로 판단되었다. 한편 도섬의 저작이 다른 이의 저작으로 오인되면서 혼란이 발생한 경우도 확인되었다.",
       "abstract_en": "Daoxian (道暹) was an 8th-century Chinese monk of the Tiantai school who authored several extant works. Based on the frequency of their citations, Daoxian is considered to have significantly influenced later Buddhist thought. However, research on Daoxian remains insufficient, leaving many aspects of his life and ideas unclear. This paper aims to contribute to foundational research on Daoxian by collecting historical records, reconstructing his life, and re-evaluating the authenticity of the works traditionally attributed to him.\nBiographical records about Daoxian are fragmented and lack a cohesive narrative. References to his life and activities appear sporadically in limited texts, such as his own Fahuawenjufuzhengji (『法華文句輔正記』), Zhiyuan's (智圓, 976–1022) Weimojinglueshuchiyuji (『維摩經略疏垂裕記』), Zanning's (賛寧) Songgaosengzhuan (『宋高僧傳』), and Zhipan's (志磐) Fozutongji (『佛祖統紀』). Due to these limitations, many aspects of Daoxian's life remain unclear. However, upon closer examination, it has been confirmed that Daoxian was a direct disciple of Zhanran（湛然, 711–782） and contributed to the inheritance and development of Zhanran's teachings.\nA synthesis of prior research and catalog sources reveals eight works comprising 39 volumes attributed to Daoxian. However, discrepancies in authorial attributions between catalogs and inconsistencies across different versions of the same catalog prompted further scrutiny. After careful examination of these catalogs and related materials, the following four works were confirmed as authentic compositions by Daoxian: 1.Fahuawenjufuzhengji (『法華文句輔正記』), 2.Niepanjingshusiji (『涅槃經疏私記』), 3.Weimoxuanshuji (『維摩玄疏記』), 4.Weimoshusiji (『維摩疏私記』). The other works traditionally attributed to Daoxian were found to be either of questionable authenticity or misattributions of texts authored by others. Conversely, cases were identified where Daoxian’s works were erroneously attributed to other authors.",
       "journal_name": "보조사상",
       "year": "2025",
@@ -19615,7 +19815,7 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "이 글에서는 중국불교에 나타난 관세음보살에 대한 관점을 검토하기 위해서 도생(道生), 법운(法雲), 천태지의(天台智顗)의 관점을 살펴본다. 2장에서는   법화경  의 ｢관세음보살보문품｣의 내용을 간단히 소개한다. 3장에서는 도생과 법운의 관점에 대해 알아본다. 도생은 ‘관세음’과 ‘보문’을 나누어서 접근한다. 그래서 ‘관세음’은 중생을 구제하려는 마음을 품은 존재라는 것이고, ‘보문’은 중생을 널리 구제하려는 신묘한 작용을 말하는 것이다. 이것이 천태지의의 관점에 영향을 미쳤다. 그리고 법운은 관세음보살이 중생의 음성(구업), 의업, 신업을 관조해서 중생을 구제하고, 또 이 세 가지 업을 종합적으로 관조해서 중생을 구제한다고 한다. 이 주장도 천태지의의 관점에 영향을 주었다. 4장에서는 천태지의의 관점에 대해 살펴본다. 천태지의는 도생과 법운의 관점에 영향을 받으면서도 자신의 독자적 관점을 제시한다. 그것이 ‘관세음보문’에 대해 글자 하나하나씩 해석하는 것에서 나타난다. 이 해석에 따르면, 관세음보살은 실상을 관조하는 존재이고, 관세음보살의 가르침을 듣거나 인연을 맺은 중생은 모두 부처가 되며, 관세음보살이 제시하는 가르침은 원만한 가르침이고 중도의 가르침이라는 것이다.",
+      "abstract_kr": "이 글에서는 중국불교에 나타난 관세음보살에 대한 관점을 검토하기 위해서 도생(道生), 법운(法雲), 천태지의(天台智顗)의 관점을 살펴본다. 2장에서는 󰡔법화경󰡕의 ｢관세음보살보문품｣의 내용을 간단히 소개한다. 3장에서는 도생과 법운의 관점에 대해 알아본다. 도생은 ‘관세음’과 ‘보문’을 나누어서 접근한다. 그래서 ‘관세음’은 중생을 구제하려는 마음을 품은 존재라는 것이고, ‘보문’은 중생을 널리 구제하려는 신묘한 작용을 말하는 것이다. 이것이 천태지의의 관점에 영향을 미쳤다. 그리고 법운은 관세음보살이 중생의 음성(구업), 의업, 신업을 관조해서 중생을 구제하고, 또 이 세 가지 업을 종합적으로 관조해서 중생을 구제한다고 한다. 이 주장도 천태지의의 관점에 영향을 주었다. 4장에서는 천태지의의 관점에 대해 살펴본다. 천태지의는 도생과 법운의 관점에 영향을 받으면서도 자신의 독자적 관점을 제시한다. 그것이 ‘관세음보문’에 대해 글자 하나하나씩 해석하는 것에서 나타난다. 이 해석에 따르면, 관세음보살은 실상을 관조하는 존재이고, 관세음보살의 가르침을 듣거나 인연을 맺은 중생은 모두 부처가 되며, 관세음보살이 제시하는 가르침은 원만한 가르침이고 중도의 가르침이라는 것이다.",
       "abstract_en": "In this article, in order to examine the viewpoints of Guanshiyin(觀世音) Pusa(菩薩) that is, Avalokiteśvara Bodhisattva in Chinese buddhism, we look at the viewpoints of Daosheng(道生), Fayun(法雲), and Tiantai Zhiyi(天台智顗). In chapter 2, I briefly introduces the contents of Guanshiyin pusa pumen pin(觀世音菩薩普門品) in the Lotus Sutra. In chapter 3, I examines the viewpoints of Daosheng and Fayun. Daosheng(道生) approaches by dividing ‘Guanshiyin(觀世音)’ and ‘Pumen(普門)’. So, Guanshiyin(觀世音)’ is a being with a heart to save all living beings, and ‘Pumen(普門)’ refers to a mysterious action to save all living beings widely. This influenced the viewpoints of Tiantai Zhiyi. And Fayun(法雲) says that Avalokiteśvara Bodhisattva saves sentient beings by contemplating their voice(oral karma), physical karma, and intentional karma, and also saves them by contemplating these three karma comprehensively. This argument also influenced the viewpoints of Tiantai Zhiyi(天台智顗). In chapter 4, I examines the viewpoints of Tiantai Zhiyi. While being influenced by Daosaeng and Fayun's viewpoints, Tiantai Zhiyi(天台智顗) presents his own independent viewpoint. It appears in the interpretation of each letter of ‘Guanshiyin(觀世音)’ and ‘Pumen(普門)’. According to this interpretation, Avalokiteśvara Bodhisattva is a being who contemplates reality, and all sentient beings who listen to Avalokiteśvara Bodhisattva’s teachings or have relationships become Buddha, and the teachings that Avalokiteśvara Bodhisattva presents are perfect teachings and the middle way of teachings.",
       "journal_name": "보조사상",
       "year": "2025",
@@ -19654,7 +19854,7 @@
           "order": "2"
         }
       ],
-      "abstract_kr": "약카는 하위신격이자 종족을 이루고 있는 생명체로 고대 인도인들에게 풍요와 번영을 상징하는 나무정령으로서 이미 이른 시기부터 대중적인 민간신앙으로 숭배되어왔다. 상대적으로 후발주자였던 브라만전통과 불교 및 자이나와 같은 종교들은 이 매력적인 신앙을 저마다의 모습으로 재해석하여 흡수했다. 불교전통, 특히 테라와다 전통의 경우 방대한 주석문헌의 내러티브를 통해 불교적 관점으로 재해석된 약카가 등장하게 된다. 선악의 양면성을 모두 지니고 있는 독특한 캐릭터로 묘사되는 약카는 나무에 숨어 식인을 일삼는 모습으로 표현되는 한편 붓다의 가르침을 듣기 위해 여행을 떠나는 진실한 불자의 모습으로 그려지기도 한다. 본 논문에서는 약카신앙의 불교적해석 과정을 통한 수용 과정을 살펴보기 위해 주석서   빠라맛타조띠까(Paramatthajotikā)  의   알라와까 숫따(Āḷavaka Sutta)   도입부에 대한 주석을 분석했다. 주석서 속에서 약카는 나무정령으로의 모습과 함께 거대한 궁전과 시녀들을 거느리고 있는 폭군의 모습을 가지고 있었다. 이러한 약카는 식인을 하며, 변신과 비행능력을 갖추고 있었다. 약카는 앞서 언급했듯 유일한 존재라기보다, 하나의 종족을 이루는 존재들의 명칭으로, 사람과 유사하게 서로 다른 자신만의 이름과 능력, 그리고 성향을 지닌 존재들로 묘사된다. 다양한 약카들 중에서도 특히 알라와까 약카는 난폭하지만 예류과에 임박했고, 마초적이지만 섬세한 심리변화를 이어가는 입체적이고 매력적인 악역으로 묘사되고 있다. 이러한 분석을 통해 불교전통이 당시 유력했던 민간신앙을 흡수하는 과정, 방대한 주석문헌의 해석학적 의도와 방법, 그리고 불교 내러티브들의 원형과 전개상 또한 확인할 수 있었다.",
+      "abstract_kr": "약카는 하위신격이자 종족을 이루고 있는 생명체로 고대 인도인들에게 풍요와 번영을 상징하는 나무정령으로서 이미 이른 시기부터 대중적인 민간신앙으로 숭배되어왔다. 상대적으로 후발주자였던 브라만전통과 불교 및 자이나와 같은 종교들은 이 매력적인 신앙을 저마다의 모습으로 재해석하여 흡수했다. 불교전통, 특히 테라와다 전통의 경우 방대한 주석문헌의 내러티브를 통해 불교적 관점으로 재해석된 약카가 등장하게 된다. 선악의 양면성을 모두 지니고 있는 독특한 캐릭터로 묘사되는 약카는 나무에 숨어 식인을 일삼는 모습으로 표현되는 한편 붓다의 가르침을 듣기 위해 여행을 떠나는 진실한 불자의 모습으로 그려지기도 한다. 본 논문에서는 약카신앙의 불교적해석 과정을 통한 수용 과정을 살펴보기 위해 주석서 『빠라맛타조띠까(Paramatthajotikā)』의 『알라와까 숫따(Āḷavaka Sutta)』 도입부에 대한 주석을 분석했다. 주석서 속에서 약카는 나무정령으로의 모습과 함께 거대한 궁전과 시녀들을 거느리고 있는 폭군의 모습을 가지고 있었다. 이러한 약카는 식인을 하며, 변신과 비행능력을 갖추고 있었다. 약카는 앞서 언급했듯 유일한 존재라기보다, 하나의 종족을 이루는 존재들의 명칭으로, 사람과 유사하게 서로 다른 자신만의 이름과 능력, 그리고 성향을 지닌 존재들로 묘사된다. 다양한 약카들 중에서도 특히 알라와까 약카는 난폭하지만 예류과에 임박했고, 마초적이지만 섬세한 심리변화를 이어가는 입체적이고 매력적인 악역으로 묘사되고 있다. 이러한 분석을 통해 불교전통이 당시 유력했던 민간신앙을 흡수하는 과정, 방대한 주석문헌의 해석학적 의도와 방법, 그리고 불교 내러티브들의 원형과 전개상 또한 확인할 수 있었다.",
       "abstract_en": "Yakkha is a tree spirit that symbolizes abundance and prosperity among ancient Indians, and has been worshiped as a cult. For the Brahman tradition, and other religious traditions such as Buddhism and Jainism, the Yakkha worship was absorbed and reinterpreted in their own form. In the case of Buddhist tradition, Yakkha, reinterpreted from a Buddhist perspective, emerges through vast commentary literature. In Buddhist literature, Yakkha is mainly described as a unique character with both good and evil through narratives. They are sometimes depicted as monsters hiding in trees and cannibalizing, or as sincere Buddhists who go on a trip to listen to the Buddha's teachings. In the commentary, Yakkha was depicted as a tyrant with a huge palace and maids, not a tree spirit. They have cannibalism, as well as transformation and flight ability, and they were like tribes, so they had different names, abilities, and tendencies. In particular, Alavaka Yakka is described as an attractive villain who continues a macho but delicate psychological change despite being violent. From this research, it was also possible to confirm the process of Buddhist tradition absorbing folk beliefs at the time, the hermeneutic intentions and methods of extensive commentary literature, and the archetype and development of Buddhist narratives.",
       "journal_name": "보조사상",
       "year": "2025",
@@ -19722,7 +19922,7 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "본 연구는   기신론  의 일심사상이 400년대 초에 활동했었던 승위의 설에 영향을 받았다는 선행 연구의 주장을 검토하기 위해   십지경  의 내용과 승위의 사상, 그리고   기신론  이 찬술된 북조 지역의 문헌들을 조사하고 그 의미를 분석해 보았다. 고찰 결과는 다음과 같다.\n  십지경  의 일심이 반드시 현상세계의 기반으로서의 일심을 말하는 것은 아니지만, 그에 대한 승위의 해석에 나타난 일심은 현상세계의 근원으로서의 마음으로 일심을 설명한다. 그러나 그것은   십지경  에 대한 고찰이라기보다는 남조 불교에 널리 퍼진 사유를 반영한 것으로 보인다. 무엇보다 ‘일심’과 ‘일법’의 이원론적 사유는   기신론  의 일심사상과 구분된다.\n이와는 달리 6세기에 북조에서 번역된   십지경론  은 명확히 일심을 알라야식으로 규정하고 있으며 그 알라야식은 청정과 염오의 이중적 성격을 지니고 있는 것으로 제시되었다. 그리고 당시 북조의 학장이었던 보리유지가 번역한   입능가경  , 그리고 그에 대한 교설은 일심=알라야식=여래장이라는 구조를 보여주고 있으며, 이러한 사유가 북조에서 찬술된 문헌에도 그대로 전승되고 있음을 확인하였다. 이처럼 이미   기신론  과 사상적, 지역적으로 직결되는 문헌이 있다면, 그 사상의 직접적 원인을 굳이 한 세기 전의 인물인 승위에까지 돌릴 필요는 없을 것이다. 이렇게 보았을 때,   기신론  의 일심사상은 역시 당시의 한역 경론과 그에 대한 해석에 기원하고 있다고 보는 쪽이 개연성이 높다. 따라서   십지경함주서  와   기신론  의 관계는 직접적 영향 관계보다는 보다 넓은 견지에서 동아시아 불교 사상사의 연속적인 양상으로 보는 것이 적절하다. 다시 말해 두 문헌이 보여주는 놀라운 구조적 유사성은 단순한 인용의 결과라기보다는 동아시아 불교가 공유하고 있는 보다 근본적인 사유 구조의 균질성에서 비롯된 것으로 파악해야 한다.",
+      "abstract_kr": "본 연구는 『기신론』의 일심사상이 400년대 초에 활동했었던 승위의 설에 영향을 받았다는 선행 연구의 주장을 검토하기 위해 『십지경』의 내용과 승위의 사상, 그리고 『기신론』이 찬술된 북조 지역의 문헌들을 조사하고 그 의미를 분석해 보았다. 고찰 결과는 다음과 같다.\n『십지경』의 일심이 반드시 현상세계의 기반으로서의 일심을 말하는 것은 아니지만, 그에 대한 승위의 해석에 나타난 일심은 현상세계의 근원으로서의 마음으로 일심을 설명한다. 그러나 그것은 『십지경』에 대한 고찰이라기보다는 남조 불교에 널리 퍼진 사유를 반영한 것으로 보인다. 무엇보다 '일심'과 '일법'의 이원론적 사유는 『기신론』의 일심사상과 구분된다.\n이와는 달리 6세기에 북조에서 번역된 『십지경론』은 명확히 일심을 알라야식으로 규정하고 있으며 그 알라야식은 청정과 염오의 이중적 성격을 지니고 있는 것으로 제시되었다. 그리고 당시 북조의 학장이었던 보리유지가 번역한 『입능가경』, 그리고 그에 대한 교설은 일심=알라야식=여래장이라는 구조를 보여주고 있으며, 이러한 사유가 북조에서 찬술된 문헌에도 그대로 전승되고 있음을 확인하였다. 이처럼 이미 『기신론』과 사상적, 지역적으로 직결되는 문헌이 있다면, 그 사상의 직접적 원인을 굳이 한 세기 전의 인물인 승위에까지 돌릴 필요는 없을 것이다. 이렇게 보았을 때, 『기신론』의 일심사상은 역시 당시의 한역 경론과 그에 대한 해석에 기원하고 있다고 보는 쪽이 개연성이 높다. 따라서 『십지경함주서』와 『기신론』의 관계는 직접적 영향 관계보다는 보다 넓은 견지에서 동아시아 불교 사상사의 연속적인 양상으로 보는 것이 적절하다. 다시 말해 두 문헌이 보여주는 놀라운 구조적 유사성은 단순한 인용의 결과라기보다는 동아시아 불교가 공유하고 있는 보다 근본적인 사유 구조의 균질성에서 비롯된 것으로 파악해야 한다.",
       "abstract_en": "This article undertakes a critical examination of prior scholarship claiming that the Awakening of Faith in the Mahāyāna (Dashengqixinlun, henceforth “Qixinlun”)’s doctrine of “one mind” (一心) was influenced by the thought of Sengwei (僧衛), a monk active in the early 5th century. To reassess this assertion, I have analyzed Shizhujinghanzhuxu (十住經含注序) ascribed to Sengwei, as well as the Buddhist texts composed in the Northern Dynasties of early 6th century, the region where the Qixinlun was compiled. The findings of this investigation are as follows.\nWhile the notion of “one mind” in the Daśabhūmika Sūtra does not necessarily signify a foundational ground of the phenomenal world, Sengwei’s interpretation presents “one mind” as the mind that functions as the origin of phenomenal existence. However, this appears to reflect not so much a close reading of the Daśabhūmika Sūtra itself as it does a broader mode of thought prevalent in Southern Chinese Buddhism at the time. Above all, the dualistic framework distinguishing “one mind” and “one dharma” in Sengwei’s system differs substantially from the ontological conception of “one mind” articulated in the Qixinlun.\nBy contrast, the Shidijinglun (十地經論), translated in the sixth century in Northern China, explicitly identifies “one mind” with the ālayavijñāna, which is described as possessing a dual nature of purity and defilement. Furthermore, the Laṅkāvatāra Sūtra (入楞伽經), translated by Bodhiruci—one of the leading translators and exegetes of the Northern Dynasties—along with his associated doctrinal formulations, clearly articulates a conceptual structure equating one mind with ālayavijñāna and tathāgatagarbha. This structure, as my research shows, is faithfully inherited in Chinese-authored texts from the same milieu. In light of the existence of such conceptually and geographically proximate sources, there appears to be little necessity to trace the doctrinal origins of the Qixinlun back to Sengwei, a figure of the preceding century. From this perspective, it is more plausible to regard the Qixinlun’s formulation of the “one mind” doctrine as having emerged from the interpretative horizon shaped by contemporary Chinese translations of Indian scriptures and their exegetical traditions.",
       "journal_name": "보조사상",
       "year": "2025",
@@ -19863,7 +20063,7 @@
           "order": "2"
         }
       ],
-      "abstract_kr": "본 연구는 해안(海眼, 1901~1974) 선사의 생애와 사상을 고찰하고  해안집  에 수록된 법어와 경전 해설을 중심으로 그의 무아사상을 분석하였다. 해안은 평생에 걸쳐 ‘7일 정진’을 강조하며 여러 경전에 대한 해설및 수행법을 제시하여 자아에 대한 집착의 해체와 무아적 통찰을 실생활속에서 구현할 것을 역설했다. 그러나 그의 사상과 수행관은 기존 학계에서 연구되지 못하고 있는 실정이다. 본 연구에서는   해안집  에 수록된 법어와 경전 해설을 중심으로 해안 선사의 무아사상을 체계적으로 고찰하고이를 현대 심리학의 자아이론 및 마음챙김 기반 치유법과 비교하였다. 해안의 통찰은 현대 심리학의 탈중심화 이론, 자기심리학의 관계적 자아 개념, 그리고 마음챙김의 비판단적 수용 원리와 긴밀하게 연결된다고 본다.\n특히 그의 7일 정진 수행은 극한적 몰입과 단기간 돌파를 지향한다는 점에서 점진적 구조를 갖춘 MBSR이나 MBCT와 차별되지만 현대 명상 프로그램에 대한 심화과정이나 보완적 모델로서 의의가 있다.",
+      "abstract_kr": "본 연구는 해안(海眼, 1901~1974) 선사의 생애와 사상을 고찰하고󰡔해안집󰡕에 수록된 법어와 경전 해설을 중심으로 그의 무아사상을 분석하였다. 해안은 평생에 걸쳐 ‘7일 정진’을 강조하며 여러 경전에 대한 해설및 수행법을 제시하여 자아에 대한 집착의 해체와 무아적 통찰을 실생활속에서 구현할 것을 역설했다. 그러나 그의 사상과 수행관은 기존 학계에서 연구되지 못하고 있는 실정이다. 본 연구에서는 󰡔해안집󰡕에 수록된 법어와 경전 해설을 중심으로 해안 선사의 무아사상을 체계적으로 고찰하고이를 현대 심리학의 자아이론 및 마음챙김 기반 치유법과 비교하였다. 해안의 통찰은 현대 심리학의 탈중심화 이론, 자기심리학의 관계적 자아 개념, 그리고 마음챙김의 비판단적 수용 원리와 긴밀하게 연결된다고 본다.\n특히 그의 7일 정진 수행은 극한적 몰입과 단기간 돌파를 지향한다는 점에서 점진적 구조를 갖춘 MBSR이나 MBCT와 차별되지만 현대 명상 프로그램에 대한 심화과정이나 보완적 모델로서 의의가 있다.",
       "abstract_en": "This study examines the life and thought of Ven. Haean (海眼, 1901–1974) and analyzes his doctrine of non-self (anattā) as articulated in the Haean-jip (海眼集), a collection of his Dharma talks and scriptural commentaries. Throughout his life, Haean consistently emphasized “seven-day intensive meditation” (chil-il jeongjin) and, through his interpretations of various scriptures and meditation methods, urged the dismantling of self-attachment and the realization of non-self in daily life.\nNevertheless, his thought and practice have remained largely unexamined in existing scholarship. This study therefore systematically investigates Haean’s understanding of non-self based on the Haean-jip and compares it with contemporary psychological theories of the self and mindfulness-based therapeutic approaches. In his scriptural exegesis, Haean repeatedly stressed the importance of non-self, while his model of seven-day intensive practice highlighted the radical dismantling of self-attachment and the embodiment of insight in everyday conduct. Such perspectives resonate with modern psychology’s concept of decentering, the relational self in self-psychology, and the principle of non-judgmental acceptance central to mindfulness. In particular, Haean’s seven-day intensive meditation, which emphasizes extreme immersion and breakthrough within a short time span, stands in contrast to the gradual and structured formats of MBSR and MBCT, yet may serve as a deepening or complementary model for contemporary mindfulness programs.",
       "journal_name": "보조사상",
       "year": "2025",
