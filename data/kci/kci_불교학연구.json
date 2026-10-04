@@ -25242,6 +25242,898 @@
       "kci_volume": "5",
       "kci_issue": "",
       "riss_hint": "640423ba6aecb0c4ffe0bdc3ef48d419"
+    },
+    {
+      "article_id": "ART003390872",
+      "id": "ART003390872",
+      "kci_id": "ART003390872",
+      "title_kr": "『금강경』의 사상(四相) 해소를 통한 정견(正見) 중심 AI 레드팀 프레임워크 구축에 관한 연구",
+      "title_en": "A Study on Constructing a Right View-Centered AI  Red Teaming Framework through the Dissolution of  the ‘Four Notions’ in the Diamond Sutra",
+      "authors": [
+        {
+          "name": "박영식",
+          "affiliation": "서울불교대학원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 금강경(金剛經)의 핵심 철학인 ‘사상(四相)’ 해소와 ‘공(空)’ 사상을 중심으로, 현대 인공지능(AI) 안전성 평가의 핵심 기법인 레드팀(Red Teaming)의 기술적 검증 체계를 윤리적·철학적 차원으로 확장하는 방안을 탐구한다. 최근 초거대 언어 모델(LLM)의 급격한 발전과 함께 인공지능의 편향성, 환각, 윤리적 탈옥 등의 문제가 대두되고 있으나, 기존의 AI 윤리 가이드라인은 대개 선언적 원칙에 머물러 실무적 현장에서의 구체적인 방법론적 한계를 드러내고 있다. 이에 본 연구는 사물의실상을 있는 그대로 꿰뚫어 보는 ‘정견(正見)’의 원리를 기술적 방어 체계에 도입함으로써, 데이터와 알고리즘에 내재된 고착화된 편향이 본질적으로는 실체가 없는 ‘상(相)’에 불과함을 논증하고 이를 식별하기 위한 새로운 평가 프레임워크를 제안한다.\n연구의 방법론적 핵심은 금강경에서 경계하는 아상(我相), 인상(人相), 중생상(衆 生相), 수자상(壽者相)의 네 가지 집착을 현대 AI 시스템의 오류 유형과 결합하는 데 있다. 본고는 AI 안전성을 단순한 소프트웨어적 결함 탐지의 영역을 넘어, 정견을 통해인간의 고정관념이 투영된 비가시적 피해를 식별하고 이를 철학적으로 교정하는 ‘윤리적 정렬(Ethical Alignment)’의 과정으로 고찰한다. 특히 OWASP AI Testing Guide, 일본 AI 안전 연구소 등 국제적인 AI 안전성 평가 체계가 놓치기 쉬운 ‘비고정적 존재로서의 AI 윤리’를 불교의 공 사상으로 보완하고자 한다. 이는 기존 보안 방법론이 간과해온 분별심을 타파하고, 인공지능이 생성하는 결과물의 책임 인과관계를 연기(緣 起)적 관점에서 통찰할 수 있는 고도화된 평가 틀을 제공한다.\n나아가 본 연구는 과학적 보안 방법론에 정견을 필두로 한 중도(中道) 사상을 접목함으로써, 설명가능한 AI(XAI)가 단순한 기술적 해석을 넘어 실질적인 사회적 책임성으로 연결될 수 있는 철학적 토대를 마련한다. 결과적으로 본 논문은 금강경의가르침이 현대 기술 문명의 최전선에 있는 AI 안전 가이드라인과 유기적으로 부합함을 증명하며, 무아(無我)의 지혜를 실현하는 정견의 철학이 기술적 방어 체계 내에서AI의 공정성과 신뢰성을 실질적으로 구현하는 데 있어 변혁적인 실천 지침이 될 수있음을 시사한다. 이러한 시도는 불교 철학의 현대적 응용 범위를 AI 안전 공학이라는 미답의 영역으로 확장하고, 기술과 인문학이 융합된 인공지능 윤리 연구의 새로운지평을 제시한다는 점에서 그 학술적 의의가 크다.",
+      "abstract_en": "This study proposes expanding the technical verification framework of AI Red Teaming (a core technique for AI safety assessment) into ethical and philosophical dimensions by integrating the concepts of ‘Emptiness’ (空) and the dissolution of the ‘Four Notions’ (四相) from the Diamond Sutra. While Large Language Models (LLMs) have given rise to growing concerns about bias, hallucination, and jailbreaking, current ethics guidelines often remain declarative. In response, this research introduces ‘Right View’ (正見) into technical defense systems to perceive algorithmic biases as substance-less ‘Notions’ (相).\nThe methodological core lies in mapping the four attachments cautioned against in the Diamond Sutra (the Notions of Self, Person, Being, and Life) to specific error types in modern AI. Beyond simple defect detection, this paper views AI safety as a process of ‘Ethical Alignment’ that uses Right View to identify and correct invisible harms arising from projected human stereotypes. Specifically, it applies the Buddhist concept of Emptiness (空) to complement international standards— such as the OWASP AI Testing Guide and the Guide to Red Teaming Methodology on AI Safety—by addressing the ‘non-fixed existence’ of AI ethics that conventional systems often overlook. This framework deconstructs the ‘discriminative mind’ overlooked by conventional security and explores responsibility through ‘Dependent Origination’ (緣起).\nBy integrating scientific security with the Middle Way (中道), this study establishes a foundation on which Explainable AI (XAI) can extend beyond technical interpretation to substantive social accountability. Ultimately, the results demonstrates that the wisdom of ‘Non-self’ (無我) can serve as a transformative practical guideline for implementing fairness and reliability. This research extends Buddhist philosophy into the largely unexplored field of AI safety engineering, opening a new horizon where technology and the humanities converge.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "517",
+      "end_page": "553",
+      "doi": "10.21482/jbs.88..202609.517",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390872",
+      "keywords_kr": [
+        "Emptiness (Śūnyatā)",
+        "금강경",
+        "사상(四相)",
+        "공 사상(空 思想)",
+        "정견(正見)",
+        "AI 레드팀",
+        "AI 안전성",
+        "윤리적 정렬"
+      ],
+      "keywords_en": [
+        "Diamond Sutra",
+        "Four Notions",
+        "Right View",
+        "AI Red Teaming",
+        "AI Safety",
+        "Ethical Alignment"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390837",
+      "id": "ART003390837",
+      "kci_id": "ART003390837",
+      "title_kr": "무상(無常)과 실상(實相) －라브랑사(拉卜楞寺) 수유화(酥油花)의 반야(般若) 미학과 신성성(神聖性)의 함의－",
+      "title_en": "Impermanence and Ultimate Reality:  Prajñā Aesthetics and the Sacred Significance  of Butter Sculpture at Labrang Monastery",
+      "authors": [
+        {
+          "name": "양영봉",
+          "affiliation": "중국 절강사범대학교 소산캠퍼스 아동미술학과",
+          "order": "1"
+        },
+        {
+          "name": "이행철",
+          "affiliation": "浙江工商大學",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "수유화(酥油花) 예술은 티베트 불교(藏傳佛教) 특유의 공양 조소 예술로, 역사가 유구하고 조형이 정교하다. 비록 수유화의 재질이 쉽게 녹아내려 그 예술적 형태가 뚜렷한 잔혹성과 단명성을 지니지만, 그 심미적 가치와 종교적 의미는 물질적 형태의소멸로 인해 사라지지 않고 오히려 티베트 불교의 의궤 실천과 신앙 전승 속에서 지속적으로 드러난다. 본 논문은 라브랑사(拉卜楞寺) 수유화 예술을 핵심 연구 대상으로 삼아, 종교예술학과 반야(般若) 미학 이론을 결합하고 문헌 연구와 현장 조사를 병행하는 연구 방법을 채택하였다. 무상(無常)과 실상(實相)의 변증법적 핵심을 중심으로 반야 사상의 3체계인 문자반야(文字般若), 관조반야(觀照般若), 실상반야(實相般若) 를 시각으로 삼아, 의궤의 상(相), 환화(幻化)의 미, 실상(實相)의 경계라는 세 가지 차원에서 수유화의 반야 미학적 함의와 신성성의 의미를 체계적으로 해석하여, 수유화가외재적 의식 형태에서 심미적 관조를 거쳐 궁극적인 실상의 경계에 이르는 온전한 정신적 맥락을 규명하고자 했다. 연구 결론은 다음과 같다. 첫째, 수유화의 현상적 심미본질은 환화의 미이며, 이는 유위법(有為法)의 인연취산(因緣聚散)을 직관적으로 보여주는 예술적 표현이다. 둘째, 수유화의 본체적 가치는 실상의 항구함에 귀결되며, 형체는 소멸해도 본성은 소멸하지 않는 영원한 의미를 보여준다. 셋째, 환화와 실상의변증법적 통일은 수유화 특유의 반야 심미의 핵심 기제를 구성한다. 본 연구는 예술창작, 수행 실천, 종교적 체험을 하나로 융합하여, 불교 예술에 있어서 무상과 영원, 환화와 실상, 예술과 신앙의 관계를 이해하는 데 새로운 이론적 시각을 제공하며, 종교예술의 신성성 연구에도 티베트 불교 고유의 특징을 지닌 사례와 시사점을 제공한다.",
+      "abstract_en": "Butter sculpture (酥油花，Su Youhua) is a distinctive form of votive sculpture in Tibetan Buddhism, renowned for its refined craftsmanship and long-standing ritual tradition. Although butter is an inherently perishable medium, making the sculptures highly ephemeral, their aesthetic value and religious significance endure through Buddhist ritual practice and the continuity of the Buddhist tradition. Focusing on the butter sculptures of Labrang Monastery (拉卜楞寺), this study draws on theories of religious art and an aesthetic approach grounded in Prajñā (般若美學). Combining textual research with fieldwork, it examines the dialectical relationship between impermanence (無常) and ultimate reality (實相) through the threefold framework of Prajñā (般若): Scriptural Prajñā (文字般若), Contemplative Prajñā (觀照般若), and Ultimate Reality Prajñā (實相般若). From the perspectives of ritual form, the beauty of illusion, and the realm of ultimate reality, the study explores the aesthetic characteristics and sacred significance embodied in butter sculpture.\nThe findings suggest that butter sculpture embodies the beauty of illusion as an artistic expression of gathering and dispersal of causes and conditions (因緣聚散) of conditioned dharmas (有爲法). Its ontological value is grounded in ultimate reality, revealing the enduring nature of ultimate reality beyond the impermanence of material form. The dialectical unity of illusion and ultimate reality constitutes the distinctive aesthetic mechanism of Prajñā embodied in butter sculpture. By integrating artistic creation, Buddhist practice, and religious experience, this study offers a new perspective on the relationships between impermanence and permanence, illusion and ultimate reality, and art and faith. It also contributes a distinctive Tibetan Buddhist case to the study of the sacredness of religious art.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "287",
+      "end_page": "321",
+      "doi": "10.21482/jbs.88..202609.287",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390837",
+      "keywords_kr": [
+        "수유화(酥油花)",
+        "라브랑사(拉蔔楞寺)",
+        "장전불교(藏傳佛敎)",
+        "반야미학(般若美學)",
+        "무상(無常)",
+        "실상(實相)",
+        "종교예술",
+        "Prajñā aesthetics"
+      ],
+      "keywords_en": [
+        "Butter sculpture",
+        "Labrang Monastery",
+        "Tibetan Buddhism",
+        "Impermanence",
+        "Ultimate reality",
+        "Religious art"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390832",
+      "id": "ART003390832",
+      "kci_id": "ART003390832",
+      "title_kr": "긍정적 수반(anvaya)과 부정적 수반(vyatireka)은 중복에 불과한가? －anvaya-vyatireka의 논리적 동치 문제에 대한 다르마끼르띠의 답변－",
+      "title_en": "Are Anvaya and Vyatireka Merely Redundant?:  Dharmakīrti’s Response to Their Logical Equivalence",
+      "authors": [
+        {
+          "name": "손영산",
+          "affiliation": "서울대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 디그나가(Dignāga)의 ‘추론근거의 세 가지 특징’(trairūpya) 이론에서 제2 특징인 긍정적 수반(anvaya)과 제3 특징인 부정적 수반(vyatireka)이 논리적 동치 관계에 놓이면서 발생하는 중복 문제와 이에 대한 다르마끼르띠(Dharmakīrti)의 답변을 검토하는 것을 목적으로 한다. 디그나가는 Pramāṇasamuccaya(PS)에 대한 자신의 주석Pramāṇasamuccayavṛtti(PSV)에서 eva 한정사를 사용함으로써 추론근거의 존재 영역을 추론대상의 존재 영역으로 한정하고, 추론대상이 부재하는 영역에서 추론근거의존재 가능성을 배제하였다. 그러나 이에 따라 긍정적 수반과 부정적 수반은 논리적대우 관계에 놓이게 되며, 왜 양자를 별개의 두 특징으로 제시해야 하는지가 문제로 제기된다. 본 연구는 이 문제에 대한 다르마끼르띠의 Pramāṇaviniścaya(PVin)와 Hetubindu(HB)에서의 답변을 분석하였다. 다르마끼르띠는 긍정적 수반과 부정적 수반의 상호 지시 가능성을 인정하면서도, 논증에 적용되는 진술(prayoga)의 차원과 추론근거의 특징(rūpa)의 차원을 구분함으로써 양자가 본질적으로는 별개의 특징임을주장한다. 즉 어느 한쪽의 진술만으로 다른 한쪽이 이해되는 것은 양자가 서로를 함축하거나 포함하기 때문이 아니라, 한정(niyama)을 가진 명제가 갖는 효력(sāmarthya) 에 기인한다는 것이다. 나아가 본 연구는 HB, HBṬ, HBṬĀ의 산스크리트 자료와 관련티벳어 번역 및 현대 교정본을 비교하여, 긍정적 수반과 부정적 수반의 상호 비의존성과 비함축성을 주장하는 산스크리트 자료들의 독해가 다르마끼르띠의 의도에 보다 부합함을 논증한다. 이를 통해 다르마끼르띠의 답변이 긍정적 수반과 부정적 수반의 논리적 동치를 부정하는 것이 아니라, 그 상호 지시 가능성과 두 특징의 본질적 독립성을 서로 다른 차원에서 설명함으로써 디그나가의 trairūpya 이론을 유지하려는시도였음을 밝힌다.",
+      "abstract_en": "This paper examines Dharmakīrti’s response to the redundancy problem arising from the logical equivalence of the second characteristic, anvaya (positive concomitance), and the third characteristic, vyatireka (negative concomitance), in Dignāga’s theory of the three characteristics of a valid logical reason (trairūpya).\nDignāga uses the restrictive particle eva to define these two characteristics in his Pramāṇasamuccayavṛtti (PSV). The propositions expressing anvaya and vyatireka consequently form a pair of contrapositives and are logically equivalent, raising the question of why they should be stated as separate characteristics of a valid reason.\nThe paper first traces the emergence of this problem in Dignāga’s Pramāṇasamuccaya (PS) and PSV, then analyzes Dharmakīrti’s responses in the Pramāṇaviniścaya (PVin) and Hetubindu (HB). Dharmakīrti accepts that a statement of either anvaya or vyatireka can indicate the other, but maintains that this mutual indication does not imply their essential identity. Distinguishing statements used in an argument (prayoga) from the characteristics (rūpa) themselves, he maintains that presence in similar instances and absence from dissimilar instances are distinct characteristics.\nAccording to Dharmakīrti, one statement can indicate the other because of the force (sāmarthya) of a proposition containing a restriction (niyama), rather than because of mutual implication or inclusion. Finally, the study compares the Sanskrit HB, Hetubinduṭīkā, and Hetubinduṭīkāloka with the relevant Tibetan translations and the modern critical editions. It argues that the Sanskrit materials, which consistently deny mutual dependence, implication, and inclusion between the two characteristics, accord more closely with Dharmakīrti’s original intention. His response can therefore be understood as an attempt to preserve Dignāga’s trairūpya theory while resolving its inherent redundancy problem.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "235",
+      "end_page": "264",
+      "doi": "10.21482/jbs.88..202609.235",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390832",
+      "keywords_kr": [
+        "Dignāga",
+        "Dharmakīrti",
+        "trairūpya",
+        "디그나가(Dignāga)",
+        "다르마끼르띠(Dharmakīrti)",
+        "추론근거의 ‘세 가지 특징’(trairūpya)",
+        "긍 정적 수반(anvaya)",
+        "부정적 수반(vyatireka)",
+        "한정(niyama)"
+      ],
+      "keywords_en": [
+        "anvaya",
+        "vyatireka",
+        "niyama"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390813",
+      "id": "ART003390813",
+      "kci_id": "ART003390813",
+      "title_kr": "거갈마 대상자 처리 규정과 승가의 갈등 조정 방식 －『마하승기율』을 중심으로－",
+      "title_en": "Treatment of Monks Subject to the Suspension Procedure and Conflict Management in the Saṃgha: Focusing on the Mahāsāṃghika Vinaya",
+      "authors": [
+        {
+          "name": "이자랑",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 대중부의 󰡔마하승기율󰡕을 중심으로 거갈마(擧羯磨, ukkhepaniyakamma)의 적용 대상과 시행 절차, 거갈마를 받은 비구에 대한 대처 방식, 타라타(他邏咃)를 통한 중재, 그리고 이주(異住)를 통한 병존 방식을 검토하고, 이를 빨리율을 비롯한 상좌부 계통 율장과 비교하여 그 동이점을 고찰하였다. 이를 통해 󰡔마하승기율의 갈등 조정 방식과 여러 율장 전통이 공유하는 승가 운영 원리를 밝히고자 하였다.\n거갈마는 범계를 저지른 뒤에도 자신의 죄를 인정하지 않거나, 참회하지 않는 자, 또는 악견(惡見)·악사견(惡邪見)·변견(邊見)을 고집하는 자에게 시행되는 징계 절차이다. 당사자가 승가의 판단을 받아들이지 않는 상태에서 시행된다는 점에서, 거갈마는 승가 내부의 갈등을 심화시키거나 경우에 따라 파승으로 이어질 가능성도 있다. 빨리율 ｢꼬삼비건도(Kosambakakkhandhaka)｣는 거갈마를 계기로 승가가 분열되고, 이후 화합포살을 통해 다시 화합승가를 회복하는 과정을 보여준다. 한편, 󰡔마하승기율󰡕은 거갈마를 받은 비구를 공동체 생활에서 보다 엄격하게 배제하는 동시에, 어느 한쪽에도 치우치지 않는 타라타를 중재자로 두어 갈등을 조정한다. 당사자가 정견을 회복하면 사거갈마를 통해 승가에 복귀시키며, 끝내 승가의 판단을 받아들이지 않는 경우에는 이주를 통해 서로 다른 공동체에서 병존하게 함으로써 장차 화합과 재통합의 가능성을 열어 둔다. 양 전통은 구체적인 대응 방식과 제재의 정도에서는 차이를 보이지만, 갈등을 단계적으로 조정하여 궁극적으로 승가의 질서와 화합을 회복하고자 한다는 공통된 원리를 보여준다. 특히 징계를 단순한 처벌이나 영구적 배제가 아니라 당사자의 변화와 복귀를 위한 절차로 운용하고, 합의가 어려운 경우에는 중재나 잠정적 분리를 통해 갈등의 확산을 막고 장래의 재통합 가능성을 남겨 둔다는 점이 주목된다. 이러한 갈등 조정 방식은 현대 불교 공동체의 징계와 분쟁 해결 제도를 성찰하는 데에도 일정한 시사점을 제공한다.\n\n\n주제어거갈마, 거죄갈마, 타라타, 이주, 나나상와사까, 마하승기율, 꼬삼비건도",
+      "abstract_en": "This study examines ukkhepaniyakamma (the act of suspension) in the Mahāsāṃghika Vinaya, focusing on its subjects and procedure, the treatment of suspended monks, mediation by a sthalastha (他邏咃), and coexistence in separate communions (異住), that is, coexistence while belonging to different monastic affiliations. It compares these regulations with those of Vinaya texts belonging to the Sthavira lineage, including the Pāli Vinaya, to clarify their similarities and differences. Through this comparison, the study identifies the distinctive approach of the Mahāsāṃghika Vinaya to conflict management and the principles of Saṃgha governance shared across Vinaya traditions.\nThe ukkhepaniyakamma is imposed upon a monk who refuses to acknowledge or make amends for an offence, or who persists in holding wrong, heterodox, or extreme views. Because it is carried out while the monk continues to reject the Saṃgha’s judgment, it may intensify conflict and, in some cases, lead to schism. The Kosambakakkhandhaka of the Pāli Vinaya describes how a divided Saṃgha eventually restored unity through a reconciliation Uposatha (sāmaggi-uposatha). The Mahāsāṃghika Vinaya, by contrast, excludes suspended monks more strictly from communal life while providing for mediation by an impartial sthalastha. If the monk recovers right view, he may be reinstated through the revocation of the suspension. If he continues to reject the Saṃgha’s judgment, separate residence allows the opposing groups to coexist in different communities, preventing disintegration while preserving the possibility of future reconciliation.\nAlthough the two traditions differ in the severity of restrictions imposed upon suspended monks, both seek to restore order and harmony through a gradual process of conflict management. Discipline is thus understood not merely as punishment or permanent exclusion, but as a means of encouraging transformation and reintegration. When immediate agreement is impossible, impartial mediation and provisional separation may mitigate conflict and preserve the community. These principles offer meaningful insights for reconsidering disciplinary and dispute-resolution systems in contemporary Buddhist communities.\nAlthough the two traditions differ in the severity of restrictions imposed upon suspended monks, both seek to restore order and harmony through a gradual process of conflict management. Discipline is thus understood not merely as punishment or permanent exclusion, but as a means of encouraging transformation and reintegration. When immediate agreement is impossible, impartial mediation and provisional separation may mitigate conflict and preserve the community. These principles offer meaningful insights for reconsidering disciplinary and dispute-resolution systems in contemporary Buddhist communities.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "1",
+      "end_page": "27",
+      "doi": "10.21482/jbs.88..202609.1",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390813",
+      "keywords_kr": [
+        "asaṃbhoga",
+        "nānāsaṃvāsaka",
+        "Mahāsāṃghika Vinaya",
+        "거갈마",
+        "거죄갈마",
+        "타라타",
+        "이주",
+        "나나상와사까",
+        "마하승기율",
+        "꼬삼비건도"
+      ],
+      "keywords_en": [
+        "ukkhepaniyakamma",
+        "suspension procedure",
+        "sthalastha",
+        "Kosambakakkhandhaka"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390853",
+      "id": "ART003390853",
+      "kci_id": "ART003390853",
+      "title_kr": "화쟁(和諍)과 살의 언어 －원효와의 비교를 통한 메를로-퐁티 철학 속의 실존적 구원 가능성－",
+      "title_en": "Hwajaeng and the Language of Flesh: The Possibility  of Existential Salvation in Merleau-Ponty’s  Philosophy through a Comparison with Wonhyo",
+      "authors": [
+        {
+          "name": "한우섭",
+          "affiliation": "한국외국어대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 논문은 불교철학과 메를로-퐁티의 철학을 비교한 기존 연구들에서 주장되는메를로-퐁티 철학의 한계가 과연 정당한 비판인지를 확인한 후, 메를로-퐁티의 철학역시 대승(大乘)적 견지에서 해석될 수 있음을 주장한다.\n메를로-퐁티 철학은 그 존재론의 가역적 구조로 인해 불교철학의 연기적 구조와비교되어 설명되기 용이하며, 실제로 그러한 연구들이 존재한다. 그런데 그러한 연구들 일부는 종교적 관점을 기준으로 메를로-퐁티 철학의 한계를 지적한다. 즉, 그의 철학이 불교적인 관점에서 실체론적인 서구 전통 철학의 이분법적 세계관을 비판하고, 그 한계를 돌파하는 역할을 하지만, 불교와 달리 나와 세계의 실존적 상황을 기술하는데 그침으로써 구원의 길을 제시하지 못한다는 것이다.\n이러한 비판에는 이중의 답변이 가능하다. 먼저, 그 비판은 일견 타당하다. 왜냐하면 메를로-퐁티 철학의 목적은 구원의 길을 제시하는데 있지 않기 때문이다. 그러나동시에, 그 비판은 제한적이기도 하다. 왜냐하면, 종교와 철학의 관계에 대한 메를로퐁티의입장과 살을 세계의 다양한 가능적 의미의 장으로 이해하는 태도는 결국 살적언어를 통한 실존적 구원의 가능성을 제시한다고 해석될 수 있기 때문이다.\n논문에서는 후자의 관점이 어떻게 가능한지를 논증한다. 이를 위해, 특히 원효의철학과 메를로-퐁티의 철학 사이의 구조적 친화성에 주목한다. 먼저, 일심(一心)과 살개념의 구조적 접점을 살펴보고, 일심에 근거하여 전개되는 ‘화쟁(和諍)’의 실천 언어적 양상과 메를로-퐁티의 언어 현상학 사이에 존재하는 공통의 수행 논리를 확인한다. 이를 통해, 메를로-퐁티의 존재론에 내포된 실존적 구원의 의미를 드러내며, 메를로-퐁티에 대한 기존 불교철학적 관점의 비판을 극복한다. 이는 메를로-퐁티의 철학에 내포된 실존적 자기변형의 가능성이 대승불교적 관점에서 구원론적으로 재해석될 수 있음을 알 수 있게 한다.",
+      "abstract_en": "This article examines whether the limitations attributed to Merleau-Ponty’s philosophy in previous comparative studies of Buddhism and Merleau-Ponty are justified, and argues that his philosophy can also be interpreted from a Mahāyāna Buddhist perspective. The reversible structure of Merleau-Ponty’s ontology has often been compared with the Buddhist structure of dependent origination. Some comparative studies, however, criticize his philosophy from a religious perspective.\nThey maintain that although Merleau-Ponty challenges the dualistic worldview of the substantialist Western philosophical tradition, his philosophy remains confined to describing the existential situation of the self and the world and therefore fails to offer a path to salvation.\nThis criticism permits a twofold response. On the one hand, it is valid insofar as Merleau-Ponty’s philosophy does not explicitly aim to provide a path to religious salvation. On the other hand, it remains limited because his account of the relationship between philosophy and religion, together with his understanding of flesh as a field of diverse possible meanings, allows his philosophy to be interpreted as suggesting the possibility of existential salvation through the language of flesh.\nTo demonstrate this possibility, the article focuses on the structural affinity between Wonhyo’s philosophy and that of Merleau-Ponty. It first examines the structural points of convergence between One Mind and flesh and then identifies a shared practical logic between Hwajaeng, which unfolds on the basis of One Mind, and Merleau-Ponty’s phenomenology of language. On this basis, the article clarifies the soteriological significance implicit in Merleau-Ponty’s ontology and answers previous Buddhist criticisms of his philosophy. It concludes that the possibility of existential self-transformation inherent in Merleau-Ponty’s philosophy can be reinterpreted soteriologically from a Mahāyāna Buddhist perspective.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "419",
+      "end_page": "451",
+      "doi": "10.21482/jbs.88..202609.419",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390853",
+      "keywords_kr": [
+        "메를로-퐁티",
+        "원효",
+        "구원",
+        "일심",
+        "살",
+        "화쟁",
+        "언어"
+      ],
+      "keywords_en": [
+        "Merleau-Ponty",
+        "Wonhyo",
+        "salvation",
+        "One Mind",
+        "flesh",
+        "Hwajaeng",
+        "language"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390830",
+      "id": "ART003390830",
+      "kci_id": "ART003390830",
+      "title_kr": "인무아 교설의 진위적 위상 －『유식이십론』과 『석궤론』을 중심으로－",
+      "title_en": "The Truth-Status of the Teaching of  Pudgalanairātmya:  With a Focus on the Viṃśikā and the Vyākhyāyukti",
+      "authors": [
+        {
+          "name": "이길산",
+          "affiliation": "경남대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "유가행 유식학파는 무아를 인무아와 법무아의 두 차원에서 이해하며, 통상 전자의 교설이 후자에 선행한다. 그렇다면 법무아가 제한 없이 참일 때, 인무아 교설은 참인가 거짓인가? 본고는 유식이십론과 석궤론을 중심으로 이 물음을 다룬다. 이십론 제8-10송이 다루고 있는 것은 12처 교설의 효용이지 진리치가 아니다. 이 물음을 명시적으로 제기하는 석궤론 제4장에서도 유비 논증이 확보하는 것은 발화의비기만성이지 진리성이 아니다. 나아가 효용성 역시 진리성을 구성하지 못한다. 여실하지 않은 변계가 청정에 기여하는 근거로 제시되는 것은 그 유용성이 아니라 발화의 바탕이 되는 사태의 존재이기 때문이다. 이에 문제는 존재론으로 넘어간다. 석궤론의 승의공경 해석에서 제시되는 세속유·실체유·승의유의 3층 존재론은 구사론 ｢현성품｣의 두 가지 2제 이해를 종합한 것으로 볼 수 있다. 본고는 이 구도가 함축하는 진리관을 ‘층위 상대적 진리관’이라 부른다. 여기서 진리치는 발화가 귀속되는 앎이 바른 인식수단으로 인정되는가에 따라 할당된다. 이에 따르면 인무아 교설은실체유의 층위에서 지시체를 확보하되 성립의 근거는 불가언설의 층위에서 얻는다.\n따라서 그것은 무조건적으로 참도 단적으로 거짓도 아니며, 그 진위는 층위를 지정한뒤에야 비로소 물을 수 있다. 바수반두가 진리치 물음에 정면으로 답하지 않은 것도이러한 진리관의 귀결로 이해할 수 있다.",
+      "abstract_en": "The Yogācāra-Vijñānavāda school understands selflessness on two levels, that of the person (pudgalanairātmya) and that of dharmas (dharmanairātmya), the former usually being taught first. If dharmanairātmya is true without restriction, is the teaching of pudgalanairātmya true or false? This paper pursues the question through the Viṃśikā and the Vyākhyāyukti. Viṃśikā vv. 8-10 concerns only the benefit of the teaching of the twelve āyatanas, not its truth-value. Even in the Vyākhyāyukti’s fourth chapter, which raises the question explicitly, the argument from analogy secures the non-deceptiveness of the utterance, not its truth. Nor does efficacy constitute truth: a non-veridical conceptualization conduces to purification not because it is useful but because the state of affairs underlying the utterance exists. The question thus passes to ontology. The threefold ontology of saṃvṛtisat, dravyasat and paramārthasat in the Vyākhyāyukti’s reading of the Paramārthaśūnyatāsūtra can be seen as synthesizing the two accounts of the two truths in the Abhidharmakośabhāṣya. The view it implies is here called a level-relative conception of truth: truth-value depends on whether the cognition to which an utterance belongs counts as a valid means of knowledge (pramāṇa). The teaching secures its referent at the level of dravyasat, while its validity is grounded at the inexpressible level. It is therefore neither unconditionally true nor simply false, and its truth-value can be asked only once a level is specified. That Vasubandhu never answered the question head-on can be understood as a consequence of this conception.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "205",
+      "end_page": "233",
+      "doi": "10.21482/jbs.88..202609.205",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390830",
+      "keywords_kr": [
+        "Pudgalanairātmya",
+        "Viṃśikā",
+        "Vyākhyāyukti",
+        "Abhidharmakośabhāṣya",
+        "바수반두",
+        "인무아",
+        "유식이십론",
+        "석궤론",
+        "아비달마구사론",
+        "2제",
+        "3층 존재론",
+        "층위 상대적 진리관"
+      ],
+      "keywords_en": [
+        "Vasubandhu",
+        "Two Truths",
+        "Threefold Ontology",
+        "Level-relative Truth"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390855",
+      "id": "ART003390855",
+      "kci_id": "ART003390855",
+      "title_kr": "경흥의 『무량수경연의술문찬』에 나타난 이종청정 및 수행관 고찰 －세친의 『무량수경우파제사원생게』 인용을 중심으로－",
+      "title_en": "A Study on the Twofold Purity (Dvidhā-śuddhi) and  Practice in Gyeongheung’s Muryangsu-gyeong  yeonui-sulmun-chan: Focusing on the Citations from  Vasubandhu’s Sukhāvatīvyūhopadeśa",
+      "authors": [
+        {
+          "name": "김문선",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "경흥(憬興)의 무량수경연의술문찬(無量壽經連義述文贊)에는 세친(世親)의 무량수경우파제사원생게(無量壽經優婆提舍願生偈)가 총 16회에 걸쳐 비판 없이 인용되고 있어, 그 교학적 권위가 상당히 높게 인정되었음을 알 수 있다. 그러나 인용의 빈도와 권위의 인정이 곧 해석 내용의 일치를 의미하지는 않는다. 따라서 이 논문은 경흥이 왕생론의 내용을 실제로 그대로 수용했는지를 이종청정과 보살관을 중심으로검토했으며, 그 내용을 요약하면 다음과 같다.\n첫째, 경흥은 극락을 변화토로 규정한다. 반면 왕생론은 극락이 법장보살의 서원과 수행으로 이루어졌다는 점, 왕생을 위한 작원, 의보를 관찰하는 수행법, 원제목의 의미, 대지도론의 청정한 타방불국토 개념과의 일치 등을 근거로 했을 때, 경흥의 의견에 대비하면 수용토의 입장이라 할 수 있다.\n둘째, 정정취 문제에서 경흥은 왕생 전에 이미 정정취에 올라야 한다고 보고, 범부왕생을 위해 정정취를 십신(十信) 이후로 규정한다. 그러나 이는 “왕생하면 모두 정정취”라는 제11원의 취지와 맞지 않으며, 왕생론에는 왕생조건으로서의 수행계위 언급이 없다.\n셋째, 왕생론의 대의문공덕성취는 기세간청정의 평등성을 해설하고 있다. 그러나 경흥은 해당 게송의 여인불생·이승종불생을 통해 중생세간청정의 기준을 세운다.\n이는 사상적으로도, 구문의 문법적 해석에서도 부자연스럽다.\n넷째, 술문찬은 보살의 수행과 그 결과에 초점을 맞추는 반면, 왕생론은 수행후 중생을 위한 회향, 즉 이타행을 강조한다.\n또한 왕생론이 왕생 발원과 극락 장엄 관찰을 강조하는 지관수행을 제시하는 데비해, 술문찬은 별다른 왕생법을 권하지 않고 경전 해설에만 집중한다.\n결론적으로 경흥은 왕생론의 권위를 표면적으로 인정하면서도, 실제 해석에서는 상당한 차이를 보인다.",
+      "abstract_en": "Gyeongheung cites Vasubandhu’s Sukhāvatīvyūhopadeśa (Treatise on the Sukhāvatīvyūha-Sūtra) sixteen times without explicit critique in the Muryangsugyeong yeonui sulmun-chan (Commentary and Notes on the Exposition of the Meaning of the Sukhāvatīvyūha-Sūtra).\nThis paper examines whether Gyeongheung accepted the doctrinal substance of the Sukhāvatīvyūhopadeśa, with particular attention to his interpretations of “Twofold Purity (二種清淨)” and the “Contemplation of Bodhisattvas.” The principal findings follow.\nFirst, Gyeongheung classifies Sukhāvatīas a Transformation Land (變化土), whereas the Sukhāvatīvyūhopadeśa presents it as a Land of Reward (受用土) when compared to Gyeongheung's view. The latter position rests on several premises: Sukhāvatī’s manifestation through Dharmākara Bodhisattva’s vows (誓願) and practices; the intrinsic meaning of the treatise’s title; and its correspondence with the concept of pure, unworldly Buddha-lands in the Mahāprajñāpāramitā-Śāstra (大智度論).\nSecond, Gyeongheung holds that the stage of “non-retrogression (正定聚)” must be attained before rebirth; to accommodate ordinary beings, he places it after the stage of the “First ten sorts of belief (十信).” This position, however, conflicts with the intent of the 11th Vow, which promises that all who attain rebirth belong to the Definitely Assured. Moreover, the Five Gates of Mindfulness (五念門), the principal practice set out in the Sukhāvatīvyūhopadeśa, do not require attainment of a particular spiritual stage.\nThird, in the Sukhāvatīvyūhopadeśa, the accomplishment of the virtue of the Great Assembly (大義門功德成就) explains “impartiality”within the purity of the vessel-world (器世間淸淨). Gyeongheung, by contrast, draws on the verse’s reference to the non-arising of women and those of the Two Vehicles to formulate a criterion for rebirth in terms of the purity of sentient beings (衆生世間淸淨). This interpretation is conceptually and syntactically unnatural.\nFinally, the Sulmun-chan focuses on the bodhisattva’s cultivation and its personal fruits, whereas the Sukhāvatīvyūhopadeśa emphasizes the subsequent transfer of merit (pariṇāmanā) for the benefit of sentient beings, and thus altruistic action (hitacaryā).\nThus, although Gyeongheung outwardly acknowledges the authority of the Sukhāvatīvyūhopadeśa, his interpretations diverge substantially from Vasubandhu’s original tenets.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "453",
+      "end_page": "483",
+      "doi": "10.21482/jbs.88..202609.453",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390855",
+      "keywords_kr": [
+        "무량수경연의술문찬",
+        "경흥",
+        "무량수경우파제사원생게",
+        "세친",
+        "대의문공덕성취",
+        "여인불생",
+        "이승종불생",
+        "Sukhāvatīvyūhopadeśa"
+      ],
+      "keywords_en": [
+        "Sulmun-chan",
+        "Gyeongheung",
+        "Vasubandhu",
+        "the virtue of the Great  Assembly",
+        "non-arising of women",
+        "Two Vehicles"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390846",
+      "id": "ART003390846",
+      "kci_id": "ART003390846",
+      "title_kr": "삼승과 일승 관점에서 본 보리열반인과(菩提涅槃因果) －『금광명경』의 종지(宗旨) 논의를 중심으로－",
+      "title_en": "The Theory of the Cause and Result of Bodhi and  Nirvāṇa from the Perspectives of the Three Vehicles  and the One Vehicle: With a Focus on Discussions  on the Central Purport of the Golden Light Sutra",
+      "authors": [
+        {
+          "name": "이수미",
+          "affiliation": "이화여자대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "금광명경(金光明經)은 5세기 초 한역된 이래 동아시아의 중요한 대승경전으로자리매김하였으며, 호국경전으로서뿐 아니라 삼신론(三身論) 등 핵심 불교 교리를 다루는 경전으로 주목받았다. 동아시아 불교논사들은 이 경의 종지(宗旨)를 보리인과(菩提因果), 열반인과(涅槃因果), 상주인과(常住因果) 등 다양한 인과의 범주를 통해 규정하였다. 주목할 점은 이러한 종지설이 일승(一乘)과 삼승(三乘)이라는 전통적인 사상 구도와 단순하게 대응하지 않는다는 것이다. 가령 삼승가로 분류되는 법상승들 사이에서도 서로 다른 종지설이 제시되는 한편, 삼승가인 혜소(慧沼, 648–714)와 일승가를 표방하는 일본 삼론승 간교(願曉, 835–871)는 동일하게 보리열반인과(菩提涅槃因 果)를 경의 종지로 제시한다. 본 논문은 이러한 표면적 불일치의 의미를 규명하기 위해, 먼저 그 사상적 배경으로서 인과 개념이 경전의 종지를 규정하는 범주로 사용되고 여러 인과설로 전개되는 과정을 문헌 자료를 통해 살펴본다. 이어 혜소의 금광명최승왕경소와 간교의 금광명최승왕경현추를 중심으로 양자의 보리열반인과설을 비교·분석한다. 특히 동일하거나 상이한 종지 명칭이 반드시 동일하거나 상이한사상적 입장을 의미하는 것은 아니라는 점에 주목하여, 종지 명칭의 배후에 놓인 인과 구조와 불성·보리·열반의 관계를 검토한다. 이를 통해 동일한 ‘보리열반인과’라는명칭에도 불구하고 혜소와 간교가 각각 삼승과 일승의 상이한 사상적 지향에 따라 서로 다른 인과 구조를 제시하고 있음을 밝히고, 금광명경의 종지설이 그 명칭만으로논사의 사상적 입장을 판별할 수 없는 복합적인 사상적 구도를 반영하고 있음을 논증한다.",
+      "abstract_en": "Since its translation into Chinese in the early fifth century, the Golden Light Sutra (Jinguangming jing 金光明經; Suvarṇaprabhāsa-sūtra) has occupied an important place among Mahāyāna scriptures in East Asia. It attracted attention not only as a scripture associated with the protection of the state (Ch. huguo 護國) but also for its treatment of major Buddhist doctrines, such as the theory of the three bodies (trikāya) of the Buddha. East Asian Buddhist exegetes defined the central purport (Ch. zongzhi 宗旨) of the sutra through various causal schemes, such as the “cause and result of bodhi” (菩提因果), the “cause and result of nirvāṇa” (涅槃因果), and the “cause and result of permanence” (常住因果). Significantly, these interpretations do not correspond neatly to the traditional doctrinal distinction between the One Vehicle and the Three Vehicles. In particular, Huizhao (慧沼, 648–714), associated with the Three Vehicle position, and Gangyō (願曉, 835–871), a Japanese Sanron (Ch. Sanlun 三論) monk who identifies himself with the One Vehicle position, both designate the “cause and result of bodhi and nirvāṇa” (菩提涅槃因果) as the sutra’s central purport. As the intellectual background for examining this apparent convergence, this article first traces how cause and result came to function as a hermeneutical category for defining the purport of Buddhist scriptures and how various causal schemes developed. It then compares Huizhao’s and Gangyō’s theories of the cause and result of bodhi and nirvāṇa through their commentaries on the Golden Light Sutra. By examining the causal structures underlying the same designations and their understandings of the relationship among buddha-nature, bodhi, and nirvāṇa, this article demonstrates that Huizhao and Gangyō construct significantly different causal schemes in accordance with their respective Three Vehicle and One Vehicle orientations. It thus argues that theories of the central purport of the Golden Light Sutra reflect a more complex doctrinal configuration than can be determined from their terminological designations alone.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "359",
+      "end_page": "388",
+      "doi": "10.21482/jbs.88..202609.359",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390846",
+      "keywords_kr": [
+        "금광명경(金光明經)",
+        "보리열반인과(菩提涅槃因果)",
+        "삼승(三乘)",
+        "일승(一乘)",
+        "혜소(慧沼",
+        "간교(願曉",
+        "Golden Light Sutra (Suvarṇaprabhāsa-sūtra)",
+        "Cause and Result of Bodhi and Nirvāṇa (菩提涅 槃因果)",
+        "Three Vehicles (triyāna)",
+        "One Vehicle (ekayāna)",
+        "Huizhao (慧沼",
+        "648–714)",
+        "Gangyō  (願曉",
+        "835–871)"
+      ],
+      "keywords_en": [
+        "648-714)",
+        "835-871)"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390858",
+      "id": "ART003390858",
+      "kci_id": "ART003390858",
+      "title_kr": "9세기 불교 해양 네트워크와 신라 사방불의 재검토 －보로부두르와 동화사 비로암 사리함을 중심으로－",
+      "title_en": "Reconsidering the Ninth-Century Buddhist Maritime  Networks and the Four Direction Buddhas of Silla:  Borobudur and the Reliquary Casket from Biroam  at Donghwasa Temple",
+      "authors": [
+        {
+          "name": "강희정",
+          "affiliation": "서강대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 8~9세기 불교 해양 네트워크의 관점에서 신라 사방불과 지권인 비로자나도상을 재검토하는 데 목적이 있다. 그동안 신라 불교미술은 주로 장안·낙양을 중심으로 한 중국 불교의 수용, 혹은 육로를 통한 전래라는 틀 안에서 설명되어 왔다. 그러나 현존 당대 중국 조각 가운데 신라의 여래형 지권인 비로자나 및 탑신 사방불과 직접 대응하는 사례는 제한적이며, 신라의 사방불 역시 단일 경전이나 정형화된 오방불체계만으로 설명하기 어렵다. 이에 본고는 인도양과 남중국해를 잇는 계절풍 항로, 항구 도시와 승원, 상인·사신·승려의 이동, 경전·다라니·의례구·불교 조형물의 유통을 포괄하는 불교 해양 네트워크에 주목하였다. 의정의 기록, 금강지와 불공의 해상 이동 및 역경 활동, 혜초와 불가사의의 밀교 수용, 산동 적산 법화원과 청해진에서의신라인들의 활동은 신라가 광저우·양저우 등 중국 남부의 항구 불교권과 긴밀하게접속했음을 시사한다. 이는 장안의 궁정 밀교와는 구별되는 경전, 다라니, 의례 지식및 물질문화가 신라에 유입될 수 있는 조건을 형성하였다.\n이러한 관점에서 본고는 보로부두르의 방위불과 동화사 비로암 삼층석탑 발견 사리함의 금동사방불판을 비교하였다. 보로부두르의 불상 배치는 오방불 체계와 형식적 유사성을 보이지만, 섭진실경 계통의 정형화된 금강계 만다라를 그대로 재현한것으로 보기는 어렵다. 비로암 사리함의 금동판 역시 보살형 지권인 비로자나를 포함하지만, 나머지 존상은 중기밀교 오방불의 엄정한 의궤와 일치하지 않는다. 따라서두 사례는 특정 밀교 경전의 기계적 재현이라기보다 대승의 방위불 관념, 화엄의 법신 사상, 사리 신앙과 다라니 신앙 및 밀교적 상징 체계가 지역의 조영 환경 속에서 중층적으로 결합한 결과로 이해될 필요가 있다.\n본고는 신라 사방불과 지권인 비로자나가 인도네시아로부터 직접 전래되었다고단정하지 않는다. 다만 해양 네트워크가 장안 중심의 단선적 수용사로는 포착하기 어려운 종교 지식과 물질문화의 유통 조건을 제공했으며, 신라에서 화엄·사리·다라니신앙과 결합하여 비정형적인 사방불 및 비로자나 도상의 지역적 재구성을 가능하게했다고 본다. 이를 통해 신라 불교미술을 중국 불교미술의 주변적 변용으로 환원하지않고, 해양아시아 불교문화의 상호연결과 다중적 변용 속에서 재위치시키고자 했다.",
+      "abstract_en": "This article reconsiders the Four Direction Buddhas (sabangbul) and Vairocana images making the wisdom-fist mudrā (jigwonin) in Silla through the perspective of eighth- and ninth-century Buddhist maritime networks. Previous scholarship has largely interpreted Silla Buddhist art through the reception of Chinese Buddhism, especially that of Chang’an and Luoyang, or through overland transmission. Yet surviving Tang sculptures offer few close parallels to Silla’s tathāgata-form Vairocana images with the wisdom-fist mudrā and to Four Direction Buddha images carved on pagodas.\nThis study examines maritime routes across the Indian Ocean and South China Sea, port cities and monasteries, and the circulation of monks, merchants, scriptures, dhāraṇīs, ritual knowledge, and portable Buddhist objects. The records of Yijing, the sea voyages of Vajrabodhi and Amoghavajra, and the activities of Silla monks and maritime communities indicate that Silla was connected to the Buddhist worlds of southern Chinese ports, particularly Guangzhou, as well as to wider maritime Asia.\nThe article compares the directional Buddhas at Borobudur with the gilt-bronze plaques excavated from the three-story stone pagoda at Biroam Hermitage, Donghwasa Temple. Neither example precisely conforms to a standardized Five Buddha system or to the Vajradhātu maṇḍala. Instead, both reveal locally configured combinations of Mahāyāna ideas of directional Buddhas, Huayan concepts of the dharma body, relic veneration, dhāraṇī practices, and esoteric symbols. Rather than claiming direct transmission from Java to Silla, this article argues that maritime networks provided conditions for the selective reception and regional reconfiguration of Buddhist knowledge and material culture in Silla.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "485",
+      "end_page": "515",
+      "doi": "10.21482/jbs.88..202609.485",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390858",
+      "keywords_kr": [
+        "불교 해양 네트워크",
+        "신라 사방불",
+        "지권인 비로자나",
+        "보로부두르",
+        "동화사 비로암",
+        "사리장 엄",
+        "중기밀교",
+        "다라니",
+        "Vairocana with the wisdom-fist  mudrā",
+        "Śarīra Casket",
+        "dhāraṇī"
+      ],
+      "keywords_en": [
+        "Buddhist maritime networks",
+        "Silla Four Direction Buddhas",
+        "Borobudu",
+        "Biroam at Donghwasa Temple",
+        "Esoteric Buddhism"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390826",
+      "id": "ART003390826",
+      "kci_id": "ART003390826",
+      "title_kr": "『무량수경』의 사회성 연구 －근본설일체유부율에 나타난 사성계급과 삼배단(三輩段)을 중심으로－",
+      "title_en": "Social Aspects of the Sukhāvatīvyūha-sūtra (Saṇghavarman’s Translation):  Varṇa in the Mūlasarvāstivāda-Vinaya and  the Three Stages of Rebirth",
+      "authors": [
+        {
+          "name": "김동원",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "강승개(康僧鎧) 역 무량수경(無量壽經)과 그것의 모든 이역본에는 상·중·하로 분류되는 세 부류의 왕생자가 있다. 소위 ｢삼배단(三輩段)｣이라 불리는 이 왕생자 단락은 특히 초기 이역본과 무량수경의 경우 상배는 출가자, 중배는 보시하는 자, 하배는 보시할 수 없는 자로 뚜렷한 윤곽을 보이지만, 후기에서는 이 형태가 소멸하면서평준화된다. 일반적으로 경전이라는 것은 석가모니의 가르침에 당시 시대적 맥락이개입되었다고 볼 수 있으므로, 초기의 이러한 구조는 당시 신분제 사회를 간접 투영한 것으로 파악될 수 있다.\n이때 초기 이역본에 상당하는 인도어 본의 존재와 ｢삼배단｣이 초기에서 무량수경을 거쳐 후기로 변천 과정을 거쳤다는 것을 전제로 한 후, 초기의 ｢삼배단｣이 신분제 구조로 해석될 가능성을 보고자 당시 무량수경과 시공간적 접점을 공유하는 근본설일체유부의 율장을 조망하였다. 해당 율장에서는 반복적으로 인도의 사성계급과 관련된 사항들이 언급됨을 확인할 수 있으며, 이를 통해 사부대중으로 이루어진당시 불교 승단 또한 신분제의 영향력과 그 고정관념에서 크게 벗어나지 않았음을 유추해 볼 수 있다.\n결론적으로 무량수경과 근본설일체유부가 같은 사회적 맥락을 공유하고 있었다면, 이 같은 상·중·하의 분류는 당시 인도 사회의 지배적인 신분제도와 그로 인해 형성된 대중들의 고정관념을 부분적으로 수용하고, 그 구조 안에서 불교의 평등사상이반영된 구조로 볼 수 있으며, 당대 사회질서와 충돌하지 않으면서 하위 계층에게 구원의 기회를 주는 일종의 교화 전략이라고 평가할 수 있다. 한마디로 대중들의 눈높이에 먼저 맞추어 포섭한 후 불교식 교학으로 스며들게 한 것이다.",
+      "abstract_en": "Saṇghavarman’s translation of the Sukhāvatīvyūha-sūtra (LSkhv-Sv) and all translations of this sutra distinguish three categories of those who attain rebirth in Sukhāvatī (the Pure Land): upper, middle, and lower. Known as the “Three Stages of Rebirth” (三輩), these categories are particularly clearly distinguished in the early translations and the LSkhv-Sv: the upper group consists of monastics, the middle group of those who practice generosity, and the lower group of those unable to do so.\nHowever, in later versions, this structure disappears and the classifications become more uniform. Since sutras can generally be understood as the Buddha’s teachings shaped by their historical contexts, the early structure can be interpreted as an indirect reflection of the caste-based society of the time.\nThis interpretation rests on two premises: Indian-language texts corresponding to the early translations existed, and the “Three Stages” changed from the early period through the LSkhv-Sv to the later period. To explore whether the early “Three Stages” can be interpreted as a caste-based structure, this study examines the Mūlasarvāstivāda-Vinaya, which shared a temporal and spatial context with the LSkhv-Sv. Repeated references to the Indian four-caste system in this Vinaya suggest that the Buddhist monastic community of the time, comprising the fourfold assembly, remained substantially subject to the influence and stereotypes of that system.\nIf the LSkhv-Sv and Mūlasarvāstivāda shared the same social context, the upper, middle, and lower classification can be understood as partially accommodating the dominant caste system of contemporary Indian society and the public stereotypes it generated, while expressing Buddhist ideals of equality within that structure. It can thus be interpreted as an educational strategy that offered the lower classes opportunities for salvation without conflicting with the social order of the time. This strategy first met the general public at their level of understanding to win them over, then gradually introduced Buddhist teachings.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "149",
+      "end_page": "176",
+      "doi": "10.21482/jbs.88..202609.149",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390826",
+      "keywords_kr": [
+        "정토사상",
+        "무량수경",
+        "아미타불",
+        "삼배단",
+        "근본설일체유부",
+        "비나야",
+        "Amitābha",
+        "Sukhāvatīvyūha",
+        "Mūlasarvāstivāda"
+      ],
+      "keywords_en": [
+        "Pure Land",
+        "Vinaya"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390818",
+      "id": "ART003390818",
+      "kci_id": "ART003390818",
+      "title_kr": "한국사회의 불평등 문제와 불교경제학적 대안 －지속가능성의 위기를 중심으로－",
+      "title_en": "Inequality in Korean Society and a Buddhist Economic Alternative: The Sustainability Crisis",
+      "authors": [
+        {
+          "name": "이상호",
+          "affiliation": "동국대학교",
+          "order": "1"
+        },
+        {
+          "name": "김성옥",
+          "affiliation": "동국대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "최근에 ‘환경 불평등’이 사회경제적 쟁점으로 부상하고 있다. 오늘날 불평등 문제가 환경문제와 함께 지속가능성의 위기 측면에서 새롭게 이해되는 것이다. 불평등 문제와 환경문제에서 비롯된 지속가능성의 위기는 자본주의적 성장지상주의의 산물이라는 점에서, 자본주의에 대한 반성적 성찰을 요구한다. 불교 정신에 바탕을 둔 불교경제학의 가르침은 이러한 위기를 극복하는 데 매우 중요한 함의를 지닐 수 있다.\n붓다는 이 세상을 살아가는 이들이 겪게 되는 고통을 없애기 위한 길을 제시하고자하였다. 그 가운데 우리가 경험하는 모든 것들은 다른 것들에 의지하여 일어난다고 하는 상호의존성의 원리, 즉 연기성에 관한 통찰은 자신과 타인, 인간과 자연을 배타적으로 구분하지 않는 근원적인 통찰을 보여준다. 또한 불교의 중도 사상은 끝없는욕망 추구의 질주를 제어함으로써 지속가능성의 위기를 헤쳐 나갈 동력으로 작용할수 있다.\n지속가능성의 위기 상황에서 현실성 있는 대안을 제시하기 위해서는 자본주의 사회의 특징을 이해하는 것에서 출발할 필요가 있다. 자본주의는 자연을 인간의 일방적인 지배관계로 재편시키며, 경제 주체들에게 경쟁적인 성장지상주의를 끝없이 강요한다. 이러한 경쟁 메커니즘이 지배하는 상황에서는, 개인들이 불교의 연기설이나 중도 사상을 수용한 실천적 행위를 지속적으로 보여주기 어렵다. 그러므로 중도와 연기설에 바탕을 둔 불교경제학이 현실적인 경제구조를 확보하기 위해서는 불교계와 지역공동체의 노력이 모두 필요하다. 그 과정에서 재가자와 출가자를 포괄하는 다양한형태의 유기적인 공동의 노력이 이루어져야 할 것이며, 그것은 다시 지역공동체나 시민사회 조직과 연계될 필요가 있다.",
+      "abstract_en": "“Environmental inequality” has recently emerged as a socioeconomic issue.\nInequality is now being reconsidered alongside environmental problems in the context of the sustainability crisis. Because the crisis arising from inequality and environmental problems is a consequence of capitalist growthmania, it calls for critical reflection on capitalism. Buddhist economics can offer important insights into overcoming this crisis. The Buddha sought a way to eliminate the suffering of those living in this world. The principle of interdependence expresses a fundamental insight that does not draw an exclusive distinction between self and others, or between humans and nature. The Buddhist middle way can also help navigate the sustainability crisis by curbing the relentless pursuit of unending desires.\nDeveloping realistic alternatives in response to the sustainability crisis requires to understand the characteristics of capitalist society. Capitalism subjects nature to unilateral human domination and continually imposes an ideology of competitive growthmania on economic actors. Under these competitive conditions, individuals struggle to sustain practices that embody the Buddhist doctrines of dependent origination and the middle way. Establishing a viable economic structure for Buddhist economics therefore requires efforts from both the Buddhist community and local communities. These efforts must take various coordinated, collective forms that include laypeople and monastics, and must in turn connect with local communities and civil society organizations.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "29",
+      "end_page": "55",
+      "doi": "10.21482/jbs.88..202609.29",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390818",
+      "keywords_kr": [
+        "환경 불평등",
+        "지속가능성",
+        "성장지상주의",
+        "불교",
+        "연기",
+        "중도",
+        "불교경제학"
+      ],
+      "keywords_en": [
+        "environmental inequality",
+        "sustainability",
+        "growthmania",
+        "Buddhism",
+        "interdependence",
+        "middle  way",
+        "Buddhist economics"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390827",
+      "id": "ART003390827",
+      "kci_id": "ART003390827",
+      "title_kr": "『반야심경(般若心經)』의 주행불이(呪行不二)에 관한 연구 －‘摩訶(mahā)’의 공성(空性)과 ‘揭諦(gate)’의 완료상(完了相)을 중심으로－",
+      "title_en": "A Study on the Non-duality of Mantra and  Practice (呪行不二) in the Heart Sūtra:  Focusing on the Emptiness of “Mahā” and  the Perfective Aspect of “Gate”",
+      "authors": [
+        {
+          "name": "안호영",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 반야심경을 지식 전달을 위한 요약적 텍스트가 아닌, 수행과 깨달음이 단절 없이 일어나는 ‘수행적 사건’으로 재정의하는 데 목적이 있다. 먼저, 경전의서두인 ‘摩訶(mahā)’를 단순한 형용사가 아니라, 일체의 상대적 분별이 소거된 절대적공성(śūnyatā)의 선언으로 규정한다. 이는 수행자가 경전을 마주하는 첫 순간 이미 존재론적 전회에 직면함을 의미한다. 이어지는 ‘行深’과 ‘時’에 대한 분석에서는 이를 선형적 수행 과정이 아니라, 수행의 에너지가 임계점에 도달하여 언어적 사유가 정지되는 실존적 카이로스(kairos)의 현장으로 파악한다.\n핵심적 논거는 ‘卽說呪曰’에서의 ‘卽’이 지닌 존재론적 등치의 성격과, 주문의 핵심어인 ‘揭諦(gate)’의 문법적 완료상에 있다. 산스크리트어 문법 분석을 통해 ‘gate’가 미래의 도달을 지향하는 명령형이 아니라, 이미 동작이 종결된 상태를 뜻하는 과거분사완료형임을 밝힌다. 다만 이러한 문법적 관찰이 곧바로 교리적 결론을 강제하는 것은아니며, 이를 본래성불(本來成佛) 사상과 접속하는 것은 문법적 필연이 아닌 해석학적 선택이다.\n이처럼 반야심경은 공성의 논증[行]이 곧바로 주문의 파동[呪]으로 전이되는 구조를 취하고 있으며, 그 종착지인 주문은 ‘이미 도달한 자(gate)’의 환희에 찬 사자후로 읽을 수 있다. 이러한 통찰을 통해 반야심경을 ‘깨달음을 설명하는 글’에서 ‘이미 완성된 깨달음을 소리로 현현하는 수행 그 자체’로 재해석할 수 있는 해석학적 경로를 제시하고자 한다. 이는 대승불교의 돈오(頓悟)적 전통을 현대적으로 재조명하는 데 기여할 수 있으며, 독송 행위의 수행론적 함의를 재고하는 하나의 해석학적 가능성을 제공한다.",
+      "abstract_en": "This study redefines the Heart Sūtra not as a summary of doctrinal knowledge but as a “performative event” in which practice and enlightenment occur without interruption. It argues that the opening term “mahā” (大) is not a mere adjective but a declaration of absolute śūnyatā in which all relative discrimination is extinguished, so that the practitioner confronts an ontological turn from the very moment of encountering the text. The subsequent analysis of “practicing deeply” (行深) and “at that time” (時) reads these not as markers of linear cultivation but as the existential locus of kairos—the moment at which the practitioner's energy reaches a critical threshold and discursive thought halts.\nThe core argument concerns the ontological identity conveyed by 卽 in “thereupon proclaims the mantra, saying” (卽說呪曰), and the grammatical perfective aspect of “gate”, the pivotal term of the mantra. Sanskrit grammatical analysis shows that “gate” is not an imperative directed toward future attainment but a past passive participle denoting an action already completed. This grammatical fact does not by itself compel a doctrinal conclusion; connecting it to the doctrine of “inherent buddhahood” (本來成佛) is identified as a hermeneutic choice rather than a grammatical necessity. On this reading, the argument for śūnyatā [practice, 行] is transposed directly into the vibration of the mantra [呪], so the mantra becomes the joyous proclamation of “one who has already arrived” (gate). This offers a pathway for rereading the Heart Sūtra—not as a text explaining enlightenment, but as a practice manifesting, in sound, an enlightenment already completed. The reading contributes to a contemporary reappraisal of the sudden-enlightenment (頓悟) tradition and offers one interpretive possibility for reconsidering the soteriological significance of sūtra recitation.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "177",
+      "end_page": "203",
+      "doi": "10.21482/jbs.88..202609.177",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390827",
+      "keywords_kr": [
+        "반야심경",
+        "주행불이(呪行不二)",
+        "마하",
+        "가테",
+        "완료상",
+        "공성",
+        "수행적 사건",
+        "Heart Sūtra",
+        "Non-duality of Mantra and Practice (呪行不二)",
+        "Mahā",
+        "Gaté",
+        "Śūnyatā"
+      ],
+      "keywords_en": [
+        "Perfective Aspect",
+        "Performative Event"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390821",
+      "id": "ART003390821",
+      "kci_id": "ART003390821",
+      "title_kr": "차이를 지우지 않는 화해 －원효 화쟁 논법과 한국사회 갈등의 재기술－",
+      "title_en": "Harmony without Erasing Difference: Wonhyo’s Hwajaeng and a Redescription of Conflict in Contemporary Korea",
+      "authors": [
+        {
+          "name": "김태수",
+          "affiliation": "서울대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 글은 원효(元曉, 617-686)의 화쟁(和諍) 논법을 분석하고, 그 방법론적 원리를 현대 한국사회의 갈등을 사유하는 자원으로 재구성한다. 화쟁은 7세기 동아시아의 전란과 교학적 분열 속에서 형성되었지만, 그 직접적 대상은 불교 교리를 둘러싼 배타적 쟁론이었다. 이 점에서 본고는 화쟁을 정치적 사회통합의 이념으로 환원해 온 통불교론적·국가주의적 독법과 거리를 둔다.\n본고는 원효가 교리 쟁론을 화쟁하는 과정에서 드러난 일반적 원리를 세 가지로재구성한다. 즉, 각 주장이 제 맥락에서 지니는 도리의 인정, 언어의 상대성 자각, 규정 이전의 열린 자리인 일심에 근거한 의미들의 상호 연계이다. 원효의 통섭은 동일성으로의 환원이 아니라, 어느 견해에도 고정되지 않는 불의(佛意)의 무애한 작용에근거하며, 이는 공성의 관점에서 이해될 수 있다. 이 관점에서는 어느 견해도 자기 안에서 완결된 실체로 고정되지 않으므로, 서로 다른 견해들은 상호 배제 대신 관계와변형의 가능성 속에서 파악된다. 개합(開合)과 불일불이(不一不異)는 이와 별개의 논리 형식이 아니라, 서로 다른 문(門)이 저마다 일체를 총섭하면서도 서로 여의지 않는사태를 서술하는 언어다.\n이러한 이해에 기초하여, 본고는 불성 유무와 삼신 쟁론의 회통을 분석한 뒤 화쟁을 정태적 합의가 아니라, 차이들이 서로의 조건이 되어 상호 연계되고 새로운 의미를 구성해 가는 생성의 운동으로 해석한다. 이를 토대로 이념 양극화, 지방 소멸, 개발과 보전의 대립, 디지털 공론장의 분극화를 재기술한다. 핵심은 갈등을 봉합하거나방치하는 대신, 각 견해가 어떤 조건에서 도리를 갖는지를 식별하고, 그 자체로 존중되어야 할 차이와 공적 평가의 대상이 되는 주장과 행위를 구분하여, 차이가 상호 생성으로 이행할 조건을 설계하는 데 있다. 다만 화쟁은 완결된 형식 논리가 아니며, 절차가 태도를 대체할 때 또 하나의 형식주의로 전락한다.",
+      "abstract_en": "This paper reconstructs the hwajaeng (reconciliation of disputes) of the Silla monk Wonhyo (元曉, 617-686) as a resource for addressing conflict in contemporary Korean society. Situating hwajaeng in seventh-century East Asia, an age of war and doctrinal fragmentation, it stresses that Wonhyo’s reconciliation addressed primarily exclusivistic disputes over the interpretation of Buddhist doctrine. This distances the argument from the “ecumenical Buddhism” and nationalist readings that collapse hwajaeng into an ideology of social unification.\nEven so, in reconciling particular doctrinal disputes, Wonhyo developed principles of broader generality, reconstructed here as three: acknowledging the conditional validity of each position; recognizing the relativity of language; and interlinking differentiated meanings on the basis of the “One Mind,” understood not as a fixed origin but as a site of emptiness and potentiality. “Opening and integrating” and “neither identical nor different” are not logical forms separate from these principles but a language describing how views, precisely because none is complete in itself, open onto and overlap one another. Wonhyo’s integration thus rests not on identity but on emptiness-as-difference. His reconciliation of the disputes over buddha-nature and the three bodies further shows that hwajaeng is not a static consensus but a generative movement in which differences become one another’s conditions and yield better differences.\nOn this basis, the paper redescribes ideological polarization, regional depopulation, development-versus-conservation disputes, and the polarized digital public sphere.\nThe proposal is neither to suture nor to abandon conflict, but to identify the conditions under which each position has its own partial validity; to distinguish differences that should be respected in themselves from claims and practices subject to public evaluation; and to design the conditions under which differences can move toward mutual generation. This hwajaeng pluralism offers an alternative to the limitations of existing pluralisms. As a methodological limit, however, hwajaeng cannot be completed through formal procedure alone: once procedure replaces disposition, hwajaeng itself becomes another formalism.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "57",
+      "end_page": "83",
+      "doi": "10.21482/jbs.88..202609.57",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390821",
+      "keywords_kr": [
+        "원효(617-686)",
+        "화쟁(和諍)",
+        "일심(一心)",
+        "개합(開合)",
+        "불일불이(不一不異)",
+        "사회갈등",
+        "화쟁 다 원주의"
+      ],
+      "keywords_en": [
+        "Wonhyo",
+        "Hwajaeng (Reconciliation of Disputes)",
+        "One Mind",
+        "Opening and Integrating",
+        "Neither-Identical-Nor-Different",
+        "Social Conflict",
+        "Hwajaeng Pluralism"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390823",
+      "id": "ART003390823",
+      "kci_id": "ART003390823",
+      "title_kr": "한용운의 3·1만세 혁명과 고등학교 시민불복종 교육의 적용 필요 －현행 2022 개정 교육과정 고등학교 ‘통합사회2’, ‘현대사회와 윤리’ 중심으로－",
+      "title_en": "Han Yong-un’s Thought in the March First Independence Movement and the Integration of Civil Disobedience into High School Education: The 2022 Revised Curriculum for “Integrated Social Studies” and “Modern Society and Ethics”",
+      "authors": [
+        {
+          "name": "이철훈",
+          "affiliation": "한국교원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 현행 2022 개정 교육과정의 고등학교 ‘통합사회2’와 ‘현대사회와 윤리’ 에서 다루는 시민불복종 교육 내용을 분석하고, 만해 한용운의 3·1만세 혁명 사상을시민불복종 교육의 한국적 사례로 재구성하여 교육과정에 적용할 필요성을 고찰함을 목적으로 한다.\n이를 위해 교육과정 성취기준과 해설, 검정 교과서의 시민불복종 관련 내용을 분석하고, 롤스를 중심으로 한 서구 시민불복종 이론과 한용운의 사상을 비교·검토하였다. 분석 결과, 현행 교과서는 시민불복종의 개념과 정당성을 주로 롤스, 소로, 간디, 로자 파크스, 마틴 루터 킹 등 서구 사상가와 해외 사례를 중심으로 서술하고 있으며, 대한민국 헌법 전문이 계승한다고 선언한 3·1운동과 한국 민주주의의 역사적 경험은 충분히 반영하지 못하고 있다.\n이에 본 연구는 한용운이 주도적으로 참여한 3·1만세 혁명을 비폭력성, 공개성, 책임 감수, 정의 회복이라는 시민불복종의 핵심 요소를 구현한 역사적 실천으로 해석하고, 이를 불교에 기반한 독자적 시민불복종 사상으로 조명하였다. 또한 한용운의 시민불복종은 롤스의 체제 내 시민불복종 이론과 공통점을 지니면서도, 식민지라는 특수한 역사적 조건에서 전개되었다는 점과 불교에 기반한 인류 보편의 자유· 평화·평등을 지향하는 세계시민적 관점을 띠고 있다는 점에서 차별성을 지님을 논증하였다.\n시민불복종 교육은 서구 이론과 사례에 편중된 구성을 넘어 한국의 역사적 경험과사상적 전통을 함께 포괄하는 균형적 관점에서 이루어질 필요가 있으며, 한용운의3·1만세 혁명은 이러한 균형성을 보완하는 대표적 교육 내용으로 적극 활용될 수 있다. 이는 시민불복종 교육의 한국적 정체성과 세계시민적 보편성을 조화롭게 구현하는 데 기여할 것이다.",
+      "abstract_en": "This study examines how the 2022 revised Korean national curriculum presents civil disobedience, with a focus on the high school subjects Integrated Social Studies and Modern Society and Ethics. It also explores the educational value of incorporating Han Yong-un’s philosophy of the March First Independence Movement as a Korean example of civil disobedience. The study analyzes curriculum standards, guidelines, and authorized textbooks and compares Western theories of civil disobedience, particularly John Rawls’s theory, with Han Yong-un’s thought.\nThe analysis reveals that current textbooks primarily explain civil disobedience through Western thinkers and historical examples, including Rawls, Thoreau, Gandhi, Rosa Parks, and Martin Luther King Jr. The March First Movement, however, receives little attention as an example of civil disobedience despite its constitutional significance in the Republic of Korea and its contribution to Korean democracy. The study argues that Han Yong-un’s participation in the movement embodies the essential characteristics of civil disobedience: nonviolence, publicity, acceptance of legal responsibility, and the pursuit of justice. It also interprets his thought through the Buddhist concepts of dependent origination, universality, and particularity, identifying a distinctive philosophical foundation for civil disobedience.\nThe study concludes that civil disobedience education should broaden its current focus on Western theories and examples to include Korea’s historical experiences and intellectual traditions in a balanced account. Incorporating Han Yong-un’s philosophy into the curriculum would address this Western orientation and help reconcile Korean historical identity with the universal values of global citizenship.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "85",
+      "end_page": "115",
+      "doi": "10.21482/jbs.88..202609.85",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390823",
+      "keywords_kr": [
+        "만해 한용운",
+        "3·1만세 혁명",
+        "민주시민교육",
+        "시민불복종",
+        "2022 개정 교육과정",
+        "통합사회",
+        "현대사회와 윤리"
+      ],
+      "keywords_en": [
+        "Han Yong-un",
+        "March First Independence Movement",
+        "democratic citizenship education",
+        "civil  disobedience",
+        "2022 revised national curriculum",
+        "Integrated Social Studies",
+        "Modern Society  and Ethics"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390825",
+      "id": "ART003390825",
+      "kci_id": "ART003390825",
+      "title_kr": "찬다라가(chandarāga)의 분해와 찬다(chanda)의 수행론적 위상 －결박의 요소에서 자기소멸의 동력으로－",
+      "title_en": "The Decomposition of chandarāga (Desire-and-Lust)  and the Soteriological Status of chanda (Desire):  From a Fettering Element to the Driving Force of  Self-Dissolution",
+      "authors": [
+        {
+          "name": "이윤진",
+          "affiliation": "능인대학원대",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 초기경전에서 찬다(欲, chanda)가 버려야 할 감각적 욕망(kāmacchanda) 과 찬다라가(欲貪, chandarāga)로 나타나는 한편, 다른 한편으로는 닦아야 할 사여의족(四如意足)의 첫 기반으로 나타나는 두 측면에서 출발한다. 본 연구의 목적은 찬다와 갈애가 오래 혼용되어 온 연원을 밝히고, 찬다라가라는 복합어에서 탐(貪, rāga)이탈락하고 찬다가 남는 과정이 곧 수행의 동력임을 규명하는 데 있다. ｢마하니다나 숫따(Mahānidānasutta)｣의 갈애 확장 연기는 갈애가 추구·획득·결정을 거쳐 찬다라가로, 다시 탐착으로 이어지는 과정을 드러내어, 찬다라가를 갈애와 취(取) 사이에서 판별을 거쳐 짙어진 심화의 마디로 자리매김한다. 이 연쇄가 두 낱말이 혼용되어 온 뿌리를 이루며, 그 혼용은 네띠빠까라나의 두 갈애가 대상에 의해, 아비담마의 가변적찬다가 뿌리에 의해 갈린다는 변별로 정리된다. 갈애는 불선으로 고정된 심소이고, 찬다는 함께하는 마음에 따라 선·불선에 두루 통하는 가변의 심소이다. 탐에 물든 찬다는 촉(觸)에서 일어나 근(根)과 경(境)을 묶는 결박이 되는데, ｢꼿티까 숫따｣가 밝히듯 그 결박은 감각기관도 대상도 아니라 그 둘을 의존하여 일어나는 찬다라가이다.\n따라서 다스릴 표적은 대상이 아니라 이 찬다라가이며, 이것이 찬다라가의 외향(外 向)이다. 반대로 탐을 벗은 찬다는 사여의족의 첫 기반에 서서 삼매와 정근을 일으키고 갈애를 소멸시키는 내향(內向)의 힘이 된다. ｢운나바 숫따｣는 찬다에 의지하여 찬다를 버리며, 그 버림이 목적을 이루면 아라한과에서 찬다가 스스로 가라앉음을 보여준다. 이 가라앉음은 억압에 의한 소멸이 아니라 목적을 이룬 결과이므로, 자기 파괴가 아니라 자기 완성이다. 곧 외향에서 내향으로의 전환은 탐의 빛바램(rāgavirāga)이며, 수행의 과제는 찬다를 없애는 것이 아니라 그 탐을 제거하여 찬다가 스스로 소멸하도록 하는 데 있다.",
+      "abstract_en": "This study begins from the two faces that desire (chanda) wears in the early canon.\nOn one side it is an obstacle to be abandoned — the sensual desire (kāmacchanda) heading the five hindrances and the desire-and-lust (chandarāga) that fetters at the six sense-spheres; on the other it is a quality to be cultivated, the first of the four bases of spiritual power (iddhipāda). Because desire (chanda) and craving (taṇhā) have long been read as interchangeable, this paper clarifies the source of that conflation and argues that the decomposition of chandarāga — the falling away of lust (rāga) and the remaining of desire — is itself the driving force of practice. The taṇhā-expansion sequence of the Mahānidāna-sutta places chandarāga on one causal chain between craving and clinging (upādāna), the root of their conflation; yet the Nettippakaraṇa distinguishes two cravings by object, and the Abhidhamma marks chanda as ethically variable by root, so that craving is fixed as unwholesome while desire can be either wholesome or unwholesome. Lust-tinged desire is kindled at contact (phassa) and becomes the very fetter binding faculty and object — neither of which, as the Koṭṭhika-sutta shows, is the fetter — so that what practice governs is not the object but this chandarāga: its outward aspect. Lust-freed desire, by contrast, stands as the first base of spiritual power, grounds concentration and striving, and dissolves craving: its inward aspect. The Uṇṇābhabrāhmaṇa-sutta teaches that one abandons desire in dependence on desire, and that this desire, once arahantship is attained, subsides of itself — a stilling that is self-completion, not self-destruction. The task of practice is thus not to abolish desire but to strip its lust, so that desire, having accomplished its aim, comes to rest of itself: the recursive self-dissolution of desire.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "117",
+      "end_page": "148",
+      "doi": "10.21482/jbs.88..202609.117",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390825",
+      "keywords_kr": [
+        "찬다라가(chandarāga)",
+        "찬다(chanda)",
+        "갈애(taṇhā)",
+        "탐(rāga)",
+        "사여의족",
+        "재귀적 자기소멸",
+        "외향과 내향",
+        "chandarāga (desire-and-lust)",
+        "taṇhā (craving)",
+        "rāga (lust)",
+        "the four bases of  spiritual power (iddhipāda)"
+      ],
+      "keywords_en": [
+        "chanda (desire)",
+        "recursive self-dissolution",
+        "outward and inward"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390835",
+      "id": "ART003390835",
+      "kci_id": "ART003390835",
+      "title_kr": "인도 논서 문헌군에 내재한 지적 네트워크 그리기: <진실의 집대성> 인코딩 프로젝트 중간 보고서",
+      "title_en": "TEI for Mapping Intellectual Networks of  a Sanskrit Śāstra: An Interim Report on the  Tattvasaṅgrahapañjikā Encoding Project",
+      "authors": [
+        {
+          "name": "함형석",
+          "affiliation": "전남대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 샨따락쉬따(Śāntarakṣita, 725-788)의 진실의 집대성(Tattvasaṅgraha)과 이에대한 까말라쉴라(Kamalaśīla, 740-795)의 주석(Tattvasaṅgrahapañjikā)을 대상으로 진행 중인 인코딩 프로젝트의 경과를 보고한다. 본 프로젝트는 두 문헌이 인물·학파·문헌 등 외부의 지적 객체를 참조할 때 생성되는 ‘참조정보’를 TEI-XML 형식으로 기록하여, 문헌전체를 멀리서 읽고(distant reading) 그것이 연루되어 있는 8세기 인도 지성계의 네트워크를 재구성하는 것을 목표로 한다.\n본고는 우선 프로젝트가 지금까지 수행해온 작업을 단계별로 서술한다. 1990년대에 입력된 전자텍스트를 Shastri 판본에 맞추어 갱신하면서 그것에 띄어쓰기를 부가하는 전처리 작업, 논서 특유의 대론 구조를 <div>로, 지시어를 <rs>로, 명시적 ‘귀속행위’(attribution)로 파악된 인용을 <q>·<seg>·<rs>의 결합으로 기록하는 인코딩 스키마의설계, 그리고 이 스키마에 따라 전반부 19개 장의 명시적 참조정보를 인코딩한 현황과제17장의 시각화 사례를 차례로 소개한다.\n이어 본고는 에이전틱 AI(agentic AI)의 등장이 프로젝트의 작업에 가져올 변화를 타진한다. 프로젝트의 모든 작업 과정에는 해석적 판단이 내재하고 있어 프로젝트 전체에대한 완전한 자동화는 불가능하다. 하지만 AI와의 협업을 통해 프로젝트를 보다 효율적으로 진행할 수 있을 것이라는 판단하에 전처리·스키마 설계·인코딩·시각화 각 단계를재검토하면서 기계에 위임할 수 있는 부분과 인간이 담당해야 할 부분을 구분해본다.\n본 프로젝트는 이러한 인간-기계의 협업을 통해 남은 기간 내에 진실의 집대성텍스트근저에서 구조적으로 작동하고 있는 8세기 인도 지성계의 지적 네트워크를 조망할 수있는 플랫폼을 구축하고자 한다.",
+      "abstract_en": "This paper is an interim report on the Tattvasaṅgrahapañjikā Encoding Project, which encodes Śāntarakṣita’s Tattvasaṅgraha and Kamalaśīla’s commentary, the Tattvasaṅgrahapañjikā, in TEI-XML. The project records the “reference information” generated when the two texts refer to external entities—persons, schools, views, and texts—in order to read the work as a whole from a distance and to reconstruct the eighth-century Indian intellectual network in which it is embedded. The paper first describes the work our team has carried out over the past two years: (1) preprocessing a legacy e-text keyed in the 1990s, by bringing it into conformity with Shastri’s edition and spacing it properly; (2) designing a TEI schema that records the polemical structure of the śāstra with <div>, referential terms with <rs>, and quotations, understood as explicit acts of attribution, with <q>, <seg>, and <rs> in combination; and (3) encoding the explicit reference information of the first nineteen chapters. It also presents a sample visualization of chapter 17, which offers a glimpse of what the encoded files will make possible. The paper then explores how agentic AI might transform the remaining work.\nBecause interpretative judgment is inherent in every stage of the project, full automation is not feasible; yet collaboration with AI promises considerable gains in efficiency. Revisiting each stage—preprocessing, schema design, encoding, and visualization—the paper attempts to draw the line between what can be delegated to the machine and what must remain in human hands. Through this division of labor, the project aims to build, within its remaining term, a platform on which one can see through the text of the Tattvasaṅgrahapañjikā to the intellectual network behind it.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "265",
+      "end_page": "286",
+      "doi": "10.21482/jbs.88..202609.265",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390835",
+      "keywords_kr": [
+        "Tattvasaṅgrahapañjikā",
+        "śāstra",
+        "진실의 집대성",
+        "인도 논서 문헌군",
+        "지적 네트워크",
+        "에이전틱 AI"
+      ],
+      "keywords_en": [
+        "TEI (Text Encoding Initiative)",
+        "intellectual network",
+        "agentic AI",
+        "TEI"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390840",
+      "id": "ART003390840",
+      "kci_id": "ART003390840",
+      "title_kr": "선불교에서 궁극적 실재의 1인칭적 정위(定位) －선적(禪的) 본질의 현상학적 재구성－",
+      "title_en": "The First-Person Positioning of Ultimate Reality  in Seon Buddhism: A Phenomenological  Reconstruction of the Essence of Seon",
+      "authors": [
+        {
+          "name": "윤동현",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구의 목적은 선불교의 본질을 ‘궁극적 실재(實在)의 정위(定位)’라는 구조적관점에서 분석하고, 이를 토대로 선불교를 ‘1인칭적 의식의 전일성(全一性)’에 기반한 체계로 현상학적으로 재구성하는 데 있다. ‘선(禪)이란 무엇인가’라는 물음은 문자적 규정을 거부하는 선의 자기규정과 어긋나 오랫동안 답해지지 못했고, 후스와 스즈키의 논쟁 이래 역사주의와 체험주의는 각각 선의 본질을 말하지 못하거나 분석하지못하는 한계를 노정하였다. 본 연구는 이 곤경의 원인이 물음의 형식에 있다고 진단하고, 물음을 ‘선은 궁극적 실재를 어디에 정위하는가’로 전환한다. 이를 위해 본고는힉의 실재중심적 종교다원주의를 비교의 공통기반으로 삼고, 스트렝의 종교 정의로부터 주체와 실재의 분리, 실재의 피안적 정위, 실재를 향한 지향의 운동이라는 세 계기로 이루어진 ‘지향적 정위 구조’를 준거로 추출하여, 이학(理學)과 신학(神學)이 궁극적 실재를 각각 원리와 타자로 표상하면서도 이 구조를 공유함을 확인하였다. 반면선불교의 교설 분석은 상이한 구조를 드러낸다. 즉심즉불(卽心卽佛)에서 궁극적 실재는 지금 이 순간의 ‘1인칭적 의식’에 정위되어 깨달음이 도달이 아닌 자각의 형식을취하고[돈오적 양상], 무수지수(無修之修)에서 수행은 실재를 향한 도정이 아니라 이미 정위된 실재에 의지하는 무지향의 실천이며[무수적 양상], 일체유심(一切唯心)에서 만법마저 이 정위의 안쪽에 있다[유심적 양상]. 나아가 세 양상이 영지(靈知) 사상으로 수렴하는 것은 궁극적 실재의 이름이자 현행하는 의식의 이름이어야 한다는 이중 조건에서 비롯하는 필연적 귀결임을 밝히고, 영지에서 초월성·내재성·본유성·현성성·불이성·유일성의 여섯 구조가 표명됨을 확인함으로써, 선불교가 ‘1인칭적 의식의 전일성’으로서의 참나[眞我]에 기반한 체계임을 확정하였다. 이로써 선적 본질에의 물음은 체험의 언표불가능성에 호소하지 않는 학술적 분석의 대상으로 재구성되며, 본 연구의 정식화는 선불교와 인접 사상의 비교 연구에 공통의 분석 단위를 제공한다.",
+      "abstract_en": "This study analyzes the essence of Seon (Chan/Zen) Buddhism through the structural concept of the “positioning (定位) of ultimate reality” and offers a phenomenological reconstruction of Seon as a system grounded in the “holistic oneness (全一性) of first-person consciousness.” The question “What is Seon?” has long remained unanswered because it conflicts with Seon’s self-definition, which resists literal formulation; since the Hu Shih–Suzuki debate, historicism and experientialism have each proved unable either to state or to analyze Seon’s essence. Locating this impasse in the form of the question, the study asks instead: “Where does Seon position ultimate reality?” Using Hick’s Reality-centrism as a common basis for comparison, it derives an “intentional positioning structure” from Streng’s definition of religion: the subject is separated from ultimate reality and directed toward it as something beyond. This structure is shared by the Learning of Principle (理學) and theology, which represent ultimate reality as principle and as the Other, respectively. Seon teachings, by contrast, reveal a non-separative structure of positioning. In “Mind is Buddha” (卽心卽佛), ultimate reality is positioned in first-person consciousness here and now, making awakening a realization rather than an arrival; in “cultivation of non-cultivation” (無修之修), practice depends on reality already positioned, rather than on a journey toward it; and in “All is Mind” (一切唯心), even the myriad dharmas fall within this positioning. These three aspects necessarily converge on numinous awareness (靈知), the single term that names both ultimate reality and consciousness as it now operates, and in which the six structures of holistic oneness are articulated. Seon Buddhism is thus defined as a system grounded in the true self (眞我) as the holistic oneness of first-person consciousness. The question of its essence is reconstructed as an object of scholarly analysis without appeal to the ineffability of experience.\nThis study analyzes the essence of Seon (Chan/Zen) Buddhism from the structural perspective of the “positioning (定位) of ultimate reality,” and reconstructs Seon phenomenologically as a system grounded in the “holistic oneness (全一性) of first-person consciousness.” The question ““What is Seon?” has long remained unanswered, as it conflicts with Seon’s self-definition, which refuses literal formulation; since the Hu Shih–Suzuki debate, historicism and experientialism have each proved unable either to state or to analyze the essence of Seon.\nDiagnosing this impasse as rooted in the form of the question itself, this study reformulates it: “Where does Seon position ultimate reality?” Taking Hick’s Reality-centrism as the common ground of comparison, the study extracts from Streng’s definition of religion an “intentional positioning structure,” in which the subject, separated from ultimate reality, intends toward it as lying beyond—a structure shared by the Learning of Principle (理學) and theology, which represent ultimate reality as principle and as the Other, respectively. Seon teachings, by contrast, reveal a structure of identity. In “Mind is Buddha” (卽心卽佛), ultimate reality is positioned in first-person consciousness here and now, so that awakening is realization rather than arrival; in “cultivation of non-cultivation” (無修之修), practice relies on reality already positioned rather than journeying toward it; and in “All is Mind” (一切唯心), even the myriad dharmas lie within this positioning. These three aspects necessarily converge upon numinous awareness (靈知), the one term naming both ultimate reality and the very consciousness now operating, in which the six structures of holistic oneness are articulated. Seon Buddhism is thus defined as a system grounded in the true self (眞我), and the question ...",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "323",
+      "end_page": "357",
+      "doi": "10.21482/jbs.88..202609.323",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390840",
+      "keywords_kr": [
+        "선불교",
+        "궁극적 실재",
+        "정위(定位)",
+        "1인칭적 의식",
+        "전일성(全一性)",
+        "영지(靈知)",
+        "돈오",
+        "참나[眞我]"
+      ],
+      "keywords_en": [
+        "Seon Buddhism",
+        "ultimate reality",
+        "positioning",
+        "first-person consciousness",
+        "holistic oneness",
+        "numinous awareness",
+        "true self"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003390847",
+      "id": "ART003390847",
+      "kci_id": "ART003390847",
+      "title_kr": "명말 청초 인명학의 전개와 이론적 한계 검토",
+      "title_en": "Development and Theoretical Limitations  of Hetuvidyā Studies in the Late Ming and  Early Qing Period",
+      "authors": [
+        {
+          "name": "박인석",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 명말 청초 인명학의 전승 경위와 이론적 한계를 고찰한 것이다. 동아시아에서 인명학은 당대(唐代) 약 1세기간 크게 선양되다가 이후 그 명맥이 점차 끊어졌지만, 명말 청초에 이르러 진계(眞界)·왕긍당(王肯堂)·명욱(明昱)·지욱(智旭)의 4인에 의해 인명입정리론에 대한 주석서가 편찬되면서 부흥의 계기가 마련되었다. 전승 경위와 관련하여, 진계의 ｢발문｣과 왕긍당의 ｢자서｣를 통해 당시 불교계에서 인명학의전승이 사실상 단절된 상태였음을 확인할 수 있다. 진계는 설랑홍은(雪浪洪恩)과 옥암좌주(玉菴座主)로부터 가르침을 받았고, 왕긍당은 진계·진징(鎭澄)·온박(蘊璞)의 주석을 차례로 접하면서 이해를 심화하였다. 그러나 두 사람 모두 당대의 인명학 주석서를 직접 활용하지 못하고, 징관의 화엄경수소연의초와 연수의 종경록 등에 남아 있는 단편적 인용문에 의존할 수밖에 없었다.\n이론적 한계와 관련하여, 4인 공통의 오류는 크게 두 가지로 정리된다. 첫째는 종의(宗依)와 종체(宗體) 개념의 혼동이다. 인명학의 주석 전통에서 종의는 전진(前陳)과후진(後陳) 각각을 가리키고, 종체는 양자의 결합인 주장 명제 전체를 가리키지만, 4인 모두 후진을 종체로 간주하는 오류를 보였다. 둘째는 변시종법성에 대한 잘못된이해이다. 이는 인(因)이 종의 유법(有法), 곧 전진에 두루 적용되는 법임을 가리키는데, 4인 모두 이 ‘종’을 후진으로 오인하였다. 오해의 양상은 4인 각각에서 다소 다르게 나타난다. 진계는 종법성을 인이 종의 후진에 두루 적용되는 총상[總]으로 규정하고 제2·3상을 별상[別]으로 설정하였고, 왕긍당은 동품정유성·이품변무성을 동유·이유의 실례에 근거하여 설명함으로써 삼상과 유(喩) 사이의 논리적 층위 차이를 불분명하게 하였다. 명욱은 구구인 게송의 ‘구(俱)’를 변시종법성과 동치로 오독하여 종· 인·유에 대한 유례없는 2분 구조를 낳았으며, 지욱은 종법성의 범위를 전진·후진 양자로 과도하게 확장하였다. 이상의 두 오류는 서로 연동된 것으로, 명말 청초 인명학의 부흥은 역사적 의의를 지니지만 이론적 재건이라는 측면에서는 완성에 이르지 못한 것으로 볼 수 있다.",
+      "abstract_en": "This paper examines the transmission history and theoretical limitations of hetuvidyā (Buddhist logic) in the late Ming and Early Qing Period. Although hetuvidyā flourished for approximately one century during the Tang dynasty, its lineage gradually died out thereafter. In the late Ming and early Qing period, four scholars — Zhenjie (眞界), Wang Kentang (王肯堂), Mingyu (明昱), and Zhixu (智 旭) — compiled commentaries on the Nyāyapraveśa, providing an opportunity for its revival. Concerning transmission history, the postscript of Zhenjie and the preface of Wang Kentang confirm that hetuvidyā transmission had effectively been severed in late Ming and early Qing Buddhist circles. Both scholars were compelled to rely on fragmentary citations preserved in Chengguan’s (澄觀) Huayan jing suishu yanyi chao and Yanshou’s (延壽) Zongjing lu, as Tang-dynasty hetuvidyā commentaries were no longer available. Concerning theoretical limitations, the four scholars share two common errors. The first is confusion between zongyi (宗依) and zongt’i (宗體). In the established commentarial tradition, zongyi refers to the subject and predicate terms individually, while zongt’i denotes the complete propositional thesis; all four scholars erroneously identified the predicate term with zongt’i. The second error concerns pakṣadharmatva (遍是宗法性), which requires the hetu to pervade the subject term of the thesis. All four scholars misidentified the relevant referent of “zong” as the predicate rather than the subject. These two errors are mutually entailed: misidentifying the predicate as zongt’i necessarily displaced the reference point of pakṣadharmatva toward the predicate term. While the late Ming and early Qing revival of hetuvidyā carries genuine historical significance, it must be judged as falling short of full theoretical reconstruction.",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "389",
+      "end_page": "417",
+      "doi": "10.21482/jbs.88..202609.389",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390847",
+      "keywords_kr": [
+        "명말 청초 불교",
+        "인명학",
+        "진계",
+        "왕긍당",
+        "명욱",
+        "지욱",
+        "종의와 종체",
+        "변시종법성",
+        "hetuvidyā",
+        "zongyi and zongt’i",
+        "pakṣadharmatva"
+      ],
+      "keywords_en": [
+        "Late Ming and Early Qing Buddhism",
+        "Zhenjie",
+        "Wang Kentang",
+        "Mingyu",
+        "Zhixu"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
     }
   ]
 }
