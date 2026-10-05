@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "journals": {
     "IJBTC": {
       "riss": 421,
@@ -237,7 +237,7 @@
       "comparable": 725,
       "comparable_matched": 725,
       "match_rate": 1.0,
-      "new": 18
+      "new": 0
     },
     "선문화연구": {
       "riss": 399,
