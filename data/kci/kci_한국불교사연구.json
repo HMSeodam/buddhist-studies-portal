@@ -1,28 +1,83 @@
 {
   "articles": [
     {
+      "article_id": "ART003224943",
+      "id": "ART003224943",
       "kci_id": "ART003224943",
-      "riss_hint": "fa2dec97613ccb306aae8a972f9116fb",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "『삼국유사』에 의한 가야 불교 전래 시기 검토",
+      "title_en": "A Review of the Period of Buddhism’s Transmission to Gaya According to the Samguk Yusa",
+      "authors": [
+        {
+          "name": "조성훈",
+          "affiliation": "순천향대학교",
+          "order": "1"
+        },
+        {
+          "name": "박형춘",
+          "affiliation": "순천향대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "『삼국유사』 「가락국기」의 건국 기사, 도읍 기사, 허황옥 관련 기사, 「금관성파사석탑」조, 「어산불영」조의 기록을 원문에 충실하게 해독하면, 가야 불교의 전래 시기를 1세기로 볼 수 있다.\n구지가는 신나라가 망하자 한반도 남부로 이주한 김수로왕이 토착세력에게 요구한 충성 맹세였고, 건국 기사의 내용은 김수로왕이토착인들의 복골 의식을 이용하여 민중의 광범위한 지지를 도모하는 과정이다. 이는 한반도 남부에서 상대적으로 풍부하게 발견되는新錢, 「문무대왕릉비문」, 「대당고김씨부인묘명」, 이들 비문을 뒷받침하는 『삼국사기』와 『삼국유사』의 기사에 의해 입증된다.\n허황옥 도래 기사 등 허황옥 관련 기사로 허황옥을 실존 인물로 볼수 있고, 논란이 되는 「금관성파사석탑」조 문구의 내용은, 허씨 집단의 도래와 함께 불교가 당연히 전래되었음을 전제로, 「가락국기」 에 당시에 절을 창건했다는 기록이 없는 이유를 설명한 것이다. 「가락국기」 도읍기사와 「어산불영」조에 근거한다면 김수로왕이 불교신자였을 가능성도 있다.\n가야 불교 전래를 4~5세기로 보는 견해는 1세기 가야 고분군의 부재를 근거로 『삼국유사』 기록을 부정하는데, 이는 초기 고분의 소실 가능성이나 미발견 가능성을 간과한 성급한 추론으로 보인다.",
+      "abstract_en": "If we faithfully interpret the records from the \"Garak-gukgi\" in the Samguk Yusa, including the founding account, the capital establishment account, articles related to Heo Hwang-ok, the \"Geumgwanseong Pasa Stone Pagoda\" section, and the \"Eosan Bulyeong\" section according to their original texts, the transmission of Buddhism to Gaya can be dated to the 1st century.\nThe Guji-ga was a loyalty oath that King Kim Suro demanded from indigenous forces after he migrated to the southern part of the Korean Peninsula following the fall of the Xin Dynasty. The content of the founding account describes the process by which King Kim Suro sought widespread popular support by utilizing the indigenous people's bok-gol ritual. This is substantiated by the Xin coins found relatively abundantly in the southern part of the Korean Peninsula, the \"Inscription on King Munmu's Tomb,\" the \"Epitaph of Lady Daedang Go Kim,\" and the records in the Samguk Sagi and Samguk Yusa that support these inscriptions.\nBased on the account of Heo Hwang-ok's arrival, Heo Hwang-ok can be regarded as a historical figure. The content of the \"Geumgwanseong Pasa Stone Pagoda\" section presupposes that Buddhism was naturally transmitted along with the arrival of the Heo clan, and explains why there is no record in the \"Garak-gukgi\" of temple construction at that time.\nBased on the capital establishment account in the \"Garak-gukgi\" and the \"Eosan Bulyeong\" section, there is also a possibility that King Kim Suro was a Buddhist believer.\nThe view that places the transmission of Buddhism to Gaya in the 4th-5th centuries negates the records of the Samguk Yusa based on the absence of 1st-century Gaya tomb complexes, but this is a hasty inference that overlooks the possibility of loss or undiscovery of early burial styles.",
+      "journal_name": "한국불교사연구",
       "year": "2025",
-      "volume": "27",
-      "issue": ""
+      "volume": "",
+      "issue": "27",
+      "start_page": "225",
+      "end_page": "249",
+      "doi": "10.23167/JSKBH2025.06.30.07",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003224943",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "한국불교사학회 한국불교사연구소",
+      "kci_year": "2025",
+      "kci_volume": "",
+      "kci_issue": "27",
+      "riss_hint": "fa2dec97613ccb306aae8a972f9116fb"
     },
     {
+      "article_id": "ART003293645",
+      "id": "ART003293645",
       "kci_id": "ART003293645",
-      "riss_hint": "1b6f94967fb5f6fcc85d2949c297615a",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "출간 100년의 『님의 침묵』 독자 확산 양상 연구",
+      "title_en": "A Study on the Spread of Readers in 100 Years of Publication of “The Silence of Nim”",
+      "authors": [
+        {
+          "name": "백원근",
+          "affiliation": "",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "한국 문학사에서 불멸의 국민 시집인 『님의 침묵』이 출간 1세기를 맞이하였다. 『님의 침묵』의 현재적 위상을 객관적으로 살피고자 출판 역사와 현황, 문인들의 작품에 대한 인식, 중고등학교 교과서 게재 연혁, 해외 출간 현황에 대해 조사하였다.\n『님의 침묵』은 1926년 첫 출간 이후 시집 152종 등 모두 179종의 관련서가 발행되었으며, 1980년대 이후에도 총 78종의 도서가 유통되었다. 『님의 침묵』은 한 세기의 시간을 뛰어넘어 생명력이 긴 스테디셀러로서 오늘의 독자들과 만나고 있다. 또한 『님의 침묵』은 문인들이 추천한 '21세기에 남을 한국의 고전'에서 시 부문 최고 추천작 (1999년)으로 선정되고, 문인들이 뽑은 '역대 최고의 작품' (2018년) 중 최상위권의 시 작품으로 꼽히는 등 높은 평가를 받았다. 반면, 국정교과서 시대 이후 검인정 교과서 시대에는 중고등 국어 교과서에 수록된 작품 종수가 대폭 줄었고, 외국어 번역 시집이 10개 언어로 발행되는 데 그친 상황으로 파악되었다. 향후 『님의 침묵』이 미래 세대 및 세계의 독자들과 만날 수 있도록 국내외 출판 활동의 촉진과 교과서 수록 증대 활동 등이 긴요하다.",
+      "abstract_en": "“The Silence of Nim” an immortal national collection of poems in the history of Korean literature, marks the century of publication. In order to objectively examine the present status of “The Silence of Nim,” we investigated the history and current status of publication, the perception of the works of writers, the history of publication of middle and high school textbooks, and the current status of overseas publication. Since its first publication in 1926, a total of 179 kinds of related books, including 152 kinds of poetry collections, have been published, and 78 kinds of books have been distributed since the 1980s. “The Silence of Nim” is a steady seller who has a long life span over a century and is meeting with today's readers. In addition, “The Silence of Nim” was selected as the best recommended work in the poetry category in the “Korean Classics for the 21st Century” (1999) recommended by writers and was considered the top-ranked poetry work among the “Best Works of All Time” (2018) selected by writers. On the other hand, since the era of state-run textbooks, the number of works included in middle and high school Korean textbooks has decreased significantly, and only 10 languages of translated poetry are published, making efforts to include textbooks and publish foreign translated poems.",
+      "journal_name": "한국불교사연구",
       "year": "2025",
-      "volume": "28",
-      "issue": ""
+      "volume": "",
+      "issue": "28",
+      "start_page": "135",
+      "end_page": "162",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003293645",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "한국불교사학회 한국불교사연구소",
+      "kci_year": "2025",
+      "kci_volume": "",
+      "kci_issue": "28",
+      "riss_hint": "1b6f94967fb5f6fcc85d2949c297615a"
     },
     {
       "article_id": "ART003293640",
       "id": "ART003293640",
       "kci_id": "ART003293640",
-      "title_kr": "『님의 침묵 』󰡕 전편 해설의 관점과 차이",
+      "title_kr": "『님의 침묵』 전편 해설의 관점과 차이 ― '님․ 당신 시편'을 중심으로 ―",
       "title_en": "Perspectives and Interpretative Differences  in Commentaries on Nimui Chimmuk  (The Silence of My Love)",
       "authors": [
         {
@@ -31,7 +86,7 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "본고는 지금까지 발행된 총 8권의 󰡔님의 침묵󰡕 전편 해설서의 해설관점과 차이를 규명하기 위한 논의이다. 전체 작품을 대상으로 할수 없어서 시 속에 ‘님’과 ‘당신’이란 표현이 함께 나오는 ‘님·당신시편’ 3편(｢참말인가요｣, ｢당신의 편지｣, ｢요술｣)을 대상으로 하였다.\n전체적으로 송욱이 시대 상황이나 전기적 요소(불교 관련) 등 외재적 사항을 적극 참조하여 해설하였다는 점에서, 김종인이나 정효구는 이런 요소를 배제하고 작품 자체의 내적 구조에 초점을 맞추었다는 점에서 양 극단에 놓인다. 그 사이 절충적인 관점을 지닌 이들이 있는데, 그 중 김용직, 김광원, 박진환은 외재적인 관점에 가깝고, 윤재근, 윤석성은 내재적 관점에 가깝다.\n그리고 이런 관점의 스펙트럼은 님과 당신의 관계에 대한 해석과도연계되어 있음을 확인할 수 있었다. 외재적 관점을 선호하는 송욱은 일관되게 ‘님’과 ‘당신’의 차이에 주목하고, 내재적 관점을 선호하는 김종인과 정효구는 그 동질성에 주목하고 있다. 이는 외재적, 내재적 관점의 특성 혹은 한계 때문이라 할 수 있다.",
+      "abstract_kr": "본고는 지금까지 발행된 총 8권의 『님의 침묵』 전편 해설서의 해설관점과 차이를 규명하기 위한 논의이다. 전체 작품을 대상으로 할수 없어서 시 속에 '님'과 '당신'이란 표현이 함께 나오는 '님·당신시편' 3편(「참말인가요」, 「당신의 편지」, 「요술」)을 대상으로 하였다.\n전체적으로 송욱이 시대 상황이나 전기적 요소(불교 관련) 등 외재적 사항을 적극 참조하여 해설하였다는 점에서, 김종인이나 정효구는 이런 요소를 배제하고 작품 자체의 내적 구조에 초점을 맞추었다는 점에서 양 극단에 놓인다. 그 사이 절충적인 관점을 지닌 이들이 있는데, 그 중 김용직, 김광원, 박진환은 외재적인 관점에 가깝고, 윤재근, 윤석성은 내재적 관점에 가깝다.\n그리고 이런 관점의 스펙트럼은 님과 당신의 관계에 대한 해석과도연계되어 있음을 확인할 수 있었다. 외재적 관점을 선호하는 송욱은 일관되게 '님'과 '당신'의 차이에 주목하고, 내재적 관점을 선호하는 김종인과 정효구는 그 동질성에 주목하고 있다. 이는 외재적, 내재적 관점의 특성 혹은 한계 때문이라 할 수 있다.",
       "abstract_en": "This paper examines the various perspectives and interpretative differences found in eight commentaries on Han Yong-un’s Nimui Chimmuk (The Silence of My Love). Since it was not feasible to analyze the entire collection, this study focuses on three poems — “Is It True?”, “Your Letter”, and “Magic” — from the Nim (My Love) – Dangsin (You) poems, which prominently feature the terms “Nim” and “Dangsin.” Among the eight commentaries, Song Wook represents one extreme, actively incorporating external factors such as historical context and biographical elements — particularly those related to Buddhism — into his analysis. In contrast, Kim Jong-in and Jeong Hyo-gu represent the other extreme, excluding such factors and concentrating solely on the internal structure of the work.\nBetween these two poles, several scholars adopt a more balanced or intermediate perspective. Among them, Kim Yong-jik, Kim Gwang-won, and Park Jin-hwan lean toward an extrinsic approach, while Yoon Jae-geun and Yoon Seok-seong favor an intrinsic one.\nFurthermore, this spectrum of perspectives appears to influence how scholars interpret the relationship between “Nim” and “Dangsin.” Song Wook, who favors an extrinsic approach, emphasizes the differences between the two terms, whereas Kim Jong-in and Jeong Hyo-gu, with their intrinsic focus, highlight their similarities. These interpretative tendencies may stem from the inherent characteristics and limitations of extrinsic versus intrinsic approaches.",
       "journal_name": "한국불교사연구",
       "year": "2025",
@@ -88,8 +143,8 @@
       "article_id": "ART003293652",
       "id": "ART003293652",
       "kci_id": "ART003293652",
-      "title_kr": "‘님’의 탄생과 ‘法語’의 시학 -한용운의 󰡔님의 침묵󰡕의 새로운 독법과 독해-",
-      "title_en": "The Birth of ‘My Love (Nim)’ and the Poetics of the Dharma Words ― A New Reading and Interpretation of The Silence of My Love ―",
+      "title_kr": "'님'의 탄생과 '法語'의 시학 -한용운의 『님의 침묵』의 새로운 독법과 독해-",
+      "title_en": "The Birth of 'My Love (Nim)' and the Poetics of the Dharma Words ― A New Reading and Interpretation of The Silence of My Love ―",
       "authors": [
         {
           "name": "정효구",
@@ -97,8 +152,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "본 논문은 한용운의 시집 󰡔님의 침묵󰡕에서 가장 문제적인 존재인‘님’의 문제를 새로운 관점에서 탐구한 글이다. 여기서 새로운 관점이란 한용운의 시집 󰡔님의 침묵󰡕의 문제적인 존재, 곧 주제어이자열쇠어이고 지배소로 작용하는 ‘님’은 ‘그 님이 누구냐 혹은 무엇이냐’와 같은 지시적, 규정적, 대상적, 이분법적 태도에 의하여 제대로밝혀질 수 없다는 것이다. 그러면 어떤 태도가 바람직한 것일까.\n그것은 ‘님’이란 ‘긔룬 마음’에 의하여 ‘탄생’되는 존재라는 것, 그러므로 ‘긔룬 마음’의 수준과 열도, 작동성과 자발성이 중요하다는 것이다. ‘님’은 여기서 명사성의 존재가 아니라 동사성의 존재가 된다.\n그리고 그 ‘님’은 ‘긔룬 마음’의 수준과 위상, 강도와 간절성에 비례하여 ‘탄생’되고 ‘성장’한다.\n다음으로 또 하나의 새로운 관점은 한용운의 개인적인 ‘님’으로 고백된 ‘해저문 벌판에서 돌아가는 길을 잃고 헤매는 어린 양’과 같은 존재에 대한 해석이 포괄적이고 열린 태도로 이루어져야 한다는 것이다. 여기서 한용운의 ‘님’은 배타적이고 분별적인 차원을 넘어서서 무한에 이르기까지 그 대상과 경계가 확장될 수 있음을 뜻한다.\n곧 불교의 핵심 교리인 ‘집(本鄕)’과 ‘길(正道)’을 잃은 존재들, 그들모두가 여기에 해당될 수 있다.\n끝으로 다른 한 가지의 새로운 관점은 󰡔님의 침묵󰡕에서의 ‘님’은 세가지 형태로 존재한다는 것이다. 그 세 가지 형태란 보편적인 조건으로서의 ‘님’, 한용운 개인의 ‘님’, 시집 본문 88편마다에서 탄생되는 작품 내적 상상의 ‘님’이다. 지금까지 이 세 가지가 동일시되어독해됨으로써 ‘님’의 문제를 논의하는 데에 많은 어긋남과 무리와경직성이 수반되었다. 다만 이 세 가지 형태의 ‘님’은 상호관계성속에서 이해되고 해석되어야 한다.\n글을 마치며 부기할 것은 한용운이 단순한 근대자유시인이 아니라詩僧이며 그러한 한용운의 시집 󰡔님의 침묵󰡕을 읽는 독자들이 이시집을 다 읽고 나서 자신의 내면에 ‘긔룬 마음’을 생성하고 작동시켜 수준 높은 ‘님’을 ‘탄생’시킨 자로 살아가게 된다면 이는 한용운이시집 󰡔님의 침묵󰡕에 맺음말 격으로 붙여놓은 글 ｢독자에게｣에 적극적으로 화답하는 일이 될 것이라는 사실이다.",
-      "abstract_en": "This paper explores from a new perspective the matter of ‘My Love (Nim)’, the most controversial being in Han Yong-un’s poetry collection of The Silence of My Love. This new perspective asserts that ‘My Love’, the subject term, keyword, and dominant element of Han’s poetry, cannot be properly revealed through a referential, definitional, object-oriented, or dichotomous attitude, for instance, asking ‘Who is My Love?’ or ‘What is My Love?’. Then, what attitude is desirable? It is the recognition that ‘My Love’ is an existence being ‘born’ from a ‘longing heart (gireun maeum)’.\nTherefore, the level, intensity, activity, and spontaneity of this ‘longing heart’ are of primary importance. In this sense, ‘My Love’ is not a nominal being but a verbal one. And ‘My Love’ ‘gets born’ and ‘grows’ proportionally to the level, status, intensity, and sincerity of the ‘longing heart’.\nNext, another new perspective concerns the interpretation of ‘My Love’ as Han Yong-un’s personal confession – ‘a lost little lamb wandering on a field at sunset’. This ‘My Love’ should be approached in an inclusive and open manner. Han’s ‘My Love’ transcends exclusive and discriminative dimensions and can extend infinitely in scope and boundary. In other words, it encompasses all beings who have lost their ‘home (本鄕)’ and ‘path (正道)’, the core concepts in Buddhist doctrine.\nThe last new perspective is that ‘My Love’ in The Silence of My Love exists in three forms: (1) ‘My Love’ as a universal condition, (2) Han Yong-un’s personal ‘My Love’, and (3) the imaginative ‘My Love’ newly born in each of the 88 poems in the collection. The confusion and rigidity in previous interpretations on the matter of ‘My Love’ often stem from reading these three forms as identical. These forms, however, should be understood and interpreted within their mutual relationships.\nIn conclusion, it should be noted that Han Yong-un was not merely a modern free-verse poet but a poet-monk (詩僧). If readers of The Silence of My Love finish the collection and awaken a ‘longing heart’ within themselves, thereby living as a being that has given ‘birth’ to a higher form of ‘My Love’ through that heart, it would be the most positive response to Han Yong-un’s message in his epilogue, “To the Reader” in it.",
+      "abstract_kr": "본 논문은 한용운의 시집 『님의 침묵』에서 가장 문제적인 존재인'님'의 문제를 새로운 관점에서 탐구한 글이다. 여기서 새로운 관점이란 한용운의 시집 『님의 침묵』의 문제적인 존재, 곧 주제어이자열쇠어이고 지배소로 작용하는 '님'은 '그 님이 누구냐 혹은 무엇이냐'와 같은 지시적, 규정적, 대상적, 이분법적 태도에 의하여 제대로밝혀질 수 없다는 것이다. 그러면 어떤 태도가 바람직한 것일까.\n그것은 '님'이란 '긔룬 마음'에 의하여 '탄생'되는 존재라는 것, 그러므로 '긔룬 마음'의 수준과 열도, 작동성과 자발성이 중요하다는 것이다. '님'은 여기서 명사성의 존재가 아니라 동사성의 존재가 된다.\n그리고 그 '님'은 '긔룬 마음'의 수준과 위상, 강도와 간절성에 비례하여 '탄생'되고 '성장'한다.\n다음으로 또 하나의 새로운 관점은 한용운의 개인적인 '님'으로 고백된 '해저문 벌판에서 돌아가는 길을 잃고 헤매는 어린 양'과 같은 존재에 대한 해석이 포괄적이고 열린 태도로 이루어져야 한다는 것이다. 여기서 한용운의 '님'은 배타적이고 분별적인 차원을 넘어서서 무한에 이르기까지 그 대상과 경계가 확장될 수 있음을 뜻한다.\n곧 불교의 핵심 교리인 '집(本鄕)'과 '길(正道)'을 잃은 존재들, 그들모두가 여기에 해당될 수 있다.\n끝으로 다른 한 가지의 새로운 관점은 『님의 침묵』에서의 '님'은 세가지 형태로 존재한다는 것이다. 그 세 가지 형태란 보편적인 조건으로서의 '님', 한용운 개인의 '님', 시집 본문 88편마다에서 탄생되는 작품 내적 상상의 '님'이다. 지금까지 이 세 가지가 동일시되어독해됨으로써 '님'의 문제를 논의하는 데에 많은 어긋남과 무리와경직성이 수반되었다. 다만 이 세 가지 형태의 '님'은 상호관계성속에서 이해되고 해석되어야 한다.\n글을 마치며 부기할 것은 한용운이 단순한 근대자유시인이 아니라詩僧이며 그러한 한용운의 시집 『님의 침묵』을 읽는 독자들이 이시집을 다 읽고 나서 자신의 내면에 '긔룬 마음'을 생성하고 작동시켜 수준 높은 '님'을 '탄생'시킨 자로 살아가게 된다면 이는 한용운이시집 『님의 침묵』에 맺음말 격으로 붙여놓은 글 「독자에게」에 적극적으로 화답하는 일이 될 것이라는 사실이다.",
+      "abstract_en": "This paper explores from a new perspective the matter of 'My Love (Nim)', the most controversial being in Han Yong-un's poetry collection of The Silence of My Love. This new perspective asserts that 'My Love', the subject term, keyword, and dominant element of Han's poetry, cannot be properly revealed through a referential, definitional, object-oriented, or dichotomous attitude, for instance, asking 'Who is My Love?' or 'What is My Love?'. Then, what attitude is desirable? It is the recognition that 'My Love' is an existence being 'born' from a 'longing heart (gireun maeum)'.\nTherefore, the level, intensity, activity, and spontaneity of this 'longing heart' are of primary importance. In this sense, 'My Love' is not a nominal being but a verbal one. And 'My Love' 'gets born' and 'grows' proportionally to the level, status, intensity, and sincerity of the 'longing heart'.\nNext, another new perspective concerns the interpretation of 'My Love' as Han Yong-un's personal confession - 'a lost little lamb wandering on a field at sunset'. This 'My Love' should be approached in an inclusive and open manner. Han's 'My Love' transcends exclusive and discriminative dimensions and can extend infinitely in scope and boundary. In other words, it encompasses all beings who have lost their 'home (本鄕)' and 'path (正道)', the core concepts in Buddhist doctrine.\nThe last new perspective is that 'My Love' in The Silence of My Love exists in three forms: (1) 'My Love' as a universal condition, (2) Han Yong-un's personal 'My Love', and (3) the imaginative 'My Love' newly born in each of the 88 poems in the collection. The confusion and rigidity in previous interpretations on the matter of 'My Love' often stem from reading these three forms as identical. These forms, however, should be understood and interpreted within their mutual relationships.\nIn conclusion, it should be noted that Han Yong-un was not merely a modern free-verse poet but a poet-monk (詩僧). If readers of The Silence of My Love finish the collection and awaken a 'longing heart' within themselves, thereby living as a being that has given 'birth' to a higher form of 'My Love' through that heart, it would be the most positive response to Han Yong-un's message in his epilogue, \"To the Reader\" in it.",
       "journal_name": "한국불교사연구",
       "year": "2025",
       "volume": "",
@@ -154,7 +209,7 @@
       "article_id": "ART003293661",
       "id": "ART003293661",
       "kci_id": "ART003293661",
-      "title_kr": "『님의 침묵 』짜임새를 단계로 볼 수 있는가?",
+      "title_kr": "『님의 침묵』짜임새를 단계로 볼 수 있는가?",
       "title_en": "Can The Silence of Nim be Understood as a Sequence of Stages?",
       "authors": [
         {
@@ -187,7 +242,7 @@
       "article_id": "ART003293643",
       "id": "ART003293643",
       "kci_id": "ART003293643",
-      "title_kr": "『삼국유사 』의 불·보살 현신(現身) 서사 연구",
+      "title_kr": "『삼국유사』의 불·보살 현신(現身) 서사 연구",
       "title_en": "Study on the Manifestation Narratives of Buddhas and Bodhisattvas in Samguk Yusa",
       "authors": [
         {
@@ -196,7 +251,7 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "대승 보살도에 근간한 구제론과 성도론을 함축적으로 보여주는 교설인 삼신론의 핵심은 현신(現身)이라고 할 수 있다. 부처는 물론관음, 문수 등 대보살들의 구제 활동과 우리 민중의 왕생 성도 이야기를 싣고 있는 󰡔삼국유사󰡕의 기사들을 살펴보면, 이처럼 삼신론에있음을 알 수 있다.\n내포된 현신의 메커니즘이 서사의 매우 중요한 모티프로 작동하고구제론적 성격을 보여주는 󰡔삼국유사󰡕의 기사들에서 현신의 주체는 대부분 관음, 문수, 미륵, 지장, 보현, 정취 등 대보살이라는 점이주목된다. 민중을 제도 교화하는 실질적인 주체로서 대보살에 귀의하는 신앙이 보편화되어 있었음을 보여준다. 현신의 양태는 크게 진신(眞身)과 화신(化身)으로 구분할 수 있다. 진신은 의상, 보천, 진표 등 당대 활동했던 고승들의 행장에서 주로 등장한다. 이들은불·보살의 현현을 증험하여 그곳이 정토임을 증명하거나 서상수계를 통해 성인기별을 받는 신화적 위상을 보여준다. 화신은 이 땅에 수적한 불·보살의 부사의한 신변으로서, 우리 민중을 각종 재난에서 구호하고 나아가 정토왕생과 성도를 조력하는 역할로 등장한다. 이를 통해 부처와 보살은 우리 민중의 모습과 언어로 감응도교하는 토착적 친연성을 확보하고 있다.\n한편 정토왕생이나 성도담을 다루는 󰡔삼국유사󰡕의 기사들은 수증론의 측면에서 대체로 화엄법계관에 바탕한 밀교적 불신관을 내포하고 있다는 점이 특징이다. 그리하여 수행자가 수행을 통해 즉신(卽身)에 불신(佛身)을 나투어 수적하는 서사 구조를 보여준다. 이 땅은 3아승지겁의 세월을 거치지 않고 당생(當生)에 왕생과 성도가 가능한 연화장세계이자 불토라는 인식을 드러내고 있다.",
+      "abstract_kr": "대승 보살도에 근간한 구제론과 성도론을 함축적으로 보여주는 교설인 삼신론의 핵심은 현신(現身)이라고 할 수 있다. 부처는 물론관음, 문수 등 대보살들의 구제 활동과 우리 민중의 왕생 성도 이야기를 싣고 있는 『삼국유사』의 기사들을 살펴보면, 이처럼 삼신론에있음을 알 수 있다.\n내포된 현신의 메커니즘이 서사의 매우 중요한 모티프로 작동하고구제론적 성격을 보여주는 『삼국유사』의 기사들에서 현신의 주체는 대부분 관음, 문수, 미륵, 지장, 보현, 정취 등 대보살이라는 점이주목된다. 민중을 제도 교화하는 실질적인 주체로서 대보살에 귀의하는 신앙이 보편화되어 있었음을 보여준다. 현신의 양태는 크게 진신(眞身)과 화신(化身)으로 구분할 수 있다. 진신은 의상, 보천, 진표 등 당대 활동했던 고승들의 행장에서 주로 등장한다. 이들은불·보살의 현현을 증험하여 그곳이 정토임을 증명하거나 서상수계를 통해 성인기별을 받는 신화적 위상을 보여준다. 화신은 이 땅에 수적한 불·보살의 부사의한 신변으로서, 우리 민중을 각종 재난에서 구호하고 나아가 정토왕생과 성도를 조력하는 역할로 등장한다. 이를 통해 부처와 보살은 우리 민중의 모습과 언어로 감응도교하는 토착적 친연성을 확보하고 있다.\n한편 정토왕생이나 성도담을 다루는 『삼국유사』의 기사들은 수증론의 측면에서 대체로 화엄법계관에 바탕한 밀교적 불신관을 내포하고 있다는 점이 특징이다. 그리하여 수행자가 수행을 통해 즉신(卽身)에 불신(佛身)을 나투어 수적하는 서사 구조를 보여준다. 이 땅은 3아승지겁의 세월을 거치지 않고 당생(當生)에 왕생과 성도가 가능한 연화장세계이자 불토라는 인식을 드러내고 있다.",
       "abstract_en": "The core of the Trikaya (Three Bodies of the Buddha) theory, a doctrine that succinctly embodies the soteriology and Buddhology rooted in the Mahayana Bodhisattva path, can be identified as “manifestation” (現身, hyeonsin). An analysis of records in the Samguk Yusa — which includes the salvific activities of the Buddha and great Bodhisattvas such as Avalokitesvara and Manjusri, as well as narratives of the common people’s rebirth in the Pure Land — reveals that the mechanism of manifestation inherent in the Trikaya theory functions as a crucial narrative motif. In the narratives of Samguk Yusa, the protagonists representing the manifestation are mostly great bodhisattvas. This reflects the widespread prevalence of faith in these Bodhisattvas as the agents of leading and rescuing people.\nThe modes of manifestation can be broadly categorized into ‘true body’ (眞身, jinsin) and ‘transformation body’ (化身, hwasin). The ‘true body’ primarily appears in the hagiographies of eminent monks of the time, such as Uisang, Bocheon, and Jinpyogh. The monks prove that the site of the Buddha’s manifestation is indeed the Pure Land, and they are recognized as sacred figures who have received divine precepts. The ‘transformation body’ appears in the narratives to rescue people from various disasters and assist them in achieving rebirth in the Pure Land and attaining enlightenment. Buddha and Bodhisattva establish affinity with people through their native appearance and language.\nFurthermore, the accounts in Samguk Yusa dealing with rebirth in the Pure Land or attainment of Buddhahood are characterized by an Esoteric Buddhist view of the Buddha-body based on the Huayan (Avatamsaka) Dharma-realm perspective. Consequently, the narrative structure depicts practitioners manifesting the Buddha-body within their own physical form (卽身, jeoksin) through cultivation. This reveals a fundamental perception of this world as the Padmaloka-dhatu and a Buddha-land, where rebirth and the attainment of Buddhahood are possible within one’s current lifetime, bypassing the need to undergo the traditional three countless eons (asamkhyeya-kalpa) of practice.",
       "journal_name": "한국불교사연구",
       "year": "2025",
@@ -220,8 +275,8 @@
       "article_id": "ART003293657",
       "id": "ART003293657",
       "kci_id": "ART003293657",
-      "title_kr": "분황 원효의 사상을 통해 본 고통의 이해와 극복",
-      "title_en": "Understanding and Overcoming Suffering Through the Thought of Bunhwang Wonhyo",
+      "title_kr": "분황 원효의 사상을 통해 본 고통의 이해와 극복 ― 『금강삼매경론』과 『이장의』를 중심으로 ―",
+      "title_en": "Understanding and Overcoming Suffering Through the Thought of Bunhwang Wonhyo ― Focusing on the Diamond Samadhi Sutra Commentary and the Doctrine of the Two Hindrances ―",
       "authors": [
         {
           "name": "지주혜",
@@ -234,8 +289,8 @@
           "order": "2"
         }
       ],
-      "abstract_kr": "본고는 현대인이 마주하는 실존적 고통의 문제를 원효(元曉, 617-686) 의 사상을 통해 조명하고, 그 극복의 길을 모색하는 것을 목적으로한다. 인간은 역사상 유례없는 물질적 풍요 속에서도 여전히 생로병사의 근원적 고통과 정신적 번뇌에서 벗어나지 못하고 있다. 이러한 고통의 본질을 탐구하기 위해, 본고는 원효의 저술인 󰡔금강삼대한 통찰을 중심으로 논의를 전개한다.\n매경론(金剛三昧經論)󰡕과 󰡔이장의(二障義)󰡕에 나타난 고통과 번뇌에먼저, 󰡔금강삼매경론󰡕을 통해 고통이 ‘마음’의 작용에서 비롯됨을분석한다. 원효는 ‘일체유심조(一切唯心造)’의 원리에 따라, 외부 세계 자체가 아니라 그것을 인식하는 주관의 왜곡된 상(相)에 대한 집착이 고통의 근원임을 밝힌다. 따라서 고통의 극복은 ‘상(相)을 깨뜨리는’ 수행을 통해 본래 청정한 마음의 근원, 즉 본각(本覺)으로 돌아가는 과정임을 논한다.\n다음으로, 󰡔이장의󰡕를 통해 고통의 구체적인 심리적 기제인 번뇌의구조를 살핀다. 원효는 번뇌를 번뇌장(煩惱障), 소지장(所知障)의 현료문(顯了門)과 번뇌애(煩惱碍), 지애(智碍)의 은밀문(隱密門)으로 나누고 있다. 이 장애들의 발생 원인과 소멸 과정을 분석함으로써, 고통극복을 위한 구체적인 수행의 방향성을 제시한다.\n결론적으로, 원효는 고통은 피해야 할 대상이 아니라, 마음의 본성을 깨닫게 하는 수행의 계기이자 도량(道場)임을 설파한다. 그의 사상은 고통의 원인이 외부에 있지 않고 우리 마음의 무명(無明)과 집착에 있음을 통찰하게 하며, 본래 갖추어진 깨달음의 성품을 회복함으로써 고통을 근원적으로 소멸시킬 수 있다는 희망을 제시한다.\n본 연구는 시대를 초월하는 원효의 지혜가 현대인의 고통 문제 해결에 여전히 심오하고 실천적인 지침이 될 수 있음을 시사한다.",
-      "abstract_en": "Understanding and Overcoming Suffering Through the Thought of Bunhwang Wonhyo",
+      "abstract_kr": "본고는 현대인이 마주하는 실존적 고통의 문제를 원효(元曉, 617-686) 의 사상을 통해 조명하고, 그 극복의 길을 모색하는 것을 목적으로한다. 인간은 역사상 유례없는 물질적 풍요 속에서도 여전히 생로병사의 근원적 고통과 정신적 번뇌에서 벗어나지 못하고 있다. 이러한 고통의 본질을 탐구하기 위해, 본고는 원효의 저술인 『금강삼대한 통찰을 중심으로 논의를 전개한다.\n매경론(金剛三昧經論)』과 『이장의(二障義)』에 나타난 고통과 번뇌에먼저, 『금강삼매경론』을 통해 고통이 '마음'의 작용에서 비롯됨을분석한다. 원효는 '일체유심조(一切唯心造)'의 원리에 따라, 외부 세계 자체가 아니라 그것을 인식하는 주관의 왜곡된 상(相)에 대한 집착이 고통의 근원임을 밝힌다. 따라서 고통의 극복은 '상(相)을 깨뜨리는' 수행을 통해 본래 청정한 마음의 근원, 즉 본각(本覺)으로 돌아가는 과정임을 논한다.\n다음으로, 『이장의』를 통해 고통의 구체적인 심리적 기제인 번뇌의구조를 살핀다. 원효는 번뇌를 번뇌장(煩惱障), 소지장(所知障)의 현료문(顯了門)과 번뇌애(煩惱碍), 지애(智碍)의 은밀문(隱密門)으로 나누고 있다. 이 장애들의 발생 원인과 소멸 과정을 분석함으로써, 고통극복을 위한 구체적인 수행의 방향성을 제시한다.\n결론적으로, 원효는 고통은 피해야 할 대상이 아니라, 마음의 본성을 깨닫게 하는 수행의 계기이자 도량(道場)임을 설파한다. 그의 사상은 고통의 원인이 외부에 있지 않고 우리 마음의 무명(無明)과 집착에 있음을 통찰하게 하며, 본래 갖추어진 깨달음의 성품을 회복함으로써 고통을 근원적으로 소멸시킬 수 있다는 희망을 제시한다.\n본 연구는 시대를 초월하는 원효의 지혜가 현대인의 고통 문제 해결에 여전히 심오하고 실천적인 지침이 될 수 있음을 시사한다.",
+      "abstract_en": "This paper explores the problem of existential suffering in modern individuals through the profound Buddhist philosophy of the Korean monk Wonhyo(元曉, 617-686). It seeks to identify a path to overcome the fundamental pain and mental afflictions that persist even in an era of unprecedented material wealth.\nThe investigation focuses on Wonhyo's key texts, the Treatise on the Diamond Samādhi Sūtra(金剛三昧經論) and the Doctrine of the Two Hindrances(二障義).\nThrough the Treatise on the Diamond Samādhi Sūtra, the paper analyzes how suffering arises from the mind's activity. Grounded in the principle of 'All is what comes from the mind'(一切唯心造), Wonhyo argues that the root of pain is not the external world, but rather our attachment to the distorted mental forms(相) we perceive. Consequently, the path to liberation involves 'shattering these forms' through spiritual practice, enabling a return to the mind's inherently pure source, known as Original Enlightenment(本覺).\nNext, through The Doctrine of the Two Hindrances(二障義), we examine the specific psychological mechanism of suffering, namely the structure of afflictions(or mental disturbances). Wonhyo divides afflictions into the 'manifest aspect'(顯了門) and the 'hidden aspect'(隱密門), analyzing the causes of the arising and cessation of various hindrances. Through this, he presents a concrete direction for practice aimed at overcoming suffering.\nIn conclusion, Wonhyo taught that suffering shouldn't be shunned, but embraced as a training ground for realizing the mind's true nature.\nHis philosophy provides a timeless and practical directive, offering the hope that by overcoming our ignorance and attachment, we can recover our innate enlightened nature and fundamentally extinguish the roots of suffering.",
       "journal_name": "한국불교사연구",
       "year": "2025",
       "volume": "",
@@ -1185,7 +1240,7 @@
       "article_id": "ART003225468",
       "id": "ART003225468",
       "kci_id": "ART003225468",
-      "title_kr": "한류의 전지구화(global-localization)와 문화전이 현상",
+      "title_kr": "한류의 전지구화(global-localization)와 문화전이 현상 ― 한류의 어제와 오늘 그리고 특히 동이문화를 살피며 ―",
       "title_en": "Globalization and Cultural Transition of the Korean Wave",
       "authors": [
         {
@@ -1219,7 +1274,7 @@
       "article_id": "ART003224937",
       "id": "ART003224937",
       "kci_id": "ART003224937",
-      "title_kr": "여성문학 국제화의 힘: 환유와 상징",
+      "title_kr": "여성문학 국제화의 힘: 환유와 상징 ― 김혜순과 한강을 중심으로 ―",
       "title_en": "The power of the Globalization of Women's Literature : Metonymy and Symbol",
       "authors": [
         {
@@ -1228,7 +1283,7 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "이 논문은 한국문학의 세계화에 기여한 두 사람의 작가에 관한 연구이다. 한 사람은 시인 김혜순이며, 다른 한 사람은 소설가 한강이다. 이들은 최근에 최고의 권위가 주어진 문학적 성취를 이루어놓았다. 김혜순은 구체적이고, 경험적이고, 또 감각적인 환유의 방식에 의거해 남성 중심의 사회를 비판하는 시를 써왔고, 한강은 문화를 열어놓는 힘인 이미지와 상징을 통해 신화의 세계와 현대소설의접목을 꾀하는 소설 쓰기를 추구해 왔다. 은유가 유사성의 원리에의거한 비유라면, 환유는 인접성의 원리에 충실한 비유다. 2025년에미국 아카데미 명예회원으로 선정된 시인 김혜순은 시의 방법론을환유에 두고 있다. 그의 시 작품인 ｢여자들｣, ｢색안경은 말한다｣, ｢날개 환상통｣ 등에서 살펴볼 수 있다. 2024년에 노벨문학상을 수상한 소설가 한강은 ‘상징으로서의’ 소설 읽기를 가능하게 해준다. 그의 소설 ｢내 여자의 열매｣는 신화적 상상력에 닿아있는 상징의전략을 구사했다. 또한 ｢흰｣에서는 흰색이 생명의 바탕색이요, 또입김이 원초적인 생명력이라는 사실을 잘 보여주고 있다. 김혜순은고대의 예언자-시인, 중세의 음유시인, 여성 전통의 여성 샤먼의이미지를 재현했다. 스웨덴 한림원에서는 한강의 작품 세계를 두고흰색은 죽음과 슬픔의 상징이며, 빨간색은 생명과 상처의 상징이라고 말했다.",
+      "abstract_kr": "이 논문은 한국문학의 세계화에 기여한 두 사람의 작가에 관한 연구이다. 한 사람은 시인 김혜순이며, 다른 한 사람은 소설가 한강이다. 이들은 최근에 최고의 권위가 주어진 문학적 성취를 이루어놓았다. 김혜순은 구체적이고, 경험적이고, 또 감각적인 환유의 방식에 의거해 남성 중심의 사회를 비판하는 시를 써왔고, 한강은 문화를 열어놓는 힘인 이미지와 상징을 통해 신화의 세계와 현대소설의접목을 꾀하는 소설 쓰기를 추구해 왔다. 은유가 유사성의 원리에의거한 비유라면, 환유는 인접성의 원리에 충실한 비유다. 2025년에미국 아카데미 명예회원으로 선정된 시인 김혜순은 시의 방법론을환유에 두고 있다. 그의 시 작품인 「여자들」, 「색안경은 말한다」, 「날개 환상통」 등에서 살펴볼 수 있다. 2024년에 노벨문학상을 수상한 소설가 한강은 '상징으로서의' 소설 읽기를 가능하게 해준다. 그의 소설 「내 여자의 열매」는 신화적 상상력에 닿아있는 상징의전략을 구사했다. 또한 「흰」에서는 흰색이 생명의 바탕색이요, 또입김이 원초적인 생명력이라는 사실을 잘 보여주고 있다. 김혜순은고대의 예언자-시인, 중세의 음유시인, 여성 전통의 여성 샤먼의이미지를 재현했다. 스웨덴 한림원에서는 한강의 작품 세계를 두고흰색은 죽음과 슬픔의 상징이며, 빨간색은 생명과 상처의 상징이라고 말했다.",
       "abstract_en": "This paper is a study of two writers who have contributed to the globalization of Korean literature. One is the poet Kim Hyesoon, and the other is thee novelist Han Kang. Both have recently achieved the highest recognition in literary accomplishment. Kim Hyesoon has written poetry that critiques a male-centered society through the concrete, empirical, and sensory methods of metonymy. Han Kang, on the other hand, has pursued a style of novel writing that connects the world of myth with contemporary fiction through the use of images and symbols-forces that open up culture.\nWhile metaphor is a figure of speech based on the principle of similarity, metonymy is based on the priciple of contiguity. Kim Hyesoon, who was selected as an honorary member of the American Academy in 2025, bases her poetic methodology on metonymy. This can be observed in her works such as ‘Women’, ‘The Glasses Speak’ and ‘Winged Pseudo-disease’. Han Kang, who won the Nobel Prize in Literature in 2024, enables the reading of the novel as symbol. Her novel ‘The Fruit of My Woman’ employs a symbolic strategy that touches upon mythological imagination.\nIn ‘The White’, she effectively shows that white is the base color of life and that breath is a primal life force. Kim Hyesoon recreates the image of the ancient prophet-poet, the medieval troubadour, and the female shaman in the tradition of women. The Swedish Academy stated that in Han Kang’s literary world, white symbolizes death and sorrow, while red symbolizes life and wounds.",
       "journal_name": "한국불교사연구",
       "year": "2025",
@@ -1253,8 +1308,8 @@
       "article_id": "ART003224941",
       "id": "ART003224941",
       "kci_id": "ART003224941",
-      "title_kr": "역사한류와 한국문화, 《삼국유사》를 중심으로",
-      "title_en": "Korean Wave and Korean Culture, Focusing on《Samguk Yusa》",
+      "title_kr": "역사한류와 한국문화, 《삼국유사》를 중심으로 ― 단군신화의 새로운 이해와 한류 ―",
+      "title_en": "Korean Wave and Korean Culture, Focusing on《Samguk Yusa》 ― New understanding of the Dangun myth and the Korean Wave ―",
       "authors": [
         {
           "name": "조경철",
@@ -1287,8 +1342,8 @@
       "article_id": "ART003224931",
       "id": "ART003224931",
       "kci_id": "ART003224931",
-      "title_kr": "철학 한류와 한국 문화",
-      "title_en": "Korean Philosophy Wave and Korean Culture",
+      "title_kr": "철학 한류와 한국 문화 ― 원효와 지눌, 이황과 이이 사상에 대한 해외에서의 연구와 관련하여 ―",
+      "title_en": "Korean Philosophy Wave and Korean Culture ― With Reference to Overseas Studies on the Thoughts of Wonhyo, Jinul, Yi Hwang, and Yi I ―",
       "authors": [
         {
           "name": "고영섭",
@@ -1321,8 +1376,8 @@
       "article_id": "ART003224942",
       "id": "ART003224942",
       "kci_id": "ART003224942",
-      "title_kr": "종교 한류와 한국 문화",
-      "title_en": "K-Religion and Korean Culture",
+      "title_kr": "종교 한류와 한국 문화 ― 동학과 원불교의 ‘도덕’ 개념을 중심으로 ―",
+      "title_en": "K-Religion and Korean Culture ― Focusing on the Concept of ‘Way and Power(道德)’ in Donghak and Won Buddhism ―",
       "authors": [
         {
           "name": "조성환",
@@ -1355,8 +1410,8 @@
       "article_id": "ART003224939",
       "id": "ART003224939",
       "kci_id": "ART003224939",
-      "title_kr": "한류와 K팝의 뿌리 불교 악가무",
-      "title_en": "The Roots of Korean Wave and K-Pop Buddhist Music and Dance",
+      "title_kr": "한류와 K팝의 뿌리 불교 악가무 ― 불교음악사에 의한 통시적 고찰 ―",
+      "title_en": "The Roots of Korean Wave and K-Pop Buddhist Music and Dance ― FA Diachronic Context Through Musical History ―",
       "authors": [
         {
           "name": "윤소희",
@@ -1364,7 +1419,7 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "본고에서는 한국의 불교 악가무가 한류의 뿌리가 되었음을 음악사를 통해 고찰하였다. 불교와 함께 서역음악이 중국에 전래되면서중국 문화 전반에 유연성을 더했다면 한국은 범어와 같은 소리글자로 인해 음악과 춤이 지닌 역동성의 기폭제가 되었다. 인도, 중앙아시아를 비롯한 다층의 문화를 흡수하며 신라에 이른 악가무가 향토화되었음을 崔致遠의 鄕樂雜詠五首를 통해 확인하였고, 원효의 무애가에 나무아미타불을 노래하며 따랐던 민중은 21세기 ‘코리안 떼창’ 이 되어 한류의 아이콘이 되었다. 여기에는 ‘우리’라는 어우러짐의심성을 지닌 한국인이 메기고 받으며 노래해온 한국 민요의 바탕이있었다.\n고려조의 팔관회와 연등회에서는 궁중악사들과 민간인이 함께하는산대 백희잡기가 성행했다. 이 무렵 한국 고유의 무속도 불교를 모방했으므로 오늘날 무가와 불교음악이 상통하는 점이 많다. 조선조의 세종임금이 창제한 정간보는 소리글자인 우리말의 역동성과 주체성이 만들어낸 결과였다.   악학궤범  에서 백성의 소리에 32妙應하는한글 唱詞는 부처님의 32상호와 일치하고, 이를 半切한 세조의 16정간은 16梵字 다라니와 世間大人의 治世念願과 더불어 리듬절주의 기능적 표기였다. 이후 한국음악의 역동성은 繁音促節을 거듭하여 전통가곡, 시조, 巫歌와 회심곡을 관통하는 8박 절주가 되었다.\n조선 중기 이후 궁중에서 불교음악을 연주할 수 없게 되자 제반의불교음악이 민요 혹은 민간 예술음악으로 전환되었다. 장엄염불 가사였던 ‘江江水月來’가 ‘강강술래’ 민요가 되었는가하면 사찰 불교악가무는 유랑예인들의 연희가 되어 한류와 K팝의 원동력이 되었다.\n이제 음악 이론을 몰라도 AI를 통해 작곡을 할 수 있는 시대가 되었다. 21세기를 리더하는 K불교 악가무가 되기 위해서는 한국불교음악의 역사·문화적 배경에 대한 깊은 이해가 있어야 한국적 고유성이살아있는 불교음악을 생성할 수 있다. 한국불교의 정체성에 기반한심미적 감각과 창의성이 미래 K부디즘의 성공의 열쇠가 될 것이다.",
+      "abstract_kr": "본고에서는 한국의 불교 악가무가 한류의 뿌리가 되었음을 음악사를 통해 고찰하였다. 불교와 함께 서역음악이 중국에 전래되면서중국 문화 전반에 유연성을 더했다면 한국은 범어와 같은 소리글자로 인해 음악과 춤이 지닌 역동성의 기폭제가 되었다. 인도, 중앙아시아를 비롯한 다층의 문화를 흡수하며 신라에 이른 악가무가 향토화되었음을 崔致遠의 鄕樂雜詠五首를 통해 확인하였고, 원효의 무애가에 나무아미타불을 노래하며 따랐던 민중은 21세기 ‘코리안 떼창’ 이 되어 한류의 아이콘이 되었다. 여기에는 ‘우리’라는 어우러짐의심성을 지닌 한국인이 메기고 받으며 노래해온 한국 민요의 바탕이있었다.\n고려조의 팔관회와 연등회에서는 궁중악사들과 민간인이 함께하는산대 백희잡기가 성행했다. 이 무렵 한국 고유의 무속도 불교를 모방했으므로 오늘날 무가와 불교음악이 상통하는 점이 많다. 조선조의 세종임금이 창제한 정간보는 소리글자인 우리말의 역동성과 주체성이 만들어낸 결과였다. 󰡔악학궤범󰡕에서 백성의 소리에 32妙應하는한글 唱詞는 부처님의 32상호와 일치하고, 이를 半切한 세조의 16정간은 16梵字 다라니와 世間大人의 治世念願과 더불어 리듬절주의 기능적 표기였다. 이후 한국음악의 역동성은 繁音促節을 거듭하여 전통가곡, 시조, 巫歌와 회심곡을 관통하는 8박 절주가 되었다.\n조선 중기 이후 궁중에서 불교음악을 연주할 수 없게 되자 제반의불교음악이 민요 혹은 민간 예술음악으로 전환되었다. 장엄염불 가사였던 ‘江江水月來’가 ‘강강술래’ 민요가 되었는가하면 사찰 불교악가무는 유랑예인들의 연희가 되어 한류와 K팝의 원동력이 되었다.\n이제 음악 이론을 몰라도 AI를 통해 작곡을 할 수 있는 시대가 되었다. 21세기를 리더하는 K불교 악가무가 되기 위해서는 한국불교음악의 역사·문화적 배경에 대한 깊은 이해가 있어야 한국적 고유성이살아있는 불교음악을 생성할 수 있다. 한국불교의 정체성에 기반한심미적 감각과 창의성이 미래 K부디즘의 성공의 열쇠가 될 것이다.",
       "abstract_en": "In this paper, I researched the produce that Korean Buddhist music and dance became the root of the Korean Wave and K-pop through the historical flow of music that runs through India, China, and Korea. While Indian and middle Asia music was introduced to China along with Buddhism, flexibility was added to the overall Chinese culture, and Korea became a catalyst for the dynamism of music and dance due to its phonetic script, such as Sanskrit. Silla unified the three kingdoms and absorbed the multi-layered cultures of the Three Kingdoms, India, and Central Asia, and made Buddhist culture flourish. At that time, the people who sang Namu Amitabha Buddha and followed Wonhyo’s Muaega(無碍歌). It became the 21st century “Ttechang(Sing along)” and became the icons of the Korean Wave. There was the DNA of Koreans who had a culture of harmony called “us”.\nIn the Goryeo Dynasty’s Palgwanhoe(八關會) and Yeondeunghoe(燃燈 會), the Sandae Baekhee(山臺百戲)with various performances was popular. The Palgwahoe, which was originally a ritual performed to local gods, was transformed into a Buddhist ritual and Korean shamanism imitated Buddhism. As the result today’s Korean shaman songs and Buddhist music have many similarities. During the Joseon Dynasty, King Sejong created Jeongganbo with 32 spaces, a musical notation that could indicate the length of notes, also connected to the 32 holy and wise aspects of the Buddha. The 32-jeongganbo was changed to 16-jeonggan by King Sejo, making it a more functional musical notation, and is still being passed down today as traditional Korean music with the common characteristic of 8 beats like Sijo, traditional lyric songs, shamanic songs etc.\nSince the mid-Joseon Dynasty, when Buddhist music was not allowed to be performed in the royal court, various Buddhist ritual music and dancing of the Goryeo Dynasty, permeated the public and transformed into folk songs or general performing arts. Buddhist ritual music and dance at temples became the performances of traveling entertainers and became the driving force of Hallyu and K-pop. However, since music and dance that has lost its Buddhist identity cannot be called Buddhism, we need to be wary of the negative effects that hinder religious dharma. In order to become a K-Buddhism that leads the 21st century, dharma and sincerity that transcend the secular world are vital.",
       "journal_name": "한국불교사연구",
       "year": "2025",

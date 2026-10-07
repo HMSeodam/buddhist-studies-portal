@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "journals": {
     "IJBTC": {
       "riss": 421,
@@ -367,15 +367,15 @@
     },
     "한국불교사연구": {
       "riss": 232,
-      "kci": 179,
-      "kci_links": 2,
-      "paired": 179,
+      "kci": 181,
+      "kci_links": 0,
+      "paired": 181,
       "kci_only": 0,
       "scheme": "i2v",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 179,
-      "comparable_matched": 179,
+      "comparable": 181,
+      "comparable_matched": 181,
       "match_rate": 1.0,
       "new": 0
     },
