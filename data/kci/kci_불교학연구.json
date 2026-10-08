@@ -26134,6 +26134,72 @@
       "kci_year": "2026",
       "kci_volume": "88",
       "kci_issue": ""
+    },
+    {
+      "article_id": "ART003391908",
+      "id": "ART003391908",
+      "kci_id": "ART003391908",
+      "title_kr": "다섯 개의 창으로 읽는 『유식이십론』 강형철·유리·구미숙 역주(2025), 『유식이십론 ― 다섯 가지 버전과 상세한 해설로 읽다』",
+      "title_en": "Five Windows onto the Viśikā. Viśikā : Translatons of Five Versions and a Comprehensive Exegesis",
+      "authors": [
+        {
+          "name": "송부경",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "555",
+      "end_page": "561",
+      "doi": "10.21482/jbs.88..202609.555",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003391908",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
+    },
+    {
+      "article_id": "ART003391916",
+      "id": "ART003391916",
+      "kci_id": "ART003391916",
+      "title_kr": "「문학은 사라진 비구니의 삶을 어떻게 기록하고 있나 ― 이향순 『비구니와 한국문학』 다시 읽기」",
+      "title_en": "How Does Literature Record the Lives of Forgotten Buddhist Nuns?— Rereading Lee Hyang-soon’s ‘Buddhist Nuns and Korean Literature’",
+      "authors": [
+        {
+          "name": "서혜인",
+          "affiliation": "중앙승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "불교학연구",
+      "year": "2026",
+      "volume": "88",
+      "issue": "",
+      "start_page": "563",
+      "end_page": "568",
+      "doi": "10.21482/jbs.88..202609.563",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003391916",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교학연구회",
+      "kci_year": "2026",
+      "kci_volume": "88",
+      "kci_issue": ""
     }
   ]
 }
