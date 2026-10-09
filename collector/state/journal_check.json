@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "journals": {
     "IJBTC": {
       "riss": 421,
@@ -237,7 +237,7 @@
       "comparable": 725,
       "comparable_matched": 725,
       "match_rate": 1.0,
-      "new": 2
+      "new": 0
     },
     "선문화연구": {
       "riss": 399,
@@ -444,6 +444,14 @@
     {
       "kci_name": "미술사학",
       "records": 209,
+      "best": null,
+      "matched": 0,
+      "rate": 0.0,
+      "accepted": false
+    },
+    {
+      "kci_name": "미술사학연구",
+      "records": 4,
       "best": null,
       "matched": 0,
       "rate": 0.0,
