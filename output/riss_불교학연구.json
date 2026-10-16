@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.88,
     "control_no": "74eb06313eaadb56ffe0bdc3ef48d419",
-    "last_updated": "2026-10-09"
+    "last_updated": "2026-10-17"
   },
   "articles": [
     {
@@ -45841,9 +45841,7 @@
       "riss_id": "83335b0c74e99baf4884a65323211ff0"
     },
     {
-      "article_id": "ART003390813",
-      "id": "ART003390813",
-      "kci_id": "ART003390813",
+      "article_id": "3021bd39f5ef27a9b36097776a77e665",
       "title_kr": "거갈마 대상자 처리 규정과 승가의 갈등 조정 방식 －『마하승기율』을 중심으로－",
       "title_en": "Treatment of Monks Subject to the Suspension Procedure and Conflict Management in the Saṃgha: Focusing on the Mahāsāṃghika Vinaya",
       "authors": [
@@ -45862,7 +45860,7 @@
       "start_page": "1",
       "end_page": "27",
       "doi": "10.21482/jbs.88..202609.1",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3021bd39f5ef27a9b36097776a77e665",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390813",
       "keywords_kr": [
         "asaṃbhoga",
@@ -45883,20 +45881,19 @@
         "Kosambakakkhandhaka"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390813",
+      "id": "3021bd39f5ef27a9b36097776a77e665",
+      "kci_id": "ART003390813",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3021bd39f5ef27a9b36097776a77e665"
     },
     {
-      "article_id": "ART003390818",
-      "id": "ART003390818",
-      "kci_id": "ART003390818",
+      "article_id": "3021bd39f5ef27a94884a65323211ff0",
       "title_kr": "한국사회의 불평등 문제와 불교경제학적 대안 －지속가능성의 위기를 중심으로－",
       "title_en": "Inequality in Korean Society and a Buddhist Economic Alternative: The Sustainability Crisis",
       "authors": [
@@ -45920,7 +45917,7 @@
       "start_page": "29",
       "end_page": "55",
       "doi": "10.21482/jbs.88..202609.29",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3021bd39f5ef27a94884a65323211ff0",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390818",
       "keywords_kr": [
         "환경 불평등",
@@ -45941,20 +45938,19 @@
         "Buddhist economics"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390818",
+      "id": "3021bd39f5ef27a94884a65323211ff0",
+      "kci_id": "ART003390818",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3021bd39f5ef27a94884a65323211ff0"
     },
     {
-      "article_id": "ART003390821",
-      "id": "ART003390821",
-      "kci_id": "ART003390821",
+      "article_id": "3021bd39f5ef27a9b7998d826d417196",
       "title_kr": "차이를 지우지 않는 화해 －원효 화쟁 논법과 한국사회 갈등의 재기술－",
       "title_en": "Harmony without Erasing Difference: Wonhyo’s Hwajaeng and a Redescription of Conflict in Contemporary Korea",
       "authors": [
@@ -45973,7 +45969,7 @@
       "start_page": "57",
       "end_page": "83",
       "doi": "10.21482/jbs.88..202609.57",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3021bd39f5ef27a9b7998d826d417196",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390821",
       "keywords_kr": [
         "원효(617-686)",
@@ -45994,20 +45990,19 @@
         "Hwajaeng Pluralism"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390821",
+      "id": "3021bd39f5ef27a9b7998d826d417196",
+      "kci_id": "ART003390821",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3021bd39f5ef27a9b7998d826d417196"
     },
     {
-      "article_id": "ART003390823",
-      "id": "ART003390823",
-      "kci_id": "ART003390823",
+      "article_id": "3021bd39f5ef27a9c85d2949c297615a",
       "title_kr": "한용운의 3·1만세 혁명과 고등학교 시민불복종 교육의 적용 필요 －현행 2022 개정 교육과정 고등학교 ‘통합사회2’, ‘현대사회와 윤리’ 중심으로－",
       "title_en": "Han Yong-un’s Thought in the March First Independence Movement and the Integration of Civil Disobedience into High School Education: The 2022 Revised Curriculum for “Integrated Social Studies” and “Modern Society and Ethics”",
       "authors": [
@@ -46026,7 +46021,7 @@
       "start_page": "85",
       "end_page": "115",
       "doi": "10.21482/jbs.88..202609.85",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3021bd39f5ef27a9c85d2949c297615a",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390823",
       "keywords_kr": [
         "만해 한용운",
@@ -46047,20 +46042,19 @@
         "Modern Society  and Ethics"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390823",
+      "id": "3021bd39f5ef27a9c85d2949c297615a",
+      "kci_id": "ART003390823",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3021bd39f5ef27a9c85d2949c297615a"
     },
     {
-      "article_id": "ART003390825",
-      "id": "ART003390825",
-      "kci_id": "ART003390825",
+      "article_id": "3021bd39f5ef27a947de9c1710b0298d",
       "title_kr": "찬다라가(chandarāga)의 분해와 찬다(chanda)의 수행론적 위상 －결박의 요소에서 자기소멸의 동력으로－",
       "title_en": "The Decomposition of chandarāga (Desire-and-Lust)  and the Soteriological Status of chanda (Desire):  From a Fettering Element to the Driving Force of  Self-Dissolution",
       "authors": [
@@ -46079,7 +46073,7 @@
       "start_page": "117",
       "end_page": "148",
       "doi": "10.21482/jbs.88..202609.117",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3021bd39f5ef27a947de9c1710b0298d",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390825",
       "keywords_kr": [
         "찬다라가(chandarāga)",
@@ -46100,20 +46094,19 @@
         "outward and inward"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390825",
+      "id": "3021bd39f5ef27a947de9c1710b0298d",
+      "kci_id": "ART003390825",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3021bd39f5ef27a947de9c1710b0298d"
     },
     {
-      "article_id": "ART003390826",
-      "id": "ART003390826",
-      "kci_id": "ART003390826",
+      "article_id": "3021bd39f5ef27a97f7a54760bb41745",
       "title_kr": "『무량수경』의 사회성 연구 －근본설일체유부율에 나타난 사성계급과 삼배단(三輩段)을 중심으로－",
       "title_en": "Social Aspects of the Sukhāvatīvyūha-sūtra (Saṇghavarman’s Translation):  Varṇa in the Mūlasarvāstivāda-Vinaya and  the Three Stages of Rebirth",
       "authors": [
@@ -46132,7 +46125,7 @@
       "start_page": "149",
       "end_page": "176",
       "doi": "10.21482/jbs.88..202609.149",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3021bd39f5ef27a97f7a54760bb41745",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390826",
       "keywords_kr": [
         "정토사상",
@@ -46150,20 +46143,19 @@
         "Vinaya"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390826",
+      "id": "3021bd39f5ef27a97f7a54760bb41745",
+      "kci_id": "ART003390826",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3021bd39f5ef27a97f7a54760bb41745"
     },
     {
-      "article_id": "ART003390827",
-      "id": "ART003390827",
-      "kci_id": "ART003390827",
+      "article_id": "3021bd39f5ef27a9e9810257f7042666",
       "title_kr": "『반야심경(般若心經)』의 주행불이(呪行不二)에 관한 연구 －‘摩訶(mahā)’의 공성(空性)과 ‘揭諦(gate)’의 완료상(完了相)을 중심으로－",
       "title_en": "A Study on the Non-duality of Mantra and  Practice (呪行不二) in the Heart Sūtra:  Focusing on the Emptiness of “Mahā” and  the Perfective Aspect of “Gate”",
       "authors": [
@@ -46182,7 +46174,7 @@
       "start_page": "177",
       "end_page": "203",
       "doi": "10.21482/jbs.88..202609.177",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3021bd39f5ef27a9e9810257f7042666",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390827",
       "keywords_kr": [
         "반야심경",
@@ -46203,20 +46195,19 @@
         "Performative Event"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390827",
+      "id": "3021bd39f5ef27a9e9810257f7042666",
+      "kci_id": "ART003390827",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3021bd39f5ef27a9e9810257f7042666"
     },
     {
-      "article_id": "ART003390830",
-      "id": "ART003390830",
-      "kci_id": "ART003390830",
+      "article_id": "3021bd39f5ef27a9d18150b21a227875",
       "title_kr": "인무아 교설의 진위적 위상 －『유식이십론』과 『석궤론』을 중심으로－",
       "title_en": "The Truth-Status of the Teaching of  Pudgalanairātmya:  With a Focus on the Viṃśikā and the Vyākhyāyukti",
       "authors": [
@@ -46235,7 +46226,7 @@
       "start_page": "205",
       "end_page": "233",
       "doi": "10.21482/jbs.88..202609.205",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3021bd39f5ef27a9d18150b21a227875",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390830",
       "keywords_kr": [
         "Pudgalanairātmya",
@@ -46258,20 +46249,19 @@
         "Level-relative Truth"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390830",
+      "id": "3021bd39f5ef27a9d18150b21a227875",
+      "kci_id": "ART003390830",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3021bd39f5ef27a9d18150b21a227875"
     },
     {
-      "article_id": "ART003390832",
-      "id": "ART003390832",
-      "kci_id": "ART003390832",
+      "article_id": "3021bd39f5ef27a96aae8a972f9116fb",
       "title_kr": "긍정적 수반(anvaya)과 부정적 수반(vyatireka)은 중복에 불과한가? －anvaya-vyatireka의 논리적 동치 문제에 대한 다르마끼르띠의 답변－",
       "title_en": "Are Anvaya and Vyatireka Merely Redundant?:  Dharmakīrti’s Response to Their Logical Equivalence",
       "authors": [
@@ -46290,7 +46280,7 @@
       "start_page": "235",
       "end_page": "264",
       "doi": "10.21482/jbs.88..202609.235",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3021bd39f5ef27a96aae8a972f9116fb",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390832",
       "keywords_kr": [
         "Dignāga",
@@ -46309,20 +46299,19 @@
         "niyama"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390832",
+      "id": "3021bd39f5ef27a96aae8a972f9116fb",
+      "kci_id": "ART003390832",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3021bd39f5ef27a96aae8a972f9116fb"
     },
     {
-      "article_id": "ART003390835",
-      "id": "ART003390835",
-      "kci_id": "ART003390835",
+      "article_id": "63b288b5c8efba5e7ecd42904f0c5d65",
       "title_kr": "인도 논서 문헌군에 내재한 지적 네트워크 그리기: <진실의 집대성> 인코딩 프로젝트 중간 보고서",
       "title_en": "TEI for Mapping Intellectual Networks of  a Sanskrit Śāstra: An Interim Report on the  Tattvasaṅgrahapañjikā Encoding Project",
       "authors": [
@@ -46341,7 +46330,7 @@
       "start_page": "265",
       "end_page": "286",
       "doi": "10.21482/jbs.88..202609.265",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=63b288b5c8efba5e7ecd42904f0c5d65",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390835",
       "keywords_kr": [
         "Tattvasaṅgrahapañjikā",
@@ -46358,20 +46347,19 @@
         "TEI"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390835",
+      "id": "63b288b5c8efba5e7ecd42904f0c5d65",
+      "kci_id": "ART003390835",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "63b288b5c8efba5e7ecd42904f0c5d65"
     },
     {
-      "article_id": "ART003390837",
-      "id": "ART003390837",
-      "kci_id": "ART003390837",
+      "article_id": "63b288b5c8efba5eb36097776a77e665",
       "title_kr": "무상(無常)과 실상(實相) －라브랑사(拉卜楞寺) 수유화(酥油花)의 반야(般若) 미학과 신성성(神聖性)의 함의－",
       "title_en": "Impermanence and Ultimate Reality:  Prajñā Aesthetics and the Sacred Significance  of Butter Sculpture at Labrang Monastery",
       "authors": [
@@ -46395,7 +46383,7 @@
       "start_page": "287",
       "end_page": "321",
       "doi": "10.21482/jbs.88..202609.287",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=63b288b5c8efba5eb36097776a77e665",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390837",
       "keywords_kr": [
         "수유화(酥油花)",
@@ -46416,20 +46404,19 @@
         "Religious art"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390837",
+      "id": "63b288b5c8efba5eb36097776a77e665",
+      "kci_id": "ART003390837",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "63b288b5c8efba5eb36097776a77e665"
     },
     {
-      "article_id": "ART003390840",
-      "id": "ART003390840",
-      "kci_id": "ART003390840",
+      "article_id": "63b288b5c8efba5e4884a65323211ff0",
       "title_kr": "선불교에서 궁극적 실재의 1인칭적 정위(定位) －선적(禪的) 본질의 현상학적 재구성－",
       "title_en": "The First-Person Positioning of Ultimate Reality  in Seon Buddhism: A Phenomenological  Reconstruction of the Essence of Seon",
       "authors": [
@@ -46448,7 +46435,7 @@
       "start_page": "323",
       "end_page": "357",
       "doi": "10.21482/jbs.88..202609.323",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=63b288b5c8efba5e4884a65323211ff0",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390840",
       "keywords_kr": [
         "선불교",
@@ -46470,20 +46457,19 @@
         "true self"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390840",
+      "id": "63b288b5c8efba5e4884a65323211ff0",
+      "kci_id": "ART003390840",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "63b288b5c8efba5e4884a65323211ff0"
     },
     {
-      "article_id": "ART003390846",
-      "id": "ART003390846",
-      "kci_id": "ART003390846",
+      "article_id": "63b288b5c8efba5eb7998d826d417196",
       "title_kr": "삼승과 일승 관점에서 본 보리열반인과(菩提涅槃因果) －『금광명경』의 종지(宗旨) 논의를 중심으로－",
       "title_en": "The Theory of the Cause and Result of Bodhi and  Nirvāṇa from the Perspectives of the Three Vehicles  and the One Vehicle: With a Focus on Discussions  on the Central Purport of the Golden Light Sutra",
       "authors": [
@@ -46502,7 +46488,7 @@
       "start_page": "359",
       "end_page": "388",
       "doi": "10.21482/jbs.88..202609.359",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=63b288b5c8efba5eb7998d826d417196",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390846",
       "keywords_kr": [
         "금광명경(金光明經)",
@@ -46525,20 +46511,19 @@
         "835-871)"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390846",
+      "id": "63b288b5c8efba5eb7998d826d417196",
+      "kci_id": "ART003390846",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "63b288b5c8efba5eb7998d826d417196"
     },
     {
-      "article_id": "ART003390847",
-      "id": "ART003390847",
-      "kci_id": "ART003390847",
+      "article_id": "63b288b5c8efba5ec85d2949c297615a",
       "title_kr": "명말 청초 인명학의 전개와 이론적 한계 검토",
       "title_en": "Development and Theoretical Limitations  of Hetuvidyā Studies in the Late Ming and  Early Qing Period",
       "authors": [
@@ -46557,7 +46542,7 @@
       "start_page": "389",
       "end_page": "417",
       "doi": "10.21482/jbs.88..202609.389",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=63b288b5c8efba5ec85d2949c297615a",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390847",
       "keywords_kr": [
         "명말 청초 불교",
@@ -46580,20 +46565,19 @@
         "Zhixu"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390847",
+      "id": "63b288b5c8efba5ec85d2949c297615a",
+      "kci_id": "ART003390847",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "63b288b5c8efba5ec85d2949c297615a"
     },
     {
-      "article_id": "ART003390853",
-      "id": "ART003390853",
-      "kci_id": "ART003390853",
+      "article_id": "63b288b5c8efba5e47de9c1710b0298d",
       "title_kr": "화쟁(和諍)과 살의 언어 －원효와의 비교를 통한 메를로-퐁티 철학 속의 실존적 구원 가능성－",
       "title_en": "Hwajaeng and the Language of Flesh: The Possibility  of Existential Salvation in Merleau-Ponty’s  Philosophy through a Comparison with Wonhyo",
       "authors": [
@@ -46612,7 +46596,7 @@
       "start_page": "419",
       "end_page": "451",
       "doi": "10.21482/jbs.88..202609.419",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=63b288b5c8efba5e47de9c1710b0298d",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390853",
       "keywords_kr": [
         "메를로-퐁티",
@@ -46633,20 +46617,19 @@
         "language"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390853",
+      "id": "63b288b5c8efba5e47de9c1710b0298d",
+      "kci_id": "ART003390853",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "63b288b5c8efba5e47de9c1710b0298d"
     },
     {
-      "article_id": "ART003390855",
-      "id": "ART003390855",
-      "kci_id": "ART003390855",
+      "article_id": "63b288b5c8efba5e7f7a54760bb41745",
       "title_kr": "경흥의 『무량수경연의술문찬』에 나타난 이종청정 및 수행관 고찰 －세친의 『무량수경우파제사원생게』 인용을 중심으로－",
       "title_en": "A Study on the Twofold Purity (Dvidhā-śuddhi) and  Practice in Gyeongheung’s Muryangsu-gyeong  yeonui-sulmun-chan: Focusing on the Citations from  Vasubandhu’s Sukhāvatīvyūhopadeśa",
       "authors": [
@@ -46665,7 +46648,7 @@
       "start_page": "453",
       "end_page": "483",
       "doi": "10.21482/jbs.88..202609.453",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=63b288b5c8efba5e7f7a54760bb41745",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390855",
       "keywords_kr": [
         "무량수경연의술문찬",
@@ -46686,20 +46669,19 @@
         "Two Vehicles"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390855",
+      "id": "63b288b5c8efba5e7f7a54760bb41745",
+      "kci_id": "ART003390855",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "63b288b5c8efba5e7f7a54760bb41745"
     },
     {
-      "article_id": "ART003390858",
-      "id": "ART003390858",
-      "kci_id": "ART003390858",
+      "article_id": "63b288b5c8efba5ee9810257f7042666",
       "title_kr": "9세기 불교 해양 네트워크와 신라 사방불의 재검토 －보로부두르와 동화사 비로암 사리함을 중심으로－",
       "title_en": "Reconsidering the Ninth-Century Buddhist Maritime  Networks and the Four Direction Buddhas of Silla:  Borobudur and the Reliquary Casket from Biroam  at Donghwasa Temple",
       "authors": [
@@ -46718,7 +46700,7 @@
       "start_page": "485",
       "end_page": "515",
       "doi": "10.21482/jbs.88..202609.485",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=63b288b5c8efba5ee9810257f7042666",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390858",
       "keywords_kr": [
         "불교 해양 네트워크",
@@ -46741,20 +46723,19 @@
         "Esoteric Buddhism"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390858",
+      "id": "63b288b5c8efba5ee9810257f7042666",
+      "kci_id": "ART003390858",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "63b288b5c8efba5ee9810257f7042666"
     },
     {
-      "article_id": "ART003390872",
-      "id": "ART003390872",
-      "kci_id": "ART003390872",
+      "article_id": "63b288b5c8efba5ed18150b21a227875",
       "title_kr": "『금강경』의 사상(四相) 해소를 통한 정견(正見) 중심 AI 레드팀 프레임워크 구축에 관한 연구",
       "title_en": "A Study on Constructing a Right View-Centered AI  Red Teaming Framework through the Dissolution of  the ‘Four Notions’ in the Diamond Sutra",
       "authors": [
@@ -46773,7 +46754,7 @@
       "start_page": "517",
       "end_page": "553",
       "doi": "10.21482/jbs.88..202609.517",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=63b288b5c8efba5ed18150b21a227875",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003390872",
       "keywords_kr": [
         "Emptiness (Śūnyatā)",
@@ -46794,20 +46775,19 @@
         "Ethical Alignment"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003390872",
+      "id": "63b288b5c8efba5ed18150b21a227875",
+      "kci_id": "ART003390872",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "63b288b5c8efba5ed18150b21a227875"
     },
     {
-      "article_id": "ART003391908",
-      "id": "ART003391908",
-      "kci_id": "ART003391908",
+      "article_id": "7852393cec3c32176aae8a972f9116fb",
       "title_kr": "다섯 개의 창으로 읽는 『유식이십론』 강형철·유리·구미숙 역주(2025), 『유식이십론 ― 다섯 가지 버전과 상세한 해설로 읽다』",
       "title_en": "Five Windows onto the Viśikā. Viśikā : Translatons of Five Versions and a Comprehensive Exegesis",
       "authors": [
@@ -46826,25 +46806,24 @@
       "start_page": "555",
       "end_page": "561",
       "doi": "10.21482/jbs.88..202609.555",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7852393cec3c32176aae8a972f9116fb",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003391908",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003391908",
+      "id": "7852393cec3c32176aae8a972f9116fb",
+      "kci_id": "ART003391908",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "7852393cec3c32176aae8a972f9116fb"
     },
     {
-      "article_id": "ART003391916",
-      "id": "ART003391916",
-      "kci_id": "ART003391916",
+      "article_id": "7852393cec3c3217d18150b21a227875",
       "title_kr": "「문학은 사라진 비구니의 삶을 어떻게 기록하고 있나 ― 이향순 『비구니와 한국문학』 다시 읽기」",
       "title_en": "How Does Literature Record the Lives of Forgotten Buddhist Nuns?— Rereading Lee Hyang-soon’s ‘Buddhist Nuns and Korean Literature’",
       "authors": [
@@ -46863,20 +46842,21 @@
       "start_page": "563",
       "end_page": "568",
       "doi": "10.21482/jbs.88..202609.563",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7852393cec3c3217d18150b21a227875",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003391916",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교학연구회",
-      "kci_year": "2026",
-      "kci_volume": "88",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003391916",
+      "id": "7852393cec3c3217d18150b21a227875",
+      "kci_id": "ART003391916",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "7852393cec3c3217d18150b21a227875"
     }
   ]
 }

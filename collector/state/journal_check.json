@@ -226,16 +226,16 @@
       "new": 0
     },
     "불교학연구": {
-      "riss": 953,
+      "riss": 973,
       "kci": 745,
       "kci_links": 57,
-      "paired": 725,
-      "kci_only": 20,
+      "paired": 745,
+      "kci_only": 0,
       "scheme": "same",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 725,
-      "comparable_matched": 725,
+      "comparable": 745,
+      "comparable_matched": 745,
       "match_rate": 1.0,
       "new": 0
     },
@@ -283,17 +283,17 @@
     },
     "원불교사상과 종교문화": {
       "riss": 1608,
-      "kci": 818,
+      "kci": 822,
       "kci_links": 0,
       "paired": 818,
-      "kci_only": 0,
+      "kci_only": 4,
       "scheme": "i2v",
       "held": 0,
       "bad_publishers": [],
       "comparable": 818,
       "comparable_matched": 818,
       "match_rate": 1.0,
-      "new": 0
+      "new": 4
     },
     "인도철학": {
       "riss": 763,
