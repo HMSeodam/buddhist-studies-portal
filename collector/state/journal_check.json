@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "journals": {
     "IJBTC": {
       "riss": 421,
@@ -293,7 +293,7 @@
       "comparable": 818,
       "comparable_matched": 818,
       "match_rate": 1.0,
-      "new": 4
+      "new": 0
     },
     "인도철학": {
       "riss": 763,
