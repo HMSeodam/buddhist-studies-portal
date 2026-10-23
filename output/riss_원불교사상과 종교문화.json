@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "원불교사상과 종교문화",
-    "last_updated": "2026-10-17"
+    "last_updated": "2026-10-24"
   },
   "articles": [
     {
@@ -65377,10 +65377,8 @@
       "riss_id": "aaee0b5c84eea11a7ecd42904f0c5d65"
     },
     {
-      "article_id": "ART003394320",
-      "id": "ART003394320",
-      "kci_id": "ART003394320",
-      "title_kr": "원불교 ‘무시선법’의 방법론적 체계연구 : 『정전』 차례의 구조적 해석을 중심으로",
+      "article_id": "9d0678b6fe2cf9a06aae8a972f9116fb",
+      "title_kr": "원불교 ‘무시선법’의 방법론적 체계연구: 『정전』 차례의 구조적 해석을 중심으로",
       "title_en": "A Study on the Methodological System of Musiseon (Timeless Zen) in Won Buddhism : Centered on the Structural Interpretation of the Table of Contents of the Jeongjeon",
       "authors": [
         {
@@ -65398,7 +65396,7 @@
       "start_page": "7",
       "end_page": "30",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9d0678b6fe2cf9a06aae8a972f9116fb",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003394320",
       "keywords_kr": [
         "원불교",
@@ -65415,20 +65413,19 @@
         "Samhak-byeongjin (Parallel Cultivation of the Threefold Training)"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "원불교사상연구원",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "109",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003394320",
+      "id": "9d0678b6fe2cf9a06aae8a972f9116fb",
+      "kci_id": "ART003394320",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "9d0678b6fe2cf9a06aae8a972f9116fb"
     },
     {
-      "article_id": "ART003394324",
-      "id": "ART003394324",
-      "kci_id": "ART003394324",
+      "article_id": "9b8ba77ef9f76663b7998d826d417196",
       "title_kr": "정산 송규의 『건국론』과 변혁적 중도주의",
       "title_en": "Chŏngsan Song Gyu’s On Founding a State and a Transformative Middle Way",
       "authors": [
@@ -65447,7 +65444,7 @@
       "start_page": "31",
       "end_page": "56",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9b8ba77ef9f76663b7998d826d417196",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003394324",
       "keywords_kr": [
         "건국론",
@@ -65464,21 +65461,20 @@
         "Mind Revolution"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "원불교사상연구원",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "109",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003394324",
+      "id": "9b8ba77ef9f76663b7998d826d417196",
+      "kci_id": "ART003394324",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "9b8ba77ef9f76663b7998d826d417196"
     },
     {
-      "article_id": "ART003394328",
-      "id": "ART003394328",
-      "kci_id": "ART003394328",
-      "title_kr": "화쟁위원회의 표방 가치와 현실의 괴리에 관한 고찰 : 형해화 원인과 활성화 방안을 중심으로",
+      "article_id": "9b8ba77ef9f76663c85d2949c297615a",
+      "title_kr": "화쟁위원회의 표방 가치와 현실의 괴리에 관한 고찰: 형해화 원인과 활성화 방안을 중심으로",
       "title_en": "A Study on the Discrepancy Between the Espoused Values and the De Facto Dysfunction of the Hwajaeng Committee : Focusing on the Causes and Measures for Revitalization",
       "authors": [
         {
@@ -65496,7 +65492,7 @@
       "start_page": "57",
       "end_page": "84",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9b8ba77ef9f76663c85d2949c297615a",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003394328",
       "keywords_kr": [
         "화쟁위원회",
@@ -65513,21 +65509,20 @@
         "conflict medi ation body"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "원불교사상연구원",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "109",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003394328",
+      "id": "9b8ba77ef9f76663c85d2949c297615a",
+      "kci_id": "ART003394328",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "9b8ba77ef9f76663c85d2949c297615a"
     },
     {
-      "article_id": "ART003394338",
-      "id": "ART003394338",
-      "kci_id": "ART003394338",
-      "title_kr": "K-불교 문화콘텐츠화의 전개 동향과 정책적 과제 : 핵심 장르(공연·영화)와 MICE 산업 유통 공간의 다차원적 분석을 중심으로",
+      "article_id": "18519472f41680587ecd42904f0c5d65",
+      "title_kr": "K-불교 문화콘텐츠화의 전개 동향과 정책적 과제: 핵심 장르(공연·영화)와 MICE 산업 유통 공간의 다차원적 분석을 중심으로",
       "title_en": "Trends and Policy Implications in Transforming K-Buddhist Cultural Contents : Centering on a Multidimensional Analysis of Core Genres (Performances and Films)  and MICE Distribution Spaces",
       "authors": [
         {
@@ -65545,7 +65540,7 @@
       "start_page": "85",
       "end_page": "118",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=18519472f41680587ecd42904f0c5d65",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003394338",
       "keywords_kr": [
         "불교문화콘텐츠",
@@ -65562,15 +65557,16 @@
         "Cultural Policy."
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "원불교사상연구원",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "109",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003394338",
+      "id": "18519472f41680587ecd42904f0c5d65",
+      "kci_id": "ART003394338",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "18519472f41680587ecd42904f0c5d65"
     }
   ]
 }

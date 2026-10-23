@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "journals": {
     "IJBTC": {
       "riss": 421,
@@ -282,16 +282,16 @@
       "new": 0
     },
     "원불교사상과 종교문화": {
-      "riss": 1608,
+      "riss": 1612,
       "kci": 822,
       "kci_links": 0,
-      "paired": 818,
-      "kci_only": 4,
+      "paired": 822,
+      "kci_only": 0,
       "scheme": "i2v",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 818,
-      "comparable_matched": 818,
+      "comparable": 822,
+      "comparable_matched": 822,
       "match_rate": 1.0,
       "new": 0
     },
