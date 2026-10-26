@@ -1190,6 +1190,7 @@ function toIndexItem(art, jname, category, country){
     kci_url:      art.kci_url||"",
     kci_id:       art.kci_id||(((art.kci_url||"").match(/ART\d{6,}/)||[])[0])||"",
     riss_id:      art.riss_id||"",
+    alt_ids:      art.alt_ids||[],     // RISS 이중 등록을 합친 경우 빠진 쪽 번호 (예전 링크용)
     jstage_url:   art.jstage_url||"",
     ndl_url:      art.ndl_url||"",
     doi:          art.doi||"",
@@ -1785,7 +1786,7 @@ function kciArticleUrl(kid){
 }
 function openMod(id, noURL){
   // 예전에 공유된 링크가 RISS·KCI 어느 번호여도 찾아 줌
-  const a=S.idx.find(x=>x.id===id)||S.idx.find(x=>x.kci_id===id||x.riss_id===id); if(!a) return;
+  const a=S.idx.find(x=>x.id===id)||S.idx.find(x=>x.kci_id===id||x.riss_id===id||(x.alt_ids||[]).includes(id)); if(!a) return;
   CUR=a;
   const isIBK=(a.journal_name==="印度學佛教學研究");
   const rx=S.fuzzy?null:S.hlRx;
