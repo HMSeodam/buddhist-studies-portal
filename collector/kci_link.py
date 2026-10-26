@@ -235,6 +235,12 @@ def main():
     def cut(y):
         return cutoff_recent if y and y >= recent_from else cutoff
 
+    # 검색 방식을 바꾼 뒤에는 최근 논문의 '못 찾음' 기록을 한 번 비워 곧바로 다시 찾게 한다
+    SEARCH_VER = 2
+    if state.get("search_ver", 1) < SEARCH_VER:
+        state["search_ver"] = SEARCH_VER
+        state["recent_reset"] = True
+
     # 1) 짝이 없는 RISS 논문 모으기
     swept0 = state.setdefault("swept", {})
     qname = state.setdefault("qname", {})
@@ -285,9 +291,12 @@ def main():
             rid = r.get("article_id", "")
             if ours in reset_j:
                 miss.pop(rid, None)
+            if state.get("recent_reset") and year_of(r) >= recent_from:
+                miss.pop(rid, None)
             if miss.get(rid, "") > cut(year_of(r)):
                 continue
             todo.append((ours, r))
+    state.pop("recent_reset", None)
     todo.sort(key=lambda x: -year_of(x[1]))            # 최신 논문부터
     if args.limit:
         todo = todo[: args.limit]
@@ -318,6 +327,7 @@ def main():
         return a
 
     tried_ids = set()
+    diag = [0]
     swept = state.setdefault("swept", {})
     by_j = {}
     for ours, r in todo:
@@ -393,8 +403,20 @@ def main():
                 if hit:
                     break
             if not hit and qs:                       # 학술지명 표기가 다를 수 있어 학술지 조건 없이 한 번 더
-                recs, _ = api.search(qs[0], "", y)
-                hit = pick(r, [c for c in recs if c.get("kci_id") not in used_k], ours)
+                recent = bool(y and y >= recent_from)
+                # 최근 논문은 검색어를 모두 써 본다 (KCI 쪽 띄어쓰기가 달라 긴 검색어가 안 걸리는 경우 — 2026-10 무형문화연구 19호)
+                fq = query_titles(r["title_kr"], limit=4) if recent else qs[:1]
+                for q in fq:
+                    recs, total = api.search(q, "", y)
+                    cands = [c for c in recs if c.get("kci_id") not in used_k]
+                    hit = pick(r, cands, ours)
+                    if hit:
+                        break
+                    if recent and diag[0] < 20:      # 왜 못 찾는지 로그에 남김 (검색 결과 상위 3건)
+                        diag[0] += 1
+                        tops = "; ".join(f"[{c.get('journal','')[:12]}|{c.get('year','')}|{c.get('volume','')}/{c.get('issue','')}] "
+                                         f"{(c.get('title_orig') or '')[:30]}" for c in recs[:3]) or "결과 없음"
+                        print(f"  · 못 찾음 진단 [{ours}] {r['title_kr'][:30]} ← '{q}' {total}건: {tops}")
             tried += 1; tried_ids.add(id(r))
             if hit:
                 accept(ours, r, hit, "제목 검색")
