@@ -23093,40 +23093,6 @@
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=aaa85bfe4c145ffd6aae8a972f9116fb",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001412195",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "kci_id": "ART001412195",
-      "sources": [
-        "RISS",
-        "KCI"
-      ],
-      "riss_id": "aaa85bfe4c145ffd6aae8a972f9116fb",
-      "id": "aaa85bfe4c145ffd6aae8a972f9116fb"
-    },
-    {
-      "article_id": "7a73c4e44d2f8783b36097776a77e665",
-      "title_kr": "일본에서의 전쟁과 종교",
-      "title_en": "War and Religion in Japan",
-      "authors": [
-        {
-          "name": "原田敬一",
-          "affiliation": "일본 불교대학",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "1. WarㆍBuddhismㆍmourning in pre-modern societyThis article is to clarify that there is a descended thought up to today, like 'designation of national monument' with examples such as 'Goryo(spirit) belief' of the Heian age and 'Memorial service of enemy and our forces' of later age. Though its basis located on a Buddhist thought called 'equality of enemy and friend(怨親平等)', its spread began from the question of Japanese origin of Red Cross spirit. The Philantrophy of Japan(published at 1932) of Tsuji Jennosuke is very important, but also Chuai(忠愛, published at 1910) of Japan Red Cross Kyoto Chapter should not be neglected. It is considered that ten cases among Tsuji took up were almost exactly following after Chuai, including its estimates. According to those cases, generals were establishing abreast of 'Goryo belief' and thought of 'equality of enemy and friend'.2. War of modern nation − Serving at War of Man of Religion −Military, ruled under the Constitution of Japanese Empire, could not ordinarily bring specific religion in. However, participation by unit in Shinto affairs had been increased, such as group worship at 'inside barrack's Shinto shrines' established in military station or military academy, at Shokonsya, Hokoku-jinjya or Yasukuni-jinjya. At the war time, since the Sino-Japanese war, 'war campaign Buddhist monk', 'war campaign Shinto priest' and so on are admitted as a form of volunteer, and were actively performed at memorial services of brigade or division.3. Mourning in modern nation − Role of Religion −Memorial services of different levels of administrations which are organized by nation and military, prefecture and small municipality, have been investigated their realities, then it would proved the fact that the memorial service at Yasukuni-jinjya organized by nation was unique event.",
-      "abstract_en": "1. 전근대 사회의 전쟁・불교・추도헤이안시대의 「고료우(御霊) 신앙」의 양상과, 앞으로 나타날 「적-아군 공양」의 실례를 들어 「국가사적」의 지정 등, 현재에도 이어지는 사상이 되고 있다는 것을 명확히 한다. 그 근거는 「원친평등(怨親平等)」이라고 하는 불교 사상이지만, 그것의 확산은 적십자정신의 일본사적 기원을 묻는 것부터 시작하고 있다. 쓰지 젠노스케(辻善之助)의 『日本の博愛』(일본의 박애, 1932년 간행)도 중요하지만, 그것에 앞선 일본 적십자사 쿄토 지부편의 『忠愛』(1910년 간행)도 놓칠 수 없다. 츠지가 거론한 사례 가운데 10 가지는, 평가도 그대로 『충애』로부터 채록 되고 있다, 라고 생각되기 때문이다. 그 사례에 의하면 무장들은, 「고료 신앙」과 「원친평등」사상을 병립시키고 있었다.2. 근대국가의 전쟁 −종교인의 종군−군대도, 대일본제국 헌법 아래에 있어, 특정의 종교를 일상적으로 들여올 수 없었다. 그러나 주둔지나 군사학교 등에 설치된 「영내 신사」, 초혼사나 호국 신사ㆍ야스쿠니 신사에의 집단 참배 등, 신도(神道) 행사에 부대 단위로 참가하는 일이 차츰 많아졌다. 전시하에는 청일전쟁 이래 「종군승려」, 「종군 신관」등이 지원의 형태로 인정되어, 사단이나 여단에서의 위령제에서 활약했다.3. 근대국가의 추도 −종교의 역할−국가와 군대, 부현이나 시ㆍ쵸(町)ㆍ촌 등의 행정레벨이 다른 추도의식의 실상을 검토하여, 국가가 집행하는 야스쿠니신사의 위령제가 특이한 것이었다는 사실을 논증한다.",
-      "journal_name": "원불교사상과 종교문화",
-      "year": "2009",
-      "volume": "43",
-      "issue": "",
-      "start_page": "103",
-      "end_page": "137",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7a73c4e44d2f8783b36097776a77e665",
-      "kci_url": "",
       "keywords_kr": [
         "고료우(御霊)신앙",
         "원친평등(怨親平等)",
@@ -23145,11 +23111,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "sources": [
-        "RISS"
+      "kci_id": "ART001412195",
+      "alt_ids": [
+        "7a73c4e44d2f8783b36097776a77e665"
       ],
-      "riss_id": "7a73c4e44d2f8783b36097776a77e665",
-      "id": "7a73c4e44d2f8783b36097776a77e665"
+      "sources": [
+        "RISS",
+        "KCI"
+      ],
+      "riss_id": "aaa85bfe4c145ffd6aae8a972f9116fb",
+      "id": "aaa85bfe4c145ffd6aae8a972f9116fb"
     },
     {
       "article_id": "394aabd9918804597ecd42904f0c5d65",
@@ -23349,62 +23320,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001425654",
+      "alt_ids": [
+        "a4187b01e14df64ab36097776a77e665"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "394aabd991880459b7998d826d417196",
       "id": "394aabd991880459b7998d826d417196"
-    },
-    {
-      "article_id": "a4187b01e14df64ab36097776a77e665",
-      "title_kr": "원불교 ‘마음공부’ 본질에 관한 서설(敍說)(Ⅰ)",
-      "title_en": "An Explanation on a Nature of ‘Mind-Practice’in Won-Buddhism(Ⅰ)",
-      "authors": [
-        {
-          "name": "김순금",
-          "affiliation": "원광대학교",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "이즈음 인문학의 화두는 당연히 '상상력'이다.종교에서 상상력이란 각종교가 추구하는 궁극적 가치를 지향하기 위한 <특별한 장치>를 만들어주기 위한 작업을 말한다. 원불교에서는 그것이 은(恩)의 가치 실현에 있으며 그 방법이 '마음공부'에 있다고 보고 있다. 그런데 현재 실시되고 있는 마음공부의 방법은 은의 실현 이라는 본래의 목적에 도달하기에는 요원한 것으로 비춰지고 있다. 본 논문은 그 이유를 철학적, 경험적 그리고 평가적 논거의 3가지 논거 불충분 때문이라고 보고 있으며, 그 첫 작업으로 철학적 논거를 제시하고자 한다. 작업수행을 위해서 마음공부의 원리와 과정 및 명확한 등급을 제시하고 있는 위빠사나와 요가수행의 철학 및 이론을 비교검토해서 원불교의 차별성과 문제점을 제시하고 있다. 교리적 논거로서 마음의 개념 및 작용의 범주 그리고 마음의 장애라는 카테고리를 통해 교리와의 연계성을 설명하고 있다. 이러한 과정을 통해 본 논문은 은실현이라는 원불교 궁극의 목적을 지향하기 위해서는 우선적으로 마음의 개념을 인식론적으로 볼 것인가 존재론적으로 볼것 인가의 철학적 근거를 묻고 있다.",
-      "abstract_en": "Nowadays the topic of humanities is ‘imagination.’The imagination in religion is to make a <Special Tool>, which supports to experience the ultimate reality whatever it is. It is considered that the way of realization of human potentialities is on a Grace according to Won-Buddhism. However a current method by which to enlighten the multitude of Won Buddhist seems to be not so reasonable as many scholars pointed out so far. Because the way of Mind-Practice do not fulfill the goal as we want. This paper is to suggest the reason why and how.So, this study indicate the reason why one can not be a proper <Special Tool> to reach the goal. I analyze the reason why is that so and ame to take up three aspects that philosophical foundation, experiential steps and evaluation method. This paper is to explain the first one of hilosophical aspect out of three points. The attempt is to reach that what is the philosophical basement to agree the concept of mind according to Won-Buddhism. How one should understand the concept of mind either in epistemological way as Yoga philosophy agree or ontological way as Vipassana urge? I expect that the answer should have come in various ways of discussion in future.",
-      "journal_name": "원불교사상과 종교문화",
-      "year": "2010",
-      "volume": "44",
-      "issue": "",
-      "start_page": "2",
-      "end_page": "38",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a4187b01e14df64ab36097776a77e665",
-      "kci_url": "",
-      "keywords_kr": [
-        "상상력",
-        "마음공부",
-        "위빠사나",
-        "요가",
-        "특별한 장치",
-        "은의 실현",
-        "존재론",
-        "인식론"
-      ],
-      "keywords_en": [
-        "imagination",
-        "Vipassana",
-        "Yoga",
-        "Mind-Practice",
-        "Special Tool",
-        "ontology",
-        "epistemology",
-        "realization of Grace"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "a4187b01e14df64ab36097776a77e665",
-      "id": "a4187b01e14df64ab36097776a77e665"
     },
     {
       "article_id": "394aabd991880459c85d2949c297615a",
@@ -23727,58 +23651,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001425670",
+      "alt_ids": [
+        "c6a3d45486d9eab47ecd42904f0c5d65"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "394aabd9918804596aae8a972f9116fb",
       "id": "394aabd9918804596aae8a972f9116fb"
-    },
-    {
-      "article_id": "c6a3d45486d9eab47ecd42904f0c5d65",
-      "title_kr": "원불교와 오모토(大本)의 변혁사상에 관한 비교연구",
-      "title_en": "A Comparative Study on the Reform Thoughts of Won-Buddhism and Oomoto-kyo",
-      "authors": [
-        {
-          "name": "大西秀尙",
-          "affiliation": "원광대학교",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "Won-Buddhism is established in 1916 the latest among modern Korean folk religion, and Oomoto-kyo is a representative Japanese folk religion established in 1895, the middle of Meiji era. Both the religions possess the reform thoughts, the Great Opening of later heaven thought and the Tatekae thought respectively, as their own core, even though they have difference in time and space. This article is to comparatively nvestigate on the reform thoughts of both religions from wide angle of view in modern East Asia beyond the gap of time and space, and to find out the meaning and significance in culture and history.Two reform thoughts in both religions have several differences. The most distinctive among those are firstly, the recognitions on modern estern civilization, and secondly, the backgrounds in religions and history of thoughts of each reform thoughts. These two points are mutually related. Regarding modern Western civilization, Won-Buddhism approved from the critical and subjective stand point which succeeded positive tradition of the Great Opening of later heaven; on the other hand Oomoto-kyo, in which does not have such tradition, took it as an object of absolute criticism and rejection based on the most original form of Shinto theory. According to such difference of responding modes, Oomoto-kyo has sometime shown an aspect of illiberal exclusionism by circumstances; however, Won-Buddhism has expressed strong nationalism as well as coincidence with the universal pacifism.Although they have principal differences, both reform thoughts have common points, such as the criticism on reality, the volition of active reformation, the suggestion of ideal world, the pantheistic character, and so on. It can be considered as an ideology of folk to search rather fundamental liberation in modern East Asia by defying Western modern. Possessing such limit for several restrictions, religious creativity of Deguchi Nao, the founder of Oomoto-kyo, could make achievement of significances like Won-Buddhism.",
-      "abstract_en": "한국에서 1916년 창립된 원불교는 한국근대 민중종교 가운데 대표적인 교단의 하나이며, 일본에서 1895년 창립된 오모토(大本)는 일본근대 민중종교 가운데 대표적인 교단의 하나이다. 이들 두 교단은 시․공간적인 차이가 있음에도 불구하고, 각각 후천개벽사상과 다테카에(立替)사상이라는 변혁사상을 그 중핵으로 가지고 있었다. 본고는 이들 두 교단의 변혁사상을 시공간의 차이를 넘어 근대의 동아시아라는 넓은 시각에서 비교 검토하고 그 문화적․역사적 의의를 살펴본 것이다.두 교단의 변혁사상에는 여러 가지 차이점을 찾아볼 수 있다. 그 중 가장 두드러진 것이 서양근대문명에 대한 인식과 각 변혁사상의 종교적․사상사적 배경이다. 양자는 이들 사상과 인식이 서로 연관되어 있는데, 서양근대문명에 대하여 원불교는 후천개벽사상의 열린 전통을 계승하여 비판적․주체적 입장에서 인정하고, 오모토는 그러한 전통이 없는 가운데 원형적인 신도설(神道說)에 의거하여 현실비판과 함께 절대적인 비판과 거부의 대상으로 삼았다. 오모토의 그러한 대응방식이 상황에 따라 편협한 배외주의적인 경향을 띨 때가 있었는데 반해, 원불교는 강한 민족주의를 표출하면서도 보편적인 평화주의와 상통하는 것이 특징이다.중요한 차이점이 있으면서 각 변혁사상에는 현실비판과 적극적인 변혁의 의지, 이상세계의 제시, 범신교적인 성격 등의 공통점이 있다. 그것은 근대 동아시아에서 서구적 근대에 항거하여 보다 근본적인 해방을 찾으려는 민중의 사상으로 보인다. 이들 두 교단은 창립초기에 제국주의가 대두한 시대적인 제약 때문에 활동에 일정한 한계를 가지고 있다. 원불교의 소태산과 마찬가지로 오모토의 데구치나오도 그러한 제약을 넘어서서 변혁사상을 전개하고 있는 데에 종교적 창조성이 나타난다.",
-      "journal_name": "원불교사상과 종교문화",
-      "year": "2010",
-      "volume": "44",
-      "issue": "",
-      "start_page": "217",
-      "end_page": "252",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c6a3d45486d9eab47ecd42904f0c5d65",
-      "kci_url": "",
-      "keywords_kr": [
-        "소태산박중빈",
-        "원불교",
-        "데구치나오(出口なお)",
-        "오모토(大本)",
-        "후천개벽사상",
-        "다데카에(立替)사상",
-        "서양근대문명"
-      ],
-      "keywords_en": [
-        "Sotaesan",
-        "Deguchi Nao",
-        "the Great Opening of later heaven thought",
-        "the Tatekae thought",
-        "Western modern civilization"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "c6a3d45486d9eab47ecd42904f0c5d65",
-      "id": "c6a3d45486d9eab47ecd42904f0c5d65"
     },
     {
       "article_id": "f0847158ef8e336a7ecd42904f0c5d65",
@@ -26285,65 +26166,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001569211",
+      "alt_ids": [
+        "6ad95cb514a4fc2bc85d2949c297615a"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "0198277925ae370bd18150b21a227875",
       "id": "0198277925ae370bd18150b21a227875"
-    },
-    {
-      "article_id": "6ad95cb514a4fc2bc85d2949c297615a",
-      "title_kr": "Kant’s ethical theories and the dualistic concept of nature",
-      "title_en": "",
-      "authors": [
-        {
-          "name": "이영숙",
-          "affiliation": "Eastern Illinois University",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "As a thinking being, man has a spontaneous andpersistent desire to know the world he belongs to, i.e., Nature. What is Nature, then?How do people conceive of Nature? When we focus and reflect on how man relates himself to Nature, we see that there arise two different positions. One is to set managainst Nature or to draw a line of demarcation between man and Nature; the other is to count man as part of Nature or not to draw such a line. I shall call the former‘ the dualistic concept of Nature’and the people who hold such a view ‘dualists.’I shall call the latter‘ the monistic concept of Nature’and the people who hold such a view‘ monists.’Of these two concepts of Nature, which position does Kant take?Certainly, Kant takes a dualistic one. Kant asserts a value distinction between man and Nature and regard man as far superior to Nature because he believes in man’s distinctiveness, especially, in terms of reason. In other words, Kant emphasizes that man alone, in contrast to all other natural beings, possesses reason and that man’s existencealone can have an absolute worth in the entire chain of ends and means relationship.Now, does one’s concept of Nature influence his/her practical experience of life? I think it does. One example of it may be ethical experience. Indeed, I believe that one’s ethical theories as well as his/her ethical experience are influenced by his/her concept of Nature.I shall discuss in the first section the ethical theories Kant hold and ask how they are related to his dualistic concept of Nature. On the whole,Ishall focus on the following three issues. Firstly, I shall consider which ethical precept Kant adopts as between ‘follow your nature’and‘ overcome your nature,’and ask how this choice is related to his dualistic concept of Nature. Secondly, I shallexamine the view Kant takes concerning the relationship between virtue and happiness, and consider its connection with his dualistic concept of Nature. Thirdly, I shall consider his position concerning the claim to universal validity of ethical judgment and show how it is related to his dualistic concept of Nature. In the next section, I will consider the problems his ethical theories entail.",
-      "abstract_en": "",
-      "journal_name": "원불교사상과 종교문화",
-      "year": "2011",
-      "volume": "48",
-      "issue": "",
-      "start_page": "315",
-      "end_page": "346",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6ad95cb514a4fc2bc85d2949c297615a",
-      "kci_url": "",
-      "keywords_kr": [
-        "인간과 자연",
-        "자연관",
-        "“ 일원론적 자연관”과“일원론자”",
-        "“ 이원론적자연관”과“이원론자”",
-        "이성과 인간의 절대적 가치",
-        "“ 네 본성(즉",
-        "자연)을 따라 살아가라”는 도덕론",
-        "“네 본성(혹은",
-        "자연)을 극복하라”는 도덕론",
-        "덕과 행복의 관례",
-        "도덕적 판단의 보편적 정당성 여부"
-      ],
-      "keywords_en": [
-        "Man(Human) and Nature",
-        "Concept of Nature",
-        "“Monistic concept of Nature”and “Monist”",
-        "“Dualistic concept of Nature”and “Dualist”",
-        "Reaon and the absolute worth of Man",
-        "“ Follow your Nature”vs.“ Overcome your Nature”",
-        "The relationship between virtue and happiness",
-        "The Justification of the universal validity in moral judgment"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "6ad95cb514a4fc2bc85d2949c297615a",
-      "id": "6ad95cb514a4fc2bc85d2949c297615a"
     },
     {
       "article_id": "0198277925ae370b6aae8a972f9116fb",
@@ -26388,60 +26219,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001569226",
+      "alt_ids": [
+        "2895b5f5ad52ddfab36097776a77e665"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "0198277925ae370b6aae8a972f9116fb",
       "id": "0198277925ae370b6aae8a972f9116fb"
-    },
-    {
-      "article_id": "2895b5f5ad52ddfab36097776a77e665",
-      "title_kr": "Das Individuum in dem Denken Wilhelm von Humboldts",
-      "title_en": "",
-      "authors": [
-        {
-          "name": "이사벨라 페론",
-          "affiliation": "University Ca' Foscari Venice",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "The present paper wants to focus its attention on a concept, which is very important and relevant to understand the thought of Wilhelm von Humboldt, i.e. the concept of the individual man. This concept is very important not only in his political reflections on the rule of the State, but also in all his works, in the ones which deal with the definition and the analysis of Language and in the anthropological ones. In the analysis of this concept it emerges that every individual man is for Humboldt not only the empirical manifestation of the Mankind, but also that there are a variety of invidual manifestations which are to be respected and promoted. In a political discourse:referring to his political situation and the events caused by the French Revolution, Humboldt developped the idea of a State based on the individual in his different empirical manifestations. Diversity is not a negative aspect of the individual man or of the society, on the contrary a positive characteristic which can help to build a cultivated society.For this goal the education (Bildung) of the citizens is one of the most important elements connected with the Idea of a State, whose function is only to guarantee the individual and public security of its citizens.",
-      "abstract_en": "",
-      "journal_name": "원불교사상과 종교문화",
-      "year": "2011",
-      "volume": "48",
-      "issue": "",
-      "start_page": "347",
-      "end_page": "376",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2895b5f5ad52ddfab36097776a77e665",
-      "kci_url": "",
-      "keywords_kr": [
-        "개인적 인간",
-        "다양성",
-        "언어",
-        "역사",
-        "국가관",
-        "평등",
-        "교육"
-      ],
-      "keywords_en": [
-        "individual man",
-        "diversity",
-        "Language",
-        "History",
-        "State",
-        "equality",
-        "education"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "2895b5f5ad52ddfab36097776a77e665",
-      "id": "2895b5f5ad52ddfab36097776a77e665"
     },
     {
       "article_id": "707dc46c92f2644547de9c1710b0298d",
@@ -26861,58 +26647,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001592370",
+      "alt_ids": [
+        "853fe9b9f95e9635c85d2949c297615a"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "707dc46c92f26445c85d2949c297615a",
       "id": "707dc46c92f26445c85d2949c297615a"
-    },
-    {
-      "article_id": "853fe9b9f95e9635c85d2949c297615a",
-      "title_kr": "Buddhist Rituals and It’s Thoughts in the Goryeo Dynasty",
-      "title_en": "",
-      "authors": [
-        {
-          "name": "양은용",
-          "affiliation": "원광대학교",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "The era of the Goryeo dynasty (918-1392 AD) was a very important period for the establishment of ethnic identity in Korean history. It imitated the administration system of Shilla’s, However, the spirit and ideology of it’s foundation had succeeded to those of Goguryeo(including Balhae), which is clear from the name of nation.Considering the official name of nation, Korea, it seems that it was internationally acknowledged during the period.Goryeo took Buddhism as the governing ideology and provided active patronization policy by King Taejo. The policy was consistent until the end of the dynasty. In the flow of the history of Korean Buddhism, the practice(Seon, 禪) and the theories of tenets(Gyo, 敎)were developing together, and especially Buddhist rituals flourished.That phenomenon might be connected with the development of rituals of Taoism at the time, which were called Gwaui(科儀, ritualistic)Taoism. Rituals were hosted by the royal court and mostly performed as patriotic rituals.Among the representative rituals, Yeondeunghoi(燃燈會) and Palgwanhoi(八關會) were settled and performed as the sundry rituals of the celebration service among the five ceremonies in Goryeo royal court. In the“ Hunyo”(訓要), Yeondeunghoi is clarified as a Buddhist ritual, and Palgwanhoi as secular folklore. Palgwanhoi consisted of 1) the ceremony of king’s appearing and accepting congratulations,2) the ceremony of being presented with tributes by foreign envoys,3) the ceremony of serving foods, such as tea, cookies, alcohols, and cuisines, 4) the ceremony attending to temple and the shrine of King Taejo, and burning incense, and 5) the ceremony of Baekhigamu(百戱歌舞, various entertainments, dances and songs).Palgwan ritual derived from Bulseol Palgwanjaegyeong(佛說八齋戒經) that a Danwol(檀越, Skt. danapati, Eng. donor) of Buddhist laity keeps eight kinds of discipline, the Paljaegye(Skt. as ·t·a -n·gas、l-la, Pa-li at ·t·han·gasl-la) during one day and one night. It was transmitted to Goryeo from India and China, through Goguryeo, Shilla and Taebong.In Shilla, it was performed as the patriotic ritual as well as comforting service of deceased soldiers, and then gradually increased political character. In Taebong and Goryeo, Palgwanhoi became the symbolic event of the proclamation of enthronement of a king who was the host. The formal process of king’s attendance to temple and burning incense in Palgwanhoi shows the royal status of Buddhism at the time.In Goryeo dynasty, Buddhist events were performed in the various forms of Beobhoi(sermon and service), Doryang(service ritual),Jaehoi(memorial service), Beobseok(sermon of venerable monk) and the others; Together with those events, serving foods to monks were held abreast. During 475 years with 34 kings of the Goryeo dynasty,83 kinds of Buddhist rituals were performed 1038 times. It can be calculated as 30 times per a king and twice a year, in average.Then, what is the essence of patriotic thought to perform those Buddhist rituals? The Book of Music in the History of Goryeo, contains songs or poems which might had been sung at the Palgwan ritual or other. Those are “Song of Tilting Glass”(傾杯歌), “Wind Enters Pine Tree”(風入松) and so on. These songs contains a poem that ““heavenly son of Haedong is the emperor of Buddha in the contemporary world.”In accordance with this thought of identity of king and Buddha, it developed the thought of protecting homeland Buddhism.",
-      "abstract_en": "",
-      "journal_name": "원불교사상과 종교문화",
-      "year": "2011",
-      "volume": "49",
-      "issue": "",
-      "start_page": "227",
-      "end_page": "244",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=853fe9b9f95e9635c85d2949c297615a",
-      "kci_url": "",
-      "keywords_kr": [
-        "고려불교",
-        "불교의례",
-        "과의도교",
-        "팔재계경",
-        "팔관회",
-        "왕즉불사상"
-      ],
-      "keywords_en": [
-        "Buddhism in Goryeo",
-        "Buddhist rituals",
-        "Gwaui(ritualistic)Taoism",
-        "Bulseol Palgwanjaegyeong(佛說八齋戒經)",
-        "Palgwanhoi",
-        "the thought of identity of king and Buddha."
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "853fe9b9f95e9635c85d2949c297615a",
-      "id": "853fe9b9f95e9635c85d2949c297615a"
     },
     {
       "article_id": "669d1d170791dc61d18150b21a227875",
@@ -37182,60 +36925,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART002074172",
+      "alt_ids": [
+        "89b64fe94d179786b7998d826d417196"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "2c4ff92d5919aa697ecd42904f0c5d65",
       "id": "2c4ff92d5919aa697ecd42904f0c5d65"
-    },
-    {
-      "article_id": "89b64fe94d179786b7998d826d417196",
-      "title_kr": "소태산과 빔라오 람지 암베드카르 비교 연구",
-      "title_en": "Sotaesan and Bhim Rao Ambedkar: A Comparative Perspective",
-      "authors": [
-        {
-          "name": "산토쉬굽타",
-          "affiliation": "한국학중앙연구원",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "본 연구는 근대 사회에서 종교적 의미를 재생하고 부흥하기 위해서 전통불교를 재해석한 원불교와 신불교 창시자에 대한 비교 연구이다. 불교에 대한 그들의 관점은 불교의 기본 가르침이 반드시 요구되므로 비평이 아니라 전통의재해석을 추구하였다. 소태산과 암베드카르는 불교를 스승으로 여기고 현재의삶에서 얻을 수 있는 부처의 개념에 집중하였다. 그리하여 그들은 근대적인 관점에서 전통을 재해석하고 현세(現世)의 모든 인간해방을 제안하였다.식민지 시기 한국과 인도에서는 사회적⋅정치적⋅종교적으로 변화가 많았는데, 이 시기에 억압받았던 수백만의 민중들은 독립 후 종교적인 플랫폼으로서 불교를 선택하고, 다양한 사회적 활동에 활발하게 참여했다. 그리하여 원불교와 신불교는 사회적 자본을 조성했고, 종교적인 방법과 수단을 통해 사회적네트워크를 형성했다. 이것은 다른 어떤 수단을 통해 조성하는 사회 자본보다더욱 지속성이 강한 것으로 나타났다.사회적 참여를 통해 두 지도자는 공공의 역할을 강조하고, 농촌 지역에서 새로운 종교 의식을 생성했다. 그들의 조직들은 종교 의식의 규범까지 거부하면서 새로운 사회적 네트워크를 형성하여 민중들의 도덕적⋅경제적 발전에 초점을 맞췄다. 초기의 참여는 농민과 억압받는 사람들의 자발적인 협회였으며, 그들은 대중 중심의 네트워크를 모색했다. 또한 새로운 종교 공동체를 도입하면서 사람들의 사회화는 확실히 큰 도전이었으므로 소태산과 암베드카르는 불교의 사회적인 측면을 강조한 것이다.소태산과 암베드카르는 서로 차이점도 있지만 유사점이 더욱 많다. 두 지도자들은 근대화에 잘 맞는 종교로서 불교를 선택하고, 현대사회에 필요한 종교로서 불교를 재해석했다. 가장 중요한 유사점은 한국과 인도 사회에서 비슷한계급 사회를 배경으로 두 지도자들이 불교를 선택했다는 점이다. 또한 그들은현대의 사회적 요구에 발맞추어 불교의 사회 참여를 제안하였고, 전통 불교의실천이란 측면에서 교리의 부족한 부분을 발견하였으며, 근대 사회에 필요한윤리를 제안했다. 사회경제 복지 개념은 소태산과 암베드카르의 사회복지 윤리안에서 나타나는데 이는 경계 없는 축복의 천국으로 현세를 바꾸어 나아가는것을 의미한다.",
-      "abstract_en": "Sotaesan (1891–1943), the founder of Won-Buddhism in Korea, and Bhim Rao Ambedkar (1891–1956), the founder of Neo-Buddhism, also known as Navayana, in India, are the representative leaders who provided religious remedies for the common people. It is a coincidence that both Sotaesan and Ambedkar were born in the same year. These two leaders were well-versed in both the Eastern and the Western spiritual traditions, but they chose the Buddhist tradition as a tool to meet the contemporary socio-spiritual demand. Their key objectives were to help needy and downtrodden people. During the last fifty years, both the Won Buddhist and Neo-Buddhist followers marked a positive print on modern society by applying prescribed approaches to engage the people in their respective country. These religious leaders not only identified the public role of modern Buddhism but also embarked on the social empowerment and formation of religious social capital, which differ from the other religious groups since Won Buddhism and Neo Buddhism fosters community value along with religious value.The reformation occurred in politically ambitious colonial states which had poorly managed the social affairs of Korea and India. The impact of colonial regimes was so diverse that the non-privileged class opted religious platform for mobilizing people after independence. In this case, both Won-Buddhism and Neo-Buddhism generated social capital and formed social networks through the religious means, which appeared to be more durable than the social capitals generated through the other means.Through the social engagement, both leaders generated a new religious consciousness in the rural areas by assuming public role. Their organizations refuse to restrict to the religious practices and focus on the moral and economic development of common people by forming new social networks. The early participation was a voluntary association of farmers and non-privileged people who sought a public orientated network. Moreover, socialization of people by introducing a new religious community was certainly a great challenge and that is why they emphasized the social face of Buddhism.This study examines the ways in which the founders of Won-Buddhism and Neo-Buddhism reinterpreted traditional Buddhism in order to revive and re-present it in the modern socio-religious context. Won-Buddhism and Neo-Buddhism have been studied from a comparative framework, but furthermore, an attempt has been made to group them together, because both form a pattern of revival, reinterpretation and new orientation of Buddhism i. e, its social engagement.",
-      "journal_name": "원불교사상과 종교문화",
-      "year": "2015",
-      "volume": "66",
-      "issue": "",
-      "start_page": "121",
-      "end_page": "141",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=89b64fe94d179786b7998d826d417196",
-      "kci_url": "",
-      "keywords_kr": [
-        "소태산",
-        "암베드카르",
-        "신불교",
-        "나바야나",
-        "미래불교",
-        "미륵불",
-        "참여 불교",
-        "사회 윤리"
-      ],
-      "keywords_en": [
-        "Won-Buddhism",
-        "Neo-Buddhism",
-        "Navyana",
-        "Maitrya",
-        "engagged Buddhism",
-        "social ethics"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "89b64fe94d179786b7998d826d417196",
-      "id": "89b64fe94d179786b7998d826d417196"
     },
     {
       "article_id": "2c4ff92d5919aa69b36097776a77e665",
@@ -43428,64 +43126,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART002336928",
+      "alt_ids": [
+        "56ffad13f37133a9b36097776a77e665"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "ca63241289a389a96aae8a972f9116fb",
       "id": "ca63241289a389a96aae8a972f9116fb"
-    },
-    {
-      "article_id": "56ffad13f37133a9b36097776a77e665",
-      "title_kr": "A cross-sectional study of the relationship between mindfulness and academic achievement of South Korean adolescents",
-      "title_en": "",
-      "authors": [
-        {
-          "name": "송정은",
-          "affiliation": "영산선학대학교",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "Recent research studies show that mindfulness-based interventions (MBIs) for children and adolescents have a positive impact on cognitive and noncognitive functioning, which are related to improved academic performance. Although mindfulness is a burgeoning field of education, no studies elaborate the conceptual relationship between mindfulness and academic achievement in a South Korean context. The present research aims to investigate the relationship between mindfulness and academic achievement using a crosssectional design on a sample of 877 South Korean adolescents aged 12 to 19 years from five schools in two South Korean cities. All participants completed measures on mindfulness and provided their GPA as an indicator of academic achievement. Results revealed a positive correlation between mindfulness and academic achievement and provided implications for conducting further research on the positive influence mindfulness has on the academic performance of adolescents. By providing a conceptual study of mindfulness, the researcher hopes instruments can be developed and questions concerning mediating role and mechanisms of action can be investigated that will help enhance the continuation of health-promoting behaviors for Korean children and adolescents",
-      "abstract_en": "",
-      "journal_name": "원불교사상과 종교문화",
-      "year": "2018",
-      "volume": "75",
-      "issue": "",
-      "start_page": "117",
-      "end_page": "146",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=56ffad13f37133a9b36097776a77e665",
-      "kci_url": "",
-      "keywords_kr": [
-        "마음챙김",
-        "학업성취도",
-        "고등학생",
-        "중학생",
-        "마 음챙김에 기반한 개입",
-        "자기조절",
-        "관리기능",
-        "한국",
-        "교육"
-      ],
-      "keywords_en": [
-        "mindfulness",
-        "academic achievement",
-        "high school students",
-        "middle school students",
-        "self-regulation",
-        "executive function",
-        "mindfulness-based interventions",
-        "South Korea",
-        "education"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "56ffad13f37133a9b36097776a77e665",
-      "id": "56ffad13f37133a9b36097776a77e665"
     },
     {
       "article_id": "e5ff94208e5b62e07ecd42904f0c5d65",

@@ -5565,7 +5565,7 @@
       "end_page": "183",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8891c93d78eaf2e8ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000918186",
       "keywords_kr": [
         "판화",
         "정희대왕대비",
@@ -5577,45 +5577,16 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "8891c93d78eaf2e8ffe0bdc3ef48d419",
-      "id": "8891c93d78eaf2e8ffe0bdc3ef48d419"
-    },
-    {
-      "article_id": "21a213af4e391db9c85d2949c297615a",
-      "title_kr": "15세기 후반기 王室發願 版畵 - 貞憙大王大妃 發願本을 중심으로-",
-      "title_en": "Woodblock Prints of the Late 15th Century Sponsored by the Royal Family - Focused on the prints donated by Queen Jeonghee, the grand-mother of King Seongjong -",
-      "authors": [
-        {
-          "name": "박도희",
-          "affiliation": "한국미술사연구소",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2002",
-      "volume": "19",
-      "issue": "",
-      "start_page": "155",
-      "end_page": "183",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=21a213af4e391db9c85d2949c297615a",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000918186",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
       "kci_id": "ART000918186",
+      "alt_ids": [
+        "21a213af4e391db9c85d2949c297615a"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "21a213af4e391db9c85d2949c297615a",
-      "id": "21a213af4e391db9c85d2949c297615a"
+      "riss_id": "8891c93d78eaf2e8ffe0bdc3ef48d419",
+      "id": "8891c93d78eaf2e8ffe0bdc3ef48d419"
     },
     {
       "article_id": "fe7004ec970c66c2ffe0bdc3ef48d419",
@@ -8177,40 +8148,6 @@
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=03b67a962b79f5b947de9c1710b0298d",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001030532",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "kci_id": "ART001030532",
-      "sources": [
-        "RISS",
-        "KCI"
-      ],
-      "riss_id": "03b67a962b79f5b947de9c1710b0298d",
-      "id": "03b67a962b79f5b947de9c1710b0298d"
-    },
-    {
-      "article_id": "021b5fbb214e623bffe0bdc3ef48d419",
-      "title_kr": "龍仁 華雲寺 木 阿彌陀,藥師佛座像",
-      "title_en": "The Wooden Amitabha and Bhaisajyaguru Buddhas in Hwa-un-sa(華雲寺) Temple",
-      "authors": [
-        {
-          "name": "문명대 ( Myung Dae Moon )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2005",
-      "volume": "24",
-      "issue": "",
-      "start_page": "49",
-      "end_page": "59",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=021b5fbb214e623bffe0bdc3ef48d419",
-      "kci_url": "",
       "keywords_kr": [
         "화운사 목 아미타불좌상",
         "화운사 목 약사불좌상",
@@ -8222,11 +8159,16 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
-      "sources": [
-        "RISS"
+      "kci_id": "ART001030532",
+      "alt_ids": [
+        "021b5fbb214e623bffe0bdc3ef48d419"
       ],
-      "riss_id": "021b5fbb214e623bffe0bdc3ef48d419",
-      "id": "021b5fbb214e623bffe0bdc3ef48d419"
+      "sources": [
+        "RISS",
+        "KCI"
+      ],
+      "riss_id": "03b67a962b79f5b947de9c1710b0298d",
+      "id": "03b67a962b79f5b947de9c1710b0298d"
     },
     {
       "article_id": "8fd23bf96a236beaffe0bdc3ef48d419",
@@ -14968,57 +14910,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001296876",
+      "alt_ids": [
+        "ac01904700841b16ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "986c4b12a36050c3b36097776a77e665",
       "id": "986c4b12a36050c3b36097776a77e665"
-    },
-    {
-      "article_id": "ac01904700841b16ffe0bdc3ef48d419",
-      "title_kr": "수국사 불복장 섬유류에 관한 고찰",
-      "title_en": "The characteristics of the textiles excavated in the Amitabha statue of the Suguk temple",
-      "authors": [
-        {
-          "name": "박윤미 ( Yoon Mee Park )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2008",
-      "volume": "31",
-      "issue": "",
-      "start_page": "177",
-      "end_page": "203",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ac01904700841b16ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "저고리",
-        "단직물",
-        "직은",
-        "직금",
-        "문라"
-      ],
-      "keywords_en": [
-        "Jeogori 보자기",
-        "bojagi",
-        "Satin",
-        "Silk with supplementary silver weft threads",
-        "Silk with supplementary gold weft threads",
-        "Complex gauze silk"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "ac01904700841b16ffe0bdc3ef48d419",
-      "id": "ac01904700841b16ffe0bdc3ef48d419"
     },
     {
       "article_id": "a4bdb19e1cae67ebffe0bdc3ef48d419",
@@ -17395,71 +17295,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001501384",
+      "alt_ids": [
+        "375601609f593411ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "b46bde1933cda729b7998d826d417196",
       "id": "b46bde1933cda729b7998d826d417196"
-    },
-    {
-      "article_id": "375601609f593411ffe0bdc3ef48d419",
-      "title_kr": "우선(藕船) 이상적의 조청(朝淸)회화교류",
-      "title_en": "YiSangjeok`s Exchangge of painting with Literati of TheLate Qing Period",
-      "authors": [
-        {
-          "name": "김현권 ( Hyun Kwon Kim )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "Yi Sangjeok(°]%) was a pupil of Kim junghee(and also Chinese official interpreter. He made official visit to China twelve times and had relationship with literary artists and scholars, through the activities he brought many kinds of Chinese all ages paintings and writings and epigraph to Joseon society. As Chusa`s disciples, he not only carried on the trend of exchanges betweenthe two countries but approached in a very holistic way. However, it was not because of his painting style but because of his position as envoys, which gave him much chance to associate a host of Qing literati. While inheriting his master`s exchange trendof paintings, Yi introduced a new Qing painting style. First of all, he showed off splendid and sensuous styles including Handamdo leisurely conversation painting) and Ahjipdo(I1, elegant assembly), which were mostly painted by OhJun(). Meanwhile, Yi was also ranked as one of Qing literary painters and established a social intercourse with Tang Yifen() and witnessed artworks from Dai (*). In addition, he had a cultural relationship with Songhu school (ih) including Cheng Tinglu() and Cheng Zuqing(ll) while playing a pioneer to introduce various painting trend of Qing dynasty. His active propensity and practice contributed to a rapid influx of Shanghai painting trend as well as Qing`s Sawang(N)painting style during the late enlightening period. Nonetheless,there is no enthusiastic reaction among Joseon artists about Qing painting styles introduced by Chusa`s disciples, since they were highiy affected by Kim Jeonghee`s style in the 1850s. Base on that his activities, new painting tendencies brought into Joseon painting in the later 19th century. That is one of the main idea and value of this research.",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2010",
-      "volume": "35",
-      "issue": "",
-      "start_page": "141",
-      "end_page": "180",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=375601609f593411ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "상해화단",
-        "上海畵壇",
-        "송호화파",
-        "松壺畵派",
-        "정조형",
-        "程祖熒",
-        "아집원",
-        "雅集圓",
-        "오준",
-        "吳儁",
-        "이상적",
-        "이상적",
-        "李尙迪",
-        "장요손",
-        "張曜孫",
-        "한담원",
-        "閑談園"
-      ],
-      "keywords_en": [
-        "Shanghai school",
-        "Songhu school",
-        "Cheng Zuqing",
-        "Elegant assembly painting",
-        "Oh Jun",
-        "Yi Sang jeok",
-        "Zhang Yaosun",
-        "Leisurely conversation painting"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "375601609f593411ffe0bdc3ef48d419",
-      "id": "375601609f593411ffe0bdc3ef48d419"
     },
     {
       "article_id": "03b67a962b79f5b97ecd42904f0c5d65",
@@ -17657,47 +17501,6 @@
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=41b61e668f3939f8b36097776a77e665",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001501392",
-      "keywords_kr": [],
-      "keywords_en": [
-        "선원전(璿源殿 the main hall of the Royal buildings enshrining the portraits of the deceased kings)",
-        "증건(增建 the addition of rooms for enshrinment)",
-        "제일실(第一室 The First Room for enshrining the portrait of Emperor Taejo)",
-        "어진(御眞 the portraits of king)",
-        "궤중봉안(櫃中奉安 the rolling scroll of portrait in a chest)",
-        "전안벽상(展安壁上 Hanging scroll of portrait on the wall). Yuigue(儀軌)"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "kci_id": "ART001501392",
-      "sources": [
-        "RISS",
-        "KCI"
-      ],
-      "riss_id": "41b61e668f3939f8b36097776a77e665",
-      "id": "41b61e668f3939f8b36097776a77e665"
-    },
-    {
-      "article_id": "046fdfbb5774a052ffe0bdc3ef48d419",
-      "title_kr": "조선후기 선원전(璿源殿)의 기능과 변천에 관한 연구",
-      "title_en": "The Structural Transformation of the Main hall of Seonwonjeon(선원전(璿源殿)) complex of Joseon Dynasty and its Significance",
-      "authors": [
-        {
-          "name": "이강근 ( Kang Geun Lee )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "This study examines the main hail of Seonwonjeon(ItL) complex, the Royal buildings enshrining the portraits of the deceased kings of the Joseon Dynasty. Now there are two Seonwonjeon complex, namely Old-Seonwonjeon and New-Seonwonjeon, in Changdeokgung Palace. The main hail of Old-Seonwonjeon was transferred from Gyeongdeokgung Palace and renamed from Gyeongwhadang to Chunwhijeon in A.D. 1656 and repaired and renamed to Seonwonjeon in 1695 A.D. Seonwonjeon originaly had a memorial hall with one room, but contained a memorial hail with 7 rooms from the 4th year of KwangmooU(Jit). The main hall of New-Seonwonjeon was transferred from the Deolcsugung contained 7 rooms from the 1st year of Kwangmoo and reconstructed with 12 rooms in Changdeokgung Palace in A.D. 1921. In Gyeongbokgung and Geongungung Palace, there also was a Seonwonjeon4t) complex contained 7 rooms from the 4th year of Kwangmoo, but one was deconstructed and the other was transferred by the Japanese colonial govemor-general. This treatise is firstly focusing on the question why and when the main hall consequently extended lengthwise. The main hail of Old-Seonwonjeon was continuously extended lengthwise for the reason that there was a need for the addition of rooms for enshrinment due to the increase of the portraits of the deceased kings. So the total number of rooms continuously extended from one rcxm to 7 rooms during the late Joseon Dynasty. The rite of enshrinment of the portraits was one of the majestic court rites. The ancestor-memorial services were performed in the 6 festives and the birthday of the deceased kings.Second, this study is elucidating the architectural program about the extension of The First Room(-) for enshrining the portrait of Emperor Taejo in the 4th year of Kwangmoo(t) on the basis of YuigueUt).",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2010",
-      "volume": "35",
-      "issue": "",
-      "start_page": "239",
-      "end_page": "268",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=046fdfbb5774a052ffe0bdc3ef48d419",
-      "kci_url": "",
       "keywords_kr": [
         "선원전",
         "璿源殿",
@@ -17711,18 +17514,25 @@
         "櫃中奉安"
       ],
       "keywords_en": [
-        "the main hall of the Royal buildings enshrining the portraist of the deceased kings",
-        "the addition of rooms for enshrinment",
-        "the First Room for enshrining the portrait of Emperor Taejo",
-        "the portraits of king"
+        "선원전(璿源殿 the main hall of the Royal buildings enshrining the portraits of the deceased kings)",
+        "증건(增建 the addition of rooms for enshrinment)",
+        "제일실(第一室 The First Room for enshrining the portrait of Emperor Taejo)",
+        "어진(御眞 the portraits of king)",
+        "궤중봉안(櫃中奉安 the rolling scroll of portrait in a chest)",
+        "전안벽상(展安壁上 Hanging scroll of portrait on the wall). Yuigue(儀軌)"
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "sources": [
-        "RISS"
+      "kci_id": "ART001501392",
+      "alt_ids": [
+        "046fdfbb5774a052ffe0bdc3ef48d419"
       ],
-      "riss_id": "046fdfbb5774a052ffe0bdc3ef48d419",
-      "id": "046fdfbb5774a052ffe0bdc3ef48d419"
+      "sources": [
+        "RISS",
+        "KCI"
+      ],
+      "riss_id": "41b61e668f3939f8b36097776a77e665",
+      "id": "41b61e668f3939f8b36097776a77e665"
     },
     {
       "article_id": "bf285a3e7d9d4671d18150b21a227875",
@@ -20056,68 +19866,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001667364",
+      "alt_ids": [
+        "edd9fdbfb1eb22a0ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "fccbf28464a4f0df4884a65323211ff0",
       "id": "fccbf28464a4f0df4884a65323211ff0"
-    },
-    {
-      "article_id": "edd9fdbfb1eb22a0ffe0bdc3ef48d419",
-      "title_kr": "고려불화(高麗佛畵)의 발원자(發願者)와 시주자(施主者)",
-      "title_en": "The Patrons and Donors of Goryeo Buddhist Paintings",
-      "authors": [
-        {
-          "name": "김정희 ( Jung Hee Kim )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "Currently, some 160 Buddhist paintings dated to the Goryeo period have survived. In thirty of these paintings, there are dated inscriptions, and the patron is known for twenty of these thirty paintings. All of them were produced during a period of Goryeo`s history when its king and ruling class deferred to the Mongol dynasty of Yuan ; namely, during the reigns of King Gojong (r.1213-1259) and King Chungjeong (r.1349-1351). Interestingly, the paintings were commissioned by people of various classes from the royal house and the powers that be like influential military leaders to Buddhist monks, groups of faithful and individuals. In this paper, I look at patrons of Buddhist paintings of Goryeo by dividing them into four large categories: the royal house and royal government officials (civil, military officials and palace staff), monks, Buddhist groups and individuals. Concubine Kim(Sukbi), who commissioned the creation of Suwolgwaneumdo (Water-Moon Avalokitesvara) in 1310, for example, is among the best known of royal house patrons of Buddhist paintings. Among government officials, Yeom Seung-ik, a member of the close entourage of King Chungnyeol (1275-1308), the court eunuch Seo Ji-man, Yi Hyeok-cheong, a senior military official, and a certain Gwon Bok-su, who was actually either Gwon Dan (1228-1311) or Gwon Bu (1262-1346), stand out for their patronage activities. Among monk patrons, those who held the highest clerical positions include Seung□) who commissioned Gwangyeongbyeonsangdo Illustration of Amityur-dyana Sutra; in Chion-in in Japan), in 1323 and Chohyeong, who was the head abbot of Jeongeobwon. Hyeoncheol, who commissioned Mireukhasaengbyeonsangdo (Illustration of Maitreya-vyakarana Sutra; 1350) and the head monk of Anyangsa Temple, the patron of the Amitapaldaebosaldo (Amitabha and Eight Great Bodhisattvas; 1320) are also worth a mention. Goryeo Buddhist paintings, as they are brilliantly-colored paintings using profuse amounts of gold powder, with meticulously depicted details, are generally believed to have been works commissioned by the royal house or aristocrats. This, however, was not always the case. Buddhist paintings were sometimes commissioned by individuals or small groups of faithful or more organized groups known as hyangdo. Examples of such paintings sponsored by groups of faithful include Gwangyeongbyeonsangdo (1323; in Rinsho-ji in Japan), Amitasamjondo (Amitabha Triad; 1330; in Ho-onji in Japan), Mireukhasaeongbyeonsangdo (1350; in Shinnoin in Japan). Another painting of Amitabha Triad (in Uesugi Shrine in Japan), dated to 1309, was, meanwhile, created under the patronage of a certain Seo family (Suhodang). This family is believed to be of the Seo clan of Icheon, a noble lineage whose most famous scion was Seo Hui (942-998), a scholar-official and diplomat of early Goryeo. The examination of literature providing circumstantial information on Goryeo Buddhist paintings revealed that people of various social classes participated in their patronage, ranging from the royal house, government officials (civil and military officials, palace staff) to monks, hyangdo groups and individuals. This may be a result of the growing popularity of gibokbulgyo or ``Buddhism for good fortune`` in late Goryeo, spreading the belief that constructing a temple, erecting a pagoda, hand-copying a Buddhist scripture or worshipping a Buddha statue contribute to ensuring good fortunes for oneself and one`s family. The trend toward seeking rewards in this world by transcribing sutras or commissioning Buddhist statues or paintings is, therefore, likely to explain the widespread patronage activities for Buddhist paintings in this period. Patrons of Buddhist paintings also included a new type of influential political families known as gwonmunsejok or gwonmunsega which emerged in late Goryeo, replacing traditional old families that made up the ruling class in early Goryeo. The most active patrons of Buddhist paintings from this period, however, remain members of the Yeom clan of Seowon, best known for Yeom Seung-ik, and the Kim clan of Eonyang whose most famous member is Concubine Kim (Sukbi). The fact that Buddhist paintings were commissioned by people of widely-varying classes from the royal house to ordinary individuals and religious groups, meanwhile, attests to a deep and far-reaching penetration of Buddhism in Goryeo society, across social classes.",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2012",
-      "volume": "38",
-      "issue": "",
-      "start_page": "251",
-      "end_page": "283",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=edd9fdbfb1eb22a0ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "고려시대",
-        "불화",
-        "발원자",
-        "시주자",
-        "왕실",
-        "내시",
-        "무신",
-        "문인",
-        "향도",
-        "권문세족",
-        "기복불교"
-      ],
-      "keywords_en": [
-        "Goryeo period",
-        "Buddhist Paintings",
-        "patron",
-        "donor",
-        "royal house",
-        "palace staff",
-        "military officials",
-        "civil officials",
-        "Buddhist group",
-        "influential political families",
-        "Buddhism for good fortune"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "edd9fdbfb1eb22a0ffe0bdc3ef48d419",
-      "id": "edd9fdbfb1eb22a0ffe0bdc3ef48d419"
     },
     {
       "article_id": "86ab1ae5c53e0c2cc85d2949c297615a",
@@ -20141,7 +19898,14 @@
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=86ab1ae5c53e0c2cc85d2949c297615a",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001667365",
-      "keywords_kr": [],
+      "keywords_kr": [
+        "반가사유상",
+        "산동성",
+        "중국",
+        "남북조시대",
+        "동위",
+        "북제"
+      ],
       "keywords_en": [
         "반가사유상(Peansive bodhisattva)",
         "산동성(Shandong province)",
@@ -20153,58 +19917,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001667365",
+      "alt_ids": [
+        "bdaee71514ba24ceffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "86ab1ae5c53e0c2cc85d2949c297615a",
       "id": "86ab1ae5c53e0c2cc85d2949c297615a"
-    },
-    {
-      "article_id": "bdaee71514ba24ceffe0bdc3ef48d419",
-      "title_kr": "중국(中國) 산동성(山東省) 출토(出土) 동위(東魏)∼북제대(北齊代) 반가사유상(半跏思惟像)에 대한 연구(硏究)",
-      "title_en": "The of pensive bodhisattva, excavation of Shandong province from Eastern Wei dynasty to Northern Qi dynasty",
-      "authors": [
-        {
-          "name": "량은경 ( Eun Gyeng Yang )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "The period of pensive bodhisattva of Shandong province, Southern and Northern dynasties which are excavated in Linqu xian, Qingzhou city centered, is concentrated from Eastern Wei dynasty to Northern Qi dynasty and mostly in Northern Qi dynasty. The pensive bodhisattva in Shandong province in a form of thinking gesture of sitting cross-legged with its arm lifted up to the chin excavated total 10 bodies, and 6 of them were identified its names and dates of birth. Those identified dates are all from Northern Qi dynasty. The noted composition embodied names on sculptures are marble stone image, marble stone pensive image, and prince image etc. A composition 太子□惟像 is written on the statue excavated in Huimin xian. The name of sacred image from the noted composition became certain to be the crown prince standing in Sutra. However, in Hebei region from Eastern to Northern dynasty, the exclusive stone Buddhist image also verified to be related with Maitreya faith. Because of this discovery, it has a fair chance that Maitreya pensive bodhisattva could be found in Shandong region that has a constant impact relationship with Hebei region. The materials of a Buddhist image sitting cross-legged of Southern and Northern dynasties in Shandong province and all stone Buddhist images are marble and limestone. Very interesting fact is that the Buddhist images are mostly materialized in separated stone statue rather than gilt bronze or stone cave. These materials of stone are also found in Hebei province which is adjacent to Shandong province. There is a possibility that gilt bronze could be found in China from the fact that they are much in those Buddhist existing both in South Korea and Japan. The Buddhist image are excavated in Dansukshan Buddhist enshrine, Three Kingdoms Period Buddhist enshrine of Zhungyeon Buddhist enshrine. However, there were only few excavated in the Buddhist enshrines of Southern and Northern dynasties in Shandong province or stone caves. The method of placing the sacred image of supper image excavated in Shandong province is classified as an exclusive statue which the Arhat is placed only for 1 body of three sacred images and Buddhist image on the left and the right. The formation of placing only 1 body of Buddhist image, without adding any other sacred images, is to show only simple image of sitting pensive on the chair. Three sacred images of Buddhist image in Shandong province is found in Hebei province. However, those examples of Hebei province were placed in pairs of trees and dragon figures at the rear part of the statue and also carved openwork very complicatedly. Furthermore, the sitting images are placed in a pair in Hebei province and also the 5 sacred images placed in 4 bodies of bodhisattva and Arhat are also excavated that are much more colorful and complicated than the sitting images in Shandong province. The existence of Shandong province excavation, stone construction sitting image is formed mostly in Northern Qi dynasty, and in terms of style, it seems to be related to Hebei region. However, it is certain that it has very intensive relation with stone bodhisattva of Shandong region itself. The figures of crown, shoulder ornament, chair, dragon, etc. feature the traditional style of stone bodhisattva of Shandong province. Documentaries of Fayuanzhulin, Jishenzhousanbaogantonglu, etc tell us that the Southerndynasties ofearly 5thcentury Faxian had brought exclusive sitting image from India and the same style of the sitting image was also produced. Besides, these sitting images are assumed that it has also influenced the image of Northern Qi dynasty in later 6th century inadefinite period of time. Inspite of the possibility of relation with Hebei region, the most recent Shandong gilt bronze image of Southern and Northern dynasties has much more intimate relationship with Southern dynasties. This is where we should focus our attention on the research of the sitting image of Southern dynasties.",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2012",
-      "volume": "38",
-      "issue": "",
-      "start_page": "285",
-      "end_page": "307",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bdaee71514ba24ceffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "반가사유상",
-        "산동성",
-        "중국",
-        "남북조시대",
-        "동위",
-        "북제"
-      ],
-      "keywords_en": [
-        "Peansive bodhisattva",
-        "Shandong province",
-        "China",
-        "Southern and Northen dynasties",
-        "Eastern Wei dynasty",
-        "Northen Qi dynasty"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "bdaee71514ba24ceffe0bdc3ef48d419",
-      "id": "bdaee71514ba24ceffe0bdc3ef48d419"
     },
     {
       "article_id": "7188bd9fc4aa4389ffe0bdc3ef48d419",
@@ -20329,7 +20050,14 @@
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9ad71dc0496da63fc85d2949c297615a",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001667368",
-      "keywords_kr": [],
+      "keywords_kr": [
+        "사찰벽화",
+        "보존처리",
+        "채색층",
+        "마감층",
+        "고착제",
+        "합성수지"
+      ],
       "keywords_en": [
         "사찰벽화(Murals in temples)",
         "보존처리(Restoration)",
@@ -20341,58 +20069,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001667368",
+      "alt_ids": [
+        "6841bfbfc992f873ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "9ad71dc0496da63fc85d2949c297615a",
       "id": "9ad71dc0496da63fc85d2949c297615a"
-    },
-    {
-      "article_id": "6841bfbfc992f873ffe0bdc3ef48d419",
-      "title_kr": "국내 사찰벽화 보존 현상(現狀)에 대한 고찰",
-      "title_en": "Consideration on current state of restoration of murals in temples in Korea",
-      "authors": [
-        {
-          "name": "이화수 ( Hwa Soo Lee )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "In light of the history of restoration of murals in temples in Korea which has been continued since 1916 for Murals in the Shrine of the Patriarch(Josadang) at Buseck-sa Temple of Yeongju, this paper examines the restoration results and suggests implications of the major restoration cases done before 2000 and after 2000. Restoration of murals in temples done with synthetic resins in the past showed damage caused by physical resistance, the damage progressed very fast especially for murals in temples exposed to outside environment. Significant change in restoration of murals in temples includes use of low concentration soluble fixative such as polyvinyl acetate resin or glue since 2000, different from use of acrylic resin for painting layer fixative before 2000. Also acrylic emulsion mixed into wall reinforcing agent was replaced by soil reinforcing agent mixed with seaweed glue; and lime mortar is no longer in use. Restoration of murals in temples today is done by scientific examination based on conditions of murals in temples that were pre-treated or not pre-treated; using soft materials such as soluble fixative and natural materials considering reversibility as much as possible; and applying minimal measures as possible.",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2012",
-      "volume": "38",
-      "issue": "",
-      "start_page": "351",
-      "end_page": "369",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6841bfbfc992f873ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "사찰벽화",
-        "보존처리",
-        "채색층",
-        "마감층",
-        "고착제",
-        "합성수지"
-      ],
-      "keywords_en": [
-        "Murals in temples",
-        "Restoration",
-        "Painting Layer",
-        "Finishing Layer",
-        "Fixative",
-        "Synthetic"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "6841bfbfc992f873ffe0bdc3ef48d419",
-      "id": "6841bfbfc992f873ffe0bdc3ef48d419"
     },
     {
       "article_id": "ae71a48749003859ffe0bdc3ef48d419",
@@ -21273,62 +20958,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001775015",
+      "alt_ids": [
+        "e07a3bd786557af2ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "41b61e668f3939f87f7a54760bb41745",
       "id": "41b61e668f3939f87f7a54760bb41745"
-    },
-    {
-      "article_id": "e07a3bd786557af2ffe0bdc3ef48d419",
-      "title_kr": "조선 후반기 제3기 [순조(純祖)-순종대(純宗代)] 괘불화(掛佛畵)의 도상해석학적 연구",
-      "title_en": "An Iconological Study on Buddhist Banner Paintings in the Third Stage of the Late Joseon Period",
-      "authors": [
-        {
-          "name": "김창균 ( Chang Kyun Kim )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "The third stage of the late Joseon period from 1801 to 1910 (from King Sunjo`s to King Sunjong`s days) is socially chaotic due to introduction of Western culture and popular uprising along with modernization. Distinguishing themselves since the 1800s, some Buddhist monk painters led the realm of Buddhist painting in the last period of Joseon with their continuous activities even in the early 20th century. The scope of this study is limited to the time before 1930 as it is believed that quality inclination was remarkable in Buddhist Banner Paintings and common Buddhist paintings due to the tendency of modernization since the 1930s. After examining the temporal, thematic, and local conditions with Banner Paintings of Buddha themes, on which temple attention and techniques were intensely paid, as its subjects, this study has analyzed the contents of iconographies, and explored factions of monk painters of Buddhist Banner Paintings at that time that participated in the creation of Buddhist paintings and their painting styles. In the 19th∼20th centuries, due to rapidly changing social environments, many Buddhist banner paintings with the themes of Sakyamuni and Amitabha for the purpose of the peace of the royal family and the tendency of dependence upon Buddhism were created. This was especially because hopes and wishes for the worldly interest and afterlife euthanasia greatly worked. In particular, it is conjectured that many Buddhist paintings with the theme of Amitabha were created in accordance with the chaotic social trends due to invasions by surrounding powerful nations by the 20tthcentury, and such a tendency appeared in Buddhist Rear Paintings and was consistent with the creation of lots of Amitabha paintings. Also on the side of themes, considering the emergence of Medicine Buddha and the increase of Three-World Buddha paintings, we can conjecture that the philosophy of aspiring to mundane good health and long life, and afterlife euthanasia more prevailed in this period than in any other periods, with Sakyamuni as the main Buddha.",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2013",
-      "volume": "40",
-      "issue": "",
-      "start_page": "215",
-      "end_page": "253",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e07a3bd786557af2ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "석가불괘불도",
-        "釋迦佛掛佛圖",
-        "아미타불괘불도",
-        "阿彌陀佛掛佛圖",
-        "약사불도",
-        "藥師佛圖",
-        "삼세불괘불도",
-        "三世佛掛佛圖",
-        "삼신불괘불도",
-        "三身佛掛佛圖"
-      ],
-      "keywords_en": [
-        "Sakyamuni Banner Painting",
-        "Amitabha Banner Painting",
-        "Medicine Buddha Painting",
-        "Three-World Buddha Banner Painting",
-        "Trikaya Baner Painting",
-        "Trikaya and Three-World Buddha Banner"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "e07a3bd786557af2ffe0bdc3ef48d419",
-      "id": "e07a3bd786557af2ffe0bdc3ef48d419"
     },
     {
       "article_id": "39d1495184817d27ffe0bdc3ef48d419",
@@ -21504,70 +21142,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001775018",
+      "alt_ids": [
+        "e8b3f119a6729fdbffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "4b71b78479505d406aae8a972f9116fb",
       "id": "4b71b78479505d406aae8a972f9116fb"
-    },
-    {
-      "article_id": "e8b3f119a6729fdbffe0bdc3ef48d419",
-      "title_kr": "조선 후반기 제2기 불교건축과 예배상과의 관계에서 본 도상의미 연구",
-      "title_en": "A Study on The Architectural Iconography of Buddhist Temple in The Late Joseon Dynasty",
-      "authors": [
-        {
-          "name": "주수완숴 ( Soo Wan Joo )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "This thesis deals with the problem of phenomenon on the re-interpretation in 18th century for the buddhist main temple architectures built by 5×3 square in the 17th century. In the 17th century, all of these buildings were erected as Sakyamuni Hall, but Sakyamuni·Amitabha·Bhaisajyaguru Buddha triad or Virocana·Amitabha·Bhaisajyaguru Buddha trinity were enshrined in them. Since the 18th century, these buildings passed the large and small repairs, but until now the Buddha statues are remained and the name of Buddha was estimated to be unchanged. However, the repair of the building over the course of the 18th century has undergone various changes. In Nonsan Ssanggye-sa and Guishin-sa, their two-story building were remodeled as a single layer. Most of these buildings may had been a change in the shape of the roof by going through the repair or reconstruction. Whatever was the original form, these buildings came to be divided into two main categories at the 18th century. One is the Sakyamuni Hall lineage which has a gambrel roof enshrined the Sakyamuni Triad in it while the other is the Vairocana Hall lineage which has a gable roof with Vairocana Trinity. In addition, it is something in common that the gambrel roof lineage with Sakyamuni Triad is associated with Byugam Gakseong. Buddhism at these periods can be summarized in general three lines; Hwaeom, Zen, and Pure Land. Vairocana, Sakyamuni and Amitabha buddha symbolized each religious sects. Further, Bhaisajyaguru buddha was concerned with Tantric buddhism on which the ritual text of these periods based. If we admitted that there must be an iconographic meaning, we can find the reason in some visual character as next. The Sakyamuni Triad shrine intended to emphasis the central directivity of Sakyamuni buddha with attendance of other dimensional buddhas. But in case of Vairocana trinity, it intends to show an equality of Tri-Kaya(三身) of buddhas. The gambrel roof looks be coincidence to show the central directivity by symmetrical component while the gable roof is correspondence to show the equality by horizontal extendability.",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2013",
-      "volume": "40",
-      "issue": "",
-      "start_page": "323",
-      "end_page": "346",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e8b3f119a6729fdbffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "사찰",
-        "불교건축",
-        "쌍계사",
-        "송광사",
-        "화엄사",
-        "귀신사",
-        "선운사",
-        "기림사",
-        "작법귀감",
-        "긍선",
-        "삼세불",
-        "삼신불"
-      ],
-      "keywords_en": [
-        "temple",
-        "buddhist architecture",
-        "Ssanggyesa",
-        "Songgwangsa",
-        "Hwaeomsa",
-        "Gwisinsa",
-        "Seonunsa",
-        "Girimsa",
-        "Jakbeopgwigam=The Standard Text of Buddhist Ritual",
-        "Geungseon",
-        "Tri-Akashic buddha",
-        "Tri-kaya buddha"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "e8b3f119a6729fdbffe0bdc3ef48d419",
-      "id": "e8b3f119a6729fdbffe0bdc3ef48d419"
     },
     {
       "article_id": "f04552d6df743f3bffe0bdc3ef48d419",
@@ -21953,62 +21536,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001826142",
+      "alt_ids": [
+        "4204b147720b9c2fffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "2feca585335122f9b7998d826d417196",
       "id": "2feca585335122f9b7998d826d417196"
-    },
-    {
-      "article_id": "4204b147720b9c2fffe0bdc3ef48d419",
-      "title_kr": "불교문화재의 대북(對北)교류에 관한 고찰 -불교조각과 석조문화재를 중심으로-",
-      "title_en": "A Study on Relationships in the Field of Cultural Properties of Buddhist Art with North Korea -With Special Emphasis on Buddhist Sculpture and Stone Works-",
-      "authors": [
-        {
-          "name": "( Song Eun Choe )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "This paper investigates on how South Korea has been communicating with North Korea on the basis of cultural properties, and suggests several ways to forge a relationship with the North to further mutual interests regarding cultural properties of Buddhist art. Before getting into the plan in detail, Buddhist art properties of North Korea are introduced by collections, locations (Buddhist temples), and genres, which show lots of Goryeo Buddhist works - sculptures, pagodas, pillars, and stele - are extant in the North. One of the ways to cooperate with the North through Buddhist works could be academic symposia on Goguryeo and Goryeo Buddhist sculpture, because both South and North Korea have been interested in these themes and have good pieces of work. Joint studies and long-term investigations around Gaeseung, Mt. Geumgang, Pyongyang and Balhae historic areas could be another ways to approach each other with common interest. Also, short-term joint investigations at Hyeonhwasa temple, Gwaneumsa temple and Yeongtongsa temple would be good projects to work on together. Joint research on the clay mold unearthed from Toseongri at Pyongyang as well as on the Balhae bronze Bodhisattva image excavated at Omaeri at Sinpo are quite interesting subjects. Exhibitions could be held in both South and North Korea to show the results of joint research and investigations. Large-scale exhibitions which demonstrate many works as well as small-scale exchange exhibitions which show the new results of investigation and research, would draw national attention both in South and North Korea that can not only extend the scope of the investigation and research, but restore the common cultural heritage of South and North Korea.",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2013",
-      "volume": "41",
-      "issue": "",
-      "start_page": "147",
-      "end_page": "181",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4204b147720b9c2fffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "남북공동조사",
-        "현화사",
-        "불일사",
-        "영통사",
-        "보현사",
-        "금강산",
-        "토성리",
-        "오매리"
-      ],
-      "keywords_en": [
-        "joint research and investigation of South and North Korea",
-        "Hyeonhwasa",
-        "Burilsa",
-        "Yeongtongsa",
-        "Bohyonsa",
-        "Mt. Geumgang",
-        "Toseongri",
-        "Omaeri"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "4204b147720b9c2fffe0bdc3ef48d419",
-      "id": "4204b147720b9c2fffe0bdc3ef48d419"
     },
     {
       "article_id": "a465f50f242a28626aae8a972f9116fb",
@@ -22049,56 +21585,15 @@
       "ai_keywords": [],
       "source": "RISS",
       "kci_id": "ART001826143",
+      "alt_ids": [
+        "5267c563ae8bc207ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS",
         "KCI"
       ],
       "riss_id": "a465f50f242a28626aae8a972f9116fb",
       "id": "a465f50f242a28626aae8a972f9116fb"
-    },
-    {
-      "article_id": "5267c563ae8bc207ffe0bdc3ef48d419",
-      "title_kr": "중국 명대(明代) 사관벽화(寺觀壁畵) 제작기술(製作技術)에 관한 연구",
-      "title_en": "A Study on the Technological processes of Temple Murals of Ming Dynast in China",
-      "authors": [
-        {
-          "name": "( Kyeong Soon Han )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "It is believed that wall paintings was essential element in the most buddhist temples since the first temple was constructed in the 4th century in Korea. However the earliest remaining paintings are the ones of the 14th or 15th century due to the traditional practice of renewing wall paintings in the process of rebuilding or repairing a timber building. Therefore, most buddhist wall paintings remained in Korea are the ones which was produced in the 17th century or later periods so that it has been difficult for the present conservators to understand the production techniques of earlier wall paintings. The purpose of this study on the production techniques of wall paintings during the Ming period, is to identify that of Korean buddhist wall paintings. Compared to the lack of the Korean one, there are many remaining examples of the buddhist wall paintings of the Ming`s in China along with the related records so that they can be useful referencing information to study of the Korean one. Considering such circumstances the author had examined the periodical characteristics of production techniques of the Chinese buddhist wall paintings in the Shanxi province(The Journal of , Vol 26, 2006). As a next step to focus on a specific period this study has examined the wall painting techniques of the Ming period. Based on the field survey in 20009, it has studied production techniques and the materials applied to the wall paintings of the Ming period, aiming at deducing that of Korean buddhist wall paintings during the early of the Joseon Period. Murals in temples of the Joseon era were produced with wooden materials for characteristics of a wooden structure. Wall production had the horizontal material, cornice, crossing of column to column, and wooden material, called the reinforcing post, installed as vertical material. With the completion of frames for central walls, straight and sturdy tree branches were set in a cross shape and this is called lath strips, and the basic frame was completed with the knotting of the area with straw rope. On the traditional coloring method of murals in temples, it is generally referred to as the Secco Technique, the opposite concept of the Fresco Technique. This is the expression applied from the western-style mural production technique, but Korea`s production technique of mixing the pigment and medium on the dried wall is sufficient. For the medium, glue and fish glue are mainly used, as described earlier. Once the painted wall is completed, the ocher soil or noe-rok is used for the base painting. Then, the painted side, namely the ground, is made. The ground painting is not a work to be finished all at once, but involves several repetitions of 3~10 times on the thickly-made ground color to build up a stable and soft ground painting. The painting is drawn on a ground color such as this, and small holes are made following the preparatory drawing on paper. This preparatory drawing is attached to the wall and a powder bag, with the face powder or red pigment powder, is pounded in order for the powder to disperse out of the holes to show the sketch of the painting on the wall. This is referred to as pounced drawing. The painter then draws lines with a brush along it, and the coloration is applied to finish the painting. However, a skilled painter would not go through the pounced drawing, but would draw the sketch directly in Chinese ink. The method of coloring to obtain the color of the desired density by several applications would suffice, and conservation lasts very long as well. The sequence of painting has the first application of a dark color such as red, green, or blue, and the bright colors that tend to become discolored easily, such as yellow or white, is applied later. If the simple painting is repeated, it can be simply processed in work divisions for each process.",
-      "abstract_en": "",
-      "journal_name": "강좌미술사",
-      "year": "2013",
-      "volume": "41",
-      "issue": "",
-      "start_page": "183",
-      "end_page": "200",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5267c563ae8bc207ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "명대 벽화",
-        "조선초기벽화",
-        "벽화제작기법",
-        "력분",
-        "바림기법"
-      ],
-      "keywords_en": [
-        "Murals of the Ming`s",
-        "Murals of earliest Joseon`s",
-        "Manufacturing Techniques of Murals",
-        "Powder of China",
-        "Gradation"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "5267c563ae8bc207ffe0bdc3ef48d419",
-      "id": "5267c563ae8bc207ffe0bdc3ef48d419"
     },
     {
       "article_id": "c552bfe37a0b08d2ffe0bdc3ef48d419",

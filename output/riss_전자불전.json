@@ -155,43 +155,14 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "cb59afb966aba5e7ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS"
       ],
       "riss_id": "a8d245b78bc8f1a0ffe0bdc3ef48d419",
       "id": "a8d245b78bc8f1a0ffe0bdc3ef48d419"
-    },
-    {
-      "article_id": "cb59afb966aba5e7ffe0bdc3ef48d419",
-      "title_kr": "특집논문: 한국 불전(佛典) 정보화의 범주(範疇)와 방향(方向)",
-      "title_en": "",
-      "authors": [
-        {
-          "name": "임기중",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "전자불전",
-      "year": "1999",
-      "volume": "1",
-      "issue": "",
-      "start_page": "39",
-      "end_page": "86",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cb59afb966aba5e7ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "cb59afb966aba5e7ffe0bdc3ef48d419",
-      "id": "cb59afb966aba5e7ffe0bdc3ef48d419"
     },
     {
       "article_id": "0b6fb6b0c837f00bffe0bdc3ef48d419",
@@ -2318,66 +2289,14 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "defa7e455e577179c85d2949c297615a"
+      ],
       "sources": [
         "RISS"
       ],
       "riss_id": "ea4ed25d7d5d235bffe0bdc3ef48d419",
       "id": "ea4ed25d7d5d235bffe0bdc3ef48d419"
-    },
-    {
-      "article_id": "defa7e455e577179c85d2949c297615a",
-      "title_kr": "특집논문: 한역경전 번역의 개선방향",
-      "title_en": "Improving Korean Translations from Chinese Versions of Buddhist Scriptures",
-      "authors": [
-        {
-          "name": "묘주 ( Venerable Myojoo )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "Chinese versions of Buddhist scriptures have long been considered extremely valuable for many reasons, including their sheer volume and quality. Chinese Buddhist scriptures have also had great significance in the history of Buddhism in that the Chinese Buddhist commul1ity developed Mahayanist Buddhism on the basis of research on the 5utra3 translated into Chinese. In translating Chinese versions of Buddhist scriptures into Korean, it IS necessary to consult the texts translated from Sanskrit, Pali, and Tibetan sources as well as versions m Gugyeol script (simplified forms of Chinese characters used to phonetically transcribe Korean in the 13th century) and in the Korean script, and compare them with other different literally translated texts. Only this way can deficiencies be corrected. Ways to improve on existing Korean translations of Chinese Buddhist scriptures may be suggested by citing examples as follows: Translations should be made on the basis of the religious and cultural background of India (e.g.: 稽首 meaning deep bow or full prostration; 偏袒右肩 meaning uncovering one`s right shoulder). Translations should be made on the basis of a complete, logical understanding of the context of the original text (e.g.: 人非人 meaning human m outward appearance but nothuman), Translations should be done in conformity with the Buddhist teachings (e.g.: 識 meaning consciousness in 五蘊 meaning five aggregates). Anything that needs to be rectified should be so rectified; translators should not blindly follow the traditional translation or transliterating words, even if they are commonly used formulaic sounds (e.g.: 阿僧祗 meaning incalculable; 阿누多羅三묘三菩提 meaning supreme perfect universal enlightenment). Long and redundant style translation should be discouraged; translations should be succinct and relevant. Since Korea and China belong to the northern Buddhist countries, the issue of sentence-ending words should be discussed in translating Buddha`s addresses to major bodhisattvas such as Avalokiteshvara (the Bodhisattva of Compassion) and Manjusri (the Bodhisattva of Wisdom).Moreover, careful examination and revision should be done on the translations of major Buddhist scriptures. Pauses and breaks should be placed at correct places in reading Chinese versions of Buddhist scriptures, while the sentence-ending particles in the Gugyeol script versions should be updated by incorporating the contemporary, real-world sense of language. Korean translations of Buddhist scriptures should be at a ninth-grade reading level, generally understandable to a wide modem readership. The translators participating in the translation project of Tripitaka Koreana as well as other individual translators and outside publishing houses should familiarize themselves with the Regulations for Translating Buddhist Scriptures issued by Dongguk University`s Translation Center for Buddhist Scriptures In order to ensure maximum uniformity of style and terminology In the translations of Buddhist scriptures.",
-      "abstract_en": "",
-      "journal_name": "전자불전",
-      "year": "2003",
-      "volume": "5",
-      "issue": "",
-      "start_page": "80",
-      "end_page": "107",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=defa7e455e577179c85d2949c297615a",
-      "kci_url": "",
-      "keywords_kr": [
-        "축자역",
-        "逐字譯",
-        "구결본",
-        "口訣本",
-        "관용음",
-        "慣用音",
-        "답습문제",
-        "踏襲問題",
-        "만연체",
-        "蔓衍體",
-        "번역법",
-        "飜譯法",
-        "종결어",
-        "終決語",
-        "번역법",
-        "飜譯法"
-      ],
-      "keywords_en": [
-        "Literal Translation",
-        "Gugyeol Script Version",
-        "The Issue of Transliterating Formulaic Sounds",
-        "Long and Redundant Style Translation",
-        "Ranslation of Sentence-ending Words"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "defa7e455e577179c85d2949c297615a",
-      "id": "defa7e455e577179c85d2949c297615a"
     },
     {
       "article_id": "a5de9ea4136745f7ffe0bdc3ef48d419",
@@ -2965,46 +2884,6 @@
         "문화재 행정",
         "문화재 정책"
       ],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "feb09c8356e101f0ffe0bdc3ef48d419",
-      "id": "feb09c8356e101f0ffe0bdc3ef48d419"
-    },
-    {
-      "article_id": "6175a13cd4dad17dffe0bdc3ef48d419",
-      "title_kr": "특집논문: 우리나라의 문화재 정책현황과 과제",
-      "title_en": "The Present State of Cultural Heritage Policies and Tasks in Korea",
-      "authors": [
-        {
-          "name": "송인법 ( In Beom Song )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "It can be deemed that the cultural heritage administration in Korea began in earnest since 1961 when the cultural heritage management bureau was established and 1962 when the Cultural Heritage Protection Act was legislated. Since then, the national needs related to cultural heritage have been rising rapidly and the sphere of cultural heritage administration has been broadening largely according to the increase of national income and the advent of knowledge and information society, etc .. As of October, 2005, there are 9,193 designated cultural heritages and 341.5 billion won of yearly cultural heritage budget in Korea. The fundermental principle of cultural policy is to keep cultural heritage in the original form and other axes are systematic management and efficient application. For these purposes, The Cultural Heritage Administration is carrying out repair, maintenance and restoration of cultural heritages and diverse policies for systematic management and efficient application according to the types. Presently, the tasks of cultural heritage administration are to incorporate the dualized administrative institutions of the :Ministry of Culture and Tourism and the Cultural Heritage Administration, to establish a cultural heritage fund, to found a institution specialized in repairing constructive cultural heritages and to develop and spread the contents on cultural heritages.",
-      "abstract_en": "",
-      "journal_name": "전자불전",
-      "year": "2005",
-      "volume": "7",
-      "issue": "",
-      "start_page": "25",
-      "end_page": "58",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6175a13cd4dad17dffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "문화재",
-        "문화재 행정",
-        "문화재 정책",
-        "문화재 보존",
-        "문화재 관리",
-        "문화재 활용",
-        "과제"
-      ],
       "keywords_en": [
         "Cultural Heritage",
         "Cultural Heritage Administration",
@@ -3016,11 +2895,14 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "6175a13cd4dad17dffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS"
       ],
-      "riss_id": "6175a13cd4dad17dffe0bdc3ef48d419",
-      "id": "6175a13cd4dad17dffe0bdc3ef48d419"
+      "riss_id": "feb09c8356e101f0ffe0bdc3ef48d419",
+      "id": "feb09c8356e101f0ffe0bdc3ef48d419"
     },
     {
       "article_id": "fd696f7fb2df8b5bffe0bdc3ef48d419",
@@ -3088,45 +2970,6 @@
         "디지털 멀티미디어 방송",
         "휴대 인터넷 서비스"
       ],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "36d47c6c2aba97b7ffe0bdc3ef48d419",
-      "id": "36d47c6c2aba97b7ffe0bdc3ef48d419"
-    },
-    {
-      "article_id": "94e68b33531c6eb2ffe0bdc3ef48d419",
-      "title_kr": "특집논문: 불교문화콘텐츠 개발 방향",
-      "title_en": "Suggestions for Developing Buddhist Culture Contents",
-      "authors": [
-        {
-          "name": "홍영식 ( Young Sik Hong )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "Various kinds of digital contents about Buddhist art, music, and literature have been developed and demands on these digital contents are increased rapidly. Also, DMB (Digital Multimedia Broadcasting) and WiBro (Portable Internet Services) are becoming commercialized. Advances in technologies about the wireless digital communication change platforms for exchanging digital contents and enable users to connect to the potable high speed internet. End users can enjoy various kinds of contents. In this paper, we review the current status of development of contents about Buddhist culture and platforms for distributing digital contents in Korea. Also, we describe the digital contents management systems for protecting copy rights of digital contents about Buddhist culture and propose directions for developing digital contents about Buddhist culture in consideration of these environmental changes.",
-      "abstract_en": "",
-      "journal_name": "전자불전",
-      "year": "2005",
-      "volume": "7",
-      "issue": "",
-      "start_page": "85",
-      "end_page": "96",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=94e68b33531c6eb2ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "불교 디지털 콘텐츠",
-        "디지털",
-        "멀티미디어 방송",
-        "휴대 인테넷 서비스",
-        "디지털 지적소유권 관리",
-        "디지털 콘텐츠 유통"
-      ],
       "keywords_en": [
         "Buddhist Digital Contents",
         "Digital Multimedia broadcasting",
@@ -3136,11 +2979,14 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "94e68b33531c6eb2ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS"
       ],
-      "riss_id": "94e68b33531c6eb2ffe0bdc3ef48d419",
-      "id": "94e68b33531c6eb2ffe0bdc3ef48d419"
+      "riss_id": "36d47c6c2aba97b7ffe0bdc3ef48d419",
+      "id": "36d47c6c2aba97b7ffe0bdc3ef48d419"
     },
     {
       "article_id": "fd8973825f7534f2ffe0bdc3ef48d419",
@@ -4086,46 +3932,6 @@
         "역주",
         "한국불교전서"
       ],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "827c403761c37d8affe0bdc3ef48d419",
-      "id": "827c403761c37d8affe0bdc3ef48d419"
-    },
-    {
-      "article_id": "16c5a70bc932f3f2ffe0bdc3ef48d419",
-      "title_kr": "특집논문: 한국불교전서 역주 사업",
-      "title_en": "The Translation of Hanguk Bulgyo Chonso (Complete Collection of Korean Buddhism)",
-      "authors": [
-        {
-          "name": "유승주 ( Sung Joo Ryu )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "This work is to enforce Korean translation of the literatures in Hanguk Bulgyo Chonso, 14 volumes, of which Korean Buddhist Research Institute took the leading role in publication from Dongguk University Press. At the time, through this work, KBRI will construct a foundation for the modernization and globalization of Korean traditional Buddhist culture. The procedure will pass through 4 stages. The first stage will be the correct and profound understanding of original texts and second stage will be translation in action. The third will be the annotating and last will be indexing. Academic value will be given priority in the decision making process for the order of books to be translated. In conclusion our aim is to provide dependable and trustworthy translations with detailed notes.",
-      "abstract_en": "",
-      "journal_name": "전자불전",
-      "year": "2007",
-      "volume": "9",
-      "issue": "",
-      "start_page": "111",
-      "end_page": "125",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=16c5a70bc932f3f2ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "한국불교",
-        "한국불교전서",
-        "번역",
-        "주석",
-        "교감",
-        "校勘",
-        "색인"
-      ],
       "keywords_en": [
         "Korean Buddhism",
         "Hanguk Bulgyo Chonso",
@@ -4136,11 +3942,14 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "16c5a70bc932f3f2ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS"
       ],
-      "riss_id": "16c5a70bc932f3f2ffe0bdc3ef48d419",
-      "id": "16c5a70bc932f3f2ffe0bdc3ef48d419"
+      "riss_id": "827c403761c37d8affe0bdc3ef48d419",
+      "id": "827c403761c37d8affe0bdc3ef48d419"
     },
     {
       "article_id": "8f7b16343e06c5d3ffe0bdc3ef48d419",
@@ -4531,38 +4340,6 @@
       "id": "55a8b17bc6b74905ffe0bdc3ef48d419"
     },
     {
-      "article_id": "acd1d114e42ad538ffe0bdc3ef48d419",
-      "title_kr": "元曉의 無碍行과 和諍思想의 현대적 의미",
-      "title_en": "The Contemporary Impact of the Unconstrained Conduct and the Reconciliation Theory of Venerable Wonhyo",
-      "authors": [
-        {
-          "name": "김상현",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "전자불전",
-      "year": "2009",
-      "volume": "11",
-      "issue": "",
-      "start_page": "1",
-      "end_page": "26",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=acd1d114e42ad538ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "acd1d114e42ad538ffe0bdc3ef48d419",
-      "id": "acd1d114e42ad538ffe0bdc3ef48d419"
-    },
-    {
       "article_id": "8707f7f01cd13a80ffe0bdc3ef48d419",
       "title_kr": "특집논문: 원효(元曉)의 무애행(無碍行)과 화쟁사상(和諍思想)의 현대적 의미",
       "title_en": "The Contemporary Impact of the Unconstrained Conduct and the Reconciliation Theory of Venerable Wonhyo",
@@ -4604,6 +4381,9 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "acd1d114e42ad538ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS"
       ],
@@ -4651,49 +4431,6 @@
       "id": "010b4e3e2a1a3cb5ffe0bdc3ef48d419"
     },
     {
-      "article_id": "cd74e69418ece725ffe0bdc3ef48d419",
-      "title_kr": "원효대사 다장르 스토리뱅크의 기획과 제작",
-      "title_en": "Planning and Production of a Multi-Genre Story Bank for Venerable Wonhyo",
-      "authors": [
-        {
-          "name": "한보광",
-          "affiliation": ";",
-          "order": "1"
-        },
-        {
-          "name": "이재수",
-          "affiliation": "",
-          "order": "2"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "전자불전",
-      "year": "2009",
-      "volume": "11",
-      "issue": "",
-      "start_page": "57",
-      "end_page": "93",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cd74e69418ece725ffe0bdc3ef48d419",
-      "kci_url": "",
-      "keywords_kr": [
-        "원효",
-        "설화",
-        "문화원형",
-        "문화콘텐츠",
-        "스토리뱅크"
-      ],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "cd74e69418ece725ffe0bdc3ef48d419",
-      "id": "cd74e69418ece725ffe0bdc3ef48d419"
-    },
-    {
       "article_id": "ad1a1655a2ed8d5dffe0bdc3ef48d419",
       "title_kr": "특집논문: 원효대사 다장르 스토리뱅크의 기획과 제작",
       "title_en": "Planning and Production of a Multi-Genre Story Bank for Venerable Wonhyo",
@@ -4736,6 +4473,9 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "cd74e69418ece725ffe0bdc3ef48d419"
+      ],
       "sources": [
         "RISS"
       ],

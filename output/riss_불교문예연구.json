@@ -3005,9 +3005,9 @@
       "issue": "",
       "start_page": "185",
       "end_page": "209",
-      "doi": "",
+      "doi": "10.35388/buddhi..7.201608.002",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1043bc4b8db11722c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002133537",
       "keywords_kr": [
         "水陸齋. 齋僧",
         "飯僧",
@@ -3026,53 +3026,16 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
-      "sources": [
-        "RISS"
+      "alt_ids": [
+        "5575c96b15689001d18150b21a227875"
       ],
-      "riss_id": "1043bc4b8db11722c85d2949c297615a",
-      "id": "1043bc4b8db11722c85d2949c297615a"
-    },
-    {
-      "article_id": "5575c96b15689001d18150b21a227875",
-      "title_kr": "水陸齋的成立考察 - 以新發現資料爲中心",
-      "title_en": "Study on the Establishment of suryukjae",
-      "authors": [
-        {
-          "name": "侯沖",
-          "affiliation": "上海師範大學哲學系",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "수륙재에 관한 연구 성과는 이미 많이 알려져 있다. 그러나『水陸儀軌 彙本』를 제외하면，사용되는 모든 자료들은 기본적으로『大正藏』및『續 藏經』을벗어나지않았다.『 大正藏』과『續藏經』내에수록된수륙재관련 자료들은 매우 제한적이기 때문에, 수륙재와 관련된 이전의 분석이 완벽 한 것은 아닌 것으로 볼 수 있다. 최근 몇 년 동안, 새로 발견된 자료들이 수륙재가 양무제(梁武帝)에서 비롯된 것을 증명하였고, 동시에 수륙재에 대한 새로운 인식을 갖게 하는 데 도움을 주고 있다. 다음과 같은 관점을 제시한다. 첫째, 재승(齋僧)을 제대로 알고 이해한다는 것은，수륙재의 기초를 이해한다는 뜻이다. 수륙재의 역할은 재승의 기본에서 모두 찾아볼 수 있다. 수륙재의‘齋’는 불교법회이면서 동시에 반승(飯僧)이라는 의미가 또한 포함되어 있다. 즉 재식(齋食)과 연관성이 없는 수륙재는 존재하지 않는다. 둘째, 서로 다른 역사적 시기 속에서 수륙재의 명칭은 종종 다 르게 일컬어진다. 최초의 수륙재의 명칭은 무차재(無遮齋)였고，마지막 에 수륙재로 비로소 그 이름이 명명되었다. 셋째, 수륙재는 고정불변한 의식이 아니다. 즉, 수륙재는 재승으로부터 시작하여 시아귀식(施餓鬼 食)에 이르기까지의 역사적 변천을 거쳐 왔고，서로 다른 역사 시기 속 에서 사용되는 의식의 원본 또한 다르다고 볼 수 있다. 결국, 각각의 수 륙재는 모두 개별적 사례일 뿐인 것이다. 넷째, 수륙재의 명칭이 어떻게 다르고, 표현 형태가 어떻게 변화되는지를 막론하고, 재승을 기반으로 하여 시주(施主), 의식을 행하는 자 및 재의(齋意)를 기본적인 핵심요소 로 삼는 삼위일체(三位一體)의 재승모식(齋僧模式)은 불변(不變)인 것이 다. 수륙재의 수많은 차이점들과 그 형태는 모두 재승모식의 서로 다른 확장, 변화 및 세분화라고 볼 수 있다.",
-      "abstract_en": "",
-      "journal_name": "불교문예연구",
-      "year": "2016",
-      "volume": "7",
-      "issue": "",
-      "start_page": "185",
-      "end_page": "243",
-      "doi": "10.35388/buddhi..7.201608.002",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5575c96b15689001d18150b21a227875",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002133537",
-      "keywords_kr": [
-        "수륙재",
-        "재승",
-        "반승",
-        "무차재",
-        "시아귀식",
-        "변화",
-        "세분화"
-      ],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
       "kci_id": "ART002133537",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "5575c96b15689001d18150b21a227875",
-      "id": "5575c96b15689001d18150b21a227875"
+      "riss_id": "1043bc4b8db11722c85d2949c297615a",
+      "id": "1043bc4b8db11722c85d2949c297615a"
     },
     {
       "article_id": "5575c96b156890014884a65323211ff0",

@@ -6625,7 +6625,7 @@
       "authors": [
         {
           "name": "황순일",
-          "affiliation": "",
+          "affiliation": "충북대학교",
           "order": "1"
         }
       ],
@@ -6639,38 +6639,6 @@
       "end_page": "170",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=87073637b04b1e6ee9810257f7042666",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "87073637b04b1e6ee9810257f7042666",
-      "id": "87073637b04b1e6ee9810257f7042666"
-    },
-    {
-      "article_id": "3c9a91f80e427fb3ffe0bdc3ef48d419",
-      "title_kr": "유여열반에 대한 설일체유부의 아비달마적 해석",
-      "title_en": "The Sarvastivadin`s Abhidharmic interpretation on saupadhisesa-nirvana",
-      "authors": [
-        {
-          "name": "황순일 ( Soon Il Hwang )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2004",
-      "volume": "16",
-      "issue": "",
-      "start_page": "149",
-      "end_page": "169",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3c9a91f80e427fb3ffe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000939683",
       "keywords_kr": [],
       "keywords_en": [
@@ -6685,13 +6653,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "3c9a91f80e427fb3ffe0bdc3ef48d419"
+      ],
       "kci_id": "ART000939683",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "3c9a91f80e427fb3ffe0bdc3ef48d419",
-      "id": "3c9a91f80e427fb3ffe0bdc3ef48d419"
+      "riss_id": "87073637b04b1e6ee9810257f7042666",
+      "id": "87073637b04b1e6ee9810257f7042666"
     },
     {
       "article_id": "01ff981f65f0e094b36097776a77e665",
@@ -7132,43 +7103,11 @@
       "authors": [
         {
           "name": "정승석",
-          "affiliation": "",
+          "affiliation": "동국대학교",
           "order": "1"
         }
       ],
       "abstract_kr": "The other attendant āsanas preceded by the four fundamental āsanas have a common point showing more relaxed mode than the latter. The other attendant āsanas are distinguished mainly by a mode of folding or stretching legs.The steadiness leads the comfortableness properly among fundamental āsanas, while the comfortableness leads the steadiness properly among the other attendant āsanas. The steadiness required in āsanas is to aim at concentrated meditation after all, and it needs the comfortableness for this aim.Patañjali says in Yogasūtra(Ⅱ.47), “[Āsana are perfected] by relaxation of effort and by attaining oneness in meditation with the infinite.” This instruction is to elucidate the principle of āsanas again. In this case, we can understand that ‘relaxation of effort’ means the comfortableness, and that ‘attaining oneness in meditation with the infinite’ means the steadiness. As explained in Yogasūtra-bhāṣya, just a āsana that leads to mental concentration by relaxation of effort is a perfected āsana intended in classical yoga. Just here is a turning point where āsanas are divided into Rāja-yoga and Haṭha-yoga.Peculiar āsanas of Haṭha-yoga substitute stiffness for steadiness i.e. effort, and relaxation for comfortableness. However repeated training of both stiffness and relaxation is effective in order to maintain āsanas of classical yoga requiring steadiness and comfortableness. Therefore from this point of view, when āsanas of Haṭha-yoga become the process of matching steadiness and comfortableness, they are recognized as valuable means for classical yoga.",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2004",
-      "volume": "17",
-      "issue": "",
-      "start_page": "69",
-      "end_page": "90",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bb96fb2a9e1061ce7f7a54760bb41745",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "bb96fb2a9e1061ce7f7a54760bb41745",
-      "id": "bb96fb2a9e1061ce7f7a54760bb41745"
-    },
-    {
-      "article_id": "47662b64645d7cd2ffe0bdc3ef48d419",
-      "title_kr": "고전 요가의 부수적 좌법(坐法)",
-      "title_en": "The Attendant Asanas of Classical Yoga",
-      "authors": [
-        {
-          "name": "정승석 ( Seung Suk Jung )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
       "abstract_en": "The other attendant āsanas preceded by the four fundamental āsanas have a common point showing more relaxed mode than the latter. The other attendant āsanas are distinguished mainly by a mode of folding or stretching legs.\nThe steadiness leads the comfortableness properly among fundamental āsanas, while the comfortableness leads the steadiness properly among the other attendant āsanas. The steadiness required in āsanas is to aim at concentrated meditation after all, and it needs the comfortableness for this aim.\nPata&ntilde;jali says in Yogasūtra(Ⅱ.47), “[Āsana are perfected] by relaxation of effort and by attaining oneness in meditation with the infinite.” This instruction is to elucidate the principle of āsanas again. In this case, we can understand that ‘relaxation of effort’ means the comfortableness, and that ‘attaining oneness in meditation with the infinite’ means the steadiness. As explained in Yogasūtra-bhāṣya, just a āsana that leads to mental concentration by relaxation of effort is a perfected āsana intended in classical yoga. Just here is a turning point where āsanas are divided into Rāja-yoga and Haṭha-yoga.\nPeculiar āsanas of Haṭha-yoga substitute stiffness for steadiness i.e. effort, and relaxation for comfortableness. However repeated training of both stiffness and relaxation is effective in order to maintain āsanas of classical yoga requiring steadiness and comfortableness. Therefore from this point of view, when āsanas of Haṭha-yoga become the process of matching steadiness and comfortableness, they are recognized as valuable means for classical yoga.",
       "journal_name": "인도철학",
       "year": "2004",
@@ -7177,7 +7116,7 @@
       "start_page": "69",
       "end_page": "90",
       "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=47662b64645d7cd2ffe0bdc3ef48d419",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bb96fb2a9e1061ce7f7a54760bb41745",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000939935",
       "keywords_kr": [],
       "keywords_en": [
@@ -7189,13 +7128,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "47662b64645d7cd2ffe0bdc3ef48d419"
+      ],
       "kci_id": "ART000939935",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "47662b64645d7cd2ffe0bdc3ef48d419",
-      "id": "47662b64645d7cd2ffe0bdc3ef48d419"
+      "riss_id": "bb96fb2a9e1061ce7f7a54760bb41745",
+      "id": "bb96fb2a9e1061ce7f7a54760bb41745"
     },
     {
       "article_id": "71a53ab375ac71117ecd42904f0c5d65",
@@ -7368,7 +7310,7 @@
       "authors": [
         {
           "name": "김호성",
-          "affiliation": "",
+          "affiliation": "동국대학교",
           "order": "1"
         }
       ],
@@ -7382,38 +7324,6 @@
       "end_page": "182",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bb96fb2a9e1061ce4884a65323211ff0",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "bb96fb2a9e1061ce4884a65323211ff0",
-      "id": "bb96fb2a9e1061ce4884a65323211ff0"
-    },
-    {
-      "article_id": "797650a6ef34f345ffe0bdc3ef48d419",
-      "title_kr": "『바가바드기타』를 읽는 샹카라의 호교론(護敎論)적 해석학",
-      "title_en": "Sankara`s Apologetic Hermeneutics on the Bhagavadgta",
-      "authors": [
-        {
-          "name": "김호성 ( Ho Sung Kim )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2004",
-      "volume": "17",
-      "issue": "",
-      "start_page": "155",
-      "end_page": "182",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=797650a6ef34f345ffe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000963016",
       "keywords_kr": [],
       "keywords_en": [
@@ -7430,13 +7340,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "797650a6ef34f345ffe0bdc3ef48d419"
+      ],
       "kci_id": "ART000963016",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "797650a6ef34f345ffe0bdc3ef48d419",
-      "id": "797650a6ef34f345ffe0bdc3ef48d419"
+      "riss_id": "bb96fb2a9e1061ce4884a65323211ff0",
+      "id": "bb96fb2a9e1061ce4884a65323211ff0"
     },
     {
       "article_id": "bb96fb2a9e1061ce47de9c1710b0298d",
@@ -7823,7 +7736,7 @@
       "authors": [
         {
           "name": "김선근",
-          "affiliation": "",
+          "affiliation": "동국대학교",
           "order": "1"
         }
       ],
@@ -7837,38 +7750,6 @@
       "end_page": "19",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3521a64f4db57d23d18150b21a227875",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "3521a64f4db57d23d18150b21a227875",
-      "id": "3521a64f4db57d23d18150b21a227875"
-    },
-    {
-      "article_id": "224c359f583f82d6ffe0bdc3ef48d419",
-      "title_kr": "『금강경』의 인식과 실천",
-      "title_en": "The Diamond Sutra`s Recognition and Practice",
-      "authors": [
-        {
-          "name": "김선근 ( Sun Keun Kim )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2005",
-      "volume": "18",
-      "issue": "",
-      "start_page": "5",
-      "end_page": "19",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=224c359f583f82d6ffe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000996301",
       "keywords_kr": [
         "공작인적 인간관",
@@ -7888,13 +7769,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "224c359f583f82d6ffe0bdc3ef48d419"
+      ],
       "kci_id": "ART000996301",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "224c359f583f82d6ffe0bdc3ef48d419",
-      "id": "224c359f583f82d6ffe0bdc3ef48d419"
+      "riss_id": "3521a64f4db57d23d18150b21a227875",
+      "id": "3521a64f4db57d23d18150b21a227875"
     },
     {
       "article_id": "3521a64f4db57d237f7a54760bb41745",
@@ -8029,7 +7913,7 @@
       "authors": [
         {
           "name": "최종남",
-          "affiliation": "",
+          "affiliation": "고려대학교",
           "order": "1"
         }
       ],
@@ -8043,38 +7927,6 @@
       "end_page": "102",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3521a64f4db57d23c85d2949c297615a",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "3521a64f4db57d23c85d2949c297615a",
-      "id": "3521a64f4db57d23c85d2949c297615a"
-    },
-    {
-      "article_id": "d3f70a4ab31a4c03ffe0bdc3ef48d419",
-      "title_kr": "한역,티베트어역 제명을 산스크리트어 원전 제명과 대조 연구",
-      "title_en": "A Contrastive Study of the Titles of Classic Chinese and Tibetan Translations with Those of Original Sanskrit Texts",
-      "authors": [
-        {
-          "name": "최종남 ( Jong Nam Choi )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2005",
-      "volume": "18",
-      "issue": "",
-      "start_page": "81",
-      "end_page": "102",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d3f70a4ab31a4c03ffe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001172673",
       "keywords_kr": [
         "고려대장경",
@@ -8094,13 +7946,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "d3f70a4ab31a4c03ffe0bdc3ef48d419"
+      ],
       "kci_id": "ART001172673",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "d3f70a4ab31a4c03ffe0bdc3ef48d419",
-      "id": "d3f70a4ab31a4c03ffe0bdc3ef48d419"
+      "riss_id": "3521a64f4db57d23c85d2949c297615a",
+      "id": "3521a64f4db57d23c85d2949c297615a"
     },
     {
       "article_id": "3521a64f4db57d23e9810257f7042666",
@@ -8143,7 +7998,7 @@
       "authors": [
         {
           "name": "안성두",
-          "affiliation": "",
+          "affiliation": "서울대학교",
           "order": "1"
         }
       ],
@@ -8157,38 +8012,6 @@
       "end_page": "129",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3521a64f4db57d2347de9c1710b0298d",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "3521a64f4db57d2347de9c1710b0298d",
-      "id": "3521a64f4db57d2347de9c1710b0298d"
-    },
-    {
-      "article_id": "a5fec5fd053bc89fffe0bdc3ef48d419",
-      "title_kr": "티베트 불교에서의 여래장 해석 -자공설(自空說)과 타공설(他空說)의 차이를 중심으로-",
-      "title_en": "Tathgatagarbha Interpretations in the Tibetan Buddhism -with special Reference to the Rang stong-gZhan stong Differences-",
-      "authors": [
-        {
-          "name": "안성두 ( Sung Doo Ahn )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2005",
-      "volume": "18",
-      "issue": "",
-      "start_page": "103",
-      "end_page": "129",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a5fec5fd053bc89fffe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001172674",
       "keywords_kr": [
         "여래장",
@@ -8210,13 +8033,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "a5fec5fd053bc89fffe0bdc3ef48d419"
+      ],
       "kci_id": "ART001172674",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "a5fec5fd053bc89fffe0bdc3ef48d419",
-      "id": "a5fec5fd053bc89fffe0bdc3ef48d419"
+      "riss_id": "3521a64f4db57d2347de9c1710b0298d",
+      "id": "3521a64f4db57d2347de9c1710b0298d"
     },
     {
       "article_id": "3521a64f4db57d236aae8a972f9116fb",
@@ -8225,7 +8051,7 @@
       "authors": [
         {
           "name": "변순미",
-          "affiliation": "",
+          "affiliation": "장경도량고려대장경연구소",
           "order": "1"
         }
       ],
@@ -8239,38 +8065,6 @@
       "end_page": "159",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3521a64f4db57d236aae8a972f9116fb",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "3521a64f4db57d236aae8a972f9116fb",
-      "id": "3521a64f4db57d236aae8a972f9116fb"
-    },
-    {
-      "article_id": "dfd1a6d4be7e0f19ffe0bdc3ef48d419",
-      "title_kr": "불정존승다라니경의 의미 해석 -망월사 『진언집』의 실담범자를 중심으로-",
-      "title_en": "Semantic Interpretation of Sarvadurgatiparisodhana -usnisavijayadharani: as a Principal Mantra Anthology from Mangweol Temple",
-      "authors": [
-        {
-          "name": "변순미 ( Sun Mi Byeon )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2005",
-      "volume": "18",
-      "issue": "",
-      "start_page": "131",
-      "end_page": "159",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=dfd1a6d4be7e0f19ffe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000996302",
       "keywords_kr": [
         "다라니",
@@ -8286,13 +8080,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "dfd1a6d4be7e0f19ffe0bdc3ef48d419"
+      ],
       "kci_id": "ART000996302",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "dfd1a6d4be7e0f19ffe0bdc3ef48d419",
-      "id": "dfd1a6d4be7e0f19ffe0bdc3ef48d419"
+      "riss_id": "3521a64f4db57d236aae8a972f9116fb",
+      "id": "3521a64f4db57d236aae8a972f9116fb"
     },
     {
       "article_id": "96d6489f02c853e87ecd42904f0c5d65",
@@ -8395,38 +8192,6 @@
       "end_page": "208",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=96d6489f02c853e8b36097776a77e665",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "96d6489f02c853e8b36097776a77e665",
-      "id": "96d6489f02c853e8b36097776a77e665"
-    },
-    {
-      "article_id": "d3a9688b3ad202baffe0bdc3ef48d419",
-      "title_kr": "티베트 불교의 사원 교육 제도",
-      "title_en": "The Monastic Education System in Tibetan Buddhism",
-      "authors": [
-        {
-          "name": "안병남 ( Byung Nam An )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2005",
-      "volume": "18",
-      "issue": "",
-      "start_page": "183",
-      "end_page": "208",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d3a9688b3ad202baffe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000996304",
       "keywords_kr": [
         "겔룩파",
@@ -8446,13 +8211,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "d3a9688b3ad202baffe0bdc3ef48d419"
+      ],
       "kci_id": "ART000996304",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "d3a9688b3ad202baffe0bdc3ef48d419",
-      "id": "d3a9688b3ad202baffe0bdc3ef48d419"
+      "riss_id": "96d6489f02c853e8b36097776a77e665",
+      "id": "96d6489f02c853e8b36097776a77e665"
     },
     {
       "article_id": "47b01fd96aafb45cffe0bdc3ef48d419",
@@ -8685,7 +8453,7 @@
       "authors": [
         {
           "name": "김미숙",
-          "affiliation": "",
+          "affiliation": "동국대학교",
           "order": "1"
         }
       ],
@@ -8699,38 +8467,6 @@
       "end_page": "32",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7a9f9defa5cc4653d18150b21a227875",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "7a9f9defa5cc4653d18150b21a227875",
-      "id": "7a9f9defa5cc4653d18150b21a227875"
-    },
-    {
-      "article_id": "d2f51c5004ea3e3affe0bdc3ef48d419",
-      "title_kr": "자이나교의 요가 사다나",
-      "title_en": "A Yoga Sadhana of Jainism",
-      "authors": [
-        {
-          "name": "김미숙 ( Mi Suk Kim )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "자이나교에서의 요가 개념은 다른 인도 철학파의 용법과 달리 매우 다양하다. 특히 요가라는 말이 카르마 이론과 관련되어 보다 먼저, 널리 사용되었기 때문에 수행론상의 용례가 두루 쓰이지 않게 되었다고 본다.그리고 자이나교에서 요가라는 말은 사다나의 일부를 이루고 있다고 보아야 하며, 고행과 명상이라는 두 부류의 수행 방법으로서 구체화되어 있다는 점을 2종의 요가 사다나라는 체계를 통해서 고찰하고 있다.특히, 3보 중 정행을 이루는 요가 사다나가 고행과 명상이라는 해명을 통해서, 그 중 일부인 고행에만 너무 치중하여 자이나교의 사다나를 바라보는 편향된 관점에는 보다 균형적인 시각이 필요하다는 논지를 전개하고 있다.또한 자이나 명상 요가의 체계를 카욧사르가의 3종 자세와 2단계를 중심으로 하여 도표로 정리한 뒤 설명을 덧붙이고 있다.",
-      "abstract_en": "The concept of yoga represents the core of Indian spiritual sādhana.\nGenerally the technical meaning of yoga is a concentration, and yoga is the process of mental discipline that is common to all Hindu sects. And most of all the Hindu systems including the Nyāya, Vaiśeṣika, Sāṃkhya, Yoga and Vedānta Darśana accept the utility and relevance of yoga in their respective systems.\nIn Jaina philosophy, the term of yoga has many-sided meaning. In this paper, the writer studies the various instance and meaning of yoga in Jaina literature.\nThe writer says that there are fundamental differences with the Hindu yoga. And she points out that the word of yoga is mainly used in the sense of activities of kāya, manas, and vacana in Jaina philosophy.\nIn a general way, it is said that Jaina tradition predominantly lays stress upon austerities, tapas.\nFor all that, the writer comments that the samyak cāritra, right conduct of tri-ratna is the exact equivalent of the general term ‘yoga sādhana’, and Jaina yogic sādhana consists of dravya sādhana and bhāva sādhana. Dravya sādhana, the external sādhana equals to tapas and bhāva sādhana, the internal sādhana means to meditation.\nAnd the writer points out that Jainism lays stress upon meditation more than tapas.\nIn Jaina meditaion, especially the kāyotsarga is not merely a yogic posture, it is a state of mind of one which pursuing the spiritual goal. It is the most important item in Jaina yoga.\nBy practicing the meditation, the sādhaka can purify his soul from karmic pudgala. And it leads one to mokṣa.\nThe Jaina yogic sādhana is neither difficult nor arduous. It is very easy to learn, easy to practice, easy to accept, easy to master skillful.",
-      "journal_name": "인도철학",
-      "year": "2005",
-      "volume": "19",
-      "issue": "",
-      "start_page": "5",
-      "end_page": "32",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d2f51c5004ea3e3affe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001172675",
       "keywords_kr": [
         "자이나교",
@@ -8750,13 +8486,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "d2f51c5004ea3e3affe0bdc3ef48d419"
+      ],
       "kci_id": "ART001172675",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "d2f51c5004ea3e3affe0bdc3ef48d419",
-      "id": "d2f51c5004ea3e3affe0bdc3ef48d419"
+      "riss_id": "7a9f9defa5cc4653d18150b21a227875",
+      "id": "7a9f9defa5cc4653d18150b21a227875"
     },
     {
       "article_id": "7a9f9defa5cc465347de9c1710b0298d",
@@ -8843,7 +8582,7 @@
       "authors": [
         {
           "name": "안성두",
-          "affiliation": "",
+          "affiliation": "서울대학교",
           "order": "1"
         }
       ],
@@ -8857,38 +8596,6 @@
       "end_page": "90",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7a9f9defa5cc46537f7a54760bb41745",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "7a9f9defa5cc46537f7a54760bb41745",
-      "id": "7a9f9defa5cc46537f7a54760bb41745"
-    },
-    {
-      "article_id": "663662e364cb1c88ffe0bdc3ef48d419",
-      "title_kr": "유식문헌에서의 삼성설(三性說)의 유형과 그 해석",
-      "title_en": "The Types of the Trisvabhava theory and their Interpretations: in the Early Indian Yogacara Literatures",
-      "authors": [
-        {
-          "name": "안성두 ( Sung Doo Ahn )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2005",
-      "volume": "19",
-      "issue": "",
-      "start_page": "61",
-      "end_page": "90",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=663662e364cb1c88ffe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001172677",
       "keywords_kr": [
         "삼성(三性)",
@@ -8915,13 +8622,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "663662e364cb1c88ffe0bdc3ef48d419"
+      ],
       "kci_id": "ART001172677",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "663662e364cb1c88ffe0bdc3ef48d419",
-      "id": "663662e364cb1c88ffe0bdc3ef48d419"
+      "riss_id": "7a9f9defa5cc46537f7a54760bb41745",
+      "id": "7a9f9defa5cc46537f7a54760bb41745"
     },
     {
       "article_id": "0e46fb427d2089aee9810257f7042666",
@@ -9010,7 +8720,7 @@
       "authors": [
         {
           "name": "원혜영",
-          "affiliation": "",
+          "affiliation": "연세대학교",
           "order": "1"
         }
       ],
@@ -9024,38 +8734,6 @@
       "end_page": "161",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=0e46fb427d2089aed18150b21a227875",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "0e46fb427d2089aed18150b21a227875",
-      "id": "0e46fb427d2089aed18150b21a227875"
-    },
-    {
-      "article_id": "f631b7e6fb7ed19cffe0bdc3ef48d419",
-      "title_kr": "공동체를 위한 네 가지 항목 -초기 열반경에서 찬나 범단법의 의의-",
-      "title_en": "Four Conditions for the Community of the Early Buddhism",
-      "authors": [
-        {
-          "name": "원혜영 ( Hye Young Won )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2005",
-      "volume": "19",
-      "issue": "",
-      "start_page": "123",
-      "end_page": "161",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f631b7e6fb7ed19cffe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000995884",
       "keywords_kr": [
         "공동체(승가)",
@@ -9074,13 +8752,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "f631b7e6fb7ed19cffe0bdc3ef48d419"
+      ],
       "kci_id": "ART000995884",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "f631b7e6fb7ed19cffe0bdc3ef48d419",
-      "id": "f631b7e6fb7ed19cffe0bdc3ef48d419"
+      "riss_id": "0e46fb427d2089aed18150b21a227875",
+      "id": "0e46fb427d2089aed18150b21a227875"
     },
     {
       "article_id": "7a9f9defa5cc46536aae8a972f9116fb",
@@ -9089,7 +8770,7 @@
       "authors": [
         {
           "name": "정승석",
-          "affiliation": "",
+          "affiliation": "동국대학교",
           "order": "1"
         }
       ],
@@ -9103,38 +8784,6 @@
       "end_page": "189",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7a9f9defa5cc46536aae8a972f9116fb",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "7a9f9defa5cc46536aae8a972f9116fb",
-      "id": "7a9f9defa5cc46536aae8a972f9116fb"
-    },
-    {
-      "article_id": "1f95d46b768d6e47ffe0bdc3ef48d419",
-      "title_kr": "요가 철학의 삼매 분류",
-      "title_en": "The Classification of Samadhi in Yoga Philosophy",
-      "authors": [
-        {
-          "name": "정승석 ( Seung Suk Jung )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "인도철학",
-      "year": "2005",
-      "volume": "19",
-      "issue": "",
-      "start_page": "163",
-      "end_page": "189",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1f95d46b768d6e47ffe0bdc3ef48d419",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000995885",
       "keywords_kr": [
         "요가",
@@ -9156,13 +8805,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "1f95d46b768d6e47ffe0bdc3ef48d419"
+      ],
       "kci_id": "ART000995885",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "1f95d46b768d6e47ffe0bdc3ef48d419",
-      "id": "1f95d46b768d6e47ffe0bdc3ef48d419"
+      "riss_id": "7a9f9defa5cc46536aae8a972f9116fb",
+      "id": "7a9f9defa5cc46536aae8a972f9116fb"
     },
     {
       "article_id": "7a9f9defa5cc4653e9810257f7042666",
@@ -11240,7 +10892,7 @@
       "authors": [
         {
           "name": "원혜영",
-          "affiliation": "",
+          "affiliation": "연세대학교",
           "order": "1"
         }
       ],
@@ -11252,40 +10904,8 @@
       "issue": "23",
       "start_page": "73",
       "end_page": "95",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec858d553c70db2247de9c1710b0298d",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "ec858d553c70db2247de9c1710b0298d",
-      "id": "ec858d553c70db2247de9c1710b0298d"
-    },
-    {
-      "article_id": "ea057edb824ca169",
-      "title_kr": "붓다와 전륜성왕에게 행한 유해 방식은 닮았는가: 초기 열반경을 중심으로",
-      "title_en": "The Relation of Buddha and Cakkavatti Kings in Funeral Ceremony: With a special focus on the early Mahaparinirvanasuttanta",
-      "authors": [
-        {
-          "name": "원혜영 ( Hye Young Won )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "붓다 장례법을 통해 공동체의 와해가 아니라 통합의 역사적 의례행위를 살펴볼 수 있는 이 에피소드는 ‘붓다와 전륜성왕에게 행한 유해방식이 닮아 있다’라는 초기 열반경 텍스트를 근거로 한다. 6종의 텍스트를 비교함으로써 문헌학적 관점에 초점을 맞추려고 한다. 여러 가지 의례 행위들은 6종의 초기 열반경 텍스트에서 거론된 것으로 사리공양, 장례행렬, 장례의식으로 크게 구분된다. 이와 같은 의례 행위들은 출가자뿐만 아니라 재가자들의 참여, 그리고 나아가서 신들의 참여로 일반적으로 생각되는 폐쇄적인 공동체 의식이 아니었다.붓다 장례 연출은 고대 이미지의 체계방식을 이해하는 것으로 고대 공동체의 성향이 화합에 맥을 같이 한다는 점과 권위의 종교의식이 공동체의 확산에 기여하고 있다는 사실에서 고대 텍스트의 서술방식을 그대로 살펴보는 것에 의의가 있다고 하겠다.",
-      "abstract_en": "This episode in particular, where I attempts to define the meaning of funeral ceremony, shows me moving on from ancient India toward early Buddhist. When Mahāparinirvāṇa texts used concepts drown from Hindu or Buddhism thought, it sounded like any other version of the texts(Chinese) for Cakkavatti kings of funeral ceremony that first brought its concepts to the Buddha funeral ceremony.\nThe funeral pyre of events that follw happened with the Buddha's attainment of final Nibbāna. The comparative study of the early Mahāparinirvaṇasuttanta texts have come a long way from the time when it was chiefly concerned with literal comparisons between beliefs.\nThe Buddha and Cakkavatti resemble each other in Funeral ceremonies. That is to say, Cakkavatti king is- “The body of a Cakkavatti kings is wrapped in new cotton cloth, … it is placed in an iron coffin filled with oil, which is then covered with another iron coffin. A funeral pyre of fragrant wood is piled up, set a fire,…are paid with offerings of perfumes, garlands, flowers, incense, and music.” All of these events are preceded by a long history of Cakkavatti funeral toward Buddha funeral. It is last day when Buddha's funeral practiced to community on a major topic in festival. The relation of Buddha and Cakkavatti kings in funeral ceremony toward a positive view is almost a history of manners, on its theatrical side, and certainly an example of cultural mutuality.",
-      "journal_name": "인도철학",
-      "year": "2007",
-      "volume": "0",
-      "issue": "23",
-      "start_page": "73",
-      "end_page": "95",
       "doi": "10.32761/kjip.2007..23.003",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ea057edb824ca169",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec858d553c70db2247de9c1710b0298d",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001077695",
       "keywords_kr": [
         "붓다",
@@ -11304,13 +10924,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "ea057edb824ca169"
+      ],
       "kci_id": "ART001077695",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "ea057edb824ca169",
-      "id": "ea057edb824ca169"
+      "riss_id": "ec858d553c70db2247de9c1710b0298d",
+      "id": "ec858d553c70db2247de9c1710b0298d"
     },
     {
       "article_id": "51694fef24ba237d",
@@ -11362,7 +10985,7 @@
       "authors": [
         {
           "name": "강성용",
-          "affiliation": "",
+          "affiliation": "오스트리아비엔나대학교",
           "order": "1"
         }
       ],
@@ -11374,40 +10997,8 @@
       "issue": "23",
       "start_page": "117",
       "end_page": "146",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec858d553c70db22c85d2949c297615a",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "ec858d553c70db22c85d2949c297615a",
-      "id": "ec858d553c70db22c85d2949c297615a"
-    },
-    {
-      "article_id": "ac1ae20ec9f66580",
-      "title_kr": "초선의 경험과 회상 그리고 서술: 붇다 일대기에서 초선에 대한 서술이 갖는 특징과 그 의미들",
-      "title_en": "Experience, Recollection and Description of the First Meditation",
-      "authors": [
-        {
-          "name": "강성용 ( Sung Yong Kang )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "붇다의 일대기에 대한 전승을 전하는 문헌들에서 특징적인 점은 붇다의 유년시절에 대한 서술에서 불교사적으로 의미가 큰 두 사건들, 즉 “사문유관”(四門遊觀)이라고 불리는 사건과 “초선”(初禪 prathama dhynam)이라는 사건이 결합되고 유기적인 일체가 되어 나타나지 않는다는 것이다. 특히 초선에 대한 전승들이 보여주는 내용의 편차는 아주 크다. 본 논문에서 필자는 초선이라는 사건과 사문유관의 사건이 그 발생사적인 출발점에서 근본적인 차이를 가지고 있음을 밝힌다. 즉 사문유관은 설화적인 요소가 강한 반면, 초선에 대한 서술은 설화적이라기보다는 역사적인 사건이었던 것이다. 하지만 Majjhimanikya에 나타난 것과 같은 ‘초선의 회상’이라는 경험이 갖는 구조적인 이중성에 주목해야 한다. 이러한 구조적인 정확한 이해가 전제되어야만 후대 여러 불교문헌들에 나타나는 초선의 경험에 대한 판연하게 다른 서술들이 모두 연관된 역사적인 흐름 안에 놓여 있으며, 시대와 전통에 따른 붇다에 대한 이해 그리고 해탈에 대한 이해의 변화를 나타내는 것들임을 이해할 수 있다.",
-      "abstract_en": "The descriptions of the life of the historical Buddha preserved in numerous texts show a peculiar feature: the two significant events, namely \"Four Doors' Encounter\" and \"The First Meditation\" are not, at least for the later Buddhists, harmoniously united in the whole story of the life of the historical Buddha. Especially the transmitted stories of \"The First Meditation\" show very divergent contents and structures.\nIn this article it is attempted to demonstrate that the historical origins of these two stories are totally different. The \"Four Doors' Encounter\" comes from the narrative elements fitted to the later standards of the Buddhist teachings rather than from the historical elements. In contrast, the stories concerning \"The First Meditation\" seem to stem from the historical reports of the historical Buddha (for example, those reported in Majjhimanikāya I 246f.) about how he has come to change the methods to reach his Enlightenment.\nFurthermore, the attention should be paid to the structural peculiarity of the story of \"The First Meditation.\" The historical starting point of the whole event is a recollection of the Buddha of his experience in his childhood. As a recollection, this story has two time-references from the beginning, and this fact can explain the formation of the divergent versions transmitted in numerous texts.",
-      "journal_name": "인도철학",
-      "year": "2007",
-      "volume": "0",
-      "issue": "23",
-      "start_page": "117",
-      "end_page": "146",
       "doi": "10.32761/kjip.2007..23.005",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ac1ae20ec9f66580",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec858d553c70db22c85d2949c297615a",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001077697",
       "keywords_kr": [
         "초선",
@@ -11422,13 +11013,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "ac1ae20ec9f66580"
+      ],
       "kci_id": "ART001077697",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "ac1ae20ec9f66580",
-      "id": "ac1ae20ec9f66580"
+      "riss_id": "ec858d553c70db22c85d2949c297615a",
+      "id": "ec858d553c70db22c85d2949c297615a"
     },
     {
       "article_id": "ec858d553c70db22b7998d826d417196",
@@ -11437,7 +11031,7 @@
       "authors": [
         {
           "name": "박효엽",
-          "affiliation": "",
+          "affiliation": "경북대학교",
           "order": "1"
         }
       ],
@@ -11449,40 +11043,8 @@
       "issue": "23",
       "start_page": "147",
       "end_page": "178",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec858d553c70db22b7998d826d417196",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "ec858d553c70db22b7998d826d417196",
-      "id": "ec858d553c70db22b7998d826d417196"
-    },
-    {
-      "article_id": "bc376c5a4878e8ff",
-      "title_kr": "가상현실에 대한 참된 인식과 가상적 욕망의 해소: 아드와이따 베단따의 모형",
-      "title_en": "The Right Understanding on the Virtual Reality and The Cancellation of Virtual Desire: A Model of Advaita Vedanta",
-      "authors": [
-        {
-          "name": "박효엽 ( Hyo Yeop Park )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "가현설 혹은 환영설을 주장하는 아드와이따 베단따라는 체계는 가상현실에 대한 담론에 하나의 모형이 될 수 있다. 이 학파의 ‘실재/현상’이라는 구도는 ‘현실/가상현실’이라는 구도와 대응하고, 현상의 상대적 실재성과 지양 가능성은 가상현실의 상대적 현실성과 파기 가능성을 설명할 수 있기 때문이다. 게다가 이 학파의 실재와 현상에 대한 분별적 지식 혹은 참된 인식은 현실과 가상현실 사이의 혼동을 극복하기 위한 여지를 주고, 이 학파에서 현상적 자아의 거짓된 욕망을 해소하기 위한 실천적 방법은 가상현실의 가상적 욕망으로부터 자유로울 수 있는 가능성을 제공해주기 때문이다.",
-      "abstract_en": "The system of Advaita Vedānta which insists on Vivarta-vāda or Māyā-vāda can be a comparative model in relation to the discourse on virtual reality. For this argument three grounds are suggested as follows; Firstly, the structure of 'Reality-appearance' in this Philosophical School is equivalent to that of 'reality-virtual reality', and the characteristic of relative reality and the possibility of sublation on the part of appearance would account for the status of virtual reality. According to Advaita Vedānta, Reality is one without a second and appearance is nothing but illusion (māyā) or fiction (mithyā). Those theories that show a detailed analysis on appearance such as ābhāsa-vāda, pratibimba-vāda, avaccheda-vāda present the fact that all appearance exist in dependence on Reality. As a result, appearance is relatively existent and is sublated when the knowledge of Reality is attained. Such a logic is equally applied to the discourse on virtual reality.\nSecondly, the discriminative knowledge (viveka-jñāna) or right understanding between Reality and appearance in this School gives a room for overcoming the confusion between reality and virtual reality. Reality is what truly does exist, appearance is what truly does not exist. Although appearance is not what wholly does not exist but what truly does not exist, as it can be negated by what truly does exist, there is a necessity for knowing Reality and appearance discriminately. Such a logic is equally applied to the discourse on virtual reality.\nThirdly, the practical methodology for cancelling false desire on the side of phenomenal self in this School provides a possibility of which one can be freed from virtual desire in the virtual (cyber) space. In this School it is said that the phenomenal self is superimposed on the real Self. And that phenomenal self as a complex of virtual desire is placed on the state of false desire which is made of physical, psychological, linguistical conditions. As a matter of fact, this negative attitude on desire is a strategic device for the sake of actualizing freedom. Such a logic is equally applied to the discourse on virtual reality.",
-      "journal_name": "인도철학",
-      "year": "2007",
-      "volume": "0",
-      "issue": "23",
-      "start_page": "147",
-      "end_page": "178",
       "doi": "10.32761/kjip.2007..23.006",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bc376c5a4878e8ff",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec858d553c70db22b7998d826d417196",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001077210",
       "keywords_kr": [
         "실재",
@@ -11503,13 +11065,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "bc376c5a4878e8ff"
+      ],
       "kci_id": "ART001077210",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "bc376c5a4878e8ff",
-      "id": "bc376c5a4878e8ff"
+      "riss_id": "ec858d553c70db22b7998d826d417196",
+      "id": "ec858d553c70db22b7998d826d417196"
     },
     {
       "article_id": "ec858d553c70db227ecd42904f0c5d65",
@@ -11518,7 +11083,7 @@
       "authors": [
         {
           "name": "권서용",
-          "affiliation": "",
+          "affiliation": "부산대학교",
           "order": "1"
         }
       ],
@@ -11530,40 +11095,8 @@
       "issue": "23",
       "start_page": "179",
       "end_page": "197",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec858d553c70db227ecd42904f0c5d65",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "ec858d553c70db227ecd42904f0c5d65",
-      "id": "ec858d553c70db227ecd42904f0c5d65"
-    },
-    {
-      "article_id": "74c2857ca8173c74",
-      "title_kr": "다르마끼르띠와 화이트헤드 사상의 접점: 현실적 존재(vastu, actual entity)의 찰나멸을 중심으로",
-      "title_en": "The Conjunction of Dharmakirti and Whitehead`s Thought: In the view of vastu and actual entity`s momentariness",
-      "authors": [
-        {
-          "name": "권서용 ( Seo Yong Kwon )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "다르마끼르띠(法稱,600-660)는 7세기 인도의 불교사상가이다. 화이트헤드(白頭,1861-1947)는 20세기 영국의 과정철학자이다. 이 논문은 다르마끼르띠의 vastu와 화이트헤드의 actual entity를 비교하고 있다. 다시 말하면 다르마끼르띠의 vastu는 화이트헤드의 actual entity에 상당한다. vastu와 actual entity는 이 세계를 구성하는 궁극적 사물이다. vastu와 actual entity를 넘어 보다 더 실재적인 존재를 발견할 수 없다. 다르마끼르띠와 화이트헤드는, vastu와 actual entity의 본질은 ‘변화’가 아니라 ‘찰나멸’이라 주장한다.",
-      "abstract_en": "Dharmakīrti(法稱, 600～660) is Buddhist Thinker of India in 7th Century. Whitehead(白頭, 1861～1947) is Process Philosophy of England in 20th Century.\nThis Paper compares Dharmakīrti's vastu with Whitehead's actual entity. In other words, Dharmakīrti's vastu corresponds to Whitehead's actual entity.\nVastu and Actual entity is ‘the final real thing of which the world is made up. There is no going behind vastu and actual entity to find anything more real.' Dharmakīrti and Whitehead insist that the essence of vastu and actual entity is not ‘change’, but ‘momentariness’.",
-      "journal_name": "인도철학",
-      "year": "2007",
-      "volume": "0",
-      "issue": "23",
-      "start_page": "179",
-      "end_page": "197",
       "doi": "10.32761/kjip.2007..23.007",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=74c2857ca8173c74",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec858d553c70db227ecd42904f0c5d65",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001077211",
       "keywords_kr": [
         "무상",
@@ -11582,13 +11115,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "74c2857ca8173c74"
+      ],
       "kci_id": "ART001077211",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "74c2857ca8173c74",
-      "id": "74c2857ca8173c74"
+      "riss_id": "ec858d553c70db227ecd42904f0c5d65",
+      "id": "ec858d553c70db227ecd42904f0c5d65"
     },
     {
       "article_id": "6db3e755a58a0bc8e9810257f7042666",
@@ -11597,7 +11133,7 @@
       "authors": [
         {
           "name": "안성두",
-          "affiliation": "",
+          "affiliation": "서울대학교",
           "order": "1"
         }
       ],
@@ -11609,40 +11145,8 @@
       "issue": "23",
       "start_page": "199",
       "end_page": "239",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6db3e755a58a0bc8e9810257f7042666",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "6db3e755a58a0bc8e9810257f7042666",
-      "id": "6db3e755a58a0bc8e9810257f7042666"
-    },
-    {
-      "article_id": "525624285b399b0d",
-      "title_kr": "인도불교 초기 유식문헌에서의 언어와 실재와의 관계: 유가사지론(瑜伽師地論)의 삼성(三性)과 오사(五事)를 중심으로",
-      "title_en": "The Relation of the Language and Reality in the Early Indian Yogacara Literatures: With special Reference to the Tri-svabhava and Panca-vastuka in the Yogacarabhumi",
-      "authors": [
-        {
-          "name": "안성두 ( Seong Doo Ahn )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "본 논문은 유식학파의 삼성설의 선행이론으로서 진실의품에 나타난 언어표현과 그 근거로서의 사태(vastu)의 관계와 진실의품 <五事章>에 나타난 五事의 범주 중에서 언어표현의 근거로서의 相(nimitta)과 명칭의 관계를 논의했다. 그리고 이 두 개소의 설명을 해심밀경의 삼성설과 관련하여 세 문헌의 관련성과 성립사적 선후문제를 논의했다. 아울러 이들 문헌에 대한 근래의 선행연구들의 업적과 몇 가지 문제점들을 다루었다.",
-      "abstract_en": "Indian Buddhism has shown from the outset the tendency to the nominalistic analysis, and in this respect it differs from the orthodoxical systems of Indian philosophy, which based themselves on the realism. The criterion for dividing realism from the nominalism lies in the different views on the referential meaning of the language. The most characteristical theory that rejects the external objects and accepts only their mental images was presented by the Buddhist Mind-Only School, which is also named as Vijñānavāda or Yogācāra School.\nThe present paper deals with the Tri-svabhāva (\"Three Natures\")and Pañca-vastuka theories in the Yogācārabhūmi, As far as the first theory is concerned, it was for the first time formulated in the Saṃdhinirmocana-Sūtra and is typical for the Mind-Only School, and also called \"Tri-lakṣaṇa\" (three Characteristics). The Tri-svabhāva consists of Parikalpita-svabhāva (\"imagined Nature\"), Paratantra-svabhāva (\"Dependent Nature\") and Pariniṣpanna-svabhāva (\"Perfectly accomplished Nature\"). 'Imagined Nature' means that the so-called objective referents are actually projections of consciousness. 'Dependent Nature' means that the consciousness itself is constituted by dependent origination. 'Perfectly accomplished Nature' means the absence of projection of consciousness.\nFrom the history of ideas the theory of Tri-svabhāva is said to be developed from the Yogācārabhūmi, which has five parts. In the first part, Maulī Bhūmi, there are no solid bases that show the full development of the terminologies, though they are mentioned in some passages. In the Bodhisattva-bhūmi of Maulī Bhūmi, for example, the relationship between the referential object and projection of consciousness are fully realized and their philosophical implications are discussed. But it would be too far away, if one assumes that the chapter discusses the problems in the context of the \"Three Natures\", though it can be regarded as a forerunner of this theory.\nThe Problems is more complicated through the another chapter in the second part of the Yogācārabhūmi, the Viniścayasaṃgrahaṇī, which presents the same conceptual implications in the context of the \"Five categories\" (Pañca-vastuka).\nIn the Viniścayasaṃgrahaṇī the same problems are discussed with the following five categories (vastu): nimitta (referential object\"), nāman (\"concept\"), vikalpa (\"projection\"), tathatā (\"thusness\") and saṃyagjñāna (\"right knowledge\"). This chapter analyses the relation of these five categories through 40 aspects. Present paper aims at determining the historical priority of the five categories. In the next step, I deal with the Tri-svabhāva of the Saṃdhinirmocana-Sūtra, focusing on the extinguishment of Paratantra-svabhāva. In comparing this aspect with the standard description on Trisvabhāva presented in the Mahāyāna-Saṃgrāha, I tries to show that the Saṃdhinirmocana-Sūtra has syncretistic attitude, which was later divided and clearly formulated in the two forms of Tri-svabhāva.\nRecently two books, dealing with the problems in the Yogācārabhūmi, are published separately. I have examined some themes in these books and suggested my own observations.",
-      "journal_name": "인도철학",
-      "year": "2007",
-      "volume": "0",
-      "issue": "23",
-      "start_page": "199",
-      "end_page": "239",
       "doi": "10.32761/kjip.2007..23.008",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=525624285b399b0d",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6db3e755a58a0bc8e9810257f7042666",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001077213",
       "keywords_kr": [
         "유식학",
@@ -11665,13 +11169,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "525624285b399b0d"
+      ],
       "kci_id": "ART001077213",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "525624285b399b0d",
-      "id": "525624285b399b0d"
+      "riss_id": "6db3e755a58a0bc8e9810257f7042666",
+      "id": "6db3e755a58a0bc8e9810257f7042666"
     },
     {
       "article_id": "39fa1a6e3e79e9f8",
@@ -14105,9 +13612,9 @@
       "issue": "28",
       "start_page": "139",
       "end_page": "170",
-      "doi": "",
+      "doi": "10.32761/kjip.2010..28.006",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a763bea9c67101e77ecd42904f0c5d65",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001424080",
       "keywords_kr": [
         "世親",
         "衆賢(新薩婆多)",
@@ -14128,73 +13635,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "sources": [
-        "RISS"
+      "alt_ids": [
+        "568380d9225584bdffe0bdc3ef48d419"
       ],
-      "riss_id": "a763bea9c67101e77ecd42904f0c5d65",
-      "id": "a763bea9c67101e77ecd42904f0c5d65"
-    },
-    {
-      "article_id": "568380d9225584bdffe0bdc3ef48d419",
-      "title_kr": "투고 논문: 불교철학에 있어 학파적 복합성과 독단성(1) -세친(世親)의 『유식이십론(唯識二十論)』에서의 외계대상 비판의 경우-",
-      "title_en": "An Investigation into Vasubandhu`s Criticism of An External Object in Vims atika",
-      "authors": [
-        {
-          "name": "권오민 ( Oh Min Kwon )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "世親은 그의 『유식이십론』 제10-13송에서 외계대상이 다수의 극미의 결합이라고 주장하는 경우, 부분적으로 결합한 것이라면 극미는 부분을 갖는 것이 되고, 전체적으로 결합한 것이라면 聚色은 하나의 극미 크기가 되어야 하며, 만약 극미는 無方分으로 결합하는 일이 없다면 취색 또한 그러하다고 해야 하고, 有方分이라면 극미라고 할 수 없다는 논리적 딜레마로써 외계대상을 비판하고 있다. 그러나 이러한 딜레마는 이미 『대비바사론』에서 검토된 것이었다. 이에 따라 衆賢은 우리가 지각하는 외계대상은 `무방분의 제 극미가 無間으로 근접하여 생겨난 것`으로 규정하여 이를 `和集`이라 하였고, 上座슈리라타(Sr?lalta)는 `극미 자체가 방분이기 때문에 실제적으로 결합(접촉)한 것`으로 규정하여 이를 `和合`이라 하였다. 따라서 세친의 비판은 유식설을 드러내기 위한 전제로서는 의미 있을지언정 비판 자체로서는 무의미하다. 『대비바사론』에서의 극미설이나 중현과 상좌의 논의가 고려되지 않는 한 세친의 비판은 그 자신의 것이라고 할 수밖에 없지만, 그럴 경우 불교철학은 교조적 독단성을 면하기 어려울 것이다. 아울러 『대비바사론』에서의 극미설을 비롯한 화집과 화합에 대한 유가행파의 비판은 陳那의 『觀所緣緣論』 제1-5송에서 인식대상의 문제(所緣性)와 관련하여 이루어지고 있지만 이 역시 그러한데, 이에 대해서는 본고의 속편에서 다루게 될 것이다.",
-      "abstract_en": "In case that an external object was the congregation of paramalnus(atoms), Vasubandhu criticized an external object with the logical dilemma in Vimsatikal v.10-13, that if it is their partial congregation, they have parts, but that if it is their general congregation, congregated matter should amount to one paramanu in size, and that one should say that if they do not congregate with others because they do not have any parts, congregated matter does not have either, and that if they have parts, they cannot be said to be paramanu. Such dilemma, however, had already been examined in Mahavibhasasatra. According to it, Samghabhadra provided that the external object perceived by us was `the produced as it is in the absolute approach of paramanus without any gap` and called it `congregation without a gap(和集)`. Sthavira Srilata provided that `a paramanu itself actually congregation with others because it is a part in itself` and called it `inseparable congregation(和合)`. Thus, Vasubandhu`s criticism may be significant as a presupposition for revealing the theory of Vijnaptimaltratal, but is insignificant as criticism itself. As far as the theory of paramanu in Mahavibhasasastra or Samghabhadra`s and Sthavira`s arguments are not considered, it is inevitably said to be his. In that case, Buddhist philosophy will not be able to evade dogmatism. Together with it, the criticism of the Yogalcalra school on congregation without a gap and inseparable congregation of paramanus is made in connection with the object of cognition(allambana) in Dignalga`s Alambanapariksa v.2-5. It is also so. It will be dealt with in a sequel.",
-      "journal_name": "인도철학",
-      "year": "2010",
-      "volume": "0",
-      "issue": "28",
-      "start_page": "139",
-      "end_page": "170",
-      "doi": "10.32761/kjip.2010..28.006",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=568380d9225584bdffe0bdc3ef48d419",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001424080",
-      "keywords_kr": [
-        "세친",
-        "世親",
-        "중현",
-        "중현",
-        "신살파다",
-        "衆賢",
-        "新薩婆多",
-        "상좌슈리라타",
-        "경량부 上座슈리라타",
-        "經量部",
-        "극미설",
-        "화집과 화합",
-        "和集과 和合",
-        "외계대상",
-        "和合",
-        "和集"
-      ],
-      "keywords_en": [
-        "vasubandhu",
-        "saMghabhadra",
-        "neo-sarvAstivAda",
-        "zrIlAta",
-        "sautrAntika",
-        "paramANu",
-        "inseparable congregation",
-        "congregation without a gap",
-        "paramANu",
-        "external object"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
       "kci_id": "ART001424080",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "568380d9225584bdffe0bdc3ef48d419",
-      "id": "568380d9225584bdffe0bdc3ef48d419"
+      "riss_id": "a763bea9c67101e77ecd42904f0c5d65",
+      "id": "a763bea9c67101e77ecd42904f0c5d65"
     },
     {
       "article_id": "d54c5a03e7c0f7c0ffe0bdc3ef48d419",
@@ -14782,9 +14232,9 @@
       "issue": "29",
       "start_page": "205",
       "end_page": "226",
-      "doi": "",
+      "doi": "10.32761/kjip.2010..29.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=036883e5496310ece9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001476690",
       "keywords_kr": [
         "龍樹",
         "中論",
@@ -14810,64 +14260,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "sources": [
-        "RISS"
+      "alt_ids": [
+        "11cf12d1ad1534eeffe0bdc3ef48d419"
       ],
-      "riss_id": "036883e5496310ece9810257f7042666",
-      "id": "036883e5496310ece9810257f7042666"
-    },
-    {
-      "article_id": "11cf12d1ad1534eeffe0bdc3ef48d419",
-      "title_kr": "용수(龍樹) 중론(中論)의 선적(禪的) 고찰(考察)",
-      "title_en": "A Study on the Seon Aspect of the Nagarjuna`s Madhyamaka Ka rika",
-      "authors": [
-        {
-          "name": "이법산 ( Beop San Lee )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "The Madhyamaka Karika of Nagarjuna consisted of 500 stanzas in 27 chapters. It has been known to be one of the best theoretical summary of the 600 volumes of the wisdom sutras. In this text, Nagarjuna clarifies the absolute absence of intrinsic nature within all dharmas from the perspective of dependent origination so that one can eventually realizes the true intrinsic nature of all things. In this aspect, language could only be a means to deliver a certain message of which its role will ends after the delivery completed. Within the Seon tradition, the mind is the key to actualize such message. In this respect, seon could be said to practice at the edge of language in order to realize the true meaning of the intrinsic nature both within us and above the whole universe. According to the Chan (Chinese equivalent of Korean Seon) tradition, Nagarjuna was regarded as the 14th Chan Master in the tradition lineage starting from Mahakasyapa. The languages used by Chinese Chan tradition cannot easily be understood from the normal linguistic structure. Through the doubts from the paradoxical question delivered by means of language, seon meditation pursuits the realization of the meaning of the true nature. In my opinion, the paradoxical question used within the Chan tradition could be in the line of the utilization from theabsolute negative logic used by Nagarjuna in his Madhyamaka Karika and in use of the practising method of the Chan meditation. Nirvana could be defined as the destruction of defilements, while the truth could be realized through the cessation of the spoiled mind. The paradoxical question could be the best means to destroy such spoiled delusion. By establishing the right view through destroying biased views, one can not only destroy ignorance but one can also realize the perfect wisdom. In this respect, one can safely say that the theoretical aspect of the Nagarjuna`s Madhyamaka Karika can be practiced through the seon meditation methods.",
-      "abstract_en": "The Madhyamaka Kārikā of Nāgārjuna consisted of 500 stanzas in 27 chapters. It has been known to be one of the best theoretical summary of the 600 volumes of the wisdom sūtras. In this text, Nāgārjuna clarifies the absolute absence of intrinsic nature within all dharmas from the perspective of dependent origination so that one can eventually realizes the true intrinsic nature of all things. In this aspect, language could only be a means to deliver a certain message of which its role will ends after the delivery completed. Within the Seon tradition, the mind is the key to actualize such message. In this respect, seon could be said to practice at the edge of language in order to realize the true meaning of the intrinsic nature both within us and above the whole universe.\nAccording to the Chan (Chinese equivalent of Korean Seon) tradition, Nāgārjuna was regarded as the 14th Chan Master in the tradition lineage starting from Mahākaśyapa. The languages used by Chinese Chan tradition cannot easily be understood from the normal linguistic structure. Through the doubts from the paradoxical question delivered by means of language, seon meditation pursuits the realization of the meaning of the true nature.\nIn my opinion, the paradoxical question used within the Chan tradition could be in the line of the utilization from the absolute negative logic used by Nāgārjuna in his Madhyamaka Kārikā and in use of the practising method of the Chan meditation. Nirvana could be defined as the destruction of defilements, while the truth could be realized through the cessation of the spoiled mind. The paradoxical question could be the best means to destroy such spoiled delusion. By establishing the right view through destroying biased views, one can not only destroy ignorance but one can also realize the perfect wisdom. In this respect, one can safely say that the theoretical aspect of the Nāgārjuna's Madhyamaka Kārikā can be practiced through the seon meditation methods.",
-      "journal_name": "인도철학",
-      "year": "2010",
-      "volume": "0",
-      "issue": "29",
-      "start_page": "205",
-      "end_page": "226",
-      "doi": "10.32761/kjip.2010..29.007",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=11cf12d1ad1534eeffe0bdc3ef48d419",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001476690",
-      "keywords_kr": [
-        "용수",
-        "龍樹",
-        "중론",
-        "中論",
-        "반약",
-        "般若",
-        "조사선",
-        "祖師禪",
-        "간화선",
-        "看話禪"
-      ],
-      "keywords_en": [
-        "nAgArjuna",
-        "madhyamaka kArikA",
-        "emptiness",
-        "wisdom",
-        "seon",
-        "seon master",
-        "ganhwa meditation"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
       "kci_id": "ART001476690",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "11cf12d1ad1534eeffe0bdc3ef48d419",
-      "id": "11cf12d1ad1534eeffe0bdc3ef48d419"
+      "riss_id": "036883e5496310ece9810257f7042666",
+      "id": "036883e5496310ece9810257f7042666"
     },
     {
       "article_id": "a1ae628b2ed09a7fffe0bdc3ef48d419",
@@ -17885,9 +17287,9 @@
       "issue": "35",
       "start_page": "219",
       "end_page": "248",
-      "doi": "",
+      "doi": "10.32761/kjip.2012..35.007",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=052efc1ba13a4bd9e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001687663",
       "keywords_kr": [
         "현장",
         "유식비량",
@@ -17919,64 +17321,16 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
-      "sources": [
-        "RISS"
+      "alt_ids": [
+        "3d1d2c8c24772136ffe0bdc3ef48d419"
       ],
-      "riss_id": "052efc1ba13a4bd9e9810257f7042666",
-      "id": "052efc1ba13a4bd9e9810257f7042666"
-    },
-    {
-      "article_id": "3d1d2c8c24772136ffe0bdc3ef48d419",
-      "title_kr": "현장(玄奬)의 유식비량(唯識比量) 논난(論難)에 대한 중관학적(中觀學的) 고찰(考察)",
-      "title_en": "A Study of the Hyun-Jang`s Vijnaptimatra-Anumana from the View of Indian Madhyamaka Thought",
-      "authors": [
-        {
-          "name": "이태승 ( Tae Seung Lee )",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "인도에서 17년간 체재한 현장은 귀국에 이르러 유식비량의 논증식을 만들어 자신의 사상적 입장을 드러낸다. 이 유식비량은 귀국 후에도 제자들 사이에 전해져 그 논리식에 관한 다양한 논의가 전개된다. 이 현장의 유식비량에 대해 그의 제자이었던 신라승 순경이 결정상위의 비량을 현장에게 보낸 역사적 사실이 규기의 저술을 통해 알려진다. 이 현장의 유식비량이 가지는 모순을 지적한 결정상위가 순경의 작인지 원효의 작인지를 두고 현재까지도 논의가 이루어지고 있다. 그렇지만 원효는 그의 『판비량론』에서 그 양자를 모두 비판하고 있다. 이렇듯 현장의 유식비량은 동아시아에 큰 논난을 던진 중요한 역사적 사건이지만, 이 유식비량이 가지는 사상적 의미를 인도의 중관학파와 비교해 보고자 한 것이 본논문이다. 왜냐하면 인도 중관학파의 청변에게서도 그 유식비량의 내용과 유사한 논리식이 사용되었고 그에 대한 비판이 전개되어 중관학파의 중요한 역사적 전승이 되었기 때문이다. 특히 청변의 논리식에 보이는 ``승의에 있어서``란 한정어는 후대 후기중관파에게로 전승되는 중요한 사상적인 면을 가지기도 한다. 이러한 인도 중관사상에서 논의된 논리식을 둘러싼 논의를 통해 현장의 유식비량에 대한 의미를 재고찰해 보고 아울러 결정상위 논리식의 의미도 재삼 고찰해본다.",
-      "abstract_en": "Hyun-Jang(玄奬) who had stayed for 17 years in India for his study showed his thought in a traditional logical formula called Vijnaptimatra-anumana(唯識比量). After returning to China, his vijnaptimatra-anumana became to be known to his disciples and caused many disputations. The story of disputations was reported to Shilla by Sun-kyung(順憬) who was one of Hyun-Jang`s disciples from Shilla. Not a long time, Sun-kyung sent an anti-vijnaptimatra- anumana, so-called Decisive-Difference logic(決定相違), to Kyu-Ki(窺基), an representative disciple of Hyun-Jang after Kyu-Ki replied and answered the anti-vijnaptimatra- anumana logic. But there was a question about who was the writer of the anti-vijnaptimatra- anumana out of Sun-Kyung and Won-Hyo(元曉). The discussion about who is the writer is underway between Sun-Kyung and Won-Hyo(元曉). Nevertheless from the fact that there is criticism of both, vijnaptimatra-anumana and anti- vijnaptimatra-anumana in the Won-Hyo`s work Pan-Bi- Ryang-Ron(判比量論). I think that Won-Hyo is not a writer of the anti-vijnaptimatra-anumana logic. From the view of historical tradition, Hyun-Jang`s vijnaptimatra-anumana was a spring of many disputations about Buddhist logic for a long time in East Asia. Moreover, this Hyun-Jang`s vijnaptimatra-anumana had a significant meaning of Indian Buddhist thought, especially in comparison with the Madhyamaka thought. It is because Hyung-Jang`s logic had a similar aspect of Bhaviveka`s logic, who was a famous Madhyamaka logist in India. It was famous that Bhaviveka used the logic in explaining Nagarjuna`s Mulamadhyamaka. Bhaviveka used the premise of ultimate aspect in explaining his logic. Considering many circumstances, it is probably certain that Hyun-Jang`s logic was affected from his thought. But, in India, Bhaviveka`s attitude to the logic was criticized by other Madhyamaka thinker, Candrakirti. It is important for Candrakirti`s criticism to understand anti-vijnaptimatra- anumana to Hyun-Jang`s logic. And, Bhaviveka`s aspect to take a serious view of logic was transmitted to the later Madhyamaka logists and philosophers, for instance, Santaraksita in India. The purpose of this study is to consider the relationship between the Hyun-Jang`s and Bhaviveka`s logic and investigate the meaning of Hyun-Jang`s logic from the viewpoint of Madhyamaka tradition in India Buddhism.",
-      "journal_name": "인도철학",
-      "year": "2012",
-      "volume": "0",
-      "issue": "35",
-      "start_page": "219",
-      "end_page": "248",
-      "doi": "10.32761/kjip.2012..35.007",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3d1d2c8c24772136ffe0bdc3ef48d419",
-      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001687663",
-      "keywords_kr": [
-        "현장",
-        "유식비량",
-        "순경",
-        "원효",
-        "『판비량론』",
-        "청변",
-        "월칭",
-        "지장",
-        "적호"
-      ],
-      "keywords_en": [
-        "Hyun-Jang",
-        "Vijnaptimatra-anumana",
-        "Sun-Kyung",
-        "Won-Hyo",
-        "Pan-Bi-Ryang-Ron",
-        "Bhaviveka",
-        "Candrakirti",
-        "Santaraksita"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
       "kci_id": "ART001687663",
       "sources": [
         "RISS",
         "KCI"
       ],
-      "riss_id": "3d1d2c8c24772136ffe0bdc3ef48d419",
-      "id": "3d1d2c8c24772136ffe0bdc3ef48d419"
+      "riss_id": "052efc1ba13a4bd9e9810257f7042666",
+      "id": "052efc1ba13a4bd9e9810257f7042666"
     },
     {
       "article_id": "510cb029cc60b58affe0bdc3ef48d419",

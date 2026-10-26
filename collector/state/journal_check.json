@@ -2,7 +2,8 @@
   "updated": "2026-10-26",
   "journals": {
     "IJBTC": {
-      "riss": 421,
+      "riss": 420,
+      "riss_dups": 1,
       "kci": 407,
       "kci_links": 0,
       "paired": 406,
@@ -16,7 +17,8 @@
       "new": 0
     },
     "강좌미술사": {
-      "riss": 845,
+      "riss": 833,
+      "riss_dups": 12,
       "kci": 236,
       "kci_links": 356,
       "paired": 235,
@@ -30,7 +32,8 @@
       "new": 0
     },
     "대각사상": {
-      "riss": 425,
+      "riss": 415,
+      "riss_dups": 10,
       "kci": 323,
       "kci_links": 0,
       "paired": 323,
@@ -44,7 +47,8 @@
       "new": 0
     },
     "동아시아불교문화": {
-      "riss": 1113,
+      "riss": 1073,
+      "riss_dups": 40,
       "kci": 1011,
       "kci_links": 0,
       "paired": 1011,
@@ -58,7 +62,8 @@
       "new": 0
     },
     "동악미술사학": {
-      "riss": 377,
+      "riss": 373,
+      "riss_dups": 4,
       "kci": 211,
       "kci_links": 44,
       "paired": 211,
@@ -73,6 +78,7 @@
     },
     "명상심리상담": {
       "riss": 228,
+      "riss_dups": 0,
       "kci": 88,
       "kci_links": 32,
       "paired": 88,
@@ -87,6 +93,7 @@
     },
     "무형문화연구": {
       "riss": 127,
+      "riss_dups": 0,
       "kci": 97,
       "kci_links": 29,
       "paired": 97,
@@ -100,7 +107,8 @@
       "new": 0
     },
     "보조사상": {
-      "riss": 742,
+      "riss": 731,
+      "riss_dups": 11,
       "kci": 656,
       "kci_links": 10,
       "paired": 653,
@@ -114,7 +122,8 @@
       "new": 0
     },
     "불교문예연구": {
-      "riss": 308,
+      "riss": 307,
+      "riss_dups": 1,
       "kci": 252,
       "kci_links": 2,
       "paired": 252,
@@ -128,7 +137,8 @@
       "new": 0
     },
     "불교미술사학": {
-      "riss": 344,
+      "riss": 338,
+      "riss_dups": 6,
       "kci": 228,
       "kci_links": 7,
       "paired": 228,
@@ -143,6 +153,7 @@
     },
     "불교연구": {
       "riss": 573,
+      "riss_dups": 0,
       "kci": 349,
       "kci_links": 14,
       "paired": 348,
@@ -157,6 +168,7 @@
     },
     "불교와 사회": {
       "riss": 179,
+      "riss_dups": 0,
       "kci": 143,
       "kci_links": 13,
       "paired": 143,
@@ -171,6 +183,7 @@
     },
     "불교철학": {
       "riss": 132,
+      "riss_dups": 0,
       "kci": 113,
       "kci_links": 0,
       "paired": 113,
@@ -184,7 +197,8 @@
       "new": 0
     },
     "불교학리뷰": {
-      "riss": 304,
+      "riss": 273,
+      "riss_dups": 31,
       "kci": 185,
       "kci_links": 0,
       "paired": 185,
@@ -198,7 +212,8 @@
       "new": 0
     },
     "불교학밀교학연구": {
-      "riss": 118,
+      "riss": 105,
+      "riss_dups": 13,
       "kci": 104,
       "kci_links": 0,
       "paired": 104,
@@ -212,7 +227,8 @@
       "new": 0
     },
     "불교학보": {
-      "riss": 1293,
+      "riss": 1273,
+      "riss_dups": 20,
       "kci": 738,
       "kci_links": 40,
       "paired": 738,
@@ -226,7 +242,8 @@
       "new": 0
     },
     "불교학연구": {
-      "riss": 973,
+      "riss": 953,
+      "riss_dups": 20,
       "kci": 745,
       "kci_links": 57,
       "paired": 745,
@@ -240,7 +257,8 @@
       "new": 0
     },
     "선문화연구": {
-      "riss": 399,
+      "riss": 357,
+      "riss_dups": 42,
       "kci": 290,
       "kci_links": 0,
       "paired": 290,
@@ -254,7 +272,8 @@
       "new": 0
     },
     "선학": {
-      "riss": 730,
+      "riss": 712,
+      "riss_dups": 18,
       "kci": 548,
       "kci_links": 24,
       "paired": 548,
@@ -269,6 +288,7 @@
     },
     "세화불학": {
       "riss": 59,
+      "riss_dups": 0,
       "kci": 7,
       "kci_links": 52,
       "paired": 7,
@@ -282,7 +302,8 @@
       "new": 0
     },
     "원불교사상과 종교문화": {
-      "riss": 1612,
+      "riss": 1604,
+      "riss_dups": 8,
       "kci": 822,
       "kci_links": 0,
       "paired": 822,
@@ -296,7 +317,8 @@
       "new": 0
     },
     "인도철학": {
-      "riss": 763,
+      "riss": 743,
+      "riss_dups": 20,
       "kci": 554,
       "kci_links": 21,
       "paired": 554,
@@ -310,7 +332,8 @@
       "new": 0
     },
     "전자불전": {
-      "riss": 198,
+      "riss": 191,
+      "riss_dups": 7,
       "kci": 0,
       "kci_links": 0,
       "paired": 0,
@@ -324,7 +347,8 @@
       "new": 0
     },
     "정토학연구": {
-      "riss": 433,
+      "riss": 430,
+      "riss_dups": 3,
       "kci": 314,
       "kci_links": 0,
       "paired": 313,
@@ -339,6 +363,7 @@
     },
     "종학연구": {
       "riss": 76,
+      "riss_dups": 0,
       "kci": 74,
       "kci_links": 0,
       "paired": 74,
@@ -352,7 +377,8 @@
       "new": 0
     },
     "한국교수불자연합학회지": {
-      "riss": 472,
+      "riss": 462,
+      "riss_dups": 10,
       "kci": 323,
       "kci_links": 10,
       "paired": 323,
@@ -367,6 +393,7 @@
     },
     "한국불교사연구": {
       "riss": 232,
+      "riss_dups": 0,
       "kci": 181,
       "kci_links": 0,
       "paired": 181,
@@ -381,6 +408,7 @@
     },
     "한국불교학": {
       "riss": 1450,
+      "riss_dups": 0,
       "kci": 1041,
       "kci_links": 44,
       "paired": 1041,
@@ -394,7 +422,8 @@
       "new": 0
     },
     "한마음연구": {
-      "riss": 169,
+      "riss": 155,
+      "riss_dups": 14,
       "kci": 118,
       "kci_links": 37,
       "paired": 118,

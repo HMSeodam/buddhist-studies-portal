@@ -3159,44 +3159,6 @@
       "id": "52cb6c5766131c30ffe0bdc3ef48d419"
     },
     {
-      "article_id": "6500b374b0aa75aab36097776a77e665",
-      "title_kr": "The Buddhist Faith of the Nobility in the Eastern jin Dynasty",
-      "title_en": "",
-      "authors": [
-        {
-          "name": "Ae Soon Chang(장애순)",
-          "affiliation": "",
-          "order": "1"
-        }
-      ],
-      "abstract_kr": "",
-      "abstract_en": "",
-      "journal_name": "IJBTC",
-      "year": "2007",
-      "volume": "8",
-      "issue": "",
-      "start_page": "61",
-      "end_page": "74",
-      "doi": "",
-      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6500b374b0aa75aab36097776a77e665",
-      "kci_url": "",
-      "keywords_kr": [],
-      "keywords_en": [
-        "Aristocratic Buddhism",
-        "Feng-fa-yao",
-        "Five Precepts",
-        "Ten Good Precepts",
-        "Xichao"
-      ],
-      "ai_keywords": [],
-      "source": "RISS",
-      "sources": [
-        "RISS"
-      ],
-      "riss_id": "6500b374b0aa75aab36097776a77e665",
-      "id": "6500b374b0aa75aab36097776a77e665"
-    },
-    {
       "article_id": "c76c9911157e055f7f7a54760bb41745",
       "title_kr": "The Buddhist Faith of the Nobility in the Eastern jin Dynasty",
       "title_en": "The Buddhist Faith of the Nobility in the Eastern jin Dynasty",
@@ -3228,6 +3190,9 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "alt_ids": [
+        "6500b374b0aa75aab36097776a77e665"
+      ],
       "kci_id": "ART001243010",
       "sources": [
         "RISS",
