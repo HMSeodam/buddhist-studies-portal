@@ -5896,9 +5896,9 @@
       "issue": "19",
       "start_page": "1",
       "end_page": "25",
-      "doi": "",
+      "doi": "10.23058/brcr.2026..19.001",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c2acccce2701b546c85d2949c297615a",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381893",
       "keywords_kr": [
         "불교교육",
         "학습자중심주의",
@@ -5918,8 +5918,10 @@
       "ai_keywords": [],
       "source": "RISS",
       "id": "c2acccce2701b546c85d2949c297615a",
+      "kci_id": "ART003381893",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "c2acccce2701b546c85d2949c297615a"
     },

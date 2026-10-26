@@ -3573,6 +3573,40 @@
       "kci_volume": "",
       "kci_issue": "1",
       "riss_hint": "4aef00dff9e584654884a65323211ff0"
+    },
+    {
+      "article_id": "ART003381893",
+      "id": "ART003381893",
+      "kci_id": "ART003381893",
+      "title_kr": "불교교육학 발전을 위한 학습자중심주의의 필요성과 의미",
+      "title_en": "The Necessity and Meaning of Learner-Centeredness for the Development of Buddhist Education",
+      "authors": [
+        {
+          "name": "장환영",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 연구의 목적은 오늘날 불교교육에서 학습자중심주의가 왜 긴요하며 무엇을의미하는지를 이론적으로 규명하고, 그 실천 원리를 제안하는 데 있다. 현대 불교교육은 출가자·경전·교수자 중심의 공급 구조를 충분히 전환하지 못한 가운데, 청년층의 관심을 얻기 위해 문화행사·굿즈·공연·힐링 체험 등 대중적 형식을 적극 활용하고 있다. 이른바 ‘힙불교’ 현상은 불교에 대한 심리적 장벽을 낮추는 긍정적 계기이지만, 문화적 호감과 일회적 참여가 신앙, 종교적 성찰, 수행의 지속과 공동체 참여로 자동 전환되는 것은 아니다. 따라서 교수자 중심의 주입과 대중행사 중심의 소비라는 두 극단을 넘어, 학습자의 삶과 고통에서 출발하되 불교의 지혜와 수행으로 심화시키는 교육적 매개가 필요하다. 본 연구는 문헌연구와 개념분석을 통해 인간주의 교육, 자기결정성이론, 구성주의, 경험학습, 전환학습, 차별화 수업의 핵심을 검토하고, 이를 응병여약, 대기설법·수기설법, 선교방편, 줄탁동시, 불성과 발심의 관점에서 재구성하였다. 그 결과 불교교육의 학습자중심주의는 학습자의 현재적 선호에 순응하는 소비자주의가 아니라, 학습자의 근기·고통·경험·발달과 관계 맥락을 세심하게 살펴 문화적 관심을 삶의 질문, 교리 이해, 성찰과 수행, 공동체적 실천으로 전환하도록 돕는 관계적·변혁적 교수 원리로 정의되었다. 실천 원리로는 학습자 진단, 자율적 발심, 교수학적 번역, 체험-성찰-개념화-실천의 순환, 관계적 촉진, 단계적 심화, 형성평가와 자비의 윤리를 제안하였다. 본 연구는 불교교육이 대중적 매력을 유지하면서도 종교적 깊이와 지속가능성을 확보하기 위한 이론적 토대를 제공한다.",
+      "abstract_en": "This theoretical study clarifies why learner-centeredness is urgently needed in contemporary Buddhist education and what it should mean in Buddhist terms.\nKorean Buddhist education has not fully moved beyond a provider- and teacher-centered structure organized around monastic traditions, scriptures, lectures, and transmission. At the same time, recent forms of “hip Buddhism” have attracted younger generations through festivals, merchandise, music, meditation, and lifestyle experiences. These developments lower psychological barriers and create valuable points of contact; however, cultural favorability and episodic participation do not automatically lead to religious reflection, sustained practice, commitment, or community participation. The central educational task is therefore to move beyond both doctrinal transmission without learners and entertainment without depth. Through literature review and conceptual analysis, this study integrates humanistic education, self-determination theory, constructivism, experiential learning, transformative learning, differentiated instruction, and learner-centered teaching with Buddhist concepts of providing medicine according to illness, teaching according to the audience’s capacities, skillful means, timely mutual responsiveness, Buddha-nature, and the arousal of aspiration. Learner-centeredness in Buddhist education is defined not as compliance with learners’ present preferences, but as a relational and transformative pedagogical principle that carefully considers their capacities, suffering, lived experience, developmental level, and relational context, and helps transform cultural interest into existential questions, doctrinal understanding, reflection, practice, and compassionate participation. Seven principles are proposed: diagnosing suffering and readiness, facilitating autonomous aspiration, pedagogical translation, cycling through experience-reflection-conceptualization- practice, relational and timely scaffolding, staged deepening with community connection, and formative assessment grounded in compassion. The study argues that learner-centeredness is essential for preserving both the accessibility and the religious depth of Buddhist education.",
+      "journal_name": "무형문화연구",
+      "year": "2026",
+      "volume": "",
+      "issue": "19",
+      "start_page": "1",
+      "end_page": "25",
+      "doi": "10.23058/brcr.2026..19.001",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381893",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교의례문화 연구소",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "19",
+      "riss_hint": "c2acccce2701b546c85d2949c297615a"
     }
   ]
 }
