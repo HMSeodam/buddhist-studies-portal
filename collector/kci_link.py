@@ -237,10 +237,14 @@ def main():
         return cutoff_recent if y and y >= recent_from else cutoff
 
     # 검색 방식을 바꾼 뒤에는 최근 논문의 '못 찾음' 기록을 한 번 비워 곧바로 다시 찾게 한다
-    SEARCH_VER = 2
-    if state.get("search_ver", 1) < SEARCH_VER:
+    SEARCH_VER = 3
+    ver0 = state.get("search_ver", 1)
+    if ver0 < SEARCH_VER:
         state["search_ver"] = SEARCH_VER
-        state["recent_reset"] = True
+        state["recent_reset"] = ver0 < 2
+        # v3: 검색어를 넓힌 뒤 한 번, 'KCI 수록 시기' 논문의 못 찾음 기록을 비워 전부 다시 찾는다
+        #     (그 학술지에서 KCI 와 짝이 된 가장 이른 해 이후의 논문만 — KCI 수록 이전 옛 호는 그대로 둠)
+        state["era_reset"] = True
 
     # 1) 짝이 없는 RISS 논문 모으기
     swept0 = state.setdefault("swept", {})
@@ -282,6 +286,7 @@ def main():
         for a in karts:
             if not a.get("link_only") and year_of(a):
                 ycount[year_of(a)] = ycount.get(year_of(a), 0) + 1
+        kci_from = min((year_of(a) for a in karts if id(a) in mm and year_of(a)), default=0)
         if ycount:
             yb = max(ycount, key=ycount.get)
             if ycount[yb] > probe[0]:
@@ -298,10 +303,13 @@ def main():
                 miss.pop(rid, None)
             if state.get("recent_reset") and year_of(r) >= recent_from:
                 miss.pop(rid, None)
+            if state.get("era_reset") and kci_from and year_of(r) >= kci_from:
+                miss.pop(rid, None)
             if miss.get(rid, "") > cut(year_of(r)):
                 continue
             todo.append((ours, r))
     state.pop("recent_reset", None)
+    state.pop("era_reset", None)
     todo.sort(key=lambda x: -year_of(x[1]))            # 최신 논문부터
     if args.limit:
         todo = todo[: args.limit]
@@ -410,7 +418,7 @@ def main():
             if not hit and qs:                       # 학술지명 표기가 다를 수 있어 학술지 조건 없이 한 번 더
                 recent = bool(y and y >= recent_from)
                 # 최근 논문은 검색어를 모두 써 본다 (KCI 쪽 띄어쓰기가 달라 긴 검색어가 안 걸리는 경우 — 2026-10 무형문화연구 19호)
-                fq = query_titles(r["title_kr"], limit=4) if recent else qs[:1]
+                fq = query_titles(r["title_kr"], limit=4)     # 검색어 후보를 모두 (KCI 쪽 띄어쓰기·표기 차이 대비)
                 for q in fq:
                     recs, total = api.search(q, "", y)
                     cands = [c for c in recs if c.get("kci_id") not in used_k]
