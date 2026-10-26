@@ -181,8 +181,71 @@ def is_front_matter(k, name):
     return bool(core) and core == strip(name)
 
 
+def _page(a):
+    m = re.search(r"\d+", str(a.get("start_page") or ""))
+    return m.group() if m else ""
+
+
+def _completeness(a):
+    return (bool(year_of(a)), bool(nums(a)), bool(a.get("abstract_kr")), bool(kci_id_of(a)),
+            bool(a.get("title_en")), bool(a.get("end_page")))
+
+
+def dedupe_riss(riss):
+    """RISS 안의 이중 등록 정리.
+    RISS 는 같은 논문을 서로 다른 번호(control_no)로 두 번 올려 두는 일이 있다
+    (예: 불교학밀교학연구 9권 13편이 모두 두 벌). 그대로 두면 한 벌만 KCI 와 짝이 되고
+    나머지 한 벌은 'KCI 홈페이지' 버튼만 달린 채 목록에 두 번 나온다.
+    같은 제목(한자→한글 정규화) · 같은 시작 쪽 · 연도와 권호가 어긋나지 않으면 한 편으로 합친다.
+    빠진 쪽의 RISS 번호는 alt_ids 로 남겨, 예전에 공유된 링크도 계속 열리게 한다."""
+    from paper_match import mtitle
+    groups, order = {}, []
+    for a in riss:
+        t, p = mtitle(a.get("title_kr", "")), _page(a)
+        if len(t) < 4 or _FRONT.match((a.get("title_kr") or "").strip()):
+            order.append([a]); continue
+        placed = False
+        for g in groups.get(t, []):
+            b = g[0]
+            ya, yb = year_of(a), year_of(b)
+            na, nb = nums(a), nums(b)
+            pb = _page(b)
+            if ya and yb and ya != yb:
+                continue
+            if p and pb:            # 쪽수가 둘 다 있으면 같아야 하고, 권호는 어긋나지 않아야 함
+                ok = p == pb and (not na or not nb or na == nb)
+            else:                   # 한쪽에 쪽수가 없으면 권호가 둘 다 있고 같아야 하며 제목도 충분히 길어야 함
+                ok = bool(na) and na == nb and len(t) >= 8
+            if ok:
+                g.append(a); placed = True; break
+        if not placed:
+            g = [a]; groups.setdefault(t, []).append(g); order.append(g)
+    out, dropped = [], 0
+    for g in order:
+        if len(g) == 1:
+            out.append(g[0]); continue
+        g = sorted(g, key=_completeness, reverse=True)
+        rec = dict(g[0])
+        alts = list(rec.get("alt_ids") or [])
+        for b in g[1:]:
+            for f in FILL + ["volume", "issue", "authors", "riss_url"]:
+                if b.get(f) and not rec.get(f):
+                    rec[f] = b[f]
+            if not kci_id_of(rec) and kci_id_of(b):
+                rec["kci_id"] = kci_id_of(b)
+            for x in [b.get("article_id")] + list(b.get("alt_ids") or []):
+                if x and x != rec.get("article_id") and x not in alts:
+                    alts.append(x)
+            dropped += 1
+        if alts:
+            rec["alt_ids"] = alts
+        out.append(rec)
+    return out, dropped
+
+
 def build_journal(name, riss, kci, extra_kci=()):
     riss = [a for a in riss if not is_recommended(a)]
+    riss, riss_dups = dedupe_riss(riss)
     kci_all = [k for k in list(kci) + list(extra_kci)]
     pairs_map = match_journal(riss, kci_all)
     pairs = [(pairs_map[id(k)], k) for k in kci_all if id(k) in pairs_map]
@@ -205,6 +268,8 @@ def build_journal(name, riss, kci, extra_kci=()):
         rec["source"] = "RISS"
         rec["sources"] = ["RISS", "KCI"] if rec.get("kci_id") else ["RISS"]
         rec["riss_id"] = r.get("article_id", "")
+        if r.get("alt_ids"):
+            rec["alt_ids"] = list(r["alt_ids"])
         out.append(rec)
     riss_by_nums = collections.defaultdict(list)
     for r in riss:
@@ -244,7 +309,7 @@ def build_journal(name, riss, kci, extra_kci=()):
     real_k = [k for k in kci_all if not k.get("link_only")]
     comparable = [k for k in real_k if nums(k) and riss_by_nums.get(nums(k))]
     matched_c = sum(1 for k in comparable if id(k) in pairs_map)
-    stats = {"riss": len(riss), "kci": len(real_k), "kci_links": len(kci_all) - len(real_k),
+    stats = {"riss": len(riss), "riss_dups": riss_dups, "kci": len(real_k), "kci_links": len(kci_all) - len(real_k),
              "paired": sum(1 for k in real_k if id(k) in pairs_map), "kci_only": kci_only, "scheme": scheme,
              "held": held, "bad_publishers": sorted(bad_pubs),
              "comparable": len(comparable), "comparable_matched": matched_c,
@@ -302,7 +367,7 @@ def build(check=False):
         _, arts = load_arts(p)
         for a in arts:
             prim = a.get("id") or a.get("article_id")
-            for k in (a.get("article_id"), a.get("id"), a.get("riss_id"), a.get("kci_id"), kci_id_of(a)):
+            for k in (a.get("article_id"), a.get("id"), a.get("riss_id"), a.get("kci_id"), kci_id_of(a), *(a.get("alt_ids") or [])):
                 if k:
                     prev_ids.add(k); prev_primary.setdefault(k, prim)
     riss_files = {p.stem[5:]: p for p in RISS_DIR.glob("riss_*.json")}
@@ -319,7 +384,7 @@ def build(check=False):
         # 대표 번호(id) 유지: 이전에 쓰던 번호가 있으면 그대로 (공유된 링크가 깨지지 않게)
         new_recs, used = [], set()
         for rec in out:            # RISS 레코드가 먼저 오므로 RISS 쪽 번호가 우선
-            ids = [x for x in (rec.get("riss_id"), rec.get("kci_id")) if x]
+            ids = [x for x in (rec.get("riss_id"), rec.get("kci_id"), *(rec.get("alt_ids") or [])) if x]
             if rec.get("riss_id"):
                 prim = prev_primary.get(rec["riss_id"]) or rec["riss_id"]
             else:
