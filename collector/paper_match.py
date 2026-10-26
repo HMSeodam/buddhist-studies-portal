@@ -192,7 +192,11 @@ def match_journal(riss_recs: list, kci_recs: list):
     result = {}
     # 0) 이미 알려진 연결 (KCI 논문번호, RISS 번호, DOI)
     by_kid = {(r.get("kci_id") or r.get("kci_hint")): r for r in riss_recs if r.get("kci_id") or r.get("kci_hint")}
-    by_rid = {r.get("article_id"): r for r in riss_recs}
+    by_rid = {}
+    for r in riss_recs:            # RISS 이중 등록을 합친 레코드는 빠진 쪽 번호(alt_ids)로도 찾음
+        for x in [r.get("article_id")] + list(r.get("alt_ids") or []):
+            if x:
+                by_rid.setdefault(x, r)
     by_doi = {r["doi"].lower(): r for r in riss_recs if r.get("doi")}
     taken = set()
     rest_k = []

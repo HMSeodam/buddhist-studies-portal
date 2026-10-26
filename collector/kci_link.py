@@ -34,6 +34,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from update_log import atomic_write_json, today_kst                           # noqa: E402
 from paper_match import match_journal, match_issue, nums, year_of, title_sim, mtitle, _PREFIX_RE   # noqa: E402
 from kci_oai_updater import (parse_oai_kci, to_article, KCI_NAME_MAP, _norm, REST_URL, UA)  # noqa: E402
+from build_output import dedupe_riss, _FRONT                                   # noqa: E402
 
 RISS_DIR = Path("../data/riss")
 KCI_DIR = Path("../data/kci")
@@ -268,6 +269,8 @@ def main():
         if ours in SKIP_JOURNALS or (args.journal and ours != args.journal):
             continue
         riss = json.load(open(f, encoding="utf-8")).get("articles", [])
+        # RISS 이중 등록은 출력 빌드와 똑같이 한 편으로 합쳐서 다룸 (짝이 이미 있는 쌍둥이를 매번 다시 검색하지 않도록)
+        riss, _ = dedupe_riss([a for a in riss if "/recommender/" not in (a.get("riss_url") or "")])
         kp = KCI_DIR / f"kci_{ours}.json"
         kd = json.load(open(kp, encoding="utf-8")) if kp.exists() else {"articles": []}
         stores[ours] = (kp, kd)
@@ -285,6 +288,8 @@ def main():
                 probe = (ycount[yb], ours, yb)
         for r in riss:
             if id(r) in paired or r.get("kci_id") or r.get("kci_hint") or not r.get("title_kr"):
+                continue
+            if _FRONT.match(r["title_kr"].strip()):          # 학회소식·발간사 같은 논문 아닌 항목은 KCI 에 없음
                 continue
             if "/recommender/" in (r.get("riss_url") or ""):
                 continue
