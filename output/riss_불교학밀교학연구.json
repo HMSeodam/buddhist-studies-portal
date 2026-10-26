@@ -780,7 +780,7 @@
       "end_page": "269",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=83108d099d707afa7f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003360202",
       "keywords_kr": [
         "고견사",
         "견암사",
@@ -799,8 +799,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003360202",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "83108d099d707afa7f7a54760bb41745",
       "id": "83108d099d707afa7f7a54760bb41745"

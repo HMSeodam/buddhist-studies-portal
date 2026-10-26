@@ -312,7 +312,7 @@
     {
       "article_id": "05f3e6b8a6305dd0ffe0bdc3ef48d419",
       "title_kr": "돈점론(頓漸論)으로 본 보조선의 위치",
-      "title_en": "",
+      "title_en": "No english title",
       "authors": [
         {
           "name": "심재룡",
@@ -320,8 +320,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "보조사상",
       "year": "1988",
       "volume": "2",
@@ -330,13 +330,15 @@
       "end_page": "43",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=05f3e6b8a6305dd0ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614538",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002614538",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "05f3e6b8a6305dd0ffe0bdc3ef48d419",
       "id": "05f3e6b8a6305dd0ffe0bdc3ef48d419"

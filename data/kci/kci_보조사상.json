@@ -22439,6 +22439,40 @@
       "kci_volume": "",
       "kci_issue": "1",
       "riss_hint": "007d2e2c6f7aa80effe0bdc3ef48d419"
+    },
+    {
+      "article_id": "ART002614538",
+      "id": "ART002614538",
+      "kci_id": "ART002614538",
+      "title_kr": "돈점논상에서 본 보조선",
+      "title_en": "No english title",
+      "authors": [
+        {
+          "name": "심재룡",
+          "affiliation": "서울대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": ".",
+      "abstract_en": ".",
+      "journal_name": "보조사상",
+      "year": "1988",
+      "volume": "",
+      "issue": "2",
+      "start_page": "25",
+      "end_page": "43",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002614538",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "보조사상연구원",
+      "kci_year": "1988",
+      "kci_volume": "",
+      "kci_issue": "2",
+      "riss_hint": "05f3e6b8a6305dd0ffe0bdc3ef48d419"
     }
   ]
 }

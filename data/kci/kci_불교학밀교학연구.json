@@ -3550,6 +3550,40 @@
       "kci_volume": "2",
       "kci_issue": "",
       "riss_hint": "a5573dd40488a5bf7ecd42904f0c5d65"
+    },
+    {
+      "article_id": "ART003360202",
+      "id": "ART003360202",
+      "kci_id": "ART003360202",
+      "title_kr": "대구 보성선원 삼존좌상의 조성사찰과 복장전적의 불교사적 의미",
+      "title_en": "The Origination of the Seated Buddha Triad Statue of Boseong Buddhist Monastery in Daegu and the Buddhist Historical Significance of the Pokchang Documents found inside the Statue",
+      "authors": [
+        {
+          "name": "이종수",
+          "affiliation": "국립순천대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "대구 보성선원 석가여래삼존좌상에서 2008년에 복장물이 발견되었다. 그 복장 발원문을 통해 이 불상이 1647년(인조 25) 거창 우두산 견암사에서 수화원 현욱에 의해 제작되었음이 밝혀졌다. 이 논문은 거창 견암사에서 조성된 삼존좌상이 어떤 인연으로 보성선원에 왔는지, 견암사는 어떤 사찰이었는지, 삼존좌상 복장물에서 발견된 불교 전적의 종류와 불교사적 의미는 어떠한지를 살펴보기 위해 작성되었다.\n견암사는 19세기 이래 고견암 내지 고견사라고 불렸던 사찰이다. 조선 전기에는 고려 왕씨의 영령을 위해 국행수륙재가 설행되었으며, 조선 후기 유물로 천보가 도대장으로 참여하여 1630년(인조 8)에 제작한 범종이 전해온다. 그런데 한국전쟁으로 사찰이 소실되면서 삼존좌상이 다른 곳으로 이안된 후 현재 대구 보성선원에 봉안되었다. 그리고 삼존좌상에서 발견된 불교 전적은 대부분 15~16세기 간행 전적으로서, 왕실 및 간경도감 간행의 귀중본이 포함되어 있다. 이를 통해 조선 전기 견암사의 위상이 반영되어 삼존좌상에 불서가 복장된 것으로 짐작할 수 있다.",
+      "abstract_en": "In 2008, Pokchang objects placed inside the body of the Seated Buddha Triad Statue at Boseong Buddhist Monastery in Daegu have been found. The votive letter found among the excavated materials revealed that this Buddhist statue was produced by the chief artisan Hyun-wook at Gyeonamsa Temple in Udusan Mountain, Geochang, in 1647. The aim of this paper is to elucidate why the Buddhist statue, made at Gyeonamsa Temple in Geochang, came to Boseongsa Temple and to clarify the feature and the status of Gyeonamsa Temple. And this study also examines the types of Buddhist documents found inside the statue and analyzes their Buddhist historical significance.\nGyeonamsa Temple has been called Gogyeonsa Temple or Gogyeonam Hermitage since the 19th century. In the early period of Joseon dynasty, a state ritual of the Land and Water Assembly was held for the spirits of the Goryeo dynasty's Wang Clan. As a relic of the late Joseon dynasty, there is a Buddhist bell produced by Cheonbo as the chief craftsman in 1630. However, as the temple was destroyed due to the Korean War, the Seated Buddha Triad Statue was moved to another place and is now enshrined in Boseongsa Buddhist Monastery in Daegu. In addition, most of the Buddhist documents excavated from the statue were published in the 15th and 16th centuries, including valuable books published by the royal family or the Directorate of the Buddhist Writings. From the gathered information, it can be assumed that Buddhist books were placed inside the statue, reflecting the status of Gyeonamsa Temple in the early Joseon dynasty.",
+      "journal_name": "불교학밀교학연구",
+      "year": "2022",
+      "volume": "2",
+      "issue": "",
+      "start_page": "233",
+      "end_page": "269",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003360202",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "한국밀교학회",
+      "kci_year": "2022",
+      "kci_volume": "2",
+      "kci_issue": "",
+      "riss_hint": "83108d099d707afa7f7a54760bb41745"
     }
   ]
 }

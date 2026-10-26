@@ -3510,9 +3510,9 @@
       "issue": "1",
       "start_page": "50",
       "end_page": "92",
-      "doi": "",
+      "doi": "10.33521/jbs.2018.10.1.50",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=da5c8718ab0d14a07f7a54760bb41745",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002906434",
       "keywords_kr": [
         "불교",
         "개혁종단",
@@ -3532,8 +3532,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002906434",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "da5c8718ab0d14a07f7a54760bb41745",
       "id": "da5c8718ab0d14a07f7a54760bb41745"

@@ -7372,7 +7372,7 @@
       "end_page": "124",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3293efd7a1d9ef1effe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000984742",
       "keywords_kr": [],
       "keywords_en": [
         "잉여냉동배아 Freezing Extra-Embryo Cloning",
@@ -7382,8 +7382,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART000984742",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3293efd7a1d9ef1effe0bdc3ef48d419",
       "id": "3293efd7a1d9ef1effe0bdc3ef48d419"
@@ -7691,7 +7693,7 @@
         }
       ],
       "abstract_kr": "I studied on the life and thought of Hyobong-Haknul, The representative Korean modern learned Buddhist priest. I tried light up the Korean modern Buddhism objectively and the role of Hyobong who had established the Korean modern Buddhism newly.<BR>  First of all, I inquired into the problem through Hyobong\"s life, \"How can we pratice Kanhwa-Zen and how should the practicer\"s life be?\". The inquiry into those problems would help to illuminate the characteristics of Korean modern Buddhism.<BR>  Secondly, I focused on the problem,\"What is Hyobong\"s selection to recover the original form of Korean Buddhism and to succeed to the right line of Buddha?\". I thought that Hyobong had tried to establish newly Korean modern Buddhism by succeeding the tradition of Suseon-temple of Bojo-Chinul. The spirit of succession to Bojo\"s thought, Sudden enlightenment and gradual cultivation and Both cultivation samadhi and prajna is the important point to prescribe the original form and characteristics of Korean Buddhism. That spirit provide against Seongcheol\"s view.<BR>  Finally, I examined the inner relation of Hyobong\"s Kanhwa-Zen with Bojo\"s thought .I considered that there were individuality and the spirit of succession to Bojo\"s thought in that inner relation.",
-      "abstract_en": "",
+      "abstract_en": "I studied on the life and thought of Hyobong-Haknul, The representative Korean modern learned Buddhist priest. I tried light up the Korean modern Buddhism objectively and the role of Hyobong who had established the Korean modern Buddhism newly.\nFirst of all, I inquired into the problem through Hyobong's life, 'How can we pratice Kanhwa-Zen and how should the practicer's life be?'. The inquiry into those problems would help to illuminate the characteristics of Korean modern Buddhism.\nSecondly, I focused on the problem,'What is Hyobong's selection to recover the original form of Korean Buddhism and to succeed to the right line of Buddha?'. I thought that Hyobong had tried to establish newly Korean modern Buddhism by succeeding the tradition of Suseon-temple of Bojo-Chinul. The spirit of succession to Bojo's thought, Sudden enlightenment and gradual cultivation and Both cultivation samadhi and prajna is the important point to prescribe the original form and characteristics of Korean Buddhism. That spirit provide against Seongcheol's view.\nFinally, I examined the inner relation of Hyobong's Kanhwa-Zen with Bojo's thought .I considered that there were individuality and the spirit of succession to Bojo's thought in that inner relation.",
       "journal_name": "불교학연구",
       "year": "2005",
       "volume": "12",
@@ -7700,7 +7702,7 @@
       "end_page": "325",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8613c7fe3b466d12ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000984097",
       "keywords_kr": [],
       "keywords_en": [
         "효봉 학눌 Hyobong-Haknu",
@@ -7716,8 +7718,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART000984097",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "8613c7fe3b466d12ffe0bdc3ef48d419",
       "id": "8613c7fe3b466d12ffe0bdc3ef48d419"
@@ -16322,9 +16326,9 @@
       "issue": "",
       "start_page": "7",
       "end_page": "46",
-      "doi": "",
+      "doi": "10.21482/jbs.27..201012.7",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9aebda0d10b5c363b7998d826d417196",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001508051",
       "keywords_kr": [
         "재단법인",
         "1종재산",
@@ -16346,8 +16350,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART001508051",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "9aebda0d10b5c363b7998d826d417196",
       "id": "9aebda0d10b5c363b7998d826d417196"
@@ -31997,9 +32003,9 @@
       "issue": "",
       "start_page": "269",
       "end_page": "297",
-      "doi": "",
+      "doi": "10.21482/jbs.54..201803.269",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2bc3420f7204d97fe9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002331203",
       "keywords_kr": [
         "자비",
         "심리치료",
@@ -32020,8 +32026,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002331203",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2bc3420f7204d97fe9810257f7042666",
       "id": "2bc3420f7204d97fe9810257f7042666"
@@ -35574,9 +35582,9 @@
       "issue": "",
       "start_page": "1",
       "end_page": "32",
-      "doi": "",
+      "doi": "10.21482/jbs.62..202003.1",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=af03ff26314e443e4884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002571208",
       "keywords_kr": [
         "『五臺山事蹟記』",
         "彌勒信仰",
@@ -35597,8 +35605,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002571208",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "af03ff26314e443e4884a65323211ff0",
       "id": "af03ff26314e443e4884a65323211ff0"
@@ -36192,9 +36202,9 @@
       "issue": "",
       "start_page": "93",
       "end_page": "120",
-      "doi": "",
+      "doi": "10.21482/jbs.63..202006.93",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=94a8210bacefabd34884a65323211ff0",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002596363",
       "keywords_kr": [
         "추론",
         "위빠사나",
@@ -36215,8 +36225,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002596363",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "94a8210bacefabd34884a65323211ff0",
       "id": "94a8210bacefabd34884a65323211ff0"
@@ -40855,9 +40867,9 @@
       "issue": "",
       "start_page": "79",
       "end_page": "107",
-      "doi": "",
+      "doi": "10.21482/jbs.79..202406.79",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=da8b4e9b1e5aa85eb36097776a77e665",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003094963",
       "keywords_kr": [
         "자이나교 공의파",
         "자아",
@@ -40878,8 +40890,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003094963",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "da8b4e9b1e5aa85eb36097776a77e665",
       "id": "da8b4e9b1e5aa85eb36097776a77e665"
@@ -41005,9 +41019,9 @@
       "issue": "",
       "start_page": "63",
       "end_page": "92",
-      "doi": "",
+      "doi": "10.21482/jbs.80..202409.63",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3609905311071ea8e9810257f7042666",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003123136",
       "keywords_kr": [
         "수월관음도",
         "화찬(畫讚)",
@@ -41028,8 +41042,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART003123136",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "3609905311071ea8e9810257f7042666",
       "id": "3609905311071ea8e9810257f7042666"

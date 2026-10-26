@@ -126,13 +126,15 @@
       "end_page": "82",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=049e7a3eac3c989bffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002953538",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002953538",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "049e7a3eac3c989bffe0bdc3ef48d419",
       "id": "049e7a3eac3c989bffe0bdc3ef48d419"
@@ -796,13 +798,15 @@
       "end_page": "27",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2cef3f427cdacf8bffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002953670",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002953670",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "2cef3f427cdacf8bffe0bdc3ef48d419",
       "id": "2cef3f427cdacf8bffe0bdc3ef48d419"
@@ -962,13 +966,15 @@
       "end_page": "177",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b9475e593e5e6ac4ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002953691",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002953691",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b9475e593e5e6ac4ffe0bdc3ef48d419",
       "id": "b9475e593e5e6ac4ffe0bdc3ef48d419"
@@ -994,13 +1000,15 @@
       "end_page": "204",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=4c8ad881d789fdccffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002953697",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002953697",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "4c8ad881d789fdccffe0bdc3ef48d419",
       "id": "4c8ad881d789fdccffe0bdc3ef48d419"
@@ -1389,8 +1397,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "인도철학",
       "year": "1994",
       "volume": "4",
@@ -1399,13 +1407,15 @@
       "end_page": "216",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=d5358566099b6659ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002951079",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002951079",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "d5358566099b6659ffe0bdc3ef48d419",
       "id": "d5358566099b6659ffe0bdc3ef48d419"
@@ -1689,8 +1699,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "인도철학",
       "year": "1995",
       "volume": "5",
@@ -1699,13 +1709,15 @@
       "end_page": "181",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1cd6e9887aef4540ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002951088",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002951088",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "1cd6e9887aef4540ffe0bdc3ef48d419",
       "id": "1cd6e9887aef4540ffe0bdc3ef48d419"
@@ -1789,8 +1801,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "인도철학",
       "year": "1995",
       "volume": "5",
@@ -1799,13 +1811,15 @@
       "end_page": "257",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ecd4e97904ec2b46ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002951091",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002951091",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "ecd4e97904ec2b46ffe0bdc3ef48d419",
       "id": "ecd4e97904ec2b46ffe0bdc3ef48d419"
@@ -4068,7 +4082,7 @@
       "end_page": "179",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b098f824d6ff2cbbffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002954652",
       "keywords_kr": [
         "라마누자",
         "화이트헤드",
@@ -4083,8 +4097,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002954652",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "b098f824d6ff2cbbffe0bdc3ef48d419",
       "id": "b098f824d6ff2cbbffe0bdc3ef48d419"
@@ -4233,7 +4249,7 @@
       "end_page": "271",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=dc1f589ef957c79cffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002954670",
       "keywords_kr": [
         "영혼",
         "해탈",
@@ -4244,8 +4260,10 @@
       "keywords_en": [],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002954670",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "dc1f589ef957c79cffe0bdc3ef48d419",
       "id": "dc1f589ef957c79cffe0bdc3ef48d419"
@@ -4357,7 +4375,7 @@
       "end_page": "98",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=333381299f3829b4ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002954515",
       "keywords_kr": [],
       "keywords_en": [
         "pramana",
@@ -4368,8 +4386,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002954515",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "333381299f3829b4ffe0bdc3ef48d419",
       "id": "333381299f3829b4ffe0bdc3ef48d419"
@@ -4786,8 +4806,8 @@
           "order": "1"
         }
       ],
-      "abstract_kr": "",
-      "abstract_en": "",
+      "abstract_kr": ".",
+      "abstract_en": ".",
       "journal_name": "인도철학",
       "year": "2003",
       "volume": "12",
@@ -4796,7 +4816,7 @@
       "end_page": "62",
       "doi": "",
       "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a992206c445baa63ffe0bdc3ef48d419",
-      "kci_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002950984",
       "keywords_kr": [
         "정의",
         "원인",
@@ -4823,8 +4843,10 @@
       ],
       "ai_keywords": [],
       "source": "RISS",
+      "kci_id": "ART002950984",
       "sources": [
-        "RISS"
+        "RISS",
+        "KCI"
       ],
       "riss_id": "a992206c445baa63ffe0bdc3ef48d419",
       "id": "a992206c445baa63ffe0bdc3ef48d419"
