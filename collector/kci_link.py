@@ -15,6 +15,7 @@
 #   4) 찾은 KCI 레코드를 data/kci/kci_<학술지>.json 에 riss_hint(=RISS 번호)와 함께 저장
 #      → 출력 빌드가 이 표시로 두 레코드를 바로 짝지어 'KCI 원문' 버튼이 생긴다
 #   5) 못 찾은 논문(KCI 수록 이전 호 등)은 state/kci_link_state.json 에 적어 90일 동안 다시 묻지 않는다
+#      단 올해·작년 발행분은 KCI 등록이 늦는 경우가 많아 7일 뒤 다시 확인한다 (2026-10, 무형문화연구 19호 사례)
 #
 # 사용법
 #   KCI_API_KEY=발급키 python kci_link.py --deadline-min 10 --max-calls 1000
@@ -39,6 +40,7 @@ KCI_DIR = Path("../data/kci")
 STATE = Path("state/kci_link_state.json")
 THROTTLE = 1.0          # 2026-10 KCI 방화벽 차단 이후 늘림
 RETRY_MISS_DAYS = 90
+RETRY_RECENT_DAYS = 7   # 올해·작년 논문은 KCI 등록이 늦게 따라오는 일이 잦아 1주일마다 다시 확인
 SKIP_JOURNALS = {"印度學佛教學研究"}          # KCI 비수록 (J-Stage)
 
 # KCI 에서 쓰는 학술지명 (우리 이름과 다른 것만) — 2026-09 저자 확인
@@ -227,6 +229,11 @@ def main():
         except Exception: state = {}
     miss = state.setdefault("miss", {})
     cutoff = (datetime.strptime(today_kst(), "%Y-%m-%d") - timedelta(days=RETRY_MISS_DAYS)).strftime("%Y-%m-%d")
+    cutoff_recent = (datetime.strptime(today_kst(), "%Y-%m-%d") - timedelta(days=RETRY_RECENT_DAYS)).strftime("%Y-%m-%d")
+    recent_from = int(today_kst()[:4]) - 1
+
+    def cut(y):
+        return cutoff_recent if y and y >= recent_from else cutoff
 
     # 1) 짝이 없는 RISS 논문 모으기
     swept0 = state.setdefault("swept", {})
@@ -278,7 +285,7 @@ def main():
             rid = r.get("article_id", "")
             if ours in reset_j:
                 miss.pop(rid, None)
-            if miss.get(rid, "") > cutoff:
+            if miss.get(rid, "") > cut(year_of(r)):
                 continue
             todo.append((ours, r))
     todo.sort(key=lambda x: -year_of(x[1]))            # 최신 논문부터
@@ -333,7 +340,7 @@ def main():
         jpool = {}
         for ours, y in (jy if sweep_ok else []):
             k = f"{ours}|{y}"
-            if (swept.get(k) or {}).get("d", "") > cutoff:
+            if (swept.get(k) or {}).get("d", "") > cut(y):
                 continue
             pool = jpool.setdefault(ours, {})
             n_year = 0
