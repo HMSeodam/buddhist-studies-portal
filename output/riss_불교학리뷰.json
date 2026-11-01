@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.61,
     "control_no": "b4d6ff724148c295ffe0bdc3ef48d419",
-    "last_updated": "2026-09-27"
+    "last_updated": "2026-11-02"
   },
   "articles": [
     {
@@ -11525,6 +11525,334 @@
         "KCI"
       ],
       "riss_id": "ec9dabd70d5dba5de9810257f7042666"
+    },
+    {
+      "article_id": "ART003399537",
+      "id": "ART003399537",
+      "kci_id": "ART003399537",
+      "title_kr": "황달에 걸린 눈으로도 타당한 인식이 가능한가 - 부분적 정합론을 주장한 불교도(들) -",
+      "title_en": "Can a Visual Cognition Distorted by Jaundice Be a Pramāṇa? Buddhist Proponent(s) of the Theory of Partial Trustworthiness",
+      "authors": [
+        {
+          "name": "조율희",
+          "affiliation": "전남대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "불교 인식논리학 전통에서 타당한 인식수단(pramāṇa)으로서의 지각(pratyakṣa) 은 디그나가(Dignāga, 6세기경)의 ‘개념구상을 결여한 것’(kalpanāpoḍha)이라는 정의에 다르마끼르띠(Dharmakīrti, 7세기경)의 ‘착오가 없는 것’(abhrānta)이라는 정의항이 더해져 확립되었다. 이 정의에 따르면 황달로 인해 흰 소라고둥을 노란 것으로 보는 인식은 감관의 손상에서 비롯된 착오이므로 지각에서 배제될 것이다. 그런데 몇몇 불교도들의 보고에 따르면, ‘우리 종파의 어떤 이들’은 이러한 인식도 타당한 인식수단으로 인정될 수 있다고 주장하였다. ‘부분적 정합론’(aṃśasaṃvādavāda)이라고 불리는 이 이론이 지넨드라붓디(Jinendrabuddhi, 8세기경)에게 귀속된다는 점이 선행연구들(Funayama 1999; Chu 2004; Steinkellner 2005 등)에서 논의되었지만, 그러한 인식이 일종의 착오이면서도 타당한 인식수단으로서의 지각으로 인정되어야 한다고 주장하는 이론적 근거와 배경에 대해서는 충분히 해명되지 않았다. 이에 본고는 관련 텍스트 PSṬ 62,10–65,6을 분석하고, 부분적 정합론이 디그나가와 다르마끼르띠가 구축한 체계 안에서 구성되고 있다는 점을 밝힌다. 부분적 정합론은 디그나가의 지각 정의와 다르마끼르띠 의 새로운 쁘라마나 체계 사이의 긴장관계에서 생겨난 급진적 이론으로 이해할 수 있지만, 불교 인식론의 주석 전통 내부에서는 철저하게 비주류 견해로 취급되었다. 본고에서는 부분적 정합론을 둘러싼 주석 전통의 거리두기를 관찰하면서 불교 지각론이 해석학적 조정 속에서 역동적으로 전개되어 왔음을 확인한다.",
+      "abstract_en": "In the Buddhist epistemological tradition, perception (pratyakṣa) was established as a means of valid cognition (pramāṇa) through Dignāga’s (ca. 6th c.) definition of perception as “free from conceptualization” (kalpanāpoḍha). Dharmakīrti (ca. 7th c.) subsequently added the qualifier “non-erroneous” (abhrānta). Under this definition, the jaundice-induced cognition of a white conch shell as yellow should be excluded from perception because it arises from an impaired sense faculty. Several Buddhist commentators report, however, that “some of our own school” accepted even this cognition as a means of valid cognition. Previous studies (Funayama 1999; Chu 2004; Steinkellner 2005, etc.) have examined the attribution of this theory—the so-called aṃśasaṃvādavāda, or “theory of partial trustworthiness”—to Jinendrabuddhi (ca. 8th c.). Yet the theoretical basis for this position—why an erroneous cognition should nonetheless count as perception—remains insufficiently clarified. Through an analysis of the relevant passage, PSṬ 62,10–65,6, this paper demonstrates that the aṃśasaṃvādavāda is constructed from within the very system developed by Dignāga and Dharmakīrti. The theory can be understood as a radical position arising from the tension between Dignāga’s definition of perception and Dharmakīrti’s new pramāṇa system, although Buddhist commentators consistently treated it as a marginal view. By examining the strategies through which the commentarial tradition distanced itself from the aṃśasaṃvādavāda, this paper shows how the Buddhist theory ofperception developed dynamically through processes of hermeneutical accommodation.",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "40",
+      "issue": "",
+      "start_page": "9",
+      "end_page": "32",
+      "doi": "10.29213/crbs..40.202610.9",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399537",
+      "keywords_kr": [
+        "aṃśasaṃvādavāda",
+        "pramāṇa",
+        "pratyakṣa",
+        "kāmala",
+        "지넨드라붓디",
+        "부분적 정합론",
+        "쁘라마나",
+        "지각",
+        "황달"
+      ],
+      "keywords_en": [
+        "Jinendrabuddhi"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교문화연구소",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "40",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003399539",
+      "id": "ART003399539",
+      "kci_id": "ART003399539",
+      "title_kr": "『법화의기』의 『대반열반경집해』 인용 양상과 법운의 법화·열반 인식",
+      "title_en": "Citations of the Dabanniepan jing ji jie in the Fahua yiji and Fayun’s Understanding of the Lotus Sūtra and Nirvāṇa Sūtra",
+      "authors": [
+        {
+          "name": "성은경",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 법운(法雲, 467-529)의 『법화의기(法華義記)』(이하 『의기』)에 나타난 『대반열반경집해(大般涅槃經集解)』(이하 『집해』)의 인용 양상을 분석하고 법운의 『법화경』·『열반경』에 대한 인식을 고찰한 연구이다. 양대(梁代) 삼대법사(三大法師) 중 한 사람인 법운은 지의(智顗)와 길장(吉藏) 등 후대 법화주석가들에게 『법화경』 해석의 독보적인 존재로 평가받는다. 법운은 『의기』의 여러 곳에서 『집해』를 인용한다.\n그러나 선행 연구에서는 『망월불교대사전(望月佛敎大辭典)』만이 『집해』 인용 사실을 일부 지적할 뿐 그 의의에 대한 연구는 거의 없는 실정이다. 이에 본고는 『집해』 인용 양상 분석을 통해 법운의 『법화경』 주석의 특징을 고찰했다. 그 분석을 위해서 우선 『집해』의 인용 부분을 최대한 찾아내어 인용 양상을 분석하였다. 다음으로 법운이 『의기』에서 『법화경』과 『열반경』의 관계를 어떻게 파악했는지를 분석하여 두 경전에 대한 법운의 사상적 경향을 규명하고자 했다.\n분석 결과 법운은 『의기』 주석 과정에서 열반학적 해석 틀을 적용하고 있으며, 다수 열반사들의 견해를 인용함으로써 자신의 학문적 기반이 열반학에 있음을 드러냈다. 『법화경』과 『열반경』의 관계에서 법운은 『법화경』의 불수(佛壽)를 부배상수(復倍上數)로 규정하고, 『열반경』에서 설하는 상주열반(常住涅槃)과 구별하여 상주(常住)가 아닌 것으로 파악한다. 그러나 「법사품(法師品)」 주석에서는 앞의 삼승을 회통하고 뒤의 열반을 여는 경전으로는 『법화경』이 ‘제일’이라고 표현하며 그 위상을 높인다. 또한 「방편품(方便品)」 주석에서는 오시교(五時敎)를 서로 다른 차원으로 분류함으로써 『대품경』, 『법화경』, 『열반경』 등을 우열 관계가 아닌 각각의 독립적 경전으로 기술한다. 이를 통해 법운은 『열반경』 중심의 교판 체계가 형성된 남조 불교계에서, 도생 이후 『법화경』에 주목하여 그 가치를 재조명함과 동시에 이후 중국에서의 『법화경』 유행에 기여했다고 평가할 수 있다.",
+      "abstract_en": "This paper analyzes how Fayun(法雲) cites the Dabanniepan jing ji jie(大 般涅槃經集解, hereafter Ji jie) in his Fahua yiji(法華義記, hereafter Yiji). One of the Three Great Dharma Masters of the Liang dynasty, Fayun was regarded by later commentators on the Lotus Sūtra(法華經), including Zhiyi(智顗) and Jizang(吉藏), as an outstanding authority on its interpretation.\nFayun cites the Ji jie frequently throughout the Yiji. These citations are important for understanding the purpose of his commentary on the Lotus Sūtra.\nFayun frequently quotes the Ji jie in various sections of the Yiji. These quotations provide important clues for understanding the scholarly basis of his commentary on the Lotus Sūtra. However, previous studies have paid little attention to Fayun as a commentator on the Nirvāṇa Sūtra; only the Mochizuki Bukkyō Daijiten(望月佛敎大辭典) briefly touches upon this issue. Accordingly, this paper aims to clarify how Fayun applied a Nirvanic interpretative framework in his commentary on the Lotus Sūtra by analysing the patterns of citation in the Ji jie.\nThe analysis shows that Fayun applied a Nirvāṇa-school interpretive framework in the Yiji. By citing the views of numerous Nirvāṇa-school scholars, he demonstrated that his scholarly foundation lay in that tradition. In contrast to the Nirvāṇa Sūtra, Fayun maintains that the Buddha’s lifespan(buddhāyuṣ) as described in the Lotus Sūtra does not signify the doctrine of permanence(nitya, 常住).\nNevertheless, in his commentary on the “Chapter on the Dharma Preacher”(法師品), he elevates the status of the Lotus Sūtra by describing it as foremost in gathering the preceding teachings and opening the subsequent teaching(會前開後): it brings together the earlier doctrines of the Three Vehicles and opens the way to the teaching of the Nirvāṇa Sūtra.\nMoreover, in his commentary on the “Chapter on Skillful Means”(方便 品), Fayun assigns the Five Period Teachings(五時敎) to different doctrinal dimensions. He presents scriptures such as the Mahāprajñāpāramitā Sūtra(大 品經), the Lotus Sūtra, and the Nirvāṇa Sūtra as independent scriptures rather than ranking them as superior or inferior.\nFrom this perspective, it can be argued that, within Southern Dynasties Buddhism(南朝佛敎), where a doctrinal framework centered on the Nirvāṇa Sūtra had taken shape, Fayun reassessed the distinctive value of the Lotus Sūtra through his commentary and contributed to its widespread popularity.",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "40",
+      "issue": "",
+      "start_page": "33",
+      "end_page": "63",
+      "doi": "10.29213/crbs..40.202610.33",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399539",
+      "keywords_kr": [
+        "법운",
+        "법화의기",
+        "열반경집해",
+        "법화경",
+        "열반경",
+        "Fayun(法雲)",
+        "Fahua yiji(法華義記)",
+        "Dabanniepan jing ji jie(涅槃經集解)",
+        "Lotus Sūtra(法華經)",
+        "Nirvāṇa Sūtra(涅槃經)"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교문화연구소",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "40",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003399544",
+      "id": "ART003399544",
+      "kci_id": "ART003399544",
+      "title_kr": "法蔵 『梵網経菩薩戒本疏』 の撰述意図 - 勝荘 『梵網経菩薩戒本述記』との対照を通して -",
+      "title_en": "Fazang’s Purpose in Composing the Fanwangjing pusa jieben shu: A Comparison with Seungjang’s Beommanggyeong bosal gyebon sulgi",
+      "authors": [
+        {
+          "name": "김류경",
+          "affiliation": "경북대학교 동서사상연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "법장(法藏, 643-712) 『범망경보살계본소』(이하 『법장소』)의 찬술의도는 충분히 해명되지 않았다. 선행연구는 『법장소』가 『범망경』을 제교(制敎)로 규정해 『화엄경』을 부각하면서 승장(勝莊)·의적(義寂)의 유식학파 해석을 비판했다고 보아왔으나 그 양상은 검토되지 않았다. 본고는 법장에 선행하는 두 주석 가운데 유식 학파의 입장이 선명한 승장 『범망경보살계본술기』를 종성(種姓)·불성(佛性)·교체(敎體)·불신(佛身)의 네 항목에서 『법장소』와 대조하고, 아울러 의적 및 법장의 다른 저작과도 대조하여, 법장의 대응이 비판·배척의 구도로 설명되지 않고 재조직(再組織)의 구도로 파악되어야 함을 밝힌다. 다만 증거강도는 고르지 않아, 네 항목은 승장에의 의거(依據)가 아니라 조작(操作) 유형을 동정(同定)함으로써 하나의 구도를 이룬다. 앞의 세 항목에는 승장의 용어와 틀을 유지한 채 위치만 낮추는 섭취적 재배치가 나타난다. 종성에서는 승장의 대기(對機) 규정이 권교(權敎)에, 오종성(五種姓) 전체를 소피(所被)로 삼는 실교(實敎)가 그 위에 놓이되 현재위(現在位)의 정기(正機)는 초발의·십신에 한정된다. 확대는 개방이 아니라 승인 뒤의 자리매김이다. 불성에서는 승장이 분리한 계체(戒體)의 편재와 성 불 가능성이 체(體)·용(用)으로 재결합되어 소분일체(少分一切)의 한정이 자리를 잃고, 교체에서는 사문(四門) 최상위의 진여교체가 십문(十門) 제8문에 놓인 다. 불신에서는 배당만 배척되고 결합된 두 소의(所依)가 본래 전거로 되돌려지는 계제(階梯)의 재확정이 나타나, 유식의 틀이 격하되지 않는 점에서 다르다. 두 조작은 모두 유식학파 해석을 배제하지 않고 자기 체계 안에 재조직하며, 『범망경』을 『화엄경』 아래에 두는 조작과 동형이다. 본고는 융합이 아닌 이 재조직, 곧 유식학파의 규정을 자기 교판의 하위에 두어 섭취·초극(攝取·超克)하는 작업이 찬술의도의 하나였을 가능성을 제시한다.",
+      "abstract_en": "Fazang’s (法藏, 643–712) purpose in composing the Fanwangjing pusa jieben shu (梵網經菩薩戒本疏) remains unclear. Yoshizu Yoshihide and others argue that he classifies the Fanwangjing as a precept teaching (制敎), as opposed to a transformative teaching (化敎), so that it serves to showcase the Huayanjing, while criticizing the Yogācāra readings of Seungjang and Uijeok; but they have not examined how this operates within each category. This article compares Fazang’s commentary with Seungjang’s Beommanggyeong bosal gyebon sulgi (梵網經菩薩戒本述記) in relation to gotra, buddha nature, the essence of the teaching, and the buddha body, with reference to Uijeok and Fazang’s other works. Fazang’s responses cannot be reduced to rejection; they are better understood as reorganization. The evidence is uneven and identifies a type of operation rather than demonstrating dependence on Seungjang. In the first three categories, an absorptive reordering (攝 取的再配置) retains Seungjang’s terms while lowering their position. His delimitation of the intended audience (對機) becomes provisional teaching (權敎), subordinate to a real teaching (實敎) that embraces all five gotras; nevertheless, the proper recipients remain bodhisattvas of the initial resolve and the ten stages of faith (十信). The expansion is thus a placement, not an opening of the precepts. The precept essence (戒體) and the possibility of buddhahood, which Seungjang had separated, Fazang recombines as essence and function (體用), leaving no place for Seungjang’s “partial all” (少分一切). Suchness, first among Seungjang’s four approaches (四門), falls to eighth among Fazang’s ten (十門). Regarding the buddha body, Fazang rejects Seungjang’s assignments but retains the three-body framework, returning the two scriptural bases that Seungjang had joined to their respective rungs. This constitutes a redetermination of gradation (階梯), distinguished by the fact that the Yogācāra framework is not demoted. Both operations reorganize Yogācāra interpretation within Fazang’s hierarchy rather than excluding it, in the same way that he places the Fanwangjing beneath the Huayanjing. This article proposes appropriation and overcoming (攝取·超克), rather than fusion, as a possible intention behind the commentary.",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "40",
+      "issue": "",
+      "start_page": "65",
+      "end_page": "98",
+      "doi": "10.29213/crbs..40.202610.65",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399544",
+      "keywords_kr": [
+        "법장(法藏)",
+        "승장(勝莊)",
+        "범망경(梵網經)",
+        "재조직(再組織)",
+        "섭취적 재배치(攝取的再配置)",
+        "계제(階梯)의 재확정",
+        "의적(義寂)"
+      ],
+      "keywords_en": [
+        "Fazang",
+        "Seungjang",
+        "Fanwangjing",
+        "Reorganization",
+        "Absorptive Reordering",
+        "Redetermination of Gradation",
+        "Uijeok"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교문화연구소",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "40",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003399547",
+      "id": "ART003399547",
+      "kci_id": "ART003399547",
+      "title_kr": "원효의 정토사상에 유심정토설이 있는가 - 고영섭의 반론을 재반론함 -",
+      "title_en": "Is There the Theory of ‘Pure Land in One’s Mind’ in Wonhyo’s View on Pure Land - Making Counterargument on Ko, Young-Seop’s Argument",
+      "authors": [
+        {
+          "name": "김호성",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 글은 『무량수경종요』와 『불설아미타경소』를 중심으로 한 원효의 정토사상에는 유심정토설은 존재하지 않음을 밝히는 것이 목적이다. 이를 위해 유심정토설이 있다고 주장하는 고영섭의 논지를 반론하는 방법을 취하였다.\n첫째는 『종요』 ‘대의’의 문맥을 고려할 때, ‘예토와 정토가 본래 일심이라’는 말은 유심정토설을 뒷받침하는 것이 아니라, 결론적으로는 타방정토설을 주장함에 있어서 그 출발점이 된 것이었다. 의해의 『사기』, 『기신론』, 그리고 선도의 『관경소』 등을 동원하여 증명하였다.\n둘째는 ‘예토와 정토가 본래 일심이라’에서 일심은 예토와 정토가 갈라지기 전을 말하는 것이다. 즉 ‘일심’과 ‘일심정토’는 동의어가 아니다. 만약 일심을 일심정토라 할 수 있으려면, 일심이 동시에 일심예토가 될 수도 있어야 한다. 그렇게 동시적으로 정토도 되고 예토도 되는 것은 일심정토가 아니라, 일심인 것이다.\n셋째는 ‘대의’의 일심과 『종요』에서 하배를 논의할 때 원효가 든 ‘지극한 마음’의 동의어로 쓴 일념은 서로 다른 말이다. 담란의 『약론』에서 말하는 ‘지심’은 ‘일념’이고, ‘십념의 상속’으로서 주의가 집중된 상태일 뿐이었다.\n넷째는 원효가 유심정토설을 말하지 않았을 뿐만 아니라 정토를 물리적 차원에서 논의하는 것을 선호하였음을 『경소』를 인용하여 추가증거로 제시하였다. 곧 『무량수경』의 ‘밥’을 세친은 정신적 차원에서 이해했으나, 원효는 물리적 차원에서 이해했던 것이다.\n이상으로, 고영섭이 원효의 정토사상으로 상정하는 ‘유심정토설과 타방정토설의 이중구조’는 원효의 『종요』와 『경소』로부터는 어떠한 뒷받침도 받을 수 없었음이 분명해 졌다.",
+      "abstract_en": "My aim in this article is to prove that there is not the Theory of ‘Pure Land in One’s Mind’ in Wonhyo’s View on Pure Land in his Muryangsugyeong Jong-yo(Doctrinal Essentials of the Sūtra of Immeasurable Life) and Bulseol Amitagyeong So(Commentary on the Amitābha Sūtra Spoken by the Buddha).\nFirstly, from the context of ‘The General Sense of the Sūtra’, I found out the meaning of the phrase of ‘Defiled Land and Pure Land come from One Mind’ doesn’t support the theory of ‘Pure Land in One’s Mind’. I cited Gikai’s Private Note, Awakening of Faith, and Shandao’s Commentary on the Contemplation Sūtra for proving my standpoint.\nSecondly, One Mind in the phrase of ‘Defiled Land and Pure Land come from One Mind’ denotes that ‘One Mind’ and ‘Pure Land in One Mind’ are not synonym. If ‘One Mind’ is ‘Pure Land in One Mind’, It will be true that ‘One Mind’ can be ‘Defiled Land in One Mind’ simultaneously.\nThirdly, the concept of ‘Utmost Attention’ in Contemplation Sūtra and Tanluán’s Short Essay on the Pure Land is different from One Mind in ‘The General Sense of the Sūtra’. ‘Utmost Attention’ means only ‘One Thought’ or ‘Ten moments of Mindfulness’.\nLastly, I proposed that Wonhyo had preferred Pure Land in physical dimension in his Commentary on the Amitābha Sūtra. While Vasubandhu understood ‘Food’ in Sūtra of Immeasurable Life as dhyāna-samādhi in spiritual dimension, Wonhyo considered it as meal in physical dimension.",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "40",
+      "issue": "",
+      "start_page": "99",
+      "end_page": "123",
+      "doi": "10.29213/crbs..40.202610.99",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399547",
+      "keywords_kr": [
+        "『무량수경종요』",
+        "『불설아미타경소』",
+        "유심정토설",
+        "일심정토설",
+        "타방정토설",
+        "원효",
+        "고영섭.",
+        "Muryangsugyeong Jong-yo(Doctinal Essentials of the Sūtra of Immeasurable Life)",
+        "Bulseol Amitagyeong So(Commentary on the Amitābha Sūtra Spoken by the Buddha)",
+        "Theory of ‘Pure Land in One Mind’",
+        "Theory of ‘Pure Land in Other World’"
+      ],
+      "keywords_en": [
+        "One Mind",
+        "Wonhyo",
+        "Ko.Young-Seop."
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교문화연구소",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "40",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003399552",
+      "id": "ART003399552",
+      "kci_id": "ART003399552",
+      "title_kr": "조선 후기 仁岳의 楞嚴私記에 보이는 ‘極量’의 용례에 대한 검토",
+      "title_en": "A Critical Examination of the Term Geungnyang (極量) in Inak Uicheom’s Neungeom-sagi of the Late Joseon Period",
+      "authors": [
+        {
+          "name": "이동혁",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 조선 후기 대강백 인악 의첨(仁岳義沾, 1746~1796)의 능엄사기에 빈번히 출현하는 ‘극량(極量)’의 용례를 검토하고 그 정체를 규명하고자 한 연구다. ‘극량’은 원래 『능엄경』을 한역한 반랄밀제(般刺密帝)를 의역한 명칭이지만, 인악의 사기에서는 문맥상 반랄밀제가 아닌, 별도의 주석 혹은 주석가를 지칭하는 것으로 읽힌다.\n이에 능엄사기 전체(권1~10)를 대상으로 ‘극량’의 출현 빈도와 문맥을 조사한 결과, 권3 · 9 · 10을 제외한 나머지 권에서 전체 58회 출현하는 것을 확인할 수 있다. 그리고 그 유형을 ‘1단순 참조형’, ‘2비교평가형’, ‘3서지 명시형’, 그리고 ‘4전재형’의 네 가지로 분류한 다음, 이 가운데 구체적인 풀이를 보여주는 13건의 ‘2비교평가형’을 중심으로 살펴보면, ‘극량’은 반랄밀제가 아니라 특정 인물이나 문헌으로 읽히는 것을 확인할 수 있다.\n한편, 최근 ‘극량’을 장수 자선에 대한 존칭으로 논의한 선행 연구에 따르면, 권1의 용례에 한정해서 볼 때 사기에서 ‘극량’의 이름으로 인용한 문장과 장수 자선(長水子璿, 965~1038)이 찬술한 『수능엄의소주경(首楞嚴義疏注經)』의 문장이 정확하게 대응하기에 그 주장과 부합한다. 다만, 권4에서 쓰인 용례를 보면 ‘극량’ 이 장수의 견해를 따르는 별도 주체로 서술되므로 양자를 그대로 등치시키기에는 어려움이 따른다.\n아울러 『해몽초(解蒙鈔)』 권수에 실린 당대까지의 『능엄경』 관련 주석서 목록집에서도 ‘극량’이라는 명칭이 확인되지 않는 점을 근거로, 본고는 ‘극량’이 특정 인물의 단일 저술이 아닌, 장수 계열의 주석 전통을 바탕으로 조선에서 편집한 일종의 자료집일 가능성을 조심스럽게 제기한다.\n이와 같은 추정에는 여전히 고증의 한계를 드러내지만, 일견 조선 후기 강원에서 이뤄진 강학 사기의 주석 전통이 중국 주석서를 단순하게 수용하며 답습하는데 머물지 않고, 주체적으로 종합 재편집했음을 보여주는 일례로서의 의의를 지닌다 하겠다.",
+      "abstract_en": "This study examines the recurring term geungnyang (極量) in the Neungeom-sagi (楞嚴私記, Personal Notes on the Śūraṅgama Sūtra) by the great late-Joseon gangbaek (講伯) Inak Uicheom (仁岳義沾, 1746-1796) to clarify what it designates. In the Śūraṅgama-sūtra exegetical tradition, geungnyang is a Sinographic rendering of the name of the sutra’s translator, Bhanamiti (般刺密帝). In Inak’s commentary, however, its context indicates a separate exegetical source or commentator rather than the translator.\nA survey of all ten fascicles of the Neungeom-sagi identifies fifty-eight occurrences of the term, which is absent only from fascicles 3, 9, and 10. These occurrences fall into four categories: simple reference, comparative evaluation, bibliographic citation, and direct quotation. Analysis of the thirteen substantive instances of “comparative evaluation” confirms that geungnyang functions as a proper noun designating a specific person or text, rather than Bhanamiti.\nThe study also reexamines a recent dissertation’s claim that geungnyang is Inak’s alias for the Song exegete Changshui Zixuan (長水子璿, 965-1038). This claim holds for fascicle 1, where passages cited under geungnyang match Changshui’s Shoulengyan yishu zhujing verbatim. A passage in fascicle 4, however, treats geungnyang as an entity that itself follows Changshui’s view, making a simple identification untenable. This tension is revealing: verbatim transmission preserves the exact wording, whereas editorial intervention produces divergence from Changshui’s own view.\nConsidering this evidence alongside the term’s absence from the bibliographic catalog in Qian Qianyi’s(錢謙益, 1582–1664) Jiemengchao (解蒙 鈔), the study cautiously proposes that geungnyang designates a composite text compiled in Korea within the Changshui exegetical lineage, with layers of editorial intervention, rather than the work of a single author. This finding shows how late-Joseon seminary commentators actively synthesized and reorganized Chinese exegetical sources rather than simply receiving them.",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "40",
+      "issue": "",
+      "start_page": "125",
+      "end_page": "146",
+      "doi": "10.29213/crbs..40.202610.125",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399552",
+      "keywords_kr": [
+        "Śūraṅgama-sūtra (Neungeom-gyeong)",
+        "조선 후기",
+        "능엄경",
+        "인악 의첨",
+        "능엄사기",
+        "극량",
+        "장수 자선"
+      ],
+      "keywords_en": [
+        "Late Joseon Buddhism",
+        "Inak Uicheom",
+        "Neungeom-sagi",
+        "Geungnyang",
+        "Changshui Zixuan"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교문화연구소",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "40",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003399554",
+      "id": "ART003399554",
+      "kci_id": "ART003399554",
+      "title_kr": "티베트에서 짠드라키르띠의 부활 - Resurrecting Candrakīrti를 읽고 -",
+      "title_en": "The Resurrection of Candrakīrti in Tibet: A Review of Resurrecting Candrakīrti",
+      "authors": [
+        {
+          "name": "김도현",
+          "affiliation": "전남대학교 인문융합연구원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "40",
+      "issue": "",
+      "start_page": "149",
+      "end_page": "163",
+      "doi": "10.29213/crbs..40.202610.149",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399554",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교문화연구소",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "40",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003399557",
+      "id": "ART003399557",
+      "kci_id": "ART003399557",
+      "title_kr": "둔륜 『유가론기』 속 원측설 주요 부분 역주(1) -텍스트교정을겸해-",
+      "title_en": "A Korean Translation with Annotations and Textual Emendations of Selected Interpretations by Woncheuk (圓測, 613~696) in Dunryun’s (遁倫, fl. ca. 705) Yugaron-gi (瑜伽論記): Part 1.",
+      "authors": [
+        {
+          "name": "장규언",
+          "affiliation": "서강대학교 철학연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "불교학리뷰",
+      "year": "2026",
+      "volume": "40",
+      "issue": "",
+      "start_page": "167",
+      "end_page": "184",
+      "doi": "10.29213/crbs..40.202610.167",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399557",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "불교문화연구소",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "40",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
     }
   ]
 }

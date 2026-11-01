@@ -39512,5 +39512,42 @@
       "source": "KCI",
       "publisher": "한국미술사학회"
     }
+  ],
+  "불교문화재연구": [
+    {
+      "article_id": "ART003209554",
+      "id": "ART003209554",
+      "kci_id": "ART003209554",
+      "title_kr": "문헌으로 본 광주 수도사",
+      "title_en": "A Literary Survey of Sudosa Temple in Gwangju",
+      "authors": [
+        {
+          "name": "최선일",
+          "affiliation": "동북아불교미술연구소",
+          "order": "1"
+        },
+        {
+          "name": "남계원",
+          "affiliation": "",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "",
+      "abstract_en": "",
+      "journal_name": "불교문화재연구",
+      "year": "2025",
+      "volume": "",
+      "issue": "6",
+      "start_page": "153",
+      "end_page": "163",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003209554",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "(사)동북아불교미술연구소"
+    }
   ]
 }
