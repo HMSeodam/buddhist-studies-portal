@@ -39549,5 +39549,262 @@
       "source": "KCI",
       "publisher": "(사)동북아불교미술연구소"
     }
+  ],
+  "한국명상학회지": [
+    {
+      "article_id": "ART003400018",
+      "id": "ART003400018",
+      "kci_id": "ART003400018",
+      "title_kr": "빅데이터로 본 마음챙김 연구의 동향: 심리학 및 통합의학 분야를 중심으로",
+      "title_en": "Trends in Mindfulness Research Using Big Data: Focusing on Psychology and Integrative Medicine",
+      "authors": [
+        {
+          "name": "유재홍",
+          "affiliation": "경희대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 텍스트마이닝 기법을 활용하여 2016년부터 2025년까지 Web of Science Core Collection에 등재된 심리학 및 통합의학 분야 마음챙김 연구의 주제 구조와 시계열적 변화 양상을 탐색하였다. 분석 대상은 영문 학술논문 12,526편이었으며, TF-IDF 분석, LDA 토픽 모델링, 시계열 회귀분석을 적용하였다. TF-IDF 분석 결과, ‘Stress’와 ‘Anxiety’가 압도적으로 높은 중요도를 보였다. 토픽 모델링 결과, 마음챙김 연구는 명상 수행과 주의-인지 기제, 교육 및 직장 맥락의 마음챙김 실천, 임상 치료 및 증상 완화, 아동⋅청소년의 정서 조절, 스트레스 관리와 심리적 웰빙의 다섯 주제로 구성되어 있었다. 시계열 분석 결과, 교육 및 직장 맥락의 마음챙김 실천과 스트레스 관리 및 심리적 웰빙 주제는 증가 경향을 보인 반면, 나머지 세 주제는 감소 경향을 나타냈다. 본 연구는 해당 데이터베이스 범위 내에서 마음챙김 연구의 주제 구조와 시계열적 변화 양상을 탐색적으로 파악함으로써 프로그램 개발과 실제 현장 적용을 위한 기초자료를 제공한다.",
+      "abstract_en": "This study explored the thematic structure and temporal trends of mindfulness research in psychology and integrative medicine indexed in the Web of Science Core Collection from 2016 to 2025. A total of 12,526 English-language journal articles were analyzed using TF-IDF, latent Dirichlet allocation topic modeling, and time-series regression. TF-IDF results showed that ‘Stress’ and ‘Anxiety’ had overwhelmingly high importance. Five major topics were identified: meditation practice and attentional-cognitive mechanisms; mindfulness practice in educational and workplace contexts; clinical treatment and symptom reduction; emotion regulation in children and adolescents; and stress management and psychological well-being. Time-series analysis revealed increasing trends in mindfulness practice in educational and workplace contexts and stress management and psychological well-being, whereas the other three topics showed decreasing trends. By examining the thematic structure and temporal changes in mindfulness research within the scope of the database examined, this study provides foundational information for program development and practical applications.",
+      "journal_name": "한국명상학회지",
+      "year": "2026",
+      "volume": "16",
+      "issue": "2",
+      "start_page": "41",
+      "end_page": "59",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003400018",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 한국명상학회"
+    },
+    {
+      "article_id": "ART003400019",
+      "id": "ART003400019",
+      "kci_id": "ART003400019",
+      "title_kr": "기감 설문지 개발 및 예비 타당화 연구",
+      "title_en": "Development and Preliminary Validation of the Qigong Sensation Questionnaire",
+      "authors": [
+        {
+          "name": "윤석인",
+          "affiliation": "경희대학교",
+          "order": "1"
+        },
+        {
+          "name": "김종우",
+          "affiliation": "경희대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "본 연구의 목적은 기공 수련 역량을 평가하기 위한 기감 설문지를 개발하고 타당화하는 것이다. 연구1에서는 전문가 합의를 통해 기공 수련 역량을 감기, 축기, 행기로 정의하고 기감 설문지 예비문항을 개발하였다. 연구2에서는 두 차례 전문가 문항 평정을 통해 기감 설문지의 내용타당도를 검증하였다. 연구3에서는 대학생 24명을 대상으로 기공 숙달 전(1회차)과 후(8회차)의 기감 점수를 비교하고, 마음챙김 및 통합적 활력과의 상관을 탐색하였다. 연구 결과, 최종 21문항이 개발되었고, 문항 및 척도의 내용타당도는 양호하였다. 기공 숙달 전에 비해 숙달 후 감기, 축기 및 총점은 증가했으나, 행기는 유의한 변화가 없었다. 숙달 전 기감 총점 및 하위요인은 마음챙김, 활력과 유의한 상관을 보이지 않았으나, 숙달 후에는 마음챙김, 활력과 정적 상관을 보였다. 본 연구는 기공 수련의 핵심 경험을 정량화하여 평가하는 도구를 개발하고 예비 타당화 근거를 제시하였다. 대규모 표본과 장기 중재 연구를 통한 후속 연구가 필요하다.",
+      "abstract_en": "This study developed and preliminarily validated the Qigong Sensation Questionnaire (QSQ), a measure of qigong practice competency. In Study 1, expert consensus identified three competency domains-perceiving qi (QSQ-P), accumulating qi (QSQ-A), and utilizing qi (QSQ-U)-and generated initial items. In Study 2, two rounds of expert ratings supported the content validity of the scale. In Study 3, 24 undergraduate students completed the QSQ before and after an 8-session qigong training program, and associations with mindfulness and integrative vitality were examined. The final QSQ consisted of 21 items and demonstrated good content validity. Following training, scores on the QSQ-total, QSQ-P, and QSQ-A increased significantly, whereas QSQ-U showed no significant change. Correlations with mindfulness and integrative vitality were absent before training but emerged after training. These findings provide preliminary support for the QSQ as a measure of key experiential competencies in qigong practice. Further validation with larger samples is needed.",
+      "journal_name": "한국명상학회지",
+      "year": "2026",
+      "volume": "16",
+      "issue": "2",
+      "start_page": "1",
+      "end_page": "19",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003400019",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 한국명상학회"
+    },
+    {
+      "article_id": "ART003400020",
+      "id": "ART003400020",
+      "kci_id": "ART003400020",
+      "title_kr": "마음챙김과 자비 기반 대학 교양교과목 개발 및 운영: ADDIE모형을 적용하여",
+      "title_en": "Development and Operation of a Mindfulness and Compassion-Based College Liberal Arts Course: Applying the ADDIE Model",
+      "authors": [
+        {
+          "name": "심교린",
+          "affiliation": "인천가톨릭대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 대학생의 정신건강 위기를 예방하고 미래 사회가 요구하는 인성을 갖춘 인재 양성을 위해 마음챙김과 자비 기반 대학 교양 교과목을 개발하고 운영한 과정을 기술하기 위한 것이다. 교수설계의 표준인 ADDIE 모형의 5단계인 분석, 설계, 개발, 실행, 평가의 각 단계 절차를 따랐다. 대학의 교육목표와 인재상, 핵심역량 및 학생들의 요구, 강의 환경 및 선행 연구를 분석하여 강의 내용과 구성을 설계하였다. 이어 교과의 운영평가를 위하여 연구 참여에 동의한 56명 학생에게 1주차와 15주차에 설문을 통해 마음챙김, 지각된 스트레스, 대학생 인성을 측정하였으며, 매주 실습수업 중 작성한 실습경험기록지로 질적분석을 실시하였다. 사전-사후 대응 t-test 결과 마음챙김과 대학생 인성의 하위요인인 정서관리와 배려에서 통계적으로 유의한 향상이 나타났으며(p<.05), 지각된 스트레스 점수에서도 통계적으로 유의한 감소가 나타났다(p<.05). 또한 질적분석에서 학생들이 신체 자각을 통한 현존 경험, 행위 양식에서 존재 양식으로의 전환, 불편함에 대한 비판단적 수용, 자비심의 확장을 경험하였음을 확인하였다. 본 연구는 대학의 교양교육 현장에서 마음챙김과 자비 기반 교과목 운영의 근거를 제시하고 활성화에 기여한 의의를 지닌다.",
+      "abstract_en": "This study aims to describe the process of developing and operating a university liberal arts course based on mindfulness and compassion to prevent mental health crises among university students and to foster talent equipped with the character required by future society. The procedure followed the five steps of the ADDIE model, the standard for instructional design. The course content and structure were designed by analyzing the university's educational goals, core competencies, student needs, the lecture environment, and prior research. Subsequently, to evaluate the course's operation, mindfulness, perceived stress, and university student character were measured by surveys administered to 56 students. Additionally, qualitative analysis was conducted using practical experience records. The results of the pre-post paired t-test showed statistically significant improvements in mindfulness and the sub-factors of university student character, namely emotional management and consideration(p < .05), and decrease in perceived stress scores (p < .05). Qualitative analysis confirmed that students experienced presence through body awareness, a transition from modes of action to modes of being, non-judgmental acceptance of discomfort, and an expansion of compassion.",
+      "journal_name": "한국명상학회지",
+      "year": "2026",
+      "volume": "16",
+      "issue": "2",
+      "start_page": "21",
+      "end_page": "39",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003400020",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 한국명상학회"
+    },
+    {
+      "article_id": "ART003400021",
+      "id": "ART003400021",
+      "kci_id": "ART003400021",
+      "title_kr": "반복적 부정사고에 초점을 맞춘 글쓰기 개입프로그램의 우울 및 불안 감소 효과: 탈중심화 대 인지재구성 글쓰기의 비교",
+      "title_en": "The Effects of a Writing Intervention Program Targeting Repetitive Negative Thinking on Reductions in Depression and Anxiety: A Comparison of Decentering and Cognitive Restructuring Writing",
+      "authors": [
+        {
+          "name": "이현주",
+          "affiliation": "한양사이버대학교  일반대학원",
+          "order": "1"
+        },
+        {
+          "name": "황성훈",
+          "affiliation": "한양사이버대학교",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "본 연구는 반복적 부정사고(Repetitive Negative Thinking: RNT)를 겨냥한 글쓰기 프로그램에 따른 우울과 불안의 변화를 살펴보았다. RNT를 일시적인 내적 경험으로 상위자각하는 탈중심화 글쓰기가 내적 경험의 내용과 형태를 바꾸는 인지 재구성 글쓰기보다 우울과 불안을 더 감소시킬 것으로 가정하였다. 한국판 보속적 사고 질문지(K-PTQ) 상위 20%를 기준으로 하되, 경계 점수에서는 반복적 사고 질문지 단축판(RTQ-10)을 추가로 고려하여 참여자 62명을 선별하고, 탈중심화(22명), 인지 재구성(23명), 활성 통제 조건인 심리교육(17명) 집단에 무선 할당하였다. 참여자들은 4회기의 온라인 자가 글쓰기를 수행했으며, 기저선부터 두 번의 추수 평가까지 탈중심화, RNT 및 우울과 불안을 8회 반복 측정하였다. Jamovi로 다수준 분석을 실시한 결과, 기대와 다르게 세 집단 모두 탈중심화가 증가하고, RNT가 감소하였다. 우울과 불안의 완화효과는 탈중심화 글쓰기가 인지 재구성과 심리교육에 비해 유의하게 작았다. 각 글쓰기 조건에서 RNT가 우울 및 불안에 미치는 효과를 비교했는데, 탈중심화 글쓰기에서는 인지 재구성 글쓰기에 비해 RNT와 정서적 고통의 관련성이 상대적으로 약하게 나타났다. 끝으로 RNT 완화를 위한 온라인 글쓰기 개입의 유용성에 대해 논의하였으며, 임상적 의의와 제한점 및 향후 연구 방향을 제시하였다.",
+      "abstract_en": "This study examined changes in depression and anxiety following writing interventions targeting repetitive negative thinking (RNT). Decentering writing, promoting metacognitive awareness of RNT as transient internal experiences, was hypothesized to outperform cognitive restructuring, which modifies thought content and form. Sixty-two participants selected using the top 20% criterion on the K-PTQ, with RTQ-10 scores considered for borderline cases, were randomized to decentering (n = 22), cognitive restructuring (n = 23), or psychoeducation as an active control (n = 17). Participants completed four online self-guided sessions and eight assessments, including two follow-ups. Multilevel analyses using jamovi showed increased decentering and decreased RNT across groups. Contrary to expectations, depression and anxiety decreased significantly less in the decentering group than in both other groups. However, the association between RNT and emotional distress was relatively weaker in the decentering group than in the cognitive restructuring group. Clinical implications, limitations, and future research directions are discussed.",
+      "journal_name": "한국명상학회지",
+      "year": "2026",
+      "volume": "16",
+      "issue": "2",
+      "start_page": "121",
+      "end_page": "153",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003400021",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 한국명상학회"
+    },
+    {
+      "article_id": "ART003400022",
+      "id": "ART003400022",
+      "kci_id": "ART003400022",
+      "title_kr": "마음챙김과 자기자비 기반 커플관계향상 프로그램 구성 및 효과성",
+      "title_en": "Development and Effects of a Mindfulness and Self-Compassion Based Couple Relationship Enhancement Program",
+      "authors": [
+        {
+          "name": "김아신",
+          "affiliation": "마음자리 심리상담센터",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구의 목적은 기혼자의 커플관계 향상을 위하여 마음챙김과 자기자비에 기반한 커플관계향상 프로그램을 구성하고 그 효과를 검증하는 것이다. 프로그램은 마음챙김 기반 관계증진(MBRE) 프로그램을 기본 틀로 하여 마음챙김 및 자기자비 관련 이론과 커플치료 선행연구를 토대로 구성하였으며, 예비연구와 전문가 검토를 거쳐 8회기로 확정하였다. 기혼자 29명(실험집단 14명, 통제집단 15명)이 참여하였고, 실험집단은 주 1회 150분씩 8주간 온라인 집단 프로그램에 참여하였다. 마음챙김, 자기자비, 결혼만족도, 정서적 친밀감, 긍정⋅부정정서를 사전, 사후, 추후(종료 4주 후)에 측정하여 혼합설계 반복측정 분산분석과 단순주효과 분석을 실시하였다. 그 결과 마음챙김, 자기자비, 결혼만족도, 정서적 친밀감, 긍정정서에서 집단과 측정시기의 상호작용이 유의하였고, 실험집단에서만 사전보다 사후와 추후에 유의하게 향상되었다. 부정정서의 변화는 유의하지 않았다. 이러한 결과는 마음챙김과 자기자비를 함께 훈련하는 프로그램이 기혼자의 마음챙김과 자기자비를 높이고 기혼자가 지각하는 커플관계의 질을 높이는 데 도움이 될 수 있음을 시사한다.",
+      "abstract_en": "This study developed a mindfulness and self-compassion-based couple relationship enhancement program and examined its effects among married individuals. Built on the Mindfulness-Based Relationship Enhancement (MBRE) framework, the eight-session program was finalized after a pilot study and expert review. Twenty-nine married individuals participated (intervention group, n = 14; waitlist control group, n = 15), and the intervention group attended eight weekly 150-minute online sessions. Mindfulness, self-compassion, marital satisfaction, emotional intimacy, and positive and negative affect were assessed at pretest, posttest, and 4-week follow-up. Mixed-design ANOVA revealed significant group × time interactions for mindfulness, self-compassion, marital satisfaction, emotional intimacy, and positive affect. Simple main effect analyses showed significant increases from pretest to posttest and follow-up only in the intervention group. Negative affect did not change significantly. These findings suggest that training in mindfulness and self-compassion may enhance married individuals’ mindfulness and self-compassion as well as their perceived quality of the couple relationship.",
+      "journal_name": "한국명상학회지",
+      "year": "2026",
+      "volume": "16",
+      "issue": "2",
+      "start_page": "155",
+      "end_page": "171",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003400022",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 한국명상학회"
+    },
+    {
+      "article_id": "ART003400023",
+      "id": "ART003400023",
+      "kci_id": "ART003400023",
+      "title_kr": "내수용감각과 주관적 웰빙의 관계에서 대인관계 마음챙김과 사회정서역량의 직렬 다중매개효과",
+      "title_en": "The Serial Multiple Mediating Effect of Interpersonal Mindfulness and Social Emotional Competence on The Relationship between Interoceptive awareness and Subjective Well-Being",
+      "authors": [
+        {
+          "name": "박지훈",
+          "affiliation": "광주여자대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구의 목적은 내수용감각과 주관적 웰빙의 관계에서 대인관계 마음챙김과 사회정서역량의 직렬 다중매개효과를 검증하는 데 있다. 이를 위해 전남광주통합특별시 K대학교 재학생을 대상으로 내수용감각, 주관적 웰빙, 대인관계 마음챙김, 사회정서역량에 관한 설문을 실시하였다. 최종 777명의 자료를 바탕으로, PROCESS macro를 활용하여 직렬 다중매개효과를 검증한 연구 결과는 다음과 같다. 첫째, 내수용감각은 주관적 웰빙에 유의한 총효과를 가졌고, 두 매개변인을 통제한 후에도 직접효과는 유의하였다. 둘째, 내수용감각은 대인관계 마음챙김에 유의한 정적 영향을 미쳤고, 내수용감각과 대인관계 마음챙김은 모두 사회정서역량에 유의한 정적 영향을 미쳤다. 셋째, 내수용감각이 대인관계 마음챙김을 통해 주관적 웰빙에 미치는 간접경로는 유의하지 않았지만, 사회정서역량을 통한 간접경로와 대인관계 마음챙김과 사회정서역량을 순차적으로 거치는 직렬 간접경로는 모두 정적으로 유의하였으며, 두 경로의 크기는 통계적으로 다르지 않았다. 이러한 결과는 대인관계 마음챙김을 포함하는 간접경로가 사회정서역량을 거치는 경우에 유의하게 나타남을 보여주며, 내수용감각이 웰빙으로 이어지는 과정에서 알아차림을 사회적 행동으로 옮기는 실행역량이 중요한 경로가 될 수 있음을 시사한다. 횡단자료에 기초한 본 연구의 함의와 제한점을 논의하였다.",
+      "abstract_en": "This study examined the serial multiple mediating effects of interpersonal mindfulness and social-emotional competence on the relationship between interoceptive awareness and subjective well-being. Data from 777 undergraduates were analyzed using the PROCESS macro. Results showed significant total and direct effects of interoceptive awareness on well-being. Interoceptive awareness positively predicted interpersonal mindfulness, and both interoceptive awareness and interpersonal mindfulness predicted social-emotional competence. The indirect effect from interoceptive awareness to well-being through interpersonal mindfulness alone was not significant, whereas the indirect path through social-emotional competence and the serial indirect path sequentially passing through interpersonal mindfulness and social-emotional competence were positively significant. These findings suggest that the effect of interpersonal mindfulness is transmitted to subjective well-being through social-emotional competence, and that executive competencies-which translate awareness into social action-serve as a crucial pathway linking interoceptive awareness to well-being.",
+      "journal_name": "한국명상학회지",
+      "year": "2026",
+      "volume": "16",
+      "issue": "2",
+      "start_page": "61",
+      "end_page": "76",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003400023",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 한국명상학회"
+    },
+    {
+      "article_id": "ART003400024",
+      "id": "ART003400024",
+      "kci_id": "ART003400024",
+      "title_kr": "경제적 불안을 경험한 중년 남성의 움직임 명상 수행 자문화기술지: 하트스마일명상 감사랑 무브먼트를 중심으로",
+      "title_en": "An Autoethnography of a Middle-Aged Man’s Movement  Meditation Practice Amid Economic Insecurity: With a Focus on the Gamsarang Movement of Heartsmile Training",
+      "authors": [
+        {
+          "name": "이목영",
+          "affiliation": "아주대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 연구는 경제적 불안과 자기비판에 시달리던 한 중년 상담자가 움직임 명상(감사랑 무브먼트)을 실천한 100일 동안, 위협에 사로잡힌 정서를 어떻게 몸을 통해 조절했는지를 자문화기술지로 탐색하였다. 2025년 11월부터 2026년 2월까지의 기록을 현장 텍스트로 삼아 정서적으로 걸린 사건들을 귀추적으로 선별⋅해석하였으며, Gilbert의 자비중심치료가 제시한 위협체계와 안정체계를 해석의 틀로 삼았다. 그 결과 세 주제가 도출되었다. ‘위협이 몸을 장악하다’에서는 경제적 위기가 부적절감을 건드리며 미간의 무게와 하체의 마비감으로 각인되었음을, ‘몸으로 위협에 대응하기’에서는 움직임이 만드는 이중의 감각을 통해 사고와 자기 사이에 거리가 생기는 과정을, ‘몸이 찾은 자리, 그리고 문턱’에서는 몸을 통한 자기조절이 자기위로에 이르고 한 타자와의 만남을 계기로 관계라는 다음 국면을 예감하게 했음을 기술하였다. 100일간의 변화는 위협의 제거가 아니라 ‘위협에 장악된 몸’에서 ‘위협을 담아 두는 몸’으로의 이행이었다. 이 연구가 생애 전환기 중년 남성을 위한 몸 기반 심리적 지원의 단서를 제공하기를 기대한다.",
+      "abstract_en": "This autoethnographic study explores how a middle-aged counselor struggling with economic insecurity and self-criticism regulated threat-driven emotions through the body during 100 days of movement meditation (Gamsarang Movement). Records from November 2025 to February 2026 served as field texts; emotionally charged episodes were abductively selected and interpreted through the threat and soothing systems of Gilbert’s compassion-focused therapy. Three themes emerged. In “Threat takes over the body,” economic crisis evoked inadequacy, inscribed as heaviness between the brows and lower-body numbness. In “Responding to threat through the body,” the dual sensation of movement created distance between thought and self. In “The place the body found, and the threshold,” bodily self-regulation extended into self-soothing, and an encounter with another foreshadowed relationship as the next phase. The change was not the elimination of threat but a shift from “a body taken over by threat” to “a body that holds threat,” suggesting body-based support for middle-aged men in life transition.",
+      "journal_name": "한국명상학회지",
+      "year": "2026",
+      "volume": "16",
+      "issue": "2",
+      "start_page": "77",
+      "end_page": "95",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003400024",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 한국명상학회"
+    },
+    {
+      "article_id": "ART003400025",
+      "id": "ART003400025",
+      "kci_id": "ART003400025",
+      "title_kr": "명상심리상담학 전공자의 자기 재구조화 경험: 수행 지속 양상이 상이한 세 전공자의 성찰적 자기기술 분석",
+      "title_en": "Self-Restructuring Experiences of Individuals Trained in Meditation Psychology Counseling: An Analysis of Reflective Self-Descriptions from Three Participants with Differing Patterns of Practice Conti",
+      "authors": [
+        {
+          "name": "민세윤",
+          "affiliation": "동방문화대학원",
+          "order": "1"
+        },
+        {
+          "name": "문진건",
+          "affiliation": "동방문화대학원 교수",
+          "order": "2"
+        }
+      ],
+      "abstract_kr": "본 연구는 질적 기술 연구 설계에 따라, 명상 강좌를 이수한 후 수행 지속 양상이 상이한 명상심리상담학 전공자 3인(지속형 A, 간헐형 B, 중단형 C)의 경험을 비교하였다. 주 분석 자료는 10개 핵심 키워드 기반의 구조화된 성찰적 자기기술이며, Hsieh와 Shannon(2005)의 방향적 내용분석으로 분석하고, 기질 및 성격검사-성인용(TCI-RS)을 보조 자료로 활용하였다. 본 연구는 참여자 경험을 자료에 근접하여 기술하고 공통 양상과 변이를 탐색하는 데 목적을 두며, 인과적 추론이나 통계적 일반화는 시도하지 않았다. 분석 결과 ‘충돌(자기이해와 실제 반응의 괴리)’, ‘관찰(자기반응 자각과 관찰적 거리 형성)’, ‘수용(기질적 취약성 수용)’, ‘통합(변화된 자기이해의 관계 및 상담 실천으로의 확장)’의 네 국면을 구성하였다. 다만 구체적 표현 양상은 참여자마다 달랐으며, 이를 수행 지속 양상만의 차이로 해석할 수는 없다. 논의에서는 이러한 자기관계 변화를 설명하기 위해 ‘기질과 수행의 변증법적 통합’을 잠정 제안하였다. 본 결과는 제한된 자기기술 자료에 근거한 탐색적 기술로 후속 검토가 필요하다.",
+      "abstract_en": "Using a qualitative descriptive design, this study examined self-restructuring experiences of three individuals trained in Meditation Psychology Counseling who showed differing practice patterns (continuous [A], intermittent [B], discontinued [C]) after the same ānāpānasati-based course. Structured reflective self-descriptions were analyzed through Hsieh and Shannon's (2005) directed content analysis, with Temperament and Character Inventory-Revised-Short Version (TCI-RS) profiles as supplementary descriptive data; causal inference and statistical generalization were not attempted. Four experiential phases were tentatively identified: Collision (a gap between self-understanding and temperamental reactions), Observation (observational distance from one's reactions), Acceptance (of temperamental vulnerability), and Integration (extension of changed self-understanding into relationships and counseling practice). Their manifestations varied across participants and cannot be attributed to practice continuity. The Dialectical Integration of Temperament and Practice is proposed as a working concept requiring further examination.",
+      "journal_name": "한국명상학회지",
+      "year": "2026",
+      "volume": "16",
+      "issue": "2",
+      "start_page": "97",
+      "end_page": "120",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003400025",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 한국명상학회"
+    }
   ]
 }

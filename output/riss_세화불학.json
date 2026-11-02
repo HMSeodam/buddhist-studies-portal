@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "세화불학",
-    "last_updated": "2026-09-26"
+    "last_updated": "2026-11-03"
   },
   "articles": [
     {
@@ -2822,6 +2822,527 @@
         "KCI"
       ],
       "riss_id": "a4ee9e0af25e3eeb7ecd42904f0c5d65"
+    },
+    {
+      "article_id": "ART003398187",
+      "id": "ART003398187",
+      "kci_id": "ART003398187",
+      "title_kr": "중국 불자의 신행 생활",
+      "title_en": "The Religious Life and Practice of Chinese Buddhists",
+      "authors": [
+        {
+          "name": "곽뢰",
+          "affiliation": "동국대학교 불교학술원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 현대 중국 불교의 일상 신행을 시간의 반복, 수행 공간, 윤리적 실천의 관계에서 고찰한다. 연구의 중심은 21세기 중국 대륙의 한전불교(漢傳佛敎), 곧 한역 경전과 중국 불교 전통에 기반한 재가불자의 생활이다. 사찰의 규약과 공개 활동 자료, 선행연구를 검토하여 조석 예불, 월례 법회, 불보살 기념일, 칠일 정진, 참회ㆍ천도 의례, 순례와 가정 수행이 어떻게 연결되는지 분석한다. 출가자의 생활은 재가 수행의 제도적 배경으로, 티베트불교와 남방 상좌부불교는 중국 내부의 다양성을 보여 주는 보완 사례로 다룬다. 또한 한국 조계종의 신도교육과 일본 정토종ㆍ조동종의 공개 신행 지침을 제한적으로 비교한다. 분석 결과, 의례의 반복은 신앙의 지속을 돕지만 그 자체가 윤리적 변화나 깨달음을 보장하지는 않는다. 이에 자비의 사회적 실천, 경전 이해와 성찰을 결합한 지혜의 함양, 개인과 가족을 넘어서는 보살의 서원을 신행의 발전 방향으로 제시한다. 본 연구는 문헌에 근거한 탐색적 논의로서 신자의 참여율이나 수행 효과를 실증적으로 측정한 연구는 아니다. 이를 통해 신행을 의례 참여 횟수보다 수행의 지속 조건과 일상 관계의 변화라는 관점에서 이해할 필요성을 제기한다.",
+      "abstract_en": "This article examines everyday Buddhist practice in contemporary China through the relationships among recurring religious time, spaces of cultivation, and ethical action. It focuses on lay practitioners of Chinese-language Buddhism in mainland China during the twenty-first century, while treating monastic routines as an institutional background and Tibetan and Theravada traditions as supplementary examples of internal diversity. Drawing on temple regulations, publicly available activity reports, ritual guidance, and previous scholarship, the study explores morning and evening liturgies, monthly observances, Buddhist commemorative days, seven-day retreats, repentance and memorial rites, pilgrimage, and domestic practice. It also makes a limited comparison with lay education in the Korean Jogye Order and published guidance from the Japanese Jōdo and Sōtō traditions.\nThe analysis suggests that recurring rituals provide conditions for sustaining religious commitment and connect individual cultivation with temples, households, and communities. Lay practice involves adapting religious routines to employment, caregiving, housing, and relationships rather than merely reproducing monastic schedules. Public institutional guidance, however, cannot establish how frequently practitioners participate or what changes they actually experience. Ritual repetition therefore does not itself demonstrate ethical transformation or spiritual attainment.\nThe article proposes three complementary directions for deepening practice: extending compassion into sustained care for others; linking scriptural understanding, cultivation, and reflection in the development of wisdom; and transforming personal wishes into enduring bodhisattva vows directed toward the welfare of all beings. These proposals are normative implications of the analysis, not reports of experimentally verified programs. As an exploratory study based on documents, the article does not measure participation rates or the effects of practice. Its analytical types are not reconstructed biographies of actual practitioners. Future research should combine observation and interviews within specific communities to investigate how work, caregiving, gender, generation, and relationships with religious teachers shape the continuity of practice and its connection with everyday ethical life.",
+      "journal_name": "세화불학",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "start_page": "7",
+      "end_page": "33",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398187",
+      "keywords_kr": [
+        "현대 중국 불교",
+        "재가불자",
+        "일상 신행",
+        "한전불교",
+        "동아시아 불교",
+        "자비",
+        "지혜",
+        "원력"
+      ],
+      "keywords_en": [
+        "contemporary Chinese Buddhism",
+        "lay Buddhists",
+        "everyday religious practice",
+        "Chinese-language Buddhism",
+        "East Asian Buddhism",
+        "compassion",
+        "wisdom",
+        "vows"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 세화불학원",
+      "kci_year": "2026",
+      "kci_volume": "9",
+      "kci_issue": "",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003398190",
+      "id": "ART003398190",
+      "kci_id": "ART003398190",
+      "title_kr": "현대 일본인의 불교 신행",
+      "title_en": "Buddhist Religious Practice in Contemporary Japan",
+      "authors": [
+        {
+          "name": "제점숙",
+          "affiliation": "동서대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "이 글은 현대 일본인의 불교 신행을 특정 종교에 대한 신앙이나 귀속 여부만으로 파악하기 어렵다는 문제의식에서 출발하여, 일상생활에서 이루어지는 불교적 실천과 특정 불교종파 신자의 신행을 함께 살펴보는 것을 목적으로 한다. 이를 위해 일반 일본인을 대상으로 한 종교인식 및 불교적 실천에 관한 최근 조사자료와 정토진종 본원사파(淨土真宗本願寺派)의 「제11회 종세기본조사(第11回宗勢基本調査)」를 중심으로 문도의 종교생활을 분석하였다.\n먼저 현대 일본인의 종교적 자기인식과 실제 종교행동 사이에는 일정한 차이가 있으며, 특정 종교에 대한 뚜렷한 귀속이나 신앙이 없는 경우에도 불단 참배, 오봉ㆍ히간의 성묘, 법요 등 불교와 관련된 실천이 일상생활 속에서 지속되고 있음을 확인하였다. 본 연구에서는 이처럼 가족과 죽은 자, 연중행사 등을 매개로 이루어지는 불교적 실천을 ‘생활적 신행’으로 파악하였다. 정토진종 본원사파의 사례에서는 문도의 종교적 실천에서 염불과 청문, 법좌, 보은강 등 종파의 교의와 전통에 기반한 ‘종파적 신행’이 나타나는 한편, 가족의 기일과 오봉ㆍ히간 등을 매개로 한 ‘생활적 신행’도 함께 이루어지고 있었다. 특히 가정보은강은 종파 고유의 신행이 문도의 생활공간에서 이루어지는 사례로서, ‘생활적 신행’과 ‘종파적 신행’이 서로 중첩되는 ‘신행의 중층성’을 보여준다.\n한편 이러한 현대 일본인의 불교적 실천은 가족구조와 생활환경의 변화로 인해 묘지 정리ㆍ개장, 불단 정리, 법요의 간소화 등 기존의 신행 방식과는 다른 새로운 양상을 보이고 있다. 그러나 이를 불교 신행의 쇠퇴나 사찰과 문도 관계의 소멸로만 설명하기는 어렵다. 오히려 현대 일본인의 불교 신행은 ‘생활적 신행’과 ‘종파적 신행’이 중층적으로 나타나는 가운데, 가족구조와 생활환경의 변화에 따라 그 실천과 관계의 방식이 달라지는 ‘재편’의 과정으로 이해할 수 있을 것이다.",
+      "abstract_en": "This study examines Buddhist religious practice in contemporary Japan from the perspective that it cannot be fully understood solely in terms of religious belief or affiliation. It aims to explore both Buddhist practices embedded in everyday life and the religious practices of adherents affiliated with a specific Buddhist denomination. To this end, the study analyzes recent surveys on religious attitudes and Buddhist practices among the general Japanese population, as well as the religious life of adherents (monto) of the Jōdo Shinshū Hongwanji-ha, focusing on the Eleventh Basic Survey of Denominational Conditions (Dai-11-kai Shusei Kihon Chōsa).\nThe findings indicate a certain gap between religious self-identification and actual religious behavior among contemporary Japanese people. Even among those without a clear religious affiliation or belief, Buddhist-related practices continue in everyday life, including worship at household Buddhist altars (butsudan), visits to family graves during Obon and Higan, and Buddhist memorial services. This study conceptualizes such practices, mediated by family, the deceased, and annual observances, as “everyday religious practice.” In the case of the Jōdo Shinshū Hongwanji-ha, the religious practices of monto include “sectarian religious practice” rooted in the teachings and traditions of the denomination, such as nembutsu, listening to Buddhist teachings (chōmon), Dharma gatherings (hōza), and Ho-onko services. At the same time, “everyday religious practice” associated with family death anniversaries, Obon, and Higan is also evident. Household Ho-onko (katei hōonkō), in particular, illustrates how a denomination-specific religious practice is performed within the everyday living space of monto, demonstrating the “multilayered nature of religious practice,” in which “everyday religious practice” and “sectarian religious practice” overlap.\nMeanwhile, changes in family structure and living environments have given rise to new forms of Buddhist practice, including grave closure or relocation, the removal of household Buddhist altars, and the simplification of memorial services. These developments, however, cannot simply be interpreted as a decline in Buddhist religious practice or the disappearance of temple–monto relationships. Rather, Buddhist religious practice in contemporary Japan can be understood as undergoing a process of “reconfiguration,” in which “everyday religious practice” and “sectarian religious practice” overlap, while the forms of practice and the relationships supporting them are reshaped in response to changes in family structure and living environments.",
+      "journal_name": "세화불학",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "start_page": "35",
+      "end_page": "60",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398190",
+      "keywords_kr": [
+        "Jōdo Shinshū Hongwanji-ha",
+        "현대 일본불교",
+        "불교 신행",
+        "생활적 신행",
+        "종파적 신행",
+        "신행의 중층성",
+        "정토진종 본원사파"
+      ],
+      "keywords_en": [
+        "contemporary Japanese Buddhism",
+        "Buddhist religious practice",
+        "everyday religious practice",
+        "sectarian religious practice",
+        "multilayered nature of religious practice"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 세화불학원",
+      "kci_year": "2026",
+      "kci_volume": "9",
+      "kci_issue": "",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003398198",
+      "id": "ART003398198",
+      "kci_id": "ART003398198",
+      "title_kr": "범무(작법무) 구전 지침에 나타난 공간 개념과 무연(舞筵)의 연속성",
+      "title_en": "Spatial Concepts in the Oral Transmission of Beommu (Jakbeopmu) and Their Continuity with Wuyan (舞筵)",
+      "authors": [
+        {
+          "name": "우상희",
+          "affiliation": "동방문화대학원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 범무(작법무) 전승 현장에서의 ‘방석 하나 정도의 자리’라는 구전 지침을 실마리로, 현행 범무의 공간 규율이 당대(唐代) 무연(舞筵) 및 불교 문헌의 완연(綩綖) 개념과 어떠한 역사적 연속성을 지니는지 고찰하였다.\n둔황 벽화와 당대 시문에서 확인되는 무연은 일정한 범위 안에서 춤의 중심과 동선을 유지하는 춤자리였다. 이러한 무연의 공간적 성격과 관련하여 불교 문헌에서 주목되는 것이 완연이다. 완연은 단순한 물리적 자리를 넘어 수행과 법의 의미가 부여된 자리로 이해된다. 길장은『법화통략(法華統略)』에서 완연을 ‘해탈의 자리[解脫床]’로 해석하며 그 수행적 의미를 드러내었으며, 혜림의『일체경음의』 권4에서는 완연을 무연ㆍ지의와 같은 부류의 자리로 설명하고 있다. 또한, 만다라 의식에서도 완연은 법의 자리를 구성하는 공간으로 나타난다.\n무연의 제한된 춤자리라는 공간 원리는 후대 동아시아 의례춤에서 서로 다른 방식으로 전승된 것으로 볼 수 있다. 궁중 정재의 춘앵전(春鶯囀)에서는 화문석(花紋席)이라는 물질적 춤자리를 통해 그 공간 형식이 가시적으로 유지되는 반면, 범무에서는 ‘방석 하나 정도의 자리’라는 구전 지침과 제한된 동선을 통해 그 원리가 나타난다. 특히 바라무의 좌전과 착복무의 제한적 이동은 정해진 자리 안에서 움직임을 수행한다는 점에서 완연의 수행적 공간성과 상응한다. 이를 통해 범무의 제한된 춤공간은 단순한 동선의 제약이 아닌 무연의 공간 형식과 완연의 수행적 의미가 중첩되어 전승된 의례적 수행 공간으로 이해할 수 있다.",
+      "abstract_en": "This study examines the historical continuity between the spatial regulations of contemporary Buddhist ritual dance (Beommu, also known as Jakbeopmu) and the concepts of wuyan (舞筵) from the Tang dynasty and wanyan (綩綖) in Buddhist literature. It takes as its point of departure the oral instruction, “a space roughly the size of a single cushion,” transmitted within the practice of Beommu.\nAs documented in Dunhuang murals and Tang-dynasty poetry, wuyan referred to a designated dance space in which the center of the dance and the dancers' movement paths were maintained within defined boundaries. In relation to this spatial characteristic of wuyan, the concept of wanyan in Buddhist literature is particularly significant. wanyan was understood as a space imbued with the meanings of Buddhist practice and the Dharma, extending beyond its physical function as a mat or seat. In his Fahua Tonglüe (法華統略), Jizang interpreted wanyan as the “seat of liberation” (解脫床), emphasizing its significance for Buddhist practice. In Volume 4 of the Yiqie Jing Yinyi (一切經音義), Huilin classified wanyan alongside wuyan and diyi (地衣) as belonging to the same category of mats or floor coverings. Furthermore, wanyan appears in mandala rituals as a spatial element constituting a designated seat of the Dharma.\nThe spatial principle of wuyan, characterized by a bounded dance area, may be understood as having been transmitted in different forms within later East Asian ritual dance traditions. In the court dance Chunaengjeon (春鶯囀), this spatial form is visibly preserved through the hwamunseok (花紋席), a patterned mat that physically defines the dance area. In Beommu, the same principle is expressed through the oral instruction concerning a space roughly the size of a single cushion and through restricted patterns of movement. In particular, the leftward-turning movements of Baramu and the limited spatial movements of Chakbokmu correspond to the practice-oriented spatial character of wanyan, as both involve movement within a designated area. Accordingly, the bounded dance space of Beommu can be understood as a space of ritual practice in which the spatial form of wuyan and the practice-oriented significance of wanyan have been transmitted as interrelated layers.",
+      "journal_name": "세화불학",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "start_page": "61",
+      "end_page": "86",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398198",
+      "keywords_kr": [
+        "범무",
+        "작법무",
+        "무연(舞筵)",
+        "완연(綩綖)",
+        "화문석",
+        "춘앵전",
+        "Jakbeopmu (作法舞)",
+        "wuyan (舞筵)",
+        "wanyan (綩綖)",
+        "hwamunseok (花紋席)",
+        "Chunaengjeon (春鶯囀)"
+      ],
+      "keywords_en": [
+        "Beommu"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 세화불학원",
+      "kci_year": "2026",
+      "kci_volume": "9",
+      "kci_issue": "",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003398201",
+      "id": "ART003398201",
+      "kci_id": "ART003398201",
+      "title_kr": "선종의 깨달음이 갖는 특수성 -‘원환적 회귀’를 중심으로",
+      "title_en": "Distinctive Characteristics of Enlightenment in Seon Buddhism: Focusing on Circular Return",
+      "authors": [
+        {
+          "name": "오용석",
+          "affiliation": "인제대학교 화쟁인문학연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 선종 깨달음의 특수성을 ‘원환적 회귀’라는 관점에서 고찰하여 선불교의 깨달음 구조와 수행론의 특징을 규명하는 데 목적이 있다. 이를 위해 먼저 도생, 혜능, 종밀의 돈오ㆍ점수론을 중심으로 선종의 깨달음 구조를 검토하고, 돈오와 수행의 관계를 재해석하였다. 그 결과 선종의 돈오는 시간적ㆍ인과적 결과가 아니라 수행의 조건이 성숙할 때 창발적으로 드러나는 비선형적 사건이며, 종밀의 ‘유점무돈’은 돈오를 부정하는 것이 아니라 돈오를 가능하게 하는 수행의 의미를 해명하려는 시도임을 밝혔다. 이어 송대선의 원환 논리와 청원유신의 ‘산은 산이요 물은 물’이라는 법어, 성철의 법문, 숭산의 선원 등을 분석하여 선종의 깨달음이 미혹에서 초월로 나아가는 직선적 구조가 아니라, 깨달음을 통해 일상으로 회귀하면서도 새로운 차원의 삶을 구현하는 원환적 구조를 지님을 논증하였다. 또한 지눌의 견성과 수증일여 사상을 통해 수행과 깨달음은 원인과 결과의 관계가 아니라 상호 증장하는 관계임을 확인하였다. 결론적으로 선종의 깨달음은 초월적 경지에 머무는 것이 아니라 일상으로의 회귀를 통해 자비와 보살행을 실천하는 역동적 과정이며, ‘원환적 회귀’는 선불교의 수행과 깨달음, 그리고 일상성의 긍정을 통합적으로 설명할 수 있는 해석 틀임을 제시하였다.",
+      "abstract_en": "This study examines the distinctive characteristics of enlightenment in Seon Buddhism through the concept of circular return, with the aim of clarifying the structure of enlightenment and the relationship between awakening and practice. It first analyzes the theories of sudden enlightenment and gradual cultivation as developed by Daosheng, Huineng, and Zongmi, and reinterprets the relationship between enlightenment and religious practice. The study argues that sudden enlightenment should be understood not as the linear outcome of temporal causality but as a non-linear, emergent event that manifests when the conditions for practice have matured. From this perspective, Zongmi's notion of “only gradual cultivation without sudden enlightenment” (唯漸無頓) is interpreted not as a denial of sudden enlightenment but as an attempt to explain the indispensable role of cultivation in preparing the conditions for awakening.\nThe study further investigates the circular logic of Song-dynasty Seon by examining Qingyuan Weixin's famous dictum, “Mountains are mountains and waters are waters,” together with the teachings of Seongcheol and Seungsahn. It demonstrates that Seon enlightenment is not a one-directional movement from delusion to transcendence but a process of returning to ordinary life with a transformed mode of awareness. Furthermore, through an analysis of Jinul's doctrine of seeing one's true nature and the principle of the non-duality of practice and realization, the study argues that cultivation and enlightenment constitute a mutually reinforcing relationship rather than a simple causal sequence. It concludes that enlightenment is ultimately realized through compassionate engagement and the bodhisattva path within everyday life. Accordingly, the concept of “circular return”provides a comprehensive interpretive framework for understanding the dynamic unity of enlightenment, practice, and everyday life in Seon Buddhism.",
+      "journal_name": "세화불학",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "start_page": "87",
+      "end_page": "117",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398201",
+      "keywords_kr": [
+        "선종",
+        "원환적 회귀",
+        "돈오",
+        "수증일여",
+        "일상성",
+        "보살행"
+      ],
+      "keywords_en": [
+        "Seon Buddhism",
+        "enlightenment",
+        "sudden enlightenment",
+        "circular Return",
+        "practice and realization",
+        "everyday life"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 세화불학원",
+      "kci_year": "2026",
+      "kci_volume": "9",
+      "kci_issue": "",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003398205",
+      "id": "ART003398205",
+      "kci_id": "ART003398205",
+      "title_kr": "근ㆍ현대 한국불교 의례서의 조모송주 편제 변화",
+      "title_en": "Changes in the Arrangement of Jomo Songju in Modern and Contemporary Korean Buddhist Ritual Manuals",
+      "authors": [
+        {
+          "name": "김우주",
+          "affiliation": "위덕대학교 밀교문화연구원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 조모송주(朝暮誦呪)의 조ㆍ석 구분이 언제 어떤 방식으로 사라졌는지를 의례서 편제의 변화를 통해 밝힌다. 그동안 알려진 것은 『석문의범』(1935)에는 조ㆍ석 송주가 나란히 있고 『통일법요집』(1998)에는 없다는 사실뿐이었다. 1869년 『승가일용식시묵언작법』부터 1998년 『통일법요집』까지 간행된 의례서 11종을 목차가 아니라 본문으로 대조하여, 편찬자가 남긴 생략 지시와 본문ㆍ참조 사이의 분량 차이를 읽고자 하였다.\n󰡔『승가일용식시묵언작법』(1869)에서 조모송주의 본체는 저녁이었다. 조송절차는 사대주만 싣고 ｢次自准提功德聚 乃至稽首西方云 如常暮誦｣으로 닫히며, 조와 모의 차이는 예불에 앞서 염송하는 다라니 한 대목에 그쳤다. 20세기의 변화는 여러 단계로 진행되었다.『대각교의식』(1927)이 조ㆍ석을 하나로 묶고 다라니를 공양의식의 선행부로 옮겼다. 『불자필람』(1931)은 석송주를 싣지 않았다. 『석문의범』(1935)이 석송주문을 되살렸으나 조송주문의 3분의 1이 채 되지 않는 분량으로 앞뒤를 참조 지시로 처리하였다. 본체와 축약의 관계가 『일용작법』과 뒤집힌 셈이다. 또 전통 의문을 이은 의례서로는 조송주와 석송주가 독립 항목으로 나란히 선 마지막 사례가 되었다.\n󰡔『오경지송』(1942)에서 조ㆍ석이 함께 쓰던 개계 대목이 범용 서두로 떨어져 나왔고, 『수행법요』(1949)에 이르면 편성의 기준이 수행의 종류로 바뀐다. 『우리말천수심경』(1958)은 『석문의범』의 지시를 우리말로 옮겨 조ㆍ석 구분을 유지했고, 1960년의 『일용집』은 사대주와 대비주에 ‘조송’ㆍ‘석송’을 괄호로 붙였으며, 같은 해 청량사에서 장판한 『수행요집』에는 표시가 없다. 조ㆍ석 구분은 항목에서 지시로, 지시에서 괄호 표시로 낮아지다가 사라졌고, 그 사이에 천수가 사대주를 밀어내고 중심에 섰다. 재가 법회용 『불광법회요전』(1983)이 아침송주와 저녁송주를 다시 세우고, 아침송주를 저녁송주의 준제찬으로 건너가게 하는 지시를 두었으나, 종단 표준이 된 것은 표시 없는 편제였다. 즉 조ㆍ석 구분의 소멸은 어느 한 해의 사건도, 어느 한 편찬물이 항목을 지운 결과도 아니었던 것이다. 『통일법요집』의 편제는 백용성이 정한 배치와 안진호가 다듬은 의문을 함께 이어받은 결과로 볼 수 있다.",
+      "abstract_en": "This article examines when and in what manner the distinction between morning and evening in jomo songju (朝暮誦呪), the daily recitation of the Korean Buddhist saṃgha, disappeared, by tracing changes in the arrangement of ritual manuals. What has been known so far is only that Seongmun uibeom (1935) sets the morning and evening recitations side by side, whereas Tongil beobyojip (1998) does not. Comparing the main texts, rather than the tables of contents, of eleven manuals published between 1869 and 1998, this study reads the abbreviation notes left by the compilers and the difference in length between fully printed passages and cross-referenced ones.\nIn Seungga ilyong siksi mugeon jakbeop (1869), the evening recitation formed the main body. The morning section contains only the Four Great Dhāraṇīs (sadaeju) and closes with the note “次自准提功德聚 乃至稽首西方云 如常暮誦,” which sends the reciter back to the evening text; the difference between morning and evening lay only in the dhāraṇīs recited before the homage to the Buddha. The twentieth-century changes proceeded in several stages. Daegakgyo uisik (1927) merged morning and evening into a single rite and moved the dhāraṇīs to the opening part of the offering ritual. Bulja pillam (1931) omitted the evening recitation. Seongmun uibeom (1935) restored it, but at less than one-third the length of the morning text and with its beginning and end handled by cross-references. The relation between main text and abbreviation was thus reversed from that of 1869, and Seongmun uibeom became the last manual in the traditional liturgical line to set the morning and evening recitations side by side as independent items.\nIn Ogyeong jisong (1942), the opening section shared by both recitations was detached as a general preface to sūtra recitation, and in Suhaeng beobyo (1949) the criterion of arrangement shifted to types of practice. Urimal cheonsu simgyeong (1958) retained the distinction by rendering the cross-references of Seongmun uibeom into Korean. Ilyongjip (1960) attached “morning recitation” and “evening recitation” in parentheses to the Four Great Dhāraṇīs and the Great Compassion Dhāraṇī, while Suhaeng yojip, whose blocks were cut at Cheongnyangsa in the same year, carries no such marking. The distinction thus descended from independent items to cross-references, and from cross-references to parenthetical labels, before vanishing; in the meantime the Thousand-Hand Dhāraṇī (cheonsu) displaced the Four Great Dhāraṇīs and took the central position. Bulgwang beophoe yojeon (1983), compiled for lay assemblies, re-established separate morning and evening recitations and directed the morning text to continue into the Junje hymn of the evening text, yet it was the unmarked arrangement that became the standard for the order. The disappearance of the distinction was therefore neither an event of a single year nor the result of one compilation deleting the items. The arrangement of Tongil beobyojip may be seen as the point where the layout established by Baek Yongseong meets the liturgical texts refined by An Jinho.",
+      "journal_name": "세화불학",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "start_page": "119",
+      "end_page": "150",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398205",
+      "keywords_kr": [
+        "조모송주",
+        "조석송주",
+        "일용작법",
+        "석문의범",
+        "대각교의식",
+        "통일법요집",
+        "의례서 편제",
+        "천수경"
+      ],
+      "keywords_en": [
+        "jomo songju",
+        "morning and evening recitation",
+        "Ilyong jakbeop",
+        "Seongmun uibeom",
+        "Daegakgyo uisik",
+        "Tongil beobyojip",
+        "arrangement of ritual manuals",
+        "Cheonsugyeong"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 세화불학원",
+      "kci_year": "2026",
+      "kci_volume": "9",
+      "kci_issue": "",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003398210",
+      "id": "ART003398210",
+      "kci_id": "ART003398210",
+      "title_kr": "사찰의 시간관과 송주(誦呪)의 변용 -현행『천수경』의 전사(前史)-",
+      "title_en": "The Transformation of Temple Time-Consciousness and Mantra Recitation: A Prehistory of the Contemporary Cheonsugyeong",
+      "authors": [
+        {
+          "name": "김동규",
+          "affiliation": "사단법인 세화불학원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 근대 이전 한국불교 사찰의 시간관과 조석송주의 구조를 살펴보고, 근대기에 나타난 송주의례의 재편 과정을 통해 현행 『천수경』의 형성 배경과 그 의미를 고찰한 것이다. 특히『일용작법』에 수록된 「오경송」을 통해 근대 이전 사찰에서 저녁이 하루 수행의 종결이 아니라 새로운 수행 일과가 시작되는 시점으로 인식되었음을 살펴보았다. 이러한 시간관은 조석 예송(禮誦)의 구조에도 반영되어, 저녁 예송은 ‘송주－예경－송주’, 아침 예송은 ‘예경－송주’의 형태로 구성되었다.\n저녁 예경 이전의 송주인 대비주는 도량을 엄정하여 수행도량을 마련하는 기능을 담당하였으며, 예경 이후의 준제주는 이미 엄정된 도량에서 지송과 정진을 지속하고 성취를 지향하는 성격을 지니고 있었다. 그러나 근대에 들어 이러한 시간적ㆍ기능적 구분은 점차 약화되었다. 1908년 『불정심관세음보살모다라니경』의 「쳔슈경」과 『불경요집』에서는 대비주와 준제주를 비롯한 여러 진언과 게송이 하나의 독립된 경전으로 결합되기 시작하였고, 『대각교의식절차』에서도 두 송주가 하나의 의례 차례 안에 연속적으로 배치되었다. 또한 『석문의범』에서는 아침송주가 저녁송주보다 먼저 제시되고 조석송주의 비대칭성이 문제로 인식되는 등 전통적인 시간관의 변화가 나타난다.\n이러한 변화는 개별 송주가 지니고 있던 시간적ㆍ기능적 의미보다 일정한 차례와 완결성을 갖춘 독송문의 성격이 점차 강조되는 과정으로 이해할 수 있다. 따라서 현행『천수경』의 성립은 전통적인 수행 시간에 대한 인식과 송주의 기능이 근대적 수행 환경 속에서 새롭게 조정되고 재구성된 결과라고 할 수 있다. 이는 근대 한국불교 의례의 변화가 시대에 따른 질서와 수행 환경 속에서 기존 의례가 재편되고 전승되는 변용의 과정이었음을 보여준다.",
+      "abstract_en": "This study examines the temporal consciousness of premodern Korean Buddhist temples and the structure of morning and evening mantra-recitation rituals, with particular attention to the process through which these practices were reorganized in the modern period and contributed to the formation of the contemporary Cheonsugyeong. The O-gyeong-song (五更誦, “Chants of the Five Watches”) contained in the Ilyong jakbeop (日用作法) suggests that evening was understood not simply as the end of the day, but as the beginning of a new cycle of religious practice. This temporal understanding was reflected in the structure of daily rituals: the evening service followed the sequence “mantra recitation–worship–mantra recitation,” whereas the morning service generally followed “worship–mantra recitation.” Within the evening service, the Daebiju (Great Compassion Dhāraṇī) functioned primarily to purify and sanctify the ritual space, while the Junjeju (Cundī Dhāraṇī), recited after worship, was associated with sustained practice, spiritual cultivation, and the attainment of ritual efficacy. In the modern period, however, this temporal and functional distinction gradually weakened. In the 1908 edition of the Buljeongsim Gwanseeumbosal Modaranigyeong and in the Bulgyeong Yojip, the Daebiju, the Junjeju, and related verses and mantras began to be arranged as a continuous and relatively independent recitation text. A similar tendency can be observed in the Daegakgyo Uisik Jeolcha, although there the two dhāraṇīs remained embedded within a concrete ritual procedure. The Seongmun uibeom further reflects this transformation by placing morning recitation before evening recitation and by treating the structural asymmetry between the two as a ritual problem.\nThese developments indicate that the formation of the contemporary Cheonsugyeong was not merely the result of combining or editing separate liturgical passages. Rather, it emerged through a broader reconfiguration of traditional temporal consciousness and the ritual functions assigned to individual mantra practices. The modern Cheonsugyeong may therefore be understood as a product of both continuity and transformation, in which inherited ritual elements were rearranged and transmitted within changing temporal and practical conditions of modern Korean Buddhism.",
+      "journal_name": "세화불학",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "start_page": "151",
+      "end_page": "175",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398210",
+      "keywords_kr": [
+        "오경송",
+        "천수경",
+        "송주",
+        "조석송주",
+        "일용작법",
+        "대비주",
+        "준제주",
+        "석문의범",
+        "근대불교"
+      ],
+      "keywords_en": [
+        "Cheonsugyeong",
+        "O-gyeong-song",
+        "mantra recitation",
+        "morning and evening recitation",
+        "Ilyong jakbeop",
+        "Daebiju",
+        "Junjeju",
+        "Seongmun uibeom",
+        "modern Korean Buddhism"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 세화불학원",
+      "kci_year": "2026",
+      "kci_volume": "9",
+      "kci_issue": "",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003398216",
+      "id": "ART003398216",
+      "kci_id": "ART003398216",
+      "title_kr": "불교 죽음의례의 변용과 새로운 의례문화 형성 - 인천 용화선원 재사(齋祀) 사례를 중심으로",
+      "title_en": "The Transformation of Buddhist Death Rituals and the Formation of a New Ritual Culture: Focusing on the Case of jaesa (齋祀) at Yonghwa Seonwon Temple in Incheon",
+      "authors": [
+        {
+          "name": "원서영",
+          "affiliation": "한양대학교 문화인류학과",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 불교 사찰 용화선원(龍華禪院)에 대한 사례 연구이다. 의례에 대한 접수와 문의가 진행되는 사무실과 의례를 봉행하는 공간에서 장기간의 참여관찰 및 심층 면담을 진행하여 의례 준비 및 봉행 과정을 기술ㆍ해석하였고 이를 통해 용화선원을 새로운 죽음의례 문화와 체계가 형성되는 장으로서 조명하고자 하였다.\n사찰의 성장과 다양한 배경과 의도를 가진 사람들의 유입, 불교 사찰에서 통용되는 불교 교리와 의례 수행 중 발생한 여러 상황에 대한 의문은 사찰의 독특한 의례 ‘재사’와 그 봉행에 대한 규범에 영향을 미쳤다. 여러 행위자의 의미가 모이는 의례 공간에서 발생한 긴장과 갈등은 수년에 걸친 타협과 제지, 공존을 거쳐 현재진행형인 하나의 문화적 장면으로 자리 잡거나 사찰 내의 명시적ㆍ암묵적 규범으로 정착했다.\n용화선원은 적절한 의례를 위한 규범과 수행을 제공하는 하나의 중심 공간으로 기능하고 있다. 본 연구 사례는 죽음의례의 간소화나 종교 시설에의 위탁이 불가피한 대안이나 전통의 상실이 아닌 현대 도시 환경에서 나타나는 새로운 유형의 선택지로 자리매김하고 있음을 보여준다. 본 연구는 도심사찰에서 이루어지는 죽음의례에 대한 장기간의 현장연구를 통하여, 변화하는 사회적 환경과 요구에 따라 재구성되는 의례를 하나의 새로운 생활문화 양상으로 보았다는 점에서 의의를 갖는다.",
+      "abstract_en": "Korean death rituals have long been studied as a lens on changing living environments and values, and previous research has largely viewed traditional rituals as weakening and becoming simplified under external influences. This is a case study of Yonghwa Seonwon, a Buddhist temple in Incheon. Through long-term participant observation and in-depth interviews in the temple office, where ritual requests and inquiries are handled, and in the spaces where rituals are performed, the study describes and interprets how rituals are prepared and conducted, and examines Yonghwa Seonwon as a site where a new culture and system of death rituals is taking shape.\nThe growth of the temple, the influx of people with diverse backgrounds and intentions, and questions arising from situations encountered in Buddhist doctrine and ritual practice shaped the temple's distinctive ritual, jaesa, and the norms governing its performance. Tensions and conflicts in the ritual space, where the meanings of various actors converge, have passed through years of compromise, restraint, and coexistence, and have either become an ongoing cultural scene or settled into explicit and tacit norms within the temple.\nYonghwa Seonwon functions as a central space that provides norms and practices for appropriate rituals. This case shows that the simplification of death rituals and their entrustment to religious institutions are not merely unavoidable substitutes or a loss of tradition, but are becoming a new kind of option in contemporary urban environments.\nBased on long-term fieldwork on death rituals in an urban temple, this study is significant in viewing rituals reconstructed in response to changing social environments and needs as a new aspect of everyday life culture.",
+      "journal_name": "세화불학",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "start_page": "177",
+      "end_page": "208",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398216",
+      "keywords_kr": [
+        "죽음의례",
+        "용화선원",
+        "재사",
+        "변용",
+        "규범"
+      ],
+      "keywords_en": [
+        "death ritual",
+        "Yonghwa Seonwon",
+        "jaesa",
+        "transformation",
+        "norm"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 세화불학원",
+      "kci_year": "2026",
+      "kci_volume": "9",
+      "kci_issue": "",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003398223",
+      "id": "ART003398223",
+      "kci_id": "ART003398223",
+      "title_kr": "조계종 단일계단 성립과 전통 수계 의식 제도 변혁에 관한 고찰",
+      "title_en": "A Study on the Establishment of the Jogye Order’s Unified Ordination Platform and the Institutional Transformation of Traditional Ordination Ceremonies",
+      "authors": [
+        {
+          "name": "민경환",
+          "affiliation": "세계불학원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 조계종 단일계단 제도의 성립과 발전 과정을 중심으로 전통 수계 의식과 율장 운영 체계의 계승ㆍ변용 양상을 고찰하였다. 일제강점기 이후 불교계의 혼란과 정화 운동, 법난 등을 배경으로 자운율사를 비롯한 율사들의 노력과 단일계단 제도의 도입이 지니는 역사적 의미를 살펴보았다. 특히 1981년 통도사 단일계단의 출범을 통해 수계 의식의 종단적 통합과 승적 관리 및 계맥 전승의 제도화 과정을 분석하였다.\n또한 『사분율』에 근거한 수계 의식과 율장 교육, 행자 교육, 승가 고시를 검토하고, 비구니 이부승 수계 제도와 식차마나계의 복원이 여성 승가의 수행 체계에 미친 의미를 고찰하며, 이를 통해 단일계단 제도가 승가 교육과 계율 실천을 체계화하고 교단의 정체성과 청정성을 확립하는 데 중요한 역할을 하였다고 볼 수 있다.\n한편, 전통 율장 규범의 현대적 적용에는 제도 운영의 실효성과 수행적 의미를 함께 고려해야 하는 과제가 남아 있다. 따라서 단일계단 제도의 지속적인 발전을 위해서는 전통 율장의 정신과 원리를 계승하면서 수계 의식과 승가 교육 체계를 현대 교단의 현실에 맞게 재검토할 필요가 있다. 단일계단 제도의 역사적 의의와 현대적 변용을 분석함으로써 조계종 승가 제도의 발전 방향을 모색했다는 데 의의가 있다.",
+      "abstract_en": "This study examines the transmission and transformation of traditional Buddhist ordination rituals and Vinaya (monastic discipline) systems through the establishment and development of the Unified Ordination Platform (danil Gyedan) of the Jogye Order of Korean Buddhism. Against the backdrop of turmoil in Korean Buddhism after the Japanese colonial period, the Buddhist purification movement, and the 1980 state persecution of Buddhism (Beomnan), this study explores the historical significance of the efforts made by Vinaya masters, particularly Ven. Jaun, and the introduction of the Unified Ordination Platform. Special attention is given to the establishment of the platform at Tongdosa Temple in 1981 and its role in standardizing ordination rituals at the denominational level and in institutionalizing monastic registration and the transmission of ordination lineages.\nThis study also examines the transmission of ordination practices based on the Dharmaguptaka Vinaya (Sifen lü), together with Vinaya education, postulant training, monastic examinations, and poṣadha (regular assemblies for the recitation of the precepts). It further explores the significance of restoring the dual-ordination system for bhikṣuṇīs and the training precepts for śikṣamāṇās in strengthening the practice and institutional framework of the Korean Buddhist nuns’ community. The findings indicate that the Unified Ordination Platform has contributed to systematizing monastic education and the practice of the precepts, thereby strengthening the institutional identity and purity of the Jogye Order.\nNevertheless, the contemporary application of traditional Vinaya regulations continues to pose challenges, particularly in reconciling institutional effectiveness with the practical and soteriological dimensions of monastic discipline. For the continued development of the Unified Ordination Platform, it is therefore necessary to preserve the spirit and principles of the traditional Vinaya while reexamining ordination rituals and monastic education in light of the realities of contemporary Buddhist institutions. By analyzing the historical significance and modern transformation of the Unified Ordination Platform, this study seeks to contribute to a deeper understanding of the development and future direction of the monastic system of the Jogye Order.",
+      "journal_name": "세화불학",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "start_page": "209",
+      "end_page": "238",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398223",
+      "keywords_kr": [
+        "단일계단",
+        "구족계",
+        "수계 의식",
+        "율장",
+        "승가 교육"
+      ],
+      "keywords_en": [
+        "Unified Ordination Platform",
+        "higher ordination",
+        "ordination rituals",
+        "Vinaya",
+        "monastic education"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 세화불학원",
+      "kci_year": "2026",
+      "kci_volume": "9",
+      "kci_issue": "",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003398229",
+      "id": "ART003398229",
+      "kci_id": "ART003398229",
+      "title_kr": "论佛教对中医学的影响",
+      "title_en": "On the Influence of Buddhism on Traditional Chinese Medicine",
+      "authors": [
+        {
+          "name": "김종두",
+          "affiliation": "동방문화대학원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "本文从基本理论ㆍ专科方药与情志调治三个维度考察佛教对中医学的影响. 佛教传入带来古印度医学知识与心性理念, 但中医学核心理论体系在佛教传入前已成熟定型, 佛教“四大”学说ㆍ业报病因观并未进入中医主流辨证体系. 临床层面, 金针拨障术ㆍ外来香药等经筛选吸纳后, 以中医理论完成本土化重构; 以竹林寺女科为代表的寺院医疗虽依托佛教寺院进行, 但其诊疗内核仍遵循中医理法方药. 情志调治方面, 佛教止观禅定ㆍ忏悔祈祷等方法补充了中医静心调摄手段. 研究表明, 在本文考察的文献和案例中, 佛教相关医学知识的影响较突出地体现于专科技术ㆍ药物应用及身心调摄; 部分理论观念亦被接受或重新解释, 但未整体取代既有医学框架.",
+      "abstract_en": "This study examines the influence of Buddhism on traditional Chinese medicine (TCM) across three dimensions: fundamental theory; specialized clinical practice and pharmacotherapy; and emotional regulation. The introduction of Buddhism brought ancient Indian medical knowledge and conceptions of the mind and human nature. However, the core theoretical system of TCM had already matured and taken definitive shape before Buddhism's arrival. The Buddhist doctrine of the four great elements and karmic explanations of disease were not incorporated into the mainstream TCM framework of pattern differentiation. At the clinical level, gold-needle couching for cataracts and imported aromatic medicinal substances were selectively adopted and subsequently adapted to local practice within the TCM theoretical framework. Monastery-based medicine, exemplified by women's medicine at Zhulin Temple, operated within Buddhist temples, yet its diagnostic and therapeutic core still followed the TCM framework of medical principles, therapeutic methods, formulas, and medicines. In the domain of emotional regulation, Buddhist practices such as calming and insight meditation, meditative concentration, repentance, and prayer supplemented TCM methods for calming and regulating the mind. Within the literature and cases examined, the influence of medical knowledge associated with Buddhism was particularly evident in specialized clinical techniques, medicinal applications, and mind–body regulation. Some theoretical concepts were accepted or reinterpreted, but they did not replace the existing medical framework as a whole.",
+      "journal_name": "세화불학",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "start_page": "239",
+      "end_page": "263",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398229",
+      "keywords_kr": [
+        "佛教",
+        "中医学",
+        "四大学说",
+        "竹林寺女科",
+        "情志调治",
+        "불교",
+        "중의학",
+        "사대(四大) 학설",
+        "죽림사 여과(竹林寺女科)",
+        "정지(情志) 조절"
+      ],
+      "keywords_en": [
+        "Buddhism",
+        "traditional Chinese medicine",
+        "four great elements theory",
+        "Zhulin Temple",
+        "Emotional regulation"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 세화불학원",
+      "kci_year": "2026",
+      "kci_volume": "9",
+      "kci_issue": "",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003398232",
+      "id": "ART003398232",
+      "kci_id": "ART003398232",
+      "title_kr": "서산 보원사 우리말 수륙재의 의미와 가치",
+      "title_en": "The Meaning and Value of the Korean-Language Suryukjae at Bowonsa Temple, Seosan",
+      "authors": [
+        {
+          "name": "윤소희",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "의례의 궁극적인 목적은 참여하는 재자들을 향한 설법이요 공감이다. 그러한 의미에서 보원사의 우리말수륙재는 한글을 창제한 세종임금의 애민정신을 의례로 실현하는 최초의 수륙재로서 역사적 의미가 크다. 보원사 한글 의례문의 효용성이 가장 돋보이는 요소는 재가 열리는 연유와 내용을 재자들이 알아듣는 말로 낭송한 안채비소리였다. 한글 의례문의 율조를 채보해 보니 건회소, 설회인유와 같은 사설조는 안채비소리, 합장게, 연향게와 같은 시형(詩型)은 바깥채비소리의 곡태를 지니고 있었다. 앞서 행해져온 한글 예불문, 안채비소리 소성 등이 기존의 한문 율조를 벗어나지 못했던 것과 달리 보원사 수륙재는 한문 율조로부터 벗어나 진일보한 면모를 보였다.\n한편 진언과 다라니는 범음 본래의 율조로 송주되었고, 작법무가 수반되는 범패는 춤사위에 맞추어야 하므로 기존의 범패가 창화되었으며, 회심곡은 가사 자체가 한글이므로 또한 그대로 창송되었다. 결과적으로 한글 율조 사이에 진언과 다라니의 범문 율조, 모음을 늘여 짓는 한문 율조, 민요조의 회심곡까지 네 가지 율조가 어우러진 결과 자칫 생경할 수 있는 한글 의례에 고전미와 안정감이 형성되었고, 서로 다른 율조가 어우러져 변화감도 있었다.\n이상 제반의 선율과 성음이 다소 숙성되지 못한 느낌을 주는 것은 세월과 함께 유려한 음악적 면모를 갖출 것으로 보인다. 칠칠재를 통한 기신재와 수륙재의 두 의례를 결합하여 여섯 마당으로 진행한 의례 차서의 명확성이 구현된 데다 반려견묘단을 마련하기까지 현대인의 생활과 정서가 반영되는 개혁적 설행은 21세기 한국 불교의례의 본보기로 내세울 만하다. 이러한 중에 ‘선남자’, ‘부처의 맏아들’과 같이 남성 중심, 장자 우선의 봉건사회적 어휘들은 오늘날 남녀 평등사회를 반영하여 ‘여러분’, ‘붓다의 자녀들’과 같이 변화되면 좋겠다.",
+      "abstract_en": "The ultimate purpose of Buddhist ritual lies in preaching to, and resonating with, those who take part in it. In this sense, the Korean-language Suryukjae (水陸齋) at Bowonsa holds historical significance as the first Suryukjae to realize in ritual form the spirit of love for the people of King Sejong, who created the Korean alphabet. The element that best demonstrated the effectiveness of Bowonsa's Korean-language ritual texts was the anchaebi-sori, in which the occasion and content of the ritual were recited in words the participants could understand.\nTranscription of the melodies of these Korean-language texts shows that prose passages such as Geonhoeso and Seolhoe inyu take the melodic shape of anchaebi-sori, while verse forms such as Hapjangge and Yeonhyangge take that of bakkatchaebi-sori. Whereas earlier Korean-language texts, such as the Korean daily homage and anchaebi-sori chants, had not departed from the melodic conventions used for texts in Literary Chinese, the Bowonsa Suryukjae broke away from them and marked a step forward.\nMantras and dhāraṇīs were chanted in their original Sanskrit-based melodies; beompae accompanied by ritual dance kept its existing melodies because it had to follow the dance steps; and Hoesimgok, whose lyrics were already in Korean, was sung as it was. As a result, four kinds of melody came together: the Korean-language melodies, the Sanskrit-based chanting of mantras and dhāraṇīs, the melismatic melodies for texts in Literary Chinese, and the folk-song style of Hoesimgok. This combination lent classical beauty and stability to a Korean-language ritual that might otherwise have sounded unfamiliar, while the interplay of different melodic styles added variety.\nAbove all, the Bowonsa Suryukjae reflects the lives and sentiments of people today, to the point of setting up an altar for companion dogs and cats. Its reform-minded performance makes it worthy of being presented as a model for twenty-first-century Korean Buddhist ritual. It would be desirable, however, to replace male-centered and primogeniture-oriented expressions such as “good man” and “the Buddha's eldest son” with gender-inclusive ones such as “all of you” and “the Buddha's children,” in keeping with today's gender-equal society.",
+      "journal_name": "세화불학",
+      "year": "2026",
+      "volume": "9",
+      "issue": "",
+      "start_page": "265",
+      "end_page": "295",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398232",
+      "keywords_kr": [
+        "보원사수륙재",
+        "우리말수륙재",
+        "한글 의례문",
+        "우리말 불교의식",
+        "한글 범패"
+      ],
+      "keywords_en": [
+        "Bowonsa Suryukjae",
+        "Korean-language Suryukjae",
+        "Korean-language ritual texts",
+        "Korean-language Buddhist ceremonies",
+        "Korean-language beompae"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "사단법인 세화불학원",
+      "kci_year": "2026",
+      "kci_volume": "9",
+      "kci_issue": "",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
     }
   ]
 }

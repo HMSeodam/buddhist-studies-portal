@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "journals": {
     "IJBTC": {
       "riss": 420,
@@ -289,17 +289,17 @@
     "세화불학": {
       "riss": 59,
       "riss_dups": 0,
-      "kci": 7,
+      "kci": 17,
       "kci_links": 52,
       "paired": 7,
-      "kci_only": 0,
+      "kci_only": 10,
       "scheme": "same",
       "held": 0,
       "bad_publishers": [],
       "comparable": 7,
       "comparable_matched": 7,
       "match_rate": 1.0,
-      "new": 0
+      "new": 10
     },
     "원불교사상과 종교문화": {
       "riss": 1604,
@@ -481,6 +481,14 @@
     {
       "kci_name": "미술사학연구",
       "records": 4,
+      "best": null,
+      "matched": 0,
+      "rate": 0.0,
+      "accepted": false
+    },
+    {
+      "kci_name": "한국명상학회지",
+      "records": 8,
       "best": null,
       "matched": 0,
       "rate": 0.0,
