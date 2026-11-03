@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "journals": {
     "IJBTC": {
       "riss": 420,
@@ -299,7 +299,7 @@
       "comparable": 7,
       "comparable_matched": 7,
       "match_rate": 1.0,
-      "new": 10
+      "new": 0
     },
     "원불교사상과 종교문화": {
       "riss": 1604,
