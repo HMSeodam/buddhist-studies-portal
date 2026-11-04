@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "journals": {
     "IJBTC": {
       "riss": 420,
@@ -197,17 +197,17 @@
       "new": 0
     },
     "불교학리뷰": {
-      "riss": 273,
+      "riss": 280,
       "riss_dups": 31,
       "kci": 192,
       "kci_links": 0,
-      "paired": 185,
-      "kci_only": 7,
+      "paired": 192,
+      "kci_only": 0,
       "scheme": "i2v",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 185,
-      "comparable_matched": 185,
+      "comparable": 192,
+      "comparable_matched": 192,
       "match_rate": 1.0,
       "new": 0
     },

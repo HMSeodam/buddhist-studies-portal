@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.61,
     "control_no": "b4d6ff724148c295ffe0bdc3ef48d419",
-    "last_updated": "2026-11-02"
+    "last_updated": "2026-11-05"
   },
   "articles": [
     {
@@ -11527,9 +11527,7 @@
       "riss_id": "ec9dabd70d5dba5de9810257f7042666"
     },
     {
-      "article_id": "ART003399537",
-      "id": "ART003399537",
-      "kci_id": "ART003399537",
+      "article_id": "bfd95a1d298771da4884a65323211ff0",
       "title_kr": "황달에 걸린 눈으로도 타당한 인식이 가능한가 - 부분적 정합론을 주장한 불교도(들) -",
       "title_en": "Can a Visual Cognition Distorted by Jaundice Be a Pramāṇa? Buddhist Proponent(s) of the Theory of Partial Trustworthiness",
       "authors": [
@@ -11548,7 +11546,7 @@
       "start_page": "9",
       "end_page": "32",
       "doi": "10.29213/crbs..40.202610.9",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bfd95a1d298771da4884a65323211ff0",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399537",
       "keywords_kr": [
         "aṃśasaṃvādavāda",
@@ -11565,20 +11563,19 @@
         "Jinendrabuddhi"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교문화연구소",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "40",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003399537",
+      "id": "bfd95a1d298771da4884a65323211ff0",
+      "kci_id": "ART003399537",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "bfd95a1d298771da4884a65323211ff0"
     },
     {
-      "article_id": "ART003399539",
-      "id": "ART003399539",
-      "kci_id": "ART003399539",
+      "article_id": "b1c471e87de2ec177f7a54760bb41745",
       "title_kr": "『법화의기』의 『대반열반경집해』 인용 양상과 법운의 법화·열반 인식",
       "title_en": "Citations of the Dabanniepan jing ji jie in the Fahua yiji and Fayun’s Understanding of the Lotus Sūtra and Nirvāṇa Sūtra",
       "authors": [
@@ -11597,7 +11594,7 @@
       "start_page": "33",
       "end_page": "63",
       "doi": "10.29213/crbs..40.202610.33",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1c471e87de2ec177f7a54760bb41745",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399539",
       "keywords_kr": [
         "법운",
@@ -11613,20 +11610,19 @@
       ],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교문화연구소",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "40",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003399539",
+      "id": "b1c471e87de2ec177f7a54760bb41745",
+      "kci_id": "ART003399539",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "b1c471e87de2ec177f7a54760bb41745"
     },
     {
-      "article_id": "ART003399544",
-      "id": "ART003399544",
-      "kci_id": "ART003399544",
+      "article_id": "b1c471e87de2ec176aae8a972f9116fb",
       "title_kr": "法蔵 『梵網経菩薩戒本疏』 の撰述意図 - 勝荘 『梵網経菩薩戒本述記』との対照を通して -",
       "title_en": "Fazang’s Purpose in Composing the Fanwangjing pusa jieben shu: A Comparison with Seungjang’s Beommanggyeong bosal gyebon sulgi",
       "authors": [
@@ -11645,7 +11641,7 @@
       "start_page": "65",
       "end_page": "98",
       "doi": "10.29213/crbs..40.202610.65",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1c471e87de2ec176aae8a972f9116fb",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399544",
       "keywords_kr": [
         "법장(法藏)",
@@ -11666,20 +11662,19 @@
         "Uijeok"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교문화연구소",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "40",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003399544",
+      "id": "b1c471e87de2ec176aae8a972f9116fb",
+      "kci_id": "ART003399544",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "b1c471e87de2ec176aae8a972f9116fb"
     },
     {
-      "article_id": "ART003399547",
-      "id": "ART003399547",
-      "kci_id": "ART003399547",
+      "article_id": "b1c471e87de2ec1747de9c1710b0298d",
       "title_kr": "원효의 정토사상에 유심정토설이 있는가 - 고영섭의 반론을 재반론함 -",
       "title_en": "Is There the Theory of ‘Pure Land in One’s Mind’ in Wonhyo’s View on Pure Land - Making Counterargument on Ko, Young-Seop’s Argument",
       "authors": [
@@ -11698,7 +11693,7 @@
       "start_page": "99",
       "end_page": "123",
       "doi": "10.29213/crbs..40.202610.99",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1c471e87de2ec1747de9c1710b0298d",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399547",
       "keywords_kr": [
         "『무량수경종요』",
@@ -11719,20 +11714,19 @@
         "Ko.Young-Seop."
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교문화연구소",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "40",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003399547",
+      "id": "b1c471e87de2ec1747de9c1710b0298d",
+      "kci_id": "ART003399547",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "b1c471e87de2ec1747de9c1710b0298d"
     },
     {
-      "article_id": "ART003399552",
-      "id": "ART003399552",
-      "kci_id": "ART003399552",
+      "article_id": "bfd95a1d298771dab7998d826d417196",
       "title_kr": "조선 후기 仁岳의 楞嚴私記에 보이는 ‘極量’의 용례에 대한 검토",
       "title_en": "A Critical Examination of the Term Geungnyang (極量) in Inak Uicheom’s Neungeom-sagi of the Late Joseon Period",
       "authors": [
@@ -11751,7 +11745,7 @@
       "start_page": "125",
       "end_page": "146",
       "doi": "10.29213/crbs..40.202610.125",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bfd95a1d298771dab7998d826d417196",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399552",
       "keywords_kr": [
         "Śūraṅgama-sūtra (Neungeom-gyeong)",
@@ -11770,20 +11764,19 @@
         "Changshui Zixuan"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교문화연구소",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "40",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003399552",
+      "id": "bfd95a1d298771dab7998d826d417196",
+      "kci_id": "ART003399552",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "bfd95a1d298771dab7998d826d417196"
     },
     {
-      "article_id": "ART003399554",
-      "id": "ART003399554",
-      "kci_id": "ART003399554",
+      "article_id": "b1c471e87de2ec17e9810257f7042666",
       "title_kr": "티베트에서 짠드라키르띠의 부활 - Resurrecting Candrakīrti를 읽고 -",
       "title_en": "The Resurrection of Candrakīrti in Tibet: A Review of Resurrecting Candrakīrti",
       "authors": [
@@ -11802,25 +11795,24 @@
       "start_page": "149",
       "end_page": "163",
       "doi": "10.29213/crbs..40.202610.149",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1c471e87de2ec17e9810257f7042666",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399554",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교문화연구소",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "40",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003399554",
+      "id": "b1c471e87de2ec17e9810257f7042666",
+      "kci_id": "ART003399554",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "b1c471e87de2ec17e9810257f7042666"
     },
     {
-      "article_id": "ART003399557",
-      "id": "ART003399557",
-      "kci_id": "ART003399557",
+      "article_id": "b1c471e87de2ec17d18150b21a227875",
       "title_kr": "둔륜 『유가론기』 속 원측설 주요 부분 역주(1) -텍스트교정을겸해-",
       "title_en": "A Korean Translation with Annotations and Textual Emendations of Selected Interpretations by Woncheuk (圓測, 613~696) in Dunryun’s (遁倫, fl. ca. 705) Yugaron-gi (瑜伽論記): Part 1.",
       "authors": [
@@ -11839,20 +11831,21 @@
       "start_page": "167",
       "end_page": "184",
       "doi": "10.29213/crbs..40.202610.167",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b1c471e87de2ec17d18150b21a227875",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003399557",
       "keywords_kr": [],
       "keywords_en": [],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교문화연구소",
-      "kci_year": "2026",
-      "kci_volume": "",
-      "kci_issue": "40",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003399557",
+      "id": "b1c471e87de2ec17d18150b21a227875",
+      "kci_id": "ART003399557",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "b1c471e87de2ec17d18150b21a227875"
     }
   ]
 }
