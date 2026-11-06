@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "journals": {
     "IJBTC": {
       "riss": 420,
@@ -139,17 +139,17 @@
     "불교미술사학": {
       "riss": 338,
       "riss_dups": 6,
-      "kci": 228,
+      "kci": 234,
       "kci_links": 7,
       "paired": 228,
-      "kci_only": 0,
+      "kci_only": 6,
       "scheme": "same",
       "held": 0,
       "bad_publishers": [],
       "comparable": 228,
       "comparable_matched": 228,
       "match_rate": 1.0,
-      "new": 0
+      "new": 6
     },
     "불교연구": {
       "riss": 573,
@@ -287,17 +287,17 @@
       "new": 0
     },
     "세화불학": {
-      "riss": 59,
+      "riss": 69,
       "riss_dups": 0,
       "kci": 17,
       "kci_links": 52,
-      "paired": 7,
-      "kci_only": 10,
+      "paired": 17,
+      "kci_only": 0,
       "scheme": "same",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 7,
-      "comparable_matched": 7,
+      "comparable": 17,
+      "comparable_matched": 17,
       "match_rate": 1.0,
       "new": 0
     },

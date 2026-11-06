@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "세화불학",
-    "last_updated": "2026-11-03"
+    "last_updated": "2026-11-07"
   },
   "articles": [
     {
@@ -2824,15 +2824,13 @@
       "riss_id": "a4ee9e0af25e3eeb7ecd42904f0c5d65"
     },
     {
-      "article_id": "ART003398187",
-      "id": "ART003398187",
-      "kci_id": "ART003398187",
+      "article_id": "158023d4cee3eee87ecd42904f0c5d65",
       "title_kr": "중국 불자의 신행 생활",
       "title_en": "The Religious Life and Practice of Chinese Buddhists",
       "authors": [
         {
           "name": "곽뢰",
-          "affiliation": "동국대학교 불교학술원",
+          "affiliation": "중국 법문사 불교문화연구소",
           "order": "1"
         }
       ],
@@ -2845,7 +2843,7 @@
       "start_page": "7",
       "end_page": "33",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=158023d4cee3eee87ecd42904f0c5d65",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398187",
       "keywords_kr": [
         "현대 중국 불교",
@@ -2868,20 +2866,19 @@
         "vows"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "사단법인 세화불학원",
-      "kci_year": "2026",
-      "kci_volume": "9",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003398187",
+      "id": "158023d4cee3eee87ecd42904f0c5d65",
+      "kci_id": "ART003398187",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "158023d4cee3eee87ecd42904f0c5d65"
     },
     {
-      "article_id": "ART003398190",
-      "id": "ART003398190",
-      "kci_id": "ART003398190",
+      "article_id": "38247cc3e1173880b7998d826d417196",
       "title_kr": "현대 일본인의 불교 신행",
       "title_en": "Buddhist Religious Practice in Contemporary Japan",
       "authors": [
@@ -2900,7 +2897,7 @@
       "start_page": "35",
       "end_page": "60",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=38247cc3e1173880b7998d826d417196",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398190",
       "keywords_kr": [
         "Jōdo Shinshū Hongwanji-ha",
@@ -2919,20 +2916,19 @@
         "multilayered nature of religious practice"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "사단법인 세화불학원",
-      "kci_year": "2026",
-      "kci_volume": "9",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003398190",
+      "id": "38247cc3e1173880b7998d826d417196",
+      "kci_id": "ART003398190",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "38247cc3e1173880b7998d826d417196"
     },
     {
-      "article_id": "ART003398198",
-      "id": "ART003398198",
-      "kci_id": "ART003398198",
+      "article_id": "bfcf7616df8ef8666aae8a972f9116fb",
       "title_kr": "범무(작법무) 구전 지침에 나타난 공간 개념과 무연(舞筵)의 연속성",
       "title_en": "Spatial Concepts in the Oral Transmission of Beommu (Jakbeopmu) and Their Continuity with Wuyan (舞筵)",
       "authors": [
@@ -2951,7 +2947,7 @@
       "start_page": "61",
       "end_page": "86",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=bfcf7616df8ef8666aae8a972f9116fb",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398198",
       "keywords_kr": [
         "범무",
@@ -2970,20 +2966,19 @@
         "Beommu"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "사단법인 세화불학원",
-      "kci_year": "2026",
-      "kci_volume": "9",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003398198",
+      "id": "bfcf7616df8ef8666aae8a972f9116fb",
+      "kci_id": "ART003398198",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "bfcf7616df8ef8666aae8a972f9116fb"
     },
     {
-      "article_id": "ART003398201",
-      "id": "ART003398201",
-      "kci_id": "ART003398201",
+      "article_id": "158023d4cee3eee8b36097776a77e665",
       "title_kr": "선종의 깨달음이 갖는 특수성 -‘원환적 회귀’를 중심으로",
       "title_en": "Distinctive Characteristics of Enlightenment in Seon Buddhism: Focusing on Circular Return",
       "authors": [
@@ -3002,7 +2997,7 @@
       "start_page": "87",
       "end_page": "117",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=158023d4cee3eee8b36097776a77e665",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398201",
       "keywords_kr": [
         "선종",
@@ -3021,20 +3016,19 @@
         "everyday life"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "사단법인 세화불학원",
-      "kci_year": "2026",
-      "kci_volume": "9",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003398201",
+      "id": "158023d4cee3eee8b36097776a77e665",
+      "kci_id": "ART003398201",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "158023d4cee3eee8b36097776a77e665"
     },
     {
-      "article_id": "ART003398205",
-      "id": "ART003398205",
-      "kci_id": "ART003398205",
+      "article_id": "38247cc3e1173880c85d2949c297615a",
       "title_kr": "근ㆍ현대 한국불교 의례서의 조모송주 편제 변화",
       "title_en": "Changes in the Arrangement of Jomo Songju in Modern and Contemporary Korean Buddhist Ritual Manuals",
       "authors": [
@@ -3053,7 +3047,7 @@
       "start_page": "119",
       "end_page": "150",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=38247cc3e1173880c85d2949c297615a",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398205",
       "keywords_kr": [
         "조모송주",
@@ -3076,20 +3070,19 @@
         "Cheonsugyeong"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "사단법인 세화불학원",
-      "kci_year": "2026",
-      "kci_volume": "9",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003398205",
+      "id": "38247cc3e1173880c85d2949c297615a",
+      "kci_id": "ART003398205",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "38247cc3e1173880c85d2949c297615a"
     },
     {
-      "article_id": "ART003398210",
-      "id": "ART003398210",
-      "kci_id": "ART003398210",
+      "article_id": "158023d4cee3eee84884a65323211ff0",
       "title_kr": "사찰의 시간관과 송주(誦呪)의 변용 -현행『천수경』의 전사(前史)-",
       "title_en": "The Transformation of Temple Time-Consciousness and Mantra Recitation: A Prehistory of the Contemporary Cheonsugyeong",
       "authors": [
@@ -3108,7 +3101,7 @@
       "start_page": "151",
       "end_page": "175",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=158023d4cee3eee84884a65323211ff0",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398210",
       "keywords_kr": [
         "오경송",
@@ -3133,20 +3126,19 @@
         "modern Korean Buddhism"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "사단법인 세화불학원",
-      "kci_year": "2026",
-      "kci_volume": "9",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003398210",
+      "id": "158023d4cee3eee84884a65323211ff0",
+      "kci_id": "ART003398210",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "158023d4cee3eee84884a65323211ff0"
     },
     {
-      "article_id": "ART003398216",
-      "id": "ART003398216",
-      "kci_id": "ART003398216",
+      "article_id": "38247cc3e117388047de9c1710b0298d",
       "title_kr": "불교 죽음의례의 변용과 새로운 의례문화 형성 - 인천 용화선원 재사(齋祀) 사례를 중심으로",
       "title_en": "The Transformation of Buddhist Death Rituals and the Formation of a New Ritual Culture: Focusing on the Case of jaesa (齋祀) at Yonghwa Seonwon Temple in Incheon",
       "authors": [
@@ -3165,7 +3157,7 @@
       "start_page": "177",
       "end_page": "208",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=38247cc3e117388047de9c1710b0298d",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398216",
       "keywords_kr": [
         "죽음의례",
@@ -3182,20 +3174,19 @@
         "norm"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "사단법인 세화불학원",
-      "kci_year": "2026",
-      "kci_volume": "9",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003398216",
+      "id": "38247cc3e117388047de9c1710b0298d",
+      "kci_id": "ART003398216",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "38247cc3e117388047de9c1710b0298d"
     },
     {
-      "article_id": "ART003398223",
-      "id": "ART003398223",
-      "kci_id": "ART003398223",
+      "article_id": "158023d4cee3eee8b7998d826d417196",
       "title_kr": "조계종 단일계단 성립과 전통 수계 의식 제도 변혁에 관한 고찰",
       "title_en": "A Study on the Establishment of the Jogye Order’s Unified Ordination Platform and the Institutional Transformation of Traditional Ordination Ceremonies",
       "authors": [
@@ -3214,7 +3205,7 @@
       "start_page": "209",
       "end_page": "238",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=158023d4cee3eee8b7998d826d417196",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398223",
       "keywords_kr": [
         "단일계단",
@@ -3231,20 +3222,19 @@
         "monastic education"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "사단법인 세화불학원",
-      "kci_year": "2026",
-      "kci_volume": "9",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003398223",
+      "id": "158023d4cee3eee8b7998d826d417196",
+      "kci_id": "ART003398223",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "158023d4cee3eee8b7998d826d417196"
     },
     {
-      "article_id": "ART003398229",
-      "id": "ART003398229",
-      "kci_id": "ART003398229",
+      "article_id": "38247cc3e11738807f7a54760bb41745",
       "title_kr": "论佛教对中医学的影响",
       "title_en": "On the Influence of Buddhism on Traditional Chinese Medicine",
       "authors": [
@@ -3263,7 +3253,7 @@
       "start_page": "239",
       "end_page": "263",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=38247cc3e11738807f7a54760bb41745",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398229",
       "keywords_kr": [
         "佛教",
@@ -3285,20 +3275,19 @@
         "Emotional regulation"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "사단법인 세화불학원",
-      "kci_year": "2026",
-      "kci_volume": "9",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003398229",
+      "id": "38247cc3e11738807f7a54760bb41745",
+      "kci_id": "ART003398229",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "38247cc3e11738807f7a54760bb41745"
     },
     {
-      "article_id": "ART003398232",
-      "id": "ART003398232",
-      "kci_id": "ART003398232",
+      "article_id": "38247cc3e1173880e9810257f7042666",
       "title_kr": "서산 보원사 우리말 수륙재의 의미와 가치",
       "title_en": "The Meaning and Value of the Korean-Language Suryukjae at Bowonsa Temple, Seosan",
       "authors": [
@@ -3317,7 +3306,7 @@
       "start_page": "265",
       "end_page": "295",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=38247cc3e1173880e9810257f7042666",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003398232",
       "keywords_kr": [
         "보원사수륙재",
@@ -3334,15 +3323,16 @@
         "Korean-language beompae"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "사단법인 세화불학원",
-      "kci_year": "2026",
-      "kci_volume": "9",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003398232",
+      "id": "38247cc3e1173880e9810257f7042666",
+      "kci_id": "ART003398232",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "38247cc3e1173880e9810257f7042666"
     }
   ]
 }
