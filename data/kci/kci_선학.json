@@ -181,13 +181,38 @@
       "issue": "73"
     },
     {
+      "article_id": "ART003331291",
+      "id": "ART003331291",
       "kci_id": "ART003331291",
-      "riss_hint": "2e1bebaa69a9cf1147de9c1710b0298d",
-      "link_only": true,
-      "source": "KCI",
+      "title_kr": "연기(緣起)의 의미 재해석: “imasmiṁ sati idaṁ hoti”에서 ‘일즉일체(一卽一切)’로",
+      "title_en": "Reinterpreting the Meaning of Dependent Origination: from “imasmiṁ sati idaṁ hoti” to “one is everything(一卽一切)”",
+      "authors": [
+        {
+          "name": "조연숙",
+          "affiliation": "대한불교조계종",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 초기 경전의 연기 게송 “imasmiṁ sati idaṁ hoti(이것이 있을 때 이것이 있다)”에서 출발하여, 7세기 이후 주석서에 나타난 ‘일즉일체(一卽一切)’ 의미를 통해 현존하는 문헌 속에서 연기(緣起, paṭiccasamuppāda/ pratītyasamutpāda)의 의미 변천을 추적하여 재해석하려고 한다.\n‘이것’을 지시하는 대명사 imasmiṁ과 idaṁ에서 전자를 능(能), 후자를 소(所)로 이해할 때, 그 상호 의존관계 자체가 곧 연기법으로 드러난다. 이러한 대치는 화엄에서 찰나 ‘일’을 ‘이치(理)’, ‘일체’를 ‘현상(事)’으로 해석하는 사상과 일맥상통한다. 따라서 imasmiṁ을 하나(一, eka)의 이치로, idaṁ을 모든 것(一切, sabba/ sarva)의 현상으로 파악할 수도 있다. “연기를 보는 자는 법을 보고, 법을 보는 자는 붓다를 본다”라는 Śālistambasūtra의 문구는 연기의 조건적 상호의존성을 올바로 통찰하는 자가 ‘일즉일체’의 세계, 즉 한마음이 온 세상인 세계를 현전하게 될 가능성을 보여준다.",
+      "abstract_en": "This paper opens with the formula of dependent origination found in the early scriptures, “imasmiṁ sati idaṁ hoti” (“when this exists, this comes to be”), and seeks to trace and reinterpret the transformation of the meaning of dependent origination (paṭiccasamuppāda/ pratītyasamutpāda) as it appears in extant literature, particularly through the concept of “the one is the all” (一卽一切) found in commentarial works from the 7th century onward.\nWhen the demonstrative pronouns imasmiṁ and idaṁ are understood respectively as the subjective (能) and the objective (所), their very relationship of mutual dependence is revealed as dependent origination itself. This contrast resonates with the Huayan interpretation in which the “one” (一) is understood as principle (理) and the “all” (一切) as phenomena (事). Accordingly, imasmiṁ may be interpreted as the principle of the one, while idaṁ may be understood as the phenomena of all things.\nThe statement from the Śālistambasūtra—“One who sees dependent origination sees the dharma; one who sees the dharma sees the Buddha” —suggests that a correct insight into the conditional interdependence of dependent origination may open up the possibility of actualizing the world of “the one is the all,” where a single mind encompasses the entire world.",
+      "journal_name": "선학",
       "year": "2026",
       "volume": "",
-      "issue": "73"
+      "issue": "73",
+      "start_page": "125",
+      "end_page": "154",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003331291",
+      "keywords_kr": [],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "한국선학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "73",
+      "riss_hint": "2e1bebaa69a9cf1147de9c1710b0298d"
     },
     {
       "kci_id": "ART003331303",

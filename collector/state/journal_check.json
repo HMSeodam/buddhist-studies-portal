@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "journals": {
     "IJBTC": {
       "riss": 420,
@@ -149,7 +149,7 @@
       "comparable": 228,
       "comparable_matched": 228,
       "match_rate": 1.0,
-      "new": 6
+      "new": 0
     },
     "불교연구": {
       "riss": 573,
@@ -184,17 +184,17 @@
     "불교철학": {
       "riss": 132,
       "riss_dups": 0,
-      "kci": 117,
+      "kci": 121,
       "kci_links": 0,
       "paired": 117,
-      "kci_only": 0,
+      "kci_only": 4,
       "scheme": "same",
       "held": 0,
       "bad_publishers": [],
       "comparable": 117,
       "comparable_matched": 117,
       "match_rate": 1.0,
-      "new": 0
+      "new": 4
     },
     "불교학리뷰": {
       "riss": 280,
@@ -274,15 +274,15 @@
     "선학": {
       "riss": 712,
       "riss_dups": 18,
-      "kci": 548,
-      "kci_links": 24,
-      "paired": 548,
+      "kci": 549,
+      "kci_links": 23,
+      "paired": 549,
       "kci_only": 0,
       "scheme": "i2v",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 548,
-      "comparable_matched": 548,
+      "comparable": 549,
+      "comparable_matched": 549,
       "match_rate": 1.0,
       "new": 0
     },
