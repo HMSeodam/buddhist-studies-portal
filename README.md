@@ -90,6 +90,8 @@ output/updates.json            공지
 
 ---
 
+배포재시도
+
 ## 제작
 
 서담 한민수 · 동명대학교 (Tongmyong University)
