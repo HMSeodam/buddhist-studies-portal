@@ -4,7 +4,7 @@
     "category": "불교미술사학",
     "impact_factor": 1.88,
     "control_no": "a57013b634c75673",
-    "last_updated": "2026-11-07"
+    "last_updated": "2026-11-14"
   },
   "articles": [
     {
@@ -16442,9 +16442,7 @@
       "riss_id": "a2d810a0b71bee59d18150b21a227875"
     },
     {
-      "article_id": "ART003401922",
-      "id": "ART003401922",
-      "kci_id": "ART003401922",
+      "article_id": "202731d0c71c8ec66aae8a972f9116fb",
       "title_kr": "四川 廣元地域 初期石窟과 北魏 石窟文化의 相關性 - 雲岡石窟 造形傳統의 地域的 展開를 중심으로 -",
       "title_en": "The Relationship between the Early Grottoes of Guangyuan, Sichuan, and the Northern Wei Grotto Tradition : The Regional Development of the Yungang Grotto Tradition",
       "authors": [
@@ -16463,7 +16461,7 @@
       "start_page": "7",
       "end_page": "45",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=202731d0c71c8ec66aae8a972f9116fb",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003401922",
       "keywords_kr": [
         "광원",
@@ -16484,20 +16482,19 @@
         "Huangze Temple. Yungang Grottoes"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교미술사학회",
-      "kci_year": "2026",
-      "kci_volume": "42",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003401922",
+      "id": "202731d0c71c8ec66aae8a972f9116fb",
+      "kci_id": "ART003401922",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "202731d0c71c8ec66aae8a972f9116fb"
     },
     {
-      "article_id": "ART003401923",
-      "id": "ART003401923",
-      "kci_id": "ART003401923",
+      "article_id": "202731d0c71c8ec6d18150b21a227875",
       "title_kr": "당 장안성(長安城) 출토 방형(方形) 모인니상(模印泥像)의 도상과 제작 시기",
       "title_en": "A Study on the Iconography and Dating of the Rectangular Clay Votive Tablets Unearthed from Chang'an City of the Tang Dynasty",
       "authors": [
@@ -16516,7 +16513,7 @@
       "start_page": "47",
       "end_page": "79",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=202731d0c71c8ec6d18150b21a227875",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003401923",
       "keywords_kr": [
         "당 장안성",
@@ -16541,20 +16538,19 @@
         "Medicine Buddha"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교미술사학회",
-      "kci_year": "2026",
-      "kci_volume": "42",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003401923",
+      "id": "202731d0c71c8ec6d18150b21a227875",
+      "kci_id": "ART003401923",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "202731d0c71c8ec6d18150b21a227875"
     },
     {
-      "article_id": "ART003401924",
-      "id": "ART003401924",
-      "kci_id": "ART003401924",
+      "article_id": "202731d0c71c8ec6e9810257f7042666",
       "title_kr": "금석문으로 살펴본 요나라 석가모니불 열반 관련 의례와 인식",
       "title_en": "Rituals and Conceptions of Śākyamuni Buddha’s Parinirvāṇa in the Liao Dynasty as Revealed by Inscriptions",
       "authors": [
@@ -16573,7 +16569,7 @@
       "start_page": "81",
       "end_page": "122",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=202731d0c71c8ec6e9810257f7042666",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003401924",
       "keywords_kr": [
         "Śākyamuni Buddha",
@@ -16595,20 +16591,19 @@
         "miraculous relics"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교미술사학회",
-      "kci_year": "2026",
-      "kci_volume": "42",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003401924",
+      "id": "202731d0c71c8ec6e9810257f7042666",
+      "kci_id": "ART003401924",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "202731d0c71c8ec6e9810257f7042666"
     },
     {
-      "article_id": "ART003401925",
-      "id": "ART003401925",
-      "kci_id": "ART003401925",
+      "article_id": "202731d0c71c8ec67f7a54760bb41745",
       "title_kr": "진홍수(陳洪綬)의 불교 인물화 연구 — 명말(明末) 거사 불교와의 관련성을 중심으로",
       "title_en": "A Study on the Buddhist Figure Paintings of Chen Hongshou : Focusing on Their Relationship with Lay Buddhism in the Late Ming",
       "authors": [
@@ -16627,7 +16622,7 @@
       "start_page": "123",
       "end_page": "159",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=202731d0c71c8ec67f7a54760bb41745",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003401925",
       "keywords_kr": [
         "명말 불교",
@@ -16649,21 +16644,20 @@
         "Taoist and Buddhist Figure Painting"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교미술사학회",
-      "kci_year": "2026",
-      "kci_volume": "42",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003401925",
+      "id": "202731d0c71c8ec67f7a54760bb41745",
+      "kci_id": "ART003401925",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "202731d0c71c8ec67f7a54760bb41745"
     },
     {
-      "article_id": "ART003401927",
-      "id": "ART003401927",
-      "kci_id": "ART003401927",
-      "title_kr": "보디삿따(Bodhisatta)의 정체성을 통해 본 자따까(Jātaka)의 장르적 성격 : 빨리어본 자따까(Pāli Jātaka)를 중심으로",
+      "article_id": "3fd6d86a9912f6f17ecd42904f0c5d65",
+      "title_kr": "보디삿따(Bodhisatta)의 정체성을 통해 본 자따까(Jātaka)의 장르적 성격: 빨리어본 자따까(Pāli Jātaka)를 중심으로",
       "title_en": "The Nature of the Jātaka Genre through the Lens of the Bodhisatta’s Identity: Focusing on the Pāli Jātaka",
       "authors": [
         {
@@ -16681,7 +16675,7 @@
       "start_page": "161",
       "end_page": "190",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3fd6d86a9912f6f17ecd42904f0c5d65",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003401927",
       "keywords_kr": [
         "자따까",
@@ -16696,20 +16690,19 @@
         "Bodhisatta"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교미술사학회",
-      "kci_year": "2026",
-      "kci_volume": "42",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003401927",
+      "id": "3fd6d86a9912f6f17ecd42904f0c5d65",
+      "kci_id": "ART003401927",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3fd6d86a9912f6f17ecd42904f0c5d65"
     },
     {
-      "article_id": "ART003401940",
-      "id": "ART003401940",
-      "kci_id": "ART003401940",
+      "article_id": "9401eb926c4b14a2b36097776a77e665",
       "title_kr": "대형 석조문화유산의 디지털 기반 보존 방안 모색 ― 雲岡石窟을 사례로 ―",
       "title_en": "Exploring Digital Technology-Based Conservation Strategies for Large-Scale Stone Cultural Heritage: A Case Study of the Yungang Grottoes",
       "authors": [
@@ -16738,7 +16731,7 @@
       "start_page": "191",
       "end_page": "209",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=9401eb926c4b14a2b36097776a77e665",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003401940",
       "keywords_kr": [
         "雲岡石窟",
@@ -16760,15 +16753,16 @@
         "Museum-Based Heritage Revitalization"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "불교미술사학회",
-      "kci_year": "2026",
-      "kci_volume": "42",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003401940",
+      "id": "9401eb926c4b14a2b36097776a77e665",
+      "kci_id": "ART003401940",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "9401eb926c4b14a2b36097776a77e665"
     }
   ]
 }

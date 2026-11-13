@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "journals": {
     "IJBTC": {
       "riss": 420,
@@ -137,17 +137,17 @@
       "new": 0
     },
     "불교미술사학": {
-      "riss": 338,
+      "riss": 344,
       "riss_dups": 6,
       "kci": 234,
       "kci_links": 7,
-      "paired": 228,
-      "kci_only": 6,
+      "paired": 234,
+      "kci_only": 0,
       "scheme": "same",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 228,
-      "comparable_matched": 228,
+      "comparable": 234,
+      "comparable_matched": 234,
       "match_rate": 1.0,
       "new": 0
     },
