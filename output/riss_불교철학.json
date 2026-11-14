@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.72,
     "control_no": "0c20a8836b6e2010ffe0bdc3ef48d419",
-    "last_updated": "2026-06-03"
+    "last_updated": "2026-11-15"
   },
   "articles": [
     {
@@ -6361,9 +6361,7 @@
       "riss_id": "a617b20ed4da06ec4884a65323211ff0"
     },
     {
-      "article_id": "ART003402601",
-      "id": "ART003402601",
-      "kci_id": "ART003402601",
+      "article_id": "3c16c1b240a768bb6aae8a972f9116fb",
       "title_kr": "대각 의천의 분황 원효 이해",
       "title_en": "Daegak Uicheon’s Understanding of Bunhwang Wonhyo",
       "authors": [
@@ -6382,7 +6380,7 @@
       "start_page": "5",
       "end_page": "36",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3c16c1b240a768bb6aae8a972f9116fb",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402601",
       "keywords_kr": [
         "의천",
@@ -6399,20 +6397,19 @@
         "Cheontae"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402601",
+      "id": "3c16c1b240a768bb6aae8a972f9116fb",
+      "kci_id": "ART003402601",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3c16c1b240a768bb6aae8a972f9116fb"
     },
     {
-      "article_id": "ART003402600",
-      "id": "ART003402600",
-      "kci_id": "ART003402600",
+      "article_id": "f0b0ffb4f7be1ecec85d2949c297615a",
       "title_kr": "인각(麟角) 일연(一然)의 분황(芬皇) 원효(元曉) 이해",
       "title_en": "Ingak Iryeon’s Understanding of Bunhwang Wonhyo",
       "authors": [
@@ -6431,7 +6428,7 @@
       "start_page": "37",
       "end_page": "73",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f0b0ffb4f7be1ecec85d2949c297615a",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402600",
       "keywords_kr": [
         "삼국유사",
@@ -6448,20 +6445,19 @@
         "Sacred One"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402600",
+      "id": "f0b0ffb4f7be1ecec85d2949c297615a",
+      "kci_id": "ART003402600",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "f0b0ffb4f7be1ecec85d2949c297615a"
     },
     {
-      "article_id": "ART003402581",
-      "id": "ART003402581",
-      "kci_id": "ART003402581",
+      "article_id": "f0b0ffb4f7be1eceb36097776a77e665",
       "title_kr": "용운 만해(봉완)의 분황 원효 이해",
       "title_en": "WŏnYongun Manhae (Bongwan)’s Understanding of Bunhwang Wonhyo",
       "authors": [
@@ -6480,7 +6476,7 @@
       "start_page": "75",
       "end_page": "123",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f0b0ffb4f7be1eceb36097776a77e665",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402581",
       "keywords_kr": [
         "용운 만해(봉완)",
@@ -6501,20 +6497,19 @@
         "Bunhwang Wonhyo"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402581",
+      "id": "f0b0ffb4f7be1eceb36097776a77e665",
+      "kci_id": "ART003402581",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "f0b0ffb4f7be1eceb36097776a77e665"
     },
     {
-      "article_id": "ART003402598",
-      "id": "ART003402598",
-      "kci_id": "ART003402598",
+      "article_id": "f0b0ffb4f7be1eceb7998d826d417196",
       "title_kr": "산운(汕耘) 장도빈(張道斌)의 분황 원효(芬皇 元曉) 이해",
       "title_en": "Sanun (汕耘) Jang Do-bin (張道斌)’s Understanding of Bunhwang Wonhyo (芬皇 元曉) : Focusing on the Book Wiin Wonhyo (󰡔偉人元曉󰡕)",
       "authors": [
@@ -6533,7 +6528,7 @@
       "start_page": "125",
       "end_page": "159",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f0b0ffb4f7be1eceb7998d826d417196",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402598",
       "keywords_kr": [
         "Sanun Jang Do-bin (汕耘 張道斌)",
@@ -6554,20 +6549,19 @@
         "Ethical Ideal for the People."
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402598",
+      "id": "f0b0ffb4f7be1eceb7998d826d417196",
+      "kci_id": "ART003402598",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "f0b0ffb4f7be1eceb7998d826d417196"
     },
     {
-      "article_id": "ART003402606",
-      "id": "ART003402606",
-      "kci_id": "ART003402606",
+      "article_id": "3c16c1b240a768bb47de9c1710b0298d",
       "title_kr": "육당 최남선의 분황 원효 이해와 통불교 담론",
       "title_en": "Ukdang Choe Nam-seon’s Understanding of Bunhwang Wonhyo and the Tongbulgyo Discourse: A Comparative Reading of His 1918 and 1930 Essays",
       "authors": [
@@ -6586,7 +6580,7 @@
       "start_page": "161",
       "end_page": "210",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3c16c1b240a768bb47de9c1710b0298d",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402606",
       "keywords_kr": [
         "최남선",
@@ -6606,20 +6600,19 @@
         "chonghwabulgyo (integrated Buddhism)"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402606",
+      "id": "3c16c1b240a768bb47de9c1710b0298d",
+      "kci_id": "ART003402606",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3c16c1b240a768bb47de9c1710b0298d"
     },
     {
-      "article_id": "ART003402604",
-      "id": "ART003402604",
-      "kci_id": "ART003402604",
+      "article_id": "3c16c1b240a768bb7f7a54760bb41745",
       "title_kr": "원효 󰡔금강삼매경론󰡕의 일미관행(一味觀行) 세계관 연구",
       "title_en": "The Worldview of ‘One-Taste Contemplative Practice’ in Wonhyo’s Commentary on the Vajrasamādhi Sūtra and Its Relation to Mahāyāna Zen.",
       "authors": [
@@ -6638,7 +6631,7 @@
       "start_page": "211",
       "end_page": "240",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3c16c1b240a768bb7f7a54760bb41745",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402604",
       "keywords_kr": [
         "Mahāyāna Seon(大乘禪)",
@@ -6652,20 +6645,19 @@
         "Quantum Physics"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402604",
+      "id": "3c16c1b240a768bb7f7a54760bb41745",
+      "kci_id": "ART003402604",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3c16c1b240a768bb7f7a54760bb41745"
     },
     {
-      "article_id": "ART003402607",
-      "id": "ART003402607",
-      "kci_id": "ART003402607",
+      "article_id": "3c16c1b240a768bbd18150b21a227875",
       "title_kr": "원효 화쟁 방법론의 개합자재와 그 가역성",
       "title_en": "Gaehap-jajae and its Reversibility in Wonhyo’s Hwajaeng Methodology",
       "authors": [
@@ -6684,7 +6676,7 @@
       "start_page": "241",
       "end_page": "280",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3c16c1b240a768bbd18150b21a227875",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402607",
       "keywords_kr": [
         "Wonhyo’s hwajaeng methodology",
@@ -6701,20 +6693,19 @@
         "Fundamental Theorem of Calculus"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402607",
+      "id": "3c16c1b240a768bbd18150b21a227875",
+      "kci_id": "ART003402607",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3c16c1b240a768bbd18150b21a227875"
     },
     {
-      "article_id": "ART003402599",
-      "id": "ART003402599",
-      "kci_id": "ART003402599",
+      "article_id": "f0b0ffb4f7be1ece7f7a54760bb41745",
       "title_kr": "세계철학사 속 분황 원효의 재정립",
       "title_en": "The Absence and Re-placement of Bunhwang Wŏnhyo in the History of World Philosophy : A Comparison of Practice-Theory Centered on Tiantai Zhiyi’s Mohe zhiguan",
       "authors": [
@@ -6733,7 +6724,7 @@
       "start_page": "281",
       "end_page": "314",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f0b0ffb4f7be1ece7f7a54760bb41745",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402599",
       "keywords_kr": [
         "분황 원효",
@@ -6756,20 +6747,19 @@
         "comparative philosophy"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402599",
+      "id": "f0b0ffb4f7be1ece7f7a54760bb41745",
+      "kci_id": "ART003402599",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "f0b0ffb4f7be1ece7f7a54760bb41745"
     },
     {
-      "article_id": "ART003402580",
-      "id": "ART003402580",
-      "kci_id": "ART003402580",
+      "article_id": "f0b0ffb4f7be1ece4884a65323211ff0",
       "title_kr": "한국불교 불복장 법식화와 그 특징",
       "title_en": "The Ritual Formalization of Buddhist Bokjang in Korean Buddhism and Its Characteristics:",
       "authors": [
@@ -6793,7 +6783,7 @@
       "start_page": "315",
       "end_page": "354",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f0b0ffb4f7be1ece4884a65323211ff0",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402580",
       "keywords_kr": [
         "불복장(佛腹藏)",
@@ -6814,20 +6804,19 @@
         "Haedong Vinaya lineage"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402580",
+      "id": "f0b0ffb4f7be1ece4884a65323211ff0",
+      "kci_id": "ART003402580",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "f0b0ffb4f7be1ece4884a65323211ff0"
     },
     {
-      "article_id": "ART003402602",
-      "id": "ART003402602",
-      "kci_id": "ART003402602",
+      "article_id": "3c16c1b240a768bbe9810257f7042666",
       "title_kr": "선종 청규의 한국적 변용과 조사공양문의 성격에 대한 일고찰",
       "title_en": "A Study on the Korean Transformation of Zen Pure Rules and the Character of Patriarch Offering Rituals:",
       "authors": [
@@ -6846,7 +6835,7 @@
       "start_page": "355",
       "end_page": "384",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=3c16c1b240a768bbe9810257f7042666",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402602",
       "keywords_kr": [
         "선종의례",
@@ -6867,20 +6856,19 @@
         "Three Teachings Harmonization (Samgyo-hoetong)"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402602",
+      "id": "3c16c1b240a768bbe9810257f7042666",
+      "kci_id": "ART003402602",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "3c16c1b240a768bbe9810257f7042666"
     },
     {
-      "article_id": "ART003402603",
-      "id": "ART003402603",
-      "kci_id": "ART003402603",
+      "article_id": "f0b0ffb4f7be1ece7ecd42904f0c5d65",
       "title_kr": "조견오온개공과 선종 확철대오의 해석학적 상응",
       "title_en": "The Hermeneutical Correspondence between “Illuminating the Five Aggregates as Empty” and Thorough Great Awakening in Seon:",
       "authors": [
@@ -6899,7 +6887,7 @@
       "start_page": "385",
       "end_page": "417",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f0b0ffb4f7be1ece7ecd42904f0c5d65",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402603",
       "keywords_kr": [
         "조견오온개공",
@@ -6916,20 +6904,19 @@
         "Hanam Jungwon"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402603",
+      "id": "f0b0ffb4f7be1ece7ecd42904f0c5d65",
+      "kci_id": "ART003402603",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "f0b0ffb4f7be1ece7ecd42904f0c5d65"
     },
     {
-      "article_id": "ART003402605",
-      "id": "ART003402605",
-      "kci_id": "ART003402605",
+      "article_id": "f0b0ffb4f7be1ece47de9c1710b0298d",
       "title_kr": "불교상담적 관점에서 해석한 만다라명상 체험 과정 연구",
       "title_en": "An Interpretive Study of the Experiential Process of Mandala Meditation from a Buddhist Counseling Perspective",
       "authors": [
@@ -6948,7 +6935,7 @@
       "start_page": "419",
       "end_page": "468",
       "doi": "",
-      "riss_url": "",
+      "riss_url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f0b0ffb4f7be1ece47de9c1710b0298d",
       "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003402605",
       "keywords_kr": [
         "만다라명상",
@@ -6965,15 +6952,16 @@
         "Compassion"
       ],
       "ai_keywords": [],
-      "source": "KCI",
-      "publisher": "세계불교학연구소",
-      "kci_year": "2026",
-      "kci_volume": "19",
-      "kci_issue": "",
+      "source": "RISS",
+      "detail": "kci",
+      "kci_hint": "ART003402605",
+      "id": "f0b0ffb4f7be1ece47de9c1710b0298d",
+      "kci_id": "ART003402605",
       "sources": [
+        "RISS",
         "KCI"
       ],
-      "riss_id": ""
+      "riss_id": "f0b0ffb4f7be1ece47de9c1710b0298d"
     }
   ]
 }
