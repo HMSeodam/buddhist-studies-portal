@@ -4,7 +4,7 @@
     "category": "불교학",
     "impact_factor": 0.74,
     "control_no": "89d7868617dd0940",
-    "last_updated": "2026-09-27"
+    "last_updated": "2026-11-21"
   },
   "articles": [
     {
@@ -51544,6 +51544,845 @@
         "KCI"
       ],
       "riss_id": "7c741ecca9eafbb47ecd42904f0c5d65"
+    },
+    {
+      "article_id": "ART003404850",
+      "id": "ART003404850",
+      "kci_id": "ART003404850",
+      "title_kr": "원효 화쟁론에서 ‘무애법문(無礙法門)’의원천(源泉) 탐구",
+      "title_en": "Exploring the Original Sources of ‘The Teachings of No Hindrance’ in Wonhyo's Theory of Harmonization",
+      "authors": [
+        {
+          "name": "김영일",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고에서는 원효 화쟁론에 등장하는 ‘무애법문(無礙法門)’이란 화쟁 방법이 어디에서 왔는지 그 ‘원천(Original Source)’을 탐구하고 있다. 중국 삼론학에서 말하는 ‘상즉(相卽)의 논리’가 내용상 가장 관련이 깊다는 가정에서 삼론학의 이제설을 자세히 조사하였으며, 더불어 중국 성실론과 인도 중관학의 이제설도 살펴보았다.\n첫째, 본격적인 연구에 앞서, 화쟁론의 ‘무애법문’이 무엇인지 확인하였다. 원효는 제설에 대해서 3가지 유형으로 화쟁하는데, 유형1에서는 ‘제설이 옳기도 하고 그르기도 하다.’라는 판정을 한다. 그런 뒤에 이유를 설명하는데, 그 과정에서 유무(有無)·긍부(肯否)·동이(同異) 등을 자유롭게 사용하는 것을 ‘무애법문’이라고 한다.\n둘째, 무애법문의 원천으로 중국 삼론학의 ‘상즉논리’를 탐구하였다. 삼론학의 ‘초장’은 연기법을 바탕으로 ‘이제는 궁극적으로 상대적 존재로 표현될 수 있다.’고 한다. 이를 바탕으로 법랑은 ‘이제상즉’을 밝혔고, 길장은 이제상즉을 ‘무애’로 표현하였다. 이러한 점들을 종합할 때, 상즉논리가 무애법문의 원천이라고 판단하였다.\n셋째, 중국 성실론과 인도 중관학의 이제설에 대해서도 살펴보았다. 성실론의 경우는 지장, 승작, 승민의 이제상즉설을 조사한 결과, 삼론학의 상즉논리와는 큰 차이가 있는 것으로 추정되었다. 그리고 중관학의 경우도 『중론』에 대한 용수, 청목, 월칭의 견해를 살펴본 결과, 삼론학의 상즉논리와는 격차가 크다고 생각되었다.",
+      "abstract_en": "This paper investigates the original sources of ‘the teachings of no hindrance (無礙法門)’ in Wonhyo's theory of Harmonization. Assuming that the Logic of Xiàng-jí (相卽論理) of Chinese Sān-lùn School (三論學) is one of the original sources, we examined the Logic of Xiàng-jí in detail, as well as Chinese Chéng-shi-lùn School (成實論學) and Indian middle way school.\nFirst, ‘the teachings of no hindrance’ was confirmed. In the type 1 of the theory of harmonization, Wonhyo judges that ‘Every theory is right and wrong simultaneously.’ After the judgment, he explains the reason in which there is the teachings of no hindrance which is the free use of Being & Non-being, Positiveness & Negativeness, Sameness & Difference, etc.\nSecond, the Logic of Xiàng-jí was explored. The ‘First Chapter (初章)’ of the Sān-lùn School said that the Twofold Truth (二諦) can be expressed as the other party. Based on the chapter, Fǎ-lǎng (法朗) showed the Logic of Xiàng-jí and Jí-zàng (吉藏) mentioned no hindrance. When these points were put together, it was judged that the logic is the source of the teachings.\nAnd third, we examined the theory of Twofold Truth in two more schools. Examining the theories of the Chéng-shi-lùn scholars, we judged that their theories were different from the theories of the Sān-lùn scholars. And researching the views of the middle way scholars, it was considered that their ideas are insufficient to be the original sources of the teachings.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "3",
+      "end_page": "31",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404850",
+      "keywords_kr": [
+        "The Teachings of No Hindrance (無礙法門)",
+        "The Logic of Xiàng-jí (相卽論理)",
+        "The Sān-lùn School (三論學)",
+        "원효",
+        "화쟁론",
+        "무애법문",
+        "상즉논리",
+        "삼론학"
+      ],
+      "keywords_en": [
+        "Wonhyo",
+        "The Theory of Harmonization"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404853",
+      "id": "ART003404853",
+      "kci_id": "ART003404853",
+      "title_kr": "고려시대 천태사상의 수용과 교학적 융섭의 구조",
+      "title_en": "The Reception of Tiantai Thought and the Structure of Doctrinal Integration in the Goryeo Dynasty",
+      "authors": [
+        {
+          "name": "임상목",
+          "affiliation": "강원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 고려시대 천태(天台)사상의 수용과 전개 과정을 역사적 배경과 교학적 특성, 의천(義天)의 천태종 창종을 중심으로 고찰하고, 이를 통해 천태사상이 고려 불교의 사상적 지형에서 지닌 융섭적 의미를 밝히는 데 목적이 있다. 고려 초기 불교는 화엄·법상 등의 교학 전통과 선 수행이 공존하는 다원적인 사상적 환경을 형성하고 있었으며, 후삼국 통일 이후 정치·사회적 통합의 흐름은 불교계에도 종파와 교학 전통 사이의 관계를 새롭게 모색할 수 있는 역사적 조건을 제공하였다.\n이러한 배경에서 천태사상은 회삼귀일(會三歸一)과 일심삼관(一心三觀)이라는 핵심 원리를 통해 다양한 교설을 포괄하는 교학적 체계와 교리적 이해를 수행으로 연결하는 실천적 특성을 보여주었다. 회삼귀일은 서로 다른 가르침을 일불승의 관점에서 회통하는 원리이며, 일심삼관은 공·가·중 삼제의 원융한 관계를 한 마음에서 관찰함으로써 교학과 수행의 상호 연관성을 드러낸다. 이러한 사상적 특성은 의천의 불교 개편과 천태종 창종을 통해 고려 불교의 역사적 현실 속에서 구체화되었다.\n의천은 당시 불교계의 종파적 구도를 재편하려는 현실적 목적과 다양한 불교 전통을 포괄적으로 이해하려는 사상적 지향의 실천으로 천태종을 창립하였다. 천태종 창종은 초기 구법승들을 통해 전승된 천태교학이 독립적인 종파의 조직과 교학 연구의 기반을 갖추는 전환점이 되었다. 이를 계기로 고려시대 천태사상은 독자적인 교학적·교단적 기반을 확립하였으며, 천태교학의 회통적 원리는 고려 불교의 다양한 사상적 전통을 상호 연관된 관점에서 이해하고 조정하는 중요한 사상적 토대로 작용하였다.",
+      "abstract_en": "This study examines the historical background and doctrinal characteristics underlying the reception and development of Tiantai thought during the Goryeo Dynasty, with particular attention to Uicheon’s (義天) establishment of the Tiantai Order, and explores the significance of Tiantai thought in terms of its integrative role within the intellectual landscape of Goryeo Buddhism. In the early Goryeo period, Buddhism developed within a pluralistic intellectual environment in which doctrinal traditions such as Huayan and Faxiang coexisted with Seon practice. The political and social integration that followed the unification of the Later Three Kingdoms also provided historical conditions for the Buddhist community to reconsider the relationships among different sects and doctrinal traditions.\nAgainst this historical background, Tiantai thought demonstrated both a comprehensive doctrinal framework encompassing diverse Buddhist teachings and a practical orientation connecting doctrinal understanding with cultivation through its central principles of the Three Vehicles Returning to the One (會三歸一) and the Threefold Contemplation in a Single Mind (一心三觀). The former represents a principle of integrating diverse teachings within the perspective of the One Buddha Vehicle, while the latter reveals the interrelationship between doctrine and practice by contemplating the interpenetrating nature of the Three Truths—emptiness, conventional existence, and the Middle—in a single mind. These characteristics of Tiantai thought were concretely manifested in the historical context of Goryeo Buddhism through Uicheon’s efforts to reform the Buddhist community and establish the Tiantai Order.\nUicheon founded the Tiantai Order as an expression of his ideological commitment to comprehensively understanding diverse Buddhist traditions, while also pursuing the practical objective of reorganizing the sectarian structure of the Buddhist community at the time. The establishment of the Tiantai Order marked a turning point in which Tiantai teachings, transmitted through the activities of early Buddhist monks who had traveled abroad to study, acquired an independent sectarian organization and a foundation for doctrinal research. Through this development, Tiantai thought in the Goryeo period established its own doctrinal and institutional foundations, while the integrative principles of Tiantai doctrine served as an important intellectual basis for understanding and coordinating the diverse Buddhist traditions of Goryeo in terms of their mutual interrelationships.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "33",
+      "end_page": "61",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404853",
+      "keywords_kr": [
+        "천태사상",
+        "회삼귀일",
+        "일심삼관",
+        "의천",
+        "천태종"
+      ],
+      "keywords_en": [
+        "Tiantai Thought",
+        "The Three Vehicles Returning to the One",
+        "The Threefold Contemplation in a Single Mind",
+        "Uicheon",
+        "Tiantai Order"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404855",
+      "id": "ART003404855",
+      "kci_id": "ART003404855",
+      "title_kr": "지례의 수연설에 대한 화엄교학적 반론",
+      "title_en": "A Huayan Doctrinal Critique of Siming Zhili’s Theory of the “Separate Principle’s Accordance with Conditions”",
+      "authors": [
+        {
+          "name": "조배균",
+          "affiliation": "전남대학교 호남불교문화연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 북송(北宋) 초기 사명지례(四明知禮)가 제기한 ‘별리수연설(別理隨緣說)’을 중심으로 천태원교(天台圓敎) 성구수연설(性具隨緣說)의 교판적 정초 과정을 고찰하고, 이에 대한 화엄교학 성기설(性起說) 측면의 반론 가능성을 규명함으로써, 천태와 화엄 두 수연설의 사상적 위상을 수평적 관점에서 재탐색하고자 하였다. 지례는 당시 선종과 화엄종의 융합적 사조 속에서 위기에 처한 천태교학을 부흥시키기 위해 본체 자체에 십계삼천(十界三千)의 선악이 본래 갖춰져 있다는 성구설에 기초하여, 화엄의 진여수연(眞如隨緣)을 격리된 별교(別敎)의 가르침인 ‘별리수연(別理隨緣)’으로 판석하여 천태원교의 독자적 우위를 주장하였다. 그러나 화엄교학의 관점에서 지례의 이러한 판석은 법장(法藏)과 종밀(宗密)이 설정한 삼승(三乘) 종교(終敎)의 이사무애적(理事無礙的) 단계와 일승(一乘) 원교(圓敎)의 사사무애(事事無礙) 무진연기(無盡緣起)를 혼동한 범주적 오류를 내포한다. 화엄의 일승진여(一乘眞如)는 단순히 본체와 현상의 이원적 결합인 합의(合義)에 머무는 것이 아니라, 제법의 무성(無性)을 통해 사사무애로 승화되는 독자적 위상을 지닌다. 종밀의 사법계(四法界) 체계에서 볼 때, 천태의 일경삼제(一境三諦)와 회삼귀일(會三歸一) 사상은 현상의 차별을 평등의 이치로 수렴시키는 이사무애적 한계에 머무는 종교(終敎)로 판석된다. 수행론과 관법(觀法)의 측면에서도 두 종파는 각기 상이한 진리관에 기초하여 독자적인 실천적 정당성을 확보한다. 천태의 성구설은 현실의 오염된 마음과 악마저도 본체에 갖춰져 있다는 절대적 긍정 위에서, 미혹한 마음을 정면으로 마주하여 우주적 전환을 이루는 ‘오음망심관(五陰妄心觀)’의 구체적 실천력을 보여준다. 반면 화엄의 성기설은 중생의 본래 마음이 청정하고 신령한 앎임을 단박에 직관하는 ‘영지불매(靈知不昧)’의 진심관(眞心觀)을 통해 인위적 조작을 넘어선 원돈(圓頓)의 실천적 정당성을 증명한다. 이렇듯 천태의 성구수연설과 화엄의 성기수연설은 서열화된 우열의 대상이 아니며, 타자를 자종(自宗)의 체계로 흡수하려는 포괄주의 해석학적 기획의 한계를 공유한다. 천태와 화엄의 두 수연설은 서로 다른 진리론과 실천관에 기초한 ‘수평적 관점의 차이’로 이해되어야 할 것이다.",
+      "abstract_en": "This study examines the doctrinal foundation of the Tiantai Perfect Teaching’s theory of “nature-inclusion-accordance with conditions” (xingju suiyuan 性具隨緣), focusing on the “separate principle’s accordance with conditions” (bieli suiyuan 別理隨緣) proposed by Siming Zhili (960–1028). It investigates potential counterarguments from the perspective of the Huayan school’s theory of “nature-origination” (xingqi 性起) to reevaluate both schools’ theories of accordance with conditions (suiyuan) from a horizontal perspective.\nTo defend Tiantai orthodoxy against the Chan-Huayan syncretism of the early Northern Song dynasty, Zhili asserted that the principle (li 理) inherently includes all phenomenal realms, both good and evil (xingju). Consequently, he demoted the Huayan theory of “true suchness according to conditions” (zhenru suiyuan 眞如隨緣) to a lower-level Separate Teaching (biejiao), labeling it “separate principle’s accordance with conditions.” From the Huayan standpoint of Fazang and Zongmi, however, Zhili’s critique commits a categorical error by conflating the “principle-phenomenon non-obstruction” (lishi wu'ai 理事無礙) of the Three Vehicles' Final Teaching with the “phenomenon-phenomenon non-obstruction” (shishi wu'ai 事事無礙) of the One Vehicle's Perfect Teaching. Conversely, within Zongmi’s framework, the Tiantai “threefold truth in one object” (yijing santi) is relegated to the level of principle- phenomenon non-obstruction because it subsumes phenomenal differences into an egalitarian principle.\nFurthermore, both schools offer distinct practical justifications. While Tiantai's nature-inclusion directly confronts and transforms the defiled mind through the “contemplation of the deluded mind,” Huayan's nature-origination offers a sudden and perfect (yuandun) approach through the “contemplation of the true mind” based on “unobscured spiritual knowing” (lingzhi bumei).\nUltimately, neither theory is hierarchically superior; rather, both share the limitations of an inclusivist taxonomic project. They should be understood as representing a horizontal difference in perspectives, serving as mutually complementary models for dialogue between the two zeniths of East Asian Buddhist philosophy.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "63",
+      "end_page": "89",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404855",
+      "keywords_kr": [
+        "사명지례",
+        "별리수연",
+        "성구수연",
+        "진여수연",
+        "성기수연",
+        "현수법장",
+        "규봉종밀"
+      ],
+      "keywords_en": [
+        "Siming Zhili",
+        "Separate Principle's Accordance with Conditions",
+        "Nature-Inclusion",
+        "Nature-Origination",
+        "Accordance of True Suchness with Conditions",
+        "Huayan Taxonomy",
+        "Unobscured Spiritual Knowing"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404857",
+      "id": "ART003404857",
+      "kci_id": "ART003404857",
+      "title_kr": "『화엄경소초』사기(私記)에 보이는 현토(懸吐)에 대한유형적 고찰- 연담과 인악의 사기를 중심으로 -",
+      "title_en": "A Typological Study of Hyeonto (懸吐) in the Sagi (私記) on the Commentary and Subcommentary on the Avataṃsaka Sūtra (華嚴經疏鈔): Focusing on the Sagi of Yeondam and Inak",
+      "authors": [
+        {
+          "name": "이승범",
+          "affiliation": "국립순천대학교 남도문화연구소",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는『화엄경』 ｢십지품｣ 사기 가운데 연담의 『유망기』와 인악의 『잡화기』에 나타난 현토(懸吐)를 대상으로, 두 강백이 현토를 어떤 방식으로 제시하였고 무엇을 근거로 그 현토를 정당화하였는지를 밝히는 데 목적이 있다. 같은 한문 구절도 토를 달리 붙이면 뜻이 달라지므로, 현토를 정하는 일은 곧 구절의 의미를 확정판단 하는 것이다. 이에 ｢십지품｣ 사기의 현토를 권별·표현별로 집계하고, 제시 방식과 근거에 따라 다섯 유형, 즉 현토만 제시한 경우, 현토와 구두를 함께 제시한 경우, 현토에 앞서 의의를 밝힌 경우, 주소자의 이론에 따라 현토를 달리한 경우, 오자를 바로잡으며 현토한 경우로 분류하여 분석하였다.\n통계상 두 사기는 현토를 ‘이렇게 읽어야 한다’는 지시형으로 서술하는 비중이 약 79%로 같았으나, 『유망기』는 궐자권에, 『잡화기』는 수자권·곤자권에 현토가 몰려 있어 두 저자가 난해하게 본 대목이 달랐다. 유형 분석에서 연담은 제3형(65.5%)이 가장 많아 현토에 앞서 스스로 문맥과 교리를 논증하였고, 인악은 제4형(54.8%)이 가장 많아 주소자들의 이견을 대조하여 현토를 정하였다. 물론 하나의 사례가 다른 유형과 동시에 해당할 수 있는 부분에 대해서도 언급하였다. 이로써 두 사기의 현토는 단순한 독해 보조가 아니라, 자의(字義)를 확정하는 훈고, 주소 해석의 취사, 강경 현장에서 오독을 막는 판단이 함께 담긴 구체적인 주석 행위였음을 확인하였다.",
+      "abstract_en": "This study examines hyeonto (懸吐, vernacular reading marks) in Yeondam’s Yumanggi (遺忘記) and Inak’s Japhwagi (雜華記), two sagi (私記, private commentaries) on the “Chapter on the Ten Stages” (十地品) of the Avataṃsaka Sūtra. It aims to show how the two masters presented hyeonto and on what grounds they justified it. Because the same classical Chinese passage can mean different things depending on how the marks are attached, deciding on a hyeonto is itself a judgment that fixes the meaning of the passage. The study therefore tabulated the hyeonto in the sagi by fascicle and by form of expression. It then classified them into five types according to manner of presentation and grounds: (1) cases presenting only the hyeonto; (2) cases presenting hyeonto together with punctuation (句讀); (3) cases stating the significance of the passage before attaching the hyeonto; (4) cases in which the hyeonto differs according to the divergent views of commentators; and (5) cases attaching the hyeonto while correcting a textual error.\nStatistically, the two texts are alike in that directive statements of the form “this must be read thus” account for roughly 79% of their hyeonto-related remarks. However, the Yumanggi concentrates its hyeonto in the Gwol-character fascicle (闕字卷), whereas the Japhwagi concentrates them in the Su- and Gon-character fascicles (水字卷․崑字卷), so the two authors regarded different passages as difficult. In the typological analysis, Type 3 is the most frequent in Yeondam (65.5%): he first argued the meaning from context and doctrine before attaching the hyeonto. Type 4 is the most frequent in Inak (54.8%): he compared the differing views of commentators to decide his hyeonto. The study also notes that a single case may fall under more than one type at the same time. These findings show that the hyeonto in the two sagi are not mere reading aids. They are concrete exegetical acts that combine philological glossing to fix the meaning of characters (訓詁), selection among competing commentarial interpretations, and the lecturer’s judgment to forestall misreadings in the lecture setting.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "91",
+      "end_page": "122",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404857",
+      "keywords_kr": [
+        "Daśabhūmika",
+        "화엄경소초",
+        "십지품",
+        "사기",
+        "현토",
+        "연담",
+        "인악"
+      ],
+      "keywords_en": [
+        "Huayanjing Shuchao",
+        "Sagi",
+        "Hyeonto",
+        "Yeondam",
+        "Inak"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404858",
+      "id": "ART003404858",
+      "kci_id": "ART003404858",
+      "title_kr": "성림 월산(聖林月山)의 간화선 수행체계의 형성과 전개- 자심(自心)의 자각과 행화(行和)의 불이(不二)를 중심으로 -",
+      "title_en": "The Formation and Development of the Ganhwa Seon Practice System of Seongrim Wolsan (聖林月山): Focusing on the Nonduality (不二) of Awareness of One’s Own Mind (自心) and the Enactment of Harmony (行和)",
+      "authors": [
+        {
+          "name": "이창환",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 성림 월산(聖林月山, 1913-1997)의 간화선(看話禪) 수행체계의 형성과 전개를 고찰하고 화두 참구를 통한 자심(自心)의 자각이 월산이 강조한 화(和)의 실천으로 전개되는 양상을 행화(行和)로 파악하여 그 불이(不二)의 구조와 중도(中道)적 성격을 밝히는 데 목적이 있다.\n월산의 간화선 수행체계는 덕숭선맥의 계승과 만공·금오의 제접 아래 이루어진 실참을 바탕으로 형성되었다. 생사대사를 해결하기 위해 목숨을 걸고 오직 화두 참구의 한 길로 나아가는 그의 수행 태도를 본고에서는 ‘대사일로(大死一路)의 간화’로 파악한다. 월산은 깨달음을 화두 참구의 준거로 삼았고 대의단(大疑團)·대분심(大憤心)·대신심(大信心)의 용심을 강조하였다. 깨달음을 준거로 삼는 점은 이오위칙(以悟爲則)과 상응하며 세 용심의 기능은 참선삼요(參禪三要)와 관련하여 살펴볼 수 있다. 이러한 정진에서 화두 타파는 의정이 대파되는 수행상의 전환이며 그 자리에서 자심이 곧 부처임을 스스로 확인하게 된다.\n그러나 월산의 간화선은 자심을 밝히는 데서 끝나지 않는다. 월산은 향상일로(向上一路)를 참선 정진으로, 향하일로(向下一路)를 중생 교화로 설명하면서 두 길을 손등과 손바닥에 비유하였다. 불수일진(不受一塵)은 분별과 집착을 벗어나 조사관을 투철하려는 수행의 철저성을 나타내고 불사일법(不捨一法)은 그 자리에서 현실의 한 법도 버리지 않는 작용을 뜻한다. 향상·향하와 불수일진·불사일법은 설명의 층위가 다르지만 자각과 현실적 실천을 분리하지 않는다는 점에서는 서로 통한다. 월산은 이러한 작용을 능생능활(能生能活)로 설명하였고 본고는 그 작용이 행화로 이어지는 양상을 중도화합(中道和合)이라는 관점에서 살펴보았다.\n월산 간화선의 특징은 자심을 밝히는 수행과 그 자각을 삶과 중생 교화 속에서 구현하는 실천이 하나의 수행체계 안에서 분리되지 않는 데 있다. 이 불이는 양자의 동일성이 아니라 자각과 실천이 서로 분리되지 않는 관계이며 본고에서는 이를 비분리성(非分離性)으로 파악한다. 분별과 집착을 벗어난 자각이 현실의 한 법도 버리지 않는 작용으로 이어진다는 점에서 월산 간화선의 중도적 성격을 확인할 수 있다.",
+      "abstract_en": "This study aims to examine the formation and development of the Ganhwa Seon (看話禪) practice system of Seongrim Wolsan (聖林月山, 1913–1997) and clarify the structure of nonduality (不二) through which awareness of one’s own mind (自心), attained through huatou investigation, develops into the enactment of harmony (行和), as well as the Middle Way character of this structure.\nWolsan’s Ganhwa Seon practice system was formed on the basis of direct practice grounded in his inheritance of the Deoksung Seon lineage and the guidance of Mangong and Geumo. This study understands his practice of risking his life and proceeding solely along the path of huatou investigation in order to resolve the great matter of birth and death as the Ganhwa practice of the “single path of great death” (大死一路). Wolsan presented awakening as the criterion for huatou investigation and emphasized the way of applying the mind in terms of great doubt (大疑團), great resolve (大憤心), and great faith (大信心). Taking awakening as the criterion corresponds to “taking awakening as the standard” (以悟爲則), while the functions of the three ways of applying the mind can be examined in relation to the Three Essentials of Seon practice (參禪三要). In such practice, the breakthrough of the huatou marks a turning point at which doubt is shattered, and at that very point one directly confirms that one’s own mind is itself Buddha.\nWolsan’s Ganhwa Seon, however, does not stop at clarifying one’s own mind. Wolsan explained taking the upward path (向上一路) as Seon practice and taking the downward path (向下一路) as teaching sentient beings, comparing the two paths to the back and palm of the hand. “Not accepting even a single speck of dust” (不受一塵) refers to the thoroughness of practice that goes beyond discrimination and attachment in order to break through the barrier of the patriarchs, while “not abandoning even a single dharma” (不捨一法) refers to functioning that does not abandon any dharma in the actual world from that standpoint. Although the upward and downward paths and “not accepting even a single speck of dust” and “not abandoning even a single dharma” operate at different levels of explanation, they converge in that they do not separate awareness from practical enactment in the actual world. Wolsan described such functioning as “being able to bring forth and enliven” (能生能活), and this functioning develops into the enactment of harmony. This study examines this development from the analytical perspective of Middle Way harmony (中道和合).\nA distinctive feature of Wolsan’s Ganhwa Seon lies in the nonseparation between the practice of clarifying one’s own mind and the enactment of that awareness in life and in teaching sentient beings. This nonduality does not mean that awareness and practice are identical; rather, it refers to a relation in which they are not separated, which this study understands as nonseparation. The Middle Way character of Wolsan’s Ganhwa Seon can be identified in the way awareness that has gone beyond discrimination and attachment develops into functioning that does not abandon even a single dharma in the actual world.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "123",
+      "end_page": "154",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404858",
+      "keywords_kr": [
+        "Seongrim Wolsan (聖林月山)",
+        "Ganhwa Seon (看話禪)",
+        "One’s Own Mind (自心)",
+        "Middle Way (中道)",
+        "Enactment of Harmony (行和)",
+        "성림 월산(聖林月山)",
+        "간화선(看話禪)",
+        "자심(自心)",
+        "중도(中道)",
+        "행화(行和)"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404859",
+      "id": "ART003404859",
+      "kci_id": "ART003404859",
+      "title_kr": "비구니 승잔법(Saṅghādisesa)의 전승 안정성과 절차 규범- 四獨戒·界外解擧人戒·習近住戒①·②의 비교를 중심으로 -",
+      "title_en": "Transmission Stability and Procedural Norms in the Bhikṣuṇī Saṅghādisesa Rules: A Comparative Study of Sadok-gye (四獨戒), Gyeoegeohageon-gye (界外解擧人戒), and Seupgeunju-gye ① and ② (習近住戒)",
+      "authors": [
+        {
+          "name": "원지윤",
+          "affiliation": "동학사승가대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 비구니 승잔법의 형성 시기를 직접 복원하기보다, 여섯 율장 전승에서 어떤 규범 요소가 상대적으로 안정적으로 계승되고 어떤 요소가 유동적으로 편집되는지를 검토하였다. 분석 대상은 즉시범인 사독계와 계외해거인계, 3간범인 습근주계①·② 네 조문이었다. 분석 차원은 ① 조문 정형구, ② nidāna(인연담) 서사, ③ 전승별 조문화 양상, ④ 제재 절차(즉시범/3간범)였다. 그 결과 본고가 직접 대조한 네 표본 조문에서 대응 조문의 즉시범/3간범 배정은 여섯 전승에 걸쳐 변경이 관찰되지 않았다. 반면 삽입어, 조문의 분화·배열, 인연담의 인물·정황·항변, 계외 요건 등 편집이 가능했던 다른 층위에서는 전승별 변이가 확인되었다. 본고는 성격이 다른 이 층위들을 서열화하지 않고 층위별로 정리하였다. 다만 이와 같은 전승 안정성은 곧바로 형성 시기의 선후를 뜻하지 않는다. 본고는 네 표본에서 제재 범주 배정에 변경이 관찰되지 않음을 확인하되, 이를 부파 분열 이전의 조기 성립으로 단정하지 않고 공통 전승의 보존과 기능적 수렴 가능성을 함께 열어 두었다.\n또한 전승별 조문 수는 실제로 동일하지 않았다. 『마하승기율』은 12초죄·7삼간, 『근본설일체유부비나야』는 12초범·8삼간으로 전하며, 사독계 등의 분화와 오가악행계 결번을 고려하면 결어부가 스스로 밝히는 전통적 분류 표기로서의 ‘9/8’은 모든 현존 율장의 실제 조문 수[實數]를 가리키는 수치가 아니다. 따라서 본고는 9/8을 보편적 수량 골격으로 제시하지 않고, 서로 대응되는 규범 단위가 어느 제재 범주에 배정되는가를 비교하였다. 이 구분을 통해 조문 수·배열의 변동과 제재 범주 배정의 안정성을 분리하여 설명하였다.\n마나타와 출죄 절차의 비교에서도 동일한 방법론적 원칙을 적용하였다. 비구니의 보름 마나타에 이부승이 관여한다는 원칙은 전승 간에 널리 공유되었지만, 출죄 정족수는 『빠알리율』의 20인 규정과 여러 한역 전승의 40인 규정으로 나뉘었다. 특히 『사분비구니계본』·『오분비구니계본』·『십송비구니바라제목차계본』의 40인 규정은 광율의 해당 조문과 다른 자료층에서 확인되므로, 이를 곧바로 20인에서 40인으로의 역사적 변화 방향으로 해석해서는 안 된다. 『마하승기율』의 “二十僧、二部眾中應出罪” 역시 문법적으로 확정하기 어려워 미결 문제로 남겨두었다. 본고의 핵심 결론은 ‘형성 시기’의 단정이 아니라, 네 표본 조문에서 제재 범주의 배정에는 변경이 관찰되지 않는 반면 인연담의 서사 요소는 전승별로 재구성되고, 계외 요건과 출죄 정족수 같은 집행 세부는 달리 정교화된다는 점이었다.",
+      "abstract_en": "Rather than attempting to directly reconstruct the formation dates of the bhikṣuṇī saṅghādisesa rules, this paper examined which normative elements were transmitted with relative stability across the six vinaya traditions and which were more fluidly redacted. The analysis focused on four rules: the immediate offenses (即時犯) of Sadok-gye (四獨戒) and Gyeoegeohageon-gye (界外解擧人戒), and the triple- admonition offenses (三諫犯) of Seupgeunju-gye ① and ② (習近住戒). The comparison proceeded along four dimensions: ① the formulaic structure of the rule-text, ② the nidāna narrative, ③ the pattern of codification across traditions, and ④ the disciplinary procedure (immediate offense vs. triple-admonition offense). In the four sampled rules that the author compared directly, no change in the assignment of corresponding rules to the immediate- offense or triple-admonition category was observed across the six traditions. By contrast, variation across traditions was identified in other layers that were open to editorial intervention: inserted terms, the division and arrangement of rules, the characters, circumstances, and pleas of the nidāna narratives, and the boundary requirement. Because these layers differ in nature, the paper did not rank them but organized them layer by layer. However, this transmissional stability does not in itself indicate priority in formation. While the paper observed no change in the assignment of disciplinary categories in the four sampled rules, it did not treat this as evidence of early formation prior to the schism of the nikāyas, but instead left open the possibility of shared preservation of a common transmission alongside functional convergence.\nThe paper also found that the number of rules differs across traditions in practice. The Mahāsāṃghika-vinaya transmits twelve immediate offenses and seven triple- admonition offenses, while the Mūlasarvāstivāda-bhikṣuṇī-vinaya transmits twelve immediate offenses and eight triple-admonition offenses. Taking into account the further division of rules such as Sadok-gye and the missing numbering of Ogaakhaeng-gye (汚家惡行戒), the figure “9/8,” which the concluding passages of the traditions themselves present as a traditional classificatory notation, does not represent the actual number of rules in every extant vinaya. Accordingly, rather than presenting “9/8” as a universal numerical framework, this paper compared how corresponding normative units were assigned to disciplinary categories. This distinction allowed variation in the number and arrangement of rules to be analytically separated from the stability of disciplinary-category assignment.\nThe same methodological principle was applied to the comparison of the mānatva and rehabilitation (出罪) procedures. The principle that the dual saṅgha (二部僧) participates in the bhikṣuṇī’s fortnightly mānatva was widely shared across traditions, but the quorum required for rehabilitation diverged between the Pāli Vinaya’s rule of twenty and the rule of forty found in several Chinese- translated traditions. In particular, since the rule of forty in the Sifen-biqiuni- jieben, Wufen-biqiuni-jieben, and Shisong-biqiuni-boluotimuchia- jieben is attested in a different textual stratum from the corresponding rules in the respective vibhaṅga (廣律), this discrepancy should not be interpreted as straightforward evidence of a historical shift from twenty to forty. The phrase “二十僧、二部眾中應出罪” in the Mahāsāṃghika-vinaya likewise resists definitive grammatical resolution and was left as an open question. The core conclusion of this paper is not a determination of “formation date,” but rather the finding that, in the four sampled rules, showed no observed change and the narrative elements of the nidāna were freely recast, while enforcement details such as the boundary requirement and the rehabilitation q...",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "155",
+      "end_page": "195",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404859",
+      "keywords_kr": [
+        "비구니 승잔",
+        "전승 안정성",
+        "즉시범·3간범",
+        "마나타",
+        "출죄 정족수",
+        "Bhikṣuṇī Saṅghādisesa",
+        "Immediate Offense·Triple-Admonition Offense",
+        "Mānatva"
+      ],
+      "keywords_en": [
+        "Transmissional Stability",
+        "Rehabilitation Quorum"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404860",
+      "id": "ART003404860",
+      "kci_id": "ART003404860",
+      "title_kr": "중국 기록과 자료로 보는 인도 탄트리즘의 기원 - 마혜수라천과 샤이비즘을 중심으로 -",
+      "title_en": "The Origins of Indian Tantrism as Seen Through Chinese Records and Materials: Focusing on Maheshura and Shaivism",
+      "authors": [
+        {
+          "name": "박용태",
+          "affiliation": "위덕대학교 밀교문화연구원",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "중국 8세기 사료(史料)인 두우(杜佑)의『통전(通典)』과 12세기 요관(姚寬: 1105~1162)의『서계총어(西溪叢語)』에는 불교의 천신(天神)인 마혜수라천摩醯首羅天, Mahā-Īśvara)이 조로아스터교 신(神)에서 유래되었다는 기록이 있다. 불교학계 등 기존 선행연구 다수는 마혜수라가 인도 힌두교의 신 시바(शिव, Śiva)와 동일한 신격(神格)이거나 불교에서 시바를 지칭하는 다른 칭호(異稱)로 분석하여 왔다. 또한 힌두 신 시바의 기원을 루드라(रुद्र,Rudra)나 아그니(अग्नि,Agni) 등 베다 시대의 신격에서 찾으려는 시각이 다수였다.\n하지만 『통전(通典)』등의 기록은 시바의 기원이 인도의 브라만교가 아닌, 외래된 이교(異敎)인 페르시아 조로아스터교에서 유입된 신앙에서 비롯된 것임을 의미한다. 실제 베다의 신들에서 시바의 기원을 찾고자 하는 샤이비즘 연구의 추론은 명확한 문헌적 자료나 고고학적 근거를 제시하지 못하고 있다. 특히 이 연구들은 신뢰할 만한 시바 신앙의 도상적 최초 기원을 기원 150년~180년 경 박트리아 지역 주화(鑄貨)의 도상에서 찾고 있다. 하지만 이 도상이 시바가 아닌 조로아스터교의 풍신(風神) 바유(Vāyu)를 형상화한 것이라는 새로운 연구가 지속적으로 제시되고 있기도 하다. 이것은 인도에서도 5세기 이후에나 시바 신앙과  힌두 신앙이 자리잡고, 또 박트리아 지역이 힌두쿠시산맥 북쪽의 비(非)인도문화권역임을 감안한다면 충분한 설득력이 있다. 또한 이것은 마혜수라-시바 신앙이 조로아스터교에서 기원하였다는 『통전』등의 기록과도 유의미하게 연결될 수 있다.\n이 외에도 인도에서 다면다비(多面多臂)의 시바 신상은 550년경에 조성된 인도 엘레판타석굴의 삼면(三面)상, 비슷한 시기 엘로라 석굴(Ellora Caves) 다면다비상 등 6~7세기부터 나타나는 것에 비해 중국에서는 5세기 운강석굴 10굴에 오면육비(五面六臂)의 마혜수라천이 조성되어 있다. 이는『通典』의 기록처럼 마혜수라가 페르시아 조로아스터교의 신격이며, 이후 인도에서 시바 신앙으로 발전되었다면 도상학적으로 중국의 마혜수라(시바)의 신앙이 인도보다 빠른 시기에 전래되었다는 것을 의미한다. 『通典』등의 짧은 기록과 이를 뒷받침하는 미술사적 근거는 힌두교 샤이비즘 등 탄트리즘의 기원과 전파 양상에 대한 연구에서 매우 유의미한 사료가 될 것이다.",
+      "abstract_en": "Chinese historical records from the 8th century, such as Du You's Tongdian (Comprehensive Chronicles), and from the 12th century, such as Yao Kuan's Xixi Congyu (Collected Sayings from the Western Creek), contain records indicating that the Buddhist deity Maheśvara (Mahā-Īśvara) was derived from a Zoroastrian deity. Much of the existing prior research, including that within the Buddhist academic community, has analyzed Mahissaraas either the same deity as the Hindu god Shiva or as an alternative title used to refer to Shiva in Buddhism. Furthermore, the prevailing view has been to trace the origins of the Hindu god Shiva to deities of the Veda-era, such as Rudra or Agni.\nHowever, if we follow the perspective of previous research that Maheshura and Shiva are closely related deities with the same origin, the record in Tongdian implies that Shiva's origin is not from Indian Brahmanism, but from beliefs introduced from the foreign pagan religion of Persian Zoroastrianism.\nIn fact, the inferences in Shaivism research seeking Shiva's origins in the gods of the Vedic have failed to present clear textual data or archaeological evidence. In particular, these studies locate the earliest reliable iconographic origin of Shiva worship in the depictions on coins minted in the Bactria region around 150–180 AD. But, new research is continuously being presented suggesting that this depiction is not of Shiva but of Vayu, the Zoroastrian god of wind. This is quite persuasive considering that Shiva and Hindu beliefs only took root after the 5th century in India, and that the Bactria region is a non-Indian cultural area north of the Hindu Kush Mountains. Furthermore, its can be also significantly connected to the record of Tongdian that the Mahesura-Shiva faith originated in Zoroastrianism.\nIn addition, while multi-faced and multi-armed statue of Shiva in India began to appear around the 6th to 7th centuries, such as the three-faced statue (Maheshamurti) in the Elephanta Caves created around 550 CE and multi-faced, multi-armed statues in the Ellora Caves from a similar period—in China, a five-faced and six-armed statue  of Maheśvara was already constructed in Cave 10 of the Ungang Grottoes as early as the 5th century.\nIf, as recorded in the Tongdian, Maheshura is a deity of Persian Zoroastrianism that later developed into Shiva worship in India, this implies that, iconographically, the worship of Maheshura (Shiva) in China was transmitted at an earlier time than in India.\nThe brief record in the Tongdian and the art-historical evidence supporting it will serve as highly significant historical sources for research on the oorigin and propagation patterns of Tantrism, such as Hindu Shaivism.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "197",
+      "end_page": "226",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404860",
+      "keywords_kr": [
+        "마혜수라",
+        "시바",
+        "탄트리즘",
+        "힌두교",
+        "조로아스터교"
+      ],
+      "keywords_en": [
+        "Mahesura",
+        "Shiva",
+        "Tantrism",
+        "Hinduism",
+        "Zoroastrianism"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404861",
+      "id": "ART003404861",
+      "kci_id": "ART003404861",
+      "title_kr": "한역 불교 경전에 나타난 선남자(善男子)의 문맥적 의미- 『금강경(金剛經)』을 중심으로 -",
+      "title_en": "The Contextual Meaning of Shannanzi (善男子) in Chinese Buddhist Translations: With a Focus on the Diamond Sutra",
+      "authors": [
+        {
+          "name": "최근성",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 『금강경(金剛經)』의 “善男子善女人發阿耨多羅三藐三菩提心”에서 선남자(善男子)의 의미를 한역 불교 경전의 실제 용례와 역대 주석을 비교하여 문맥적으로 검토하였다. 역대 주석에서는 선남자를 수행적 자질과 능력, 마음의 상태, 발심(發心)의 과정과 방향 등 서로 다르게 해석하고 있다. 이에 이러한 주석을 경전의 의미를 확정하는 직접적인 근거로 삼지 않고 관련 한역 경전의 실제 용례를 중심으로 별도로 검토하였다.\n『잡아함경(雜阿含經)』의 “善男子出家”는 부처의 약설(略說)을 “廣解其義”하고, 독일정처(獨一靜處)하여 전정사유(專精思惟)하고 주불방일(住不放逸)한 끝에 아라한과(阿羅漢果)를 성취하는 수행자의 문맥에서 사용된다. 또한 구마라집(鳩摩羅什) 역 반야부(般若部)에서는 발아뇩다라삼먁삼보리심(發阿耨多羅三藐三菩提心)을 발할 수 있는 범위의 제한과 희소성이 확인되며, 다른 역자의 『화엄경(華嚴經)』에서는 선근(善根)을 비롯한 수행적 기반의 선행이 제시된다.\n이를 종합하면 『금강경』의 선남자는 일반적인 신앙인이나 단순한 발심자를 가리키기보다, 발아뇩다라삼먁삼보리심을 발할 수 있는 일정한 수행적 자질과 이해를 갖춘 주체를 전제로 한 표현으로 이해하는 것이 관련 경전의 용례와 『금강경』의 설법 문맥을 보다 자연스럽게 설명한다. 이러한 이해는 선남자를 전제로 한 수보리의 질문과 부처의 답변을 정확하게 파악하는 데 기여하며, 경전을 독송하는 불자에게도 법을 듣고 그 뜻을 사유하여 수행으로 실천해야 한다는 방향을 제시한다.",
+      "abstract_en": "This study examines the contextual meaning of shannanzi (善男子) in the Diamond Sutra by comparing traditional commentaries with actual usages in Chinese Buddhist translations. Traditional commentaries interpret shannanzi in various ways, relating it to capacities for practice, states of mind, and the process and direction of aspiration. Rather than treating these interpretations as direct evidence for determining the meaning of the scripture, this study examines relevant usages in Chinese Buddhist texts independently.\nIn the Saṃyuktāgama, the expression shannanzi chujia (善男子出家) occurs in a context in which a practitioner comprehends and expands upon the Buddha’s concise teaching, practices diligently and without negligence in solitude, and eventually attains arhatship. Kumārajīva’s Prajñāpāramitā translations indicate limitations and rarity concerning the arising of the aspiration for anuttarā-samyak-saṃbodhi, while other Chinese translations of the Avataṃsaka Sūtra present wholesome roots and other foundations for practice as prerequisites.\nTaken together, these usages suggest that shannanzi in the Diamond Sutra is more naturally understood not as referring merely to an ordinary believer or a person with an initial aspiration, but as presupposing a practitioner possessing the requisite capacity and understanding to arouse the aspiration for anuttarā-samyak-saṃbodhi. This understanding contributes to a more accurate interpretation of Subhūti’s questions and the Buddha’s responses, while also suggesting that recitation of the scripture should be accompanied by an understanding of its meaning, reflection upon its teachings, and their application in Buddhist practice.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "227",
+      "end_page": "253",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404861",
+      "keywords_kr": [
+        "선남자(善男子)",
+        "선남자출가(善男子出家)",
+        "장부(丈夫)",
+        "발대심(發大心)",
+        "발아뇩다라삼먁삼보리심(發阿耨多羅三藐三菩提心)",
+        "Shannanzi (善男子)",
+        "Shannanzi Chujia (善男子出家)",
+        "Zhangfu (丈夫)",
+        "Fa daxin (發大心)",
+        "Aspiration for Anuttarā-Samyak-Saṃbodhi (發阿耨多羅三藐三菩提心)"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404862",
+      "id": "ART003404862",
+      "kci_id": "ART003404862",
+      "title_kr": "돈황변문과 향가 비교를 통해 본 신라의 강경활동 연구",
+      "title_en": "A Study of Silla's Buddhist Lecture Activities Through a Comparison of Dunhuang Bianwen and Hyangga",
+      "authors": [
+        {
+          "name": "한지연",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "돈황에서 출토된 변문과 신라의 향가는 유사한 시기에 불교를 소재로 한 새로운 문학작품이라는 공통점을 지니고 있다. 이에 문학적 측면에서 양 문학을 다루는 경향성이 컸다. 불교를 소재로 했음에도 문학적 접근만 이루어지고 있다는 점을 반성하고 불교 의례의 수행 맥락에 주목하는 비교사적 접근을 시도한다.\n돈황 변문은 불교 강경의식(講經儀式)에서 사용되는 불교경전의 일부를 극화(劇化)시켜 강경의식의 대중화를 촉진한 것으로 해석할 수 있다. 특히 변문 중 압좌문(押座文)에 해당하는 부분은 강경의식 도입부에 사용되었다는 점이 분명하고, 그 내용 역시 경전의 일부를 극적인 장면으로 연출하는 경향을 띠고 있다. 따라서 당나라 시대 돈황 지역에서 이루어진 새로운 강경의식의 한 분야라고 해석할 수 있다. 더욱이 돈황이라는 지역이 갖는 특수성, 즉 새로운 문화의 다변화를 이루어내는 지역적 특성이 발휘된다는 사실을 분석의 배경으로 고려하였다. 이러한 외적 요인과 강경의식의 대중화라는 내부적 요인이 결합하여 새롭게 창출된 텍스트로서의 변문이라는 점을 논의하였다.\n이에 비해 신라의 향가는 교단에서 이루어지던 강경의식에 일종의 압좌문과 같은 역할을 했던 것으로 파악된다. 또한 압좌문의 역할이 이루어지던 향가의 운율에 맞춰 당시 신라오기가 결합하여 새로운 의례의식이 탄생한 것으로 추정할 수 있음을 논의하였다. 지금까지 향가와 신라오기는 각기 다른 분야에서 연구가 이루어져 왔다. 하지만 신라오기의 발원이 서역(西域)이라는 점, 훗날 제례에서 이용되던 향악의 일부가 신라오기라는 점은 주목할 필요가 있다. 다시 말해서 불교와 함께 들어온 신라오기가 당악이 아닌 신라 전통의 예악으로 자리잡아 정식 제례의식에 사용되었다는 점은 신라오기가 단순히 놀이문화가 아니라 의례의 하나로 인식되었을 가능성을 시사한다. 따라서 본 논문에서는 압좌문의 역할을 하던 향가와 함께 신라 강경의식의 시작을 알리는 의식으로써 신라오기가 함께 수행되었을 가능성을 제기하였다.",
+      "abstract_en": "Dunhuang transformation texts (變文, bianwen) and Silla hyangga (鄕歌) share the common feature of being new literary works on Buddhist themes produced within a similar historical period. Because of this shared characteristic, prior scholarship has tended to treat both genres primarily through literary-historical comparison. This paper reflects on the limitation of that approach—namely, that despite their Buddhist subject matter, bianwen and hyangga have been examined almost exclusively as literature—and proposes a new approach that reads both as texts embedded in Buddhist lecture rituals (講經儀式, jianggyeong uisik).\nBianwen dramatized portions of Buddhist scripture used in lecture rituals, thereby popularizing those rituals among lay audiences. In particular, the apjwamun (押座文, “seat-settling text”) segments of bianwen occupied a clear introductory position within the ritual, and their content likewise dramatizes scriptural episodes for this purpose. This paper argues that bianwen should accordingly be understood as a distinct branch of lecture ritual that emerged in Tang-dynasty Dunhuang. This development reflects the convergence of an external factor—Dunhuang's regional character as a hub of cultural diversification—with an internal factor, namely the popularization of lecture rituals themselves; bianwen is thus identified as a text newly created through the combination of these two forces.\nSilla hyangga, by contrast, are shown to have served a function equivalent to that of the apjwamun within the lecture rituals conducted by Buddhist monastic orders. This paper further proposes that the Silla-o-gi (新羅五伎), five performance arts that filled this apjwamun-like role in step with the metrical structure of hyangga, combined with hyangga to give rise to a new ritual ceremony. Hyangga and Silla-o-gi have to date been studied in separate scholarly fields; however, two facts merit closer attention: that Silla-o-gi originated in the Western Regions (西域), and that a portion of the hyangak (鄕樂) ritual music later used in ancestral rites derived from Silla-o-gi. That is, Silla-o-gi, having entered Silla together with Buddhism, took root not as Tang music (唐樂) but as Silla's own traditional ritual music (禮樂) and came to be used in formal ancestral rites. This indicates that Silla-o-gi were likely recognized not simply as a form of play culture but as a component of ritual practice. Accordingly, this paper proposes that, alongside hyangga in its apjwamun-like role, Silla-o-gi also functioned as a ritual marking the beginning of Silla's Buddhist lecture rituals.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "257",
+      "end_page": "284",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404862",
+      "keywords_kr": [
+        "돈황변문",
+        "신라향가",
+        "압좌문",
+        "강경의식",
+        "신라오기",
+        "Dunhuang Bianwen (敦煌變文)",
+        "Silla Hyangga (新羅鄕歌)",
+        "Apjwamun (押座文)",
+        "Buddhist Lecture Ritua l(講經儀式)",
+        "Silla-O-Gi (新羅五伎)"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404863",
+      "id": "ART003404863",
+      "kci_id": "ART003404863",
+      "title_kr": "『동산어록』·『조산어록』에 나타난 조동 선상담의 목표와 방법론",
+      "title_en": "The Goal and Methodology of Caodong Seon Counseling in the Records of Dongshan and Caoshan",
+      "authors": [
+        {
+          "name": "윤희조",
+          "affiliation": "서울불교대학원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "선상담은 선불교심리학에 기반한 상담이다. 본고는 『동산어록』과 『조산어록』에서 조동 선상담의 목표와 방법론을 살펴본다. 목표는 무엇을 이루려 하는가가 아니라 무엇을 병(病)으로 짚는가로 읽는다. 동산이 지목하는 병은 정(正)과 편(偏) 가운데 어느 한쪽에 머무는 주착(住著)이며, 근원을 밖에서 구하는 형태, 피할 수 없는 조건을 피하려는 형태, 통찰을 일회적 사건으로 소유하는 형태로 나타난다. 목표인 정편회호(正偏回互)는 이 머무름이 해소된 자리이다. 근원인 정과 현상인 편은 애초부터 서로에게 삼투해 있으나 동일시되지 않으며, 오도송의 “그는 지금 바로 나이지만, 나는 지금 그가 아니다”가 이 비대칭을 보여준다. 근원은 얻어지지도 이름되지도 않지만 작용을 통해 어김없이 드러난다.\n방법론에서 동산은 삼종삼루(三種滲漏)로 학인을 진단한다. 견삼루는 관점의 고착, 정삼루는 향배(向背)의 편향, 어삼루는 정교함이 종지를 가리는 것이다. 개입으로는 근원을 소유·명명하려는 요청을 그 형식에서 좌절시키고, 옴과 감을 조건적 인연으로 되돌리며, 언어가 다한 자리에서 유보하고 철회한다. 조산에 이르러 완결된 듯한 응답도 다시 검증하는 각의(却疑)가 더해진다. 아울러 전도된 전제를 먼저 따라준 뒤 스스로 무너지게 하는 방편[隨其顛倒]이 유보와 짝을 이룬다. 기존의 선상담이 연결성과 즉시성에 중점을 두었다면, 조동 선상담은 관계성과 지속성을 더한다고 할 수 있다. 일본 조동종의 경청 실천과 임상종교사 제도는 이 원리가 재난과 애도의 현장에서도 작동할 수 있음을 보여준다.",
+      "abstract_en": "This study examines the goal and methodology of Caodong Seon counseling in the recorded sayings of Dongshan Liangjie and Caoshan Benji. The goal is read not as what is to be attained but as what is identified as sickness. For Dongshan, the sickness is abiding on one side of the upright (正) and the inclined (偏), which appears as seeking the source outside oneself, avoiding unavoidable conditions, and possessing insight as a single completed event. The goal, the mutual interpenetration of the upright and the inclined (正偏回互), is where this abiding dissolves. The source and phenomena interpenetrate from the outset yet are not identified, as Dongshan's enlightenment verse says: “He is now indeed me, but I am not now him.” The source can be neither obtained nor named, yet it appears unfailingly through its functioning.\nMethodologically, Dongshan diagnoses practitioners through the three kinds of leakage (三種滲漏): fixation in view, a bias of turning toward and away in affect, and refinement in language that obscures the essential point. The interventions frustrate requests to possess or name the source at the level of their form, return coming and going to conditioned causation, and withhold and withdraw where language is exhausted. Caoshan adds doubting back (却疑), which re-examines even responses that appear complete. Skillful means (方便), which follow the practitioner's inverted premise until it collapses of itself, complement this withholding. While existing Seon counseling emphasizes connectivity and immediacy, Caodong Seon counseling adds relationality and continuity. The listening practices and the clinical religious chaplaincy of Japanese Sōtō Zen show that these principles can operate in settings of disaster and grief.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "285",
+      "end_page": "317",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404863",
+      "keywords_kr": [
+        "동산",
+        "조산",
+        "선상담",
+        "정편회호",
+        "오위",
+        "삼종삼루",
+        "각의"
+      ],
+      "keywords_en": [
+        "Dongshan",
+        "Caoshan",
+        "Seon Counseling",
+        "Mutual Interpenetration of the Upright and the Inclined",
+        "Five Ranks",
+        "Three Kinds of Leakage",
+        "Doubting Back"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404864",
+      "id": "ART003404864",
+      "kci_id": "ART003404864",
+      "title_kr": "십이연기의 심리학적 재해석과 마음챙김(mindfulness) 기반 심리치료적 함의",
+      "title_en": "A Psychological Reinterpretation of the Twelve Links of Dependent Origination and Its Implications for Mindfulness-Based Psychotherapy",
+      "authors": [
+        {
+          "name": "김지명",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 논문은 십이연기를 심리학적으로 재해석하고 이에 대응하는 심리치료적 함의 고찰을 목적으로 한다. 니까야를 바탕으로 괴로움(dukkha)의 조건 및 양상을 분석하고, 십이연기를 인지 구조, 정서적 반응, 자기동일시의 측면으로 재해석하였다. 또한 마음챙김 기반 심리치료를 중심으로 각 심리과정에 대응하는 치료적 접근을 살펴보았다. 그 결과, ‘무명(無明)-행(行)’은 왜곡된 인지도식에 의해 형성된 심리적 경향성, ‘식(識)-수(受)-애(愛)’는 감각경험과 그에 따른 정서반응, ‘취(取)-유(有)-생(生)-노사(老死)’는 자기동일시를 통한 자기개념의 형성과 붕괴의 과정으로 해석하였다. 이에 대응하는 치료적 접근으로는 인지는 탈중심화(decentering), 정서는 수용(acceptance), 자기동일시는 맥락적 자기 및 탈융합(defusion)을 중심으로 고찰하였다. 이를 통해 십이연기의 각 단계를 현대 심리학의 개념과 마음챙김 기반 심리치료의 함의와 연결하는 이론적 토대를 마련하였다.",
+      "abstract_en": "This study aims to psychologically reinterpret the Twelve Links of Dependent Origination (Twelve Nidānas) and examine their corresponding psychotherapeutic implications. Based on the Nikāyas, this paper analyzes the conditions and aspects of suffering (dukkha), reinterpreting the Twelve Links as cognitive structures, emotional responses, and the process of self-identification, and examining corresponding therapeutic approaches within mindfulness-based psychotherapy. This study interprets ‘ignorance (avijjā) and volitional formations (saṅkhāra)’ as psychological tendencies formed by distorted cognitive schemas; ‘consciousness (viññāṇa), feeling (vedanā), and craving (taṇhā)’ as sensory experiences and their subsequent emotional reactions; and ‘clinging (upādāna), becoming (bhava), birth (jāti), and aging/death (jarā-maraṇa)’ as the process of formation and collapse of the self-concept through self-identification. Corresponding therapeutic approaches include decentering for cognition, acceptance for emotions, and, for self-identification, self-as-context and defusion. This discussion provides a theoretical basis that bridges the Twelve Links with contemporary psychological concepts and mindfulness-based psychotherapy.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "319",
+      "end_page": "344",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404864",
+      "keywords_kr": [
+        "Twelve Links of Dependent Origination(Dvādasa-paṭiccasamuppāda)",
+        "십이연기(十二緣起)",
+        "괴로움(dukkha)",
+        "마음챙김(mindfulness)",
+        "탈중심화",
+        "수용",
+        "탈융합"
+      ],
+      "keywords_en": [
+        "Dukkha(Suffering)",
+        "Mindfulness",
+        "Decentering",
+        "Acceptance",
+        "Defusion"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404865",
+      "id": "ART003404865",
+      "kci_id": "ART003404865",
+      "title_kr": "수륙재 『결수문』의 의례체계와 수인(手印)의 문헌적 고증·복원- 진언과 결인법의 상응 관계를 중심으로 -",
+      "title_en": "The Ritual System of the Suryukjae Gyeolsumun and the Textual Verification and Reconstruction of Its Mudrās: Focusing on the Correspondence between Mantras and Mudrā Formation Methods",
+      "authors": [
+        {
+          "name": "한정미",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 수륙재 의식문인 『수륙무차평등재의촬요(水陸無遮平等齋儀撮要)』, 즉 『결수문(結手文)』을 대상으로 의례체계와 진언·수인의 구성 및 문제점을 분석하고, 수인과 결인법이 수록되지 않은 진언 및 현행 의식의 설행과 관련하여 추가 편입을 제안한 진언을 대상으로 수인의 문헌적 근거와 적용 가능성을 고증·검토하는 데 목적이 있다.\n『결수문』에 수록된 진언을 의례적 기능과 설행 절차에 따라 구분하면 총 64종으로 산정된다. 이 가운데 61종에는 결인법과 수인도상이 수록되어 있으나, 쇄정호마다라니(灑淨護摩陀羅尼)·대비주(大悲呪)·개통도로진언(開通道路眞言) 3종에는 수인과 결인법이 수록되어 있지 않다. 또한 수인이 수록된 61종 가운데 원문에 수인명이 명기된 것은 5종에 불과하므로, 나머지는 관련 경궤·의궤와의 비교를 통해 수인명을 고증하였다. 직접적인 수인명 전거가 확인되지 않는 경우에는 동일·유사 결인법의 명칭과 의례적 기능 및 수인의 형태를 종합하여 연구상 명칭을 제시하고 그 근거를 함께 밝혔다.\n수인의 고증과 적용 가능성에 대한 검토는 이들 3종과 의식체계의 문제점 및 현행 설행을 고려하여 추가 편입을 제안한 8종을 포함한 총 11종을 대상으로 하였다. 관련 경궤·의궤와 도상자료를 비교·대조하여 진언과 결인법 또는 신밀 행법의 직접적인 결합 관계, 『결수문』내부의 동일 진언, 원 경법과의 계통성, 본존과 수행 목적 및 의례적 기능 등을 종합적으로 검토하였다. 그 결과 진언과 수인의 문헌적 결합 관계 및 적용 근거에 따라 직접 전거, 동일 진언의 기수록 수인 적용, 동일 진언의 원 경법에 의거한 수인 복원, 본존·경법에 의거한 수인 차용, 의례 기능에 의한 수인 차용, 의례 적용안의 여섯 유형으로 구분하였다.\n이를 통해 『결수문』의 수인은 진언의 염송과 결합하여 의례적 기능을 수행하는 신밀(身密)의 작법이며, 일부 수인에서는 관상과도 결합하여 삼밀상응의 의례적 구조를 이루고 있음을 보여준다. 따라서 수인의 문헌적 고증과 적용은 개별 결인법을 보완하는 데 그치지 않고, 진언·결인·관상의 상응 관계를 통해 나타나는 『결수문』의 삼밀가지(三密加持) 작법과 그 의례적 의미를 이해하는 데 의의가 있다.",
+      "abstract_en": "This study examines the Suryuk mucha pyeongdeung jaeui chwaryo (水陸無遮平等齋儀撮要), commonly known as the Gyeolsumun (結手文), a ritual text for the Suryukjae (水陸齋), with the aim of analyzing its ritual system and the configuration and problems of its mantras and mudrās. It further examines, on the basis of relevant textual sources, the textual grounds and applicability of mudrās for mantras for which no corresponding mudrā or formation method is recorded, as well as for additional mantras proposed for incorporation in relation to contemporary ritual practice.\nWhen classified according to ritual function and procedural sequence, the Gyeolsumun contains a total of 64 mantras. Of these, 61 are accompanied by mudrā formation methods and illustrations, whereas three—the Swaejeong Homa Dharani (灑淨護摩陀羅尼), the Daebiju (大悲呪), and the Gaetong Doro Jineon (開通道路眞言)—have no recorded mudrā or formation method. Moreover, among the 61 mantras accompanied by mudrās, only five explicitly identify the names of the mudrās. The names of the remaining mudrās were therefore textually verified through comparison with relevant scriptures and ritual manuals. Where no direct textual source for a mudrā name could be identified, a research designation was proposed on the basis of the names of identical or similar formation methods, ritual function, and the formal characteristics of the mudrā, with the grounds for each designation explicitly stated.\nThe examination of the textual grounds and applicability of mudrās focused on a total of 11 cases: the three cases noted above and eight additional mantras proposed for incorporation in consideration of problems in the ritual system and contemporary ritual practice. Relevant scriptures, ritual manuals, and iconographic materials were comparatively examined with reference to the direct association between mantras and mudrā formation methods or corresponding bodily practices, identical mantras within the Gyeolsumun, their relationship to the ritual systems of the source scriptures, the principal deity, the purpose of practice, and ritual function. The results were classified into six types according to the textual relationship between mantra and mudrā and the grounds for their application: direct textual evidence; application of an already recorded mudrā for an identical mantra; reconstruction based on the source ritual system of an identical mantra; adoption based on the principal deity and ritual system; adoption based on ritual function; and a practical ritual application where no direct mudrā source could be identified.\nThis study demonstrates that the mudrās of the Gyeolsumun function as bodily practices (身密) that perform ritual functions in conjunction with mantra recitation, and that some mudrās also operate in conjunction with visualization, thereby forming a ritual structure of the correspondence of the three mysteries. Accordingly, the textual verification and application of mudrās is significant not merely as a means of supplementing individual mudrā formation methods, but also for understanding the practice of the empowerment of the three mysteries (三密加持) and its ritual significance in the Gyeolsumun, as manifested through the correspondence of mantra, mudrā, and visualization.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "345",
+      "end_page": "390",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404865",
+      "keywords_kr": [
+        "수륙재",
+        "결수문",
+        "수륙무차평등재의촬요",
+        "수인",
+        "결인법",
+        "삼밀가지",
+        "Suryukjae (水陸齋)",
+        "Gyeolsumun (結手文)",
+        "Suryuk Mucha Pyeongdeung Jaeui Chwaryo (水陸無遮平等齋儀撮要)",
+        "Mudrā (手印)",
+        "Mudrā Formation Method (結印法)",
+        "Empowerment of the Three Mysteries (三密加持)"
+      ],
+      "keywords_en": [],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404866",
+      "id": "ART003404866",
+      "kci_id": "ART003404866",
+      "title_kr": "Human Nature and the Enigma of Evil inComparative Hermeneutics: The Awakening of Faith and Paul Ricoeur’s Symbolismof Evil",
+      "title_en": "Human Nature and the Enigma of Evil inComparative Hermeneutics:  The Awakening of Faith and Paul Ricoeur’s Symbolismof Evil",
+      "authors": [
+        {
+          "name": "김신권",
+          "affiliation": "아주대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "This article undertakes a systematic comparative hermeneutical analysis of human nature and the problem of evil as articulated in two seminal texts: the Mahāyāna Buddhist treatise The Awakening of Faith in the Mahāyāna (Dàshèng Qǐxìn Lùn, attributed to Aśvaghoṣa) and Paul Ricoeur's phenomenological masterwork The Symbolism of Evil (1967). Drawing on recent scholarship in Buddhist studies, comparative philosophy of religion, and Ricoeurian hermeneutics, the article demonstrates that, despite the profound metaphysical disparity between Mahāyāna Buddhism's non-theistic ontology of emptiness and Christianity's theistic creationism, both traditions converge on three functional claims: (1) evil possesses no independent ontological substance but operates as a phenomenological, directional distortion of consciousness and will; (2) the mechanism of human defilement is habituational—variously theorized as vāsanā (fumigation) and the arbitrium servum (servile will); and (3) soteriological liberation requires an inceptive, non-developmental breakthrough followed by a gradual, intentional reversal of the polarity of habituation. Crucially, this convergence is argued to be functional rather than structural: Tathāgatagarbha, embedded in the non-dual architecture of the One Mind (ilsim-imun), and Imago Dei, embedded in the relational distinction between Creator and creature, rest on incommensurable metaphysical grammars even as they perform an analogous anchoring role. The article further engages the challenge posed by the Critical Buddhism (Hihan Bukkyō) movement by separating its ontological charge (dhātu-vāda) from its sociopolitical charge, answering the former through a close philological reading of Wŏnhyo's Taesŭng Kisillon So and Pyŏlgi and the latter through Peter Gregory's parallel analysis of Tsung-mi together with Wŏnhyo's own praxis of Hwajaeng. Drawing on Chinul's doctrine of sudden awakening/gradual cultivation (tono chŏmsu), the article also reconciles Ricoeur's claim that liberation is \"not development… but inversion through excess\" with its own language of gradual habituational reversal, by locating the former at the moment of inception and the latter in the cultivation that follows. On this qualified basis, the article proposes that the foundational symbols of Tathāgatagarbha and Imago Dei function not as ideological guarantors of the status quo but as indispensable transcendent horizons for moral and soteriological critique, offering a productive and methodologically self-aware model for contemporary interreligious dialogue on systemic evil and human flourishing.",
+      "abstract_en": "This article undertakes a systematic comparative hermeneutical analysis of human nature and the problem of evil as articulated in two seminal texts: the Mahāyāna Buddhist treatise The Awakening of Faith in the Mahāyāna (Dàshèng Qǐxìn Lùn, attributed to Aśvaghoṣa) and Paul Ricoeur's phenomenological masterwork The Symbolism of Evil (1967). Drawing on recent scholarship in Buddhist studies, comparative philosophy of religion, and Ricoeurian hermeneutics, the article demonstrates that, despite the profound metaphysical disparity between Mahāyāna Buddhism's non-theistic ontology of emptiness and Christianity's theistic creationism, both traditions converge on three functional claims: (1) evil possesses no independent ontological substance but operates as a phenomenological, directional distortion of consciousness and will; (2) the mechanism of human defilement is habituational—variously theorized as vāsanā (fumigation) and the arbitrium servum (servile will); and (3) soteriological liberation requires an inceptive, non-developmental breakthrough followed by a gradual, intentional reversal of the polarity of habituation. Crucially, this convergence is argued to be functional rather than structural: Tathāgatagarbha, embedded in the non-dual architecture of the One Mind (ilsim-imun), and Imago Dei, embedded in the relational distinction between Creator and creature, rest on incommensurable metaphysical grammars even as they perform an analogous anchoring role. The article further engages the challenge posed by the Critical Buddhism (Hihan Bukkyō) movement by separating its ontological charge (dhātu-vāda) from its sociopolitical charge, answering the former through a close philological reading of Wŏnhyo's Taesŭng Kisillon So and Pyŏlgi and the latter through Peter Gregory's parallel analysis of Tsung-mi together with Wŏnhyo's own praxis of Hwajaeng. Drawing on Chinul's doctrine of sudden awakening/gradual cultivation (tono chŏmsu), the article also reconciles Ricoeur's claim that liberation is \"not development… but inversion through excess\" with its own language of gradual habituational reversal, by locating the former at the moment of inception and the latter in the cultivation that follows. On this qualified basis, the article proposes that the foundational symbols of Tathāgatagarbha and Imago Dei function not as ideological guarantors of the status quo but as indispensable transcendent horizons for moral and soteriological critique, offering a productive and methodologically self-aware model for contemporary interreligious dialogue on systemic evil and human flourishing.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "391",
+      "end_page": "422",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404866",
+      "keywords_kr": [
+        "Tathāgatagarbha",
+        "vāsanā"
+      ],
+      "keywords_en": [
+        "Awakening of Faith",
+        "Symbolism of Evil",
+        "Critical Buddhism",
+        "Essence-Function (Ch'e-yong)"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404867",
+      "id": "ART003404867",
+      "kci_id": "ART003404867",
+      "title_kr": "AI 시대, 기술문명과 휴먼 리터러시에 대한 비판적 모색- 동아시아 공(空) 사상과 기술철학의 융합 프레임워크 중심으로 -",
+      "title_en": "A Critical Exploration of Technological Civilization and Human Literacy in the AI Era: Focusing on the Fusion Framework of East Asian Śūnyatā (Emptiness) Philosophy and Philosophy of Technology",
+      "authors": [
+        {
+          "name": "김광석",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본 연구는 기존의 도구적·기능적 AI 리터러시 담론이 지닌 한계를 넘어, 불교적 비움의 ‘공(空)’과 공학적 최적화의 ‘공(工)’이 변증법적으로 융합된 ‘대안적 휴먼 리터러시(Alternative Human Literacy) 철학 프레임워크’를 새로운 기술철학 모델로 제안한다. 고도 지능정보사회에서 기존의 AI 리터러시는 기술 지식을 무조건적으로 축적하는 ‘가산적(Addition) 문해력’에만 치우쳐, 인간의 능동적 사유를 확률적 예측 모델의 대상으로 치환하고 실존적 소외와 존재 망각이라는 역기능을 심화시키는 한계를 지닌다. 이에 본 연구는 디지털 기술의 맹목적 수용을 해체하고 데이터 프레임을 주체적으로 비워내 현상의 본질(Core)을 관통하는 ‘감산적(Subtraction) 성찰’로의 패러다임 전환을 모색하였다.\n이러한 인식론적 전회를 철학적으로 규명하기 위해 마르틴 하이데거의‘게슈텔(Gestell, 틀지음)’ 담론을 대승불교 용수 중관학의 공(空)·연기(緣起) 사상과 교차시켰다. 인공지능 알고리즘이 과거 데이터라는 고정된 상(相)에 불과하며 고정불변한 자성이 없다(無自性)는 자각은 고착화된 선입견을 해체하는 ‘인식론적 리셋(Reset)’이며, 이를 통해 진공묘유(眞空妙有)의 여백을 확보하게 됨을 논증했다. 나아가 원효의 일심이문(一心二門) 구조를 지능정보사회의 기술적 실재에 변용하여 방대한 데이터 흐름(생멸문) 속에서 진여문적 청정 주체성을 확립하고, 하이데거의 ‘내맡김(Gelassenheit)’과 원효의 ‘귀일심원(歸一心源)’이 통하는 화쟁(和諍)적 지평을 제시하였다. 또한 매슬로의 자기초월 이론과 맹자의 항산항심(恒産恒心)론을 융합하여 물질적 최적화(恒産)가 노동의 본질적 희열과 정신적 안녕(恒心)으로 선순환하는 경로를 확증했다.\n이 이론적 토대를 바탕으로 정립한 ‘공(空/工)철학 프레임워크’는 ‘비움(空) ➔ 재구성 ➔ 퀀텀 리프(工)’의 3단계 메커니즘으로 작동한다. 알고리즘적 틀을 거부하는 ‘비움’, 주체성과 내재적 동기를 회복하는 ‘재구성’, 비워진 독창성을 통해 최적의 공학적 솔루션을 도출하는 ‘퀀텀 리프’ 과정을 거치며, AI를 인간이 주체적으로 부리는 ‘응용 지능(Application Intelligence)’의 방편(Upaya)으로 전환시킨다. 이 프레임워크의 유용성은 스티브 잡스 등 글로벌 혁신가들의 명상 사례와 국내 산업 현장의 전문가 공동체인 ‘C3 기술독립군’의 사례연구를 통해 실증되었다. 기술독립군의 ‘돈깨자’ 기제는 하위 결핍 욕구를 자기초월로 전이시키며, 실행 프레임워크인 ‘5W3H’는 복잡한 기술 생태계를 제어하는 고차원적 복잡성 관리 모델로서 실천적 보편성을 증명했다. 결론적으로 본 연구의 K-공(空/工)철학은 인공지능 쇼크에 직면한 인류가 주체성을 확장하고 지속 가능한 인간 중심의 기술철학 패러다임을 확립하는 데 기여할 것이다.",
+      "abstract_en": "This study proposes an “Alternative Human Literacy Philosophical Framework” as a new paradigm for the philosophy of technology, in which the Buddhist notion of emptying, Gong (空, Śūnyatā), and the engineering concept of optimization, Gong (工), are dialectically integrated to move beyond the limitations of current instrumental and functional AI literacy discourses. In today’s highly advanced information society, conventional AI literacy focuses heavily on “additive literacy,” which merely piles up technical knowledge. This approach reduces active human reasoning to an object of probabilistic prediction models, thereby worsening existential alienation and the “forgetting of Being.” To dismantle the blind acceptance of digital technology, this study seeks a paradigm shift toward “subtractive reflection,” which actively empties out data frames to perceive the true core of phenomena.\nTo provide a philosophical foundation for this epistemological transition, Martin Heidegger’s discourse on Gestell (enframing) is cross-examined with the concepts of Śūnyatā (emptiness) and Pratītyasamutpāda (dependent origination) from Nāgārjuna’s Madhyamaka philosophy. The realization that AI algorithms are merely fixed images from past data, lacking an inherent nature (Asvabhāva), serves as an \"epistemological reset\" that dissolves rigid preconceptions. This process secures an open space for Jingong-Myoyu (眞空妙有, True Emptiness, Wonderful Existence), demonstrating how a pure meditative state can spark dynamic action. Furthermore, Wonhyo’s structure of “One Mind and Two Gates” (Ilsim-Imun) is applied to the technological reality of the information age. This allows individuals to establish a pure, inherent subjectivity (Jinyeomun) amid the endless stream of data (Saengmyeolmun), opening up a harmonious (Hwajeong) horizon where Heidegger’s Gelassenheit (releasement) meets Wonhyo’s Gwiil-simwon (returning to the source of One Mind). Additionally, by synthesizing Abraham Maslow’s theory of self-transcendence with Mencius’s theory of Hangsan-Hangsim (constant livelihood and constant mind), this study substantiates a virtuous cycle where material optimization (Hangsan) transitions into a state of mental well-being (Hangsim) and the intrinsic joy of labor.\nOperating on this theoretical foundation, the proposed “Philosophy of Gong (空/工) Framework” functions through a three-stage dialectical mechanism: Emptying (Gong, 空) ➔ Reconstruction ➔ Quantum Leap (Gong, 工). Through “Emptying,” which rejects algorithmic enframing; “Reconstruction,” which restores autonomy and intrinsic motivation; and a “Quantum Leap,” which derives optimal engineering solutions from vacant originality, Artificial Intelligence is transformed from an existential threat into a practical tool of “Application Intelligence” (Upāya). The practical utility of this framework is validated through case studies of global tech innovators like Steve Jobs, as well as “C3 Tech-Independence Army,” an expert community in the domestic industrial sector. Within this community, the “Donkkaeja” mechanism successfully shifts lower-level deficiency needs into self-transcendence, while the “5W3H” operational framework proves its practical universality as a high-level complexity management model. In conclusion, the K-Philosophy of Gong (空/工) established in this study will offer a critical pathway for humanity to expand its subjectivity in the face of the AI shock, ultimately contributing to a sustainable, human-centered paradigm for the philosophy of technology.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "423",
+      "end_page": "449",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404867",
+      "keywords_kr": [
+        "Philosophy of Emptiness (Śūnyatā)",
+        "K-Philosophy of Gong (空/工)",
+        "인공지능(AI) 시대",
+        "휴먼 리터러시",
+        "감산적 사유",
+        "공(空) 사상",
+        "공(空/工)철학"
+      ],
+      "keywords_en": [
+        "Age of Artificial Intelligence",
+        "Human Literacy",
+        "Subtractive Reflection"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404868",
+      "id": "ART003404868",
+      "kci_id": "ART003404868",
+      "title_kr": "양주 회암사 소조상의 소성과 제작기법- 회암사지 출토 편의 과학 분석 결과를 중심으로 -",
+      "title_en": "Firing and Production Techniques of the Clay Sculptures of Hoeamsa Temple in Yangju: Focusing on the Scientific Analysis of Clay Sculpture Fragments Excavated from the Hoeamsa Temple Site",
+      "authors": [
+        {
+          "name": "심영신",
+          "affiliation": "숭실대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "본고는 양주 회암사지 출토 나한상과 사천왕상 관련 소조편의 과학분석 결과를 미술사적 관점에서 해석하여 소성의 범위와 제작기법을 검토한 것이다. 선행연구에서 회암사 나한상은 소성한 테라코타로, 사천왕상은 소조 본체에 낮은 온도에서 소성한 장식편을 갖춘 상으로 이해되어 왔다. 이번 분석은 두 상군에서 소성이 상의 어느 부위와 제작단계에 적용되었는지를 구체적으로 검토할 수 있는 단서를 제공한다.\n이러한 분석 결과를 토대로 소조편에 나타나는 열 이력의 차이가 제작 당시의 소성과 이후 화재에 의한 재가열이라는 서로 다른 단계의 열에서 비롯된 것으로 판단하였다. 아울러 현재의 색과 광택 가운데 제작 당시의 시유와 고온 피열에 의한 변성을 구분해야 한다는 점을 밝혔다. 또한 나한상의 여러 부위와 사천왕상의 눈 및 일부 장식편에서 연유가 확인되었으며, 재료의 물성과 표면 상태를 통해 성형–부분 시유–소성–채색–금 장식으로 이어지는 제작공정의 한 유형을 추정할 수 있었다. 다만 개별 부재의 소성이 곧 완성된 상 전체의 소성을 의미하지는 않으며, 상의 크기와 구조, 부위에 따라 소성과 자연건조, 접합이 서로 다른 방식으로 운용되었을 것으로 보인다. 특히 약 5m로 추정되는 사천왕상은 본체를 자연건조하고 일부 부재만 별도로 소성하여 결합하거나 본체를 분할하여 소성한 뒤 재조립했을 가능성이 있다.\n한편 회암사 주변의 요업 기반과 기와·소조편의 재료적 유사성은 대규모 중창 당시의 생산환경이 소조 제작을 뒷받침했을 가능성을 보여준다. 인근 가마의 규모가 부재 단위의 소성에는 적합하였으나 대형 본체의 일괄 소성에는 제약이 컸다는 점에서 이러한 생산 조건은 소성 방식의 선택에도 영향을 미쳤을 것으로 보인다.\n이상의 검토를 통해 본고는 회암사 소조상의 소성 문제를 ‘구운 상’과 ‘굽지 않은 상’의 구분이 아니라 성형·분할·소성·접합과 자연건조가 어떻게 조합되었는가의 문제로 재설정하고, 기존의 ‘테라코타’ 규정을 실제 제작공정의 차원에서 구체화하였다. 또한 화재를 겪은 파편에서 제작 당시의 흔적과 후대 피열에 의한 변성을 구분하여 읽는 방법을 제시하였으며, 조선후기에 집중되어 온 소조기법 연구의 범위를 여말선초로 확장하였다는 점에서 의의가 있다.",
+      "abstract_en": "This study examines the extent of firing and the production techniques of the clay sculptures of Hoeamsa Temple in Yangju by interpreting, from an art-historical perspective, the results of scientific analyses of fragments from the Hoeamsa Temple site associated with arhat and Four Heavenly Kings sculptures. Previous studies identified the Hoeamsa arhat sculptures as terracotta and understood the Four Heavenly Kings as having clay bodies adorned with decorative elements fired at relatively low temperatures. The present analysis provides evidence for examining more specifically which parts of these two groups of sculptures were fired and at what stages of production.\nBased on a review of the analytical results, this study interprets the differences in thermal history among the fragments as resulting from two distinct stages of heating: intentional firing during production and reheating caused by a later fire. In addition, it demonstrates the need to distinguish original glazed surfaces from colors and glossy surfaces altered by subsequent exposure to high temperatures. Lead glaze was identified on various parts of the arhat sculptures as well as on the eyes and some decorative elements of the Four Heavenly Kings. The material properties and surface conditions of the fragments suggest one possible production sequence of forming–partial glazing–firing-painting–gilding. However, the firing of individual components does not necessarily mean that the completed sculptures were fired in their entirety; firing, air-drying, and joining may have been employed differently depending on the size and structure of each sculpture and on the part of the figure concerned. In particular, the Four Heavenly Kings, estimated to have stood approximately 5 meters tall, may have been made by air-drying the main bodies and attaching separately fired components, or by dividing the bodies into sections, firing them, and then reassembling them.\nThe ceramic-production infrastructure around Hoeamsa and the material similarities between roof tiles and clay sculpture fragments suggest that the production environment at the time of the temple’s large-scale rebuilding may have supported clay sculpture production. The dimensions of nearby kilns suggest that they were suitable for firing individual components but posed considerable constraints on firing entire large-scale sculptures, indicating that these production conditions may have influenced the choice of firing methods.\nThrough this examination, this study reframes the question of firing in the Hoeamsa clay sculptures not as a distinction between “fired” and “unfired” sculptures but as a question of how forming, sectioning, firing, joining, and air-drying were combined, thereby refining the previous characterization of the sculptures as “terracotta” in terms of actual production processes. The study is also significant in that it proposes a method for distinguishing traces of original production from later alterations caused by fire in heat-damaged fragments, and extends the scope of research on clay sculpture techniques, which has largely focused on the late Joseon period, to the late Goryeo and early Joseon periods.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "451",
+      "end_page": "479",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404868",
+      "keywords_kr": [
+        "회암사",
+        "소조상",
+        "소성",
+        "나한상",
+        "사천왕상"
+      ],
+      "keywords_en": [
+        "Hoeamsa Temple",
+        "Clay Sculpture",
+        "Firing",
+        "Arhat",
+        "Four Heavenly Kings"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404919",
+      "id": "ART003404919",
+      "kci_id": "ART003404919",
+      "title_kr": "청송 대전사 보광전 벽화 연구",
+      "title_en": "A Study on the Murals of Bogwangjeon Hall at Daejeonsa Temple in Cheongsong",
+      "authors": [
+        {
+          "name": "박세진",
+          "affiliation": "동국대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "고는 청송 대전사 보광전 내부벽화의 제작시기와 도상 구성, 그리고 도상의 지역적 확산 양상을 살펴본 연구이다. 대전사 보광전은 1672년 중건된 건물로, 내부에는 <기사문수동자도>와 <기상보현동자도>를 비롯한 다양한 벽화가 남아 있다. 대전사 보광전 벽화의 제작시기는 1672년 중건 직후 조성되었을 가능성을 비롯하여 18세기 중반 보수 및 1806년 대불사와 관련한 조성 가능성 등 여러 견해가 제기되어 왔다. 이에 본고에서는 발간된 자료와 조사를 바탕으로 벽화의 보채와 훼손 상태, 도상 및 표현기법, 내부 단청과의 관계, 동시기 불화와의 비교 등을 검토하였다. 그 결과 대전사 보광전 벽화는 1672년 중건 이후인 17세기 후반에 단청 및 벽화가 조성되었을 것으로 추정하였다.\n또한 보광전 벽화에 표현된 <기사문수동자도>와 <기상보현동자도>는 당시 석가모니 중심의 불전에서 예배 공간을 구성하는 중요한 도상으로 역할을 하였던 것으로 보인다. 특히 이 도상은 17세기 후반부터 경상북도 지역의 사찰을 중심으로 확인되며, 18세기 이후 점차 화폭에 그려지는 불화로 확산된다. 따라서 대전사 보광전 벽화는 17세기 후반 경상북도 지역에서 이루어진 불화 도상의 선택 과정을 보여주는 하나의 사례로서 의미가 있다.",
+      "abstract_en": "This study examines the date of production, iconographic composition, and regional diffusion of the interior murals of Bogwangjeon Hall at Daejeonsa Temple in Cheongsong. Bogwangjeon Hall was reconstructed in 1672 and contains various interior murals, including Gisa Munsubodongjado and Gisang Bohyeondongjado. Previous studies have generally dated the murals to shortly after the reconstruction in 1672. Through a review of published materials and field investigations, however, this study further clarifies their date by examining the traces of repainting and deterioration, iconographic and stylistic characteristics, their relationship with the interior dancheong, and comparisons with Buddhist paintings of the same period. The findings suggest that the murals were most likely produced in the late seventeenth century and may have been created as part of the bulsa, or Buddhist construction project, involving the application of dancheong and murals following the 1672 reconstruction.\nThe Gisa Munsubodongjado and Gisang Bohyeondongjado depicted in the murals appear to have functioned as important elements in the composition of the worship space within a Sakyamuni-centered Buddhist hall. These iconographies are found primarily in temples in the Gyeongsangbuk-do region from the late seventeenth century and gradually spread to other Buddhist paintings from the eighteenth century onward. In this regard, the murals of Bogwangjeon Hall at Daejeonsa Temple provide an important case for understanding the selection and regional diffusion of Buddhist iconography in Gyeongsangbuk-do during the late seventeenth century.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "481",
+      "end_page": "516",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404919",
+      "keywords_kr": [
+        "청송 대전사",
+        "보광전",
+        "내부벽화",
+        "기사문수동자도",
+        "기상보현동자도"
+      ],
+      "keywords_en": [
+        "Cheongsong Daejeonsa Temple",
+        "Bogwangjeon Hall",
+        "Interior Murals",
+        "Gisa Munsubodongjado",
+        "Gisang Bohyeondongjado"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
+    },
+    {
+      "article_id": "ART003404918",
+      "id": "ART003404918",
+      "kci_id": "ART003404918",
+      "title_kr": "청허휴정(淸虛休靜)의 회통적 리더십과 시민윤리",
+      "title_en": "Cheongheo Hujeong(淸虛休靜)'s Integrative Leadership and Civic Ethics",
+      "authors": [
+        {
+          "name": "박병기",
+          "affiliation": "한국교원대학교",
+          "order": "1"
+        }
+      ],
+      "abstract_kr": "우리 사회는 시민사회이고, 그 시민사회는 시민이 자신의 삶과 사회의 주인임을 전제로 성립하는 사회이다. 시민사회의 리더십은 수평적 관계망을 전제로 스스로 리더가 될 수 있는 역량을 갖춤과 동시에, 정당한 과정을 거쳐 등장한 리더에게 자발적으로 복종할 수 있는 역량을 포함한다. 그 시민성의 이중적 측면을 고려하여 ‘이중적 시민성’이라는 개념으로 규정할 수 있다.\n그런데 실제 리더십 논의에서 이러한 이중성을 적절하게 고려하는 일이 쉽지 않다. 그 결과 시민의 리더십 자체에 관심을 갖지 않거나 수직적 관계망을 고려하지 않는 전통적 리더십 논의를 비판없이 적용하고자 하는 오류를 범하는 경우가 많다. 이 작은 논의는 그런 문제에 주목하면서, 조선 중기 승려이자 의승군을 이끈 전통적인 리더인 청허휴정의 리더십을 시민윤리적 맥락에서 재구성하는 시도를 하고 있다.\n휴정은 우선 선(禪)을 중심으로 불교사상 내부의 회통(會通)을 시도했고, 마음공부를 중심으로 유교와 도교까지 회통하고자 했다. 왕의 참전 요청을 받은 후에는 자신이 승려이자 신하라는 인식을 토대로 응해서 의승군을 이끌었다. 그 과정에서 갈등과 번민을 감내해야 했지만 그는 포기하지 않았고, 그의 리더십은 불교계 내부의 신망과 당시 사회 전반의 지지를 바탕으로 나라의 위기를 구하는 촉매제가 되었다.\n21세기 들어 우리 시민사회는 민주화 과정에서 공화의 영역을 제대로 구축하지 못한 과보로 극심한 갈등과 공존의 위기와 직면하고 있다. 이 난관을 헤쳐갈 수 있는 주체는 시민 자신일 수밖에 없고, 그 구체적인 대안으로 시민의 리더십이 제대로 발휘되는 것을 포함해야만 한다, 그 과정에서 휴정의 회통적 리더십은 시민 자신이 리더가 되어야 할 뿐만 아니라 정당한 리더십에는 자발적으로 복종할 수 있는 이중적 시민성에 대한 요구에서 하나의 모형으로 재해석될 수 있다. 수평적 관계망을 전제로 하면서 휴정이 보여주었던 회통성을 적극적으로 수용할 경우 우리 시대에 맞는 시민의 리더십 논의로 확장할 수 있는 가능성이 충분하기 때문이다.",
+      "abstract_en": "Our society is civil society, and that civil society is one that is established on the premise that citizens are the masters of their own lives and society. Leadership in civil society includes the capacity to become a leader independently based on a network of horizontal relationships, as well as the capacity to voluntarily submit to leaders who emerge through legitimate processes. Considering this duality, it can be defined as the concept of 'dual citizenship.' However, it is not easy to properly account for this dual nature in actual discussions of leadership. As a result, there are many cases where the error of either failing to pay attention to citizen leadership itself or attempting to apply traditional leadership discussions that do not consider vertical networks without criticism. This small study focuses on such issues and attempts to reconstruct the leadership of Cheongheo Huijeong, a mid-Joseon monk and traditional leader of the righteous monk army, within the context of civic ethics.\nFirst, Hyujeong attempted internal integration within Buddhist thought centered on Zen, and later sought to harmonize Confucianism and Taoism through the study of the mind. After receiving the king's request to join the campaign, he accepted and led the monk-led troops, recognizing himself as both a monk and a subject. Though he had to endure conflict and anguish in the process, he did not give up, and his leadership became a catalyst for saving the nation, supported by the trust of the Buddhist community and the broader society of the time.\nIn the 21st century, our civil society is facing a crisis of intense conflict and coexistence as a consequence of failing to properly establish the realm of the republic during the democratization process. The ones who can overcome this challenge are inevitably the citizens themselves, and this must include the proper exercise of citizen leadership; in this process, the convalescent leadership can be reinterpreted as a model that requires not only citizens to become leaders but also a dual citizenship that allows them to voluntarily submit to legitimate leadership. This is because, while assuming a horizontal network, actively embracing the flexibility that Hyujeong demonstrated has ample potential to expand into a discussion of citizen leadership suited to our era.",
+      "journal_name": "동아시아불교문화",
+      "year": "2026",
+      "volume": "",
+      "issue": "77",
+      "start_page": "517",
+      "end_page": "544",
+      "doi": "",
+      "riss_url": "",
+      "kci_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003404918",
+      "keywords_kr": [
+        "청허휴정",
+        "회통적 리더십",
+        "이중적 시민성",
+        "수평적 관계망",
+        "호모 인드라네티우스",
+        "Cheongheo Hujeong(淸虛休靜)"
+      ],
+      "keywords_en": [
+        "Convergent Leadership",
+        "Dual Citizenship",
+        "Horizontal Network",
+        "Homo Indranatius"
+      ],
+      "ai_keywords": [],
+      "source": "KCI",
+      "publisher": "동아시아불교문화학회",
+      "kci_year": "2026",
+      "kci_volume": "",
+      "kci_issue": "77",
+      "sources": [
+        "KCI"
+      ],
+      "riss_id": ""
     }
   ]
 }
