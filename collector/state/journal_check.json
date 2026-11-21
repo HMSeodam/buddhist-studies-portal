@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "journals": {
     "IJBTC": {
       "riss": 420,
@@ -59,7 +59,7 @@
       "comparable": 1011,
       "comparable_matched": 1011,
       "match_rate": 1.0,
-      "new": 17
+      "new": 0
     },
     "동악미술사학": {
       "riss": 373,
