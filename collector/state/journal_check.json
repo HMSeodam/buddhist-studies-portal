@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "journals": {
     "IJBTC": {
       "riss": 420,
@@ -47,17 +47,17 @@
       "new": 0
     },
     "동아시아불교문화": {
-      "riss": 1073,
+      "riss": 1090,
       "riss_dups": 40,
       "kci": 1028,
       "kci_links": 0,
-      "paired": 1011,
-      "kci_only": 17,
+      "paired": 1028,
+      "kci_only": 0,
       "scheme": "same",
       "held": 0,
       "bad_publishers": [],
-      "comparable": 1011,
-      "comparable_matched": 1011,
+      "comparable": 1028,
+      "comparable_matched": 1028,
       "match_rate": 1.0,
       "new": 0
     },
